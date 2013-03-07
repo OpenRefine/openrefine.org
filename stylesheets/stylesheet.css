@@ -292,6 +292,13 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
 }
 
+#twitter_sidebar {
+  float:right;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+
 #header_wrap {
   background: #212121;
   background: -moz-linear-gradient(top, #373737, #212121);
@@ -367,6 +374,7 @@ Full-Width Styles
 }
 
 #main_content {
+  float: left;
   padding-top: 40px;
 }
 
