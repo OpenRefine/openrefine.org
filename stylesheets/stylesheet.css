@@ -35,6 +35,8 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+footer {clear: both;}
+
 ol, ul {
   list-style: none;
 }
@@ -374,7 +376,7 @@ Full-Width Styles
 }
 
 #main_content {
-  float: left;
+  float: center;
   padding-top: 40px;
 }
 
