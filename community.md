@@ -3,17 +3,17 @@ layout: default
 title: OpenRefine Documentation
 ---
 #Participate
-First thanks for your interest in the OpenRefine community. OpenRefine is 100% supported by volunteer and we are always looking for new participant to jump in! 
+Thanks for your interest in OpenRefine.  We are 100% supported by volunteers and are always looking for new contributors! 
 
-Interested to participate in the development of OpenRefine? You can help to 
+We have opportunties for you to help:
 * Develop the next version
-* Develop the Documentation and Support other Users
+* Improve the documentation and support other users
 * Promote OpenRefine around you!
 
-The [discussion list](https://groups.google.com/forum/?fromgroups#!forum/openrefine) is the best place to engage with the rest of the community and ask questions!
+The [discussion list](https://groups.google.com/forum/?fromgroups#!forum/openrefine) is the best place to engage with the rest of the community and ask questions.
 
 ##Develop the Next Version
-You have some developers skills and want to help fix current bug and develop the next release of OpenRefine? Log in on GitHub and fork [OpenRefine repository](https://github.com/OpenRefine/OpenRefine). We accept pull request on a regular basis.
+Fork our [Github repository](https://github.com/OpenRefine/OpenRefine) and send us a pull request with the fix for that bug you found or a cool new feature.
 
 You'll find more information regarding OpenRefine architecture in the [Documentation for Developers](https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers) wiki section. 
 
@@ -23,7 +23,7 @@ You can help us to fix open issue or propose new enhancement using the [Issue Li
 Not a coder but still want to help? No worries you can help OpenRefine to grow in many ways.
 
 ###Help us to maintain the wiki
-Help us to maintain [OpenRefine documentation](https://github.com/OpenRefine/OpenRefine/wiki) up to date. See the list of [what need to be done](https://github.com/OpenRefine/OpenRefine/issues?labels=Documentation&page=1&state=open), or come up with your own improvement. 
+Help us to maintain [OpenRefine documentation](https://github.com/OpenRefine/OpenRefine/wiki) up-to-date. See the list of [what need to be done](https://github.com/OpenRefine/OpenRefine/issues?labels=Documentation&page=1&state=open), or come up with your own improvement. 
 
 The wiki is written in an easy wiki markup languge nammed [Creole](http://www.wikicreole.org/) in order to let anyone participate. See the [Creole Cheat Sheet](http://www.wikicreole.org/wiki/CheatSheet).
 
@@ -34,7 +34,7 @@ Anyone is invited to ask questions regarding OpenRefine usage on the [mailing li
 
 ###Share your tutorials
 
-Are you writting tutorial on your own platform (blog, website, wiki ...)? Let us know by email (info@openrefine.org), twitter ([@OpenRefine](http://twitter.com/OpenRefine)) or directly by editing the [External Resources wiki page](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources).
+Have you published an OpenRefine tutorial on yoru own blog or site? Let us know by email (info@openrefine.org), twitter ([@OpenRefine](http://twitter.com/OpenRefine)) or directly by editing the [External Resources wiki page](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources).
 
 We will also add it to the [OpenRefine Custom Search Engine](/OpenRefine/documentation)
 
@@ -68,7 +68,7 @@ They helped to develop Gridworks and Google Refine (in chronological order):
 - Heather Campbell <campbellh@google.com>
 - Thad Guidry <thadguidry@gmail.com>
 - Paul Makepeace <paulm@paulm.com>
-- Tomaû äolc <tomaz.solc@zemanta.com>
+- Toma≈æ ≈†olc <tomaz.solc@zemanta.com>
 - Gabriel Sjoberg <GabrielSjoberg@gmail.com>
 - Rod Salazar <rodrod.salazar@gmail.com>
 - pxb <pxb1988@gmail.com>

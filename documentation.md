@@ -5,7 +5,8 @@ title: OpenRefine Documentation
 
 # OpenRefine Custom Search Engine
 
-Currently OpenRefine documentation is scatter across multiple platforms (current wiki, help embedded in the interface, discussion list and a myriad of tutorials and blog articles) making hard to find the right information when one need it. This custom Google Search Engine is here to help you to find the piece of information you're looking for among a curated list of resources. 
+This custom Google Search Engine will help you to find information about OpenRefine across multiple sites using a curated list of resources that we put together. 
+
 
 # Documentation
 You can find out more on OpenRefine by reading the:
