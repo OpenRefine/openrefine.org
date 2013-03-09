@@ -39,9 +39,9 @@ Have you published an OpenRefine tutorial on yoru own blog or site? Let us know 
 We will also add it to the [OpenRefine Custom Search Engine](/OpenRefine/documentation)
 
 ##Promote OpenRefine in Public Events
-Organizing a workshop or presentation OpenRefine in your city? Add your event details in our [wiki event page](https://github.com/OpenRefine/OpenRefine/wiki/Events) or give us a shout on [twitter](http://twitter.com/OpenRefine) so we can spread the word!
+Organizing a workshop or presentation OpenRefine in your city? Add your event details in our [wiki event page](https://github.com/OpenRefine/OpenRefine/wiki/Events) or give us a shout on Twitter [@OpenRefine](http://twitter.com/OpenRefine) so we can spread the word!
 
-The [event page](https://github.com/OpenRefine/OpenRefine/wiki/Events) also list previous presentations as catch up and source of inspiration for your presentation!
+The [event page](https://github.com/OpenRefine/OpenRefine/wiki/Events) also list previous presentations for you to review and use as a source of inspiration for your presentation!
 
 #Current & Previous Contributors
 ##Current
