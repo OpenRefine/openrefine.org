@@ -24,15 +24,22 @@ The most recent stable version of OpenRefine is Google Refine 2.5.
 + **For [Windows](http://google-refine.googlecode.com/files/google-refine-2.5-r2407.zip)**, 
 Download, unzip, and double-click on _google-refine.exe_. If you're 
 having issues with the above, try double-clicking on _refine.bat_ instead.
-+ **For [Mac](http://google-refine.googlecode.com/files/google-refine-2.5-r2407.dmg)**, Download, open, drag icon into the Applications folder and double click on it. **NOTE:** If you have issue installing Refine on Mac, please refer to [issue 590](https://github.com/OpenRefine/OpenRefine/issues/590)
-+ **For [Linux](http://google-refine.googlecode.com/files/google-refine-2.5-r2407.tar.gz)**, Download, extract, then type _./refine_ to start.
++ **For [Mac](http://google-refine.googlecode.com/files/google-refine-2.5-r2407.dmg)**, 
+Download, open, drag icon into the Applications folder and double click on it. 
+**NOTE:** If you have issue installing Refine on Mac, please refer to 
+[issue 590](https://github.com/OpenRefine/OpenRefine/issues/590)
++ **For [Linux](http://google-refine.googlecode.com/files/google-refine-2.5-r2407.tar.gz)**, 
+Download, extract, then type _./refine_ to start.
 
-The list of all previous releases is [here](http://code.google.com/p/google-refine/downloads/list?can=1&q=&colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount).
+The list of all previous releases is 
+[here](http://code.google.com/p/google-refine/downloads/list?can=1&q=&colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount).
 
 # Introductory to OpenRefine
 ## 1. Explore Data
 
-OpenRefine can help you explore large data sets with ease. You can find out more about this functionality by watching the video below and going through [these articles](http://googlerefine.blogspot.ca/search/label/data%20exploration)
+OpenRefine can help you explore large data sets with ease. You can find out 
+more about this functionality by watching the video below and going through 
+[these articles](http://googlerefine.blogspot.ca/search/label/data%20exploration)
 
 <iframe width="500" height="400" src="http://www.youtube.com/embed/B70J_H_zAWM" frameborder="0"> </iframe>
 
