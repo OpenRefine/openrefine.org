@@ -9,20 +9,23 @@
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
     <title>OpenRefine</title>
-	<script>
+
+<script type="text/javascript">
   (function() {
-    var cx = '015379524541736921826:xdityt6werw';
+    var cx = '015379524541736921826:xdityt6werw'; // OpenRefine ID for Google Custom Search
     var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
     gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
         '//www.google.com/cse/cse.js?cx=' + cx;
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
   })();
-</script>
-<script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-18609474-2']);
+  _gaq.push(['_setAccount', 'UA-35838111-1']); // openrefine.org tracker for new OpenRefine account
+  _gaq.push(['_setDomainName', 'openrefine.org']);
   _gaq.push(['_trackPageview']);
+  _gaq.push(['b._setAccount', 'UA-18609474-2']); // openrefine.org tracker for old Google Refine account
+  _gaq.push(['b._setDomainName', 'openrefine.org']);
+  _gaq.push(['b._trackPageview']);
 
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
@@ -68,18 +71,6 @@
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p></br>
       </footer>
     </div>
-
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-35838111-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
 
   </body>
 </html>
