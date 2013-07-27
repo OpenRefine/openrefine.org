@@ -31,8 +31,8 @@ Download, open, drag icon into the Applications folder and double click on it.
 + **For [Linux](http://google-refine.googlecode.com/files/google-refine-2.5-r2407.tar.gz)**, 
 Download, extract, then type _./refine_ to start.
 
-The list of all previous releases is 
-[here](http://code.google.com/p/google-refine/downloads/list?can=1&q=&colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount).
+The list of all releases is 
+[here](https://github.com/OpenRefine/OpenRefine/releases).
 
 # Introductory to OpenRefine
 ## 1. Explore Data
