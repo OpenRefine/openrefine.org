@@ -18,23 +18,23 @@ this project which have been rebranded to OpenRefine. Project development,
 and how you can [help the community](/OpenRefine/community).
 
 # Download OpenRefine
-The most recent stable version of OpenRefine is Google Refine 2.5.
+The most recent stable version of Refine is Google Refine 2.5.
  The next release, OpenRefine 2.6, will carry the new branding. 
 
-+ **For [Windows](http://google-refine.googlecode.com/files/google-refine-2.5-r2407.zip)**, 
++ **[Windows kit](http://google-refine.googlecode.com/files/google-refine-2.5-r2407.zip)**, 
 Download, unzip, and double-click on _google-refine.exe_. If you're 
 having issues with the above, try double-clicking on _refine.bat_ instead.
-+ **For [Mac](http://google-refine.googlecode.com/files/google-refine-2.5-r2407.dmg)**, 
++ **[Mac kit](http://google-refine.googlecode.com/files/google-refine-2.5-r2407.dmg)**, 
 Download, open, drag icon into the Applications folder and double click on it. 
 **NOTE:** If you have issue installing Refine on Mac, please refer to 
 [issue 590](https://github.com/OpenRefine/OpenRefine/issues/590)
-+ **For [Linux](http://google-refine.googlecode.com/files/google-refine-2.5-r2407.tar.gz)**, 
++ **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.5/google-refine-2.5-r2407.tar.gz)**, 
 Download, extract, then type _./refine_ to start.
 
 The list of all releases is 
 [here](https://github.com/OpenRefine/OpenRefine/releases).
 
-# Introductory to OpenRefine
+# Introduction to OpenRefine
 ## 1. Explore Data
 
 OpenRefine can help you explore large data sets with ease. You can find out 
