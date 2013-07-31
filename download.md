@@ -5,7 +5,7 @@ title: Download OpenRefine
 
 # Download OpenRefine
 
-Development: OpenRefine [2.6-alpha1](http://
+Development: OpenRefine [2.6-alpha1](https://github.com/OpenRefine/OpenRefine/releases/download/2.6)
 Stable: Google Refine 2.5
 
 + **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.5/google-refine-2.5-r2407.zip)**, 
