@@ -50,6 +50,7 @@ body {
     @include container;
     padding-top: 12px;
     padding-bottom: 12px;
+    padding-left: 50px;
   }
   h2 {
     @include display-font;
