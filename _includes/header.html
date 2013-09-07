@@ -1,0 +1,14 @@
+<div id="header">
+  <div class="inner-content">
+    <nav id="nav">
+      <a {% if page.title == "Home" %}class="active"{% endif %} href="{{site.baseurl}}index.html">Home</a>
+      <a {% if page.title == "Sample page" %}class="active"{% endif %} href="{{site.baseurl}}sample-page.html">Sample page</a>
+      <a {% if page.title == "Blog" %}class="active"{% endif %} href="{{site.baseurl}}blog.html">Blog</a>
+    </nav>
+    <div id="social">
+      <span>Follow us on:</span>
+      <a class="github" href="#">Github</a>
+      <a class="twitter" href="#">Twitter</a>
+    </div>
+  </div>
+</div>

@@ -1,76 +1,9 @@
-<!DOCTYPE html>
-<html>
+{% include head.html %}
+<body>
+  
+  {% include header.html %}
+  {{ content }}
+  {% include footer.html %}
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="OpenRefine : A free, open source, power tool for working with messy data" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>OpenRefine</title>
-
-<script type="text/javascript">
-  (function() {
-    var cx = '015379524541736921826:xdityt6werw'; // OpenRefine ID for Google Custom Search
-    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
-  })();
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-35838111-1']); // openrefine.org tracker for new OpenRefine account
-  _gaq.push(['_setDomainName', 'openrefine.org']);
-  _gaq.push(['_trackPageview']);
-  _gaq.push(['b._setAccount', 'UA-18609474-2']); // openrefine.org tracker for old Google Refine account
-  _gaq.push(['b._setDomainName', 'openrefine.org']);
-  _gaq.push(['b._trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-         <a id="forkme_banner" href="https://github.com/OpenRefine/OpenRefine">View on GitHub</a>
-		 <h1 id="project_title">OpenRefine</h1>
-          <h2 id="project_tagline">A free, open source, power tool for working with messy data</h2>
-		  <font size="4" font color="#FFFFFF"><b> <a href="/OpenRefine/index">Home</a> - <a href="/documentation">Documentation</a> - <a href="/community">Events & Community</a> - <a href="https://github.com/OpenRefine/OpenRefine/issues?state=open">Issue Tracker</a> - <a href="https://groups.google.com/forum/?fromgroups#!forum/openrefine">Discussion List</a> - <a href="/blog">Blog</a></b></font> 
-<gcse:searchbox-only></gcse:searchbox-only>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-	<section id="main_content" class="inner">
-		{{ content }}
-      </section>
-
-	<section id="twitter_sidebar" >
-<!-- Twitter timeline associated with @tfmorris Twitter account -->
-<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/search?q=OpenRefine+OR+%22Open+Refine%22+OR+%22Google+Refine%22+OR+grefine+OR+googlerefine" data-widget-id="309777825588711424">Tweets about OpenRefine</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-<!-- Twitter timeline from OpenRefine account? data-widget-id="287629360243019777"
--->
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p></br>
-      </footer>
-    </div>
-
-  </body>
+</body>
 </html>
