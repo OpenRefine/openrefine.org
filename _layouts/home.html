@@ -1,0 +1,31 @@
+{% include head.html %}
+<body>
+  
+  {% include header.html %}
+  
+<div id="banner">
+  <div class="inner-content">
+    <div class="copy">
+      <h1>OpenRefine</h1>
+      <p class="intro">A free, open source, power tool for working with messy data</p>
+    </div>
+  </div>
+</div>  
+  
+<div class="page-title-bar">
+  <div class="inner-content">
+    <h2>{{ page.title }}</h2>
+  </div>
+</div>
+
+  
+  <div id="content">
+  {{ content }}
+  </div>
+  
+
+
+  {% include footer.html %}
+
+</body>
+</html>
