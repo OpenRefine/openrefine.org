@@ -1,3 +1,8 @@
+---
+  layout: default
+  title: Search Result
+---
+
 <script>
   (function() {
     var cx = '015379524541736921826:xdityt6werw';
