@@ -11,13 +11,13 @@ title: "Welcome to the new OpenRefine site"
   </div>
 </div> 
 
+{% capture mainintro%}
+  {{% include main-intro.md %}}
+{% endcapture %} 
 
 {% capture maincontent %}
   {% include main-content.md %}
 {% endcapture %}
 {{ maincontent | markdownify }}
 
-{% capture mainvideo%}
-  {{% include main-video.md %}}
-{% endcapture %}  
-{{ mainvideo | markdownify }}
+ 
