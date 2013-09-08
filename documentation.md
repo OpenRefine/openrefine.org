@@ -13,10 +13,7 @@ If you can't find what you need and have a question, please use [the OpenRefine 
 There is tons of tutorial out there to learn OpenRefine. [A curated list](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources) has been crafted so you don't get lost!
 
 ## Book
-<div style="float: left">
-    <a href="http://www.packtpub.com/openrefine-guide-for-data-analysis-and-linking-dataset-to-the-web/book">
-    <img src="http://dgdsbygo8mp3h.cloudfront.net/sites/default/files/imagecache/productview_larger/9080OS_mockupcover_normal.jpg" alt="Using OpenRefine"</a>
-</div>
+<div style="float: left"><img src="http://dgdsbygo8mp3h.cloudfront.net/sites/default/files/imagecache/productview_larger/9080OS_mockupcover_normal.jpg" /></div>
 
 **[UQsing OpenRefine](http://www.packtpub.com/openrefine-guide-for-data-analysis-and-linking-dataset-to-the-web/book)** by Ruben Verborgh, Max De Wilde offer a great introduction for anyone with little experience with OpenRefine. Organized by recipes with hands on example, the book cover the following topics:
 1. Import data in various formats
