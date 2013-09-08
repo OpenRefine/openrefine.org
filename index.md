@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: "Welcome to the new OpenRefine site"
 ---
 
