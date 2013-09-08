@@ -1,5 +1,6 @@
 ---
   layout: post
+  author: magdmartin
   title: OpenRefine History
 ---
 
