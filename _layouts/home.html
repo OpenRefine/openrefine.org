@@ -14,6 +14,12 @@
   
 <div id="content">
   <div class="inner-content">
+  
+{% capture test %}
+  {% include test.md %}
+{% endcapture %}
+{{ test | markdownify }}
+
   {{ content }}
   </div>
 </div>
