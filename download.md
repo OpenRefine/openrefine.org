@@ -18,7 +18,7 @@ Download, extract, then type _./refine_ to start.
 
 ## OpenRefine 2.6 - Development version
 
-Download OpenRefine [2.6-alpha1](https://github.com/OpenRefine/OpenRefine/releases/tag/2.6-beta.1)
+Download OpenRefine [2.6-alpha1](https://github.com/OpenRefine/OpenRefine/releases/tag/2.6-beta.1). Do not use this version in a production environment.
 
 ## All releases
 All previous releases are available [here](https://github.com/OpenRefine/OpenRefine/releases).
@@ -32,5 +32,6 @@ The following extension are available for OpenRefine:
 * [LMF Extension](https://code.google.com/p/lmf/wiki/GoogleRefineExtension) (to be migrated to Apache Marmotta after summer) - by Salzburg Research
 * [Named-Entity Recognition ]( http://freeyourmetadata.org/named-entity-extraction/) - by [Ruben Verborgh ]( http://ruben.verborgh.org/) ([Free Your Metadata ]( http://freeyourmetadata.org/))
 * [RDF extension](http://refine.deri.ie/) - by DERI
-* [Stats extension](http://blog.apps.chicagotribune.com/2010/11/18/sprint-our-first-google-refine-extension-refine-stats/) - by the Chicago Tribune for Refine 2.1
-* [Stats extension](https://github.com/sparkica/refine-stats) updated by [sparkica](https://github.com/sparkica) for Refine 2.5
+* Stats extension:
+  * [Stats extension](http://blog.apps.chicagotribune.com/2010/11/18/sprint-our-first-google-refine-extension-refine-stats/) - by the Chicago Tribune for Refine 2.1
+  * [Stats extension](https://github.com/sparkica/refine-stats) updated by [sparkica](https://github.com/sparkica) for Refine 2.5 +
