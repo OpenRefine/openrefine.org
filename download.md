@@ -3,10 +3,7 @@ layout: default
 title: Download OpenRefine
 ---
 
-# Download OpenRefine
-
-Development: OpenRefine [2.6-alpha1](https://github.com/OpenRefine/OpenRefine/releases/download/2.6)
-Stable: Google Refine 2.5
+# Stable: Google Refine 2.5
 
 + **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.5/google-refine-2.5-r2407.zip)**, 
 Download, unzip, and double-click on _google-refine.exe_. If you're 
@@ -18,6 +15,12 @@ Download, open, drag icon into the Applications folder and double click on it.
 + **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.5/google-refine-2.5-r2407.tar.gz)**, 
 Download, extract, then type _./refine_ to start.
 
-The list of all releases is 
+# Development: 
+
+OpenRefine [2.6-alpha1](https://github.com/OpenRefine/OpenRefine/releases/download/2.6)
+
+
+
+#All releases is 
 [here](https://github.com/OpenRefine/OpenRefine/releases).
 
