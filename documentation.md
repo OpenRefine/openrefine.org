@@ -18,7 +18,7 @@ There is tons of tutorial out there to learn OpenRefine. [A curated list](https:
 <img src="http://dgdsbygo8mp3h.cloudfront.net/sites/default/files/imagecache/productview_larger/9080OS_mockupcover_normal.jpg" alt="Using OpenRefine"</a>
 </div>
 
-**[Using OpenRefine](http://www.packtpub.com/openrefine-guide-for-data-analysis-and-linking-dataset-to-the-web/book)** by Ruben Verborgh, Max De Wilde offer a great introduction for anyone with little experience with OpenRefine. Organized by recipes with hands on example, the book cover the following topics:
+**[UQsing OpenRefine](http://www.packtpub.com/openrefine-guide-for-data-analysis-and-linking-dataset-to-the-web/book)** by Ruben Verborgh, Max De Wilde offer a great introduction for anyone with little experience with OpenRefine. Organized by recipes with hands on example, the book cover the following topics:
 1. Import data in various formats
 2. Explore datasets in a matter of seconds
 3. Apply basic and advanced cell transformations
