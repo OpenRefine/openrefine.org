@@ -1,0 +1,23 @@
+---
+layout: home
+title: "Welcome to the new OpenRefine site"
+---
+<div id="banner">
+  <div class="inner-content">
+    <div class="copy">
+      <h1></h1>
+      <p class="intro">A free, open source, power tool for working with messy data</p>
+    </div>
+  </div>
+</div> 
+
+
+{% capture maincontent %}
+  {% include main-content.md %}
+{% endcapture %}
+{{ maincontent | markdownify }}
+
+{% capture video%}
+  {{% include video.md %}}
+{% endcapture %}  
+{{ video | markdownify }}
