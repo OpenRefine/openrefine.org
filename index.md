@@ -17,6 +17,7 @@ title: "Welcome to the new OpenRefine site"
 {% capture intro %}
   {{% include intro.md %}}
  {% endcapture %}
+ {{ intro | markdownify }}
   </div>
 </div>
 
@@ -27,11 +28,13 @@ title: "Welcome to the new OpenRefine site"
 {% capture video%}
   {{% include video.md %}}
  {% endcapture %}  
+ {{ video | markdownify }}
       </div>
       <div class="col">
 {% capture download%}
   {{% include download.md %}}
  {% endcapture %}
+ {{ download | markdownify }}
     <h3>Post archive</h3>
     <ul class="bordered-list">
       {% for post in site.posts %}
