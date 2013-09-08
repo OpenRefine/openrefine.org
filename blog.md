@@ -3,12 +3,6 @@
   title: Blog
 ---
 
-<div class="page-title-bar">
-  <div class="inner-content">
-    <h2>Blog</h2>
-  </div>
-</div>
-
 <div id="blog">
   <div id="blog-content">
     {% for post in site.posts %}
@@ -33,21 +27,6 @@
       {% endif %}
     </div>
     {% endif %}
-
-  </div>
-  <div id="blog-nav">
-    <h4>Welcome to the {X} blog</h4>
-    <p>The latest and greatest on {X}. <a href="https://twitter.com/your-handle">Follow us on Twitter</a> or <a href="http://yourdomain.com/atom.xml">subscribe the RSS feed</a> for updates.</p>
-
-    <h4>Post archive</h4>
-    <ul class="bordered-list">
-      {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <span class="date">{{ post.date | date: "%d-%m-%Y" }}</span>
-      </li>
-      {% endfor %}
-    </ul>
 
   </div>
 </div>
