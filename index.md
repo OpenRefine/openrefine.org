@@ -13,3 +13,5 @@ this project which have been rebranded to OpenRefine. Project development,
  more about the
  [history of OpenRefine](http://googlerefine.blogspot.ca/2012/10/from-freebase-gridworks-to-google.html) 
 and how you can [help the community](/OpenRefine/community).
+
+  {{% include download.html %}}
