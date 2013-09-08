@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: OpenRefine Histort
+  title: OpenRefine History
 ---
 
 Yesterday David Huynh announced that Google will soon stop its active support of Google Refine and count of community to get more involved to growth Refine.
