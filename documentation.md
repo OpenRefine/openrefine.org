@@ -7,10 +7,12 @@ title: OpenRefine Documentation
 ## Official Documentation
 Please check our [wiki] (https://github.com/OpenRefine/OpenRefine/wiki/) for the complete documentation. The [FAQ](https://github.com/OpenRefine/OpenRefine/wiki/FAQ) is the place to go for common questions.
 
-If you can't find what you need and have a question, please use [the OpenRefine mailing list](http://groups.google.com/group/openrefine/)
+You can't find what you need and have questions, please use [the OpenRefine mailing list](http://groups.google.com/group/openrefine/)
+
+Found a bug? Please [open an issue](https://github.com/OpenRefine/OpenRefine/issues?milestone=&page=1&state=open)
 
 ## Tutorials
-There is tons of tutorial out there to learn OpenRefine. [A curated list](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources) has been crafted so you don't get lost!
+There is tons of tutorial out there to learn OpenRefine. [This curated list](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources) updated on regular basis.
 
 ## Using OpenRefine - The Book
 <div style="float: left ; margin-right: 10px"><img src="http://dgdsbygo8mp3h.cloudfront.net/sites/default/files/imagecache/productview_larger/9080OS_mockupcover_normal.jpg" /></div>
@@ -27,3 +29,5 @@ There is tons of tutorial out there to learn OpenRefine. [A curated list](https:
 
 # Documentation for Developers
 Want to extend or translate OpenRefine? You will find what you need on the [wiki for developers](https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers) 
+
+Do you have questions or want to connect with other like minded developer, the [dev. discussion list](https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev) is here for you!
