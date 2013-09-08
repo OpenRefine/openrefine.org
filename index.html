@@ -3,8 +3,7 @@ layout: home
 title: "Welcome to the new OpenRefine site"
 ---
 
-
-{% capture intro %}
-  {{% include intro.md %}}
+{% capture maincontent %}
+  {% include main-content.md %}
 {% endcapture %}
-{{ intro | markdownify }}
+{{ maincontent | markdownify }}
