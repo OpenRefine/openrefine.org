@@ -13,7 +13,7 @@ If you can't find what you need and have a question, please use [the OpenRefine 
 There is tons of tutorial out there to learn OpenRefine. [A curated list](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources) has been crafted so you don't get lost!
 
 ## Book
-<div style="float: left ; margin-right: 30px">
+<div style="float: left">
     <a href="http://www.packtpub.com/openrefine-guide-for-data-analysis-and-linking-dataset-to-the-web/book">
     <img src="http://dgdsbygo8mp3h.cloudfront.net/sites/default/files/imagecache/productview_larger/9080OS_mockupcover_normal.jpg" alt="Using OpenRefine"</a>
 </div>
