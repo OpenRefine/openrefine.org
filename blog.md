@@ -1,19 +1,53 @@
 ---
-layout: default
-title: OpenRefine Blog
+  layout: default
+  title: Blog
 ---
 
-Under Construction. 
+<div class="page-title-bar">
+  <div class="inner-content">
+    <h2>Blog</h2>
+  </div>
+</div>
 
-In the meanwhile stay in touch on [twitter](http://twitter.com/OpenRefine)
+<div id="blog">
+  <div id="blog-content">
+    {% for post in site.posts %}
+    <article>
+      <header>
+        <h1><a href="{% unless site.baseurl == "/" %}{{ site.baseurl }}{% endunless %}{{ post.url }}">{{ post.title }}</a></h1>
+        <p>Posted on {{ post.date | date: "%B %d, %Y" }} by Wolfr</p>
+      </header>
+      <div class="entry-content">
+        {{ post.content }}
+      </div>
+    </article>
+    {% endfor %}
+  
+    {% if paginator.page %}
+    <div id="paginator" class="content">
+      {% if paginator.next_page %}
+      <a href="/page{{ paginator.next_page }}/">Older entries</a>
+      {% endif %}
+      {% if paginator.previous_page %}
+      <a href="/page{{ paginator.previous_page }}/">Newer entries</a>
+      {% endif %}
+    </div>
+    {% endif %}
 
+  </div>
+  <div id="blog-nav">
+    <h4>Welcome to the {X} blog</h4>
+    <p>The latest and greatest on {X}. <a href="https://twitter.com/your-handle">Follow us on Twitter</a> or <a href="http://yourdomain.com/atom.xml">subscribe the RSS feed</a> for updates.</p>
 
-<!-- Twitter timeline associated with @tfmorris Twitter account -->
-<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/search?q=OpenRefine+OR+%22Open+Refine%22+OR+%22Google+Refine%22+OR+grefine+OR+googlerefine" data-widget-id="309777825588711424">Tweets about "OpenRefine OR "Open Refine" OR "Google Refine" OR grefine OR googlerefine"</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <h4>Post archive</h4>
+    <ul class="bordered-list">
+      {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span class="date">{{ post.date | date: "%d-%m-%Y" }}</span>
+      </li>
+      {% endfor %}
+    </ul>
 
-<!-- Twitter timeline from OpenRefine account?
-		<a class="twitter-timeline" href="https://twitter.com/search?q=%22Open+Refine%22OR+%22OpenRefine%22+OR+%22google+refine%22+OR+grefine+OR+%22googlerefine%22" data-widget-id="287629360243019777">Tweets about OpenRefine</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></br>
--->
-
+  </div>
+</div>
