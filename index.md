@@ -3,6 +3,7 @@ layout: home
 title: "Welcome to the new OpenRefine site"
 ---
 
+#Welcome!
 
 OpenRefine (ex-Google Refine) is a powerful tool for working with messy data, 
 cleaning it, transforming it from one format into another, extending it with 
