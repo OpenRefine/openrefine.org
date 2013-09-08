@@ -1,9 +1,9 @@
 ---
 layout: default
-title: OpenRefine Documentation
+title: OpenRefine Community
 ---
 #Participate
-Thanks for your interest in OpenRefine.  We are 100% supported by volunteers and are always looking for new contributors! 
+Thanks for your interest in OpenRefine. We are 100% supported by volunteers and are always looking for new contributors! 
 
 We have opportunties for you to help:
 * Develop the next version
