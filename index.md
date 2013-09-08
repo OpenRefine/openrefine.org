@@ -13,8 +13,8 @@ Please note that since October 2nd, 2012, Google is not supporting actively
 this project which have been rebranded to OpenRefine. Project development,
  documentation and promotion is now fully supported by volunteers. Find out
  more about the
- [history of OpenRefine](http://googlerefine.blogspot.ca/2012/10/from-freebase-gridworks-to-google.html) 
-and how you can [help the community](/OpenRefine/community).
+ [history of OpenRefine]({{site.baseurl}}/2013/10/12/openrefine-history.html) 
+and how you can [help the community]({{site.baseurl}}/community).
 
 
 # Introduction to OpenRefine
