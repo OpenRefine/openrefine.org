@@ -18,6 +18,19 @@ this project which have been rebranded to OpenRefine. Project development,
 and how you can [help the community]({{site.baseurl}}/community).
 
 
+# Using OpenRefine Book
+<div style="float: left ; margin-right: 10px"><img src="http://dgdsbygo8mp3h.cloudfront.net/sites/default/files/imagecache/productview_larger/9080OS_mockupcover_normal.jpg" /></div>
+
+**[Using OpenRefine](http://www.packtpub.com/openrefine-guide-for-data-analysis-and-linking-dataset-to-the-web/book)** by Ruben Verborgh, Max De Wilde offer a great introduction for anyone with little experience with OpenRefine. Organized by recipes with hands on example, the book cover the following topics:
+1. Import data in various formats
+2. Explore datasets in a matter of seconds
+3. Apply basic and advanced cell transformations
+4. Deal with cells that contain multiple values
+5. Create instantaneous links between datasets
+6. Filter and partition your data easily with regular expressions
+7. Use named-entity extraction on full-text fields to automatically identify topics
+8. Perform advanced data operations with the General Refine Expression Language
+
 # Introduction to OpenRefine
 ## 1. Explore Data
 
