@@ -14,7 +14,7 @@ title: "Welcome to the new OpenRefine site"
 
 <div id="content">
   <div class="inner-content">
-  {{ include intro.md }}
+  {{% include intro.md %}}
   </div>
 </div>
 
@@ -22,11 +22,13 @@ title: "Welcome to the new OpenRefine site"
   <div class="inner-content">
     <div class="cols">
       <div class="col">
-  {{ include video.md }}
+      
+  {{% include video.md %}}
+  
       </div>
       <div class="col">
 
-  {{ include download.md }}
+  {{% include download.md %}}
 
     <h3>Post archive</h3>
     <ul class="bordered-list">
@@ -41,7 +43,3 @@ title: "Welcome to the new OpenRefine site"
     </div>
   </div>
 </div>
-
-  {% include footer.html %}
-
-</body>
