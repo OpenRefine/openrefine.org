@@ -18,6 +18,6 @@ title: "Welcome to the new OpenRefine site"
 {% capture maincontent %}
   {% include main-content.md %}
 {% endcapture %}
-{{ maincontent | markdownify }}
+{{ mainintro | markdownify }}
 
  
