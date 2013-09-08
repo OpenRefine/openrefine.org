@@ -11,9 +11,6 @@
         <h1><a href="{% unless site.baseurl == "/" %}{{ site.baseurl }}{% endunless %}{{ post.url }}">{{ post.title }}</a></h1>
         <p>Posted on {{ post.date | date: "%B %d, %Y" }} by Wolfr</p>
       </header>
-      <div class="entry-content">
-        {{ post.content }}
-      </div>
     </article>
     {% endfor %}
   
