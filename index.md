@@ -17,7 +17,7 @@ title: "Welcome to the new OpenRefine site"
 {% endcapture %}
 {{ maincontent | markdownify }}
 
-{% capture video%}
-  {{% include video.md %}}
+{% capture mainvideo%}
+  {{% include main-video.md %}}
 {% endcapture %}  
-{{ video | markdownify }}
+{{ mainvideo | markdownify }}
