@@ -1,3 +1,8 @@
+---
+  layout: post
+  title: OpenRefine Histort
+---
+
 Yesterday David Huynh announced that Google will soon stop its active support of Google Refine and count of community to get more involved to growth Refine.
 
 Refine is already a mature data cleaning tool, this change in leadership will be a major challenge for the tool continuity. But first I'd like to clarify what I have read on twitter yesterday night. Google Refine has always been an open source tool and anyone can commit changes, develop an extension or update the wiki. 
