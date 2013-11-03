@@ -1,19 +1,29 @@
 ---
-layout: default
-title: OpenRefine Blog
+  layout: default
+  title: Blog
 ---
 
-Under Construction. 
+<div id="blog">
+  <div id="blog-content">
+    {% for post in site.posts %}
+    <article>
+      <header>
+        <h1><a href="{% unless site.baseurl == "/" %}{{ site.baseurl }}{% endunless %}{{ post.url }}">{{ post.title }}</a></h1>
+        <p>Posted on {{ post.date | date: "%B %d, %Y" }} by {{ post.author }}</p>
+      </header>
+    </article>
+    {% endfor %}
+  
+    {% if paginator.page %}
+    <div id="paginator" class="content">
+      {% if paginator.next_page %}
+      <a href="/page{{ paginator.next_page }}/">Older entries</a>
+      {% endif %}
+      {% if paginator.previous_page %}
+      <a href="/page{{ paginator.previous_page }}/">Newer entries</a>
+      {% endif %}
+    </div>
+    {% endif %}
 
-In the meanwhile stay in touch on [twitter](http://twitter.com/OpenRefine)
-
-
-<!-- Twitter timeline associated with @tfmorris Twitter account -->
-<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/search?q=OpenRefine+OR+%22Open+Refine%22+OR+%22Google+Refine%22+OR+grefine+OR+googlerefine" data-widget-id="309777825588711424">Tweets about "OpenRefine OR "Open Refine" OR "Google Refine" OR grefine OR googlerefine"</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-<!-- Twitter timeline from OpenRefine account?
-		<a class="twitter-timeline" href="https://twitter.com/search?q=%22Open+Refine%22OR+%22OpenRefine%22+OR+%22google+refine%22+OR+grefine+OR+%22googlerefine%22" data-widget-id="287629360243019777">Tweets about OpenRefine</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></br>
--->
-
+  </div>
+</div>
