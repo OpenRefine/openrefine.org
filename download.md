@@ -18,7 +18,7 @@ Download, extract, then type _./refine_ to start.
 
 ## OpenRefine 2.6 - Development version
 
-Download OpenRefine [2.6-alpha1](https://github.com/OpenRefine/OpenRefine/releases/tag/2.6-beta.1). Do not use this version in a production environment.
+Download OpenRefine [2.6-beta1](https://github.com/OpenRefine/OpenRefine/releases/tag/2.6-beta.1). Do not use this version in a production environment.
 
 ## All releases
 All previous releases are available [here](https://github.com/OpenRefine/OpenRefine/releases).
