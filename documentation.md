@@ -15,7 +15,7 @@ Found a bug? Please [open an issue](https://github.com/OpenRefine/OpenRefine/iss
 There is tons of tutorial out there to learn OpenRefine. [This curated list](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources) updated on regular basis.
 
 ## Using OpenRefine - The Book
-<div style="float: left ; margin-right: 10px"><img src="http://dgdsbygo8mp3h.cloudfront.net/sites/default/files/imagecache/productview_larger/9080OS_mockupcover_normal.jpg" /></div>
+<div style="float: left ; margin-right: 10px"><img src="https://raw.github.com/magdmartin/openrefine.github/gh-pages/images/9080OS.jpg" /></div>
 
 **[Using OpenRefine](http://www.packtpub.com/openrefine-guide-for-data-analysis-and-linking-dataset-to-the-web/book)** by Ruben Verborgh, Max De Wilde offer a great introduction for anyone with little experience with OpenRefine. Organized by recipes with hands on example, the book cover the following topics:
 1. Import data in various formats
