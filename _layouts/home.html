@@ -2,25 +2,31 @@
 <body>
   
   {% include header.html %}
-<div class="page-title-bar">
+  
+<div id="banner">
   <div class="inner-content">
-    <h2>{{ page.title }}</h2>
+    <div class="copy">
+      <h1></h1>
+      <p class="intro">A free, open source, powerfull tool for working with messy data</p>
+    </div>
   </div>
-</div>
+</div>  
 
 <div class="page-type-subnav">
   <div id="subnav">
   {% include sidebar.html %}  
- </div>  
+  </div>  
 
 
-  <div id="content">
+<div id="content">
+  <div class="inner-content">
+
   {{ content }}
+
   </div>
-  
+</div>
 </div>
 
   {% include footer.html %}
 
 </body>
-</html>
