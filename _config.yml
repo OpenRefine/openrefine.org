@@ -1,6 +1,6 @@
 safe:        true
 port: 4000
-baseurl: /openrefine.github
+baseurl: http://www.openrefine.org
 url: http://localhost:4000
 
 source:      .
