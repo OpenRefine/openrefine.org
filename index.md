@@ -19,7 +19,7 @@ and how you can [help the community]({{site.baseurl}}/community).
 
 
 # Using OpenRefine - The Book
-<div style="float: left ; margin-right: 10px"><img src="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/using-openrefine.jpg" width="150"/>/></div>
+<div style="float: left ; margin-right: 10px"><img src="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/using-openrefine.jpg" width="150"/></div>
 
 **[Using OpenRefine](http://www.packtpub.com/openrefine-guide-for-data-analysis-and-linking-dataset-to-the-web/book)** by Ruben Verborgh, Max De Wilde offer a great introduction for anyone with little experience with OpenRefine. Organized by recipes with hands on example, the book cover the following topics:
 1. Import data in various formats
