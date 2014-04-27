@@ -5,13 +5,13 @@ title: "Welcome to the new OpenRefine site"
 
 #Welcome!
 
-OpenRefine (ex-Google Refine) is a powerful tool for working with messy data, 
-cleaning it, transforming it from one format into another, extending it with 
-web services, and linking it to databases like 
+OpenRefine (formerly Google Refine) is a powerful tool for working with messy data: 
+cleaning it; transforming it from one format into another; extending it with 
+web services; and linking it to databases like 
 [Freebase](http://www.freebase.com/). 
 
-Please note that since October 2nd, 2012, Google is not supporting actively 
-this project which have been rebranded to OpenRefine. Project development,
+Please note that since October 2nd, 2012, Google is not actively supporting 
+this project, which has now been rebranded to OpenRefine. Project development,
  documentation and promotion is now fully supported by volunteers. Find out
  more about the
  [history of OpenRefine]({{site.baseurl}}/2013/10/12/openrefine-history.html) 
@@ -21,7 +21,8 @@ and how you can [help the community]({{site.baseurl}}/community).
 # Using OpenRefine - The Book
 <div style="float: left ; margin-right: 10px"><img src="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/using-openrefine.jpg" width="150"/></div>
 
-**[Using OpenRefine](http://www.packtpub.com/openrefine-guide-for-data-analysis-and-linking-dataset-to-the-web/book)** by Ruben Verborgh, Max De Wilde offer a great introduction for anyone with little experience with OpenRefine. Organized by recipes with hands on example, the book cover the following topics:
+**[Using OpenRefine](http://www.packtpub.com/openrefine-guide-for-data-analysis-and-linking-dataset-to-the-web/book)**, by Ruben Verborgh and Max De Wilde, offers a great introduction to OpenRefine. Organized by recipes with hands on examples, the book covers the following topics:
+
 1. Import data in various formats
 2. Explore datasets in a matter of seconds
 3. Apply basic and advanced cell transformations
@@ -42,18 +43,18 @@ more about this functionality by watching the video below and going through
  <iframe width="500" height="400" src="http://www.youtube.com/embed/B70J_H_zAWM" frameborder="0"> </iframe>
 </div>
 
-## 2. Clean and Transform Transform Data
+## 2. Clean and Transform Data
 
 <div class="video-wrapper">
  <iframe width="500" height="400" src="http://www.youtube.com/embed/cO8NVCs_Ba0" frameborder="0"> </iframe>
 </div>
 
-## 3. Reconcile / Match
+## 3. Reconcile and Match Data
 
 OpenRefine can be used to link and extend your dataset with various webservices. 
-Some services like [Freebase](http://www.freebase.com/) also allow OpenRefine
- to update your cleaned data to the central database. A growing list of
- extension and plugin with sources is 
+Some services, like [Freebase](http://www.freebase.com/), also allow OpenRefine
+ to upload your cleaned data to a central database. A growing list of
+ extensions and plugins is 
 [available on the wiki](https://github.com/OpenRefine/OpenRefine/wiki/Reconcilable-Data-Sources).
 
 <div class="video-wrapper">
