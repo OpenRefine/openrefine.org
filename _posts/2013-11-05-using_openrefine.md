@@ -4,7 +4,6 @@ author: RubenVerborgh
 title: "Using OpenRefine: a manual"
 ---
 
-# “Using OpenRefine”: a manual
 _“How do I get started?”_ is the question we received most
 during our hands-on workshops on data cleaning and enhancing.
 OpenRefine is a very powerful tool in the hands of a skilled user,
