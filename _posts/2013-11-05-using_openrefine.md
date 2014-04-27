@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 author: RubenVerborgh
 title: "Using OpenRefine: a manual"
 ---
