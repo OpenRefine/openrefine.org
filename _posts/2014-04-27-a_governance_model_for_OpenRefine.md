@@ -22,4 +22,4 @@ Once the governance model defined I wish to see new committers joining the proje
 + Clear the pull request queue (10 pull request are currently pending)
 + Help develop the road map for the version 3.0
 
-Martin
+[magdmartin](http://www.twitter.com/magdmartin)
