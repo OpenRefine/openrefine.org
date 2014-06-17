@@ -18,7 +18,7 @@ Download, extract, then type _./refine_ to start.
 
 ## OpenRefine 2.6 - Development version
 
-Download OpenRefine [2.6-beta1](https://github.com/OpenRefine/OpenRefine/releases/tag/2.6-beta.1). Do not use this version in a production environment.
+Download OpenRefine [2.6-beta1](https://github.com/OpenRefine/OpenRefine/releases/tag/2.6-beta.1) (link for all releases).
 
 ## All releases
 All previous releases are available [here](https://github.com/OpenRefine/OpenRefine/releases).
@@ -29,6 +29,7 @@ The following extension are available for OpenRefine:
 * [Crowdsourcing extension](https://github.com/sparkica/crowdsourcing) - by Zemanta
 * [DBpedia extension](https://github.com/sparkica/dbpedia-extension) - by Zemanta
 * [History tools, pivot tool and scatterplot tool using D3 ]( http://www.bits.vib.be/index.php/software-overview/openrefine ) - by VIB-BITS
+* [Diff plugin](https://www.bits.vib.be/index.php/software-overview/openrefine)- by VIB-BITS
 * [LMF Extension](https://code.google.com/p/lmf/wiki/GoogleRefineExtension) (to be migrated to Apache Marmotta after summer) - by Salzburg Research
 * [Named-Entity Recognition ]( http://freeyourmetadata.org/named-entity-extraction/) - by [Ruben Verborgh ]( http://ruben.verborgh.org/) ([Free Your Metadata ]( http://freeyourmetadata.org/))
 * [RDF extension](http://refine.deri.ie/) - by DERI
