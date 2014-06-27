@@ -16,6 +16,8 @@ Download, open, drag icon into the Applications folder and double click on it.
 + **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.5/google-refine-2.5-r2407.tar.gz)**, 
 Download, extract, then type _./refine_ to start.
 
+See also the [installation instruction](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions)
+
 ## OpenRefine 2.6 - Development version
 
 Download OpenRefine [2.6-beta1](https://github.com/OpenRefine/OpenRefine/releases/tag/2.6-beta.1) (link for all releases).
