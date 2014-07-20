@@ -5,6 +5,8 @@ title: "Welcome to the new OpenRefine site"
 
 #Welcome!
 
+We are running [a 15 questions **survey](https://docs.google.com/spreadsheet/viewform?usp=drive_web&formkey=dDUwZF9jcC1SWEhyc3FYY2lJOFVLZHc6MA#gid=0) to better understand our community. Thanks for taking the time to fill it up. **
+
 OpenRefine (formerly Google Refine) is a powerful tool for working with messy data: 
 cleaning it; transforming it from one format into another; extending it with 
 web services; and linking it to databases like 
