@@ -112,28 +112,34 @@ Even user with experience using Refine have difficulties to report bug and reque
 Both in 2012 and 2014 OpenRefine is chosen for its easy and powerful interface to clean large dataset offering reconciliation option. The fact the project is free and open source is also important for a number of user.
 
 **2012**
+
 <a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/2014survey/why2012.png"><img src="/images/2014survey/why2012.png" class="inset" /></a>
 
 **2014**
+
 <a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/2014survey/why2014.png"><img src="/images/2014survey/why2014.png" class="inset" /></a>
 
 ### Alternative tools 
 As in 2012 the tools OpenRefine is benchmarked against split into programming / scripting languages (python, R, MySQL) and spreadsheet based interface like Excel or LibreOffice. 
 
 **2012**
+
 <a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/2014survey/tools2012.png"><img src="/images/2014survey/tools2012.png" class="inset" /></a>
 
 **2014**
+
 <a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/2014survey/tools2014.png"><img src="/images/2014survey/tools2014.png" class="inset" /></a>
 
 ### Word used to describe OpenRefine
 OpenRefine is describe as a data cleaning tool.
 
 **2012**
+
 <a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/2014survey/describe2012.png"><img src="/images/2014survey/describe2012.png" class="inset" /></a>
 
 
 **2014**
+
 <a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/2014survey/describe2014.png"><img src="/images/2014survey/describe2014.png" class="inset" /></a>
 
 
