@@ -38,3 +38,7 @@ The following extension are available for OpenRefine:
 * Stats extension:
   * [Stats extension](http://blog.apps.chicagotribune.com/2010/11/18/sprint-our-first-google-refine-extension-refine-stats/) - by the Chicago Tribune for Refine 2.1
   * [Stats extension](https://github.com/sparkica/refine-stats) updated by [sparkica](https://github.com/sparkica) for Refine 2.5 +
+* [extraCTU-plugin](https://github.com/giTorto/extraCTU-plugin) to extract E-mails, Telephone numbers, Urls and the Identification Numbers from a messy text by [giTorto](https://github.com/giTorto)
+* [geoXtension](https://github.com/giTorto/geoXtension) based on gdal, proj and geos libraries. Adding this extension to OpenRefine takes a lot of time, usage of the [[|ready-made docker|https://registry.hub.docker.com/u/spaziodati/openrefine/]] is recommended. By [giTorto](https://github.com/giTorto)
+* [Kuali Extension](https://github.com/k-int/gokb-phase1) this extension require credential on the Kuali OLE server, see the [documentation}(https://wiki.kuali.org/display/OLE/OpenRefine+How-Tos) for more details
+
