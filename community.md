@@ -44,6 +44,7 @@ Organizing a workshop or presentation OpenRefine in your city? Add your event de
 The [event page](https://github.com/OpenRefine/OpenRefine/wiki/Events) also list previous presentations for you to review and use as a source of inspiration for your presentation!
 
 #Current & Previous Contributors
+
 ##Current
 
 * Lead Developer: Tom Morris - [@tfmorris](https://twitter.com/tfmorris) - [Github](https://github.com/tfmorris)
@@ -57,6 +58,7 @@ The [event page](https://github.com/OpenRefine/OpenRefine/wiki/Events) also list
 This software was created by Metaweb Technologies, Inc. and originally written and conceived by David Huynh <dfhuynh@google.com>. Metaweb Technologies, Inc. was acquired by Google, Inc. in July 2010 and the product was renamed Google Refine. In October 2012, it was renamed OpenRefine as it transitioned to a community-supported product.
 
 They helped to develop Gridworks and Google Refine (in chronological order):
+
 - David Huynh <dfhuynh@google.com>
 - Stefano Mazzocchi <stefanom@google.com>
 - Vishal Talwar <vtalwar@google.com> 

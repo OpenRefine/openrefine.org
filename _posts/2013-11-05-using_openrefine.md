@@ -27,6 +27,7 @@ Rather than being a one-directional text,
 this book offers detailed recipes you can pick whenever you need them.
 
 **In particular, you'll learn about these topics in _Using OpenRefine_:**
+
 - importing data in various formats
 - exploring datasets in a matter of seconds
 - applying basic and advanced cell transformations

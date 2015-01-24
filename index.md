@@ -34,6 +34,7 @@ and how you can [help the community]({{site.baseurl}}/community).
 8. Perform advanced data operations with the General Refine Expression Language
 
 # Introduction to OpenRefine
+
 ## 1. Explore Data
 
 OpenRefine can help you explore large data sets with ease. You can find out 

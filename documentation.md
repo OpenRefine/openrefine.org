@@ -4,6 +4,7 @@ title: OpenRefine Documentation
 ---
 
 # Documentation for User
+
 ## Official Documentation
 Please check our [wiki] (https://github.com/OpenRefine/OpenRefine/wiki/) for the complete documentation. The [FAQ](https://github.com/OpenRefine/OpenRefine/wiki/FAQ) is the place to go for common questions.
 
@@ -18,6 +19,7 @@ There is tons of tutorial out there to learn OpenRefine. [This curated list](htt
 <div style="float: left ; margin-right: 10px"><img src="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/using-openrefine.jpg" width="150"/></div>
 
 **[Using OpenRefine](http://www.packtpub.com/openrefine-guide-for-data-analysis-and-linking-dataset-to-the-web/book)** by Ruben Verborgh, Max De Wilde offer a great introduction for anyone with little experience with OpenRefine. Organized by recipes with hands on example, the book cover the following topics:
+
 1. Import data in various formats
 2. Explore datasets in a matter of seconds
 3. Apply basic and advanced cell transformations
