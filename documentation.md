@@ -6,7 +6,7 @@ title: OpenRefine Documentation
 # Documentation for User
 
 ## Official Documentation
-Please check our [wiki] (https://github.com/OpenRefine/OpenRefine/wiki/) for the complete documentation. The [FAQ](https://github.com/OpenRefine/OpenRefine/wiki/FAQ) is the place to go for common questions.
+Please check our [wiki](https://github.com/OpenRefine/OpenRefine/wiki/) for the complete documentation. The [FAQ](https://github.com/OpenRefine/OpenRefine/wiki/FAQ) is the place to go for common questions.
 
 You can't find what you need and have questions, please use [the OpenRefine mailing list](http://groups.google.com/group/openrefine/)
 
