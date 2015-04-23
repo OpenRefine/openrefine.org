@@ -35,20 +35,12 @@ Therefor committers
 + help contributors via the [developer discussion list](https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev).
 + merge pull request submit by contributors
 + have direct access to the code base
-+ nominate new committer
++ nominate and vote new committer
 
-Committers also participate in strategic planning, release planning, and approving changes to the governance model.
+Committers also participate in strategic planning, release planning, and approving changes to the governance model. 
 
-How to become an OpenRefine Committers?  Be a contributor and be nominated as a committer. You may nominate yourself. Nomination should be sent to ...
+How to become an OpenRefine Committers?  Be a contributor and be nominated as a committer. You may nominate yourself. Nomination should be sent to the [developer discussion list](https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev)
 
-### Project Management Committee (PMC)
-The Project Management Committee role is to help the project to run smoothly. PMC member have no significant authority over other members of the community, their primary role is to:
-+ Vote on new committer nomination
-+ Make decision when no consensus is reached between committers
-
-The PMC have his own private discussion list for sensitive issue such as vote for new committers.
-
-How to become to be part of OpenRefine PMC? Membership of the PMC is by invitation from the existing PMC members.
 
 ##  Decision Making Process 
 ### Consensus building
