@@ -39,7 +39,7 @@ Therefor committers
 
 Committers also participate in strategic planning, release planning, and approving changes to the governance model. 
 
-How to become an OpenRefine Committers?  Be a contributor and be nominated as a committer. You may nominate yourself. Nomination should be sent to the [developer discussion list](https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev)
+How to become an OpenRefine Committers?  Be a contributor and be nominated as a committer. OpenRefine select and elect new committer using the [Apache model](https://community.apache.org/newcommitter.html). You may nominate yourself. Nomination should be sent to the [developer discussion list](https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev)
 
 
 ##  Decision Making Process 
