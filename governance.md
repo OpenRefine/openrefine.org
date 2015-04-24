@@ -1,3 +1,7 @@
+---
+layout: default
+title: OpenRefine Governance
+---
 # OpenRefine Governance Model 
 Draft for discussion. Please sumbit pull request to edit this document. Major changes will be discussed in the pull request comment section
 
