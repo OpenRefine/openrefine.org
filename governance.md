@@ -15,20 +15,20 @@ OpenRefine development is based on user consensus and open discussion between us
 Users are community member who have a need for the project. Through their usage, they give the project a purpose. Users are encouraged to participate in the project life by providing feedback on how their needs are satisfied. 
 
 Users activities include (but are not limited to):
-+ evangelisation and advocating for the project
-+ informing developers of strengths and weaknesses from a new user perspective through the [user discussion list](https://groups.google.com/forum/?fromgroups#!forum/openrefine) or the [issue list](https://github.com/OpenRefine/OpenRefine/issues?state=open).
-+ providing moral support (a ‘thank you’ goes a long way)
-+ writing tutorial.
+- evangelisation and advocating for the project
+- informing developers of strengths and weaknesses from a new user perspective through the [user discussion list](https://groups.google.com/forum/?fromgroups#!forum/openrefine) or the [issue list](https://github.com/OpenRefine/OpenRefine/issues?state=open).
+- providing moral support (a ‘thank you’ goes a long way)
+- writing tutorial.
 
 How to become an OpenRefine user? [Download OpenRefine](http://openrefine.org/download.html) and start refining!
 
 ### Contributors
 Contributors are users contributing in concrete ways to the project. Contribution may be a one time participation or occur over time. Contribution can take place in many ways:
-+ supporting new users via the [user discussion list](https://groups.google.com/forum/?fromgroups#!forum/openrefine)
-+ submit patch to fix bugs or add features
-+ identifying requirements
-+ providing graphics and web design
-+ writing and maintaining the [documentation](https://github.com/OpenRefine/OpenRefine/wiki)
+- supporting new users via the [user discussion list](https://groups.google.com/forum/?fromgroups#!forum/openrefine)
+- submit patch to fix bugs or add features
+- identifying requirements
+- providing graphics and web design
+- writing and maintaining the [documentation](https://github.com/OpenRefine/OpenRefine/wiki)
 
 How to become an OpenRefine contributors? The [documentation for developers](https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers) is a good place to start getting familiar with the code base.  We invite contributors to share their feature development and patch idea through the [developer discussion list](https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev) or the [issue list](https://github.com/OpenRefine/OpenRefine/issues?state=open). It is recommended to start with small patches and share your code early so the community can provide feedback and guidance.
 
@@ -36,10 +36,10 @@ How to become an OpenRefine contributors? The [documentation for developers](htt
 Committers are contributors who have shown dedication to OpenRefine, have a deep understanding of the code base and project strategy and work well with contributors and users. Committers have no more authorities than contributors, and they should engage with the community through the [developer discussion list](https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev) or the [issue list](https://github.com/OpenRefine/OpenRefine/issues?state=open) regarding their intention. However committers have earn enough trust from the community to have direct access to the project code base without having to submit pull request. Committers seeks approval after the contribution is made, rather than before.
  
 Therefor committers
-+ help contributors via the [developer discussion list](https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev).
-+ merge pull request submit by contributors
-+ have direct access to the code base
-+ nominate and vote new committer
+- help contributors via the [developer discussion list](https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev).
+- merge pull request submit by contributors
+- have direct access to the code base
+- nominate and vote new committer
 
 Committers also participate in strategic planning, release planning, and approving changes to the governance model. 
 
@@ -63,12 +63,12 @@ In all cases silence is consent.
 If you feel that lazy consensus isn't appropriate for your proposal, you can explicitly request for feedback on the [developer discussion list](https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev). [Building concensus](http://community.apache.org/committers/consensusBuilding.html) help contributors and committers to gather feedback early on and pool the interest by the community for a new feature.
 
 Everyone is invited to express their opinion of any given feature or pull request. Support is expressed using:
-+ +1 means: "I agree with this and will help make it happen"
-+ +0.9 means: 'This is a cool idea and i like it, but I don't have time/the skills necessary to help out.'
-+ +0 means: "I agree with this but probably won't make it happen, so my opinion is not that important"
-+ -0 means: "I don't agree with this, but I'm offering no alternative so my opinion is not that important"
-+ -0.9 means: 'I really don't like this, but I'm not going to stand in the way if everyone else wants to go ahead with it.' 
-+ -1 means: "I don't agree and I am offering an alternative that I am able to help implement"
+- +1 means: "I agree with this and will help make it happen"
+- +0.9 means: 'This is a cool idea and i like it, but I don't have time/the skills necessary to help out.'
+- +0 means: "I agree with this but probably won't make it happen, so my opinion is not that important"
+- -0 means: "I don't agree with this, but I'm offering no alternative so my opinion is not that important"
+- -0.9 means: 'I really don't like this, but I'm not going to stand in the way if everyone else wants to go ahead with it.' 
+- -1 means: "I don't agree and I am offering an alternative that I am able to help implement"
 
 
 ### Open Development process
