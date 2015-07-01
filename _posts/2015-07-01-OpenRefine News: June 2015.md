@@ -56,7 +56,7 @@ They are interested in:
 More details and join the discussion on the [user mailing list](https://groups.google.com/d/msg/openrefine/c_BM4H9jk2o/x4ED1VB_WwUJ)
 
 
-##EVENTS
+##Workshop and Events
 
 OpenRefine Twitter feed have been busy last months with over 12 presentations of OpenRefine made! Thank you to our evangelists who introduce OpenRefine to librians, journalist, goverement and open date professional among other groups. Top hastag are: 
 
@@ -64,6 +64,6 @@ OpenRefine Twitter feed have been busy last months with over 12 presentations of
 
 Want to connect with fellow Refiners? The following events have been announced so far. Ping us on twitter [@OpenRefine](http://twitter.com/) to announce your event:
 
-* Several Cleaning & Exploring data w OpenRefine workshop available through July with #DH2015 in Australia. tinyurl.com/nsjrhmm 
-* The Data Scientist Training for Librarians (DST4L) comes to Copenhagen with an all day OpenRefine session Sep 9: ow.ly/NOxgm
+* [Several Cleaning & Exploring data w OpenRefine workshop](http://tinyurl.com/nsjrhmm) available through July with #DH2015 in Australia. 
+* [The Data Scientist Training for Librarians (DST4L)](http://ow.ly/NOxgm) comes to Copenhagen with an all day OpenRefine session Sep 9: 
 * UMBHLCuration will be doing a workshop on structured data wrangling w/Python and OpenRefine for the midmichdp at Albion College on October 8th.
