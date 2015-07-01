@@ -22,7 +22,7 @@ Finally a great use case presented by [@hpiedcoq](http://twitter.com/hpiedcoq) a
 We also have a new resource published in French: [Créer un référentiel pour le #LOD avec #OpenRefine et #Gingo](http://t.co/npSEf6TJH8) by @Invisu](http://twitter.com/) 
 and in Italian: [Tutorial per come farsi del geocoding in casa partendo da un elenco di indirizzi](http://ow.ly/NOxBi)
 
-## Update on OpenRefine development including current and new extension
+## Development Update
 
 ### OpenRefine2.6 RC1
 
@@ -60,10 +60,9 @@ More details and join the discussion on the [user mailing list](https://groups.g
 
 OpenRefine Twitter feed have been busy last months with over 12 presentations of OpenRefine made! Thank you to our evangelists who introduce OpenRefine to librians, journalist, goverement and open date professional among other groups. Top hastag are: 
 
+<a href="http://3.bp.blogspot.com/-T8LGwAEz3YQ/VZQvLSKD9NI/AAAAAAAANKE/j8k6PoN6YZM/s1600/news-june2015.png"><img src="http://3.bp.blogspot.com/-T8LGwAEz3YQ/VZQvLSKD9NI/AAAAAAAANKE/j8k6PoN6YZM/s1600/news-june2015.png" class="inset" /></a>
 
-<a href="http://3.bp.blogspot.com/-T8LGwAEz3YQ/VZQvLSKD9NI/AAAAAAAANKE/j8k6PoN6YZM/s1600/news-june2015.png"><img src="http://3.bp.blogspot.com/-T8LGwAEz3YQ/VZQvLSKD9NI/AAAAAAAANKE/j8k6PoN6YZM/s1600/news-june2015.png" class="inset" />
-
-Want to connect with fellow Refiners? The following events have been announced so far. Ping us on twitter @OpenRefine](http://twitter.com/) to announce your event:
+Want to connect with fellow Refiners? The following events have been announced so far. Ping us on twitter [@OpenRefine](http://twitter.com/) to announce your event:
 
 * Several Cleaning & Exploring data w OpenRefine workshop available through July with #DH2015 in Australia. tinyurl.com/nsjrhmm 
 * The Data Scientist Training for Librarians (DST4L) comes to Copenhagen with an all day OpenRefine session Sep 9: ow.ly/NOxgm
