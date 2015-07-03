@@ -19,8 +19,10 @@ If you are working in a library. Checkout the records of this month NCompass Liv
 Finally a great use case presented by [@hpiedcoq](http://twitter.com/hpiedcoq) and [@jvilledieu](http://twitter.com/jvilledieu): [How to visualize your Facebook network](http://ow.ly/OkxZG) with OpenRefine outwit and Neo4j.
 
 
-We also have a new resource published in French: [Créer un référentiel pour le #LOD avec #OpenRefine et #Gingo](http://t.co/npSEf6TJH8) by @Invisu](http://twitter.com/) 
-and in Italian: [Tutorial per come farsi del geocoding in casa partendo da un elenco di indirizzi](http://ow.ly/NOxBi)
+We also have a new resource published in French and Italian:
+
+* [Créer un référentiel pour le #LOD avec #OpenRefine et #Gingo](http://t.co/npSEf6TJH8) by [@Invisu](http://twitter.com/) 
+* [Tutorial per come farsi del geocoding in casa partendo da un elenco di indirizzi](http://ow.ly/NOxBi)
 
 ## Development Update
 
@@ -32,7 +34,6 @@ We are currently testing the [2.6 RC1 version](https://github.com/OpenRefine/Ope
 
 ### Reconciliation and Matching Framework (RMF)
 
-https://github.com/RBGKew/Reconciliation-and-Matching-Framework
 [Matthew Blissett](https://github.com/MattBlissett) with the support of the [Royal Botanic Gardens](http://www.kew.org/) in London are releasing [Reconciliation and Matching Framework (RMF)](https://github.com/RBGKew/Reconciliation-and-Matching-Framework), a framework to allow the matching of string entities using customised sets of transformations and matchers, plus a tool to produce the necessary configurations and another to expose them as OpenRefine reconciliation services. 
 
 
