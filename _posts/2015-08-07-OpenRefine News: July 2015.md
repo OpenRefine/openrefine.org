@@ -23,8 +23,8 @@ A new [video tutorial](http://ow.ly/P5jR1) has been published, describing the st
 
 ### German
 
-Datenanalyse und -optimierung mit OpenRefine (http://twitter.com/TANNER_AG)
-[Part 1](http://www.tanner.de/blog/datenanalyse-und-optimierung-mit-openrefine-1/) and [Part 2](http://www.tanner.de/blog/datenanalyse-und-optimierung-mit-openrefine-2/) - By [@TANNER_AG]
+Datenanalyse und -optimierung mit OpenRefine
+[Part 1](http://www.tanner.de/blog/datenanalyse-und-optimierung-mit-openrefine-1/) and [Part 2](http://www.tanner.de/blog/datenanalyse-und-optimierung-mit-openrefine-2/) - By [@TANNER_AG](http://twitter.com/TANNER_AG)
 
 
 ### Czech
