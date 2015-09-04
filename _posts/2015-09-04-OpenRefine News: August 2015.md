@@ -33,6 +33,7 @@ As we keep closing the latest issue for the 2.6 release, [@cm_harlow](http://twi
 
 
 MSU’s Institute for Digital Archaeology Method & Practice, #msudai on twitter, took place August 18 and 19 and included a session on OpenRefine led by @DEJPett. You can catch up with the workshop task https://t.co/tn5q0NdrXx and tutorial shared https://t.co/BOgqC5Qw4N on texas diplomatic correspondence. 
+
 <div align="center">
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Omgosh....OpenRefine has the potential so make so many basic data management tasks SOOOO much easier. Very excited. <a href="https://twitter.com/hashtag/msudai?src=hash">#msudai</a></p>&mdash; Mary E. Lennon (@MaryELennon) <a href="https://twitter.com/MaryELennon/status/633789661840863233">August 18, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -40,9 +41,14 @@ MSU’s Institute for Digital Archaeology Method & Practice, #msudai on twitter,
 
 
 Meanwhile in Argentina, the HackHacker Media party was a great success. Thank you to @jjelosua and @rusosnith for sharing your OpenRefine knowledge! 
+
+<div align="center"> 
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Workshop de scrapeo de datos con Openrefine de <a href="https://twitter.com/rusosnith">@rusosnith</a> <a href="https://twitter.com/hashtag/hhba?src=hash">#hhba</a> <a href="http://t.co/Hs3Wp8YAQ2">pic.twitter.com/Hs3Wp8YAQ2</a></p>&mdash; Hacks Hackers Bs As (@HacksHackersBA) <a href="https://twitter.com/HacksHackersBA/status/636973877432852481">August 27, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
  
 <div align="center">
-<blockquote class="twitter-tweet" lang="en"><p lang="es" dir="ltr">Workshop de <a href="https://twitter.com/jjelosua">@jjelosua</a> en la a href="https://twitter.com/hashtag/mediaparty2015?src=hash">#mediaparty2015</a> de <a href="https://twitter.com/hashtag/hhba?src=hash">#hhba</a> Expresiones regulares y OpenRefine <a href="https://twitter.com/HacksHackersBA">@hackshackersBA</a> <a href="http://t.co/IrcZeGcQy7"></a><img src="https://pbs.twimg.com/media/CNhm_OpWsAA_AtC.jpg"></p>&mdash; C.Fernández Moores (@carolafmoores) <a href="https://twitter.com/carolafmoores/status/637372584431124484">August 28, 2015</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p lang="es" dir="ltr">Workshop de <a href="https://twitter.com/jjelosua">@jjelosua</a> en la a href="https://twitter.com/hashtag/mediaparty2015?src=hash">#mediaparty2015</a> de <a href="https://twitter.com/hashtag/hhba?src=hash">#hhba</a> Expresiones regulares y OpenRefine <a href="https://twitter.com/HacksHackersBA">@hackshackersBA</a></p>&mdash; C.Fernández Moores (@carolafmoores) <a href="https://twitter.com/carolafmoores/status/637372584431124484">August 28, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
