@@ -13,6 +13,7 @@ Most of August tutorials and new publication revolve around using OpenRefine wit
 Catch up [Silk](https://twitter.com/silkdotco) tutorial and video webinar on how to [clean and enhance data using APIs, OpenRefine, and Regex](http://blog.silk.co/post/127234807482/from-ombd-to-gender-data-on-film-directors-how-to)
 
 [@hpiedcoq](https://twitter.com/hpiedcoq) have been sharing a list of JSON recipes and how to on github:
+
 * [How-to retrieve infos on french companies](http://t.co/LLgNKCjLa5)
 * [How to check validity of E.U. VAT numbers using OpenRefine and the VIES platform?](https://t.co/esuw1Xz7kk)
 * [Mass IP identifier for OpenRefine](https://github.com/hpiedcoq/Mass-IP-identifier-for-OpenRefine)
@@ -32,7 +33,7 @@ As we keep closing the latest issue for the 2.6 release, [@cm_harlow](http://twi
 ## August Events Summary
 
 
-MSU’s Institute for Digital Archaeology Method & Practice, #msudai on twitter, took place August 18 and 19 and included a session on OpenRefine led by @DEJPett. You can catch up with the workshop task https://t.co/tn5q0NdrXx and tutorial shared https://t.co/BOgqC5Qw4N on texas diplomatic correspondence. 
+MSU’s Institute for Digital Archaeology Method & Practice, took place August 18 and 19 and included a session on OpenRefine led by [@DEJPett](https://twitter.com/DEJPett). You can catch up with the [workshop task](https://t.co/tn5q0NdrXx) and [tutorial shared on texas diplomatic correspondence](https://t.co/BOgqC5Qw4N). 
 
 <div align="center">
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Omgosh....OpenRefine has the potential so make so many basic data management tasks SOOOO much easier. Very excited. <a href="https://twitter.com/hashtag/msudai?src=hash">#msudai</a></p>&mdash; Mary E. Lennon (@MaryELennon) <a href="https://twitter.com/MaryELennon/status/633789661840863233">August 18, 2015</a></blockquote>
@@ -40,7 +41,7 @@ MSU’s Institute for Digital Archaeology Method & Practice, #msudai on twitter,
 </div>
 
 
-Meanwhile in Argentina, the HackHacker Media party was a great success. Thank you to @jjelosua and @rusosnith for sharing your OpenRefine knowledge! 
+Meanwhile in Argentina, the HackHacker Media party was a great success. Thank you to [@jjelosua](https://twitter.com/jjelosua) and [@rusosnith](https://twitter.com/rusosnith) for sharing your OpenRefine knowledge! 
 
 <div align="center"> 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Workshop de scrapeo de datos con Openrefine de <a href="https://twitter.com/rusosnith">@rusosnith</a> <a href="https://twitter.com/hashtag/hhba?src=hash">#hhba</a> <a href="http://t.co/Hs3Wp8YAQ2">pic.twitter.com/Hs3Wp8YAQ2</a></p>&mdash; Hacks Hackers Bs As (@HacksHackersBA) <a href="https://twitter.com/HacksHackersBA/status/636973877432852481">August 27, 2015</a></blockquote>
