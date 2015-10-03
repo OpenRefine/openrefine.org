@@ -7,9 +7,8 @@ title: "Welcome to the new OpenRefine site"
 
 
 OpenRefine (formerly Google Refine) is a powerful tool for working with messy data: 
-cleaning it; transforming it from one format into another; extending it with 
-web services; and linking it to databases like 
-[Freebase](http://www.freebase.com/). 
+cleaning it; transforming it from one format into another; and extending it with 
+web services and external data. 
 
 Please note that since October 2nd, 2012, Google is not actively supporting 
 this project, which has now been rebranded to OpenRefine. Project development,
@@ -54,9 +53,8 @@ more about this functionality by watching the video below and going through
 ## 3. Reconcile and Match Data
 
 OpenRefine can be used to link and extend your dataset with various webservices. 
-Some services, like [Freebase](http://www.freebase.com/), also allow OpenRefine
- to upload your cleaned data to a central database. A growing list of
- extensions and plugins is 
+Some services also allow OpenRefine to upload your cleaned data to a central database.
+A growing list of extensions and plugins is
 [available on the wiki](https://github.com/OpenRefine/OpenRefine/wiki/Reconcilable-Data-Sources).
 
 <div class="video-wrapper">
