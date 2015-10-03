@@ -6,19 +6,18 @@ title: OpenRefine Documentation
 # Documentation for User
 
 ## Official Documentation
-Please check our [wiki](https://github.com/OpenRefine/OpenRefine/wiki/) for the complete documentation. The [FAQ](https://github.com/OpenRefine/OpenRefine/wiki/FAQ) is the place to go for common questions.
-
-You can't find what you need and have questions, please use [the OpenRefine mailing list](http://groups.google.com/group/openrefine/)
-
-Found a bug? Please [open an issue](https://github.com/OpenRefine/OpenRefine/issues?milestone=&page=1&state=open)
++ **[FAQ](https://github.com/OpenRefine/OpenRefine/wiki/FAQ)**
++ **[Official Documentation Wiki](https://github.com/OpenRefine/OpenRefine/wiki/)**
++ **[OpenRefine Mailing List](http://groups.google.com/group/openrefine/)**
++ **[File a Bug or Feature Request](https://github.com/OpenRefine/OpenRefine/issues?milestone=&page=1&state=open)**
 
 ## Tutorials
-There is tons of tutorial out there to learn OpenRefine. [This curated list](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources) updated on regular basis.
++ **[Curated Tutorial List](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources)**
 
 ## Using OpenRefine - The Book
 <div style="float: left ; margin-right: 10px"><img src="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/using-openrefine.jpg" width="150"/></div>
 
-**[Using OpenRefine](http://www.packtpub.com/openrefine-guide-for-data-analysis-and-linking-dataset-to-the-web/book)** by Ruben Verborgh, Max De Wilde offer a great introduction for anyone with little experience with OpenRefine. Organized by recipes with hands on example, the book cover the following topics:
+**[Using OpenRefine](http://www.packtpub.com/openrefine-guide-for-data-analysis-and-linking-dataset-to-the-web/book)** by Ruben Verborgh, Max De Wilde offers anyone a great introduction to OpenRefine. Organized by recipes with hands on examples, the book covers the following topics:
 
 1. Import data in various formats
 2. Explore datasets in a matter of seconds
@@ -30,6 +29,5 @@ There is tons of tutorial out there to learn OpenRefine. [This curated list](htt
 8. Perform advanced data operations with the General Refine Expression Language
 
 # Documentation for Developers
-Want to extend or translate OpenRefine? You will find what you need on the [wiki for developers](https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers) 
-
-Do you have questions or want to connect with other like minded developer, the [dev. discussion list](https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev) is here for you!
+* **[Wiki for Developers](https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers)**
++ **[Developer Discussion List](https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev)**
