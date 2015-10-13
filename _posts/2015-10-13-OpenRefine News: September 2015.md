@@ -4,10 +4,8 @@
   title: "OpenRefine News: September 2015"
 ---
 
-# OpenRefine News: September 2015
 We are thrilled to share with you some updates from our end, new and exciting developments that have been happening with the community in September, the buzz around the new online [OpenRefine Foundation](http://bigdatauniversity.com/bdu-wp/bdu-course/introduction-to-openrefine/) course.
 
-----
 ## New Course and Article
 
 [RefinePro](http://bigdatauniversity.com/bdu-wp/bdu-course/introduction-to-openrefine/) launched the new Online OpenRefine Foundation Course, to assist in the learning of basic data science by providing structure and direction to the students. This course lets you learn the basics of OpenRefine and data manipulation in only 7 hours. There are a total of 23 instructional videos and 7 hands-on labs split into 5 challenging lessons.
@@ -23,9 +21,7 @@ Good article about @OpenRefine and the [handling of large amounts of data] (http
 ##### In Mandarin
 Really interesting to see how the community had come a long way and now the reach is on a global scale.  Check [@tzangms](https://twitter.com/tzangms) using [OpenRefine to show how you can use facets and filters.](http://blog.infographics.tw/2015/09/openrefine-introduction/)
 
-
 ##Development Update
-
 
 Andrey at [@Fusepool](https://twitter.com/Fusepool)  release of a new OpenRefine binary with an RDF extension, get it here: [https://github.com/fusepoolP3/OpenRefine/releases/tag/2.6-beta.2-rdf …] (https://t.co/Q6RV8q4LWl)
 
@@ -35,15 +31,11 @@ A big thanks to [nestorjal rudygt] (https://github.com/nestorjal)  and [nachomez
 
 Thank you also to [mgalushka](https://github.com/mgalushka) and  [jackyq2015](https://github.com/OpenRefine/OpenRefine/issues?q=is%3Apr+is%3Aopen+author%3Ajackyq2015) for their merged pull request through September.
 
-
 ## September Event
-
 
 ### Data Science Training 4 Librarians (DST4L)
 
 In September the Data Science Training 4 Librarians (DST4L) initially organized by Harvard Library moved to Copenhagen at the Technical University of Denmark for a three days sessions. The workshop started with a full day on OpenRefine with Simon Hengchen ([@_shengche](https://twitter.com/_shengche)), Raphael Hubain ([(@rHubain)](https://twitter.com/rhubain)) and Martin Magdinier ([@magdmartin](https://twitter.com/magdmartin)) with support via twitter by the rest of the community.      
-
-
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/MagdMartin">@MagdMartin</a> leading the <a href="https://twitter.com/hashtag/Dst4l?src=hash">#Dst4l</a> crowd into refined aspects of <a href="https://twitter.com/OpenRefine">@OpenRefine</a> <a href="https://twitter.com/hashtag/GREL?src=hash">#GREL</a> <a href="https://twitter.com/MyDTU">@MyDTU</a> <a href="http://t.co/ApXuJ5oTRb">pic.twitter.com/ApXuJ5oTRb</a></p>&mdash; Michael Svendsen (@tullemich) <a href="https://twitter.com/tullemich/status/641564358976380928">September 9, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -59,9 +51,6 @@ Sharing knowledge on @OpenRefine workshop happening in Argentina. Really good to
 
 <blockquote class="twitter-tweet" lang="en"><p lang="es" dir="ltr">Qué miran? Cómo &quot;masajear&quot; datos con <a href="https://twitter.com/OpenRefine">@OpenRefine</a> en el taller <a href="https://twitter.com/hashtag/CartografiaDeDatos?src=hash">#CartografiaDeDatos</a> de <a href="https://twitter.com/FLACSOVirtualAR">@FLACSOVirtualAR</a>. <a href="http://t.co/Jb3BDXYwYZ">pic.twitter.com/Jb3BDXYwYZ</a></p>&mdash; Sergio Sorin (@pollatos) <a href="https://twitter.com/pollatos/status/643886036955828224">September 15, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
 
 ## Up Coming Workshop and Events
 
