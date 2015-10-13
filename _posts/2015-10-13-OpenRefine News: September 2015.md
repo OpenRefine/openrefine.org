@@ -57,4 +57,4 @@ Sharing knowledge on @OpenRefine workshop happening in Argentina. Really good to
 
 [Introduction to OpenRefine at Central PA Open Source Conference](http://cposc.org/sessions/introduction-to-openrefine/) 2015-10-17 by Heather Myers. Data is always a hot topic, this conference is to educate and talk about cleaning this data. Increased demand for this product leads to more and more workshops, which is really good to see. 
 
-[DVS Workshop: OpenRefine: Data Mining and Transformations, Text Normalization](http://calendar.duke.edu/events/show?fq=id%3ACAL-8a0870ef-4f40a47f-014f-43b8961b-00006e91demobedework%40mysite.edu)  Oct 20, 2015 at Duke University
+[DVS Workshop: OpenRefine: Data Mining and Transformations, Text Normalization](http://calendar.duke.edu/events/show?fq=id%3ACAL-8a0870ef-4f40a47f-014f-43b8961b-00006e91demobedework%40mysite.edu)  Oct 20, 2015 at Duke University.
