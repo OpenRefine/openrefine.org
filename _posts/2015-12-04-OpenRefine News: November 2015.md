@@ -48,7 +48,7 @@ Another popular event that happened last month was the Seamntic Web In Libraries
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Spreadsheets, data tidying and open refine <a href="https://twitter.com/vlsci">@vlsci</a> <a href="https://twitter.com/datacarpentry">@datacarpentry</a> morning session <a href="https://t.co/R0knY1t5rK">pic.twitter.com/R0knY1t5rK</a></p>&mdash; Matthew Wakefield (@genomematt) <a href="https://twitter.com/genomematt/status/668585580553375744">November 23, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Students working with OpenRefine at [#biodatavis15](https://twitter.com/hashtag/biodatavis15?src=hash) recently held in Belgium. Very nice conference here that run a couple of days as well brought via [Jan Aerts.](https://twitter.com/jando)
+Students working with OpenRefine at [#biodatavis15](https://twitter.com/hashtag/biodatavis15?src=hash) recently held in Belgium. Very nice conference here that run a couple of days as well brought via [Jan Aerts.](https://twitter.com/jandot)
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Students hard at work getting to grips with <a href="https://twitter.com/hashtag/openrefine?src=hash">#openrefine</a> at <a href="https://twitter.com/hashtag/biodatavis15?src=hash">#biodatavis15</a> <a href="https://t.co/dlwlWxNC0d">pic.twitter.com/dlwlWxNC0d</a></p>&mdash; Jan Aerts (@jandot) <a href="https://twitter.com/jandot/status/668778423674871809">November 23, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
