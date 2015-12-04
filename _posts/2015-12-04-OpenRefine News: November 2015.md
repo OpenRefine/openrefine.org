@@ -1,3 +1,9 @@
+---
+  layout: post
+  author: magdmartin
+  title: "OpenRefine News: November 2015"
+---
+
 Once again welcome to the latest edition of our monthly update. Always exciting to update you on all the new developments that have been happening with OpenRefine, and the community as a whole.
 
 This monthly update will showcase some good tutorials that were written by community members, popular events from November, and some events you can look forward to in December.
