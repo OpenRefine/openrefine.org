@@ -28,7 +28,7 @@ We found this story really interesting and how [@KatieLaGrone](https://twitter.c
 ## Development Update
 
 We received two majors contributions last month. 
-First [@kgrons](https://twitter.com/k_grons) [@corajr](https://twitter.com/cora_jr) and [@roellephant](https://twitter.com/roellephant) built a new cluster export feature for OpenRefine. Their pull request is under review but you can test it right away [from their repository](https://github.com/amiaopensource/OpenRefine/releases/tag/2.6%2Bamia).
+First [@k_grons](https://twitter.com/k_grons) [@cora_jr](https://twitter.com/cora_jr) and [@roellephant](https://twitter.com/roellephant) built a new cluster export feature for OpenRefine. Their pull request is under review but you can test it right away [from their repository](https://github.com/amiaopensource/OpenRefine/releases/tag/2.6%2Bamia).
 
 [@pm5](https://twitter.com/pm5) started a Node.js [client library for controlling OpenRefine](https://github.com/pm5/node-openrefine) similar to the existing one in ruby and python.
 
