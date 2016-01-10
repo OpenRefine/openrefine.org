@@ -3,6 +3,9 @@ layout: default
 title: OpenRefine Community
 ---
 
+
+## How to contribute
+
 Interested in helping OpenRefine development? Please review our [contributions guidelines](https://github.com/OpenRefine/OpenRefine/blob/master/CONTRIBUTING.md).
 
 #Current & Previous Contributors
