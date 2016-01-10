@@ -4,7 +4,7 @@ title: OpenRefine Community
 ---
 
 
-## How to contribute
+# How to contribute
 
 Interested in helping OpenRefine development? Please review our [contributions guidelines](https://github.com/OpenRefine/OpenRefine/blob/master/CONTRIBUTING.md).
 
