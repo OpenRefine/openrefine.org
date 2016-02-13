@@ -2,7 +2,7 @@
 layout: default
 title: Download OpenRefine
 ---
-You will find on this page a list of OpenRefine distribution and available extensions available for download. Are we missing something? Want to fix a typo? You can submit changes (pull request) [from here](https://github.com/OpenRefine/openrefine.github.com/blob/master/download.md).
+You will find on this page a list of OpenRefine distributions and extensions available for download. Are we missing something? Want to fix a typo? You can submit changes (pull request) [from here](https://github.com/OpenRefine/openrefine.github.com/blob/master/download.md).
 
  
 ## Official Distribution
@@ -35,9 +35,9 @@ Download, open, drag icon into the Applications folder and double click on it.
 + **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.5/google-refine-2.5-r2407.tar.gz)**, 
 Download, extract, then type _./refine_ to start. **NOTE:** Google Refine 2.5 for linux support java 6 and 7 only
 
-## Other Distribution
+## Other Distributions
 
-The following distribution have been customized for a specific usage or integration with other technologies. 
+The following distributions have been customized for a specific usage or integration with other technologies. 
 
 | Distribution | Description |  Authors |
 |--------------|-------------|----------|
@@ -47,9 +47,9 @@ The following distribution have been customized for a specific usage or integrat
 | [SparkonRefine](https://github.com/andreybratus/RefineOnSpark) | RefineOnSpark is a driver program to run OpenRefine jobs on the Spark cluster | SpazioDati | 
 | [Reconciliation-and-Matching-Framework](https://github.com/RBGKew/Reconciliation-and-Matching-Framework) | A framework to allow the matching of string entities using customised sets of transformations and matchers, plus a tool to produce the necessary configurations and another to expose them as OpenRefine reconciliation services.  | RBGKew | 
 
-##List of Extension: 
+## List of Extensions: 
 
-You can install the following extension to add functionalities to OpenRefine. See [how to install an extension](https://github.com/OpenRefine/OpenRefine/wiki/Installing-Extensions).
+You can install the following extensions to add functionalities to OpenRefine. See [how to install an extension](https://github.com/OpenRefine/OpenRefine/wiki/Installing-Extensions).
 
 | Extension Name | Description | Authors |
 |--------------|-------------|----------|
@@ -72,13 +72,13 @@ You can install the following extension to add functionalities to OpenRefine. Se
 | [extraCTU-plugin](https://github.com/giTorto/geoXtension) | to extract E-mails, Telephone numbers, Urls and the Identification Numbers from a messy text | giTorto |
 | [geoXtension](https://github.com/giTorto/geoXtension) | geoXtension is based on gdal, proj and geos libraries. Adding this extension to OpenRefine takes a lot of time, usage of the ready-made docker is recommended |  giTorto  | 
 
-##Reconciliation Service
+## Reconciliation Service
 
-OpenRefine can connect to several reconciliation service. Please read our wiki for a [list of them](https://github.com/OpenRefine/OpenRefine/wiki/Reconcilable-Data-Sources).
+OpenRefine can connect to several reconciliation services. Please read our wiki for a [list of them](https://github.com/OpenRefine/OpenRefine/wiki/Reconcilable-Data-Sources).
 
-##Libraries
+## Libraries
 
-You can automate some OpenRefine operation using one of the existing libraries. You can read more about [OpenRefine API](https://github.com/OpenRefine/OpenRefine/wiki/OpenRefine-API).
+You can automate some OpenRefine operations using one of the existing libraries. You can read more about [OpenRefine API](https://github.com/OpenRefine/OpenRefine/wiki/OpenRefine-API).
 * [python](https://github.com/PaulMakepeace/refine-client-py/)
 * An other [python](https://github.com/maxogden/refine-python) library
 * [ruby](https://github.com/maxogden/refine-ruby)
