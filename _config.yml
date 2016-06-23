@@ -9,9 +9,10 @@ plugins:     ./_plugins
 
 future:      true
 lsi:         false
-pygments:    true
+pygments:    false
 markdown:    kramdown
 permalink:   date
+highlighter: rouge
 
 maruku:
   use_tex:    false
