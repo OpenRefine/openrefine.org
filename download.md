@@ -86,7 +86,7 @@ You can install the following extensions to add functionalities to OpenRefine. S
 | [Stats extension for Google Refine 2.5+](https://github.com/sparkica/refine-stats) | A extension for OpenRefine to compute elementary statistics on a column data.  | sparkica  | 
 | [extraCTU-plugin](https://github.com/giTorto/geoXtension) | to extract E-mails, Telephone numbers, Urls and the Identification Numbers from a messy text | giTorto |
 | [geoXtension](https://github.com/giTorto/geoXtension) | geoXtension is based on gdal, proj and geos libraries. Adding this extension to OpenRefine takes a lot of time, usage of the ready-made docker is recommended |  giTorto  | 
-| [D2Refine](https://github.com/caCDE-QA/D2Refine) | a clinical study metadata harmonization and validation workbench to 1) convert restrictions (specified in a spreadsheet like interface) into a clinical model; and 2) provide metadata reconciliation services leveraging the Common Terminology Services 2 (CTS2) |  Deepak K. Sharma https://github.com/dksharma | 
+| [D2Refine](https://github.com/caCDE-QA/D2Refine) | a clinical study metadata harmonization and validation workbench to 1) convert restrictions (specified in a spreadsheet like interface) into a clinical model; and 2) provide metadata reconciliation services leveraging the Common Terminology Services 2 (CTS2) |  Mayo Clinic - contact https://github.com/dksharma | 
 
 ## Reconciliation Service
 
