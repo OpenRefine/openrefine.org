@@ -11,12 +11,24 @@ Read the [installation instructions](https://github.com/OpenRefine/OpenRefine/wi
 
 You can also Download All Official Releases and source from our [GITHUB RELEASES PAGE HERE](https://github.com/OpenRefine/OpenRefine/releases/)
 
+### OpenRefine 2.7-rc1 Release Candidate 1
+
+A new release on Feb 11, 2017. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/).
+
++ **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.7-rc1/openrefine-win-2.7-rc.1.zip)**, 
+Download, unzip, and double-click on _openrefine.exe_. If you're 
+having issues with the above, try double-clicking on _refine.bat_ instead.
++ **[Mac kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.7-rc1/openrefine-mac-2.7-rc.1.dmg)**, 
+Download, open, drag icon into the Applications folder and double click on it. 
++ **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.7-rc1/openrefine-linux-2.7-rc.1.tar.gz)**, 
+Download, extract, then type _./refine_ to start.
+
 ### OpenRefine 2.6-rc2 Release Candidate 2
 
 This is the 2nd release candidate for OpenRefine 2.6 on Oct 13, 2015. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/).
 
 + **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.6-rc.2/openrefine-win-2.6-rc.2.zip)**, 
-Download, unzip, and double-click on _google-refine.exe_. If you're 
+Download, unzip, and double-click on _openrefine.exe_. If you're 
 having issues with the above, try double-clicking on _refine.bat_ instead.
 + **[Mac kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.6-rc.2/openrefine-mac-2.6-rc.2.dmg)**, 
 Download, open, drag icon into the Applications folder and double click on it. 
@@ -28,7 +40,7 @@ Download, extract, then type _./refine_ to start.
 This is the first beta release of OpenRefine 2.6 on Aug 27, 2013. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/).
 
 + **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.6-beta.1/openrefine-win-2.6-beta.1.zip)**, 
-Download, unzip, and double-click on _google-refine.exe_. If you're 
+Download, unzip, and double-click on _openrefine.exe_. If you're 
 having issues with the above, try double-clicking on _refine.bat_ instead.
 + **[Mac kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.6-beta.1/openrefine-mac-2.6-beta.1.dmg)**, 
 Download, open, drag icon into the Applications folder and double click on it. 
