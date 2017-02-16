@@ -15,12 +15,12 @@ You can also Download All Official Releases and source from our [GITHUB RELEASES
 
 A new release on Feb 11, 2017. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/).
 
-+ **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.7-rc1/openrefine-win-2.7-rc.1.zip)**, 
++ **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.7-rc.1/openrefine-win-2.7-rc.1.zip)**, 
 Download, unzip, and double-click on _openrefine.exe_. If you're 
 having issues with the above, try double-clicking on _refine.bat_ instead.
-+ **[Mac kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.7-rc1/openrefine-mac-2.7-rc.1.dmg)**, 
++ **[Mac kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.7-rc.1/openrefine-mac-2.7-rc.1.dmg)**, 
 Download, open, drag icon into the Applications folder and double click on it. 
-+ **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.7-rc1/openrefine-linux-2.7-rc.1.tar.gz)**, 
++ **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.7-rc.1/openrefine-linux-2.7-rc.1.tar.gz)**, 
 Download, extract, then type _./refine_ to start.
 
 ### OpenRefine 2.6-rc2 Release Candidate 2
