@@ -3,7 +3,7 @@ layout: home
 title: "Welcome to the new OpenRefine site"
 ---
 
-#Welcome!
+# Welcome!
 
 
 OpenRefine (formerly Google Refine) is a powerful tool for working with messy data: 
