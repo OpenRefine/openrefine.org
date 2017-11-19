@@ -11,7 +11,6 @@ Read the [installation instructions](https://github.com/OpenRefine/OpenRefine/wi
 
 You can also Download All Official Releases and source from our [GITHUB RELEASES PAGE HERE](https://github.com/OpenRefine/OpenRefine/releases/)
 
-https://github.com/OpenRefine/OpenRefine/releases/tag/2.8
 ### OpenRefine 2.8
 
 The final release of 2.8 on Nov 18, 2017. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/).
@@ -24,7 +23,6 @@ Download, open, drag icon into the Applications folder and double click on it.
 + **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.8/openrefine-linux-2.8.tar.gz)**, 
 Download, extract, then type _./refine_ to start.
 
-https://github.com/OpenRefine/OpenRefine/releases/tag/2.7
 ### OpenRefine 2.7
 
 The final release of 2.7 on Jun 17, 2017. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/).
