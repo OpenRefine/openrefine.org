@@ -9,12 +9,11 @@ You will find on this page a list of OpenRefine distributions and extensions ava
 
 Read the [installation instructions](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions)
 
-You can also Download All Official Releases and source from our [GITHUB RELEASES PAGE HERE](https://github.com/OpenRefine/OpenRefine/releases/)
+You can also download all official releases and source from our [GITHUB RELEASES PAGE](https://github.com/OpenRefine/OpenRefine/releases/)
 
-https://github.com/OpenRefine/OpenRefine/releases/tag/2.8
 ### OpenRefine 2.8
 
-The final release of 2.8 on Nov 18, 2017. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/).
+The final release of 2.8 on Nov 18, 2017. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/2.8).
 
 + **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.8/openrefine-win-2.8.zip)**, 
 Download, unzip, and double-click on _openrefine.exe_. If you're 
@@ -26,7 +25,7 @@ Download, extract, then type _./refine_ to start.
 
 ### OpenRefine 2.7
 
-The final release of 2.7 on Jun 17, 2017. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/).
+The final release of 2.7 on Jun 17, 2017. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/2.7).
 
 + **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.7/openrefine-win-2.7.zip)**, 
 Download, unzip, and double-click on _openrefine.exe_. If you're 
