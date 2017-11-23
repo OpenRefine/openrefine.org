@@ -47,7 +47,7 @@ The following distributions have been customized for a specific usage or integra
 | [SparkonRefine](https://github.com/andreybratus/RefineOnSpark) | RefineOnSpark is a driver program to run OpenRefine jobs on the Spark cluster | SpazioDati | 
 | [Reconciliation-and-Matching-Framework](https://github.com/RBGKew/Reconciliation-and-Matching-Framework) | A framework to allow the matching of string entities using customised sets of transformations and matchers, plus a tool to produce the necessary configurations and another to expose them as OpenRefine reconciliation services.  | RBGKew | 
 
-## List of Extensions: 
+## List of Extensions 
 
 You can install the following extensions to add functionalities to OpenRefine. See [how to install an extension](https://github.com/OpenRefine/OpenRefine/wiki/Installing-Extensions).
 
@@ -74,14 +74,17 @@ You can install the following extensions to add functionalities to OpenRefine. S
 | [geoXtension](https://github.com/giTorto/geoXtension) | geoXtension is based on gdal, proj and geos libraries. Adding this extension to OpenRefine takes a lot of time, usage of the ready-made docker is recommended |  giTorto  | 
 | [D2Refine](https://github.com/caCDE-QA/D2Refine) | A clinical study metadata harmonization and validation workbench to 1) convert restrictions (specified in a spreadsheet like interface) into a clinical model; and 2) provide metadata reconciliation services leveraging the Common Terminology Services 2 (CTS2) |  Deepak K. Sharma https://github.com/dksharma | 
 
-## Reconciliation Service
+## Reconciliation Services
 
 OpenRefine can connect to several reconciliation services. Please read our wiki for a [list of them](https://github.com/OpenRefine/OpenRefine/wiki/Reconcilable-Data-Sources).
 
-## Libraries
+## Client Libraries
 
-You can automate some OpenRefine operations using one of the existing libraries. You can read more about [OpenRefine API](https://github.com/OpenRefine/OpenRefine/wiki/OpenRefine-API).
+You can automate some OpenRefine operations using one of the existing libraries. Those libraries are using the [OpenRefine API](https://github.com/OpenRefine/OpenRefine/wiki/OpenRefine-API).
 * [python](https://github.com/PaulMakepeace/refine-client-py/)
+  * [fork with extended CLI](https://github.com/felixlohmeier/openrefine-client)
 * An other [python](https://github.com/maxogden/refine-python) library
 * [ruby](https://github.com/maxogden/refine-ruby)
 * [javascript - nodejs](https://github.com/pm5/node-openrefine)
+* [R](https://cran.r-project.org/web/packages/rrefine/index.html)
+* [php](https://github.com/keboola/openrefine-php-client)
