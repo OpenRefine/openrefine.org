@@ -9,12 +9,11 @@ You will find on this page a list of OpenRefine distributions and extensions ava
 
 Read the [installation instructions](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions)
 
-You can also Download All Official Releases and source from our [GITHUB RELEASES PAGE HERE](https://github.com/OpenRefine/OpenRefine/releases/)
+You can also download all official releases and source from our [GITHUB RELEASES PAGE](https://github.com/OpenRefine/OpenRefine/releases/)
 
-https://github.com/OpenRefine/OpenRefine/releases/tag/2.8
 ### OpenRefine 2.8
 
-The final release of 2.8 on Nov 18, 2017. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/).
+The final release of 2.8 on Nov 18, 2017. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/2.8).
 
 + **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.8/openrefine-win-2.8.zip)**, 
 Download, unzip, and double-click on _openrefine.exe_. If you're 
@@ -26,7 +25,7 @@ Download, extract, then type _./refine_ to start.
 
 ### OpenRefine 2.7
 
-The final release of 2.7 on Jun 17, 2017. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/).
+The final release of 2.7 on Jun 17, 2017. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/2.7).
 
 + **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/2.7/openrefine-win-2.7.zip)**, 
 Download, unzip, and double-click on _openrefine.exe_. If you're 
@@ -48,7 +47,7 @@ The following distributions have been customized for a specific usage or integra
 | [SparkonRefine](https://github.com/andreybratus/RefineOnSpark) | RefineOnSpark is a driver program to run OpenRefine jobs on the Spark cluster | SpazioDati | 
 | [Reconciliation-and-Matching-Framework](https://github.com/RBGKew/Reconciliation-and-Matching-Framework) | A framework to allow the matching of string entities using customised sets of transformations and matchers, plus a tool to produce the necessary configurations and another to expose them as OpenRefine reconciliation services.  | RBGKew | 
 
-## List of Extensions: 
+## List of Extensions 
 
 You can install the following extensions to add functionalities to OpenRefine. See [how to install an extension](https://github.com/OpenRefine/OpenRefine/wiki/Installing-Extensions).
 
@@ -75,14 +74,17 @@ You can install the following extensions to add functionalities to OpenRefine. S
 | [geoXtension](https://github.com/giTorto/geoXtension) | geoXtension is based on gdal, proj and geos libraries. Adding this extension to OpenRefine takes a lot of time, usage of the ready-made docker is recommended |  giTorto  | 
 | [D2Refine](https://github.com/caCDE-QA/D2Refine) | A clinical study metadata harmonization and validation workbench to 1) convert restrictions (specified in a spreadsheet like interface) into a clinical model; and 2) provide metadata reconciliation services leveraging the Common Terminology Services 2 (CTS2) |  Deepak K. Sharma https://github.com/dksharma | 
 
-## Reconciliation Service
+## Reconciliation Services
 
 OpenRefine can connect to several reconciliation services. Please read our wiki for a [list of them](https://github.com/OpenRefine/OpenRefine/wiki/Reconcilable-Data-Sources).
 
-## Libraries
+## Client Libraries
 
-You can automate some OpenRefine operations using one of the existing libraries. You can read more about [OpenRefine API](https://github.com/OpenRefine/OpenRefine/wiki/OpenRefine-API).
+You can automate some OpenRefine operations using one of the existing libraries. Those libraries are using the [OpenRefine API](https://github.com/OpenRefine/OpenRefine/wiki/OpenRefine-API).
 * [python](https://github.com/PaulMakepeace/refine-client-py/)
+  * [fork with extended CLI](https://github.com/felixlohmeier/openrefine-client)
 * An other [python](https://github.com/maxogden/refine-python) library
 * [ruby](https://github.com/maxogden/refine-ruby)
 * [javascript - nodejs](https://github.com/pm5/node-openrefine)
+* [R](https://cran.r-project.org/web/packages/rrefine/index.html)
+* [php](https://github.com/keboola/openrefine-php-client)
