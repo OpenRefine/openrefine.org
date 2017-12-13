@@ -17,6 +17,11 @@ this project, which has now been rebranded to OpenRefine. Project development,
  [history of OpenRefine]({{site.baseurl}}/2013/10/12/openrefine-history.html) 
 and how you can [help the community]({{site.baseurl}}/community).
 
+# 2017 OpenRefine User Survey 
+
+It's been a while since our last user survey (See the result from the [2014 edition]({{site.baseurl}}/2014/08/29/2014-survey-results.html), we would like to know who you are, how you use OpenRefine and what your expectations are.  So here it is the 2017 edition of the OpenRefine user survey! Thank you for sharing it with your friends, coworker, and communities!
+
+**[Take the survey](https://bit.ly/2AOMVBJ)**
 
 # Using OpenRefine - The Book
 <div style="float: left ; margin-right: 10px"><img src="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/using-openrefine.jpg" width="150"/></div>
