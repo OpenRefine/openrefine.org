@@ -19,7 +19,7 @@ and how you can [help the community]({{site.baseurl}}/community).
 
 # 2017 OpenRefine User Survey 
 
-It's been a while since our last user survey (See the result from the [2014 edition]({{site.baseurl}}/2014/08/29/2014-survey-results.html), we would like to know who you are, how you use OpenRefine and what your expectations are.  So here it is the 2017 edition of the OpenRefine user survey! Thank you for sharing it with your friends, coworker, and communities!
+It's been a while since our last user survey (see the result from the [2014 edition]({{site.baseurl}}/2014/08/29/2014-survey-results.html)), we would like to know who you are, how you use OpenRefine and what your expectations are.  So here it is the 2017 edition of the OpenRefine user survey! Thank you for sharing it with your friends, coworker, and communities!
 
 **[Take the survey](https://bit.ly/2AOMVBJ)**
 
