@@ -2,6 +2,8 @@
 layout: post
 author: RubenVerborgh
 title: "Using OpenRefine: a manual"
+category: My Category
+
 ---
 
 _“How do I get started?”_ is the question we received most

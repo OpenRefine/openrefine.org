@@ -1,37 +1,18 @@
-{% include head.html %}
-<body>
-  
-  {% include header.html %}
-<div class="page-title-bar">
-  <div class="inner-content">
-    <h2><a href="{{site.baseurl}}/blog.html">Blog</a></h2>
+---
+layout: default
+---
+
+<header>
+  <h1 class="post-title">{{ page.title }}</h1>
+</header>
+<div class="content">
+  {% include post-meta.html post=page %}
+
+  <div class="post-body">
+    {{ content }}
+    {% include post-tags.html post=page %}
   </div>
+
+  {% include comments.html %}
+  {% include related_posts.html %}
 </div>
-
-<div class="page-type-subnav">
-  <div id="subnav">
-  {% include sidebar.html %}  
- </div>  
-
-  <div id="blog">
-    <div id="blog-single">
-      <article>
-        <header>
-          <h1>{{ page.title }}</h1>
-          <p>Posted on {{ page.date | date: "%B %d, %Y" }} by {{ page.author }}</p>
-        </header>
-        <div class="entry-content">
-          {{ content }}
-          {% include comments.html %}
-        </div>
-      </article>
-    </div> 
-  </div> 
-</div>
-  
-
-
-  {% include footer.html %}
-
-</body>
-</html>

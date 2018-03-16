@@ -1,26 +1,16 @@
-{% include head.html %}
-<body>
-  
-  {% include header.html %}
-<div class="page-title-bar">
-  <div class="inner-content">
-    <h2>{{ page.title }}</h2>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="en-us">
 
-<div class="page-type-subnav">
-  <div id="subnav">
-  {% include sidebar.html %}  
- </div>  
+  {% include head.html %}
 
+  <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
 
-  <div id="content">
-  {{ content }}
-  </div>
-  
-</div>
+    {% include sidebar.html %}
 
-  {% include footer.html %}
+    <main class="container">
+      {{ content }}
+    </main>
 
-</body>
+    {% include custom-foot.html %}
+  </body>
 </html>

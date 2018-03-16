@@ -2,6 +2,8 @@
   layout: post
   author: magdmartin
   title: "Mapping OpenRefine Ecosystem"
+  category: My Category
+
 ---
 
 Since the OpenRefine move to Github two years ago, the project has reached a mature stage, and only maintenance work has been done with the release of openrefine2.6-beta. At the same time, the project kept gaining traction with over a thousand weekly downloads and usage with various audiences in particular fields of application. One out of four OpenRefine users identify themselves as librarians, with Researchers and Open Data enthusiasts representing the second largest user group, and Data Journalists and Semantic Web Professionals completing the picture (see the full [2014 survey results](http://openrefine.org/2014/08/29/2014-survey-results.html))

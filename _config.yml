@@ -1,39 +1,38 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
 safe:        true
 port: 4000
+
 baseurl: http://www.openrefine.org
-url: http://localhost:4000
+url: http://localhost:4000      
+   # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
 
-source:      .
-destination: ./_site
+author:
+  name:           'OpenRefine'
+  url:            https://twitter.com/openrefine
 
-future:      true
-lsi:         false
-pygments:    false
-markdown:    kramdown
-permalink:   date
-highlighter: rouge
+paginate:         30
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
 
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
 
-rdiscount:
-  extensions: []
-
-kramdown:
-  auto_ids: true,
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-  
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
+# Custom vars
+version:            3.5.3
+sidebar_home_link:  true
+#sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
+github:             #https://github.com/OpenRefine/OpenRefine
+ #repo:            https://github.com/fongandrew/hydeout
