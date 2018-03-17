@@ -1,6 +1,6 @@
 ---
 layout: category
-title: list Of All Articles
+title: Blog
 category: My Category
 ---
 

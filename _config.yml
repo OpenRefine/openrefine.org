@@ -5,8 +5,8 @@ highlighter:      rouge
 # Setup
 safe:        true
 port: 4000
-
-baseurl: http://www.openrefine.org
+#description: A free, open source, powerful tool for working with messy data
+#baseurl: http://www.openrefine.org
 url: http://localhost:4000      
    # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -18,7 +18,7 @@ author:
   name:           'OpenRefine'
   url:            https://twitter.com/openrefine
 
-paginate:         30
+paginate:         8
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
@@ -34,5 +34,5 @@ sidebar_home_link:  true
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
-github:             #https://github.com/OpenRefine/OpenRefine
- #repo:            https://github.com/fongandrew/hydeout
+github:             https://github.com/OpenRefine/openrefine.github.com 
+ #repo:           # repo Address 
