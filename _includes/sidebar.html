@@ -1,18 +1,11 @@
 <div id="sidebar">
   <header>
-    <img src="/favicon.png">
-    <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
-      <a href="{{ site.baseurl }}/">
-        {% unless page.url == "/" %}
-          <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
-        {% endunless %}
-        {{ site.title }}
-      </a>
-    </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
-
-    <p class="lead">{{ site.description }}</p>
+    <img src="favicon.png">
+  
   </header>
   {% include sidebar-nav-links.html %}
+  {% include sidebar-icon-links.html %}
+
 <br>
 
 <!-- Twitter timeline from @tfmorris account? -->
@@ -22,6 +15,5 @@
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-  {% include sidebar-icon-links.html %}
 
 </div>
