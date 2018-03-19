@@ -209,9 +209,9 @@ Download, extract, then type <em>./refine</em> to start.</li>
 <p>You can automate some OpenRefine operations using one of the existing libraries. Those libraries are using the <a href="https://github.com/OpenRefine/OpenRefine/wiki/OpenRefine-API">OpenRefine API</a>.</p>
 <ul>
   <li><a href="https://github.com/PaulMakepeace/refine-client-py/">python</a>
-    <ul>
-      <li><a href="https://github.com/felixlohmeier/openrefine-client">fork with extended CLI</a></li>
-    </ul>
+    
+  <li><a href="https://github.com/felixlohmeier/openrefine-client">fork with extended CLI</a></li>
+    
   </li>
   <li>An other <a href="https://github.com/maxogden/refine-python">python</a> library</li>
   <li><a href="https://github.com/maxogden/refine-ruby">ruby</a></li>

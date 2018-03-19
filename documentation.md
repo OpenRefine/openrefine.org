@@ -45,7 +45,4 @@ sidebar_link: true
   <li><strong><a href="https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers">Wiki for Developers</a></strong></li>
   <li><strong><a href="https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev">Developer Discussion List</a></strong></li>
 </ul>
-
-  
-  
 </div>

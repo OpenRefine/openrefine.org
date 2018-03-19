@@ -9,9 +9,9 @@ sidebar_link: true
 
 <p>Interested in helping OpenRefine development? Please review our <a href="https://github.com/OpenRefine/OpenRefine/blob/master/CONTRIBUTING.md">contributions guidelines</a>.</p>
 
-<p># Current &amp; Previous Contributors</p>
+<p><h1> Current &amp; Previous Contributors</h1></p>
 
-<p># #Current</p>
+<p><h2>Current </h2></p>
 
 <ul>
   <li>Lead Developer: Tom Morris - <a href="https://twitter.com/tfmorris">@tfmorris</a> - <a href="https://github.com/tfmorris">Github</a></li>
@@ -20,7 +20,7 @@ sidebar_link: true
   <li>See list of <a href="https://github.com/OpenRefine/OpenRefine/graphs/contributors">all recent code contributors </a></li>
 </ul>
 
-<p>##Previous Contributors
+<p><h2>Previous Contributors</h2>
 This software was created by Metaweb Technologies, Inc. and originally written and conceived by David Huynh <a href="mailto:dfhuynh@google.com">dfhuynh@google.com</a>. Metaweb Technologies, Inc. was acquired by Google, Inc. in July 2010 and the product was renamed Google Refine. In October 2012, it was renamed OpenRefine as it transitioned to a community-supported product.</p>
 
 <p>They helped to develop Gridworks and Google Refine (in chronological order):</p>
