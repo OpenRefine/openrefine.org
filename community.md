@@ -9,9 +9,9 @@ sidebar_link: true
 
 <p>Interested in helping OpenRefine development? Please review our <a href="https://github.com/OpenRefine/OpenRefine/blob/master/CONTRIBUTING.md">contributions guidelines</a>.</p>
 
-<p>#Current &amp; Previous Contributors</p>
+<p># Current &amp; Previous Contributors</p>
 
-<p>##Current</p>
+<p># #Current</p>
 
 <ul>
   <li>Lead Developer: Tom Morris - <a href="https://twitter.com/tfmorris">@tfmorris</a> - <a href="https://github.com/tfmorris">Github</a></li>
