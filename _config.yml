@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 safe:        true
 port: 4000
-#description: A free, open source, powerful tool for working with messy data
+description: A free, open source, powerful tool for working with messy data
 #baseurl: http://www.openrefine.org
 url: http://localhost:4000      
    # the optional subpath of your site, e.g. "/blog"

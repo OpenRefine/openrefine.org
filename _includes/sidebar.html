@@ -1,8 +1,15 @@
 <div id="sidebar">
   <header>
 
-    <img src="favicon.png">
     
+    {% if site.github %}
+    <div id="Logo"><a 
+    	class="logo"
+       href="#">
+      {% include svg/OpenRefine-Logo-white.svg %}
+    </a></div>
+{% endif %}
+<p class="lead">{{ site.description }}</p>
   </header>
 </br>
   {% include sidebar-icon-links.html %}
