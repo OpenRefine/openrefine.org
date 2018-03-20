@@ -87,21 +87,21 @@ body {
 }
 
 // Make header elements blend into sidebar / background
-// .container > header {
-//   background: transparent;
-//   color: white;
-//   margin: ($heading-spacing - $section-spacing)
-//           $section-spacing
-//           $section-spacing;
+.container > header {
+  background: transparent;
+  color: white;
+  margin: ($heading-spacing - $section-spacing)
+          $section-spacing
+          $section-spacing;
 
-//   h1, h2 {
-//     color: white;
+  h1, h2 {
+    color: white;
 
-//     &:last-child {
-//       margin-bottom: 0;
-//     }
-//   }
-// }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
 
 
 /* -----------------------------------------------------------
