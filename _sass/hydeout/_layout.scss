@@ -84,25 +84,21 @@ body {
   header ~ *, header ~ nav, p.lead {
     display: none;
   }
+  .container {
+    background: $body-bg;
+    color: $body-color;
+    padding: $section-spacing * 2;
+    height: 100vh;}
 }
 
 // Make header elements blend into sidebar / background
-.container > header {
-  background: transparent;
-  color: white;
-  margin: ($heading-spacing - $section-spacing)
-          $section-spacing
-          $section-spacing;
-
-  h1, h2 {
-    color: white;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-}
-
+.container {
+    background: $body-bg;
+    color: $body-color;
+    padding: $section-spacing * 2;
+    height: 100%;}
+    
+  
 
 /* -----------------------------------------------------------
   Mobile view for home page)
@@ -148,7 +144,9 @@ body {
     height: 100vh;
     overflow: auto;
     > * { max-height: 100vh; overflow: auto; }
+
   }
+
 
   /* Undo mobile CSS */
 
