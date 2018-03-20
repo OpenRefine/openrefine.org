@@ -81,9 +81,10 @@ body {
 // Hide secondary nav content in sidebar
 // Hide lead paragraph in sidebar
 #sidebar {
-  header ~ *, header ~ nav, p.lead {
+  header ~ *, p.lead {
     display: none;
   }
+  text-align: center;
   .container {
     background: $body-bg;
     color: $body-color;
@@ -104,16 +105,17 @@ body {
   Mobile view for home page)
 ----------------------------------------------------------- */
 
-.home #sidebar {
+.home header ~ *, p.lead {
+    display: none;
 
   // Center sidebar content
   text-align: center;
 
   // Bigger title
   .site-title {
-    font-size: 3.25rem;
+    font-size: 3rem;
     color: white;
-  }
+  }}
 
   // Show secondary nav content + lead
   header ~ *, p.lead {
@@ -131,7 +133,7 @@ body {
   > *:last-child {
     margin-bottom: 0.5rem;
   }
-}
+
 
 
 /* -----------------------------------------------------------
