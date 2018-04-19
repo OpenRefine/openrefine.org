@@ -14,7 +14,7 @@ sidebar_link: true
   <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/">Official Documentation Wiki</a></li>
   <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/External-Resources">Curated Tutorial List</a></li>
   <li><a href="http://groups.google.com/group/openrefine/">OpenRefine Mailing List</a></li>
-  <li><a href="https://github.com/OpenRefine/OpenRefine/issues?milestone=&amp;page=1&amp;state=open">File a Bug or Feature Request</a></strong></li>
+  <li><a href="https://github.com/OpenRefine/OpenRefine/issues?milestone=&amp;page=1&amp;state=open">File a Bug or Feature Request</a></li>
 </ul>
 
 <h2 id="using-openrefine---the-book">Using OpenRefine - The Book</h2>
