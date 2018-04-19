@@ -10,15 +10,11 @@ sidebar_link: true
 
 <h2 id="official-documentation">Official Documentation</h2>
 <ul>
-  <li><strong><a href="https://github.com/OpenRefine/OpenRefine/wiki/FAQ">FAQ</a></strong></li>
-  <li><strong><a href="https://github.com/OpenRefine/OpenRefine/wiki/">Official Documentation Wiki</a></strong></li>
-  <li><strong><a href="http://groups.google.com/group/openrefine/">OpenRefine Mailing List</a></strong></li>
-  <li><strong><a href="https://github.com/OpenRefine/OpenRefine/issues?milestone=&amp;page=1&amp;state=open">File a Bug or Feature Request</a></strong></li>
-</ul>
-
-<h2 id="tutorials">Tutorials</h2>
-<ul>
-  <li><strong><a href="https://github.com/OpenRefine/OpenRefine/wiki/External-Resources">Curated Tutorial List</a></strong></li>
+  <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/FAQ">FAQ</a></li>
+  <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/">Official Documentation Wiki</a></li>
+  <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/External-Resources">Curated Tutorial List</a></li>
+  <li><a href="http://groups.google.com/group/openrefine/">OpenRefine Mailing List</a></li>
+  <li><a href="https://github.com/OpenRefine/OpenRefine/issues?milestone=&amp;page=1&amp;state=open">File a Bug or Feature Request</a></strong></li>
 </ul>
 
 <h2 id="using-openrefine---the-book">Using OpenRefine - The Book</h2>
@@ -40,7 +36,15 @@ sidebar_link: true
   <li>Perform advanced data operations with the General Refine Expression Language</li>
 </ol>
 
-<h1 id="documentation-for-developers">Documentation for Developers</h1>
+<h2 id="online-course">OpenRefinne Online Courses</h2>
+<p><strong><a href="https://cognitiveclass.ai/courses/introduction-to-openrefine/">OpenRefine 101</a></strong> is a free online course in partnership with the Cognitive Class.ai created by Martin Magdinier. There are a total of 23 instructional videos split into 5 lessons:</p>
+  <li><strong>Lesson 1: Introduction to OpenRefine</strong> shows how OpenRefine will help with your data transformation and integration projects. You will learn about the community that supports OpenRefine and how to install the software.</li>
+  <li><strong>Lesson 2: Data Mining & Discovery.</strong> Explore data sets to find data quality gaps or information nuggets. Learn how to use facets and filters, how to combine them and sort data better.</li>
+  <li><strong>Lesson 3: Data Preparation & Normalization</strong> goes in-depth into actual data cleaning including removing duplicates, eliminating typos, splitting cells and using the undo/redo functions.</li>
+  <li><strong>Lesson 4: Introduction to GREL.</strong> The General Refine Expression Language is OpenRefine’s scripting language; you will learn its syntax and most commonly used expressions for data cleaning.</li>
+  <li><strong>Lesson 5: Data Enrichment</strong> explains how you can add value to your data by joining data sets together and use third parties services available via API.</li>
+
+<h2 id="documentation-for-developers">Documentation for Developers</h1>
 <ul>
   <li><strong><a href="https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers">Wiki for Developers</a></strong></li>
   <li><strong><a href="https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev">Developer Discussion List</a></strong></li>
