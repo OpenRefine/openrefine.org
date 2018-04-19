@@ -44,9 +44,9 @@ sidebar_link: true
   <li><strong>Lesson 4: Introduction to GREL.</strong> The General Refine Expression Language is OpenRefine’s scripting language; you will learn its syntax and most commonly used expressions for data cleaning.</li>
   <li><strong>Lesson 5: Data Enrichment</strong> explains how you can add value to your data by joining data sets together and use third parties services available via API.</li>
 
-<h2 id="documentation-for-developers">Documentation for Developers</h1>
+<h2 id="documentation-for-developers">Documentation for Developers</h2>
 <ul>
   <li><strong><a href="https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers">Wiki for Developers</a></strong></li>
   <li><strong><a href="https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev">Developer Discussion List</a></strong></li>
 </ul>
-</div>
+
