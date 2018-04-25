@@ -7,7 +7,7 @@ sidebar_link: true
 
     
 <div id="content">
-  <p>You will find on this page a list of OpenRefine distributions and extensions available for download. Are we missing something? Want to fix a typo? You can submit changes (pull request) <a href="https://github.com/OpenRefine/openrefine.github.com/blob/master/download.md">from here</a>.</p>
+  <p>You will find on this page a list of OpenRefine distributions and extensions available for download.</p>
 
 <h2 id="official-distribution">Official Distribution</h2>
 

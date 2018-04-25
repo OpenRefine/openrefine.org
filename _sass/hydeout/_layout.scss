@@ -155,6 +155,7 @@ body {
   #sidebar, .home #sidebar {
     width: $sidebar-width;
     text-align: center;
+    align-self: flex-start;
 
     > *:last-child {
       margin-bottom: 0;
