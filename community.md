@@ -7,7 +7,7 @@ sidebar_link: true
 <div id="content">
   <h1 id="how-to-contribute">How to contribute</h1>
 
-<p>Interested in helping OpenRefine development? Please review our <a href="https://github.com/OpenRefine/OpenRefine/blob/master/CONTRIBUTING.md">contribution guidelines</a>.</p>
+<p>Interested in helping OpenRefine development? Please review our <a href="https://github.com/OpenRefine/OpenRefine/blob/master/CONTRIBUTING.md">contribution guideline</a>.</p>
 
 <p><h1> Current &amp; Previous Contributors</h1></p>
 
