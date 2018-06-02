@@ -11,6 +11,20 @@ Read the [installation instructions](https://github.com/OpenRefine/OpenRefine/wi
 
 You can also download all official releases and source from our [GITHUB RELEASES PAGE](https://github.com/OpenRefine/OpenRefine/releases/)
 
+### OpenRefine 3.0 BETA
+
+This is the beta release of OpenRefine 3.0. Please BACKUP your workspace directory before installing and report any problems that you encounter.
+
+The BETA release of 3.0 on May 27, 2018. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.0-beta).
+
++ **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.0-beta/openrefine-win-3.0-beta.zip)**, 
+Download, unzip, and double-click on _openrefine.exe_. If you're 
+having issues with the above, try double-clicking on _refine.bat_ instead.
++ **[Mac kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.0-beta/openrefine-mac-3.0-beta.dmg)**, 
+Download, open, drag icon into the Applications folder and double click on it. 
++ **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.0-beta/openrefine-linux-3.0-beta.tar.gz)**, 
+Download, extract, then type _./refine_ to start.
+
 ### OpenRefine 2.8
 
 The final release of 2.8 on Nov 18, 2017. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/2.8).
