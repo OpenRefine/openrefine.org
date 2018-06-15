@@ -1,16 +1,25 @@
-    <h2><a href="{{site.baseurl}}/index.html">Home</a><h2>
-    <h2><a href="{{site.baseurl}}/download.html">Download</a></h2>
-    <h2><a href="{{site.baseurl}}/documentation.html">Documentation</a><h2>
-    <h2><a href="{{site.baseurl}}/community.html">Community</a><h2>
-    <h2><a href="{{site.baseurl}}/blog.html">Post archive</a></h2>
-    <ul class="bordered-list">
-      {% for post in site.posts %}
-      <li>
-        <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-    <!-- Twitter timeline from @tfmorris account? -->
-<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/search?q=OpenRefine+OR+%22Open+Refine%22+OR+%22Google+Refine%22+OR+googlerefine" data-widget-id="309777825588711424">Tweets about OpenRefine</a>
+<div id="sidebar" style="text-align:center;">
+  <header>   
+    {% if site.github %}
+    <div id="Logo"><a 
+    	class="logo"
+       href="#">
+      {% include svg/OpenRefine-Logo-white.svg %}
+    </a></div>
+{% endif %}
+<p class="lead">{{ site.description }}</p>
+  </header>
+</br>
+  {% include sidebar-icon-links.html %}
+  {% include sidebar-nav-links.html %}
+</br>
+<!-- Twitter timeline from @tfmorris account? -->
+<!-- disable twitter <div id="mobile-view"><a class="twitter-timeline" data-dnt="true" href="https://twitter.com/search?q=OpenRefine+OR+%22Open+Refine%22+OR+%22Google+Refine%22+OR+googlerefine" data-widget-id="309777825588711424">Tweets about OpenRefine</a>-->
 <a class="jprofiler" href="http://www.ej-technologies.com/products/jprofiler/overview.html">Enhanced with Java profiler<img alt="Java profiler" src="https://www.ej-technologies.com/images/product_banners/jprofiler_large.png"></a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+</div>
+
+
+
+</div>

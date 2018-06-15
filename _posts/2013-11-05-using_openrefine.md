@@ -2,6 +2,8 @@
 layout: post
 author: RubenVerborgh
 title: "Using OpenRefine: a manual"
+category: My Category
+
 ---
 
 _“How do I get started?”_ is the question we received most
@@ -15,7 +17,7 @@ However, until recently, no complete OpenRefine manual existed,
 so you had to collect documentation from different sources
 if you wanted to master OpenRefine.
 
-<a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/using-openrefine.jpg"><img src="/images/using-openrefine.jpg" class="inset" /></a>
+<a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/using-openrefine.jpg"><img src="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/using-openrefine.jpg" class="inset" /></a>
 This is why we've written an OpenRefine manual called [_Using OpenRefine_](http://www.packtpub.com/openrefine-guide-for-data-analysis-and-linking-dataset-to-the-web/book)
 that leads you from your first steps
 to all advanced OpenRefine topics.
