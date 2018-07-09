@@ -13,7 +13,12 @@ sidebar_link: true
   <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/FAQ">FAQ</a></li>
   <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/">Official Documentation Wiki</a></li>
   <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/External-Resources">Curated Tutorial List</a></li>
-  <li><a href="http://groups.google.com/group/openrefine/">OpenRefine Mailing List</a></li>
+</ul>
+
+<h2 id="support">Support and Questions</h2>
+<ul>
+  <li><a href="http://groups.google.com/group/openrefine/">OpenRefine Support Mailing List</a></li>
+  <li><a href="https://stackoverflow.com/questions/tagged/openrefine">StackOverflow Tag</a></li>
   <li><a href="https://github.com/OpenRefine/OpenRefine/issues?milestone=&amp;page=1&amp;state=open">File a Bug or Feature Request</a></li>
 </ul>
 
