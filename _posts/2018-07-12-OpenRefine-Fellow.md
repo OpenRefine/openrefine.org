@@ -19,7 +19,7 @@ You'll be expected to post a weekly report of your work to the [openrefine-devel
 
 If you don't perform the duties to a satisfactory level, we may end your contract. Based on our funding the position is currently set for four months from September 1st to December 31 2018. Compensation isn't competitive with full-time salaries in big cities like San Francisco or London. The Fellow will be selected to make best use of available funds.
 
-If you're interested in applying for the position, please email us at:[[ADD EMAIL]]. Please add details of your experience with OpenRefine and open-source contribution and community support in general, the amount of time each week you'd like to dedicate to the position (a minimum of 30 hours a week), your hourly rate, and when you'd like to start working. 
+If you're interested in applying for the position, please email us at: fellow@openrefine.org. Please add details of your experience with OpenRefine and open-source contribution and community support in general, the amount of time each week you'd like to dedicate to the position (a minimum of 30 hours a week), your hourly rate, and when you'd like to start working. 
 
 Applications will be open until August 3rd 2018 with the expectation that the successful candidate will be announced around August 20th, 2018. 
 
