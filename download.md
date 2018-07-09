@@ -50,6 +50,7 @@ The following distributions have been customized for a specific usage or integra
 | [p3-batchrefine](https://github.com/fusepoolP3/p3-batchrefine) | BatchRefine adds batch processing capabilities to OpenRefine and support multiple back end including spark | SpazioDati | 
 | [SparkonRefine](https://github.com/andreybratus/RefineOnSpark) | RefineOnSpark is a driver program to run OpenRefine jobs on the Spark cluster | SpazioDati | 
 | [Reconciliation-and-Matching-Framework](https://github.com/RBGKew/Reconciliation-and-Matching-Framework) | A framework to allow the matching of string entities using customised sets of transformations and matchers, plus a tool to produce the necessary configurations and another to expose them as OpenRefine reconciliation services.  | RBGKew | 
+| [FAIRifier](https://github.com/DTL-FAIRData/FAIRifier)| Add the FAIRified data as RDF to a data resource (FTP or virtuoso triple store - more to be added later). This allows the user to push FAIR data to a resource and metadata to a FAIRDataPoint(FDP) with one application.| Dutch Techcentre for Life Sciences.  |
 
 ## List of Extensions 
 
