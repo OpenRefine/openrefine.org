@@ -5,6 +5,15 @@ sidebar_link: true
 
 ---
 
+
+<h1 id="documentation-for-developers">Documentation for Developers</h2>
+<ul>
+  <li><strong><a href="https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers">Wiki for Developers</a></strong></li>
+  <li><strong><a href="https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev">Developer Discussion List</a></strong></li>
+</ul>
+
+
+
 <div id="content">
   <h1 id="documentation-for-user">Documentation for User</h1>
 
@@ -12,7 +21,6 @@ sidebar_link: true
 <ul>
   <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/FAQ">FAQ</a></li>
   <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/">Official Documentation Wiki</a></li>
-  <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/External-Resources">Curated Tutorial List</a></li>
 </ul>
 
 <h2 id="support">Support and Questions</h2>
@@ -22,6 +30,16 @@ sidebar_link: true
   <li><a href="https://github.com/OpenRefine/OpenRefine/issues?milestone=&amp;page=1&amp;state=open">File a Bug or Feature Request</a></li>
 </ul>
 
+<h2 id="datacarpentry">Online Courses</h2>
+<ul>
+  <li><a href="https://cognitiveclass.ai/courses/introduction-to-openrefine/">Cognitive Class: OpenRefine 101</a> (with video)</strong>
+  <li><a href="https://datacarpentry.org/openrefine-socialsci/">DataCarpentry: OpenRefine for Social Science Data</a></li>
+  <li><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">DataCarpentry: OpenRefine for Ecology</a></li>
+  <li><a href="https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine">The Programming Historian: Cleaning Data with OpenRefine </a>(en) and (es)</strong></li>
+  <li><a href="https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine">The Programming Historian: Fetching and Parsing Data from the Web with OpenRefine</a></strong></li>
+  <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/External-Resources">Curated Tutorial List</a></strong></li>  
+  
+</ul>
 <h2 id="using-openrefine---the-book">Using OpenRefine - The Book</h2>
 <div style="float: left ; margin-right: 10px"><img src="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/using-openrefine.jpg" width="150" /></div>
 
@@ -40,18 +58,3 @@ sidebar_link: true
   <li>Use named-entity extraction on full-text fields to automatically identify topics</li>
   <li>Perform advanced data operations with the General Refine Expression Language</li>
 </ol>
-
-<h2 id="online-course">OpenRefinne Online Courses</h2>
-<p><strong><a href="https://cognitiveclass.ai/courses/introduction-to-openrefine/">OpenRefine 101</a></strong> is a free online course in partnership with the Cognitive Class.ai created by Martin Magdinier. There are a total of 23 instructional videos split into 5 lessons:</p>
-  <li><strong>Lesson 1: Introduction to OpenRefine</strong> shows how OpenRefine will help with your data transformation and integration projects. You will learn about the community that supports OpenRefine and how to install the software.</li>
-  <li><strong>Lesson 2: Data Mining & Discovery.</strong> Explore data sets to find data quality gaps or information nuggets. Learn how to use facets and filters, how to combine them and sort data better.</li>
-  <li><strong>Lesson 3: Data Preparation & Normalization</strong> goes in-depth into actual data cleaning including removing duplicates, eliminating typos, splitting cells and using the undo/redo functions.</li>
-  <li><strong>Lesson 4: Introduction to GREL.</strong> The General Refine Expression Language is OpenRefine’s scripting language; you will learn its syntax and most commonly used expressions for data cleaning.</li>
-  <li><strong>Lesson 5: Data Enrichment</strong> explains how you can add value to your data by joining data sets together and use third parties services available via API.</li>
-
-<h2 id="documentation-for-developers">Documentation for Developers</h2>
-<ul>
-  <li><strong><a href="https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers">Wiki for Developers</a></strong></li>
-  <li><strong><a href="https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev">Developer Discussion List</a></strong></li>
-</ul>
-
