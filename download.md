@@ -51,7 +51,7 @@ The following distributions have been customized for a specific usage or integra
 | [SparkonRefine](https://github.com/andreybratus/RefineOnSpark) | RefineOnSpark is a driver program to run OpenRefine jobs on the Spark cluster | SpazioDati | 
 | [Reconciliation-and-Matching-Framework](https://github.com/RBGKew/Reconciliation-and-Matching-Framework) | A framework to allow the matching of string entities using customised sets of transformations and matchers, plus a tool to produce the necessary configurations and another to expose them as OpenRefine reconciliation services.  | RBGKew | 
 | [FAIRifier](https://github.com/DTL-FAIRData/FAIRifier)| Add the FAIRified data as RDF to a data resource (FTP or virtuoso triple store - more to be added later). This allows the user to push FAIR data to a resource and metadata to a FAIRDataPoint(FDP) with one application.| Dutch Techcentre for Life Sciences.  |
-| OntoRefine | GraphDB OntoRefine is a data transformation tool, based on OpenRefine and integrated in the GraphDB Workbench. It can be used for converting tabular data into RDF and importing it into a GraphDB repository, using simple SPARQL queries and a virtual endpoint.  | Ontotex |
+| OntoRefine | GraphDB OntoRefine is a data transformation tool, based on OpenRefine and integrated in the GraphDB Workbench. It can be used for converting tabular data into RDF and importing it into a GraphDB repository, using simple SPARQL queries and a virtual endpoint.  | Ontotext |
 
 ## List of Extensions 
 
