@@ -5,7 +5,7 @@
   category: My Category
 ---
 
-The OpenRefine Foundation is looking to hire a full-time Fellow for four months period to help us have a constant, guarantee attention to address our roadmap instead of volunteer-only efforts. The position of the Fellow is primarily to help the community address major architecture changes including (see details in GitHub)
+The OpenRefine Foundation is looking to hire a full-time Fellow for four months period to help us have a constant, guaranteed attention to address our roadmap instead of volunteer-only efforts. The position of the Fellow is primarily to help the community address major architecture changes including (see details in GitHub)
 * Replace ORG.JSON library - [#1652](https://github.com/OpenRefine/OpenRefine/issues/1652)
 * Improve Datagrid performance [#1347](https://github.com/OpenRefine/OpenRefine/issues/1347)
 * Research Apache Arrow to improve in-memory data model [#1469](https://github.com/OpenRefine/OpenRefine/issues/1469)
@@ -23,4 +23,4 @@ If you're interested in applying for the position, please email us at: fellow@op
 
 Applications will be open until August 3rd 2018 with the expectation that the successful candidate will be announced around August 20th, 2018. 
 
-Successful applicants will not be an employee of the OpenRefine Project or OpenRefine Foundation. Fellows will be contractors and expected to ensure that they meet all of their resident country's criteria for self-employment or having or being employed by a consulting company, invoicing the OpenRefine Foundation on a monthly basis and ensuring they pay all relevant taxes.
+Successful applicants will not be an employee of the OpenRefine Project or OpenRefine Foundation. Fellows will be contractors and expected to ensure that they meet all of their resident country's criteria for self-employment or having or being employed by a consulting company. Fellows will be required to invoice the OpenRefine Foundation on a monthly basis and ensuring they pay all relevant taxes.
