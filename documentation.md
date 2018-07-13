@@ -6,10 +6,10 @@ sidebar_link: true
 ---
 
 
-<h1 id="documentation-for-developers">Documentation for Developers</h2>
+<h2 id="documentation-for-developers">Documentation for Developers</h2>
 <ul>
-  <li><strong><a href="https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers">Wiki for Developers</a></strong></li>
-  <li><strong><a href="https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev">Developer Discussion List</a></strong></li>
+  <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers">Wiki for Developers</a></li>
+  <li><a href="https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev">Developer Discussion List</a></li>
 </ul>
 
 
