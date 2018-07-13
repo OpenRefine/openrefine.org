@@ -6,15 +6,13 @@ sidebar_link: true
 ---
 
 
-<h2 id="documentation-for-developers">Documentation for Developers</h2>
+<div id="content">
+<h1 id="documentation-for-developers">Documentation for Developers</h1>
 <ul>
   <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers">Wiki for Developers</a></li>
   <li><a href="https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev">Developer Discussion List</a></li>
 </ul>
 
-
-
-<div id="content">
   <h1 id="documentation-for-user">Documentation for User</h1>
 
 <h2 id="official-documentation">Official Documentation</h2>
@@ -32,14 +30,14 @@ sidebar_link: true
 
 <h2 id="datacarpentry">Online Courses</h2>
 <ul>
-  <li><a href="https://cognitiveclass.ai/courses/introduction-to-openrefine/">Cognitive Class: OpenRefine 101</a> (with video)</strong>
+  <li><a href="https://cognitiveclass.ai/courses/introduction-to-openrefine/">Cognitive Class: OpenRefine 101</a> (with video)
   <li><a href="https://datacarpentry.org/openrefine-socialsci/">DataCarpentry: OpenRefine for Social Science Data</a></li>
   <li><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">DataCarpentry: OpenRefine for Ecology</a></li>
-  <li><a href="https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine">The Programming Historian: Cleaning Data with OpenRefine </a>(en) and (es)</strong></li>
-  <li><a href="https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine">The Programming Historian: Fetching and Parsing Data from the Web with OpenRefine</a></strong></li>
-  <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/External-Resources">Curated Tutorial List</a></strong></li>  
-  
-</ul>
+  <li><a href="https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine">The Programming Historian: Cleaning Data with OpenRefine </a>(en) and (es)</li>
+  <li><a href="https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine">The Programming Historian: Fetching and Parsing Data from the Web with OpenRefine</a></li>
+  <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/External-Resources">Curated Tutorial List</a></li>  
+ </ul>
+
 <h2 id="using-openrefine---the-book">Using OpenRefine - The Book</h2>
 <div style="float: left ; margin-right: 10px"><img src="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/using-openrefine.jpg" width="150" /></div>
 
