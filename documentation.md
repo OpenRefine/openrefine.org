@@ -36,7 +36,7 @@ sidebar_link: true
   <li><a href="https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine">The Programming Historian: Cleaning Data with OpenRefine </a>(en) and (es)</li>
   <li><a href="https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine">The Programming Historian: Fetching and Parsing Data from the Web with OpenRefine</a></li>
   <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/External-Resources">Curated Tutorial List</a></li>  
- </ul>
+
 
 <h2 id="using-openrefine---the-book">Using OpenRefine - The Book</h2>
 <div style="float: left ; margin-right: 10px"><img src="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/using-openrefine.jpg" width="150" /></div>
