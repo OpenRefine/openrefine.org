@@ -35,7 +35,7 @@ Note that in the below analysis we included users that never used OpenRefine in 
 
 <a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/2018survey/23.png"><img src="https://raw.githubusercontent.com/OpenRefine/openrefine.github.com/master/images/2018survey/23.png" class="inset" /></a>
 
-## How will you rate your skills using Google Refine
+## How will you rate your skills using OpenRefine
 
 Both in 2012 and 2014 we asked respondents to rate their skills from one to five. One being a novice in Refine and five being a master. This graph confirms the trends that the community is composed of advanced users with the only a third of them rating their skills at 1 or 2 out of 5.
 
@@ -49,7 +49,7 @@ The majority of the respondents use the latest release of OpenRefine (2.8).
 
 ## High-level tasks you do with OpenRefine
 
-Usage breakdown remains stable compared to the 2012 survey.  87.77% of the respondents are using OpenRefine to address more than one type of tasks.
+Usage breakdown remains stable compared to the 2012 survey. 87.77% of the respondents are using OpenRefine to address more than one type of task.
 
 The majority of the respondents use OpenRefine to normalize data (80%) and transform it (75%).  We introduced the answer _Preparing a dataset before visualization in another application (R, D3, Tableau, Fusion Table ...)_  in the 2018 survey.
 
