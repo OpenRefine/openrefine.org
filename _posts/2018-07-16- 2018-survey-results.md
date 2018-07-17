@@ -55,7 +55,7 @@ The majority of the respondents use OpenRefine to normalize data (80%) and trans
 
 <a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/2018survey/4.png"><img src="https://raw.githubusercontent.com/OpenRefine/openrefine.github.com/master/images/2018survey/4.png" class="inset" /></a>
 
-Note: Respondant can select multiple answer.
+Note: Respondant can select multiple answer. Click on the image to enlarge it. 
 
 ## Do you use plugin or extension?
 
@@ -63,7 +63,7 @@ Note: Respondant can select multiple answer.
 
 <a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/2018survey/5.png"><img src="https://raw.githubusercontent.com/OpenRefine/openrefine.github.com/master/images/2018survey/5.png" class="inset" /></a>
 
-Note: Respondent can select multiple answers. We consolidated blank answer with I don't use plugin or extension. 
+Note: Respondent can select multiple answers. We consolidated blank answer with I don't use plugin or extension. Click on the image to enlarge it. 
 
 ## Do you use a reconciliation service?
 
@@ -71,7 +71,7 @@ The two top services used are Wikidata and reconcile-csv. 30.33% of the responde
 
 <a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/2018survey/6.png"><img src="https://raw.githubusercontent.com/OpenRefine/openrefine.github.com/master/images/2018survey/6.png" class="inset" /></a>
 
-Note: Respondent can select multiple answers.
+Note: Respondent can select multiple answers. Click on the image to enlarge it. 
 
 ## Perception of Refine: 
 
@@ -85,7 +85,8 @@ The following word clouds are more eye-pleasing than an in-depth analysis.
 
 Excel, R, and python remain the mains alternative to OpenRefine. Since 2014, we can notice the emergence of other self-service data preparation tools like Trifacta and Talend Data Preparation. 
 
-<a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/2018survey/alternatives.png"><img src="https://raw.githubusercontent.com/OpenRefine/openrefine.github.com/master/images/2018survey/alternatives.png" class="inset" /></a>
+<a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/2018survey/alternative.png"><img src="https://raw.githubusercontent.com/OpenRefine/openrefine.github.com/master/images/2018survey/alternative.png" class="inset" /></a>
+
 
 ### Word used to describe OpenRefine
 
