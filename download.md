@@ -59,7 +59,7 @@ You can install the following extensions to add functionalities to OpenRefine. S
 | Extension Name | Description | Authors |
 |--------------|-------------|----------|
 | [RDF extension 0.9](https://github.com/fadmaa/grefine-rdf-extension/releases) for OpenRefine 2.6 | RDF Refine - an OpenRefine extension for exporting RDF |  DERI  | 
-| [RDF extension v1.0.0-rc2](https://github.com/stkenny/grefine-rdf-extension/releases/tag/v1.0.0-rc2) for OpenRefine 3.0+ | RDF Refine - an improved fork of OpenRefine extension for exporting RDF |  stkenny http://www.dri.ie/ | 
+| [RDF extension v1.0.0-rc4](https://github.com/stkenny/grefine-rdf-extension/releases/tag/v1.0.0-rc4) for OpenRefine 3.0+ | RDF Refine - an improved fork of OpenRefine extension for exporting RDF |  stkenny http://www.dri.ie/ | 
 | [Opentree](https://github.com/nickynicolson/refine-opentree) |  An extension for Google/Open Refine to display phylogenetic trees from the Open Tree of Life |  nickynicolson  | 
 | [BioVel](https://wiki.biovel.eu/display/doc/Installing+and+running+DR+Workflow+on+Taverna+Workbench#InstallingandrunningDRWorkflowonTavernaWorkbench-InstallingGoogleRefine and https://github.com/BioVeL/refine-ext)  |  The BioVeL Extension adds functionality specific to cleaning biodiversity data. The entire package can be installed and run locally as well as on a dedicated server. |  Botanic Garden and Botanical Museum Berlin-Dahlem | 
 | [GeoRefine](https://github.com/ryanfb/georefine) | Add Geospatial processing GREL functions for OpenRefine |  Ryan Baumann | 
