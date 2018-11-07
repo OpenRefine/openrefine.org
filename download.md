@@ -16,7 +16,7 @@ You can also download all official releases and source from our [GITHUB RELEASES
 ### OpenRefine 3.1 beta
 The beta release of OpenRefine 3.0. Please BACKUP your workspace directory before installing and report any problems that you encounter.
 
-The final release of 3.1 on Nov 7, 2018. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.1-beta).
+The beta was released of 3.1 on Nov 7, 2018. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.1-beta).
 
 + **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.1-beta/openrefine-win-3.1-beta.zip)**, 
 Download, unzip, and double-click on _openrefine.exe_. If you're 
