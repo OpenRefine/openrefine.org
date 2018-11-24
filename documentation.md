@@ -35,7 +35,9 @@ sidebar_link: true
   <li><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">DataCarpentry: OpenRefine for Ecology</a></li>
   <li><a href="https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine">The Programming Historian: Cleaning Data with OpenRefine </a>(en) and (es)</li>
   <li><a href="https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine">The Programming Historian: Fetching and Parsing Data from the Web with OpenRefine</a></li>
+  <li><a href="https://msaby.gitlab.io/atelier-openrefine-MASA/">Nettoyer et préparer des données avec OpenRefine : atelier pour les journées du consortium MASA - 14/11/2018 (fr)</a></li>  
   <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/External-Resources">Curated Tutorial List</a></li>  
+
 
 
 <h2 id="using-openrefine---the-book">Using OpenRefine - The Book</h2>
