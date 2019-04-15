@@ -30,7 +30,7 @@ sidebar_link: true
 
 <h2 id="datacarpentry">Online Courses</h2>
 <ul>
-  <li><a href="https://cognitiveclass.ai/courses/introduction-to-openrefine/">Cognitive Class: OpenRefine 101</a> (with video)
+  <li><a href="https://courses.tranzf.org/course/view.php?id=18">OpenRefine Foundation Course</a> (with video)
   <li><a href="https://datacarpentry.org/openrefine-socialsci/">DataCarpentry: OpenRefine for Social Science Data</a></li>
   <li><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">DataCarpentry: OpenRefine for Ecology</a></li>
   <li><a href="https://programminghistorian.org/en/lessons/cleaning-data-with-openrefine">The Programming Historian: Cleaning Data with OpenRefine </a>(en) and (es)</li>
