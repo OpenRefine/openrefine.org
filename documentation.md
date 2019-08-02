@@ -7,28 +7,28 @@ sidebar_link: true
 
 
 <div id="content">
-<h1 id="documentation-for-developers">Documentation for Developers</h1>
-<ul>
-  <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers">Wiki for Developers</a></li>
-  <li><a href="https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev">Developer Discussion List</a></li>
-</ul>
 
-  <h1 id="documentation-for-user">Documentation for User</h1>
 
-<h2 id="official-documentation">Official Documentation</h2>
+  <h2 id="documentation-for-user">Documentation for users</h1>
 <ul>
+   <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/">Official documentation</a></li>
   <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/FAQ">FAQ</a></li>
-  <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/">Official Documentation Wiki</a></li>
 </ul>
 
-<h2 id="support">Support and Questions</h2>
+<h1 id="documentation-for-developers">Documentation for developers</h1>
 <ul>
-  <li><a href="http://groups.google.com/group/openrefine/">OpenRefine Support Mailing List</a></li>
-  <li><a href="https://stackoverflow.com/questions/tagged/openrefine">StackOverflow Tag</a></li>
-  <li><a href="https://github.com/OpenRefine/OpenRefine/issues?milestone=&amp;page=1&amp;state=open">File a Bug or Feature Request</a></li>
+  <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers">Wiki for developers</a></li>
+  <li><a href="https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev">Developer discussion list</a></li>
 </ul>
 
-<h2 id="datacarpentry">Online Courses</h2>
+<h2 id="support">Support</h2>
+<ul>
+  <li><a href="http://groups.google.com/group/openrefine/">OpenRefine support mailing list</a></li>
+  <li><a href="https://stackoverflow.com/questions/tagged/openrefine">StackOverflow tag</a></li>
+  <li><a href="https://github.com/OpenRefine/OpenRefine/issues?milestone=&amp;page=1&amp;state=open">File a bug report or feature request</a></li>
+</ul>
+
+<h2 id="datacarpentry">Online courses</h2>
 <ul>
   <li><a href="https://courses.tranzf.org/course/view.php?id=18">OpenRefine Foundation Course</a> (with video)
   <li><a href="https://datacarpentry.org/openrefine-socialsci/">DataCarpentry: OpenRefine for Social Science Data</a></li>
