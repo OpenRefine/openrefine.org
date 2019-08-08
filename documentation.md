@@ -9,7 +9,7 @@ sidebar_link: true
 <div id="content">
 
 
-  <h2 id="documentation-for-user">Documentation for users</h1>
+  <h2 id="documentation-for-user">Documentation for users</h2>
 <ul>
    <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/">Official documentation</a></li>
   <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/FAQ">FAQ</a></li>
