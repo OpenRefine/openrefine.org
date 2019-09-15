@@ -73,7 +73,7 @@ You can install the following extensions to add functionalities to OpenRefine. S
 
 | Extension Name | Description | Authors |
 |--------------|-------------|----------|
-| [RDF extension Latest](https://github.com/stkenny/grefine-rdf-extension) for OpenRefine 3.0+ | RDF Refine - an improved fork of OpenRefine extension for exporting RDF |  stkenny http://www.dri.ie/ | 
+| [RDF extension Latest](https://github.com/stkenny/grefine-rdf-extension/blob/orefine/README.md) for OpenRefine 3.0+ | RDF Refine - an improved fork of OpenRefine extension for exporting RDF |  stkenny http://www.dri.ie/ | 
 | [RDF extension 0.9](https://github.com/fadmaa/grefine-rdf-extension/releases) for OpenRefine 2.6 and prior| RDF Refine - an older version of RDF extension for exporting RDF |  DERI  | 
 | [Opentree](https://github.com/nickynicolson/refine-opentree) |  An extension for Google/Open Refine to display phylogenetic trees from the Open Tree of Life |  nickynicolson  | 
 | [BioVel](https://wiki.biovel.eu/display/doc/Installing+and+running+DR+Workflow+on+Taverna+Workbench#InstallingandrunningDRWorkflowonTavernaWorkbench-InstallingGoogleRefine and https://github.com/BioVeL/refine-ext)  |  The BioVeL Extension adds functionality specific to cleaning biodiversity data. The entire package can be installed and run locally as well as on a dedicated server. |  Botanic Garden and Botanical Museum Berlin-Dahlem | 
