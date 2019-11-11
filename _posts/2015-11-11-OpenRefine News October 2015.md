@@ -2,7 +2,7 @@
   layout: post
   author: magdmartin
   title: "OpenRefine News: October 2015"
-  category: My Category
+  category: Blog
 
 ---
 In this October edition of OpenRefine news: we have listed the latest tutorials and documentation published. Looking for events to attends in November? There is five OpenRefine events happening in the coming weeks. 

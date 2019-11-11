@@ -2,7 +2,7 @@
 layout: post
 author: magdmartin
 title: "A Governance Model for OpenRefine"
-category: My Category
+category: Blog
 
 ---
 

@@ -2,7 +2,7 @@
   layout: post
   author: magdmartin
   title: OpenRefine History
-  category: My Category
+  category: Blog
 ---
 
 Yesterday [David Huynh announced](https://groups.google.com/forum/#!topic/openrefine/a3R6afKb4-4) that Google will soon stop its active support of Google Refine and count of community to get more involved to growth Refine.

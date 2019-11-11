@@ -2,7 +2,7 @@
   layout: post
   author: wetneb
   title: "WikidataCon Award 2019"
-  category: My Category
+  category: Blog
 
 ---
 

@@ -2,7 +2,7 @@
   layout: post
   author: magdmartin
   title: "OpenRefine News: September 2015"
-  category: My Category
+  category: Blog
 
 ---
 

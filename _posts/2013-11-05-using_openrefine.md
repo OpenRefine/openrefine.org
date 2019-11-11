@@ -2,7 +2,7 @@
 layout: post
 author: RubenVerborgh
 title: "Using OpenRefine: a manual"
-category: My Category
+category: Blog
 
 ---
 

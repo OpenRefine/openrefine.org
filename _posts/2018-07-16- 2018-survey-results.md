@@ -2,7 +2,7 @@
   layout: post
   author: magdmartin
   title: "2018 survey results"
-  category: My Category
+  category: Blog
 
 ---
 

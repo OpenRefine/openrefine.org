@@ -2,7 +2,7 @@
   layout: post
   author: magdmartin
   title: "Mapping OpenRefine Ecosystem"
-  category: My Category
+  category: Blog
 
 ---
 
