@@ -39,20 +39,6 @@ Download, open, drag icon into the Applications folder and double click on it.
 + **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.2/openrefine-linux-3.2.tar.gz)**, 
 Download, extract, then type _./refine_ to start.
 
-
-### OpenRefine 3.1
-The final release of OpenRefine 3.1. Please BACKUP your workspace directory before installing and report any problems that you encounter.
-
-The final release of 3.1 was released on Nov 29, 2018. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.1).
-
-+ **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.1/openrefine-win-3.1.zip)**, 
-Download, unzip, and double-click on _openrefine.exe_. If you're 
-having issues with the above, try double-clicking on _refine.bat_ instead.
-+ **[Mac kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.1/openrefine-mac-3.1.dmg)**, 
-Download, open, drag icon into the Applications folder and double click on it. 
-+ **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.1/openrefine-linux-3.1.tar.gz)**, 
-Download, extract, then type _./refine_ to start.
-
 ## Other Distributions
 
 The following distributions have been customized for a specific usage or integration with other technologies. 
