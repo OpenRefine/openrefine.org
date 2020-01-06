@@ -13,17 +13,15 @@ Read the [installation instructions](https://github.com/OpenRefine/OpenRefine/wi
 
 You can also download all official releases and source from our [GitHub releases page](https://github.com/OpenRefine/OpenRefine/releases/)
 
-### OpenRefine 3.3 beta
-The first beta release of OpenRefine 3.3. Please BACKUP your workspace directory before installing and report any problems that you encounter.
+### OpenRefine 3.3 RC1
+The first release candidate of OpenRefine 3.3. Please backup your workspace directory before installing and report any problems that you encounter. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.3-rc1).
 
-The first beta release of 3.3 was released on October 21, 2019. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.3-beta).
-
-+ **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.3-beta/openrefine-win-3.3-beta.zip)**, 
++ **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.3-rc1/openrefine-win-3.3-rc1.zip)**, 
 Download, unzip, and double-click on _openrefine.exe_. If you're 
 having issues with the above, try double-clicking on _refine.bat_ instead.
-+ **[Mac kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.3-beta/openrefine-mac-3.3-beta.dmg)**, 
++ **[Mac kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.3-rc1/openrefine-mac-3.3-rc1.dmg)**, 
 Download, open, drag icon into the Applications folder and double click on it. 
-+ **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.3-beta/openrefine-linux-3.3-beta.tar.gz)**, 
++ **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.3-rc1/openrefine-linux-3.3-rc1.tar.gz)**, 
 Download, extract, then type _./refine_ to start.
 
 ### OpenRefine 3.2
