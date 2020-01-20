@@ -48,7 +48,6 @@ The following distributions have been customized for a specific usage or integra
 | [p3-batchrefine](https://github.com/fusepoolP3/p3-batchrefine) | BatchRefine adds batch processing capabilities to OpenRefine and support multiple back end including spark | SpazioDati | 
 | [SparkonRefine](https://github.com/andreybratus/RefineOnSpark) | RefineOnSpark is a driver program to run OpenRefine jobs on the Spark cluster | SpazioDati | 
 | [Reconciliation-and-Matching-Framework](https://github.com/RBGKew/Reconciliation-and-Matching-Framework) | A framework to allow the matching of string entities using customised sets of transformations and matchers, plus a tool to produce the necessary configurations and another to expose them as OpenRefine reconciliation services.  | RBGKew | 
-| [FAIRifier](https://github.com/DTL-FAIRData/FAIRifier)| Add the FAIRified data as RDF to a data resource (FTP or virtuoso triple store - more to be added later). This allows the user to push FAIR data to a resource and metadata to a FAIRDataPoint(FDP) with one application.| Dutch Techcentre for Life Sciences.  |
 | OntoRefine | GraphDB OntoRefine is a data transformation tool, based on OpenRefine and integrated in the GraphDB Workbench. It can be used for converting tabular data into RDF and importing it into a GraphDB repository, using simple SPARQL queries and a virtual endpoint.  | Ontotext |
 
 ## List of Extensions 
@@ -57,10 +56,11 @@ You can install the following extensions to add functionalities to OpenRefine. S
 
 | Extension Name | Description | Authors |
 |--------------|-------------|----------|
+| [(FAIR) metadata](https://github.com/FAIRDataTeam/OpenRefine-metadata-extension) | Support [FAIR](https://www.go-fair.org/fair-principles/) **metadata** by integrating with [FAIR Data Point](https://github.com/FAIRDataTeam/FAIRDataPoint) (metadata storage) and various data storages. It is a successor of the legacy [FAIRifier](https://github.com/FAIRDataTeam/FAIRifier) (OpenRefine 2.6 fork) | [FAIRDataTeam](https://github.com/FAIRDataTeam/OpenRefine-metadata-extension/graphs/contributors) |
 | [RDF extension Latest](https://github.com/stkenny/grefine-rdf-extension/blob/orefine/README.md) for OpenRefine 3.0+ | RDF Refine - an improved fork of OpenRefine extension for exporting RDF |  stkenny http://www.dri.ie/ | 
 | [RDF extension 0.9](https://github.com/fadmaa/grefine-rdf-extension/releases) for OpenRefine 2.6 and prior| RDF Refine - an older version of RDF extension for exporting RDF |  DERI  | 
 | [Opentree](https://github.com/nickynicolson/refine-opentree) |  An extension for Google/Open Refine to display phylogenetic trees from the Open Tree of Life |  nickynicolson  | 
-| [BioVel](https://wiki.biovel.eu/display/doc/Installing+and+running+DR+Workflow+on+Taverna+Workbench#InstallingandrunningDRWorkflowonTavernaWorkbench-InstallingGoogleRefine and https://github.com/BioVeL/refine-ext)  |  The BioVeL Extension adds functionality specific to cleaning biodiversity data. The entire package can be installed and run locally as well as on a dedicated server. |  Botanic Garden and Botanical Museum Berlin-Dahlem | 
+| [BioVel](https://wiki.biovel.eu/display/doc/Installing+and+running+DR+Workflow+on+Taverna+Workbench#InstallingandrunningDRWorkflowonTavernaWorkbench-InstallingGoogleRefine), [BioVel@GitHub](https://github.com/BioVeL/refine-ext)  |  The BioVeL Extension adds functionality specific to cleaning biodiversity data. The entire package can be installed and run locally as well as on a dedicated server. |  Botanic Garden and Botanical Museum Berlin-Dahlem | 
 | [GeoRefine](https://github.com/ryanfb/georefine) | Add Geospatial processing GREL functions for OpenRefine |  Ryan Baumann | 
 | [String-Transformers](https://github.com/RBGKew/String-Transformers) | A collection of Java string transformers, suitable for use with OpenRefine. Some generic, some aimed at botany and taxonomy. | RBGKew | 
 | [CKAN Extension Storage for OpenRefine 2.6-beta1 and CKANv2.2+](https://github.com/Ontodia/openrefine-ckan-storage-extension) | Upload data directly from OpenRefine using CKAN storage API | Ontodia | 
