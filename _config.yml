@@ -35,4 +35,5 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:             https://github.com/OpenRefine/openrefine.github.com 
+title: OpenRefine
  #repo:           # repo Address 
