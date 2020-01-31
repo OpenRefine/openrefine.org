@@ -1,6 +1,7 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
+encoding: UTF-8
 
 # Setup
 safe:        true
