@@ -6,7 +6,7 @@
 
 ---
 
-From December 12, 2017, to June 7, 2018, we ran our third OpenRefine user survey.  Over five months; we received 122 responses. The goal of the study is to keep an accurate and up to date picture of the OpenRefine community. When possible, we compared the 2018 results with our previous survey. You can view the full details of the [2012](http://googlerefine.blogspot.ca/2012/10/google-refine-usage-survey-results.html) and [2014](http://openrefine.org/my%20category/2014/08/29/2014-survey-results.html) surveys.
+From December 12, 2017, to June 7, 2018, we ran our third OpenRefine user survey.  Over five months; we received 122 responses. The goal of the study is to keep an accurate and up to date picture of the OpenRefine community. When possible, we compared the 2018 results with our previous survey. You can view the full details of the [2012](http://googlerefine.blogspot.ca/2012/10/google-refine-usage-survey-results.html) and [2014](http://openrefine.org/blog/2014/08/29/2014-survey-results.html) surveys.
 
 ## Community you identify with
 
