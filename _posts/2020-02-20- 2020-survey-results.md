@@ -71,9 +71,8 @@ Note: Respondents can select multiple answers. We consolidated the 41 blank answ
 ## Do you use a reconciliation service?
 
 In 2020, close to 65% of OpenRefine users connect to a reconciliation service! This is massive progress from 48% two years ago! 26.52% of the respondents use more than one service versus 18.03% in 2018.
-While Wikidata(45%) and VIAF (22%) dominate the list, we see new services not listed in 2018:
 
-While Wikidata(45%) and VIAF (22%) dominate the list, we see new services not listed in 2018:
+While Wikidata (45%) and VIAF (22%) dominate the list, we see new services not listed in 2018:
 * GND (six respondents)
 * Getty Vocabularies (three respondents)
 * in-house reconciliation service (three respondents)
@@ -135,7 +134,7 @@ We compiled below suggestions and feature requests submitted via the survey.
 * Ability to save facet
 * Allow extensions to be written in python. 
 
-## Wiki Data Related
+## Wikidata Related
 
 * Support editing and uploading to  Structured Data on Commons: see ticket [#2144](https://github.com/OpenRefine/OpenRefine/issues/2144), and external Wikibases (2 requests)
 * Better error handling when uploading to Wikidata (2 requests)
