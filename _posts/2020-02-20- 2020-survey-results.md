@@ -6,11 +6,11 @@
 
 ---
 
-The results of our fourth OpenRefine user survey are out! We received 178 responses in less than four weeks (vs. 122 in 2018 over a seven month period)! The goal of the study is to keep an accurate and up to date picture of the OpenRefine community. When possible, we compared the 2020 results with our previous survey. You can view the full details of the [2012](http://googlerefine.blogspot.ca/2012/10/google-refine-usage-survey-results.html), [2014](http://openrefine.org/blog/2014/08/29/2014-survey-results.html), and [2018](http://openrefine.org/blog/2018/07/16/2018-survey-results.html) surveys
+The results of our fourth OpenRefine user survey are out! We received 178 responses in less than four weeks (vs. 122 in 2018 over seven months)! The goal of the study is to keep an accurate and up to date picture of the OpenRefine community. When possible, we compared the 2020 results with our previous survey. You can view the full details of the [2012](http://googlerefine.blogspot.ca/2012/10/google-refine-usage-survey-results.html), [2014](http://openrefine.org/blog/2014/08/29/2014-survey-results.html), and [2018](http://openrefine.org/blog/2018/07/16/2018-survey-results.html) surveys
 
 ## Community you identify with
 
-While librarians remain the largest group (37.64%), Wikidata contributor (and semantic web users - 12.92%) made an entry as the second largest user group in 2020! Researchers now rank third with 10.7% of the user base. Note the community Archivist was not suggested in the answer but still gather 4.49% of the answer! 
+While librarians remain the largest group (37.64%), Wikidata contributor (and semantic web users - 12.92%) made an entry as the second-largest user group in 2020! Researchers now rank third with 10.7% of the user base. Note the community Archivist was not suggested in the answer but still gather 4.49% of the answer! 
 
 <a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/2020survey/1.png"><img src="https://raw.githubusercontent.com/OpenRefine/openrefine.github.com/master/images/2020survey/1.png" class="inset" /></a>
 
@@ -31,7 +31,7 @@ Note that in the below analysis, we included users that never used OpenRefine in
 
 ## How will you rate your skills using OpenRefine
 
-In all our previous surveys, we asked respondents to rate their skills from one to five. One being a novice in Refine and five being a master. The number of novice respondents dropped in 2020 from 16% to 7%. The skills level is related to the frequency of usage and not to the years of experience. No matter how long you have been using GREL, you got to practice it every day to improve !
+In all our previous surveys, we asked respondents to rate their skills from one to five. One being a novice in Refine and five being a master. The number of novice respondents dropped in 2020 from 16% to 7%. The skills level is related to the frequency of usage and not to the years of experience. No matter how long you have been using GREL, you got to practice it every day to improve!
 
 <a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/2020survey/24.png"><img src="https://raw.githubusercontent.com/OpenRefine/openrefine.github.com/master/images/2020survey/24.png" class="inset" /></a>
 
@@ -62,7 +62,7 @@ The top three plugins are:
 * Named-Entity Recognition - by Ruben Verborgh (Free Your Metadata) - 13.9%
 * History tools, cross cell tools, pivot tool and scatterplot tool using D3 - by VIB-BITS - 10.9%
 
-The DBpedia extension has not been updated for seven years, but its usage grew from 5.7% two years ago to 10.9% in 2020. The user is not linked to any particular community (6 librarians, 3 for-profits, 2 archivists, and one for cultural heritage, data scientist, researcher and wikidata contributor). Any explanation is welcome!
+The DBpedia extension has not been updated for seven years, but its usage grew from 5.7% two years ago to 10.9% in 2020. The usage of DBpedia is not linked to any particular community (6 librarians, 3 for-profits, 2 archivists, and one for cultural heritage, data scientist, researcher and wikidata contributor). Any explanation is welcome!
 
 <a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/2020survey/5.png"><img src="https://raw.githubusercontent.com/OpenRefine/openrefine.github.com/master/images/2020survey/5.png" class="inset" /></a>
 
@@ -95,7 +95,7 @@ The following word clouds are more eye-pleasing than an in-depth analysis.
 
 ### Why did you choose OpenRefine (Which features)
 
-Wikidata makes an nice entry in the list!
+Wikidata makes a nice entry on the list!
 
 <a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/2020survey/reason.png"><img src="https://raw.githubusercontent.com/OpenRefine/openrefine.github.com/master/images/2020survey/reason.png" class="inset" /></a>
 
@@ -108,7 +108,7 @@ Excel, R, python and Google Sheets remain the mains alternative to OpenRefine.
 
 ### Word used to describe OpenRefine
 
-The most common expressions to descrbie OpenRefine are "Excel on steroid" and "a data cleaning tool".
+The most common expressions to describe OpenRefine are "Excel on steroid" and "a data cleaning tool."
 
 <a href="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/2020survey/describe.png"><img src="https://raw.githubusercontent.com/OpenRefine/openrefine.github.com/master/images/2020survey/describe.png" class="inset" /></a>
 
