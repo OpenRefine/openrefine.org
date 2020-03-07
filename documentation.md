@@ -37,6 +37,7 @@ sidebar_link: true
   <li><a href="https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine">The Programming Historian: Fetching and Parsing Data from the Web with OpenRefine</a></li>
   <li><a href="https://msaby.gitlab.io/atelier-openrefine-MASA/">Nettoyer et préparer des données avec OpenRefine : atelier pour les journées du consortium MASA - 14/11/2018 (fr)</a></li>  
   <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/External-Resources">Curated Tutorial List</a></li>  
+  <li><a href="https://www.udemy.com/course/dvl-datarefine-openrefine/">How to clean your data with Open Refine.(ja)</a></li>  
 
 
 
