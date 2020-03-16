@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Data privacy
-sidebar_link: false
+title: Data Privacy
+sidebar_link: true
 
 ---
 
