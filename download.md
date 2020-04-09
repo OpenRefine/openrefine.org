@@ -20,7 +20,8 @@ The final release of OpenRefine 3.3, released on January 31, 2020. Please backup
 Download, unzip, and double-click on _openrefine.exe_. If you're 
 having issues with the above, try double-clicking on _refine.bat_ instead.
 + **[Mac kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.3/openrefine-mac-3.3.dmg)**, 
-Download, open, drag icon into the Applications folder and double click on it. 
+Download, open, drag icon into the Applications folder and double click on it. If you encounter a security warning,
+see [workaround](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions#macos). 
 + **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.3/openrefine-linux-3.3.tar.gz)**, 
 Download, extract, then type _./refine_ to start.
 
