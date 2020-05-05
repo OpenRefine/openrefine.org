@@ -14,5 +14,5 @@ We are happy to announce that three interns will join the development team this 
 
 * Lu Liu ([afkbrb](https://github.com/afkbrb)), Google Summer of Code intern, will add support for OAuth and other Wikibase instances in the Wikidata extension.
 
-We are very excited to welcome them in the team and are looking forward to working with them.
+We are very excited to welcome them to the team and are looking forward to working with them.
 We thank all applicants for the quality of their proposals and their contributions to the project earlier this year.
