@@ -1,7 +1,7 @@
 ---
   layout: post
   author: wetneb
-  title: "Welcome to our Outreachy and Google Summer of Code interns"
+  title: "Welcome to our 2020 Outreachy and Google Summer of Code interns"
   category: Blog
 ---
 
