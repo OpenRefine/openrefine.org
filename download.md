@@ -14,7 +14,7 @@ Read the [installation instructions](https://github.com/OpenRefine/OpenRefine/wi
 You can also download all official releases and source from our [GitHub releases page](https://github.com/OpenRefine/OpenRefine/releases/)
 
 ### OpenRefine 3.3
-The final release of OpenRefine 3.3, released on January 31, 2020. Please backup your workspace directory before installing and report any problems that you encounter. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.3).
+The final release of OpenRefine 3.3, released on January 31, 2020. Please [backup your workspace directory](https://github.com/OpenRefine/OpenRefine/wiki/Back-Up-OpenRefine-Data) before installing and report any problems that you encounter. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.3).
 
 + **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.3/openrefine-win-3.3.zip)**, 
 Download, unzip, and double-click on _openrefine.exe_. If you're 
@@ -25,18 +25,17 @@ see [workaround](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Inst
 + **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.3/openrefine-linux-3.3.tar.gz)**, 
 Download, extract, then type _./refine_ to start.
 
-### OpenRefine 3.2
-The final release of OpenRefine 3.2. Please BACKUP your workspace directory before installing and report any problems that you encounter.
+### OpenRefine 3.4 beta
+The first beta release of OpenRefine 3.4., released on May 14, 2020. Please [backup your workspace directory](https://github.com/OpenRefine/OpenRefine/wiki/Back-Up-OpenRefine-Data) before installing and report any problems that you encounter. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.4).
 
-The final release of 3.2 was released on July 26, 2019. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.2).
-
-+ **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.2/openrefine-win-3.2.zip)**, 
-Download, unzip, and double-click on _openrefine.exe_. If you're 
-having issues with the above, try double-clicking on _refine.bat_ instead.
-+ **[Mac kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.2/openrefine-mac-3.2.dmg)**, 
-Download, open, drag icon into the Applications folder and double click on it. 
-+ **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.2/openrefine-linux-3.2.tar.gz)**, 
-Download, extract, then type _./refine_ to start.
++ **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.4-beta/openrefine-win-3.4-beta.zip)**, 
+This requires Java to be installed on your computer. Download, unzip, and double-click on _openrefine.exe_ or _refine.bat_ if the latter does not work.
++ **[Windows kit with embedded Java](https://github.com/OpenRefine/OpenRefine/releases/download/3.4-beta/openrefine-win-with-java-3.4-beta.zip)**, 
+Download, unzip, and double-click on _openrefine.exe_ or _refine.bat_ if the latter does not work.
++ **[Mac kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.4-beta/openrefine-mac-3.4-beta.dmg)**, 
+Download, open, drag icon into the Applications folder and double click on it. You do not need to install Java separately. 
++ **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.4-beta/openrefine-linux-3.4-beta.tar.gz)**, 
+Download, extract, then type _./refine_ to start. This requires Java to be installed on your computer.
 
 ## Other Distributions
 
