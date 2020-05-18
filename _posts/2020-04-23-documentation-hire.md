@@ -52,8 +52,6 @@ We are aiming to hire one or more technical writers for this task by the end of 
 
 ## How to respond
 
-**Update (2020-05-18):** the application period for this position has lapsed, thank you to everyone who got in touch. We will announce the results in the coming weeks.
-
 Please send your resume or CV, sample of your relevant previous work and a short letter of interest to advisory.committee@openrefine.org. We will schedule an interview with short-listed candidates.
 
 *Code for Science & Society is an equal opportunity employer committed to hiring a diverse workforce at all levels of the organization, creating a culture that allows us to better serve our projects, our employees, and our communities. We value and encourage the contributions of our employees and strive to create an environment where everyone can reach their full potential and drive outstanding results. All qualified applicants will receive consideration for employment without regard to race, national origin, age, sex, religion, disability, sexual orientation, marital status, veteran status, gender identity or expression, or any other basis protected by local, state, or federal law. This policy applies with regard to all aspects of one’s employment, including hiring, transfer, promotion, compensation, eligibility for benefits, and termination.*
