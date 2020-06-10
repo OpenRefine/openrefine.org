@@ -92,3 +92,4 @@ You can automate some OpenRefine operations using one of the existing libraries.
 * [javascript - nodejs](https://github.com/pm5/node-openrefine)
 * [R](https://cran.r-project.org/web/packages/rrefine/index.html)
 * [php](https://github.com/keboola/openrefine-php-client)
+* [java](https://github.com/dtap-gmbh/refine-java)
