@@ -26,7 +26,7 @@ see [workaround](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Inst
 Download, extract, then type _./refine_ to start.
 
 ### OpenRefine 3.4 beta
-The first beta release of OpenRefine 3.4., released on May 14, 2020. Please [backup your workspace directory](https://github.com/OpenRefine/OpenRefine/wiki/Back-Up-OpenRefine-Data) before installing and report any problems that you encounter. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.4).
+The first beta release of OpenRefine 3.4., released on May 14, 2020. Please [backup your workspace directory](https://github.com/OpenRefine/OpenRefine/wiki/Back-Up-OpenRefine-Data) before installing and report any problems that you encounter. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.4-beta).
 
 + **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.4-beta/openrefine-win-3.4-beta.zip)**, 
 This requires Java to be installed on your computer. Download, unzip, and double-click on _openrefine.exe_ or _refine.bat_ if the latter does not work.
