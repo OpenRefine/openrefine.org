@@ -64,7 +64,6 @@ You can install the following extensions to add functionalities to OpenRefine. S
 | [GeoRefine](https://github.com/ryanfb/georefine) | Add Geospatial processing GREL functions for OpenRefine |  Ryan Baumann | 
 | [String-Transformers](https://github.com/RBGKew/String-Transformers) | A collection of Java string transformers, suitable for use with OpenRefine. Some generic, some aimed at botany and taxonomy. | RBGKew | 
 | [CKAN Extension Storage for OpenRefine 2.6-beta1 and CKANv2.2+](https://github.com/Ontodia/openrefine-ckan-storage-extension) | Upload data directly from OpenRefine using CKAN storage API | Ontodia | 
-| [CKAN Extension Storage  v0.1 (alpha)](http://lab.linkeddata.deri.ie/2011/grefine-ckan/) |  This extension allows data of Google Refine projects to be uploaded to CKAN Storage and connected to a package on a running CKAN instance. released 2014-03-06 | DERI | 
 | [GOKB](https://github.com/k-int/gokb-phase1) | The GOKb extension will allow you to use OpenRefine to check in a project, resolve errors and warnings, and ingest data into GOKb. | 
 | [Crowdsourcing](https://github.com/sparkica/crowdsourcing) | An extension for OpenRefine for creating jobs and uploading data to CrowdFlower crowdsourcing service |  Zemanta  | 
 | [DBpedia extension](https://github.com/sparkica/dbpedia-extension) |  This project is an extension for Google Refine and provides easy way to add columns from DBpedia to reconciled data (columns). Data has to be reconciled with DBpedia or SPARQL endpoint, which returns DBpedia resource types.  |  Zemanta | 
