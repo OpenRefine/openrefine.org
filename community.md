@@ -10,15 +10,18 @@ sidebar_link: true
   <p>
   OpenRefine's user community is very active. You can engage with it:
   <ul>
-    <li>on <a href="http://groups.google.com/group/openrefine/">the official mailing list</a>;</li>
-    <li>on StackOverflow, with the <a href="https://stackoverflow.com/questions/tagged/openrefine"><code>openrefine</code></a> tag;</li>
-    <li>on Twitter, with the <a href="https://twitter.com/search?f=tweets&vertical=default&q=OpenRefine%20OR%20%22Open%20Refine%22%20OR%20%23OpenRefine&src=typd">#OpenRefine</a> hashtag.</li>
+    <li>on <a href="http://groups.google.com/group/openrefine/">the official mailing list</a></li>
+    <li>on <a href="https://gitter.im/OpenRefine/OpenRefine">Gitter chat</a></li>
+    <li>on StackOverflow, with the <a href="https://stackoverflow.com/questions/tagged/openrefine"><code>openrefine</code></a> tag</li>
+    <li>on Twitter, with the <a href="https://twitter.com/search?f=tweets&vertical=default&q=OpenRefine%20OR%20%22Open%20Refine%22%20OR%20%23OpenRefine&src=typd">#OpenRefine</a> hashtag</li>
   </ul>
   
   <h1 id="developer-community">Developer community</h1>
 
 <p>Interested in helping OpenRefine? There are many ways to do so, such as documenting, translating or fixing bugs. More details are available in our <a href="https://github.com/OpenRefine/OpenRefine/blob/master/CONTRIBUTING.md">contribution guidelines</a>.</p>
-
+<ul>
+  <li>on <a href="https://groups.google.com/g/openrefine-dev/">dev mailing list</a></li>
+</ul>
 <p><h1> Current &amp; Previous Contributors</h1></p>
 
 <p><h2>Current </h2>
