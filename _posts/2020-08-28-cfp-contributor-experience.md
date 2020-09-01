@@ -35,8 +35,8 @@ We have 50,000 USD available to fund these projects. Selected proposals will inv
 ## How to apply
 You do not need to have a fully formed idea to submit to the mailing list. The community and OpenRefine Advisory Committee will help you develop and scope your work. We have added a template so you can see the parts of a finished scope of work, but you do not need to know what the timeline and budget will be to propose an idea.
 
-* Propose your project on the mailto:openrefine-dev@googlegroups.com mailing list, to build  consensus around it and refine the scope of your work with input from the community. We invite open discussion on all submitted proposals on the mailing list.
-* Submit a proposal to mailto:advisory.committee@openrefine.org for the work you intend to carry out, including a timeline and budget (see template below). If you have not yet contributed to OpenRefine, please also include a short portfolio demonstrating your work in other projects;
+* Propose your project on the [openrefine-dev@googlegroups.com](https://groups.google.com/g/openrefine-dev) mailing list, to build  consensus around it and refine the scope of your work with input from the community. We invite open discussion on all submitted proposals on the mailing list.
+* Submit a proposal to [advisory.committee@openrefine.org](https://groups.google.com/g/openrefine-advisory-committee) for the work you intend to carry out, including a timeline and budget (see template below). If you have not yet contributed to OpenRefine, please also include a short portfolio demonstrating your work in other projects;
 * Approved projects will sign a contract for the work with CS&S;
 * The contributor will invoice CS&S according to the payment schedule agreed to with OpenRefine 
 
