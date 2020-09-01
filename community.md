@@ -24,9 +24,9 @@ sidebar_link: true
 </ul>
 <p><h1> Current &amp; Previous Contributors</h1></p>
 
-<p><h2>Current </h2>
+<h2>Current </h2>
 
-OpenRefine is developed as an open source project by wide-ranging community. See the list of <a href="https://github.com/OpenRefine/OpenRefine/blob/master/AUTHORS.md">contributors</a> and <a href="https://github.com/OpenRefine/OpenRefine/graphs/contributors">Github contributors graph</a>.</p>
+<p>OpenRefine is developed as an open source project by wide-ranging community. See the list of <a href="https://github.com/OpenRefine/OpenRefine/blob/master/AUTHORS.md">contributors</a> and <a href="https://github.com/OpenRefine/OpenRefine/graphs/contributors">Github contributors graph</a>.</p>
 
-<p><h2>Previous Contributors</h2>
-This software was created by Metaweb Technologies, Inc. and originally written and conceived by David Huynh. Metaweb Technologies, Inc. was acquired by Google, Inc. in July 2010 and the product was renamed Google Refine. In October 2012, it was renamed OpenRefine as it transitioned to a community-supported product.</p>
+<h2>Previous Contributors</h2>
+<p>This software was created by Metaweb Technologies, Inc. and originally written and conceived by David Huynh. Metaweb Technologies, Inc. was acquired by Google, Inc. in July 2010 and the product was renamed Google Refine. In October 2012, it was renamed OpenRefine as it transitioned to a community-supported product.</p>
