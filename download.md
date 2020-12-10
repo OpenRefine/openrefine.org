@@ -17,9 +17,9 @@ You can also download all official releases and source from our [GitHub releases
 The latest stable release of OpenRefine 3.4.1, released on September 24, 2020. Please [backup your workspace directory](https://github.com/OpenRefine/OpenRefine/wiki/Back-Up-OpenRefine-Data) before installing and report any problems that you encounter. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.4.1).
 
 + **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-win-3.4.1.zip)**, 
-This requires Java to be installed on your computer. Download, unzip, and double-click on _openrefine.exe_ or _refine.bat_ if the latter does not work.
+This requires Java to be installed on your computer. Download, unzip, and double-click on _openrefine.exe_ or _refine.bat_ if the former does not work.
 + **[Windows kit with embedded Java](https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-win-with-java-3.4.1.zip)**, 
-includes [OpenJDK Java](https://adoptopenjdk.net/about.html), available under the [GPLv2+CE](https://openjdk.java.net/legal/gplv2+ce.html) license. Download, unzip, and double-click on _openrefine.exe_ or _refine.bat_ if the latter does not work.
+includes [OpenJDK Java](https://adoptopenjdk.net/about.html), available under the [GPLv2+CE](https://openjdk.java.net/legal/gplv2+ce.html) license. Download, unzip, and double-click on _openrefine.exe_ or _refine.bat_ if the former does not work.
 + **[Mac kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-mac-3.4.1.dmg)**, 
 Download, open, drag icon into the Applications folder and double click on it. You do not need to install Java separately. 
 + **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-linux-3.4.1.tar.gz)**, 
