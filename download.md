@@ -9,12 +9,12 @@ You will find on this page a list of OpenRefine distributions and extensions ava
  
 ## Official Distribution
 
-Read the [installation instructions](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions)
+Read the [installation instructions](https://docs.openrefine.org/manual/installing).
 
 You can also download all official releases and source from our [GitHub releases page](https://github.com/OpenRefine/OpenRefine/releases/)
 
 ### OpenRefine 3.4.1
-The latest stable release of OpenRefine 3.4.1, released on September 24, 2020. Please [backup your workspace directory](https://github.com/OpenRefine/OpenRefine/wiki/Back-Up-OpenRefine-Data) before installing and report any problems that you encounter. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.4.1).
+The latest stable release of OpenRefine 3.4.1, released on September 24, 2020. Please [backup your workspace directory](https://docs.openrefine.org/manual/installing#back-up-your-data) before installing and report any problems that you encounter. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.4.1).
 
 + **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.4.1/openrefine-win-3.4.1.zip)**, 
 This requires Java to be installed on your computer. Download, unzip, and double-click on _openrefine.exe_ or _refine.bat_ if the former does not work.
@@ -27,7 +27,7 @@ Download, extract, then type _./refine_ to start. This requires Java to be insta
 
 
 ### OpenRefine 3.3
-The stable release of OpenRefine 3.3, released on January 31, 2020. Please [backup your workspace directory](https://github.com/OpenRefine/OpenRefine/wiki/Back-Up-OpenRefine-Data) before installing and report any problems that you encounter. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.3).
+The stable release of OpenRefine 3.3, released on January 31, 2020. Please [backup your workspace directory](https://docs.openrefine.org/manual/installing#back-up-your-data) before installing and report any problems that you encounter. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.3).
 
 + **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.3/openrefine-win-3.3.zip)**, 
 Download, unzip, and double-click on _openrefine.exe_. If you're 
