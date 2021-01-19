@@ -11,13 +11,14 @@ sidebar_link: true
 
   <h2 id="documentation-for-user">Documentation for users</h2>
 <ul>
-   <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/">Official documentation</a></li>
+   <li><a href="https://docs.openrefine.org/">Official documentation</a></li>
   <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/FAQ">FAQ</a></li>
 </ul>
 
 <h2 id="documentation-for-developers">Documentation for developers</h2>
 <ul>
-  <li><a href="https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers">Wiki for developers</a></li>
+  <li><a href="https://docs.openrefine.org/technical-reference/technical-reference-index">Information for developers</a></li>
+  <li><a href="https://github.com/OpenRefine/OpenRefine/blob/master/CONTRIBUTING.md">Contributor guidelines</a></li>
   <li><a href="https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev">Developer discussion list</a></li>
 </ul>
 
