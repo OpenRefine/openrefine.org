@@ -9,7 +9,7 @@ The OpenRefine team is delighted to share [our new user manual](https://docs.ope
 
 This reference covers every aspect of the tool, from installation to exporting a cleaned dataset.
 
-![A screenshot of the new user manual.](https://www.openrefine.org/images/2021-user-manual.png)
+![A screenshot of the new user manual.](https://openrefine.org/images/2021-user-manual.png)
 
 At this point we would like to hear from you: Does this new user manual help you? Did we cover everything you'd expect? Any suggestions to make it better?
 
