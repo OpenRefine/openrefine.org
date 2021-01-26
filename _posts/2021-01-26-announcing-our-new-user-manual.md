@@ -19,7 +19,7 @@ We recommend that you start by [following along with the user manual](https://do
 Then, try out some tasks alongside the relevant sections of the user manual. Don't try to read the whole thing - just focus on sections that are most important to you.
 
 If you'd like to share your thoughts:
-- Please fill out our feedback form: https://forms.gle/4KkoJFpSrWDMkrh6A. This helps us be sure we're hearing from a broad range of participants. Please fill out the form even if you don't have much to say - we'd love to know if you've taken a look regardless. There is space within the form to report specific requested changes and line edits, as well as give us your general impression.
+- Please fill out [our feedback form](https://forms.gle/4KkoJFpSrWDMkrh6A). This helps us be sure we're hearing from a broad range of participants. Please fill out the form even if you don't have much to say - we'd love to know if you've taken a look regardless. There is space within the form to report specific requested changes and line edits, as well as give us your general impression.
 - You can also suggest edits directly on GitHub (use the "Edit this page" link at the end of each page of the [new docs](https://docs.openrefine.org/)). This will create a pull request with your suggestions; this requires a GitHub account.
 
 We're also asking people who have written tutorials, who give workshops, and who share links on their websites to update those links to point to [docs.openrefine.org](docs.openrefine.org). 
