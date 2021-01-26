@@ -22,7 +22,7 @@ If you'd like to share your thoughts:
 - Please fill out [our feedback form](https://forms.gle/4KkoJFpSrWDMkrh6A). This helps us be sure we're hearing from a broad range of participants. Please fill out the form even if you don't have much to say - we'd love to know if you've taken a look regardless. There is space within the form to report specific requested changes and line edits, as well as give us your general impression.
 - You can also suggest edits directly on GitHub (use the "Edit this page" link at the end of each page of the [new docs](https://docs.openrefine.org/)). This will create a pull request with your suggestions; this requires a GitHub account.
 
-We're also asking people who have written tutorials, who give workshops, and who share links on their websites to update those links to point to [docs.openrefine.org](docs.openrefine.org). 
+We're also asking people who have written tutorials, who give workshops, and who share links on their websites to update those links to point to [docs.openrefine.org](https://docs.openrefine.org). 
 While the documentation will always be open to improvements, this is now the authoritative source for information about the tool's functions and features. We will eventually be deleting old pages from the [wiki on Github](https://github.com/OpenRefine/OpenRefine/wiki). 
 
 If you're the author of a tutorial, we will try to get in touch soon to talk to you about updating your documentation online. If you don't hear from us, please reach out! We'd love to chat about the new docs.
