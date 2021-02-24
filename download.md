@@ -55,12 +55,12 @@ The following distributions have been customized for a specific usage or integra
 
 You can install the following extensions to add functionalities to OpenRefine. See [how to install an extension](https://github.com/OpenRefine/OpenRefine/wiki/Installing-Extensions).
 
-| Extension Name | Description | Authors |
-|--------------|-------------|----------|
-| [(FAIR) metadata](https://github.com/FAIRDataTeam/OpenRefine-metadata-extension) | Support [FAIR](https://www.go-fair.org/fair-principles/) **metadata** by integrating with [FAIR Data Point](https://github.com/FAIRDataTeam/FAIRDataPoint) (metadata storage) and various data storages. It is a successor of the legacy [FAIRifier](https://github.com/FAIRDataTeam/FAIRifier) (OpenRefine 2.6 fork) | [FAIRDataTeam](https://github.com/FAIRDataTeam/OpenRefine-metadata-extension/graphs/contributors) |
-| [RDF extension Latest](https://github.com/stkenny/grefine-rdf-extension) for OpenRefine 3.0+ | RDF Refine - an improved fork of OpenRefine extension for exporting RDF |  stkenny http://www.dri.ie/ | 
-| [RDF extension 0.9](https://github.com/fadmaa/grefine-rdf-extension/releases) for OpenRefine 2.6 and prior| RDF Refine - an older version of RDF extension for exporting RDF |  DERI  | 
-| [Opentree](https://github.com/nickynicolson/refine-opentree) |  An extension for Google/Open Refine to display phylogenetic trees from the Open Tree of Life |  nickynicolson  | 
+| Extension Name | Description | Authors | Latest compatible version |
+|--------------|-------------|----------|----------|
+| [(FAIR) metadata](https://github.com/FAIRDataTeam/OpenRefine-metadata-extension) | Support [FAIR](https://www.go-fair.org/fair-principles/) **metadata** by integrating with [FAIR Data Point](https://github.com/FAIRDataTeam/FAIRDataPoint) (metadata storage) and various data storages. It is a successor of the legacy [FAIRifier](https://github.com/FAIRDataTeam/FAIRifier) (OpenRefine 2.6 fork) | [FAIRDataTeam](https://github.com/FAIRDataTeam/OpenRefine-metadata-extension/graphs/contributors) | 3.4.1 |
+| [RDF extension latest](https://github.com/stkenny/grefine-rdf-extension) for OpenRefine 3.0+ | RDF Refine - an improved fork of OpenRefine extension for exporting RDF |  stkenny http://www.dri.ie/ | 3.4.1 |
+| [RDF extension 0.9](https://github.com/fadmaa/grefine-rdf-extension/releases) for OpenRefine 2.6 and prior| RDF Refine - an older version of RDF extension for exporting RDF |  DERI  | 2.6 |
+| [Opentree](https://github.com/nickynicolson/refine-opentree) |  An extension for Google/Open Refine to display phylogenetic trees from the Open Tree of Life |  nickynicolson  | *2.5* |
 | [BioVel](https://wiki.biovel.eu/display/doc/Installing+and+running+DR+Workflow+on+Taverna+Workbench#InstallingandrunningDRWorkflowonTavernaWorkbench-InstallingGoogleRefine), [BioVel@GitHub](https://github.com/BioVeL/refine-ext)  |  The BioVeL Extension adds functionality specific to cleaning biodiversity data. The entire package can be installed and run locally as well as on a dedicated server. |  Botanic Garden and Botanical Museum Berlin-Dahlem | 
 | [GeoRefine](https://github.com/ryanfb/georefine) | Add Geospatial processing GREL functions for OpenRefine |  Ryan Baumann | 
 | [String-Transformers](https://github.com/RBGKew/String-Transformers) | A collection of Java string transformers, suitable for use with OpenRefine. Some generic, some aimed at botany and taxonomy. | RBGKew | 
