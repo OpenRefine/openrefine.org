@@ -53,7 +53,7 @@ The following distributions have been customized for a specific usage or integra
 
 ## List of Extensions 
 
-You can install the following extensions to add functionalities to OpenRefine. See [how to install an extension](https://github.com/OpenRefine/OpenRefine/wiki/Installing-Extensions).
+You can install the following extensions to add functionalities to OpenRefine. We do not vouch for the function of any of these extensions. Some only work with earlier version of OpenRefine, or with third-party distributions. See [how to install an extension](https://docs.openrefine.org/manual/installing#installing-extensions).
 
 | Extension Name | Description | Authors | Latest compatible version |
 |--------------|-------------|----------|----------|
