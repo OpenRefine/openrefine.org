@@ -70,12 +70,12 @@ You can install the following extensions to add functionalities to OpenRefine. W
 | [Stats extension for Google Refine 2.1](https://github.com/newsapps/refine-stats)  | Compute elementary statistics on a column data. | the Chicago Tribune | 2.1 |
 | [CKAN Extension Storage for OpenRefine 2.6-beta1 and CKANv2.2+](https://github.com/Ontodia/openrefine-ckan-storage-extension) | Upload data from OpenRefine to CKAN Storage using CKAN storage API. | Ontodia | 3.1 |
 | [CKAN Extension Storage  v0.1 (alpha)](https://github.com/fadmaa/grefine-ckan-storage-extension) |  Upload data to CKAN Storage and connected to a package on a running CKAN instance. Released 2014-03-06. | DERI | _Not working_ (suggests 2.5) | 
-| [DBpedia extension](https://github.com/sparkica/dbpedia-extension) |  Add columns from DBpedia to reconciled data (columns). Data has to be reconciled with DBpedia or SPARQL endpoint, which returns DBpedia resource types. |  Zemanta | _Not working_ (circa 2.5) |
 | [D2Refine](https://github.com/caCDE-QA/D2Refine) | A clinical study metadata harmonization and validation workbench to 1) convert restrictions (specified in a spreadsheet like interface) into a clinical model; and 2) provide metadata reconciliation services leveraging the Common Terminology Services 2 (CTS2). [Manual](https://github.com/caCDE-QA/D2Refine/wiki). |  Deepak K. Sharma https://github.com/dksharma | _Not working_ (suggests 2.7) |
 | [extraCTU-plugin](https://github.com/giTorto/extraCTU-plugin) | To extract e-mails, telephone numbers, URLs and identification numbers from text. | giTorto | _Not working_ (circa 2.7) |
 | [geoXtension](https://github.com/giTorto/geoXtension) | geoXtension is based on gdal, proj and geos libraries. Adding this extension takes a lot of time, usage of the ready-made docker is recommended |  giTorto  | _Not working_ (circa 2.6) |
 | [Opentree](https://github.com/nickynicolson/refine-opentree) |  Display phylogenetic trees from the Open Tree of Life. |  nickynicolson  | _Not working_ (suggests 2.5) |
 | [BioVeL](https://github.com/BioVeL/refine-ext)  |  The BioVeL Extension adds functionality specific to cleaning biodiversity data. The entire package can be installed and run locally as well as on a dedicated server. |  Botanic Garden and Botanical Museum Berlin-Dahlem | _Not working_ (suggests 2.5) |
+| [DBpedia extension](https://github.com/sparkica/dbpedia-extension) |  Add columns from DBpedia to reconciled data (columns). Data has to be reconciled with DBpedia or SPARQL endpoint, which returns DBpedia resource types. |  Zemanta | _Not working_ (circa 2.5) |
 
 ## Reconciliation Services
 
