@@ -65,20 +65,21 @@ You can install the following extensions to add functionalities to OpenRefine. W
 | [GOKb Utilities](https://github.com/ostephens/refine-gokbutils) | Adds three new features: prepend rows (add new blank rows); trim all data (remove preceding/trailing whitespace from across all cells); extractHost() (GREL function that extracts a host name from a URL). | [GOKb](http://www.gokb.org) & [Owen Stephens](https://github.com/ostephens/) | 3.1 |
 | [GeoRefine](https://github.com/ryanfb/georefine) | Add geospatial processing GREL functions. |  Ryan Baumann | 2.8 |
 | [Stats extension for Google Refine 2.5+](https://github.com/sparkica/refine-stats) | Computes elementary statistics on column data.  | sparkica  | 3.1 |
-| [Stats extension for Google Refine 2.1](https://github.com/newsapps/refine-stats)  | Computes elementary statistics on column data. | The Chicago Tribune | 2.1 |
 | [CKAN Storage Extension](https://github.com/Ontodia/openrefine-ckan-storage-extension) | Exports data to CKAN Storage 2.2+ using CKAN storage API. | Ontodia | 3.1 |
 | [D2Refine](https://github.com/caCDE-QA/D2Refine) | A clinical study metadata harmonization and validation workbench to 1) convert restrictions (specified in a spreadsheet-like interface) into a clinical model; and 2) provide reconciliation services leveraging the Common Terminology Services 2 (CTS2). [Manual](https://github.com/caCDE-QA/D2Refine/wiki). |  [Deepak K. Sharma](https://github.com/dksharma) | 2.7 |
 
 ### Legacy Extensions 
 
-These extensions were produced in the past and are good examples of desired uses of OpenRefine. They are maintained here in case a contributor would like to renew them.
+These extensions were produced in the past and are good examples of desired uses of OpenRefine. They are maintained here for historical reference, and in case a contributor would like to renew them.
 
 | Extension Name | Description | Authors | Suggested compatible version |
 |--------------|-------------|----------|----------|
 | [geoXtension](https://github.com/giTorto/geoXtension) | geoXtension is based on GDAL, Proj, and GEOS libraries. Adding this extension takes a lot of time, usage of the ready-made docker is recommended. |  giTorto  | (circa 2.6) |
+| [extraCTU-plugin](https://github.com/giTorto/extraCTU-plugin) | To extract e-mails, telephone numbers, URLs and identification numbers from text. | giTorto | (circa 2.7) |
 | [Opentree](https://github.com/nickynicolson/refine-opentree) |  Displays phylogenetic trees from the Open Tree of Life. [Manual](https://github.com/nickynicolson/refine-opentree/wiki). |  nickynicolson  | 2.5 |
 | [BioVeL](https://github.com/BioVeL/refine-ext)  | Adds functions for cleaning biodiversity data. The entire package can be installed and run locally as well as on a dedicated server. |  Botanic Garden and Botanical Museum Berlin-Dahlem | 2.5 |
 | [DBpedia extension](https://github.com/sparkica/dbpedia-extension) |  Adds columns from DBpedia to reconciled data. Data has to be reconciled with DBpedia or SPARQL endpoint, which returns DBpedia resource types. |  Zemanta | 2.5 |
+| [Stats extension for Google Refine 2.1](https://github.com/newsapps/refine-stats)  | Computes elementary statistics on column data. | The Chicago Tribune | 2.1 |
 
 ## Reconciliation Services
 
