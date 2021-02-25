@@ -44,7 +44,7 @@ The following distributions have been customized for a specific usage or integra
 
 | Distribution | Description |  Authors |
 |--------------|-------------|----------|
-| [LODRefine](https://github.com/sparkica/LODRefine)    | LODRefine is actually OpenRefine with integrated extensions that make transition from tabular data to Linked Data a bit easier. Integrated extensions are: RDF extension, DBpedia extension, Crowdsourcing extension, Stats extension | Sparkica | 
+| [LODRefine](https://github.com/sparkica/LODRefine)    | LODRefine is actually OpenRefine with integrated extensions that make transition from tabular data to Linked Data a bit easier. Integrated extensions are: RDF extension, DBpedia extension, CrowdFlower crowdsourcing extension, Stats extension | Sparkica | 
 | [OpenDataRise](https://github.com/opendatatrentino/OpenDataRise) | Tool to cleanse and semantify datasets from CKAN repositories. Based on OpenRefine. | Open Data in Trentino  |
 | [p3-batchrefine](https://github.com/fusepoolP3/p3-batchrefine) | BatchRefine adds batch processing capabilities to OpenRefine and support multiple back end including spark | SpazioDati | 
 | [RefineOnSpark](https://github.com/andreybratus/RefineOnSpark) | RefineOnSpark is a driver program to run OpenRefine jobs on the Spark cluster | SpazioDati | 
@@ -58,24 +58,25 @@ You can install the following extensions to add functionalities to OpenRefine. W
 | Extension Name | Description | Authors | Latest compatible version |
 |--------------|-------------|----------|----------|
 | [FAIR metadata](https://github.com/FAIRDataTeam/OpenRefine-metadata-extension) | Supports [FAIR](https://www.go-fair.org/fair-principles/) metadata by integrating with [FAIR Data Point](https://github.com/FAIRDataTeam/FAIRDataPoint) to [store your data and export to FAIR](https://fairdatapoint.readthedocs.io/en/latest/openrefine/usage.html#features). It is a successor of the legacy [FAIRifier](https://github.com/FAIRDataTeam/FAIRifier) OpenRefine 2.6 fork. [Manual](https://fairdatapoint.readthedocs.io/en/latest/openrefine/setup.html). | [FAIRDataTeam](https://github.com/FAIRDataTeam/OpenRefine-metadata-extension/graphs/contributors) | 3.4.1 |
-| [VIB-Bits](https://www.bits.vib.be/index.php/software-overview/openrefine) |  Adds history tools, pivot tool, cross function GUI, and scatterplot tool using D3. [Manual PDF](http://data.bits.vib.be/hidden/g7dt6RjuUTU421dY2CwrGePGX/OpenRefine%20VIB-BITS%20plugin.pdf). | VIB-Bits | 3.4.1 |
-| [Named-Entity Recognition](https://github.com/stkenny/Refine-NER-Extension) | Enriches text fields. It supports AlchemyAPI, DBpedia Lookup, and Zemanta. [Manual](http://freeyourmetadata.org/named-entity-extraction/). |  [Ruben Verborgh](https://freeyourmetadata.org/) and Stuart Kenny | 3.4.1 |
-| [String-Transformers](https://github.com/RBGKew/String-Transformers) | Adds a collection of Java string transformers to Jython functions. Some generic, some aimed at botany and taxonomy. Download [this](https://repo1.maven.org/maven2/org/kew/rmf/string-transformers/0.2.0/string-transformers-0.2.0.jar) and [this](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar). | RBGKew | 3.4.1 |
-| [RDF extension](https://github.com/stkenny/grefine-rdf-extension) | RDF Refine - an improved fork for exporting RDF. |  [stkenny](https://github.com/stkenny) & [DRI](https://github.com/Digital-Repository-of-Ireland) | 3.4.1 |
-| [RDF extension 0.9](https://github.com/fadmaa/grefine-rdf-extension/releases) | RDF Refine - an older version for exporting RDF. |  DERI  | 2.6 |
-| [GOKb](https://github.com/ostephens/refine-gokbutils) | Checks a project, resolves errors and warnings, and exports data to GOKb. | [GOKb](www.gokb.org) & [Owen Stephens](https://github.com/ostephens/) | 3.1 |
-| [GeoRefine](https://github.com/ryanfb/georefine) | Add Geospatial processing GREL functions. |  Ryan Baumann | 2.8 |
-| [Crowdsourcing](https://github.com/sparkica/crowdsourcing) | Creates jobs and exports data to CrowdFlower crowdsourcing service. |  Zemanta  | _Suggests LODRefine_ |
+| [VIB-Bits](https://www.bits.vib.be/index.php/software-overview/openrefine) |  Adds history tools, pivot tool, cross() graphical user interface (GUI), and scatterplot tool. [Manual PDF](http://data.bits.vib.be/hidden/g7dt6RjuUTU421dY2CwrGePGX/OpenRefine%20VIB-BITS%20plugin.pdf). | VIB-Bits | 3.4.1 |
+| [Named-Entity Recognition](https://github.com/stkenny/Refine-NER-Extension) | Extracts identifiable or reconcilable entities from text fields. It supports AlchemyAPI, DBpedia Lookup, and Zemanta. [Manual](http://freeyourmetadata.org/named-entity-extraction/). |  [Ruben Verborgh](https://freeyourmetadata.org/) and Stuart Kenny | 3.4.1 |
+| [String-Transformers](https://github.com/RBGKew/String-Transformers) | Adds a collection of Java string transformers to Jython functions. Some generic, some aimed at botany and taxonomy. Download [this](https://repo1.maven.org/maven2/org/kew/rmf/string-transformers/0.2.0/string-transformers-0.2.0.jar) and [this](https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar) and follow their [installation instructions](https://github.com/RBGKew/String-Transformers). | RBGKew | 3.4.1 |
+| [RDF extension](https://github.com/stkenny/grefine-rdf-extension) | RDF Refine - an improved fork for exporting RDF. Adds a graphical user interface (GUI) for exporting data in RDF format.  |  [stkenny](https://github.com/stkenny) & [DRI](https://github.com/Digital-Repository-of-Ireland) | 3.4.1 |
+| [GOKb Utilities](https://github.com/ostephens/refine-gokbutils) | Adds three new features: prepend rows (add new blank rows); trim all data (remove preceding/trailing whitespace from across all cells); extractHost() (GREL function that extracts a host name from a URL). | [GOKb](http://www.gokb.org) & [Owen Stephens](https://github.com/ostephens/) | 3.1 |
+| [GeoRefine](https://github.com/ryanfb/georefine) | Add geospatial processing GREL functions. |  Ryan Baumann | 2.8 |
 | [Stats extension for Google Refine 2.5+](https://github.com/sparkica/refine-stats) | Computes elementary statistics on column data.  | sparkica  | 3.1 |
-| [Stats extension for Google Refine 2.1](https://github.com/newsapps/refine-stats)  | Computes elementary statistics on column data. | the Chicago Tribune | 2.1 |
-| [CKAN Extension Storage for OpenRefine 2.6-beta1 and CKANv2.2+](https://github.com/Ontodia/openrefine-ckan-storage-extension) | Exports data to CKAN Storage using CKAN storage API. | Ontodia | 3.1 |
-| [CKAN Extension Storage  v0.1 (alpha)](https://github.com/fadmaa/grefine-ckan-storage-extension) |  Exports data to CKAN Storage and connected to a package on a running CKAN instance. Released 2014-03-06. | DERI | _Not working_ (suggests 2.5) | 
-| [D2Refine](https://github.com/caCDE-QA/D2Refine) | A clinical study metadata harmonization and validation workbench to 1) convert restrictions (specified in a spreadsheet like interface) into a clinical model; and 2) provide reconciliation services leveraging the Common Terminology Services 2 (CTS2). [Manual](https://github.com/caCDE-QA/D2Refine/wiki). |  Deepak K. Sharma https://github.com/dksharma | _Not working_ (suggests 2.7) |
-| [extraCTU-plugin](https://github.com/giTorto/extraCTU-plugin) | Extracts e-mails, telephone numbers, URLs and identification numbers from text. | giTorto | _Not working_ (circa 2.7) |
-| [geoXtension](https://github.com/giTorto/geoXtension) | geoXtension is based on GDAL, Proj, and GEOS libraries. Adding this extension takes a lot of time, usage of the ready-made docker is recommended. |  giTorto  | _Not working_ (circa 2.6) |
-| [Opentree](https://github.com/nickynicolson/refine-opentree) |  Displays phylogenetic trees from the Open Tree of Life. |  nickynicolson  | _Not working_ (suggests 2.5) |
-| [BioVeL](https://github.com/BioVeL/refine-ext)  | Adds functions for cleaning biodiversity data. The entire package can be installed and run locally as well as on a dedicated server. |  Botanic Garden and Botanical Museum Berlin-Dahlem | _Not working_ (suggests 2.5) |
-| [DBpedia extension](https://github.com/sparkica/dbpedia-extension) |  Adds columns from DBpedia to reconciled data. Data has to be reconciled with DBpedia or SPARQL endpoint, which returns DBpedia resource types. |  Zemanta | _Not working_ (circa 2.5) |
+| [Stats extension for Google Refine 2.1](https://github.com/newsapps/refine-stats)  | Computes elementary statistics on column data. | The Chicago Tribune | 2.1 |
+| [CKAN Storage Extension](https://github.com/Ontodia/openrefine-ckan-storage-extension) | Exports data to CKAN Storage 2.2+ using CKAN storage API. | Ontodia | 3.1 |
+| [D2Refine](https://github.com/caCDE-QA/D2Refine) | A clinical study metadata harmonization and validation workbench to 1) convert restrictions (specified in a spreadsheet-like interface) into a clinical model; and 2) provide reconciliation services leveraging the Common Terminology Services 2 (CTS2). [Manual](https://github.com/caCDE-QA/D2Refine/wiki). |  [Deepak K. Sharma](https://github.com/dksharma) | 2.7 |
+
+### Legacy Extensions 
+
+| Extension Name | Description | Authors | Suggested compatible version |
+|--------------|-------------|----------|----------|
+| [geoXtension](https://github.com/giTorto/geoXtension) | geoXtension is based on GDAL, Proj, and GEOS libraries. Adding this extension takes a lot of time, usage of the ready-made docker is recommended. |  giTorto  | (circa 2.6) |
+| [Opentree](https://github.com/nickynicolson/refine-opentree) |  Displays phylogenetic trees from the Open Tree of Life. |  nickynicolson  | 2.5 |
+| [BioVeL](https://github.com/BioVeL/refine-ext)  | Adds functions for cleaning biodiversity data. The entire package can be installed and run locally as well as on a dedicated server. |  Botanic Garden and Botanical Museum Berlin-Dahlem | 2.5 |
+| [DBpedia extension](https://github.com/sparkica/dbpedia-extension) |  Adds columns from DBpedia to reconciled data. Data has to be reconciled with DBpedia or SPARQL endpoint, which returns DBpedia resource types. |  Zemanta | 2.5 |
 
 ## Reconciliation Services
 
