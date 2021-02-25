@@ -71,10 +71,12 @@ You can install the following extensions to add functionalities to OpenRefine. W
 
 ### Legacy Extensions 
 
+These extensions were produced in the past and are good examples of desired uses of OpenRefine. They are maintained here in case a contributor would like to renew them.
+
 | Extension Name | Description | Authors | Suggested compatible version |
 |--------------|-------------|----------|----------|
 | [geoXtension](https://github.com/giTorto/geoXtension) | geoXtension is based on GDAL, Proj, and GEOS libraries. Adding this extension takes a lot of time, usage of the ready-made docker is recommended. |  giTorto  | (circa 2.6) |
-| [Opentree](https://github.com/nickynicolson/refine-opentree) |  Displays phylogenetic trees from the Open Tree of Life. |  nickynicolson  | 2.5 |
+| [Opentree](https://github.com/nickynicolson/refine-opentree) |  Displays phylogenetic trees from the Open Tree of Life. [Manual](https://github.com/nickynicolson/refine-opentree/wiki). |  nickynicolson  | 2.5 |
 | [BioVeL](https://github.com/BioVeL/refine-ext)  | Adds functions for cleaning biodiversity data. The entire package can be installed and run locally as well as on a dedicated server. |  Botanic Garden and Botanical Museum Berlin-Dahlem | 2.5 |
 | [DBpedia extension](https://github.com/sparkica/dbpedia-extension) |  Adds columns from DBpedia to reconciled data. Data has to be reconciled with DBpedia or SPARQL endpoint, which returns DBpedia resource types. |  Zemanta | 2.5 |
 
