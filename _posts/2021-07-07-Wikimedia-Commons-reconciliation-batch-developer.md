@@ -26,7 +26,7 @@ The OpenRefine team is seeking a junior developer who will build the Wikimedia-s
 The Junior Developer:
 
 * Develops a new OpenRefine reconciliation service specifically for Wikimedia Commons, inspired by the existing [Wikidata Reconciliation Service](https://wikidata.reconci.link/) and following the [Reconciliation Service API Protocol](https://reconciliation-api.github.io/specs/latest/).
-* Develops a batch upload tool in OpenRefine for [structured data on Wikimedia Commons](https://commons.wikimedia.org/wiki/Commons:Structured_data). Depending on circumstances, this batch upload functionality will be developed to be compatible with already existing upload tools in the Wikimedia ecosystem, such as [QuickStatements](https://www.wikidata.org/wiki/Help:QuickStatements), or as a new tool.
+* Develops a batch upload tool for [structured data on Wikimedia Commons](https://commons.wikimedia.org/wiki/Commons:Structured_data). Depending on circumstances, this batch upload functionality will be developed to be compatible with already existing upload tools in the Wikimedia ecosystem, such as [QuickStatements](https://www.wikidata.org/wiki/Help:QuickStatements), or as a new tool.
 * Works in close collaboration with their colleague (OpenRefine developer), and will regularly coordinate with the product manager and the rest of the OpenRefine development team.
 
 You can read more about this project, the planned tasks and the various roles, in the [public grant proposal](https://meta.wikimedia.org/wiki/Grants:Project/Structured_Data_on_Wikimedia_Commons_functionalities_in_OpenRefine) on meta.wikimedia.org.
