@@ -101,3 +101,4 @@ You can automate some OpenRefine operations using one of the existing libraries.
 * [php](https://github.com/keboola/openrefine-php-client)
 * [java](https://github.com/dtap-gmbh/refine-java)
 * [bash](https://gist.github.com/felixlohmeier/d76bd27fbc4b8ab6d683822cdf61f81d)
+* [C# - .NET Core](https://github.com/ADelRosarioH/OpenRefine.Net)
