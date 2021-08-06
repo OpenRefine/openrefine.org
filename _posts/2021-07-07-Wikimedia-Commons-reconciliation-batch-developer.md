@@ -5,6 +5,8 @@
   category: Blog
 ---
 
+*Update (2021-08-06): both positions have been filled.*
+
 **OpenRefine is seeking a *Junior Developer - Wikimedia Commons reconciliation and batch upload functionalities* (paid contractor position).**
 
 *[OpenRefine](https://openrefine.org/) is a power tool to clean messy data, popular in a diverse range of communities. It has been serving the needs of journalists, librarians, Wikipedians, scientists for more than 10 years, and is taught in many curricula and workshops around the world.* 
