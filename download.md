@@ -4,7 +4,7 @@ title: Download
 sidebar_link: true
 ---
 
-You will find on this page a list of OpenRefine distributions and extensions available for download. Are we missing something? Want to fix a typo? You can submit changes (pull request) [from here](https://github.com/OpenRefine/openrefine.github.com/blob/master/download.md).
+You will find on this page a list of OpenRefine distributions and extensions available for download. Are we missing something? Want to fix a typo? You can [submit changes](https://github.com/OpenRefine/openrefine.github.com/blob/master/download.md).
 
  
 ## Official Distribution
