@@ -75,6 +75,6 @@ Not certain your credentials are a 100% match with the position description? Ple
 
 ## How to respond
 
-Please send your resume or CV, and a short letter of interest to advisory.committee@openrefine.org. We will schedule an interview with short-listed candidates. Applications will be reviewed on a rolling basis, starting November 10th.
+Please [apply here](https://airtable.com/shr50thPWDtDuVSVE?prefill_Applying+for=Project%20Director) with your resume or CV, and a short letter of interest. We will schedule an interview with short-listed candidates. Applications will be reviewed on a rolling basis, starting November 10th.
 
 *OpenRefine is fiscally sponsored by Code for Science and Society (CS&S). CS&S is an equal opportunity employer committed to hiring a diverse workforce at all levels of the organization thereby creating a culture that allows us to better serve our clientele, our employees and our communities. We value and encourage the contributions of our colleagues and strive to create an environment where everyone can reach their full potential and drive outstanding results. All qualified applicants will receive consideration for employment without regard to race, national origin, age, sex, religion, disability, sexual orientation, marital status, veteran status, gender identity or expression, or any other basis protected by local, state, or federal law. This policy applies with regard to all aspects of one's employment, including hiring, transfer, promotion, compensation, eligibility for benefits, and termination.*
