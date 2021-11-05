@@ -1,7 +1,7 @@
 ---
   layout: post
   author: wetneb
-  title: ""Now hiring: Part-time Project Director""
+  title: "Now hiring: Part-time Project Director"
   category: Blog
 ---
 
