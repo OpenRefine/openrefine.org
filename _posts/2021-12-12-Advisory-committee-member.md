@@ -42,7 +42,7 @@ This is a volunteer (non paid) position.
 
 ## How to respond
 
-Please nominate yourself or other members of the community with [this form]().
+Please nominate yourself or other members of the community by contacting advisory.committee@openrefine.org.
 The current advisory committee will engage a conversation with the nominees and select one or more new members.
 New members will be annonced on our blog and mailing list. 
 
