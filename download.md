@@ -13,16 +13,16 @@ Read the [installation instructions](https://docs.openrefine.org/manual/installi
 
 You can also download all official releases and source from our [GitHub releases page](https://github.com/OpenRefine/OpenRefine/releases/)
 
-### OpenRefine 3.5.0
-The latest stable release of OpenRefine 3.5.0, released on November 7, 2021. Please [backup your workspace directory](https://docs.openrefine.org/manual/installing#back-up-your-data) before installing and report any problems that you encounter. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.5.0).
+### OpenRefine 3.5.1
+The latest stable release of OpenRefine 3.5, released on December 19, 2021. Please [backup your workspace directory](https://docs.openrefine.org/manual/installing#back-up-your-data) before installing and report any problems that you encounter. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.5.1).
 
-+ **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.5.0/openrefine-win-3.5.0.zip)**, 
++ **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.5.1/openrefine-win-3.5.1.zip)**, 
 This requires Java to be installed on your computer. Download, unzip, and double-click on _openrefine.exe_ or _refine.bat_ if the former does not work.
-+ **[Windows kit with embedded Java](https://github.com/OpenRefine/OpenRefine/releases/download/3.5.0/openrefine-win-with-java-3.5.0.zip)**, 
++ **[Windows kit with embedded Java](https://github.com/OpenRefine/OpenRefine/releases/download/3.5.1/openrefine-win-with-java-3.5.1.zip)**, 
 includes [OpenJDK Java](https://adoptopenjdk.net/about.html), available under the [GPLv2+CE](https://openjdk.java.net/legal/gplv2+ce.html) license. Download, unzip, and double-click on _openrefine.exe_ or _refine.bat_ if the former does not work.
-+ **[Mac kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.5.0/openrefine-mac-3.5.0.dmg)**, 
++ **[Mac kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.5.1/openrefine-mac-3.5.1.dmg)**, 
 Download, open, drag icon into the Applications folder and double click on it. You do not need to install Java separately. 
-+ **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.5.0/openrefine-linux-3.5.0.tar.gz)**, 
++ **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.5.1/openrefine-linux-3.5.1.tar.gz)**, 
 Download, extract, then type _./refine_ to start. This requires Java to be installed on your computer.
 
 ### OpenRefine 3.4.1
