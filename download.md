@@ -43,7 +43,6 @@ The following distributions have been customized for a specific usage or integra
 
 | Distribution | Description |  Authors |
 |--------------|-------------|----------|
-| [LODRefine](https://github.com/sparkica/LODRefine)    | LODRefine is actually OpenRefine with integrated extensions that make transition from tabular data to Linked Data a bit easier. Integrated extensions are: RDF extension, DBpedia extension, CrowdFlower crowdsourcing extension, Stats extension | Sparkica | 
 | [OpenDataRise](https://github.com/opendatatrentino/OpenDataRise) | Tool to cleanse and semantify datasets from CKAN repositories. Based on OpenRefine. | Open Data in Trentino  |
 | [p3-batchrefine](https://github.com/fusepoolP3/p3-batchrefine) | BatchRefine adds batch processing capabilities to OpenRefine and support multiple back end including spark | SpazioDati | 
 | [RefineOnSpark](https://github.com/andreybratus/RefineOnSpark) | RefineOnSpark is a driver program to run OpenRefine jobs on the Spark cluster | SpazioDati | 
@@ -75,6 +74,7 @@ These extensions were produced in the past and are good examples of desired uses
 
 | Extension Name | Description | Authors | Suggested compatible version |
 |--------------|-------------|----------|----------|
+| [LODRefine](https://github.com/sparkica/LODRefine)    | LODRefine is actually OpenRefine with integrated extensions that make transition from tabular data to Linked Data a bit easier. Integrated extensions are: RDF extension, DBpedia extension, CrowdFlower crowdsourcing extension, Stats extension | Sparkica | 
 | [VIB-BITS Diff plugin](https://web.archive.org/web/20190412064426/https://www.bits.vib.be/index.php/software-overview/openrefine) | Adds a "diff" tool which compares two text values. [Manual PDF](https://web.archive.org/web/20210203090522/https://data.bits.vib.be/hidden/g7dt6RjuUTU421dY2CwrGePGX/OpenRefine%20VIB-BITS%20diff%20plugin.pdf). |   VIB-Bits  | 3.4.1. [The VIB website states "We are investigating how to provide [the diff plugin] again with version 3.4 of OpenRefine."](https://www.bits.vib.be/index.php/software-overview/openrefine) |
 | [VIB-BITS Save facets plugin](https://web.archive.org/web/20190412064426/https://www.bits.vib.be/index.php/software-overview/openrefine) | Adds support for save facet settings and re-apply the same facets at a later time. [Manual PDF](https://web.archive.org/web/20150325214740/http://data.bits.vib.be/hidden/g7dt6RjuUTU421dY2CwrGePGX/OpenRefine%20VIB-BITS%20save%20facets%20plugin.pdf).  |   VIB-Bits  | Unknown. [The VIB website states "We are investigating how to provide [the diff plugin] again with version 3.4 of OpenRefine."](https://www.bits.vib.be/index.php/software-overview/openrefine) |
 | [geoXtension](https://github.com/giTorto/geoXtension) | geoXtension is based on GDAL, Proj, and GEOS libraries. Adding this extension takes a lot of time, usage of the ready-made docker is recommended. |  giTorto  | (circa 2.6) |
