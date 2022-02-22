@@ -14,7 +14,7 @@ Read the [installation instructions](https://docs.openrefine.org/manual/installi
 You can also download all official releases and source from our [GitHub releases page](https://github.com/OpenRefine/OpenRefine/releases/)
 
 ### OpenRefine 3.5.2
-The latest stable release of OpenRefine 3.5, released on January 26, 2021. Please [backup your workspace directory](https://docs.openrefine.org/manual/installing#back-up-your-data) before installing and report any problems that you encounter. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.5.2).
+The latest stable release of OpenRefine 3.5, released on January 26, 2022. Please [backup your workspace directory](https://docs.openrefine.org/manual/installing#back-up-your-data) before installing and report any problems that you encounter. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.5.2).
 
 + **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.5.2/openrefine-win-3.5.2.zip)**, 
 This requires Java to be installed on your computer. Download, unzip, and double-click on _openrefine.exe_ or _refine.bat_ if the former does not work.
