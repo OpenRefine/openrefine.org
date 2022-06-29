@@ -91,9 +91,9 @@ We received many feature requests as answers to the prompt "It would be awesome 
 * Better developed, more explicit and more detailed notifications and warnings (2)
 
 Some feature requests are specific to Wikimedia, Wikibase and Wikidata support:
-    * Faster Wikidata upload
-    * The possibility to use OpenRefine for Wikibase editing (note: this is  already possible, see [OpenRefine's documentation](https://docs.openrefine.org/next/manual/wikibase/configuration) and [a tutorial on Wikiversity](https://en.wikiversity.org/wiki/OpenRefine_to_Wikibase:_Data_Upload_Pipeline))
-    * Clearer error messages when Wikidata edits fail
+* Faster Wikidata upload
+* The possibility to use OpenRefine for Wikibase editing (note: this is  already possible, see [OpenRefine's documentation](https://docs.openrefine.org/next/manual/wikibase/configuration) and [a tutorial on Wikiversity](https://en.wikiversity.org/wiki/OpenRefine_to_Wikibase:_Data_Upload_Pipeline))
+* Clearer error messages when Wikidata edits fail
 
 Several requests relate to reconciliation services:
 * Faster and more powerful reconciliation
@@ -124,7 +124,7 @@ And finally:
 * Improved record mode
 * Parse JSON or XML automatically
 * API calls beyond get
-* Make OpenRefine for georeferencing
+* Make OpenRefine suited for georeferencing
 * More training (including in underrepresented contexts)
 
 ## Communication, help and support
