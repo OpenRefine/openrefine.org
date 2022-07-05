@@ -25,16 +25,16 @@ Download, open, drag icon into the Applications folder and double click on it. Y
 + **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.5.2/openrefine-linux-3.5.2.tar.gz)**, 
 Download, extract, then type _./refine_ to start. This requires Java to be installed on your computer.
 
-### OpenRefine 3.6-beta2
-The latest beta release of OpenRefine 3.6, released on June 7, 2022. Please [backup your workspace directory](https://docs.openrefine.org/manual/installing#back-up-your-data) before installing and report any problems that you encounter. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.6-beta2).
+### OpenRefine 3.6-rc1
+The latest release candidate of OpenRefine 3.6, released on July 5, 2022. Please [backup your workspace directory](https://docs.openrefine.org/manual/installing#back-up-your-data) before installing and report any problems that you encounter. A change log is provided on [the release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.6-rc1).
 
-+ **[Windows kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.6-beta2/openrefine-3.6-beta2-win.zip)**, 
++ **[Windows kit](https://oss.sonatype.org/service/local/artifact/maven/content?r=releases&g=org.openrefine&a=openrefine&v=3.6-rc1&c=win&p=zip)**, 
 This requires Java to be installed on your computer. Download, unzip, and double-click on _openrefine.exe_ or _refine.bat_ if the former does not work.
-+ **[Windows kit with embedded Java](https://github.com/OpenRefine/OpenRefine/releases/download/3.6-beta2/openrefine-3.6-beta2-win-with-java.zip)**, 
++ **[Windows kit with embedded Java](https://oss.sonatype.org/service/local/artifact/maven/content?r=releases&g=org.openrefine&a=openrefine&v=3.6-rc1&c=win-with-java&p=zip)**, 
 includes [OpenJDK Java](https://adoptopenjdk.net/about.html), available under the [GPLv2+CE](https://openjdk.java.net/legal/gplv2+ce.html) license. Download, unzip, and double-click on _openrefine.exe_ or _refine.bat_ if the former does not work.
-+ **[Mac kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.6-beta2/openrefine-3.6-beta2-mac.dmg)**, 
++ **[Mac kit](https://oss.sonatype.org/service/local/artifact/maven/content?r=releases&g=org.openrefine&a=openrefine&v=3.6-rc1&c=mac&p=dmg)**, 
 Download, open, drag icon into the Applications folder and double click on it. You do not need to install Java separately. 
-+ **[Linux kit](https://github.com/OpenRefine/OpenRefine/releases/download/3.6-beta2/openrefine-3.6-beta2-linux.tar.gz)**, 
++ **[Linux kit](https://oss.sonatype.org/service/local/artifact/maven/content?r=releases&g=org.openrefine&a=openrefine&v=3.6-rc1&c=linux&p=tar.gz)**, 
 Download, extract, then type _./refine_ to start. This requires Java to be installed on your computer.
 
 ## Other Distributions
