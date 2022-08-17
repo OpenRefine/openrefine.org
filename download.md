@@ -47,7 +47,7 @@ The following distributions have been customized for a specific usage or integra
 | [p3-batchrefine](https://github.com/fusepoolP3/p3-batchrefine) | BatchRefine adds batch processing capabilities to OpenRefine and support multiple back end including spark | SpazioDati | 
 | [RefineOnSpark](https://github.com/andreybratus/RefineOnSpark) | RefineOnSpark is a driver program to run OpenRefine jobs on the Spark cluster | SpazioDati | 
 | [Reconciliation-and-Matching-Framework](https://github.com/RBGKew/Reconciliation-and-Matching-Framework) | A framework to allow the matching of string entities using customised sets of transformations and matchers, plus a tool to produce the necessary configurations and another to expose them as OpenRefine reconciliation services.  | RBGKew | 
-| [OntoRefine](https://platform.ontotext.com/ontorefine/) | Ontotext Refine is a data transformation tool based on OpenRefine. Until GraphDB 9.11 it was integrated in Workbench, since GraphDB is a separate product (Ontotext Refine 1.0 release in July 2022). It can be used for converting tabular data to RDF using a visual mapper or SPARQL, exporting it as Turtle or importing it to a GraphDB repository directly, using SPARQL queries against a virtual endpoint of Refine data.  | Ontotext |
+| [OntoRefine](https://platform.ontotext.com/ontorefine/) | Ontotext Refine, previously called OntoRefine, is a closed-source data transformation tool based on OpenRefine. It can be used for converting tabular data to RDF using a visual mapper or SPARQL, exporting it as Turtle or importing it to a GraphDB repository directly, using SPARQL queries against a virtual endpoint of Refine data.  | Ontotext |
 
 ## List of Extensions 
 
