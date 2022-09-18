@@ -1,11 +1,11 @@
 ---
   layout: post
   author: trnstlntk
-  title: "From mailing lists and Gitter to a web forum: welcoming your feedback"
+  title: "From mailing lists and Gitter to a web-based Discourse forum: welcoming your feedback"
   category: Blog
 
 ---
-<img src="https://openrefine.org/images/2022-jan-ainali.jpg" alt="Simple graphic showing group discussions with multicolored text balloons" class="inset" />
+<img src="https://openrefine.org/images/2022-group-discussions.jpg" alt="Simple graphic showing group discussions with multicolored text balloons" class="inset" />
 
 **tl;dr We consider moving OpenRefine's mailing lists and Gitter to a web-based Discourse forum, and invite your feedback.**
 
