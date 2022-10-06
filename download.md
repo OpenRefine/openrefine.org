@@ -68,6 +68,7 @@ You can install the following extensions to add functionalities to OpenRefine. W
 | [CKAN Storage Extension](https://github.com/Ontodia/openrefine-ckan-storage-extension) | Exports data to CKAN Storage 2.2+ using CKAN storage API. | Ontodia | 3.1 |
 | [GeoRefine](https://github.com/ryanfb/georefine) | Add geospatial processing GREL functions. |  Ryan Baumann | 2.8 |
 | [D2Refine](https://github.com/caCDE-QA/D2Refine) | A clinical study metadata harmonization and validation workbench to 1) convert restrictions (specified in a spreadsheet-like interface) into a clinical model; and 2) provide reconciliation services leveraging the Common Terminology Services 2 (CTS2). [Manual](https://github.com/caCDE-QA/D2Refine/wiki). |  [Deepak K. Sharma](https://github.com/dksharma) | 2.7 |
+| [MetricDoc](https://github.com/christianbors/OpenRefineQualityMetrics) | An interactive visual exploration environment for assessing data quality | [Christian Bors](https://github.com/christianbors) | 3.4.1 |
 
 ### Legacy Extensions 
 
