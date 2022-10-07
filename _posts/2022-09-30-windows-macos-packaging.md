@@ -22,10 +22,12 @@ We are hoping that those proposals could solve some of the following issues:
 All new packaging steps should be integrated in our Continuous Deployment infrastructure (currently running on GitHub Actions), if not in our Maven packaging configuration itself.
 
 We have funding to contract out this work to freelancers.
-To respond to this opportunity, please send the following to our developers mailing list (openrefine-dev@googlegroups.com):
+To respond to this opportunity, please send the following to hiring@openrefine.org:
 * a short description of the changes you propose to introduce and how they relate to the issues above
 * your price for this work
 * any pointers to some related work in other projects (or anything that can help us assess your ability to carry out the proposed work)
+
+You are encouraged to discuss your proposed changes (such as the packaging tools you intend to use) with the contributor community (such as on the [openrefine-dev](https://groups.google.com/g/openrefine-dev/?pli=1) mailing list or in GitHub issues).
 
 Proposals will be reviewed by our [project director and advisory committee](https://github.com/OpenRefine/OpenRefine/blob/master/GOVERNANCE.md). Feel free to get in touch with us if you have any questions about this call.
 
