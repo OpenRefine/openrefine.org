@@ -22,7 +22,7 @@ We are hoping that those proposals could solve some of the following issues:
 All new packaging steps should be integrated in our Continuous Deployment infrastructure (currently running on GitHub Actions), if not in our Maven packaging configuration itself.
 
 We have funding to contract out this work to freelancers.
-To respond to this opportunity, please send the following to hiring@openrefine.org:
+To respond to this opportunity, please send the following to advisory.committee@openrefine.org:
 * a short description of the changes you propose to introduce and how they relate to the issues above
 * your price for this work
 * any pointers to some related work in other projects (or anything that can help us assess your ability to carry out the proposed work)
