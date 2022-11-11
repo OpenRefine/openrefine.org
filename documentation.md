@@ -19,12 +19,12 @@ sidebar_link: true
 <ul>
   <li><a href="https://docs.openrefine.org/technical-reference/technical-reference-index">Information for developers</a></li>
   <li><a href="https://github.com/OpenRefine/OpenRefine/blob/master/CONTRIBUTING.md">Contributor guidelines</a></li>
-  <li><a href="https://groups.google.com/forum/?fromgroups#!forum/openrefine-dev">Developer discussion list</a></li>
+  <li><a href="https://forum.openrefine.org/c/dev">Developer discussion forum</a></li>
 </ul>
 
 <h2 id="support">Support</h2>
 <ul>
-  <li><a href="http://groups.google.com/group/openrefine/">OpenRefine support mailing list</a></li>
+  <li><a href="https://forum.openrefine.org/c/support">OpenRefine support forum</a></li>
   <li><a href="https://stackoverflow.com/questions/tagged/openrefine">StackOverflow tag</a></li>
   <li><a href="https://github.com/OpenRefine/OpenRefine/issues?milestone=&amp;page=1&amp;state=open">File a bug report or feature request</a></li>
 </ul>
