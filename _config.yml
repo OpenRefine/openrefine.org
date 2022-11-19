@@ -8,7 +8,7 @@ safe:        true
 port: 4000
 description: A free, open source, powerful tool for working with messy data
 # baseurl: http://www.openrefine.org
-url: http://www.openrefine.org 
+url: https://openrefine.org
    # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
@@ -25,6 +25,7 @@ paginate:         8
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
   - jekyll-gist
   - jekyll-paginate
 
