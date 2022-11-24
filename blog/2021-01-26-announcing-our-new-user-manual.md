@@ -1,7 +1,7 @@
 ---
 author: Allana Mayer
 title: "Announcing our new user manual"
-slug: announcing-our-new-user-manual
+slug: 2021/01/26/announcing-our-new-user-manual
 ---
 
 The OpenRefine team is delighted to share [our new user manual](https://docs.openrefine.org/)!

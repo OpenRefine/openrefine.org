@@ -1,7 +1,7 @@
 ---
 author: Antonin Delpeuch
 title: "Welcome to our 2020 Google Summer of Code and Outreachy interns"
-slug: outreachy-gsoc-projects
+slug: 2020/05/04/outreachy-gsoc-projects
 ---
 
 We are happy to announce that three interns will join the development team this summer:

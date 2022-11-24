@@ -1,7 +1,7 @@
 ---
 author: Sandra Fauconnier
 title: "Structured Data on Commons functionalities: welcome to OpenRefine's new team members!"
-slug: commons-project-team
+slug: 2021/12/01/commons-project-team
 ---
 **OpenRefine is developing features for Structured Data on Wikimedia Commons and welcomes new members to its team!**
 

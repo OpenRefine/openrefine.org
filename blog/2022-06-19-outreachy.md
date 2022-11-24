@@ -1,7 +1,7 @@
 ---
 author: Sandra Fauconnier
 title: "Welcome to our May 2022 Outreachy interns!"
-slug: outreachy
+slug: 2022/06/19/outreachy
 ---
 
 This year, OpenRefine is very happy to participate in [Outreachy](https://www.outreachy.org/) again, an internship program in open source and open science initiated and run by the [Software Freedom Conservancy](https://www.sfconservancy.org/). Outreachy provides paid, remote internships to people subject to systemic bias and impacted by underrepresentation in the technical industry where they are living. For OpenRefine, this is our second time welcoming and mentoring interns who actively improve our codebase and, while doing so, gain experience in open source development.

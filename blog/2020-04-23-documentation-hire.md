@@ -1,7 +1,7 @@
 ---
 author: Antonin Delpeuch
 title: "Help us write OpenRefine's new documentation"
-slug: documentation-hire
+slug: 2020/04/23/documentation-hire
 ---
 
 The OpenRefine team is seeking a technical writer to help write a reference manual for the tool. This is a 6 months contract, funded by a grant from the [Silicon Valley Community Foundation](https://www.siliconvalleycf.org/) via the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/) under their [Essential Open Source Software for Science](https://chanzuckerberg.com/eoss/proposals/) programme.

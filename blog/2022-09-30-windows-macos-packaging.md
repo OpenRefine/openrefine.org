@@ -2,7 +2,7 @@
 authors:
   - name: Antonin Delpeuch
 title: "Looking for help with Windows and MacOS packaging"
-slug: windows-macos-packaging
+slug: 2022/09/30/windows-macos-packaging
 ---
 
 OpenRefine's packaging for MacOS and Windows could be improved in many ways, and we are looking for help in this front.

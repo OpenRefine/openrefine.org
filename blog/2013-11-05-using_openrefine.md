@@ -1,7 +1,7 @@
 ---
 author: Ruben Verborgh
 title: "Using OpenRefine: a manual"
-slug: using_openrefine
+slug: 2013/11/05/using_openrefine
 ---
 
 _“How do I get started?”_ is the question we received most

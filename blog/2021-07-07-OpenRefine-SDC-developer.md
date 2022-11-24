@@ -1,7 +1,7 @@
 ---
 author: Sandra Fauconnier
 title: "Now hiring: Junior Developer for Structured Data on Commons functionalities in OpenRefine"
-slug: OpenRefine-SDC-developer
+slug: 2021/07/07/OpenRefine-SDC-developer
 ---
 
 **OpenRefine is seeking a *Junior Developer - Structured Data on Wikimedia Commons additions to OpenRefine's codebase* (paid contractor position).**

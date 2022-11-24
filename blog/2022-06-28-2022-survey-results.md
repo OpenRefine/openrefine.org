@@ -1,7 +1,7 @@
 ---
 author: Sandra Fauconnier
 title: "OpenRefine's 2022 user survey: the results are in!"
-slug: 2022-survey-results
+slug: 2022/06/28/2022-survey-results
 ---
 
 Every two years, OpenRefine holds an extensive survey among its users. Our fifth edition was live in April-May 2022. No less than 207 people participated, which  breaks our record of 2020 when we received 178 responses.

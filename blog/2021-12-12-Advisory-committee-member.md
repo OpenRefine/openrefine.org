@@ -1,7 +1,7 @@
 ---
 author: Antonin Delpeuch
 title: "Join OpenRefine's Advisory Committee"
-slug: Advisory-committee-member
+slug: 2021/12/12/Advisory-committee-member
 ---
 
 **OpenRefine is seeking a new member for its Advisory Committee (unpaid position).**

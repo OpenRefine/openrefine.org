@@ -1,7 +1,7 @@
 ---
 author: Martin Magdinier
 title: "OpenRefine News: November 2015"
-slug: OpenRefine-News-November-2015 
+slug: 2015/12/04/OpenRefine-News-November-2015 
 ---
 
 Once again welcome to the latest edition of our monthly update. Always exciting to update you on all the new developments that have been happening with OpenRefine, and the community as a whole.

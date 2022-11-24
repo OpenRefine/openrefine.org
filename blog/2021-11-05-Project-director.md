@@ -1,7 +1,7 @@
 ---
 author: Antonin Delpeuch
 title: "Now hiring: Part-time Project Director"
-slug: Project-director
+slug: 2021/11/05/Project-director
 ---
 
 **OpenRefine is seeking a *Part-time Project Director* (paid position).**

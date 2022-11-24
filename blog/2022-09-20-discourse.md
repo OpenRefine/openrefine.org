@@ -1,7 +1,7 @@
 ---
 author: Sandra Fauconnier
 title: "From mailing lists and Gitter to a web-based Discourse forum: welcoming your feedback"
-slug: discourse
+slug: 2022/09/20/discourse
 ---
 
 <img src="/img/2022-group-discussions.jpg" alt="Simple graphic showing group discussions with multicolored text balloons" class="inset" />

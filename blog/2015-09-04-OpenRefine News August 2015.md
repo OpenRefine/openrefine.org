@@ -1,7 +1,7 @@
 ---
 author: Martin Magdinier
 title: "OpenRefine News: August 2015"
-slug: OpenRefine-News-August-2015
+slug: 2015/09/04/OpenRefine-News-August-2015
 ---
 
 Did you took a break from OpenRefine in August, fear of missing something? No worries, the August update got you covered.

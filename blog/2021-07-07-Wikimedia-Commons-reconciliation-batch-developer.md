@@ -1,7 +1,7 @@
 ---
 author: Sandra Fauconnier
 title: "Now hiring: Junior Developer for Wikimedia Commons reconciliation and batch functionalities"
-slug: Wikimedia-Commons-reconciliation-batch-developer
+slug: 2021/07/07/Wikimedia-Commons-reconciliation-batch-developer
 ---
 
 *Update (2021-08-06): both positions have been filled.*

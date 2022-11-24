@@ -1,7 +1,7 @@
 ---
 author: Martin Magdinier
 title: "OpenRefine News: October 2015"
-slug: OpenRefine-News-October-2015 
+slug: 2015/11/11/OpenRefine-News-October-2015 
 ---
 In this October edition of OpenRefine news: we have listed the latest tutorials and documentation published. Looking for events to attends in November? There is five OpenRefine events happening in the coming weeks. 
 

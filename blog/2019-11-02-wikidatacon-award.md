@@ -1,7 +1,7 @@
 ---
 author: Antonin Delpeuch
 title: "WikidataCon Award 2019"
-slug: wikidatacon-award
+slug: 2019/11/02/wikidatacon-award
 ---
 
 We are pleased to announce that the [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) community has awarded a [WikidataCon 2019 Award](https://commons.wikimedia.org/wiki/File:OpenRefine_WikidataCon_Award_winner.jpg) to OpenRefine in

@@ -1,7 +1,7 @@
 ---
 author: Antonin Delpeuch
 title: "Call for Proposals: Improving the Contributor Experience in OpenRefine"
-slug: cfp-contributor-experience
+slug: 2020/08/28/cfp-contributor-experience
 ---
 
 [OpenRefine](https://openrefine.org/) is a power tool to clean messy data, popular in a diverse range of communities. It has been serving the needs of journalists, librarians, Wikipedians, scientists for more than 10 years, and is taught in many curricula and workshops around the world.

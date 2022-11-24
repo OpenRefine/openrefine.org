@@ -1,7 +1,7 @@
 ---
 author: Martin Magdinier
 title: "A Governance Model for OpenRefine"
-slug: a_governance_model_for_OpenRefine
+slug: 2014/04/27/a_governance_model_for_OpenRefine
 ---
 
 From its inception until October 2012 Refine development was driven mainly by corporations. Metaweb and Google have committed resources to support and grow Refine for more than two years until Google Refine 2.5 release. With the end of Google support 18 months ago, OpenRefine is working as an indepedant community, relying only on volunteer to maintain the code and support user and contributors.  

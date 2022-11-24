@@ -1,7 +1,7 @@
 ---
 author: Antonin Delpeuch
 title: "Outreachy and Google Summer of Code"
-slug: outreachy-gsoc
+slug: 2020/02/22/outreachy-gsoc
 ---
 
 OpenRefine will offer internships via the [Outreachy](https://www.outreachy.org/) and [Google Summer of Code](https://summerofcode.withgoogle.com/) programs this year.

@@ -1,7 +1,7 @@
 ---
 author: Martin Magdinier
 title: "2020 survey results"
-slug: 2020-survey-results
+slug: 2020/02/20/2020-survey-results
 ---
 
 The results of our fourth OpenRefine user survey are out! We received 178 responses in less than four weeks (vs. 122 in 2018 over seven months)! The goal of the study is to keep an accurate and up to date picture of the OpenRefine community. When possible, we compared the 2020 results with our previous survey. You can view the full details of the [2012](http://googlerefine.blogspot.ca/2012/10/google-refine-usage-survey-results.html), [2014](http://openrefine.org/blog/2014/08/29/2014-survey-results.html), and [2018](http://openrefine.org/blog/2018/07/16/2018-survey-results.html) surveys

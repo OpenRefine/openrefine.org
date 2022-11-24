@@ -1,7 +1,7 @@
 ---
 author: Martin Magdinier
 title: "OpenRefine News: July 2015"
-slug: OpenRefine-News-July-2015
+slug: 2015/08/07/OpenRefine-News-July-2015
 ---
 
 It is time to look back at developments who happened in the community through July. Plenty of new tutorials in English, French, German and Czech, and an update on progress on the 2.6 release.

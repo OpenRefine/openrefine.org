@@ -1,7 +1,7 @@
 ---
 author: Sandra Fauconnier
 title: "Welcome to Jan Ainali, OpenRefine's new advisory committee member"
-slug: jan-ainali-advisory-committee
+slug: 2022/05/05/jan-ainali-advisory-committee
 ---
 
 OpenRefine’s advisory committee is growing! We are warmly welcoming Jan Ainali as a new member. OpenRefine’s advisory committee runs the administrative side of the project on a day to day basis.

@@ -1,7 +1,7 @@
 ---
 author: Martin Magdinier
 title: "2014 survey results"
-slug: 2014-survey-results
+slug: 2014/08/29/2014-survey-results
 ---
 
 Following the [2012 survey](http://googlerefine.blogspot.ca/2012/10/google-refine-usage-survey-results.html) which gather 99 answers, I wanted to have a fresh picture on who are OpenRefine users. The 2014 survey received 129 answers on the span of two weeks. The goal of this second survey was to understand who is OpenRefine audience and what are they relationship with the official community tools (mailing list and Github issue trackers.) 
