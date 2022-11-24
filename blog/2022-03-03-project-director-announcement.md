@@ -1,7 +1,7 @@
 ---
 author: Antonin Delpeuch
 title: "OpenRefine welcomes Sandra Fauconnier as project director"
-slug: project-director
+slug: project-director-announcement
 ---
 
 OpenRefine’s advisory committee is happy to welcome [Sandra Fauconnier](https://meta.wikimedia.org/wiki/User:SFauconnier) as OpenRefine’s project director. This is a part time position, funded by an [Essential Open Source Software for Science grant awarded by the Chan Zuckerberg Initiative](https://chanzuckerberg.com/eoss/proposals/openrefine-for-everyone/).
