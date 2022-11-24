@@ -4,7 +4,7 @@
 /documentation.html  /docs
 /community.html /community
 /category/blog.html     /blog
-/blog/:year/:month/:day/:slug  /blog/:year/:month/:day/:slug.html
+/blog/:year/:month/:day/:slug.html  /blog/:year/:month/:day/:slug
 
 /feed.xml       /atom.xml
 /images/czi-eoss-proposal.pdf   /uploads/czi-eoss-proposal.pdf
