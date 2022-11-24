@@ -15,7 +15,7 @@ However, until recently, no complete OpenRefine manual existed,
 so you had to collect documentation from different sources
 if you wanted to master OpenRefine.
 
-<a href="/img/using-openrefine.jpg"><img src="/img/using-openrefine.jpg" class="inset" /></a>
+[![Using OpenRefine book cover](/img/using-openrefine.jpg)](/img/using-openrefine.jpg)
 This is why we've written an OpenRefine manual called [_Using OpenRefine_](http://www.packtpub.com/openrefine-guide-for-data-analysis-and-linking-dataset-to-the-web/book)
 that leads you from your first steps
 to all advanced OpenRefine topics.

@@ -10,19 +10,19 @@ From December 12, 2017, to June 7, 2018, we ran our third OpenRefine user survey
 
 Librarians and researchers remain the two largest user group with 28.69%  and 15.57% of the respondents (which is consistent with the 2014 results). We can notice the Data Science, and Non-Profit organization groups increased since 2014.
 
-<a href="/img/2018survey/1.png"><img src="/img/2018survey/1.png" class="inset" /></a>
+[![](/img/2018survey/1.png)](/img/2018survey/1.png)
 
 ##  How often do you use OpenRefine
 
 Usage frequency remains globally the same since 2012, with fewer respondents using it weekly (34.4% vs. 41% in 2014) and more on a monthly basis (42% today vs. 30% in 2014). 
 
 
-<a href="/img/2018survey/21.png"><img src="/img/2018survey/21.png" class="inset" /></a>
+[![](/img/2018survey/21.png)](/img/2018survey/21.png)
 
 
 The user base change from daily users to weekly or monthly users. Note that we did not offer the option _Less than once a month_ in the 2012 survey and remove the First time user option after 2012. 
 
-<a href="/img/2018survey/22.png"><img src="/img/2018survey/22.png" class="inset" /></a>
+[![](/img/2018survey/22.png)](/img/2018survey/22.png)
 
 
 ## For how long have you been using OpenRefine
@@ -31,19 +31,19 @@ Users with over two years of experience are now representing 50% of the user bas
 
 Note that in the below analysis we included users that never used OpenRefine in the less than six months group (five respondents in 2014, nine in 2018). 
 
-<a href="/img/2018survey/23.png"><img src="/img/2018survey/23.png" class="inset" /></a>
+[![](/img/2018survey/23.png)](/img/2018survey/23.png)
 
 ## How will you rate your skills using OpenRefine
 
 Both in 2012 and 2014 we asked respondents to rate their skills from one to five. One being a novice in Refine and five being a master. This graph confirms the trends that the community is composed of advanced users with the only a third of them rating their skills at 1 or 2 out of 5.
 
-<a href="/img/2018survey/24.png"><img src="/img/2018survey/24.png" class="inset" /></a>
+[![](/img/2018survey/24.png)](/img/2018survey/24.png)
 
 ## Version of OpenRefine
 
 The majority of the respondents use the latest release of OpenRefine (2.8).
 
-<a href="/img/2018survey/3.png"><img src="/img/2018survey/3.png" class="inset" /></a>
+[![](/img/2018survey/3.png)](/img/2018survey/3.png)
 
 ## High-level tasks you do with OpenRefine
 
@@ -51,7 +51,7 @@ Usage breakdown remains stable compared to the 2012 survey. 87.77% of the respon
 
 The majority of the respondents use OpenRefine to normalize data (80%) and transform it (75%).  We introduced the answer _Preparing a dataset before visualization in another application (R, D3, Tableau, Fusion Table ...)_  in the 2018 survey.
 
-<a href="/img/2018survey/4.png"><img src="/img/2018survey/4.png" class="inset" /></a>
+[![](/img/2018survey/4.png)](/img/2018survey/4.png)
 
 Note: Respondant can select multiple answer. Click on the image to enlarge it. 
 
@@ -59,7 +59,7 @@ Note: Respondant can select multiple answer. Click on the image to enlarge it.
 
 62.3% of the respondents do not use plugins or extension; 22.13% installed only one plugin and 15% of them installed more than one (with one person installing eight plugins!). The RDF extension is the most popular extension with 14.8% of the respondents using it, followed by the VIB BITS and NER plugins.
 
-<a href="/img/2018survey/5.png"><img src="/img/2018survey/5.png" class="inset" /></a>
+[![](/img/2018survey/5.png)](/img/2018survey/5.png)
 
 Note: Respondent can select multiple answers. We consolidated blank answer with I don't use plugin or extension. Click on the image to enlarge it. 
 
@@ -67,7 +67,7 @@ Note: Respondent can select multiple answers. We consolidated blank answer with 
 
 The two top services used are Wikidata and reconcile-csv. 30.33% of the respondent installed only one reconciliation when 18.03% used more than one (with one person using six services!), and 51.6% of them do not use a reconciliation service. 
 
-<a href="/img/2018survey/6.png"><img src="/img/2018survey/6.png" class="inset" /></a>
+[![](/img/2018survey/6.png)](/img/2018survey/6.png)
 
 Note: Respondent can select multiple answers. Click on the image to enlarge it. 
 
@@ -77,19 +77,19 @@ The following word clouds are more eye-pleasing than an in-depth analysis.
 
 ### Why did you choose OpenRefine (Which features)
 
-<a href="/img/2018survey/reason.png"><img src="/img/2018survey/reason.png" class="inset" /></a>
+[![](/img/2018survey/reason.png)](/img/2018survey/reason.png)
 
 ### Alternative tools 
 
 Excel, R, and python remain the mains alternative to OpenRefine. Since 2014, we can notice the emergence of other self-service data preparation tools like Trifacta and Talend Data Preparation. 
 
-<a href="/img/2018survey/alternative.png"><img src="/img/2018survey/alternative.png" class="inset" /></a>
+[![](/img/2018survey/alternative.png)](/img/2018survey/alternative.png)
 
 
 ### Word used to describe OpenRefine
 
 
-<a href="/img/2018survey/describe.png"><img src="/img/2018survey/describe.png" class="inset" /></a>
+[![](/img/2018survey/describe.png)](/img/2018survey/describe.png)
 
 ### From the Feature Request and Anything to add
 
