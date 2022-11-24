@@ -1183,14 +1183,6 @@
   resolved "https://registry.npmjs.org/@colors/colors/-/colors-1.5.0.tgz"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@crowdin/cli@^3.7.9":
-  version "3.7.10"
-  resolved "https://registry.npmjs.org/@crowdin/cli/-/cli-3.7.10.tgz"
-  integrity sha512-L0sjeEv4bn7LHNYsKxl2aTrah16u1ThufN0xvMMH7o53lD29llvVfAD9jVOttSl/kyQ+mMDY8GLzjPRNFdLJqQ==
-  dependencies:
-    njre "^0.2.0"
-    shelljs "^0.8.4"
-
 "@docsearch/css@3.2.1":
   version "3.2.1"
   resolved "https://registry.npmjs.org/@docsearch/css/-/css-3.2.1.tgz"
