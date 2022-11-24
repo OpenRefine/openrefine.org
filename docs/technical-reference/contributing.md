@@ -11,7 +11,7 @@ Please read the general [guidelines on contributing to OpenRefine](https://githu
 If you need to file a bug or request a feature, [create an Issue in the OpenRefine Github repository](https://github.com/OpenRefine/OpenRefine/issues). Github issues should be used for reporting specific bugs and requesting specific features. If you just don't know how to do something using OpenRefine, or want to discuss some ideas, please:
 
 - [Try the user manual](/)
-- [post to our OpenRefine mailing list](http://groups.google.com/group/openrefine/)
+- [Ask for help on our forum](http://forum.openrefine.org/)
 
 ## Contributing to the documentation {#contributing-to-the-documentation}
 
@@ -47,7 +47,7 @@ yarn start
 
 ## Your first code pull request {#your-first-code-pull-request}
 
-This describes the overall steps to your first code contribution in OpenRefine. If you have trouble with any of these steps feel free to reach out on the [developer mailing list](https://groups.google.com/forum/#!forum/openrefine-dev) or the [Gitter channel](https://gitter.im/OpenRefine/OpenRefine).
+This describes the overall steps to your first code contribution in OpenRefine. If you have trouble with any of these steps feel free to reach out on the [developer forum](https://forum.openrefine.org/c/dev/8) or the [Gitter channel](https://gitter.im/OpenRefine/OpenRefine).
 
 - Install OpenRefine, learn to use it by following some tutorials or watching [some videos](http://openrefine.org/). That will ensure you understand the user workflows and get familiar with the terminology used in the tool.
 

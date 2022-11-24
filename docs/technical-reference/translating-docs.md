@@ -8,7 +8,7 @@ Our user manual can be translated using [Crowdin](https://crowdin.com/project/op
 
 ## Getting access to Crowdin
 
-You need to request access to Crowdin on [our developers mailing list](https://groups.google.com/forum/#!forum/openrefine-dev). You will then be granted translator access on the platform.
+You need to request access to Crowdin on [our developers forum](https://forum.openrefine.org/c/dev/8). You will then be granted translator access on the platform.
 
 ## Publication of translations
 

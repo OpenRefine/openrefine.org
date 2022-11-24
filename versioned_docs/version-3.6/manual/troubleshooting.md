@@ -13,13 +13,11 @@ If you don’t find your problem and solution there, continue on to the resource
 ## Community {#community}
 
 ### If you’re having a problem: {#if-youre-having-a-problem}
-*   Search the [User forum](https://groups.google.com/g/openrefine) to see if the problem is already reported
-*   Search [Github issues](https://github.com/OpenRefine/OpenRefine/issues) to see if the problem is already reported
-*   Read [Stack Overflow](https://stackoverflow.com/questions/tagged/openrefine) to see if others had a similar problem
-*   Check [Twitter](https://twitter.com/search?f=tweets&vertical=default&q=OpenRefine%20OR%20%22Open%20Refine%22%20OR%20%23OpenRefine&src=typd) to see if others are discussing the problem
+*   Search the web to see if this is a known issue: it could be mentioned in the [forum](https://forum.openrefine.org), on our old mailing lists ([openrefine](https://groups.google.com/forum/#!forum/openrefine) and
+    [openrefine-dev](https://groups.google.com/forum/#!forum/openrefine-dev)), on [Stack Overflow](https://stackoverflow.com/questions/tagged/openrefine)
 *   Report an issue: 
-    *   First as a new thread (conversation) in the [User forum](https://groups.google.com/g/openrefine).
-    *   Then, if you wish, you can create a Github issue.
+    *   Either as a new thread (conversation) in the [forum](https://forum.openrefine.org/).
+    *   Or directly as [a Github issue](https://github.com/OpenRefine/OpenRefine/issues/new/choose) if you already have GitHub account.
 
 ### If you want to contribute: {#if-you-want-to-contribute}
 *   [Help us translate the tool into more languages](../technical-reference/translating-ui), using Weblate

@@ -518,4 +518,4 @@ Some examples:
 * And the same in Ruby: [Refine-Ruby](https://github.com/maxogden/refine-ruby)
 * Another Python client library, by Paul Makepeace: [OpenRefine Python Client Library](https://github.com/PaulMakepeace/refine-client-py) 
 
-To look for other instances, search our Google Groups [for users](https://groups.google.com/g/openrefine) and [for developers](https://groups.google.com/g/openrefine-dev), where [these projects were originally posted](https://groups.google.com/g/openrefine/c/GfS1bfCBJow/m/qWYOZo3PKe4J).
+To look for other instances, search our former Google Groups [for users](https://groups.google.com/g/openrefine) and [for developers](https://groups.google.com/g/openrefine-dev), where [these projects were originally posted](https://groups.google.com/g/openrefine/c/GfS1bfCBJow/m/qWYOZo3PKe4J).

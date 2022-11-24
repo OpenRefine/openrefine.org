@@ -21,9 +21,10 @@ git tag -a -m "Second beta" 2.6-beta.2
    * Windows with embedded JRE: https://oss.sonatype.org/service/local/artifact/maven/content?r=releases&g=org.openrefine&a=openrefine&v=3.6-rc1&c=win-with-java&p=zip
 6. Announce the beta/release candidate for testing
 7. Repeat build/release candidate/testing cycle, if necessary.
-8. [Update the OpenRefine Homebrew cask](https://github.com/OpenRefine/OpenRefine/wiki/Maintaining-OpenRefine's-Homebrew-Cask) or coordinate an update via the [developer list](https://groups.google.com/forum/#!forum/openrefine-dev)
+8. [Update the OpenRefine Homebrew cask](https://github.com/OpenRefine/OpenRefine/wiki/Maintaining-OpenRefine's-Homebrew-Cask) or coordinate an update via the [developer forum](https://forum.openrefine.org/c/dev/8)
 9. Verify that the correct versions are shown in the widget at [http://openrefine.org/download](http://openrefine.org/download)
-10. Announce on the [OpenRefine mailing list](https://groups.google.com/forum/#!forum/openrefine).
+10. Announce on the [announcements section of the OpenRefine forum](https://forum.openrefine.org/c/news/13), or even on the [blog](https://openrefine.org/blog) if this is a major release (the blog is imported automatically into the announcements category
+    of the forum)
 11. Update the version in master to the next version number with `-SNAPSHOT` (such as `4.3-SNAPSHOT`)
 ```shell
 mvn versions:set -DnewVersion=4.3-SNAPSHOT
