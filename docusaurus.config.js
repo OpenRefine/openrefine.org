@@ -49,12 +49,6 @@ module.exports = {
         },
       ],
     },
-    algolia: {
-	    apiKey: 'c933f37529f61e969dd96b2a0ddd08a4',
-            appId: '2ROSQW3VSY',
-	    indexName: 'openrefine',
-	    contextualSearch: true,
-    },
     footer: {
       logo: {
         alt: 'OpenRefine diamond logo',
