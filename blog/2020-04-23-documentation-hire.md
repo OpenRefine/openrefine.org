@@ -17,7 +17,7 @@ We are looking for one or more enthusiastic contributors to join our fully remot
 
 ## Overview of the work
 
-As part of [our milestones for the EOSS grant](/img/czi-eoss-proposal.pdf), we are in the process of migrating our existing documentation from [our GitHub Wiki](https://github.com/OpenRefine/OpenRefine/wiki) to a dedicated documentation platform. This effort is described in our root planning document and coordinated by Owen Stephens and Antonin Delpeuch. We have identified multiple documentation areas:
+As part of [our milestones for the EOSS grant](/uploads/czi-eoss-proposal.pdf), we are in the process of migrating our existing documentation from [our GitHub Wiki](https://github.com/OpenRefine/OpenRefine/wiki) to a dedicated documentation platform. This effort is described in our root planning document and coordinated by Owen Stephens and Antonin Delpeuch. We have identified multiple documentation areas:
 * **Product reference**, documenting for users all the features offered by the tool in a systematic fashion;
 * **Technical reference**, aimed at developers, explaining the architecture of the tool;
 * **Project documentation**, aimed at anyone who wants to contribute code, translations, documentation, user support around OpenRefine;
