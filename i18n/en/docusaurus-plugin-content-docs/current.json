@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.User Manual": {
+    "message": "User Manual",
+    "description": "The label for category User Manual in sidebar docs"
+  },
+  "sidebar.docs.category.Exploring data": {
+    "message": "Exploring data",
+    "description": "The label for category Exploring data in sidebar docs"
+  },
+  "sidebar.docs.category.Transforming data": {
+    "message": "Transforming data",
+    "description": "The label for category Transforming data in sidebar docs"
+  },
+  "sidebar.docs.category.Wikibase": {
+    "message": "Wikibase",
+    "description": "The label for category Wikibase in sidebar docs"
+  },
+  "sidebar.docs.category.Expressions": {
+    "message": "Expressions",
+    "description": "The label for category Expressions in sidebar docs"
+  },
+  "sidebar.docs.category.GREL Reference": {
+    "message": "GREL Reference",
+    "description": "The label for category GREL Reference in sidebar docs"
+  },
+  "sidebar.docs.category.Technical Reference": {
+    "message": "Technical Reference",
+    "description": "The label for category Technical Reference in sidebar docs"
+  }
+}

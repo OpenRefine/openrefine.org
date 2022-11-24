@@ -1,7 +1,13 @@
-CNAME
-_site
+# Docusaurus
+build/
+node_modules/
+.docusaurus/
+                
+########
+## Linux
+######## 
+
 *~
-.sass-cache
 
 ############
 ## Windows

@@ -1,0 +1,16 @@
+<svg width="194.47" height="164.99" version="1.1" viewBox="0 0 194.47 164.99" xmlns="http://www.w3.org/2000/svg">
+ <title>Page 1</title>
+ <desc>Created with Sketch.</desc>
+ <g transform="translate(4.8466 -30.722)" fill="none" fill-rule="evenodd">
+  <g transform="translate(2,-1)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4px">
+   <polygon points="46.656 47.656 93.313 47.656 46.656 94.313" fill="#00dcff"/>
+   <polygon points="46.656 47.656 1e-4 94.313 46.656 94.313" fill="#0ff"/>
+   <polygon points="93.313 47.656 139.97 94.313 46.656 94.313" fill="#00c8ff"/>
+   <polygon points="139.97 47.656 186.63 94.313 139.97 94.313" fill="#00a0ff"/>
+   <polygon transform="translate(-5.8467 8.0875)" points="46.656 94.313 1e-4 94.313 93.313 187.63" fill="#00c8ff"/>
+   <polygon points="46.657 94.313 93.314 187.63 139.97 94.313" fill="#00a0ff"/>
+   <polygon points="139.97 94.313 93.314 187.63 186.63 94.313" fill="#0078ff"/>
+   <polygon transform="translate(-7.5256 -14.934)" points="139.97 94.313 139.97 47.656 93.314 47.656" fill="#00b4ff"/>
+  </g>
+ </g>
+</svg>

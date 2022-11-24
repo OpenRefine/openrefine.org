@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "OpenRefine",
+    "description": "The title in the navbar"
+  },
+  "item.label.User Manual": {
+    "message": "User Manual",
+    "description": "Navbar item with label User Manual"
+  },
+  "item.label.Technical Reference": {
+    "message": "Technical Reference",
+    "description": "Navbar item with label Technical Reference"
+  }
+}

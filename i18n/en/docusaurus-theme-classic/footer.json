@@ -1,0 +1,34 @@
+{
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Mailing List": {
+    "message": "Mailing List",
+    "description": "The label of footer link with label=Mailing List linking to http://groups.google.com/group/openrefine/"
+  },
+  "link.item.label.Gitter Chat": {
+    "message": "Gitter Chat",
+    "description": "The label of footer link with label=Gitter Chat linking to https://gitter.im/OpenRefine/OpenRefine"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/openrefine"
+  },
+  "link.item.label.Official Website": {
+    "message": "Official Website",
+    "description": "The label of footer link with label=Official Website linking to https://openrefine.org"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/OpenRefine/OpenRefine"
+  },
+  "copyright": {
+    "message": "Copyright © 2021 OpenRefine contributors",
+    "description": "The footer copyright"
+  }
+}
