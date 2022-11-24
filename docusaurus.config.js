@@ -43,9 +43,8 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://github.com/OpenRefine/OpenRefine/edit/master/docs',
-          'aria-label': 'GitHub',
-          className: 'header-github-link',
+          href: 'https://github.com/OpenRefine/OpenRefine',
+          label: 'GitHub',
           position: 'right',
         },
       ],
@@ -148,7 +147,7 @@ module.exports = {
           // Sidebars file relative to website dir.
           sidebarPath: require.resolve('./sidebars.js'),
           // Equivalent to `editUrl` but should point to `website` dir instead of `website/docs`.
-          editUrl: 'https://github.com/OpenRefine/OpenRefine/edit/master/docs',
+          editUrl: 'https://github.com/OpenRefine/openrefine.github.com/edit/master',
           // Equivalent to `docsUrl`.
           routeBasePath: '/docs/',
           // Remark and Rehype plugins passed to MDX. Replaces `markdownOptions` and `markdownPlugins`.
