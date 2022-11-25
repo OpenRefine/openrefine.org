@@ -29,7 +29,7 @@ function HeaderSection() {
         <h2>Main features</h2>
         </div>
         <div className="featureCardList">
-        <FeatureCard title="Facetting" link="docs/manual/facets" logo="feature_logo_facetting.svg">Drill through large datasets using facets and apply operations on filtered views of your dataset.</FeatureCard>
+        <FeatureCard title="Faceting" link="docs/manual/facets" logo="feature_logo_facetting.svg">Drill through large datasets using facets and apply operations on filtered views of your dataset.</FeatureCard>
         <FeatureCard title="Clustering" link="docs/manual/cellediting#cluster-and-edit" logo="feature_logo_clustering.svg">Fix inconsistencies by merging similar values thanks to powerful heuristics.</FeatureCard>
         <FeatureCard title="Reconciliation" link="docs/manual/reconciling" logo="feature_logo_reconciliation.svg">Match your dataset to external databases via reconciliation services.</FeatureCard>
         <FeatureCard title="Infinite undo/redo" link="docs/manual/running#history-undoredo" logo="feature_logo_undo.svg">Rewind to any previous state of your dataset and replay your operation history on a new version of it.</FeatureCard>
