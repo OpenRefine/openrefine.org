@@ -1,7 +1,7 @@
 ---
 authors:
   - name: Antonin Delpeuch
-title: "Governance changes: Sandra Fauconnier steps down from project director position to focus on Wikimedia work"
+title: "Governance changes"
 ---
 
 Sandra Fauconnier has been OpenRefine's project director since February 2022, and has been working on many fronts in this capacity: leading a reflection on the transformation of the project's gouvernance model, running the biyearly user survey,
