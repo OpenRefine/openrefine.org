@@ -232,7 +232,7 @@ class MyCellRenderer {
 }
 ```
 
-To render a cell, OpenRefine will execute each cell renderer in order, until the first renderer which returns a DOM element. The following renderers are not executed and that DOM element is used as the cell representation.
+OpenRefine holds an ordered list of cell renderers in its `CellRendererRegistry`. To render a cell, OpenRefine will execute each cell renderer in order, until the first renderer which returns a DOM element. The following renderers are not executed and that DOM element is used as the cell representation.
 
 The registration of the renderer is done with
 ```js
