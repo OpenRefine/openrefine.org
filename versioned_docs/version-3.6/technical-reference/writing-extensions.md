@@ -207,6 +207,44 @@ MenuSystem.appendTo(menu, ["core/facet"], [
 
 In addition to `MenuSystem.appendTo`, you can also call `MenuSystem.insertBefore` and `MenuSystem.insertAfter` which the same 3 arguments. To see what IDs you can use, see the function `DataTableColumnHeaderUI.prototype._createMenuForColumnHeader` in [/main/webapp/modules/core/scripts/views/data-table/column-header-ui.js](http://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/modules/core/scripts/views/data-table/column-header-ui.js).
 
+#### Cell renderers {#cell-renderers}
+
+From OpenRefine 3.7 on, extensions can also customize the way cells are rendered. This is done by registering a renderer, which is responsible for transforming the JSON representation of a cell into DOM elements rendering it:
+
+```js
+class MyCellRenderer {
+
+  constructor() {
+    super();
+    // some initialization code can be added here
+  }
+
+  render(
+    rowIndex, // the 0-based row index
+    cellIndex, // the position of the column to which the cell belongs
+    cell, // the deserialized JSON representation of the cell
+    cellUI // the parent CellUI object which called this renderer
+  ) {
+     // this renderer has the opportunity to return a DOM element represeting the cell, as follows:
+     return $('<span>rendered cell</span>');
+     // or it may not return anything, in which case the next cell renderer will be executed
+  }
+}
+```
+
+To render a cell, OpenRefine will execute each cell renderer in order, until the first renderer which returns a DOM element. The following renderers are not executed and that DOM element is used as the cell representation.
+
+The registration of the renderer is done with
+```js
+CellRendererRegistry.addRenderer(
+    'my-renderer-identifier', // a string identifying our new renderer
+    new MyCellRenderer(), // the renderer itself
+    'recon' // the existing renderer it should be inserted before
+ );
+```
+
+The default renderers available in OpenRefine itself can be found in `main/webapp/modules/core/scripts/views/data-table/cell-renderers/registry.js`.
+
 ### Server-side: Ajax Commands {#server-side-ajax-commands}
 
 The client-side of OpenRefine gets things done by calling AJAX commands on the server-side. These commands must be registered with the OpenRefine servlet, so that the servlet knows how to route AJAX calls from the client-side. This can be done inside the `init` function in your extension's `controller.js` file, e.g.,
