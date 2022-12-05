@@ -209,7 +209,7 @@ In addition to `MenuSystem.appendTo`, you can also call `MenuSystem.insertBefore
 
 #### Cell renderers {#cell-renderers}
 
-From OpenRefine 3.7 on, extensions can also customize the way cells are rendered. This is done by registering a renderer, which is responsible for transforming the JSON representation of a cell into DOM elements rendering it:
+From OpenRefine 3.7 onwards, extensions can also customize the way cells are rendered. This is done by registering a renderer, which is responsible for transforming the JSON representation of a cell into DOM elements rendering it:
 
 ```js
 class MyCellRenderer {
