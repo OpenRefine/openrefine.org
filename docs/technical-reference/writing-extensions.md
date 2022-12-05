@@ -40,13 +40,13 @@ pom.xml
           controller.js
 ```
 
-The file named module.properties (see [example](https://github.com/OpenRefine/OpenRefine/blob/master/extensions/sample/module/MOD-INF/module.properties)) contains the extension's metadata. Of importance is the name field, which gives the extension a name that's used in many other places to refer to it. This can be different from the extension's directory name.
+The file named `module.properties` (see [example](https://github.com/OpenRefine/OpenRefine/blob/master/extensions/sample/module/MOD-INF/module.properties)) contains the extension's metadata. Of importance is the name field, which gives the extension a name that's used in many other places to refer to it. This can be different from the extension's directory name.
 
 ```
 name = my-extension-name
 ```
 
-Your extension's client-side resources (.html, .js, .css files) stored in the module/ subdirectory will be accessible from http://127.0.0.1:3333/extension/my-extension-name/ when OpenRefine is running.
+Your extension's client-side resources (.html, .js, .css files) stored in the `module/` sub-directory will be accessible from http://127.0.0.1:3333/extension/my-extension-name/ when OpenRefine is running.
 
 Also of importance is the dependency
 
@@ -56,7 +56,7 @@ requires = core
 
 which makes sure that the core module of OpenRefine is loaded before the extension attempts to hook into it.
 
-The file named controller.js is responsible for registering the extension's hooks into OpenRefine. Look at the sample-extension extension's [controller.js](https://github.com/OpenRefine/OpenRefine/blob/master/extensions/sample/module/MOD-INF/controller.js) file for an example. It should have a function called init() that does the hook registrations.
+The file named `controller.js` is responsible for registering the extension's hooks into OpenRefine. Look at the sample-extension extension's [controller.js](https://github.com/OpenRefine/OpenRefine/blob/master/extensions/sample/module/MOD-INF/controller.js) file for an example. It should have a function called init() that does the hook registrations.
 
 The `pom.xml` file is an [Apache Maven](http://maven.apache.org/) build file. You can make a copy of the sample extension's `pom.xml` file to get started. The important point here is that the Java classes should be built into the `module/MOD-INF/classes` sub-directory.
 
@@ -109,7 +109,7 @@ For more information, see [Extension Points](https://github.com/OpenRefine/OpenR
 
 ### Client-side: Javascript and CSS {#client-side-javascript-and-css}
 
-The UI in OpenRefine for working with a project is coded in [the /main/webapp/modules/core/project.vt file](http://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/modules/core/project.vt). The file is quite small, and that's because almost all of its content is to be expanded dynamically through the Velocity variables $scriptInjection and $styleInjection. So that your own Javascript and CSS files get loaded, you need to register them with the ClientSideResourceManager, which is done in the /module/MOD-INF/controller.js file. See [the controller.js file in this sample extension code](http://github.com/OpenRefine/OpenRefine/blob/master/extensions/sample/module/MOD-INF/controller.js) for an example.
+The UI in OpenRefine for working with a project is coded in [the /main/webapp/modules/core/project.vt file](http://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/modules/core/project.vt). The file is quite small, and that's because almost all of its content is to be expanded dynamically through the Velocity variables $scriptInjection and $styleInjection. So that your own Javascript and CSS files get loaded, you need to register them with the ClientSideResourceManager, which is done in the `/module/MOD-INF/controller.js` file. See [the controller.js file in this sample extension code](http://github.com/OpenRefine/OpenRefine/blob/master/extensions/sample/module/MOD-INF/controller.js) for an example.
 
 In the registration call, the variable `module` is already available to your code by default, and it refers to your own extension.
 
@@ -124,7 +124,7 @@ ClientSideResourceManager.addPaths(
     );
 ```
 
-You can specify one or more files for registration, and their paths are relative to the `module` subdirectory of your extension. They are included in the order listed.
+You can specify one or more files for registration, and their paths are relative to the `module` sub-directory of your extension. They are included in the order listed.
 
 Javascript Bundling: Note that `project.vt` belongs to the core module and is thus under the control of the core module's [controller.js file](http://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/modules/core/MOD-INF/controller.js). The Javascript files to be included in `project.vt` are by default bundled together for performance. When debugging, you can prevent this bundling behavior by setting `bundle` to `false` near the top of that `controller.js` file. (If you have commit access to this code base, be sure not to check that change in.)
 
@@ -152,7 +152,7 @@ Beside Javascript, CSS, and images, your extension might also include HTML templ
 var dialog = $(DOM.loadHTML("core", "scripts/dialogs/clustering-dialog.html"));
 ```
 
-`DOM.loadHTML` returns the content of the file as a string, and `$(...)` turns it into a DOM fragment. Where `"core"` is, you would want your extension's name. The path of the HTML file is relative to your extension's `module` subdirectory.
+`DOM.loadHTML` returns the content of the file as a string, and `$(...)` turns it into a DOM fragment. Where `"core"` is, you would want your extension's name. The path of the HTML file is relative to your extension's `module` sub-directory.
 
 ### Client-side: Project UI Extension Points {#client-side-project-ui-extension-points}
 
@@ -160,7 +160,7 @@ Getting your extension's Javascript code included in `project.vt` doesn't accomp
 
 #### Main Menu {#main-menu}
 
-The main menu can be extended by calling any one of the methods `MenuBar.appendTo`, `MenuBar.insertBefore`, and `MenuBar.insertAfter`. Each method takes 2 arguments: an array of strings that identify a particular existing menu item or submenu, and one new single menu item or submenu or an array of menu items and submenus. For example, to insert 2 menu items and a menu separator before the menu item Project > Export Filtered Rows > Templating..., write this Javascript code wherever that would execute when your Javascript files get loaded:
+The main menu can be extended by calling any one of the methods `MenuBar.appendTo`, `MenuBar.insertBefore`, and `MenuBar.insertAfter`. Each method takes 2 arguments: an array of strings that identify a particular existing menu item or submenu, and one new single menu item or submenu, or an array of menu items and submenus. For example, to insert 2 menu items and a menu separator before the menu item Project > Export Filtered Rows > Templating..., write this Javascript code wherever that would execute when your Javascript files get loaded:
 
 ```
 MenuBar.insertBefore(
@@ -205,7 +205,7 @@ MenuSystem.appendTo(menu, ["core/facet"], [
     ]);
 ```
 
-In addition to `MenuSystem.appendTo`, you can also call `MenuSystem.insertBefore` and `MenuSystem.insertAfter` which the same 3 arguments. To see what IDs you can use, see the function `DataTableColumnHeaderUI.prototype._createMenuForColumnHeader` in [/main/webapp/modules/core/scripts/views/data-table/column-header-ui.js](http://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/modules/core/scripts/views/data-table/column-header-ui.js).
+In addition to `MenuSystem.appendTo`, you can also call `MenuSystem.insertBefore` and `MenuSystem.insertAfter` with the same 3 arguments. To see what IDs you can use, see the function `DataTableColumnHeaderUI.prototype._createMenuForColumnHeader` in [/main/webapp/modules/core/scripts/views/data-table/column-header-ui.js](http://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/modules/core/scripts/views/data-table/column-header-ui.js).
 
 ### Server-side: Ajax Commands {#server-side-ajax-commands}
 
