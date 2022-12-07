@@ -9,4 +9,3 @@ Sandra Fauconnier has been OpenRefine's project director since February 2022, an
 Sandra has decided to step down from the project director role, returning to her previous work in Linked Open Data in the cultural sector and the Wikimedia movement. As of December 1st, she has transfered back her responsibilities to the advisory committee, consisting of Martin Magdinier, Jan Ainali and Antonin Delpeuch.
 
 We thank Sandra for her tireless work in this position and will follow up soon about our measures to fill the gap left by her change of position.
-We also intend to continue working with the Wikimedia community to maintain and further develop the Wikibase integration in OpenRefine. We are hopeful that capacity can be built up within OpenRefine or in Wikimedia partner organizations to make this happen.
