@@ -3,6 +3,9 @@ OpenRefine.org website
 
 We use [Docusaurus 2](https://v2.docusaurus.io/) for our website.
 
+If you want to run it locally, you can follow the instructions below, otherwise you should be able to edit most pages directly with a Markdown editor. Opening a pull request for your changes will generate a preview that you can browse to check the
+rendering.
+
 ### Requirements
 
 Assuming you have [Node.js (LTS recommended)](https://nodejs.org/en/download/) installed (which includes npm), you can install Docusaurus with:
