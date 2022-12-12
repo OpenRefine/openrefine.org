@@ -30,7 +30,7 @@ function getDownloadLink(release, platform) {
 }
 
 function MainDownload() {
-    let release = releases[0];
+    let release = releases.filter(release => release.stable)[0];
     return (
    <div className="container margin-bottom--xl">
       <div className="row" style={{maxWidth: '800px', margin: 'auto', textAlign: 'left'}}>
