@@ -119,12 +119,12 @@ function SmallDownloadButton(props) {
     if (artifact === undefined) {
         return <span></span>;
     }
-    return (<a
+    return (<Link
               className="button button--secondary button--sm"
-                href={getDownloadLink(release, platform)}>
+                to={getDownloadLink(release, platform)}>
              <DownloadIcon style={{height: '1em', width: 'auto', marginRight: '.5em'}} />
              {artifact.format.toUpperCase()}
-        </a>);
+        </Link>);
 
 }
 

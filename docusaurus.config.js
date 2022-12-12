@@ -5,6 +5,7 @@ module.exports = {
   tagline: 'A power tool for working with messy data.',
   url: 'https://openrefine.org',
   baseUrl: '/',
+  trailingSlash: false,
   favicon: 'img/openrefine_logo.svg',
   organizationName: 'OpenRefine', // Usually your GitHub org/user name.
   projectName: 'openrefine.github.com', // Usually your repo name.
