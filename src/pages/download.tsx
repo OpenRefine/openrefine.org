@@ -10,7 +10,7 @@ import Layout from '@theme/Layout';
 
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 import styles from './styles.module.css';
-import {releases, platformDetails, platformOrder, getArtifact} from '../releases.js';
+import {releases, platformDetails, platformOrder, getArtifact, getDownloadLink} from '../releases.js';
 
 function selectBestPlatform() {
     if (navigator.appVersion.indexOf("Win") != -1)
@@ -25,9 +25,10 @@ function selectBestPlatform() {
     return 'win-with-java';
 }
 
+/*
 function getDownloadLink(release, platform) {
     return 'post_download?version=' + release.version + '&platform=' + platform;
-}
+} */
 
 function MainDownload() {
     let release = releases.filter(release => release.stable)[0];
