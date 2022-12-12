@@ -7,6 +7,30 @@
 
 export const releases = [
     {
+        version: "3.7-beta2",
+        stable: false,
+        date: '2022-12-12',
+        source: 'github',
+        artifacts: [
+             {
+                platform: "win-with-java",
+                format: "zip"
+             },
+             {
+                platform: "win",
+                format: "zip"
+             },
+             {
+                platform: "mac",
+                format: "dmg"
+             },
+             {
+                platform: "linux",
+                format: "tar.gz"
+             },
+        ]
+    },
+    {
         version: "3.6.2",
         stable: true,
         date: '2022-10-03',

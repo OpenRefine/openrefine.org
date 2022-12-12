@@ -6,6 +6,67 @@ hide_table_of_contents: false
 
 # Release notes
 
+## Version 3.7
+
+### New features
+* Most text exposed to users in OpenRefine's UI can now be translated. Some strings (generated server-side) were not translatable so far. To help translators catch up on this backlog, do not hesitate to [join us on Weblate](https://hosted.weblate.org/engage/openrefine/). ([#5030](https://github.com/OpenRefine/OpenRefine/pulls/5030))
+* New media files can be uploaded to Wikibase instances such as Wikimedia Commons. The wikitext of existing files can also be edited thanks to the new fields introduced. ([#4682](https://github.com/OpenRefine/OpenRefine/issues/4682))
+* A button "Discover Wikibase instances…" was added on the dialog which lists the registered Wikibase instances ([#5007](https://github.com/OpenRefine/OpenRefine/issues/5007)), whose design was improved ([#5009](https://github.com/OpenRefine/OpenRefine/issues/5009))
+* In the Wikibase schema editor, statements with non-standard datatypes (such as EDTF dates or musical notations) are now supported, assuming they use strings as underlying representation ([#3263](https://github.com/OpenRefine/OpenRefine/issues/3263))
+* The Wikibase issues tab now makes it possible to locate which rows are responsible for certain issues, using facets ([#5033](https://github.com/OpenRefine/OpenRefine/issues/5033))
+* The default throttle delay for the "Add column by fetching URLs" operation was reduced to 500ms and the error reporting for this field was improved ([#5188](https://github.com/OpenRefine/OpenRefine/issues/5188))
+* Wikibase templates (incomplete Wikibase schemas) can be saved and shared, as a way of helping contributors use the same way of structuring data in a Wikibase instance ([#5043](https://github.com/OpenRefine/OpenRefine/issues/5043), [#5303](https://github.com/OpenRefine/OpenRefine/pulls/5303))
+* The line-based importer now supports a custom delimiter, instead of only newlines ([#4103](https://github.com/OpenRefine/OpenRefine/issues/4103))
+* The Excel importer can be configured to import all cells as text, disabling the use of other datatypes supported by OpenRefine ([#4838](https://github.com/OpenRefine/OpenRefine/issues/4838))
+* The "some value" and "no value" Wikibase values can now be uploaded by OpenRefine ([#5360](https://github.com/OpenRefine/OpenRefine/pulls/5360))
+* The Excel importer will also avoid coercing cell values to OpenRefine datatypes which do not fully fit them, such as representing a date as a date with time ([#5389](https://github.com/OpenRefine/OpenRefine/issues/5389), [#5390](https://github.com/OpenRefine/OpenRefine/issues/5390)).
+
+
+### GREL changes
+* Improved error handling in number formatting with the GREL `toString` function ([#816](https://github.com/OpenRefine/OpenRefine/issues/816))
+* The behaviour of the GREL function `wholeText()` has changed slightly in the way it handles newlines, following [an upstream change in the jsoup library](https://jsoup.org/news/release-1.15.1) (jsoup issue [#1636](https://github.com/jhy/jsoup/issues/1636))
+* A new `parent` GREL function, to obtain the parent element of an XML element, was added ([#5176](https://github.com/OpenRefine/OpenRefine/issues/5176))
+
+### Bug fixes
+* The layout of the dialog to select a reconciliation match was improved so that the auto-complete widget does not hide the other options ([#4821](https://github.com/OpenRefine/OpenRefine/issues/4821))
+* Better in-tool documentation around the way the scatterplot facet detects numerical columns ([#4890](https://github.com/OpenRefine/OpenRefine/issues/4890))
+* The detection of URLs in cell values was fixed ([#4546](https://github.com/OpenRefine/OpenRefine/issues/4546))
+* The error message displayed when trying to add a Wikibase manifest with a manifest version that is too old or recent was improved ([#4847](https://github.com/OpenRefine/OpenRefine/issues/4847))
+* Errors returned by Jython expressions are more readable ([#3012](https://github.com/OpenRefine/OpenRefine/issues/3012))
+* The ODS exporter no longer creates a default sheet "Sheet1" in the documents it creates ([#4864](https://github.com/OpenRefine/OpenRefine/issues/4864))
+* Longer descriptions in auto-completion widget are not cut off anymore ([#4988](https://github.com/OpenRefine/OpenRefine/issues/4988))
+* The interface for editing cell values was improved to better explain how to input dates ([#3082](https://github.com/OpenRefine/OpenRefine/issues/3082))
+* The Windows `refine.bat` script was made more consistent with the Unix `refine` script ([#4949](https://github.com/OpenRefine/OpenRefine/pulls/4949), [#5404](https://github.com/OpenRefine/OpenRefine/pulls/5404))
+* The "Search for Match" dialog was rearranged so that the dropdown does not cover the buttons ([#4945](https://github.com/OpenRefine/OpenRefine/pulls/4945))
+* Error handling in the scatterplot facet was improved ([#4893](4893))
+* The "Collapse consecutive whitespaces" operation now handles unicode whitespace correctly ([#4898](https://github.com/OpenRefine/OpenRefine/pulls/4898))
+* ([#4991](https://github.com/OpenRefine/OpenRefine/pulls/4991))
+* The handling of GZIP-compressed files without `.gz` extension was improved in the importing pipeline ([#547](https://github.com/OpenRefine/OpenRefine/pulls/547))
+* ([#5153](https://github.com/OpenRefine/OpenRefine/pulls/5153))
+* The "Add column based on this column dialog" can be submitted by pressing "Enter" in the column field ([#5143](https://github.com/OpenRefine/OpenRefine/issues/5143))
+* The editing of redirected Wikibase items was fixed ([#5162](https://github.com/OpenRefine/OpenRefine/issues/5162))
+* The user experience was improved in the case of incomplete Wikibase schemas ([#5131](https://github.com/OpenRefine/OpenRefine/issues/5131))
+* The memory usage display was improved to show the used memory instead of the total memory, and was made more precise ([#5222](https://github.com/OpenRefine/OpenRefine/pulls/5222))
+* The association of labels to form inputs was improved, enhancing the accessibility of the interface ([#5239](https://github.com/OpenRefine/OpenRefine/pulls/5239), [#5242](https://github.com/OpenRefine/OpenRefine/pulls/5242), [#5249](https://github.com/OpenRefine/OpenRefine/pulls/5249), [#5284](https://github.com/OpenRefine/OpenRefine/pulls/5284))
+* An overflow issue in the reconciliation dialog was fixed ([#5285](https://github.com/OpenRefine/OpenRefine/issues/5285))
+* The Wikibase manifests now properly support locally-running reconciliation endpoints ([#5035](https://github.com/OpenRefine/OpenRefine/issues/5285))
+* The aspect ratio of Wikibase logos is now properly preserved ([#5306](https://github.com/OpenRefine/OpenRefine/issues/5306))
+* The SQL exporter interface was improved ([#5224](https://github.com/OpenRefine/OpenRefine/issues/5224))
+* The cell edit popup and dialogs with textbox inputs became resizable ([#5330](https://github.com/OpenRefine/OpenRefine/pulls/5330))
+* When marking a set of cells as "New" in an unreconciled column, the user is prompted for the reconciliation service to use ([#4985](https://github.com/OpenRefine/OpenRefine/issues/4985))
+* More quality assurance checks were introduced in the Wikibase extension, such as checking for identical label and description in new Wikibase items ([#4980](https://github.com/OpenRefine/OpenRefine/issues/4980))
+* The caching of auto-completion results in the Wikibase extension was fixed ([#5190](https://github.com/OpenRefine/OpenRefine/issues/5190))
+* The Wikidata extension was fully renamed to "Wikibase extension" ([#4525](https://github.com/OpenRefine/OpenRefine/issues/4525))
+* The controls of the cluster and edit dialog are greyed out while clustering is taking place ([#5369](https://github.com/OpenRefine/OpenRefine/pulls/5369))
+* The handling of unicode whitespace was improved throughout the application ([#5105](https://github.com/OpenRefine/OpenRefine/issues/5105))
+* Our MacOS packages (.DMG) are now properly signed and notarized, which should make their installation easier ([#4586](https://github.com/OpenRefine/OpenRefine/issues/4586)). Also, the presentation of the DMG image was made more user-friendly by including the customary link to the Applications folder. ([#5509](https://github.com/OpenRefine/OpenRefine/issues/5509))
+* The parsing of the unary minus sign in GREL was fixed ([#5465](https://github.com/OpenRefine/OpenRefine/issues/5465))
+
+### For developers
+
+* Some column metadata fields, which had never been exposed in the UI, have been removed ([#5276](https://github.com/OpenRefine/OpenRefine/pulls/5276))
+* A new [extension point to customize cell rendering](https://openrefine.org/docs/technical-reference/writing-extensions#cell-renderers) was introduced ([#5154](https://github.com/OpenRefine/OpenRefine/issues/5154))
+
 ## Version 3.6
 
 Starting with version 3.6, OpenRefine requires Java 11 or later.
