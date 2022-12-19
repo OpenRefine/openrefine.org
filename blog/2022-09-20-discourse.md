@@ -7,6 +7,7 @@ slug: 2022/09/20/discourse
 <img src="/img/2022-group-discussions.jpg" alt="Simple graphic showing group discussions with multicolored text balloons" class="inset" />
 
 **tl;dr We consider moving OpenRefine's mailing lists and Gitter to a web-based Discourse forum, and invite your feedback.**
+<!--truncate-->
 
 *This message has also been posted on OpenRefine's [user](https://groups.google.com/g/openrefine) and [https://groups.google.com/g/openrefine-dev/](https://groups.google.com/g/openrefine-dev/) mailing lists on September 20, 2022.*
 

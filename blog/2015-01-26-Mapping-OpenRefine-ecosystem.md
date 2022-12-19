@@ -4,9 +4,11 @@ title: "Mapping OpenRefine Ecosystem"
 slug: 2015/01/26/Mapping-OpenRefine-ecosystem
 ---
 
-Since the OpenRefine move to Github two years ago, the project has reached a mature stage, and only maintenance work has been done with the release of openrefine2.6-beta. At the same time, the project kept gaining traction with over a thousand weekly downloads and usage with various audiences in particular fields of application. One out of four OpenRefine users identify themselves as librarians, with Researchers and Open Data enthusiasts representing the second largest user group, and Data Journalists and Semantic Web Professionals completing the picture (see the full [2014 survey results](http://openrefine.org/2014/08/29/2014-survey-results.html))
-
 OpenRefine offers an innovative workflow from data ingestion to consumption, with a capacity to reconcile information consistency and work with remote data processing services. It integrates with over 16 reconciliation services and has 8 community contributed plugins that extend its capability. You can interact directly with the API of 4 other platforms within the context of tasks in OpenRefine alchemyAPI, Zemanta, dataTXT and Crowdflower. The following map lists the different services and plugins working with OpenRefine, as well as projects that have done heavy customization to add OpenRefine in their data manipulation processes.
+
+<!--truncate-->
+
+Since the OpenRefine move to Github two years ago, the project has reached a mature stage, and only maintenance work has been done with the release of openrefine2.6-beta. At the same time, the project kept gaining traction with over a thousand weekly downloads and usage with various audiences in particular fields of application. One out of four OpenRefine users identify themselves as librarians, with Researchers and Open Data enthusiasts representing the second largest user group, and Data Journalists and Semantic Web Professionals completing the picture (see the full [2014 survey results](http://openrefine.org/2014/08/29/2014-survey-results.html))
 
 ## Map of OpenRefine Ecosystem
 

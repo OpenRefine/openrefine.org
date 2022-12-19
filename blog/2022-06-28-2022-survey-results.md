@@ -5,6 +5,7 @@ slug: 2022/06/28/2022-survey-results
 ---
 
 Every two years, OpenRefine holds an extensive survey among its users. Our fifth edition was live in April-May 2022. No less than 207 people participated, which  breaks our record of 2020 when we received 178 responses.
+<!--truncate-->
 
 This year's survey was a bit more extensive than the previous ones (in [2012](http://googlerefine.blogspot.ca/2012/10/google-refine-usage-survey-results.html), [2014](http://openrefine.org/blog/2014/08/29/2014-survey-results.html), [2018](http://openrefine.org/blog/2018/07/16/2018-survey-results.html) and [2020](https://openrefine.org/blog/2020/02/20/2020-survey-results.html)); we now also included questions related to support and communications in the community. For the first time, we also asked you to give the software a general score. On average, survey respondents gave OpenRefine a solid 8 out of 10! This makes the team very happy, and of course (with your help) we hope to improve this score even more over time.
 

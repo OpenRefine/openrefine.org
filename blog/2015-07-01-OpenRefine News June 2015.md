@@ -4,6 +4,8 @@ title: "OpenRefine News: June 2015"
 slug: 2015/07/01/OpenRefine-News-June-2015
 ---
 
+Read below if you what happenned within OpenRefine community in June
+<!--truncate-->
 Currently most of the communication around OpenRefine done is through the mailing list and our twitter account where information are quickly buried for someone not following the project on day to day basis. Those monthly summary highlights key events and contributions in the community and hopefully help to better circulate key information. 
 
 Feedback on the format and content are welcome. Ping us on twitter [@OpenRefine](http://twitter.com/OpenRefine) if we are missing information.

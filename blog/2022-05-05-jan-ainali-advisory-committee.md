@@ -5,6 +5,7 @@ slug: 2022/05/05/jan-ainali-advisory-committee
 ---
 
 OpenRefine’s advisory committee is growing! We are warmly welcoming Jan Ainali as a new member. OpenRefine’s advisory committee runs the administrative side of the project on a day to day basis.
+<!--truncate-->
 
 <img src="/img/2022-jan-ainali.jpg" alt="Portrait photo of Jan Ainali" width="200"/>
 

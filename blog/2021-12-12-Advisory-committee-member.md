@@ -5,7 +5,7 @@ slug: 2021/12/12/Advisory-committee-member
 ---
 
 **OpenRefine is seeking a new member for its Advisory Committee (unpaid position).**
-
+<!--truncate-->
 [OpenRefine](https://openrefine.org/) is a powerful tool to clean messy data, popular in a diverse range of communities. It has been serving the needs of journalists, librarians, Wikipedians, scientists for more than ten years and is taught in many curricula and workshops around the world. OpenRefine received a two years grant from the [Silicon Valley Community Foundation](https://www.siliconvalleycf.org/) via the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/) under their [Essential Open Source Software for Science](https://chanzuckerberg.com/eoss/proposals/) program, specifically focusing on improving Diversity and Inclusion in open source projects. OpenRefine is a fiscally sponsored project of [Code for Science & Society Inc](https://codeforscience.org/), a 501\(c\)(3) charitable organization in the USA.
 
 Starting in 2019, OpenRefine explored a new sustainability model by leveraging grants and corporate sponsorship. Three years into that process, OpenRefine is now fiscally sponsored by Code for Science & Society Inc and secured four significant grants from three different organizations. As a result, the project matured with the creation of the [Advisory, Steering, and Code of Conduct committees](https://github.com/OpenRefine/OpenRefine/blob/master/GOVERNANCE.md) and started hiring contractors to advance our roadmap. During that time, we went through tremendous growth as we doubled the number of active contributors, increased the number of languages translated, and continued to see more users relying on OpenRefine.

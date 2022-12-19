@@ -5,6 +5,7 @@ slug: 2016/01/08/OpenRefine-News-December-2015
 ---
 
 Happy new year Refiners! Now is time to look back and see what happen in the community through December. Open your agenda, we already have two  vents schedule for 2016
+<!--truncate-->
 
 ## Tutorials 
 

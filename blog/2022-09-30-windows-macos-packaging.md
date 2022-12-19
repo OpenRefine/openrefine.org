@@ -7,6 +7,7 @@ slug: 2022/09/30/windows-macos-packaging
 
 OpenRefine's packaging for MacOS and Windows could be improved in many ways, and we are looking for help in this front.
 We are looking for proposals from prospective contractors to improve the install experience of OpenRefine on MacOS and/or Windows.
+<!--truncate-->
 After a similar effort on Ubuntu/Debian packaging, this initiative is meant to improve the user experience on other platforms, to lower the install barrier for a broader audience.
 This project is funded by an [EOSS Diversity and Inclusion grant](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b) from [CZI](https://chanzuckerberg.com/).
 

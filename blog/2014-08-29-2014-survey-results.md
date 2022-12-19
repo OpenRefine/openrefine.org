@@ -5,7 +5,7 @@ slug: 2014/08/29/2014-survey-results
 ---
 
 Following the [2012 survey](http://googlerefine.blogspot.ca/2012/10/google-refine-usage-survey-results.html) which gather 99 answers, I wanted to have a fresh picture on who are OpenRefine users. The 2014 survey received 129 answers on the span of two weeks. The goal of this second survey was to understand who is OpenRefine audience and what are they relationship with the official community tools (mailing list and Github issue trackers.)
-
+<!--truncate-->
 ## Community you identify with
 
 One of four OpenRefine user identified himself as librarians making this group the the largest of OpenRefine user base. The Researcher and Open Data enthusiasts represent the two second largest group, each representing over 15% of the userbase. Finally Data journalist and Semantic web each represent around 10%.
