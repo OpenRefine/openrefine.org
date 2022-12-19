@@ -9,6 +9,7 @@ Yesterday [David Huynh announced](https://groups.google.com/forum/#!topic/openre
 Refine is already a mature data cleaning tool, this change in leadership will be a major challenge for the tool continuity. But first I'd like to clarify what I have read on twitter yesterday night. Google Refine has always been an open source tool and anyone can commit changes, develop an extension or update the wiki. 
 
 Through this post I'd like to give my insight on the reason of this decision and what will be the short terms consequences of it. 
+<!--truncate-->
 
 ## Google Refine Background
 
