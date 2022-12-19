@@ -4,7 +4,7 @@ title: "Structured Data on Commons functionalities: welcome to OpenRefine's new 
 slug: 2021/12/01/commons-project-team
 ---
 **OpenRefine is developing features for Structured Data on Wikimedia Commons and welcomes new members to its team!**
-
+<!--truncate-->
 Earlier in 2021, OpenRefine has received a [project grant from the Wikimedia Foundation](https://meta.wikimedia.org/wiki/Grants:Project/CS%26S/Structured_Data_on_Wikimedia_Commons_functionalities_in_OpenRefine) to add functionalities for Structured Data on Wikimedia Commons (SDC). This has been a major ask from the Wikimedia community, and will provide OpenRefine with powerful features for batch editing and uploading files with structured data on [Wikimedia Commons](https://commons.wikimedia.org/), the media repository behind Wikipedia.
 
 # Welcome to OpenRefine's new team members!

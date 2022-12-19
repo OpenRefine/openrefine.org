@@ -5,7 +5,7 @@ slug: 2015/09/04/OpenRefine-News-August-2015
 ---
 
 Did you took a break from OpenRefine in August, fear of missing something? No worries, the August update got you covered.
-
+<!--truncate-->
 ## New Tutorials and Articles
 
 Most of August tutorials and new publication revolve around using OpenRefine with third party service, either by call an API or fetching web pages. 

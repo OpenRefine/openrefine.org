@@ -4,9 +4,10 @@ title: "Call for Proposals: Improving the Contributor Experience in OpenRefine"
 slug: 2020/08/28/cfp-contributor-experience
 ---
 
-[OpenRefine](https://openrefine.org/) is a power tool to clean messy data, popular in a diverse range of communities. It has been serving the needs of journalists, librarians, Wikipedians, scientists for more than 10 years, and is taught in many curricula and workshops around the world.
-
 The OpenRefine advisory committee solicits proposals to improve contributor onboarding and retention in the project, funded by a grant from the [Silicon Valley Community Foundation](https://www.siliconvalleycf.org/) via the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/) under their [Essential Open Source Software for Science](https://chanzuckerberg.com/eoss/proposals/) programme.
+<!--truncate-->
+
+[OpenRefine](https://openrefine.org/) is a power tool to clean messy data, popular in a diverse range of communities. It has been serving the needs of journalists, librarians, Wikipedians, scientists for more than 10 years, and is taught in many curricula and workshops around the world.
 
 OpenRefine is a fiscally sponsored project of [Code for Science & Society Inc](https://codeforscience.org/), a 501\(c\)(3) charitable organization in the US.
 

@@ -6,7 +6,7 @@ title: "Announcing our new user manual"
 ---
 
 The OpenRefine team is delighted to share [our new user manual](https://docs.openrefine.org/)!
-
+<!--truncate-->
 This reference covers every aspect of the tool, from installation to exporting a cleaned dataset.
 
 ![A screenshot of the new user manual.](/img/2021-user-manual.png)

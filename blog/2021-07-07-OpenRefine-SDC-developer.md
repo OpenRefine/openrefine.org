@@ -5,7 +5,7 @@ slug: 2021/07/07/OpenRefine-SDC-developer
 ---
 
 **OpenRefine is seeking a *Junior Developer - Structured Data on Wikimedia Commons additions to OpenRefine's codebase* (paid contractor position).**
-
+<!--truncate-->
 *[OpenRefine](https://openrefine.org/) is a power tool to clean messy data, popular in a diverse range of communities. It has been serving the needs of journalists, librarians, Wikipedians, scientists for more than 10 years, and is taught in many curricula and workshops around the world.* 
 *OpenRefine is quite actively used on [Wikidata](https://www.wikidata.org), the structured data ‘sister’ of Wikipedia. In addition, thanks to a [grant from the Wikimedia Foundation](https://meta.wikimedia.org/wiki/Grants:Project/Structured_Data_on_Wikimedia_Commons_functionalities_in_OpenRefine), OpenRefine will, between September 2021 and August 2022, be extended with structured data functionalities for [Wikimedia Commons](https://commons.wikimedia.org/wiki/Commons:Structured_data), the media repository of the Wikimedia ecosystem. This code extension will make it possible to batch edit structured data of existing files on Wikimedia Commons, and to batch upload new Wikimedia Commons files with structured data from the start.*
 *OpenRefine is a fiscally sponsored project of [Code for Science & Society Inc](https://codeforscience.org/), a 501(c)(3) charitable organization in the US.*

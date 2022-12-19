@@ -5,6 +5,7 @@ slug: 2015/10/13/OpenRefine-News-September-2015
 ---
 
 We are thrilled to share with you some updates from our end, new and exciting developments that have been happening with the community in September, the buzz around the new online [OpenRefine Foundation](http://bigdatauniversity.com/bdu-wp/bdu-course/introduction-to-openrefine/) course.
+<!--truncate-->
 
 ## New Course and Article
 

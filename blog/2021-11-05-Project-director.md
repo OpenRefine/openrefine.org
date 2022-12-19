@@ -5,7 +5,7 @@ slug: 2021/11/05/Project-director
 ---
 
 **OpenRefine is seeking a *Part-time Project Director* (paid position).**
-
+<!--truncate-->
 [OpenRefine](https://openrefine.org/) is a powerful tool to clean messy data, popular in a diverse range of communities. It has been serving the needs of journalists, librarians, Wikipedians, scientists for more than ten years and is taught in many curricula and workshops around the world. OpenRefine received a two years grant from the [Silicon Valley Community Foundation](https://www.siliconvalleycf.org/) via the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/) under their [Essential Open Source Software for Science](https://chanzuckerberg.com/eoss/proposals/) program, specifically focusing on improving Diversity and Inclusion in open source projects. OpenRefine is a fiscally sponsored project of [Code for Science & Society Inc](https://codeforscience.org/), a 501\(c\)(3) charitable organization in the USA.
 
 The OpenRefine team is seeking a Project Director to help the project grow its operations and community.

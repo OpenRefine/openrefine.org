@@ -5,7 +5,7 @@ slug: 2020/05/04/outreachy-gsoc-projects
 ---
 
 We are happy to announce that three interns will join the development team this summer:
-
+<!--truncate-->
 * Lisa Chandra ([@lisa761](https://github.com/lisa761)), Google Summer of Code intern, will improve our grid view by adding support for infinite scrolling (displaying the entire grid without the need to browse it by small pages). She is supervised by
   Owen Stephens and Antonin Delpeuch.
 
