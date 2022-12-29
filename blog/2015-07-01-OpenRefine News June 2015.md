@@ -63,7 +63,7 @@ More details and join the discussion on the [user mailing list](https://groups.g
 
 OpenRefine Twitter feed have been busy last months with over 12 presentations of OpenRefine made! Thank you to our evangelists who introduce OpenRefine to librians, journalist, goverement and open date professional among other groups. Top hastag are: 
 
-<a href="http://3.bp.blogspot.com/-T8LGwAEz3YQ/VZQvLSKD9NI/AAAAAAAANKE/j8k6PoN6YZM/s1600/news-june2015.png"><img src="http://3.bp.blogspot.com/-T8LGwAEz3YQ/VZQvLSKD9NI/AAAAAAAANKE/j8k6PoN6YZM/s1600/news-june2015.png" class="inset" /></a>
+![word cloud of hashtags related to OpenRefine](/img/2015-07-update/news-june2015.png)
 
 Want to connect with fellow Refiners? The following events have been announced so far. Ping us on twitter [@OpenRefine](http://twitter.com/) to announce your event:
 

@@ -23,7 +23,7 @@ Taking a slight higher picture the split a 41% using it weekly, a 30% monthly an
 
 **2012 Results**
 
-<a href="http://4.bp.blogspot.com/-ay80Gmy0uxI/UH_AaxYo6hI/AAAAAAAABxg/BBAk5L6STro/s1600/03.png"><img src="http://4.bp.blogspot.com/-ay80Gmy0uxI/UH_AaxYo6hI/AAAAAAAABxg/BBAk5L6STro/s1600/03.png" class="inset" /></a>
+[![graph showing the frequency of use of OpenRefine in the 2012 survey](/img/2014survey/21.png)](/img/2014survey/03.png)
 
 
 ## For how long have you been using OpenRefine
