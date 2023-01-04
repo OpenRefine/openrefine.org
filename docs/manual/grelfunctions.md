@@ -147,6 +147,8 @@ Returns the string obtained by replacing each element in s of a find array with 
 
 The length of the find array must be the same as the length of the replace array. If the length of the find array is greater than the length of the replace array, the last element of the replace array is used for all remaining elements in the find array.
 
+This function is available since OpenRefine 3.6.
+
 ###### find(s, sub or p) {#finds-sub-or-p}
 
 Outputs an array of all consecutive substrings inside string s that match the substring or [regex](expressions#grel-supported-regex) pattern p. For example, `"abeadsabmoloei".find(/[aeio]+/)` would result in the array [ "a", "ea", "a", "o", "oei" ].
@@ -246,9 +248,13 @@ Unescapes s in the given escaping mode. The mode can be one of: "html", "xml", "
 
 Encodes the string, s in the specified encoding. The encoding can be one of: "base16", "base32", "base32hex", "base64", "base64url". For example, `encode("abc", "base64")` returns "YWJj".
 
+This function is available since OpenRefine 3.6.
+
 ###### decode(s, s encoding) {#decodes-s-encoding}
 
 Decodes the string, s in the specified encoding. The encoding can be one of: "base16", "base32", "base32hex", "base64", "base64url". For example, `decode("YWJj", "base64")` returns "abc".
+
+This function is available since OpenRefine 3.6.
 
 ###### md5(o) {#md5o}
 
@@ -293,6 +299,8 @@ Returns an array of strings describing each character of s by their unicode type
 ###### detectLanguage(s) {#detectlanguages}
 
 Returns a string locale describing the language of s, with support for 71 languages as stated [here](https://github.com/optimaize/language-detector#71-built-in-language-profiles). For example, `"Hello, world!".detectLanguage()` outputs "en".
+
+This function is available since OpenRefine 3.6.
 
 ## Format-based functions (JSON, HTML, XML) {#format-based-functions-json-html-xml}
 
@@ -367,6 +375,8 @@ Returns a string of the text from within an XML element (including all child ele
 
 Selects the (unencoded) text of an element and its children, including any new lines and spaces, and returns a string of unencoded, un-normalized text. Use it in conjunction with parseHtml() and select() to provide an element as in the following example: `value.parseHtml().select("div.footer")[0].wholeText()`.
 
+This function is available since OpenRefine 3.5.
+
 ###### innerHtml(element) {#innerhtmlelement}
 Returns the [inner HTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML) of an HTML element. This will include text and children elements within the element selected. Use it in conjunction with parseHtml() and select() to provide an element.
 
@@ -378,6 +388,8 @@ Returns the text directly inside the selected XML or HTML element only, ignoring
 
 ###### parent(element) {#parentelement}
 Returns the parent node or null if no parent. Use it in conjunction with parseHtml() and select() to provide an element.
+
+This function is available since OpenRefine 3.6.
 
 ### URI parsing {#uri-parsing}
 
@@ -392,6 +404,7 @@ Given a valid URI string (for example: https://www.openrefine.org:80/documentati
  - `fragment`: the fragment of the URI (e.g. `download`)
  - `query_params`: the query of the URI as an object (e.g. `{format: "xml", os: "mac"}`)
 
+This function is available since OpenRefine 3.6.
 
 ## Array functions {#array-functions}
 
@@ -514,6 +527,8 @@ OpenRefine supports the following values for timeUnit:
 ###### timeSinceUnixEpochToDate(duration, scale)
 
 Converts a time as measured by the duration since the Unix Epoch (1970-01-01) to a date object. The second parameter indicates the unit of the duration, and can be `"second"`, `"millisecond"` or `"microsecond"`. If the unit is not provided, it is assumed to be `"second"`.
+
+This function is available since OpenRefine 3.6.
 
 ## Math functions {#math-functions}
 
