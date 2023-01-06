@@ -13,7 +13,7 @@ This is a very brief overview of the structure of OpenRefine extensions. For mor
 
 OpenRefine makes use of a modified version of the [Butterfly framework](https://github.com/OpenRefine/simile-butterfly/tree/openrefine) to provide an extension architecture. OpenRefine extensions are Butterfly modules. You don't really need to know about Butterfly itself, but you might encounter "butterfly" here and there in the code base.
 
-Extensions that come with the code base are located under [the extensions subdirectory](https://github.com/OpenRefine/OpenRefine/tree/master/extensions), but when you develop your own extension, you can put its code anywhere as long as you point Butterfly to it. That is done by any one of the following methods
+Extensions that come with the code base are located under [the extensions sub-directory](https://github.com/OpenRefine/OpenRefine/tree/master/extensions), but when you develop your own extension, you can put its code anywhere as long as you point Butterfly to it. That is done by any one of the following methods
 
 * refer to your extension's directory in [the butterfly.properties file](https://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/WEB-INF/butterfly.properties) through a `butterfly.modules.path` setting.
 * specify the butterfly.modules.path property on the command line when you run OpenRefine. This overrides the values in the property file, so you need to include the default values first e.g. `-Dbutterfly.modules.path=modules,../../extensions,/path/to/your/extension`
@@ -31,7 +31,7 @@ pom.xml
   module/
       *.html, *.vt files
       scripts/... *.js files
-      styles/... *.css and *.less files
+      styles/... *.css files
       images/... image files
       MOD-INF/
           lib/*.jar files
@@ -56,7 +56,7 @@ requires = core
 
 which makes sure that the core module of OpenRefine is loaded before the extension attempts to hook into it.
 
-The file named `controller.js` is responsible for registering the extension's hooks into OpenRefine. Look at the sample-extension extension's [controller.js](https://github.com/OpenRefine/OpenRefine/blob/master/extensions/sample/module/MOD-INF/controller.js) file for an example. It should have a function called init() that does the hook registrations.
+The file named `controller.js` is responsible for registering the extension's hooks into OpenRefine. Look at the sample-extension extension's [controller.js](https://github.com/OpenRefine/OpenRefine/blob/master/extensions/sample/module/MOD-INF/controller.js) file for an example. It should have a function called `init()` that does the hook registrations.
 
 The `pom.xml` file is an [Apache Maven](http://maven.apache.org/) build file. You can make a copy of the sample extension's `pom.xml` file to get started. The important point here is that the Java classes should be built into the `module/MOD-INF/classes` sub-directory.
 
@@ -85,7 +85,7 @@ refine/extensions/sample/
           lib/
               ... Java jars ...
           ... velocity templates (.vt) ...
-          ... LESS css files ...
+          ... .css files ...
           ... client-side files (.html, .css, .js, image files) ...
 ```
 
@@ -93,11 +93,11 @@ The sub-directory `MOD-INF` contains the Butterfly module's metadata and is what
 
 Java code is built into the sub-directory `classes` inside `MOD-INF`, and supporting external Java jars are in the `lib` sub-directory. Those will be automatically loaded by Butterfly. (The build.xml script is wired to compile into the `classes` sub-directory.)
 
-Client-side code is in the inner `module` sub-directory. They can be plain old .html, .css, .js, and image files, or they can be [LESS](http://lesscss.org/) files that get processed into CSS. There are also Velocity .vt files, but they need to be routed inside `MOD-INF/controller.js`.
+Client-side code is in the inner `module` sub-directory. They can be plain old .html, .css, .js, and image files. There are also Velocity .vt files, but they need to be routed inside `MOD-INF/controller.js`.
 
 `MOD-INF/controller.js` lets you configure the extension's initialization and URL routing in Javascript rather than in Java. For example, when the requested URL path is either `/` or an empty string, we process and return `MOD-INF/index.vt` ( [see http://127.0.0.1:3333/extension/sample/](http://127.0.0.1:3333/extension/sample/) if OpenRefine is running).
 
-The `init()` function in `controller.js` allows the extension to register various client-side handlers for augmenting pages served by Refine's core. These handlers are feature-specific. For example, [this is where the jython extension adds its parser](https://github.com/OpenRefine/OpenRefine/blob/master/extensions/jython/module/MOD-INF/controller.js#L46). As for the sample extension, it adds its script `project-injection.js` and style `project-injection.less` into the `/project` page. If you [view the source of the /project page](http://127.0.0.1:3333/project), you will see references to those two files.
+The `init()` function in `controller.js` allows the extension to register various client-side handlers for augmenting pages served by Refine's core. These handlers are feature-specific. For example, [this is where the jython extension adds its parser](https://github.com/OpenRefine/OpenRefine/blob/master/extensions/jython/module/MOD-INF/controller.js#L46). As for the sample extension, it adds its script `project-injection.js` and style `project-injection.css` into the `/project` page. If you [view the source of the /project page](http://127.0.0.1:3333/project), you will see references to those two files.
 
 ### Wiring Up the Extension {#wiring-up-the-extension}
 
@@ -109,7 +109,7 @@ For more information, see [Extension Points](https://github.com/OpenRefine/OpenR
 
 ### Client-side: Javascript and CSS {#client-side-javascript-and-css}
 
-The UI in OpenRefine for working with a project is coded in [the /main/webapp/modules/core/project.vt file](http://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/modules/core/project.vt). The file is quite small, and that's because almost all of its content is to be expanded dynamically through the Velocity variables $scriptInjection and $styleInjection. So that your own Javascript and CSS files get loaded, you need to register them with the ClientSideResourceManager, which is done in the `/module/MOD-INF/controller.js` file. See [the controller.js file in this sample extension code](http://github.com/OpenRefine/OpenRefine/blob/master/extensions/sample/module/MOD-INF/controller.js) for an example.
+The UI in OpenRefine for working with a project is coded in [the /main/webapp/modules/core/project.vt file](http://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/modules/core/project.vt). The file is quite small, and that's because almost all of its content is to be expanded dynamically through the Velocity variables `$scriptInjection` and `$styleInjection`. So that your own Javascript and CSS files get loaded, you need to register them with the ClientSideResourceManager, which is done in the /module/MOD-INF/controller.js file. See [the controller.js file in this sample extension code](http://github.com/OpenRefine/OpenRefine/blob/master/extensions/sample/module/MOD-INF/controller.js) for an example.
 
 In the registration call, the variable `module` is already available to your code by default, and it refers to your own extension.
 
@@ -160,7 +160,7 @@ Getting your extension's Javascript code included in `project.vt` doesn't accomp
 
 #### Main Menu {#main-menu}
 
-The main menu can be extended by calling any one of the methods `MenuBar.appendTo`, `MenuBar.insertBefore`, and `MenuBar.insertAfter`. Each method takes 2 arguments: an array of strings that identify a particular existing menu item or submenu, and one new single menu item or submenu, or an array of menu items and submenus. For example, to insert 2 menu items and a menu separator before the menu item Project > Export Filtered Rows > Templating..., write this Javascript code wherever that would execute when your Javascript files get loaded:
+The main menu can be extended by calling any one of the methods `MenuBar.appendTo`, `MenuBar.insertBefore`, and `MenuBar.insertAfter`. Each method takes 2 arguments: an array of strings that identify a particular existing menu item or submenu, and one new single menu item or submenu or an array of menu items and submenus. For example, to insert 2 menu items and a menu separator before the menu item Project > Export Filtered Rows > Templating..., write this Javascript code wherever that would execute when your Javascript files get loaded:
 
 ```
 MenuBar.insertBefore(
@@ -205,7 +205,45 @@ MenuSystem.appendTo(menu, ["core/facet"], [
     ]);
 ```
 
-In addition to `MenuSystem.appendTo`, you can also call `MenuSystem.insertBefore` and `MenuSystem.insertAfter` with the same 3 arguments. To see what IDs you can use, see the function `DataTableColumnHeaderUI.prototype._createMenuForColumnHeader` in [/main/webapp/modules/core/scripts/views/data-table/column-header-ui.js](http://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/modules/core/scripts/views/data-table/column-header-ui.js).
+In addition to `MenuSystem.appendTo`, you can also call `MenuSystem.insertBefore` and `MenuSystem.insertAfter` which the same 3 arguments. To see what IDs you can use, see the function `DataTableColumnHeaderUI.prototype._createMenuForColumnHeader` in [/main/webapp/modules/core/scripts/views/data-table/column-header-ui.js](http://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/modules/core/scripts/views/data-table/column-header-ui.js).
+
+#### Cell renderers {#cell-renderers}
+
+From OpenRefine 3.7 onwards, extensions can also customize the way cells are rendered. This is done by registering a renderer, which is responsible for transforming the JSON representation of a cell into DOM elements rendering it:
+
+```js
+class MyCellRenderer {
+
+  constructor() {
+    super();
+    // some initialization code can be added here
+  }
+
+  render(
+    rowIndex, // the 0-based row index
+    cellIndex, // the position of the column to which the cell belongs
+    cell, // the deserialized JSON representation of the cell
+    cellUI // the parent CellUI object which called this renderer
+  ) {
+     // this renderer has the opportunity to return a DOM element represeting the cell, as follows:
+     return $('<span>rendered cell</span>');
+     // or it may not return anything, in which case the next cell renderer will be executed
+  }
+}
+```
+
+OpenRefine holds an ordered list of cell renderers in its `CellRendererRegistry`. To render a cell, OpenRefine will execute each cell renderer in order, until the first renderer which returns a DOM element. The following renderers are not executed and that DOM element is used as the cell representation.
+
+The registration of the renderer is done with
+```js
+CellRendererRegistry.addRenderer(
+    'my-renderer-identifier', // a string identifying our new renderer
+    new MyCellRenderer(), // the renderer itself
+    'recon' // the existing renderer it should be inserted before
+ );
+```
+
+The default renderers available in OpenRefine itself can be found in `main/webapp/modules/core/scripts/views/data-table/cell-renderers/registry.js`.
 
 #### Cell renderers {#cell-renderers}
 
