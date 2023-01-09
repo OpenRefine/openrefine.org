@@ -420,7 +420,7 @@ Make sure it is not commented out (that is, that the line doesn't start with a �
 Extensions have been created by our contributor community to add functionality or provide convenient shortcuts for common uses of OpenRefine. [We list extensions we know about on our extensions page](https://openrefine.org/extensions).
 
 :::info Contributing extensions
-If you’d like to create or modify an extension, [see our developer documentation here](https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers). If you’re having a problem, [use our downloads page](https://openrefine.org/download.html) to go to the extension’s page and report the issue there.
+If you’d like to create or modify an extension, [see our developer documentation here](https://github.com/OpenRefine/OpenRefine/wiki/Documentation-For-Developers). If you’re having a problem, [use our extensions page](https://openrefine.org/extensions) to go to the page of the extension’s project and report the issue there.
 :::
 
 ### Two ways to install extensions {#two-ways-to-install-extensions}
