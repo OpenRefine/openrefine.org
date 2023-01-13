@@ -37,7 +37,7 @@ As mentioned before, the server-side maintains states of the data, and the prima
 
 ### Projects {#projects}
 
-In OpenRefine there's the concept of a workspace similar to that in Eclipse. When you run OpenRefine it manages projects within a single workspace, and the workspace is embodied in a file directory with sub-directories. The default workspace directories are listed in the [FAQs](https://github.com/OpenRefine/OpenRefine/wiki/FAQ-Where-Is-Data-Stored). You can get OpenRefine to use a different directory by specifying a -d parameter at the command line.
+In OpenRefine there's the concept of a workspace similar to that in Eclipse. When you run OpenRefine it manages projects within a single workspace, and the workspace is embodied in a file directory with sub-directories. The default workspace directories are listed in the [FAQs](https://github.com/OpenRefine/OpenRefine/wiki/FAQ-Where-Is-Data-Stored). You can get OpenRefine to use a different directory by specifying a `-d` parameter at the command line.
 
 The class `ProjectManager` is what manages the workspace. It keeps in memory the metadata of every project (in the class `ProjectMetadata`). This metadata includes the project's name and last modified date, and any other information necessary to present and let the user interact with the project as a whole. Only when the user decides to look at the project's data would `ProjectManager` load the project's actual data. The separation of project metadata and data is to minimize the amount of stuff loaded into memory.
 
@@ -68,7 +68,7 @@ See the following links for details:
 
 - [Issue#5122](https://github.com/OpenRefine/OpenRefine/issues/5122) that first argues it's a useful feature, but then agrees with its deprecation
 - Discussion [Who uses column groups?](https://groups.google.com/g/openrefine/c/A8RhOwlulRs/m/NFR8LDBmBwAJ)
-- Discussion [The future of the records mode](https://groups.google.com/g/openrefine/c/X9O8NBC1UKQ) about better ways of implementing grouping and a hierarchical model in OntoRefine
+- Discussion [The future of the records mode](https://groups.google.com/g/openrefine/c/X9O8NBC1UKQ) about better ways of implementing grouping and a hierarchical model in OpenRefine.
 
 This feature is related to [Rows vs Records](../manual/exploring#rows-vs-records), which however continues to be supported.
 :::
@@ -117,13 +117,13 @@ The client-side part of OpenRefine is implemented in HTML, CSS and Javascript an
 
 ### Importing architecture {#importing-architecture}
 
-OpenRefine has a sophisticated architecture for accommodating a diverse and extensible set of importable file formats and work flows. The formats range from simple CSV, TSV to fixed-width fields to line-based records to hierarchical XML and JSON. The work flows allow the user to preview and tweak many different import settings before creating the project. In some cases, such as XML and JSON, the user also has to select which elements in the data file to import. Additionally, a data file can also be an archive file (e.g., .zip) that contains many files inside; the user can select which of those files to import. Finally, extensions to OpenRefine can inject functionalities into any part of this architecture.
+OpenRefine has a sophisticated architecture for accommodating a diverse and extensible set of importable file formats and workflows. The formats range from simple CSV, TSV to fixed-width fields to line-based records to hierarchical XML and JSON. The workflows allow the user to preview and tweak many different import settings before creating the project. In some cases, such as XML and JSON, the user also has to select which elements in the data file to import. Additionally, a data file can also be an archive file (e.g., .zip) that contains many files inside; the user can select which of those files to import. Finally, extensions to OpenRefine can inject functionalities into any part of this architecture.
 
 ### The Index Page and Action Areas {#the-index-page-and-action-areas}
 
-The opening screen of OpenRefine is implemented by the file refine/main/webapp/modules/core/index.vt and will be referred to here as the index page. Its default implementation contains 3 finger tabs labeled Create Project, Open Project, and Import Project. Each tab selects an "action area". The 3 default action areas are for, obviously, creating a new project, opening an existing project, and importing a project .tar file.
+The opening screen of OpenRefine is implemented by the file `main/webapp/modules/core/index.vt` and will be referred to here as the index page. Its default implementation contains 3 finger tabs labeled Create Project, Open Project, and Import Project. Each tab selects an "action area". The 3 default action areas are for, obviously, creating a new project, opening an existing project, and importing a project .tar file.
 
-Extensions can add more action areas in Javascript. For example, this is how the Create Project action area is added (refine/main/webapp/modules/core/scripts/index/create-project-ui.js):
+Extensions can add more action areas in Javascript. For example, this is how the Create Project action area is added (`main/webapp/modules/core/scripts/index/create-project-ui.js`):
 
 ```javascript
 Refine.actionAreas.push({
@@ -149,7 +149,7 @@ The Create Project action area manages a list of "importing controllers". Each c
 
 An importing controller is just programming logic, but it can manifest itself visually by registering one or more data source UIs and one or more custom panels in the Create Project action area. The default importing controller registers 3 such custom panels, which act like pages of a wizard.
 
-An extension can register any number of importing controller. Each controller has a client-side part and a server-side part. Its client-side part is just a constructor function that takes an object representing the Create Project action area (usually named `createProjectUI`). The controller (client-side) is expected to use that object to register data source UIs and/or create custom panels. The controller is not expected to have any particular interface method. The default importing controller's client-side code looks like this (refine/main/webapp/modules/core/scripts/index/default-importing-controller/controller.js):
+An extension can register any number of importing controller. Each controller has a client-side part and a server-side part. Its client-side part is just a constructor function that takes an object representing the Create Project action area (usually named `createProjectUI`). The controller (client-side) is expected to use that object to register data source UIs and/or create custom panels. The controller is not expected to have any particular interface method. The default importing controller's client-side code looks like this (`main/webapp/modules/core/scripts/index/default-importing-controller/controller.js`):
 
 ```javascript
 Refine.DefaultImportingController = function(createProjectUI) {
@@ -183,7 +183,7 @@ createProjectUI.addSourceSelectionUI({
 - `attachUI(bodyDiv)`
 - `focus()`
 
-If you want to install a data source selection UI that is managed by the default importing controller, then register its UI class with the default importing controller, like so (refine/main/webapp/modules/core/scripts/index/default-importing-sources/sources.js):
+If you want to install a data source selection UI that is managed by the default importing controller, then register its UI class with the default importing controller, like so (`main/webapp/modules/core/scripts/index/default-importing-sources/sources.js`):
 
 ```javascript
 Refine.DefaultImportingController.sources.push({
@@ -199,9 +199,9 @@ The default importing controller will assume that the `uiClass` field is a const
 controller.startImportJob(form, "... status message ...");
 ```
 
-The argument `form` is a jQuery-wrapped FORM element that will get submitted to the server side at the command /command/core/create-importing-job. That command and the default importing controller will take care of uploading or downloading the data, caching it, updating the client side's progress display, and then showing the next importing step when the data is fully cached.
+The argument `form` is a jQuery-wrapped FORM element that will get submitted to the server side at the command `/command/core/create-importing-job`. That command and the default importing controller will take care of uploading or downloading the data, caching it, updating the client side's progress display, and then showing the next importing step when the data is fully cached.
 
-See refine/main/webapp/modules/core/scripts/index/default-importing-sources/sources.js for examples of such source selection UIs. While we write about source selection UIs managed by the default importing controller here, chances are your own extension will not be adding such a new source selection UI. Your extension probably adds with a new importing controller as well as a new source selection UI that work together.
+See `main/webapp/modules/core/scripts/index/default-importing-sources/sources.js` for examples of such source selection UIs. While we write about source selection UIs managed by the default importing controller here, chances are your own extension will not be adding such a new source selection UI. Your extension probably adds with a new importing controller as well as a new source selection UI that work together.
 
 #### File Selection Panel {#file-selection-panel}
 Documentation not currently available
@@ -240,6 +240,7 @@ In the code, the faceted browsing state, or faceted browsing query, is actually 
 
 ```json
 {
+    "mode": "rows",
     "facets" : [
       {
         "type": "text",
@@ -273,9 +274,8 @@ In the code, the faceted browsing state, or faceted browsing query, is actually 
         "from": 0,
         "to": 53
       }
-    ],
-    "includeDependent": false
-  }
+    ]
+}
 ```
 
 ### Server-Side Subsystem {#server-side-subsystem}

@@ -8,7 +8,7 @@ This is a generic API reference for interacting with OpenRefine's HTTP API.
 
 **NOTE:** This protocol is subject to change without warning at any time (and has in the past) and is not versioned. Use at your own risk!
 
-For OpenRefine 3.3 and later, all POST requests need to include a CSRF token as described here: https://github.com/OpenRefine/OpenRefine/wiki/Changes-for-3.3#csrf-protection-changes
+For OpenRefine 3.3 and later, all POST requests need to include a CSRF token as described [in the release notes](https://github.com/OpenRefine/OpenRefine/wiki/Changes-for-3.3#csrf-protection-changes)
 
 ## Create project: {#create-project}
 
@@ -51,7 +51,7 @@ Recovers the models for the specific project. This includes  columns, records, o
 
 ### Response: {#response}
 **On success:**
-```JSON
+```json
 {
    "columnModel":{
       "columns":[
@@ -150,8 +150,8 @@ In the form data
       'operations' : Valid JSON **Array** of OpenRefine operations
 
 Example of a Valid JSON **Array**
-```JSON
-'[
+```json
+[
    {
       "op":"core/column-addition",
       "description":"Create column zip type at index 15 based on column Zip Code 2 using expression grel:value.type()",
@@ -273,7 +273,7 @@ The maximum amount of times a command will be repeated.
 The result array will hold up to ten results, depending on how many rows there are in the project that was specified by the [project_id] parameter. Each result is the string that would be put in the cell if the GREL command was executed on that cell. Note that any expression that would return an array or JSon object will be jsonized, although the output can differ slightly from the jsonize() function.
 
 **On error:**
-```JSON
+```json
 {
   "code": "error",
   "type": "[error_type]",
