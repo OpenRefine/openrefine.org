@@ -37,6 +37,6 @@ OpenRefine is made by people like you. You can help by:
 * developing training material and running workshops to introduce new users to the tool;
 * contributing translations on [Weblate](https://hosted.weblate.org/engage/openrefine/);
 * [improving OpenRefine's official documentation](/docs/technical-reference/contributing#contributing-to-the-documentation);
-* getting involved in the development of the tool;
+* [getting involved in the development of the tool](https://github.com/OpenRefine/OpenRefine/blob/master/CONTRIBUTING.md);
 * [donating to OpenRefine](/donate).
 
