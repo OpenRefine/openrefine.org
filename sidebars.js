@@ -46,7 +46,6 @@ module.exports = {
       'technical-reference/writing-extensions',
       'technical-reference/migrating-older-extensions',
       'technical-reference/translating-ui',
-      'technical-reference/translating-docs',
       'technical-reference/functional-tests',
       'technical-reference/maintainer-guidelines',
       'technical-reference/wikibase/architecture'
