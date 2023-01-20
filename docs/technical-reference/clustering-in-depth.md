@@ -31,7 +31,7 @@ OpenRefine currently offers 2 broad categories of clustering methods:
 1. Token-based (n-gram, key collision, etc.)
 2. Character-based, also known as Edit distance (Levenshtein distance, PPM, etc.)
 
-**NOTE:**  Performance differs depending on the strings that you want to cluster in your data which might be short or very long or varying.  String complexity length has a large part to do with the algorithm that might perform faster (but not necessarily better!).  In general, it's usually best to use heavy algorithms for shorter strings that can provide better quality – like Levenshtein distance.  And token-based algorithms for longer strings such as n-grams(q-grams), bag distance, Jaccard similarity, Dice coefficient, etc. (some of which we do not provide currently).
+**NOTE:**  Performance differs depending on the strings that you want to cluster in your data which might be short or very long or varying.  String length complexity has a large part to do with the algorithm that might perform faster (but not necessarily better!).  In general, it's usually best to use heavy algorithms for shorter strings that can provide better quality – like Levenshtein distance.  And token-based algorithms for longer strings such as n-grams (q-grams), bag distance, Jaccard similarity, Dice coefficient, etc. (some of which we do not provide currently).
 
 ## Key Collision Methods
 
