@@ -1,7 +1,7 @@
 ---
 id: writing-extensions
-title: Writing Extensions
-sidebar_label: Writing Extensions
+title: Writing extensions
+sidebar_label: Writing extensions
 ---
 
 ## Introduction {#introduction}
