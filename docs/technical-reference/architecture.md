@@ -6,26 +6,25 @@ sidebar_label: Architecture
 
 OpenRefine is a web application, but is designed to be run locally on your own machine. The server-side maintains states of the data (undo/redo history, long-running processes, etc.) while the client-side maintains states of the user interface (facets and their selections, view pagination, etc.). The client-side makes GET and POST ajax calls to cause changes to the data and to fetch data and data-related states from the server-side.
 
-This architecture provides a good separation of concerns (data vs. UI); allows the use of familiar web technologies (HTML, CSS, Javascript) to implement user interface features; and enables the server side to be called by third-party software through standard GET and POST operations.
+This architecture provides a good separation of concerns (data vs. UI); allows the use of familiar web technologies (HTML, CSS, Javascript) to implement user interface features; and enables the server side to be called by third-party software through standard GET and POST requests.
 
 ## Technology stack {#technology-stack}
 
-The server-side part of OpenRefine is implemented in Java as one single servlet which is executed by the [Jetty](http://jetty.codehaus.org/jetty/) web server + servlet container. The use of Java strikes a balance between performance and portability across operating systems (there is very little OS-specific code and has mostly to do with starting the application).
+The server-side (back-end) part of OpenRefine is implemented in Java as one single servlet which is executed by the [Jetty](http://jetty.codehaus.org/jetty/) web server and servlet container. The use of Java strikes a balance between performance and portability across operating systems (there is very little OS-specific code and has mostly to do with starting the application). 
 
-OpenRefine has no database. It uses its own in-memory data-store that is built up-front to be optimized for the operations required by faceted browsing and infinite undo.
+The functional extensibility of OpenRefine is provided by a fork of the [SIMILE Butterfly](https://github.com/OpenRefine/simile-butterfly) modular web application framework. With this framework, extensions are able to provide new functionality both in the
+server- and client-side. A [list of known extensions](https://openrefine.org/extensions) is maintained on our website and we have [specific documentation for extension developers](technical-reference/writing-extensions.md).
 
-The client-side part of OpenRefine is implemented in HTML, CSS and Javascript and uses the following libraries:
+The client-side part of OpenRefine is implemented in HTML, CSS and plain Javascript. It primariy uses the following libraries:
 * [jQuery](http://jquery.com/)
-* [jQueryUI](http:jqueryui.com/)
-* [Recurser jquery-i18n](https://github.com/recurser/jquery-i18n)
+* [Wikimedia's jQuery.i18n](https://github.com/wikimedia/jquery.i18n)
+The front-end dependencies are fetched at build time via NPM.
 
-The functional extensibility of OpenRefine is provided by a fork of the [SIMILE Butterfly](https://github.com/OpenRefine/simile-butterfly) modular web application framework.
+The server-side part of OpenRefine relies on many libraries, for instance to implement import and export in many different formats.
+Those are fetched at build time via [Apache Maven](https://maven.apache.org/).
 
-Several projects provide the functionality to read and write custom format files (POI, opencsv, JENA, marc4j).
-
-String clustering is provided by the [SIMILE Vicino](http://code.google.com/p/simile-vicino/) project.
-
-OAuth functionality is provided by the [Signpost](https://github.com/mttkay/signpost) project.
+The data storage and processing architecture is being transformed. Up to version 3.x, OpenRefine uses an in-memory storage, where the entire project grid is loaded in the Java heap, with operations mutating that state. From 4.x on, OpenRefine uses a
+different architecture, where data is stored on disk by default and cached in memory if the project is small enough.
 
 ## Server-side architecture {#server-side-architecture}
 
@@ -37,13 +36,13 @@ As mentioned before, the server-side maintains states of the data, and the prima
 
 ### Projects {#projects}
 
-In OpenRefine there's the concept of a workspace similar to that in Eclipse. When you run OpenRefine it manages projects within a single workspace, and the workspace is embodied in a file directory with sub-directories. The default workspace directories are listed in the [FAQs](https://github.com/OpenRefine/OpenRefine/wiki/FAQ-Where-Is-Data-Stored). You can get OpenRefine to use a different directory by specifying a `-d` parameter at the command line.
+In OpenRefine there's the concept of a workspace similar to that in Eclipse. When you run OpenRefine it manages projects within a single workspace, and the workspace is embodied in a file directory with sub-directories. The default workspace directories are listed [in the manual](manual/installing.md#set-where-data-is-stored) and it also explains how to change them.
 
 The class `ProjectManager` is what manages the workspace. It keeps in memory the metadata of every project (in the class `ProjectMetadata`). This metadata includes the project's name and last modified date, and any other information necessary to present and let the user interact with the project as a whole. Only when the user decides to look at the project's data would `ProjectManager` load the project's actual data. The separation of project metadata and data is to minimize the amount of stuff loaded into memory.
 
 A project's _actual_ data includes the columns, rows, cells, reconciliation records, and history entries.
 
-A project is loaded into memory when it needs to be displayed or modified, and it remains in memory until 1 hour after the last time it gets modified. Periodically the project manager tries to save modified projects, and it saves as many modified projects as possible within 30 seconds.
+A project is loaded when it needs to be displayed or modified, and it remains in memory until 1 hour after the last time it gets modified. Periodically the project manager tries to save modified projects, and it saves as many modified projects as possible within 30 seconds.
 
 ### Data Model {#data-model}
 
@@ -162,7 +161,7 @@ Refine.DefaultImportingController = function(createProjectUI) {
 Refine.CreateProjectUI.controllers.push(Refine.DefaultImportingController); // register the controller
 ```
 
-We will cover the server-side code below.
+We will cover the server-side code [below](#importingcontrollers).
 
 #### Data Source Selection UIs {#data-source-selection-uis}
 
@@ -204,25 +203,61 @@ The argument `form` is a jQuery-wrapped FORM element that will get submitted to 
 See `main/webapp/modules/core/scripts/index/default-importing-sources/sources.js` for examples of such source selection UIs. While we write about source selection UIs managed by the default importing controller here, chances are your own extension will not be adding such a new source selection UI. Your extension probably adds with a new importing controller as well as a new source selection UI that work together.
 
 #### File Selection Panel {#file-selection-panel}
-Documentation not currently available
+
+This screen is shown when there are multiple files to choose from when creating a project, for instance after uploading a zip file with multiple files in it. This interface lets the user choose which ones to import.
+Although OpenRefine only supports one table per project so far, it is possible to select multiple files to import. Their contents will be concatenated into a single table.
 
 #### Parsing UI Panel {#parsing-ui-panel}
-Documentation not currently available
+
+The parsing UI panel is shown when importing data into a new project.
+Primarily, it lets the user select in which format the data is, which determines how it is read and transformed into an OpenRefine project. The back-end will try to supply an informed guess for the format using the [format guesser](#formatguesser), but it
+is not uncommon that this initial choice must be overriden by the user.
+
+Beyond this choice of format, the parsing UI panel offers a configuration panel for the chosen importer. This part of the UI can be defined independently for each input format, given that not all options are relevant for all formats. For instance, when
+selecting the "Text file" option, the specific UI of the `LinedBasedImporter` will be shown. This UI is defined in:
+* `main/webapp/modules/core/scripts/index/parser-interfaces/line-based-parser-ui.html`
+* `main/webapp/modules/core/scripts/index/parser-interfaces/line-based-parser-ui.js`
+
+Other importers generally define their own parsing panel as well.
+
+The link between the format's identifier (MIME type), importer (Java class which defines the parsing logic) and parsing options UI (Javascript class that defines the rendering of this options area) is made in the `main/webapp/modules/core/MOD-INF/controller.js` file,
+where those components are registered together in the `ImportingManager`.
 
 ### Server-side Components {#server-side-components}
 
 #### ImportingController {#importingcontroller}
-Documentation not currently available
 
-#### UrlRewriter {#urlrewriter}
-Documentation not currently available
+An importing controller is a component of the back-end which is in charge of the entire importing workflow, from the initial transfer of the raw data to be imported to the created project, with all the configuration steps in between, [as described in the
+earlier section](#importing-controllers). OpenRefine comes with
+a default importing controller which implements this for data coming from:
+* file upload by the user via the web interface
+* upload of textual information using the clipboard import form
+* download of a file by supplying a URL
+
+For all of these data sources, the first step consists storing the corresponding input files in a temporary directory inside the workspace. The default importing controller provides an HTTP API used by the front-end to select which files to import, [predict
+the format they are in](#formatguesser), provide default importing options for the selected format, preview the project's first few rows with the given options, and finally create the project.
+
+Extensions can define other importing controllers to implement other importing flows depending on the data source. For instance, importing data from a SQL database requires different steps such as selecting the database and providing a SQL query. The
+`database` extension implements such a workflow by providing its own importing controller.
 
 #### FormatGuesser {#formatguesser}
-Documentation not currently available
+
+A format guesser is a class that tries to determine the MIME type of a file, considering its contents.
+The `FormatGuesser` interface has multiple implementations, which can be used to determine the format depending on its basic type (binary, text based).
+For text files, this relies on heuristics which are quite ad-hoc and brittle. For binary files, we do not currently try to do anything, while one would at least expect that we check for some so-called magic numbers at the beginning of files, which can be
+used to detect many file formats.
+
+Worse, our format guessing logic does not actually attempt to parse the files with the guessed formats, so it is not uncommon that the user is directly presented with a parsing error (in the form of a javascript alert) upon importing files.
+
+This could be avoided by trying to read the given files with the predicted importer before suggesting the format to the user, making sure that at least that does not throw an exception.
 
 #### ImportingParser {#importingparser}
-Documentation not currently available
 
+An `ImportingParser` is a class that is responsible for parsing a file into OpenRefine's project model.
+It takes a range of importing options passed on from the frontend, input by the user into a dedicated UI, specific to the format being parsed.
+
+When possible, parsers are designed so that they can import the first few rows of the project without reading the entire input file in memory. This helps provide fast previews of the project to be created when the user changes importing options. Every
+change in the importing options triggers a new parse of the source files.
 
 ## Faceted browsing architecture {#faceted-browsing-architecture}
 
