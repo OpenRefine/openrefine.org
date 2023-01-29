@@ -18,7 +18,7 @@ server- and client-side. A [list of known extensions](https://openrefine.org/ext
 The client-side part of OpenRefine is implemented in HTML, CSS and plain Javascript. It primariy uses the following libraries:
 * [jQuery](http://jquery.com/)
 * [Wikimedia's jQuery.i18n](https://github.com/wikimedia/jquery.i18n)
-The front-end dependencies are fetched at build time via NPM.
+The front-end dependencies are fetched at build time via [NPM](https://www.npmjs.com/).
 
 The server-side part of OpenRefine relies on many libraries, for instance to implement import and export in many different formats.
 Those are fetched at build time via [Apache Maven](https://maven.apache.org/).
@@ -36,7 +36,7 @@ As mentioned before, the server-side maintains states of the data, and the prima
 
 ### Projects {#projects}
 
-In OpenRefine there's the concept of a workspace similar to that in Eclipse. When you run OpenRefine it manages projects within a single workspace, and the workspace is embodied in a file directory with sub-directories. The default workspace directories are listed [in the manual](manual/installing.md#set-where-data-is-stored) and it also explains how to change them.
+In OpenRefine there's the concept of a workspace similar to that in [Eclipse IDE](https://www.eclipse.org/ide). When you run OpenRefine it manages projects within a single workspace, and the workspace is organized in a file directory with sub-directories. The default workspace directories are listed [in the manual](manual/installing.md#set-where-data-is-stored) and it also explains how to change them.
 
 The class `ProjectManager` is what manages the workspace. It keeps in memory the metadata of every project (in the class `ProjectMetadata`). This metadata includes the project's name and last modified date, and any other information necessary to present and let the user interact with the project as a whole. Only when the user decides to look at the project's data would `ProjectManager` load the project's actual data. The separation of project metadata and data is to minimize the amount of stuff loaded into memory.
 
@@ -204,7 +204,7 @@ See `main/webapp/modules/core/scripts/index/default-importing-sources/sources.js
 
 #### File Selection Panel {#file-selection-panel}
 
-This screen is shown when there are multiple files to choose from when creating a project, for instance after uploading a zip file with multiple files in it. This interface lets the user choose which ones to import.
+This screen is shown when there are multiple files to choose from when creating a project, for instance after uploading a zip file with multiple files in it. This interface lets the user choose which files to import to create a new project.
 Although OpenRefine only supports one table per project so far, it is possible to select multiple files to import. Their contents will be concatenated into a single table.
 
 #### Parsing UI Panel {#parsing-ui-panel}
@@ -218,7 +218,7 @@ selecting the "Text file" option, the specific UI of the `LinedBasedImporter` wi
 * `main/webapp/modules/core/scripts/index/parser-interfaces/line-based-parser-ui.html`
 * `main/webapp/modules/core/scripts/index/parser-interfaces/line-based-parser-ui.js`
 
-Other importers generally define their own parsing panel as well.
+Other importers generally define their own parsing configuration panel as well.
 
 The link between the format's identifier (MIME type), importer (Java class which defines the parsing logic) and parsing options UI (Javascript class that defines the rendering of this options area) is made in the `main/webapp/modules/core/MOD-INF/controller.js` file,
 where those components are registered together in the `ImportingManager`.
@@ -234,7 +234,7 @@ a default importing controller which implements this for data coming from:
 * upload of textual information using the clipboard import form
 * download of a file by supplying a URL
 
-For all of these data sources, the first step consists storing the corresponding input files in a temporary directory inside the workspace. The default importing controller provides an HTTP API used by the front-end to select which files to import, [predict
+For all of these data sources, the first step consists of storing the corresponding input files in a temporary directory inside the workspace. The default importing controller provides an HTTP API used by the front-end to select which files to import, [predict
 the format they are in](#formatguesser), provide default importing options for the selected format, preview the project's first few rows with the given options, and finally create the project.
 
 Extensions can define other importing controllers to implement other importing flows depending on the data source. For instance, importing data from a SQL database requires different steps such as selecting the database and providing a SQL query. The
@@ -257,7 +257,7 @@ An `ImportingParser` is a class that is responsible for parsing a file into Open
 It takes a range of importing options passed on from the frontend, input by the user into a dedicated UI, specific to the format being parsed.
 
 When possible, parsers are designed so that they can import the first few rows of the project without reading the entire input file in memory. This helps provide fast previews of the project to be created when the user changes importing options. Every
-change in the importing options triggers a new parse of the source files.
+change in the importing options triggers a new parse of the source files (unless the user has disabled auto preview option in the parsing configuration panel).
 
 ## Faceted browsing architecture {#faceted-browsing-architecture}
 
