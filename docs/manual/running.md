@@ -200,6 +200,7 @@ REFINE_MIN_MEMORY=1400M
 Further modifications can be performed by using JVM preferences. These JVM preferences are different options and have different syntax than the key/value descriptions used on the command line. 
 
 Some of the most common keys (with their defaults) are:
+
 |Description|Argument|Syntax example|
 |---|---|---|
 |The project [autosave](starting#autosaving) frequency|`-Drefine.autosave`|5 [minutes]
