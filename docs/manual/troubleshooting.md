@@ -21,7 +21,7 @@ If you don’t find your problem and solution there, continue on to the resource
 
 ### If you want to contribute: {#if-you-want-to-contribute}
 *   [Help us translate the tool into more languages](../technical-reference/translating-ui), using Weblate
-*   [We have a guide to contributing](../technical-reference/contributing) in the [Technical Reference](../technical-reference/technical-reference-index) section
+*   [We have a guide to contributing](../technical-reference/contributing) in the technical section of our docs
 *   Contribute your feature requests in the [forum](https://forum.openrefine.org) or as [Github issues](https://github.com/OpenRefine/OpenRefine/issues/new/choose)
 *   Add your [blog posts, guides, tips, tricks, tutorials to our list](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources)
 *   Keep an eye out for and respond to our biennial user survey.
