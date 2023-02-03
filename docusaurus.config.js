@@ -92,8 +92,8 @@ module.exports = {
               href: '/docs',
             },
             {
-              label: 'Technical reference',
-              href: '/docs/technical-reference/technical-reference-index',
+              label: 'Contributing',
+              href: '/docs/technical-reference/contributing',
             },
             {
               label: 'External resources',
