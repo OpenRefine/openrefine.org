@@ -149,3 +149,7 @@
   .featureCard:hover .featureLogo {
       filter: none;
   }
+
+  #otherDistributionNotice {
+       margin: 1em auto;
+  }

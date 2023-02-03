@@ -1,5 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
+import UAParser from 'ua-parser-js';
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -45,6 +46,31 @@ function MainDownload() {
                 return <LatestVersionDownloadSection platform={bestPlatform} release={release} />
              }}
           </BrowserOnly>
+      </div>
+      <div className="row" style={{maxWidth: '800px', margin: 'auto' }}>
+        <BrowserOnly fallback={<div id="otherDistributionNotice"></div>}>
+           {() => {
+                const userAgent = new UAParser().getResult();
+                const os = userAgent.os.name;
+                // for the list of possible values, see https://www.npmjs.com/package/ua-parser-js
+                if (['Debian', 'elementary OS', 'Linspire', 'Mint', 'Raspbian', 'Ubuntu', 'Kubuntu', 'Xubuntu'].includes(os)) {
+                  return (<div id="otherDistributionNotice">
+                        You also can install OpenRefine on Ubuntu/Debian derivatives with&nbsp;
+                        <code>sudo apt install openrefine</code>
+                       </div>);
+                } else if (['Fedora', 'Linpus', 'Nobara', 'Ultramarine'].includes(os)) {
+                  // no Fedora package yet!
+                } else if (['Gentoo', 'Sabayon'].includes(os)) {
+                  // No gentoo package yet!
+                } else if (['Mac OS'].includes(os)) {
+                   return (<div id="otherDistributionNotice">
+                        You also can <a href="https://formulae.brew.sh/cask/openrefine">install OpenRefine via Homebrew</a> with:&nbsp;
+                        <code>brew install --cask openrefine</code>
+                       </div>);
+                }
+                return (<div></div>);
+           }}
+        </BrowserOnly>
       </div>
       <div className="row" style={{maxWidth: '800px', margin: 'auto' }}>
         <div className="col">
