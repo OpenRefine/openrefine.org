@@ -1,7 +1,7 @@
 ---
 id: migrating-older-extensions
-title: Migrating older Extensions
-sidebar_label: Migrating older Extensions
+title: Migrating older extensions
+sidebar_label: Migrating older extensions
 ---
 
 ## Migrating from Ant to Maven {#migrating-from-ant-to-maven}

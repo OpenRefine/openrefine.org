@@ -33,22 +33,45 @@ module.exports = {
    'GREL Reference': [
 	   'manual/grelfunctions'],
     'Technical Reference': [
-      'technical-reference/technical-reference-index',
-      'technical-reference/architecture',
-      'technical-reference/clustering-in-depth',
-      'technical-reference/openrefine-api',
-      'technical-reference/reconciliation-api',
-      'technical-reference/contributing',
-      'technical-reference/build-test-run',
-      'technical-reference/development-roadmap',
-      'technical-reference/version-release-process',
-      'technical-reference/homebrew-cask-process',
-      'technical-reference/writing-extensions',
-      'technical-reference/migrating-older-extensions',
-      'technical-reference/translating-ui',
-      'technical-reference/functional-tests',
-      'technical-reference/maintainer-guidelines',
-      'technical-reference/wikibase/architecture'
+      {
+        type: 'category',
+        label: 'Contributing to OpenRefine',
+        items: [
+            'technical-reference/contributing',
+            'technical-reference/build-test-run',
+            'technical-reference/functional-tests',
+            'technical-reference/development-roadmap',
+            'technical-reference/translating-ui',
+        ]
+      },
+      {
+        type: 'category',
+        label: 'Architecture',
+        items: [
+            'technical-reference/architecture',
+            'technical-reference/clustering-in-depth',
+            'technical-reference/openrefine-api',
+            'technical-reference/reconciliation-api',
+        ]
+      },
+      {
+        type: 'category',
+        label: 'Extensions',
+        items: [
+          'technical-reference/writing-extensions',
+          'technical-reference/migrating-older-extensions',
+          'technical-reference/wikibase/architecture'
+        ]
+      },
+      {
+        type: 'category',
+        label: 'Maintaining OpenRefine',
+        items: [
+         'technical-reference/maintainer-guidelines',
+         'technical-reference/version-release-process',
+         'technical-reference/homebrew-cask-process'
+        ]
+      }      
   ]
   },
 };
