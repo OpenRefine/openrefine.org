@@ -237,6 +237,8 @@ a default importing controller which implements this for data coming from:
 For all of these data sources, the first step consists of storing the corresponding input files in a temporary directory inside the workspace. The default importing controller provides an HTTP API used by the front-end to select which files to import, [predict
 the format they are in](#formatguesser), provide default importing options for the selected format, preview the project's first few rows with the given options, and finally create the project.
 
+The importing controller is not used for loading existing projects or importing OpenRefine project archives: the project manager is responsible for both of those.
+
 Extensions can define other importing controllers to implement other importing flows depending on the data source. For instance, importing data from a SQL database requires different steps such as selecting the database and providing a SQL query. The
 `database` extension implements such a workflow by providing its own importing controller.
 
