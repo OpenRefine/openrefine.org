@@ -115,4 +115,4 @@ To [split multi-valued cells](transforming#split-multi-valued-cells) and apply o
 
 Be careful when in records mode that you do not accidentally delete rows based on being blank in one column where there is a value in another. 
 
-This feature is related to [Column Groups](../technical-reference/architecture#column-groups), which however is incomplete and deprecated.
+This feature is related to [Column Groups](../technical-reference/architecture-before-4#column-groups), which however is incomplete and deprecated.
