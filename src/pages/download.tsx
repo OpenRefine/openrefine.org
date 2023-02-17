@@ -53,7 +53,9 @@ function MainDownload() {
                 const userAgent = new UAParser().getResult();
                 const os = userAgent.os.name;
                 // for the list of possible values, see https://www.npmjs.com/package/ua-parser-js
-                if (['Debian', 'elementary OS', 'Linspire', 'Mint', 'Raspbian', 'Ubuntu', 'Kubuntu', 'Xubuntu'].includes(os)) {
+                if (['Debian', 'elementary OS', 'Linspire', 'Mint', 'Raspbian', 'Ubuntu', 'Kubuntu', 'Xubuntu'].includes(os)
+                        // also advertise deb package to Windows users per https://github.com/OpenRefine/openrefine.org/commit/d45dab4349930bf71e232a85ce8dc131f57342c3#r99335793
+                        || navigator.appVersion.indexOf("Win") != -1) {
                   return (<div id="otherDistributionNotice">
                         You also can install OpenRefine on Ubuntu/Debian derivatives with&nbsp;
                         <code>sudo apt install openrefine</code>
