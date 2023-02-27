@@ -48,7 +48,8 @@ module.exports = {
         type: 'category',
         label: 'Architecture',
         items: [
-            'technical-reference/architecture',
+            'technical-reference/architecture-before-4',
+            'technical-reference/architecture-4',
             'technical-reference/clustering-in-depth',
             'technical-reference/openrefine-api',
             'technical-reference/reconciliation-api',

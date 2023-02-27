@@ -1,7 +1,7 @@
 ---
-id: architecture
-title: Architecture
-sidebar_label: Architecture
+id: architecture-before-4
+title: Architecture before version 4 
+sidebar_label: Architecture before version 4
 ---
 
 OpenRefine is a web application, but is designed to be run locally on your own machine. The server-side maintains states of the data (undo/redo history, long-running processes, etc.) while the client-side maintains states of the user interface (facets and their selections, view pagination, etc.). The client-side makes GET and POST ajax calls to cause changes to the data and to fetch data and data-related states from the server-side.
