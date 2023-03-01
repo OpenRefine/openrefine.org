@@ -118,23 +118,17 @@ OpenRefine development requires Apache Maven for its build, test, and packaging 
 
 <TabItem value="win">
 
-[Install Maven](https://maven.apache.org/install.html) by downloading and unzipping the archive in any directory. Then, set the `MAVEN_HOME` environment variable, such as:
-```shell
-MAVEN_HOME=E:\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4\
-```
-
-You may need to reboot your machine after setting these environment variables. If you receive a message `Could not find the main class: com.google.refine.Refine. Program will exit.` it is likely `JAVA_HOME` is not set correctly.
+[Install Maven](https://maven.apache.org/install.html). Then ensure the `M2_HOME` or `MAVEN_HOME` environment variable is set or 'mvn' is in your system `PATH`.
 </TabItem>
 <TabItem value="mac">
 Install Maven via Homebrew with `brew install maven`.
 
-Otherwise, [Install Maven manually](https://maven.apache.org/install.html) by downloading and unzipping the archive in any directory. Then, set the `MAVEN_HOME` environment variable, such as:
-```shell
-MAVEN_HOME=/opt/apache-maven-3.8.7
-```
+Otherwise, [Install Maven](https://maven.apache.org/install.html). Then ensure the `M2_HOME` or `MAVEN_HOME` environment variable is set or 'mvn' is in your system `PATH`.
+
 </TabItem>
 <TabItem value="linux">
 Install Maven with the package manager of your Linux distribution. For instance:
+
 * On Debian/Ubuntu derivatives, use `sudo apt install maven`
 * On Fedora/CentOS, use `sudo dnf install maven`
 * On ArchLinux, use `sudo pacman -S maven`
