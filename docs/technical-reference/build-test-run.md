@@ -118,12 +118,18 @@ OpenRefine development requires Apache Maven for its build, test, and packaging 
 
 <TabItem value="win">
 
-[Install Maven](https://maven.apache.org/install.html). Then ensure the `M2_HOME` or `MAVEN_HOME` environment variable is set or 'mvn' is in your system `PATH`.
+[Install Maven](https://maven.apache.org/install.html). Then ensure the `M2_HOME` or `MAVEN_HOME` environment variable is set or 'mvn' is in your system `PATH`:
+```shell
+MAVEN_HOME=E:\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4\
+```
 </TabItem>
 <TabItem value="mac">
 Install Maven via Homebrew with `brew install maven`.
 
-Otherwise, [Install Maven](https://maven.apache.org/install.html). Then ensure the `M2_HOME` or `MAVEN_HOME` environment variable is set or 'mvn' is in your system `PATH`.
+Otherwise, [Install Maven](https://maven.apache.org/install.html). Then ensure the `M2_HOME` or `MAVEN_HOME` environment variable is set or 'mvn' is in your system `PATH`:
+```shell
+MAVEN_HOME=/opt/apache-maven-3.8.7
+```
 
 </TabItem>
 <TabItem value="linux">
