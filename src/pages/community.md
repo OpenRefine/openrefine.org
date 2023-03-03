@@ -13,11 +13,9 @@ import Card from '../card.tsx';
 <div className="cardList">
   <Card href="https://forum.openrefine.org" title="Forum" description="Ask for support, share your ideas and join the team." />
   <Card href="https://github.com/OpenRefine/OpenRefine" title="GitHub project" description="Contribute and coordinate improvements to the tool." />
-  <Card href="https://hosted.weblate.org/engage/openrefine/" title="Translate OpenRefine" description="Contribute translations of the interface in your language via Weblate." />
 </div>
 <div className="cardList">
-  <Card href="https://stackoverflow.com/questions/tagged/openrefine" title="StackOverflow" description="Ask and answer questions with the #openrefine StackOverflow tag" />
-  <Card href="https://gitter.im/OpenRefine/OpenRefine" title="Gitter chat" description="Chat with other community members via Gitter or Matrix." />
+  <Card href="https://hosted.weblate.org/engage/openrefine/" title="Translate OpenRefine" description="Contribute translations of the interface in your language via Weblate." />
   <Card title="Social media" description="Share your thoughts with the #openrefine tag on your favourite social media platform." />
 </div>
 
@@ -33,10 +31,10 @@ import OpenRefineIsMagicImageUrl from '@site/static/img/openrefine_is_magic.png'
 </div>
 
 OpenRefine is made by people like you. You can help by:
-* helping out with user support, for instance on the platforms listed above;
-* developing training material and running workshops to introduce new users to the tool;
-* contributing translations on [Weblate](https://hosted.weblate.org/engage/openrefine/);
-* [improving OpenRefine's official documentation](/docs/technical-reference/contributing#contributing-to-the-documentation);
-* [getting involved in the development of the tool](https://github.com/OpenRefine/OpenRefine/blob/master/CONTRIBUTING.md);
-* [donating to OpenRefine](/donate).
 
+- helping out with user support, for instance on the platforms listed above;
+- developing training material and running workshops to introduce new users to the tool;
+- contributing translations on [Weblate](https://hosted.weblate.org/engage/openrefine/);
+- [improving OpenRefine's official documentation](/docs/technical-reference/contributing#contributing-to-the-documentation);
+- [getting involved in the development of the tool](https://github.com/OpenRefine/OpenRefine/blob/master/CONTRIBUTING.md);
+- [donating to OpenRefine](/donate).
