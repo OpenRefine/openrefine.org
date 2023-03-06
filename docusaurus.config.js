@@ -20,7 +20,7 @@ module.exports = {
         {
           to: '/download',
           label: 'Download',
-          position: 'left'
+          position: 'left',
         },
         {
           to: '/docs',
@@ -36,7 +36,7 @@ module.exports = {
         {
           to: 'blog',
           label: 'Blog',
-          position: 'left'
+          position: 'left',
         },
         {
           to: '/donate',
@@ -67,7 +67,7 @@ module.exports = {
               href: '/download',
             },
             {
-              label: 'What\'s new',
+              label: "What's new",
               href: '/whats_new',
             },
             {
@@ -102,7 +102,7 @@ module.exports = {
             {
               label: 'Privacy notice',
               href: '/privacy',
-            }
+            },
           ],
         },
         {
@@ -114,7 +114,7 @@ module.exports = {
             },
             {
               label: 'Forum',
-              href: 'https://forum.openrefine.org/'
+              href: 'https://forum.openrefine.org/',
             },
             {
               label: 'Gitter chat',
@@ -152,6 +152,9 @@ module.exports = {
           showLastUpdateAuthor: true,
           // Equivalent to `enableUpdateTime`.
           showLastUpdateTime: true,
+        },
+        blog: {
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
