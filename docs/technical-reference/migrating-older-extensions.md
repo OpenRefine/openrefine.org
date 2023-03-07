@@ -4,6 +4,18 @@ title: Migrating older extensions
 sidebar_label: Migrating older extensions
 ---
 
+This page lists changes in OpenRefine that require significant adaptations from extensions.
+
+Table of contents:
+* Migrating from Ant to Maven (October 2018, between 3.0 and 3.1-beta)
+* Migrating to Wikimedia's i18n jQuery plugin (November 2018, between 3.1-beta and 3.1)
+* Migrating from org.json to Jackson (December 2018, between 3.1 and 3.2-beta)
+* Many changes for 4.0
+   * Migrating from in-memory project data storage to the runner architecture
+   * Changes in project serialization format
+   * Changes in package names
+   * Changes in Maven module structure
+
 ## Migrating from Ant to Maven {#migrating-from-ant-to-maven}
 
 ### Why are we doing this change? {#why-are-we-doing-this-change}
@@ -22,39 +34,42 @@ You will need to write a `pom.xml` in the root folder of your extension to confi
 
 For any library that your extension depends on, you should try to find a matching artifact in the Maven Central repository. If you can find such an artifact, delete the `.jar` file from your extension and add the dependency in your `pom.xml` file. If you cannot find such an artifact, it is still possible to incorporate your own `.jar` file using `maven-install-plugin` that you can configure in your `pom.xml` file as follows:
 
-
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-install-plugin</artifactId>
-        <version>2.5.2</version>
-        <executions>
-            <execution>
-                <id>install-wdtk-datamodel</id>
-                <phase>process-resources</phase>
-                <configuration>
-                    <file>${basedir}/lib/my-proprietary-library.jar</file>
-                    <repositoryLayout>default</repositoryLayout>
-                    <groupId>com.my.company</groupId>
-                    <artifactId>my-library</artifactId>
-                    <version>0.5.3-SNAPSHOT</version>
-                    <packaging>jar</packaging>
-                    <generatePom>true</generatePom>
-                </configuration>
-                <goals>
-                    <goal>install-file</goal>
-                </goals>
-            </execution>
-            <!-- if you need to add more than one jar, add more execution blocks here -->
-        </executions>
-      </plugin>
+```xml
+<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-install-plugin</artifactId>
+  <version>2.5.2</version>
+  <executions>
+    <execution>
+      <id>install-wdtk-datamodel</id>
+      <phase>process-resources</phase>
+      <configuration>
+        <file>${basedir}/lib/my-proprietary-library.jar</file>
+        <repositoryLayout>default</repositoryLayout>
+        <groupId>com.my.company</groupId>
+        <artifactId>my-library</artifactId>
+        <version>0.5.3-SNAPSHOT</version>
+        <packaging>jar</packaging>
+        <generatePom>true</generatePom>
+      </configuration>
+      <goals>
+        <goal>install-file</goal>
+      </goals>
+    </execution>
+    <!-- if you need to add more than one jar, add more execution blocks here -->
+  </executions>
+</plugin>
+```
 
 And add the dependency to the `<dependencies>` section as usual:
 
-     <dependency>
-         <groupId>com.my.company</groupId>
-         <artifactId>my-library</artifactId>
-         <version>0.5.3-SNAPSHOT</version>
-     </dependency>
+```xml
+<dependency>
+  <groupId>com.my.company</groupId>
+  <artifactId>my-library</artifactId>
+  <version>0.5.3-SNAPSHOT</version>
+</dependency>
+```
 
 ## Migrating to Wikimedia's i18n jQuery plugin {#migrating-to-wikimedias-i18n-jquery-plugin}
 
@@ -70,26 +85,28 @@ The migration was made between 3.1-beta and 3.1, with this commit: https://githu
 
 You will need to update your translation files, merging nested objets in one global object, concatenating keys. You can do this by running the following Python script on all your JSON translation files:
 
-    import json
-    import sys
+```python
+import json
+import sys
 
-    with open(sys.argv[1], 'r') as f:
-        j = json.loads(f.read())
+with open(sys.argv[1], 'r') as f:
+    j = json.loads(f.read())
 
-    result = {}
-    def translate(obj, path):
-        res = {}
-        if type(obj) == str:
-            result['/'.join(path)] = obj
-        else:
-            for k, v in obj.items():
-                new_path = path + [k]
-                translate(v, new_path)
- 
-    translate(j, [])
+result = {}
+def translate(obj, path):
+    res = {}
+    if type(obj) == str:
+        result['/'.join(path)] = obj
+    else:
+        for k, v in obj.items():
+            new_path = path + [k]
+            translate(v, new_path)
 
-    with open(sys.argv[1], 'w') as f:
-        f.write(json.dumps(result, ensure_ascii=False, indent=4))
+translate(j, [])
+
+with open(sys.argv[1], 'w') as f:
+    f.write(json.dumps(result, ensure_ascii=False, indent=4))
+```
 
 Then your javascript files which retrieve the translated strings should be updated: `$.i18n._('core-dialogs')['cancel']` becomes `$.i18n('core-dialogs/cancel')`. You can do this with the following `sed` script:
 
