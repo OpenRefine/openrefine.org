@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 Your donations help further maintain and further develop OpenRefine. Thank you for your support!
 
-<script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe src="https://donorbox.org/embed/open-refine" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" width="100%" style={{maxWidth: '500px', minWidth: '250px', minHeight: '460px', maxHeight: 'none!important'}}></iframe>
+<script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe src="https://donorbox.org/embed/open-refine" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="yes" width="100%" style={{maxWidth: '500px', minWidth: '250px', minHeight: '750px', maxHeight: 'none!important'}}></iframe>
 
 OpenRefine is a fiscally sponsored project of [Code for Science & Society Inc.](https://codeforscience.org). Donations are tax deductible to the extent allowed by law in the US. Tax ID 81-3791683.
 
