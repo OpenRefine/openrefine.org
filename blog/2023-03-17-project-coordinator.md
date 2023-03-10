@@ -4,7 +4,7 @@ title: "OpenRefine is looking for a part time project coordinator"
 ---
 
 OpenRefine is looking for a part time project coordinator.
-This paid role is intended to help facilitate community processes in the project, improve our capacity to liaise with partners and our gouvernance structures.
+This paid role is intended to help facilitate community processes in the project, improve our capacity to liaise with partners and our governance structures.
 
 The responsibilities of this project coordinator will include:
 * Facilitating regular meetings within the OpenRefine community and with external partners;
