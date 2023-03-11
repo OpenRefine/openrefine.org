@@ -30,6 +30,7 @@ This role will be compensated depending on the applicant's experience, from $40 
 We anticipate a time commitment from 10h to 30h per week depending on the applicant's availability.
 The position can be filled as soon as possible, with a trial period of 3 months.
 Code for Science and Society is able to hire collaborators in most jurisdictions not targeted by US sanctions, via a local employer of record.
+The project coordinator will report to the advisory committee, which currently consists of Martin Magdinier, Antonin Delpeuch and Jan Ainali.
 
 To respond to this opportunity, send your application (CV and short motivation statement) to hiring@openrefine.org.
 Applications will be reviewed until March 30th and we aim to respond to all candidates.
