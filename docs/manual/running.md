@@ -127,15 +127,18 @@ C:>refine /i 127.0.0.2 /p 3334
 
 Get a list of all the commands with `refine /?`. 
 
-|Command|Use|Syntax example|
+| Command |Use|Syntax example|
 |---|---|---|
 |/w|Path to the webapp|refine /w /path/to/openrefine|
 |/m|Memory maximum heap|refine /m 6000M|
 |/p|Port|refine /p 3334|
 |/i|Interface (IP address, or IP and port)|refine /i 127.0.0.2:3334|
 |/H|HTTP host to expect on incoming requests|refine /H openrefine.internal|
-|/d|Enable debugging (on port 8000)|refine /d|
-|/x|Enable JMX monitoring for Jconsole and JvisualVM|refine /x|
+|/d|Path to the workspace|refine /d /where/you/want/the/workspace|
+|/v|Verbosity (from low to high: error,warn,info,debug,trace)|refine /v info|
+|/x|Additional Java configuration parameters (see Java documentation)|refine /x refine.autosave=5 <br/>refine /x refine.data_dir=/ <br/>refine /x refine.development=false <br/>refine /x refine.headless=false <br/>refine /x refine.host=127.0.0.1 <br/>refine /x refine.port=3333 <br/>refine /x refine.webapp=main/webapp <br/>refine /x refine.display.new.version.notice=true|
+|/debug|Enable debugging (on port 8000)|refine /d|
+|/jmx|Enable JMX monitoring for Jconsole and JvisualVM|refine /x|
 
 </TabItem>
 
