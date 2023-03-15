@@ -33,6 +33,6 @@ Code for Science and Society is able to hire collaborators in most jurisdictions
 The project coordinator will report to the advisory committee, which currently consists of Martin Magdinier, Antonin Delpeuch and Jan Ainali.
 
 To respond to this opportunity, send your application (CV and short motivation statement) to hiring@openrefine.org.
-Applications will be reviewed until March 30th and we aim to respond to all candidates.
+We will start to review applications on March 25th and we aim to respond to all candidates.
 
 *OpenRefine is fiscally sponsored by Code for Science and Society (CS&S). CS&S is an equal opportunity employer committed to hiring a diverse workforce at all levels of the organization thereby creating a culture that allows us to better serve our clientele, our employees and our communities. We value and encourage the contributions of our colleagues and strive to create an environment where everyone can reach their full potential and drive outstanding results. All qualified applicants will receive consideration for employment without regard to race, national origin, age, sex, religion, disability, sexual orientation, marital status, veteran status, gender identity or expression, or any other basis protected by local, state, or federal law. This policy applies with regard to all aspects of one's employment, including hiring, transfer, promotion, compensation, eligibility for benefits, and termination.*
