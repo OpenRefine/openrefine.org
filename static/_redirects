@@ -6,5 +6,5 @@
 /category/blog.html     /blog
 /blog/:year/:month/:day/*.html  /blog/:year/:month/:day/:splat
 
-/feed.xml       /atom.xml
+/feed.xml       /blog/atom.xml
 /images/czi-eoss-proposal.pdf   /uploads/czi-eoss-proposal.pdf
