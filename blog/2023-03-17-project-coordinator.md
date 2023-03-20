@@ -21,10 +21,11 @@ Requirements:
 * Good communication skills and fluency in English, both written and spoken
 * Self-motivated and organized
 * Able to work fully remotely
+* Familiarity with OpenRefine or a related open source project
 
 Nice to have:
 * Experience with working in a volunteer organization
-* Familiarity with OpenRefine or a related open source project
+* Ability to travel to events a couple of times a year
 
 This role will be compensated depending on the applicant's experience, from $40 to $70 per hour.
 We anticipate a time commitment from 10h to 30h per week depending on the applicant's availability.
