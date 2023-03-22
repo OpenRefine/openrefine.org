@@ -1,12 +1,12 @@
 ---
 author: Antonin Delpeuch
-title: "OpenRefine is looking for a part time project coordinator"
+title: "OpenRefine is looking for a part time project manager"
 ---
 
-OpenRefine is looking for a part time project coordinator.
+OpenRefine is looking for a part time project manager.
 This paid role is intended to help facilitate community processes in the project, improve our capacity to liaise with partners and our governance structures.
 
-The responsibilities of this project coordinator will include:
+The responsibilities of this project manager will include:
 * Facilitating regular meetings within the OpenRefine community and with external partners;
 * Run outreach activities such as our biyearly user survey or by representing the project in events;
 * Maintain the project's communication channels (such as moderating the forum)
@@ -15,7 +15,7 @@ The responsibilities of this project coordinator will include:
 * Help with grant applications and reporting
 * Liaise with Code for Science and Society, our fiscal sponsor
 
-The scope of the role is anticipated to evolve, to adapt to the coordinator's interests and the project's needs.
+The scope of the role is anticipated to evolve, to adapt to the manager's interests and the project's needs.
 
 Requirements:
 * Good communication skills and fluency in English, both written and spoken
@@ -30,8 +30,8 @@ Nice to have:
 This role will be compensated depending on the applicant's experience, from $40 to $70 per hour.
 We anticipate a time commitment from 10h to 30h per week depending on the applicant's availability.
 The position can be filled as soon as possible, with a trial period of 3 months.
-Code for Science and Society is able to hire collaborators in most jurisdictions not targeted by US sanctions, via a local employer of record.
-The project coordinator will report to the advisory committee, which currently consists of Martin Magdinier, Antonin Delpeuch and Jan Ainali.
+Code for Science and Society [is able to hire collaborators in most jurisdictions not targeted by US sanctions](https://www.codeforsociety.org/resources/international-hiring-guide), via a local employer of record.
+The project manager will report to the advisory committee, which currently consists of Martin Magdinier, Antonin Delpeuch and Jan Ainali.
 
 To respond to this opportunity, send your application (CV and short motivation statement) to hiring@openrefine.org.
 We will start to review applications on March 25th and we aim to respond to all candidates.
