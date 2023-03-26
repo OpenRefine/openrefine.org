@@ -153,3 +153,9 @@
   #otherDistributionNotice {
        margin: 1em auto;
   }
+
+ @media only screen and (max-width: 600px) {
+   #magic{
+    height:100px
+   }
+ }
