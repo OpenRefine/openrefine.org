@@ -26,7 +26,7 @@ import Card from '../card.tsx';
 import OpenRefineIsMagicImageUrl from '@site/static/img/openrefine_is_magic.png';
 
 <div style={{float: 'right', textAlign: 'right'}}>
-<img src={OpenRefineIsMagicImageUrl} alt="OpenRefine is magic" />
+<img src={OpenRefineIsMagicImageUrl} alt="OpenRefine is magic" id="magic"/>
 <p style={{fontSize: '0.7em'}}><a href="https://commons.wikimedia.org/wiki/File:Open_Refine_is_Magic.png">CC-BY-SA Scott Carlson</a></p>
 </div>
 
