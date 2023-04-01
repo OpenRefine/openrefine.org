@@ -39,6 +39,10 @@ module.exports = {
           position: 'left',
         },
         {
+          label: 'RSS Feed',
+          href: 'https://openrefine.org/feed.xml',
+        },
+        {
           to: '/donate',
           label: 'Donate',
           position: 'right',
