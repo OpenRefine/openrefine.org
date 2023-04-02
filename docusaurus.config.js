@@ -22,6 +22,7 @@ module.exports = {
           label: 'Download',
           position: 'left',
         },
+        
         {
           to: '/docs',
           activeBasePath: 'docs',
@@ -34,13 +35,18 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'blog',
           label: 'Blog',
           position: 'left',
-        },
-        {
-          label: 'RSS Feed',
-          href: 'https://openrefine.org/feed.xml',
+          items: [
+            {
+              to: 'blog',
+              label: 'Blog',
+            },
+            {
+              href: 'https://openrefine.org/feed.xml',
+              label: 'RSS Feed',
+            },
+          ],
         },
         {
           to: '/donate',
