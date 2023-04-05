@@ -10,11 +10,12 @@ Table of contents:
 * Migrating from Ant to Maven (October 2018, between 3.0 and 3.1-beta)
 * Migrating to Wikimedia's i18n jQuery plugin (November 2018, between 3.1-beta and 3.1)
 * Migrating from org.json to Jackson (December 2018, between 3.1 and 3.2-beta)
-* Many changes for 4.0
+* Changes for 4.0
    * Migrating from in-memory project data storage to the runner architecture
    * Changes in project serialization format
    * Changes in package names
    * Changes in Maven module structure
+   * Changes in the HTTP API offered by OpenRefine's backend
 
 ## Migrating from Ant to Maven {#migrating-from-ant-to-maven}
 
@@ -184,3 +185,29 @@ Example: `WikibaseSchema` [before](https://github.com/OpenRefine/OpenRefine/blob
 Any class that is stored in OpenRefine's preference now needs to implement the `com.google.refine.preferences.PreferenceValue` interface. The static `load` method and the `write` method used previously for deserialization should be deleted and regular Jackson serialization and deserialization should be implemented instead. Note that you do not need to explicitly serialize the class name, this is already done for you by the interface.
 
 Example: `TopList` [before](https://github.com/OpenRefine/OpenRefine/blob/3.1/main/src/com/google/refine/preference/TopList.java) and [after](https://github.com/OpenRefine/OpenRefine/blob/master/main/src/com/google/refine/preference/TopList.java)
+
+## Changes for 4.0
+
+Most changes for 4.0 happen in the backend. The frontend code remains mostly the same.
+* If your extension only makes frontend changes, you might be able to migrate it without much trouble (perhaps it already works out of the box?). It is worth checking the section on frontend architecture changes and the HTTP API changes if you are making
+  calls to the backend yourself.
+* If your extension includes backend functionality, there might be more work involved. Although an incremental migration (starting from your existing code) might be possible, it might be easier to rewrite those features from scratch following our guide for
+  extension developers.
+
+### Migrating from in-memory project data storage to the runner architecture
+
+### Changes in project serialization format
+
+### Changes in package names
+
+### Changes in Maven module structure
+
+### Changes in the HTTP API offered by OpenRefine's backend
+
+#### Pagination changes
+#### Changes in applying operations
+#### get-models command
+#### Options of the CSV/TSV importer
+#### Removal of the reconciliation pool
+ 
+
