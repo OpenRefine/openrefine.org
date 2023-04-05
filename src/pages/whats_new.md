@@ -38,7 +38,7 @@ hide_table_of_contents: false
 * The interface for editing cell values was improved to better explain how to input dates ([#3082](https://github.com/OpenRefine/OpenRefine/issues/3082))
 * The Windows `refine.bat` script was made more consistent with the Unix `refine` script ([#4949](https://github.com/OpenRefine/OpenRefine/pulls/4949), [#5404](https://github.com/OpenRefine/OpenRefine/pulls/5404))
 * The "Search for Match" dialog was rearranged so that the dropdown does not cover the buttons ([#4945](https://github.com/OpenRefine/OpenRefine/pulls/4945))
-* Error handling in the scatterplot facet was improved ([#4893](4893))
+* Error handling in the scatterplot facet was improved ([#4893](https://github.com/OpenRefine/OpenRefine/pull/4893))
 * The "Collapse consecutive whitespaces" operation now handles unicode whitespace correctly ([#4898](https://github.com/OpenRefine/OpenRefine/pulls/4898))
 * ([#4991](https://github.com/OpenRefine/OpenRefine/pulls/4991))
 * The handling of GZIP-compressed files without `.gz` extension was improved in the importing pipeline ([#547](https://github.com/OpenRefine/OpenRefine/pulls/547))
