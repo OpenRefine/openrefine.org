@@ -14,13 +14,13 @@ import styles from './styles.module.css';
 import {releases, platformDetails, platformOrder, getArtifact} from '../releases.js';
 
 function selectBestPlatform() {
-    if (navigator.appVersion.indexOf("Win") != -1)
+    if (navigator.platform.indexOf("Win") != -1)
         return 'win-with-java';
-    if (navigator.appVersion.indexOf("Mac") != -1)
+    if (navigator.platform.indexOf("Mac") != -1)
         return 'mac';
-    if (navigator.appVersion.indexOf("X11") != -1)
+    if (navigator.platform.indexOf("X11") != -1)
         return 'linux';
-    if (navigator.appVersion.indexOf("Linux") != -1)
+    if (navigator.platform.indexOf("Linux") != -1)
         return 'linux';
     // by default, assume Windows
     return 'win-with-java';
@@ -54,9 +54,9 @@ function MainDownload() {
                 // for the list of possible values, see https://www.npmjs.com/package/ua-parser-js
                 const os = userAgent.os.name;
 
-                if (navigator.appVersion.indexOf("Linux") != -1
+                if (navigator.platform.indexOf("Linux") != -1
                         // also advertise deb package to Windows users per https://github.com/OpenRefine/openrefine.org/commit/d45dab4349930bf71e232a85ce8dc131f57342c3#r99335793
-                        || navigator.appVersion.indexOf("Win") != -1) {
+                        || navigator.platform.indexOf("Win") != -1) {
                   return (<div id="otherDistributionNotice">
                         You also can install OpenRefine on Ubuntu/Debian derivatives with&nbsp;
                         <code>sudo apt install openrefine</code>
