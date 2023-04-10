@@ -6,17 +6,6 @@ sidebar_label: Migrating older extensions
 
 This page lists changes in OpenRefine that require significant adaptations from extensions.
 
-Table of contents:
-* Migrating from Ant to Maven (October 2018, between 3.0 and 3.1-beta)
-* Migrating to Wikimedia's i18n jQuery plugin (November 2018, between 3.1-beta and 3.1)
-* Migrating from org.json to Jackson (December 2018, between 3.1 and 3.2-beta)
-* Changes for 4.0
-   * Migrating from in-memory project data storage to the runner architecture
-   * Changes in project serialization format
-   * Changes in package names
-   * Changes in Maven module structure
-   * Changes in the HTTP API offered by OpenRefine's backend
-
 ## Migrating from Ant to Maven {#migrating-from-ant-to-maven}
 
 ### Why are we doing this change? {#why-are-we-doing-this-change}
@@ -188,10 +177,12 @@ Example: `TopList` [before](https://github.com/OpenRefine/OpenRefine/blob/3.1/ma
 
 ## Changes for 4.0
 
+Version 4.0 features [better support for large datasets and long-running operations](https://github.com/OpenRefine/OpenRefine/wiki/Changes-for-4.0).
+
 Most changes for 4.0 happen in the backend. The frontend code remains mostly the same.
 * If your extension only makes frontend changes, you might be able to migrate it without much trouble (perhaps it already works out of the box?). It is worth checking the section on frontend architecture changes and the HTTP API changes if you are making
   calls to the backend yourself.
-* If your extension includes backend functionality, there might be more work involved. Although an incremental migration (starting from your existing code) might be possible, it might be easier to rewrite those features from scratch following our guide for
+* If your extension includes backend functionality, there might be more work involved. Although an incremental migration (starting from your existing code) might be possible, it might be easier to rewrite those features mostly from scratch following our guide for
   extension developers.
 
 ### Migrating from in-memory project data storage to the runner architecture
@@ -204,10 +195,99 @@ Most changes for 4.0 happen in the backend. The frontend code remains mostly the
 
 ### Changes in the HTTP API offered by OpenRefine's backend
 
-#### Pagination changes
-#### Changes in applying operations
-#### get-models command
+#### The `get-rows` command
+
+The `get-rows` command offered by the backend to fetch batches of rows or records has changed. In 3.x, the command expected:
+* `engine`: the configuration of the engine, indicating whether the rows or records mode should be used, as well as the active facets;
+* `limit`: a page size;
+* `start`: the number of filtered rows/records before the page.
+
+Note that the `start` parameter is not always the id of the first row or record to return: if facets are applied, there might be rows/records filtered out before the requested page, in which case the first row id returned will be greater than the `start`
+parameter. For the backend, this is inefficient: this means that all rows before the requested page must be processed to check whether they match the facets or not. This was also the source of UX issues as the scrolling position in the grid could often
+not be preserved after some operation was applied.
+
+In the new architecture, the command now expects:
+* `engine`: the configuration of the engine, as before;
+* `limit`: a page size, as before;
+* exactly one of:
+  * `start`: a lower bound on the first row/record id to return
+  * `end`: an upper bound on the last row/record id to return
+
+If no facets are applied, the combination of `start` and `limit` will give the same results as in the previous version, with the first row id returned being given by the value of the `start` parameter. But when facets are applied, the behaviour differs:
+the backend will start inspecting the row/record at the given `start` offset, and return the first `limit` matching rows/records.
+
+The format of the response has changed too. In 3.x, the contents of reconciliation objects used to be stored separately, in a `pool` object. Those reconciliation objects are now stored directly in the cell objects they belong to, and the reconciliation
+pool was removed.
+
+Corresponding issues: [#3562](https://github.com/OpenRefine/OpenRefine/issues/3562), PR [#5411](https://github.com/OpenRefine/OpenRefine/pull/5411).
+
+#### The `get-models` command
+
+The output of the `get-models` command has been impacted in several ways:
+* The `recordsModel` field was removed
+* Its `hasRecord` field was moved to the `columnModel` field.
+
+The `hasRecords` field has also changed meaning. It used to be set to `true` when the grid contained more rows than records. Both for performance reasons and UX considerations, we have changed this to indicate whether the importer and operations leading to
+the current project state created a record structure by design. This should be a more faithful indication of whether the records mode should be offered to the user in this project state.
+
+Corresponding issues: [#5661](https://github.com/OpenRefine/OpenRefine/issues/5661) and commit [64c552bb1](https://github.com/OpenRefine/OpenRefine/commit/64c552bb1503031fea07e0a299831a0f5b73fee5).
+
+#### Applying operations
+
+In 3.x, each operation that the user can run on a project came with the following Java classes in the backend:
+* an Operation class, which holds the metadata for the operation and is responsible for its JSON serialization (which is exposed in the history tab, among others)
+* a Change class (often reused by different operations), which is responsible for actually applying the operation to the project (carrying out the corresponding transformation)
+* a Command class, which exposes an HTTP API to initiate the operation on a project.
+
+Therefore, each operation came with its own HTTP endpoint to apply it, and the frontend can call that endpoint when the user clicks on some menu item or validates some dialog, for instance.
+
+In 4.x, those dedicated HTTP enpdoints were removed in favour of using the generic `apply-operations` command, which was used by the Undo/Redo tab to let the user apply
+a sequence of operations defined by a JSON array.
+
+In the frontend, a new utility method was introduced: `Refine.postOperation`. This method can be used to apply an operation by supplying the same JSON represetation one would find in the history tab. Under the hood, it calls the `apply-operations` command.
+If an extension used the Javascript functions `Refine.postProcess` or `Refine.postCoreProcess`, we recommend you migrate it to use `Refine.postOperation` instead. Note that the JSON serialization of the operation and the parameters expected by the
+dedicated command in 3.x do not always match perfectly, so it is worth double-checking the syntax when doing the migration. See PR [#5559](https://github.com/OpenRefine/OpenRefine/pull/5559/files#diff-865c93310c384b82a3d586f825aa52005a7a4705320d6a7f96219dc4bc029979) for examples of migrations in the core tool.
+
+Corresponding issues: [#5539](https://github.com/OpenRefine/OpenRefine/issues/5539), PR [#5559](https://github.com/OpenRefine/OpenRefine/pull/5559)
+
+#### Support for sampling in facet evaluation
+
+The `compute-facets` command supports sampling, to evaluate facets only on a subset of rows or records as a way of speeding up the computation.
+This feature can be enabled by adding an `aggregationLimit` field to the engine configuration JSON passed to the backend, as follows:
+
+```json
+{
+  "mode": "record-based",
+  "facets": [
+    {
+      "type": "list",
+      "name": "country",
+      "columnName": "country",
+      "expression": "value",
+      "omitBlank": false,
+      "omitError": false,
+      "selection": [],
+      "selectBlank": false,
+      "selectError": false,
+      "invert": false
+    }
+  ],
+  "aggregationLimit": 10000
+}
+```
+
+This will cap the evaluation of facets to the given limit. The number of rows or records actually processed might vary and is returned in the response, using the following parameters:
+* `agregatedCount`: number of rows or records which were actually processed;
+* `filteredCount`: out of those processed rows or records, how many matched the filters defined by the facets;
+* `limitReached`: true when the aggregation stopped because of the `aggregationLimit` set in the request, false when the entire dataset was processed.
+
 #### Options of the CSV/TSV importer
-#### Removal of the reconciliation pool
- 
+
+The CSV/TSV importer has got a new option: `multiLine`. This boolean option should be set to `true` when each row of the project is known to correspond to a single line in the source file. This implies that cells are known not to contain unescaped newline
+characters.
+
+For backwards compatibility, `multiLine` is considered `false` if it is not present in the importing options. But it is enabled by default by the new UI, since it enables significant performance improvements.
+
+Extensions or third-party tools should consider adding `multiLine: true` to the importing options they pass to OpenRefine when creating a project, since this will make it possible to process significantly larger datasets.
+
 
