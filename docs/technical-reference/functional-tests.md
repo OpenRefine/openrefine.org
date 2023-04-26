@@ -230,7 +230,7 @@ The diff images shows the reference image on the left, the image that was taken 
 In CI/CD, tests are run headless, with the following command-line
 
 ```shell
-./refine ui_test chrome
+./refine e2e_test chrome
 ```
 
 Results are displayed in the standard output
