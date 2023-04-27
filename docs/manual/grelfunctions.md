@@ -601,7 +601,7 @@ Returns the first non-null from a series of objects. For example, `coalesce(valu
 ###### cross(cell, s projectName (optional), s columnName (optional)) {#crosscell-s-projectname-optional-s-columnname-optional}
 Returns an array of zero or more rows in the project projectName for which the cells in their column columnName have the same content as the cell in your chosen column. For example, if two projects contained matching names, and you wanted to pull addresses for people by their names from a project called “People” you would apply the following expression to your column of names: 
 ```
-cell.cross("People","Name").cells["Address"].value[0]
+cell.cross("People","Name")[0].cells["Address"].value
 ```
 
 This would match your current column to the “Name” column in “People” and, using those matches, pull the respective “Address” value into your current project. 
