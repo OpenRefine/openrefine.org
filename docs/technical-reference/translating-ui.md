@@ -41,7 +41,7 @@ In this example, the string for page, the second parameter, `$2`, will have an Â
 
 ## Front-end development {#front-end-development}
 
-The OpenRefine front end has been localized using the [Wikidata jquery.i18n library](https://github.com/OpenRefine/OpenRefine/pull/1285. The localized text is stored in a JSON dictionary on the server and retrieved with a new OpenRefine command.
+The OpenRefine front end has been localized using the [Wikidata jquery.i18n library](https://github.com/wikimedia/jquery.i18n). The localized text is stored in a JSON dictionary on the server and retrieved with a new OpenRefine command.
 
 ### Adding a new string {#adding-a-new-string}
 
