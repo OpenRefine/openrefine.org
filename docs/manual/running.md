@@ -355,6 +355,7 @@ In the bottom left corner of the screen, look for <span class="menuItems">Prefer
 |Values for the choice of the number of rows to display|ui.browsing.pageSize|Array of number (JSON)|[ 5, 10, 25, 50 ]|[ 100, 500, 1000 ]|v3.5|
 |Width of the panel for facets/history|ui.browsing.facetsHistoryPanelWidth|Number (pixel)|300|500|v3.5|
 |Default state of the reconciliation automatch option|ui.reconciliation.automatch|Boolean|true|false|v3.8|
+|Value of clusting choice limit|ui.clustering.choices.limit|Number|5000|8000|v3.8|
 
 To leave the Preferences screen, click on the diamond “OpenRefine” logo.
 
