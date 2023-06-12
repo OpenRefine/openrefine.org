@@ -8,7 +8,7 @@ hide_table_of_contents: false
 
 ## Version 3.7
 
-## New features
+### New features
 * Most text exposed to users in OpenRefine's UI can now be translated. Some strings (generated server-side) were not translatable so far. To help translators catch up on this backlog, do not hesitate to [join us on Weblate](https://hosted.weblate.org/engage/openrefine/). ([#5030](https://github.com/OpenRefine/OpenRefine/pulls/5030))
 * New media files can be uploaded to Wikibase instances such as Wikimedia Commons. The wikitext of existing files can also be edited thanks to the new fields introduced. ([#4682](https://github.com/OpenRefine/OpenRefine/issues/4682))
 * A button "Discover Wikibase instances…" was added on the dialog which lists the registered Wikibase instances ([#5007](https://github.com/OpenRefine/OpenRefine/issues/5007)), whose design was improved ([#5009](https://github.com/OpenRefine/OpenRefine/issues/5009))
@@ -22,12 +22,12 @@ hide_table_of_contents: false
 * The Excel importer will also avoid coercing cell values to OpenRefine datatypes which do not fully fit them, such as representing a date as a date with time ([#5389](https://github.com/OpenRefine/OpenRefine/issues/5389), [#5390](https://github.com/OpenRefine/OpenRefine/issues/5390)).
 
 
-## GREL changes
+### GREL changes
 * Improved error handling in number formatting with the GREL `toString` function ([#816](https://github.com/OpenRefine/OpenRefine/issues/816))
 * The behaviour of the GREL function `wholeText()` has changed slightly in the way it handles newlines, following [an upstream change in the jsoup library](https://jsoup.org/news/release-1.15.1) (jsoup issue [#1636](https://github.com/jhy/jsoup/issues/1636))
 * A new `parent` GREL function, to obtain the parent element of an XML element, was added ([#5176](https://github.com/OpenRefine/OpenRefine/issues/5176))
 
-## Bug fixes
+### Bug fixes
 * The layout of the dialog to select a reconciliation match was improved so that the auto-complete widget does not hide the other options ([#4821](https://github.com/OpenRefine/OpenRefine/issues/4821))
 * Better in-tool documentation around the way the scatterplot facet detects numerical columns ([#4890](https://github.com/OpenRefine/OpenRefine/issues/4890))
 * The detection of URLs in cell values was fixed ([#4546](https://github.com/OpenRefine/OpenRefine/issues/4546))
@@ -65,7 +65,7 @@ hide_table_of_contents: false
 * (From 3.7.1 on) The display of the memory usage during project import was fixed ([#5665](https://github.com/OpenRefine/OpenRefine/issues/5665))
 * (From 3.7.2 on) The localization in German was fixed ([#5750](https://github.com/OpenRefine/OpenRefine/issues/5750))
 
-## For developers
+### For developers
 
 * Some column metadata fields, which had never been exposed in the UI, have been removed ([#5276](https://github.com/OpenRefine/OpenRefine/pulls/5276))
 * A new [extension point to customize cell rendering](https://openrefine.org/docs/technical-reference/writing-extensions#cell-renderers) was introduced ([#5154](https://github.com/OpenRefine/OpenRefine/issues/5154))
