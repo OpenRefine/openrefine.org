@@ -97,12 +97,15 @@ near future.
 
 ### Main values {#main-values}
 
-Statements must have main values: \"novalue\" or \"somevalue\"
-statements are not supported yet. The main value of a statement is a
+The main value of a statement is a
 data value whose type depends on the property used for the statement. If
 the main value cannot be evaluated (for instance because one of the
 cells it depends on is empty), then the entire statement will be
 skipped.
+
+Statements with "no value" or "some value" can be inserted by using the special
+keywords `#NOVALUE#` and `#SOMEVALUE#`, used in place of the value
+(either directly in the schema or via a column). This is supported since OpenRefine 3.7.
 
 See the [data values](#data-values) section for more details
 about how to specify each type of data value and when they are skipped.
