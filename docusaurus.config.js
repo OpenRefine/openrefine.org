@@ -130,6 +130,11 @@ module.exports = {
               label: 'Twitter',
               href: 'https://twitter.com/openrefine',
             },
+            {
+              html: `
+                  <a rel="me" class="footer__link-item" target="_blank" href="https://fosstodon.org/@OpenRefine">Mastodon</a>
+                `
+            },
           ],
         },
       ],
