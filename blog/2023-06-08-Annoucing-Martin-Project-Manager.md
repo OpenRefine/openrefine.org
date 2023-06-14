@@ -1,7 +1,6 @@
 ---
 author: Advisory Committee
 title: "Announcing Martin Magdinier as the New Project Manager of OpenRefine"
-slug: 2023/06/08/Annoucing-Martin-Project-Manager
 ---
 
 OpenRefine's advisory committee is delighted to officially announce Martin Magdinier ([github](https://github.com/magdmartin), [forum](https://forum.openrefine.org/u/Martin/summary)) as the new Project Manager of OpenRefine. 
