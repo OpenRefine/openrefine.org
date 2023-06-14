@@ -9,9 +9,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 This page explains how to install the tools you need to run OpenRefine from source and develop. This consists of: 
 * A Unix/Linux shell environment or the Windows command line, that should be installed on your machine already;
 * [OpenRefine's source code](#get-openrefine-source-code);
-* a [Java Development Kit (JDK)](#set-up-jdk);
+* a [Java Development Kit (JDK)](#set-up-jdk) (version 11 or later);
 * [Apache Maven](#maven);
-* [Node.js and NPM](#nodejs).
+* [Node.js and NPM](#nodejs) (version 16 or later).
 
 ### Get OpenRefine's source code {#get-openrefine-source-code}
 
@@ -20,6 +20,7 @@ With Git installed, use the `git clone` command to download the [project's repo]
 ### Set up JDK {#set-up-jdk}
 
 You must [install JDK](https://adoptium.net/) and set the `JAVA_HOME` environment variable (please ensure it points to the JDK, and not the JRE).
+OpenRefine is known to work with Java 11 to 17.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -146,7 +147,7 @@ Other distributions are likely to offer Maven in their official package reposito
 ### Node.js and npm {#nodejs}
 
 
-The OpenRefine webapp requires [Node.js](https://nodejs.org/en/download/) and npm to install package dependencies.
+The OpenRefine webapp requires [Node.js](https://nodejs.org/en/download/) and npm to install package dependencies. We require Node.js 16 or newer.
 Download and install Node.js  (On Windows, you can alternatively install [nvm](https://github.com/coreybutler/nvm-windows) to easily manage multiple npm versions on your system).  You should then have node and npm intalled. You can check the versions by typing:
 ```
 node -v
