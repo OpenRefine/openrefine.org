@@ -7,7 +7,7 @@
 
 export const releases = [
     {
-        version: "3.7.2",
+        version: "3.7.3",
         stable: true,
         date: '2023-04-05',
         source: 'github',
