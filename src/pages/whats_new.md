@@ -64,6 +64,12 @@ hide_table_of_contents: false
 * (From 3.7-beta3 on) The clustering dialog no longer introduces non-breaking spaces when selecting options with spaces in them ([#5581](https://github.com/OpenRefine/OpenRefine/issues/5581))
 * (From 3.7.1 on) The display of the memory usage during project import was fixed ([#5665](https://github.com/OpenRefine/OpenRefine/issues/5665))
 * (From 3.7.2 on) The localization in German was fixed ([#5750](https://github.com/OpenRefine/OpenRefine/issues/5750))
+* (From 3.7.3 on) Starting openrefine.exe on Windows with Java 17 was fixed ([#5583](https://github.com/OpenRefine/OpenRefine/issues/5583))
+* (From 3.7.3 on) Wikibase edits on deleted items are skipped and do not stall the entire batch ([#5385](https://github.com/OpenRefine/OpenRefine/issues/5385)) 
+* (From 3.7.3 on) The HTML document language is aligned with the language of the interface ([#5925](https://github.com/OpenRefine/OpenRefine/pull/5925))
+* (From 3.7.3 on) The default reconciliation types are displayed with both name and id ([#5907](https://github.com/OpenRefine/OpenRefine/issues/5907))
+* (From 3.7.3 on) The transpose cells across columns was fixed so it treats blank cells as null ([#5229](https://github.com/OpenRefine/OpenRefine/issues/5229))
+
 
 ### For developers
 
