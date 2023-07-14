@@ -6,7 +6,7 @@ title: "Designer seeked for OpenRefine's reproducibility improvements"
 OpenRefine is hiring a designer to help shape our improvements to OpenRefine's operation history and test those changes with user panels.
 <!--truncate-->
 
-[OpenRefine](https://openrefine.org/) is a powerful tool to clean messy data, popular in a diverse range of communities. It has been serving the needs of journalists, librarians, Wikipedians, scientists for more than ten years and is taught in many curricula and workshops around the world. OpenRefine is a fiscally sponsored project of [Code for Science & Society Inc](https://codeforscience.org/), a 501(c)(3) charitable organization in the USA.
+[OpenRefine](https://openrefine.org/) is a power tool for working with messy data, popular in a diverse range of communities. It has been serving the needs of journalists, librarians, Wikipedians, scientists for more than 13 years and is taught in many curricula and workshops around the world. OpenRefine is a fiscally sponsored project of [Code for Science & Society Inc](https://codeforscience.org/), a 501(c)(3) charitable organization in the USA.
 
 We are currently working on improving the reproducibility of OpenRefine workflows as part of [a project funded by the Essential Open Source Software for Science programme](https://chanzuckerberg.com/eoss/proposals/improving-openrefines-reproducibility/).
 This consists in improving the user experience around OpenRefine's operation history, which tracks all transformations applied on the original data. This work aims to address a range of long standing issues, such as:
