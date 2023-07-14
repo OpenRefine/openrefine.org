@@ -13,7 +13,7 @@ This consists in improving the user experience around OpenRefine's operation his
 - limitations of the Undo/Redo functionality, such as the lack of ability to undo an operation in the middle of the history list ([#183](https://github.com/OpenRefine/OpenRefine/issues/183)) or unintentional loss of work after using the undo feature and
   applying a new operation ([#369](https://github.com/OpenRefine/OpenRefine/issues/369), [#3184](https://github.com/OpenRefine/OpenRefine/issues/3184))
 - the difficulty in reusing and sharing OpenRefine workflows, due to the lack of error handling when applying series of operations and the difficulty to adapt a workflow to a new project (for instance, with different column names)
-- the lack of support for running OpenRefine workflows as part of larger pipelines, without using the web UI interactively. This covers for instance the lack of import metadata in the JSON export of the history
+- the lack of support for running OpenRefine workflows as a part of larger pipelines, without using the web UI interactively. This covers, for instance, the lack of import metadata in the JSON export of the history
   ([#460](https://github.com/OpenRefine/OpenRefine/issues/460)).
 
 See the corresponding [GitHub project](https://github.com/orgs/OpenRefine/projects/6) for more issues in the scope of this project.
