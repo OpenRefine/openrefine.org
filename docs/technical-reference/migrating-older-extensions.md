@@ -185,15 +185,146 @@ Most changes for 4.0 happen in the backend. The frontend code remains mostly the
 * If your extension includes backend functionality, there might be more work involved. Although an incremental migration (starting from your existing code) might be possible, it might be easier to rewrite those features mostly from scratch following our guide for
   extension developers.
 
-### Migrating from in-memory project data storage to the runner architecture
-
-### Changes in project serialization format
-
 ### Changes in package names
+
+The first issue you might encounter when trying to migrate an extension to 4.0 is that the package names have changed from `com.google.refine.*` to `org.openrefine.*`.
+You are encouraged to run such a replacement on your extension to update the import statements.
 
 ### Changes in Maven module structure
 
+OpenRefine's code base was also made more modular, to make it easier for extensions to declare finer dependencies on the parts of OpenRefine they actually depend on. Those modules are available on Maven Central in the `org.openrefine` group id.
+* `refine-model` contains the core classes which define the data model of the application (`Project`, `Row`, `Cell`…)
+* `refine-workflow` contains the application logic of the tool: all operations, facets, importers, exporters, clusterers available in the tool without extensions;
+* `refine-testing` contains testing utilities that can be reused by extensions for their own unit tests;
+* `refine-grel` contains the implementation of the so-called General Refine Expression Language, OpenRefine's default expression language;
+* `refine-local-runner` contains the default implementation of the `Runner`/`Grid`/`ChangeData` interfaces, optimized for data cleaning workflows executed on a single machine;
+* `refine-util` contains various utilities.
+
+On top of that, as in 3.x, the `main` Butterfly module exposes the application functionality via an HTTP API, and the `server` module runs the actual Butterfly server, offering access to the `main` module and all installed extensions.
+
+### Migrating from in-memory project data storage to the runner architecture
+
+Before 4.0, the project data could be accessed simply via mutable fields of the `Project` class. For instance `project.rows` was simply a `List<Row>` which could be modified freely.
+
+Since 4.0, project data is encapsulated in the `Grid` interface, which represents the state of the project at a given point in a project's history. The `Grid` interface encompasses the following fields:
+* the column model (list of columns and their metadata);
+* the cells, grouped into rows or records depending on the needs;
+* the overlay models, generally defined by extensions, which make it possible to store additional information in the project and benefit from the versioning mechanism.
+
+#### Accessing project data
+
+To access the grid in a project, use `project.getCurrentGrid()`. This gives you access to the underlying data, for instance `[Grid::rowCount](https://javadoc-v4.openrefine.org/org/openrefine/model/grid#rowCount())` or `[Grid::getRow](https://javadoc-v4.openrefine.org/org/openrefine/model/grid#getRow(long))` which retrieves a row by its index.
+Note that it is worth thinking twice about how you access grid data using the methods offered by the `Grid` interface, to make sure it is as efficient as possible. For instance, if you wanted to do something for each row in the project, you could do
+something like this:
+
+```java
+// Warning, do not do this! See efficient version below
+for (long i = 0; i != grid.rowCount(); i++) {
+    Row row = grid.getRow(i);
+    // do something with the row
+}
+```
+Running this code would be rather inefficient with the default implementation of `Grid`, as accessing an individual row might involve opening files and scanning them to find the appropriate row. This typically happens when the project data does not fit in
+memory. Instead, you should rather use the following:
+```java
+try (CloseableIterator<IndexedRow> iterator = grid.iterateRows(RowFilter.ANY_ROW)) {
+   for (Row row : iterator) {
+       // do something with the row
+   }
+}
+```
+This variant has the benefit of doing a single pass on the grid, which is much more efficient.
+The try-with-resources block ensures that any files opened to support the iterator are closed when we leave the loop (be it because the end of the grid was reached,
+or because the iteration was interrupted by a `break`, `return` or `throw` statement).
+
+Check [the documentation of the `Grid` interface](https://javadoc-v4.openrefine.org/org/openrefine/model/grid) to find the method that feels the most fitting for your needs. As a fallback solution, you can always use `Grid::collectRows()` to obtain a standard Java List, but of course this forces the loading of the
+entire project data in memory.
+
+#### Modifying project data
+
+To make changes to the grid, you need to run an operation on the project so that the changes are properly logged in the history. The operation will derive a new grid which will become the
+current one. This is done by implementing an `[Operation](https://javadoc-v4.openrefine.org/org/openrefine/operations/operation)` and running it via `project.getHistory().addEntry(operation)`.
+
+The `Grid` interface provides various methods to derive a new grid with some changes. For instance, to execute the same transformation on all rows, one can use
+the `[Grid::mapRows(RowMapper, ColumnModel)](https://javadoc-v4.openrefine.org/org/openrefine/model/grid#mapRows(org.openrefine.model.RowMapper,org.openrefine.model.ColumnModel))` method.
+Its first agrument supplies a function which is applied on each row, and the second is the new column model of the resulting grid (which might not be the same as in the initial grid, for instance when adding a new column).
+Note that there is no guarantee on the order in which the mapping function will be executed, as the execution might be eager or lazy, sequential or parallel
+depending on the implementations. As such this function should be pure.
+
+Often, you will want to run transformations that are not pure, or which should be executed only once for each row because they are expensive.
+This means that the data produced by the transformation should be persisted, that the progress of computing this data should be reported to the user, and that the user is able to pause and resume this computation.
+All those features are available to you, at the small cost of going through a slightly more complicated API.
+The transformation is implemented in two steps:
+* deriving a `ChangeData` object from the original grid. This `ChangeData` object contains the results of the expensive or stateful computation run on the grid, indexed by the identifiers of the row/record they were generated from.
+  This derivation is obtained by applying a function on each row, via a `RowChangeDataProducer` (or `RecordChangeDataProducer` in records mode).
+* then, this `ChangeData` is joined back with the original grid, to obtain the final grid. This makes use of a `RowChangeDataJoiner` (or similarly, `RecordChangeDataJoiner`) which, given a row from the old grid and the result of
+  the expensive computation on that row, returns the row on the new grid.
+
+In addition, to make it possible to recover from crashes (which can happen during the computation of a `ChangeData` object), the `Grid` interface makes it possible to supply an incomplete `ChangeData` object
+from a previous attempt to compute the operation, such that the new `ChangeData` object can avoid recomputing the rows that were already computed.
+This also requires supplying a serializer object to define how the expensively computed data can be saved on disk.
+
+All in all, the code to implement such an operation will generally look like this:
+```java
+    protected static class MyChangeDataProducer implements RowChangeDataProducer<Long> {
+        // ... implements a function which computes an expensive Long from a Row
+    }
+
+    protected static class MyChangeDataJoiner implements RowChangeDataJoiner<Long> {
+        // ... implements a function which inserts the computed Long value inside a Row, for instance in a new column
+    }
+
+    protected static class MyChangeDataSerializer implements ChangeDataSerializer<Long> {
+        // ... defines how our Long values are represented as strings (which is needed to persist them)
+    }
+    
+    // main method of the operation
+    @Override
+    public ChangeResult apply(Grid projectState, ChangeContext context) throws OperationException {
+
+        ChangeData<Long> changeData = null;
+        try {
+            changeData = context.getChangeData("expensive_longs", new MyChangeDataSerializer(), existingChangeData -> {
+                return projectState.mapRows(engine.combinedRowFilters(), new MyChangeDataProducer(), existingChangeData);
+            });
+        } catch (IOException e) {
+            throw new IOOperationException(e);
+        }
+
+        MyChangeDataJoiner joiner = new MyChangeDataJoiner();
+        Grid joined = projectState.join(changeData, joiner, projectState.getColumnModel());
+
+        return new ChangeResult(joined, GridPreservation.PRESERVES_RECORDS, null);
+    }
+```
+
+Real-world examples can be found in the ExpressionBasedOperation or PerformWikibaseEditsOperation classes.
+
+#### Creating new grids
+
+There are also situations where we need to create a new `Grid` instance without applying a transformation on an existing one.
+This is for example the case in any importer, which needs to create a project from scratch. This can also be helpful for some operations
+which are not able to formulate their changes easily using the transformation methods offered in the `Grid` interface. In this case, they
+can take all the data out of the original grid, run an arbitrary algorithm on this data and create a new grid to store the result (this should
+only be used as a fallback solution, since it generally comes with poor memory management).
+
+Creating grids can be done via [the `Runner` interface](https://javadoc-v4.openrefine.org/org/openrefine/model/runner), which acts as a factory class for grids. It offers multiple options:
+* from a list of rows, which is only viable if the grid is small enough to fit in memory;
+* from an iterable of rows, which makes it possible to avoid loading all rows in memory. As a consequence, the iterable source will generally be iterated on multiple times, on demand, when methods of the resulting grid are called.
+* by loading it from a file on disk, if the grid has been serialized in the expected format;
+* by reading a text file (or collection of text files in the same folder), interpreting each line as a one-cell row. This can be useful as a basis to write importers which use a textual format.
+
 ### Changes in the HTTP API offered by OpenRefine's backend
+
+#### Use of HTTP status codes
+
+In 3.x and before, all commands systematically returned the HTTP 200 status code, regardless of whether they executed successfully or not.
+In 4.0, more meaningful status codes were introduced. We encourage extensions to do the same.
+A catch-all event listener reports any failing command to the user.
+
+It is important to note that error status codes should only be returned in cases where an error signals a problem in OpenRefine or an extension.
+For instance, previewing an expression which contains a syntax error should not return an HTTP status code representing an error, because it is expected that users submit invalid expressions and such errors are displayed in a specific way in the expression
+preview dialog.
 
 #### The `get-rows` command
 
@@ -280,14 +411,5 @@ This will cap the evaluation of facets to the given limit. The number of rows or
 * `agregatedCount`: number of rows or records which were actually processed;
 * `filteredCount`: out of those processed rows or records, how many matched the filters defined by the facets;
 * `limitReached`: true when the aggregation stopped because of the `aggregationLimit` set in the request, false when the entire dataset was processed.
-
-#### Options of the CSV/TSV importer
-
-The CSV/TSV importer has got a new option: `multiLine`. This boolean option should be set to `true` when each row of the project is known to correspond to a single line in the source file. This implies that cells are known not to contain unescaped newline
-characters.
-
-For backwards compatibility, `multiLine` is considered `false` if it is not present in the importing options. But it is enabled by default by the new UI, since it enables significant performance improvements.
-
-Extensions or third-party tools should consider adding `multiLine: true` to the importing options they pass to OpenRefine when creating a project, since this will make it possible to process significantly larger datasets.
 
 
