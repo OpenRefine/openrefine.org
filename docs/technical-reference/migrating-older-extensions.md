@@ -185,10 +185,21 @@ Most changes for 4.0 happen in the backend. The frontend code remains mostly the
 * If your extension includes backend functionality, there might be more work involved. Although an incremental migration (starting from your existing code) might be possible, it might be easier to rewrite those features mostly from scratch following our guide for
   extension developers.
 
-### Changes in package names
+### Changes in package and class names
 
 The first issue you might encounter when trying to migrate an extension to 4.0 is that the package names have changed from `com.google.refine.*` to `org.openrefine.*`.
 You are encouraged to run such a replacement on your extension to update the import statements.
+The following Bash command can be run in a source directory, performing the replacement on all files contained in subdirectories:
+```bash
+find . -type f -exec sed -i 's/com\.google\.refine/org.openrefine/g' {} \;
+```
+Note that this must be done in Java files (both main and test classes), but also in the `controller.js` file where components are registered.
+
+On top of this, the following classes have been renamed:
+* `com.google.refine.model.Column` became `org.openrefine.model.ColumnMetadata`, to make it clear that this class only stores metadata and none of the actual data in the column;
+* `com.google.refine.model.ReconStats` was removed: those statistics used to be part of the column metadata, but they are now computed at the same time as facets. They are now represented by `org.openrefine.browsing.columns.ColumnStats` which stores
+  broader statistics than just reconciliation status.
+* Other reconciliation model classes, such as the `Recon` or `ReconCandidate` classes, were moved from `com.google.refine.model` to `org.openrefine.model.recon`.
 
 ### Changes in Maven module structure
 
@@ -210,6 +221,33 @@ Since 4.0, project data is encapsulated in the `Grid` interface, which represent
 * the column model (list of columns and their metadata);
 * the cells, grouped into rows or records depending on the needs;
 * the overlay models, generally defined by extensions, which make it possible to store additional information in the project and benefit from the versioning mechanism.
+
+#### Immutability of core data model classes
+
+All classes involved in representing the state of the project, such as `Grid`, `Row`, `Cell`, `Recon` and others, are now immutable.
+This was introduced to make sure that any changes made to the project are done by deriving a new grid and adding it to the history,
+ensuring proper versioning. The use of immutable classes is also widely regarded as a good practice which makes it easier to guarantee the correctness of data processing applications, especially in the presence of parallelism (which is used in OpenRefine).
+
+A lot of the code changes involved in migrating an extension will be directly related to this change.
+For instance, while in 3.x you could do something like this:
+```java
+Column column = new Column();
+column.setName("My column");
+column.setReconConfig(config);
+```
+
+In 4.0, the setters have been removed and the corresponding code looks like this:
+```java
+ColumnMetadata column = new ColumnMetadata("My column")
+        .withReconConfig(config);
+```
+
+#### Serializability of classes
+
+Many classes in OpenRefine are now required to be serializable with Java serialization.
+This is done to enable integrations with distributed execution engines such as Apache Spark (see the [refine-spark](https://github.com/OpenRefine/refine-spark) extension).
+This should generally not cause much trouble during migration, beyond your IDE prompting you to add `serialVersionUID` fields in those classes.
+
 
 #### Accessing project data
 
@@ -233,7 +271,7 @@ try (CloseableIterator<IndexedRow> iterator = grid.iterateRows(RowFilter.ANY_ROW
    }
 }
 ```
-This variant has the benefit of doing a single pass on the grid, which is much more efficient.
+This variant has the benefit of doing a single pass on the grid, opening any required file only once, which is much more efficient.
 The try-with-resources block ensures that any files opened to support the iterator are closed when we leave the loop (be it because the end of the grid was reached,
 or because the iteration was interrupted by a `break`, `return` or `throw` statement).
 
@@ -411,5 +449,51 @@ This will cap the evaluation of facets to the given limit. The number of rows or
 * `agregatedCount`: number of rows or records which were actually processed;
 * `filteredCount`: out of those processed rows or records, how many matched the filters defined by the facets;
 * `limitReached`: true when the aggregation stopped because of the `aggregationLimit` set in the request, false when the entire dataset was processed.
+
+### Changes in GREL
+
+In 4.0, two separate classes of GREL functions were introduced:
+* the pure functions, which only perform a (generally lightweight) computation on their arguments, without interacting with any external system (disk, network, other OpenRefine components). Those functions extend the `PureFunction` abstract class. This is
+  for instance the case of the `trim()` or `parseJson()` functions.
+* the other functions, which are allowed to perform side-effects or access contextual data beyond their own arguments. This is the case of the `facetCount()` function (since it is able to access project data which is not supplied to it as an argument) or
+  the `cross()` function (which is even able to access other projects).
+
+If your extension defines custom GREL functions, they implement the `Function` interface in OpenRefine 3.x. For each of those functions, it is worth checking whether they are pure. If that is the case, change them to implement the `PureFunction` interface
+instead. This will make it possible to evaluate them on the fly (lazily). Otherwise, any expression that relies on such an unpure function will be treated as expensive to compute, meaning that deriving a new column based on such an expression will be
+treated as a long-running operation, which stores its results on disk.
+
+### Changes in importers
+
+The structure of the importers has changed, mostly due to the migration to immutable data structures.
+In OpenRefine 3.x, importers were passed an empty project that they had to fill with data - hence relying crucially on the mutability of the `Project` class.
+
+This can be seen in the signature of the `ImportingParser::parse` method:
+```java
+public void parse(
+        Project project,
+        ProjectMetadata metadata,
+        ImportingJob job,
+        List<ObjectNode> fileRecords,
+        String format,
+        int limit,
+        ObjectNode options,
+        List<Exception> exceptions);
+```
+
+Instead, in 4.0, importers do not interact with `Project` instances at all. Their task is simply to return a `Grid`
+given the importing parameters they have been passed. To be able to do so, they are also passed a `Runner` instance,
+since this factory object is required to create grids.
+
+```java
+public Grid parse(
+        Runner runner,
+        ProjectMetadata metadata,
+        ImportingJob job,
+        List<ImportingFileRecord> fileRecords,
+        String format,
+        long limit,
+        ObjectNode options) throws Exception;
+```
+Also note the migration to throwing exceptions when encountering errors instead of storing those in a List.
 
 
