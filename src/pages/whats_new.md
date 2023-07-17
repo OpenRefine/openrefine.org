@@ -8,6 +8,10 @@ hide_table_of_contents: false
 
 ## Version 3.7
 
+## Vulnerabilities
+
+* (from 3.7.4 on) A moderate vulnerability in project import was fixed. Importing a maliciously crafted project could execute arbitrary code on the machine running OpenRefine. A CVE identifier for the vulnerability has been requested. The vulnerability was reported by Stefan Schiller from SonarSource.
+
 ### New features
 * Most text exposed to users in OpenRefine's UI can now be translated. Some strings (generated server-side) were not translatable so far. To help translators catch up on this backlog, do not hesitate to [join us on Weblate](https://hosted.weblate.org/engage/openrefine/). ([#5030](https://github.com/OpenRefine/OpenRefine/pull/5030))
 * New media files can be uploaded to Wikibase instances such as Wikimedia Commons. The wikitext of existing files can also be edited thanks to the new fields introduced. ([#4682](https://github.com/OpenRefine/OpenRefine/issues/4682))
