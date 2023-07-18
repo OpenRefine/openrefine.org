@@ -1,6 +1,6 @@
 ---
 author: Antonin Delpeuch
-title: "Designer seeked for OpenRefine's reproducibility improvements"
+title: "We are hiring a designer!"
 ---
 
 OpenRefine is hiring a designer to help shape our improvements to OpenRefine's operation history and test those changes with user panels.
@@ -8,7 +8,7 @@ OpenRefine is hiring a designer to help shape our improvements to OpenRefine's o
 
 [OpenRefine](https://openrefine.org/) is a power tool for working with messy data, popular in a diverse range of communities. It has been serving the needs of journalists, librarians, Wikipedians, scientists for more than 13 years and is taught in many curricula and workshops around the world. OpenRefine is a fiscally sponsored project of [Code for Science & Society Inc](https://codeforscience.org/), a 501(c)(3) charitable organization in the USA.
 
-We are currently working on improving the reproducibility of OpenRefine workflows as part of [a project funded by the Essential Open Source Software for Science programme](https://chanzuckerberg.com/eoss/proposals/improving-openrefines-reproducibility/).
+OpenRefine has long had a rudimentary system JSON scripts which can be used to re-execute series of operations on a project. As part of [a project funded by the Essential Open Source Software for Science programme](https://chanzuckerberg.com/eoss/proposals/improving-openrefines-reproducibility/), we are working on replacing this by a proper notion of OpenRefine workflows, with a better usability and appropriate reproducibility guarantees.
 This consists of improving the user experience around OpenRefine's operation history, which tracks all transformations applied on the original data. This work aims to address a range of long standing issues, such as:
 - limitations of the Undo/Redo functionality, such as the lack of ability to undo an operation in the middle of the history list ([#183](https://github.com/OpenRefine/OpenRefine/issues/183)) or unintentional loss of work after using the undo feature and
   applying a new operation ([#369](https://github.com/OpenRefine/OpenRefine/issues/369), [#3184](https://github.com/OpenRefine/OpenRefine/issues/3184))
@@ -27,13 +27,14 @@ Requirements:
 * Experience with designing and testing software
 * Ability to work in a fully remote environment
 * Good communication skills and fluency in English
+* Familiarity with OpenRefine or other data cleaning systems
 
 Nice to have:
-* Familiarity with OpenRefine
 * Experience with open source development practices and tools (such as the use of GitHub Issues)
+* Ability to travel to occasional events related to OpenRefine, to present this work and engage with the broader community
 
 **TODO compensation details**
-This role is available immediately and is initially expected to span the remaining duration of this project around reproducibility (1.5 year). We hope to be able to extend this role to work on other areas of the tool as other opportunities arise.
+This role is available immediately for an initial contract duration of 6 months, which can be extended. Beyond the remaining duration of this project around reproducibility (1.5 year), we hope to be able to extend this role to work on other areas of the tool as other opportunities arise.
 
 We invite applicants to send their CV and a short motivation statement at **TODO application email address**. Applications will be reviewed on a rolling basis starting on July 30th until the position is filled.
 
