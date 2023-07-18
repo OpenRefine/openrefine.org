@@ -1,6 +1,6 @@
 ---
 author: Antonin Delpeuch
-title: "We are hiring a designer!"
+title: "We're hiring a designer!"
 ---
 
 OpenRefine is hiring a designer to help shape our improvements to OpenRefine's operation history and test those changes with user panels.
@@ -8,7 +8,7 @@ OpenRefine is hiring a designer to help shape our improvements to OpenRefine's o
 
 [OpenRefine](https://openrefine.org/) is a power tool for working with messy data, popular in a diverse range of communities. It has been serving the needs of journalists, librarians, Wikipedians, scientists for more than 13 years and is taught in many curricula and workshops around the world. OpenRefine is a fiscally sponsored project of [Code for Science & Society Inc](https://codeforscience.org/), a 501(c)(3) charitable organization in the USA.
 
-OpenRefine has long had a rudimentary system JSON scripts which can be used to re-execute series of operations on a project. As part of [a project funded by the Essential Open Source Software for Science programme](https://chanzuckerberg.com/eoss/proposals/improving-openrefines-reproducibility/), we are working on replacing this by a proper notion of OpenRefine workflows, with a better usability and appropriate reproducibility guarantees.
+OpenRefine has long had a rudimentary system JSON scripts which can be used to re-execute series of operations on a project. As part of [a project funded by the Essential Open Source Software for Science programme](https://chanzuckerberg.com/eoss/proposals/improving-openrefines-reproducibility/), we are working on replacing this by a proper notion of OpenRefine *workflows* (or *macros*, *recipes*…), with a better usability and appropriate reproducibility guarantees.
 This consists of improving the user experience around OpenRefine's operation history, which tracks all transformations applied on the original data. This work aims to address a range of long standing issues, such as:
 - limitations of the Undo/Redo functionality, such as the lack of ability to undo an operation in the middle of the history list ([#183](https://github.com/OpenRefine/OpenRefine/issues/183)) or unintentional loss of work after using the undo feature and
   applying a new operation ([#369](https://github.com/OpenRefine/OpenRefine/issues/369), [#3184](https://github.com/OpenRefine/OpenRefine/issues/3184))
@@ -20,6 +20,7 @@ See the corresponding [GitHub project](https://github.com/orgs/OpenRefine/projec
 
 We are looking for a part-time designer who will
 * design changes to the user interface to support those improvements;
+* design the representation of series of operations forming workflows, to make those easier to manipulate by users;
 * validate those choices by conducting user testing sessions;
 * help prioritize follow-up improvements based on user feedback.
 
