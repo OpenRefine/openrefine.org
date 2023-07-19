@@ -25,7 +25,7 @@ We are looking for a part-time designer who will
 * help prioritize follow-up improvements based on user feedback.
 
 Requirements: 
-* Experience with designing and testing software
+* Experience with design and usability testing of user application software
 * Ability to work in a fully remote environment
 * Good communication skills and fluency in English
 * Familiarity with OpenRefine or other data cleaning systems
