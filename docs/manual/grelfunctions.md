@@ -453,7 +453,7 @@ Returns the inputted object converted to a date object. Without arguments, it re
 *   monthFirst: set false if the date is formatted with the day before the month.
 *   formatN: attempt to parse the date using an ordered list of possible formats. Supply formats based on the [SimpleDateFormat](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html) syntax (and see the table below for a handy reference). 
 
-For example, you can parse a column containing dates in different formats, such as cells with “Nov-09” and “11/09”, using `value.toDate('MM/yy','MMM-yy').toString('yyyy-MM')` and both will output “2009-11”. For another example, “1/4/2012 13:30:00” can be parsed into a date using `value.toDate('d/M/y H&#58;m&#58;s')`.
+For example, you can parse a column containing dates in different formats, such as cells with “Nov-09” and “11/09”, using `value.toDate('MM/yy','MMM-yy').toString('yyyy-MM')` and both will output “2009-11”. For another example, “1/4/2012 13:30:00” can be parsed into a date using `value.toDate('d/M/y H&#58;m&#58;s')`. If parsing a date with text components in a language other than your system language you can specify a language code as the format1 argument. For example, a French language date such as "10 janvier 2023" could be parsed with `value.toDate('fr','dd MM yyyy')`.
 
 | Letter | Date or Time Component | Presentation | Examples |
 |-|-|-|-|
