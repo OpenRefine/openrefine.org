@@ -119,6 +119,14 @@
      border-color: var(--ifm-color-primary);
   }
 
+  /*
+   * Cards in the documentation
+   */
+
+  .cardList h3.card-title {
+     margin: var(--ifm-heading-margin-top) 0 var(--ifm-heading-margin-bottom) 0;
+  }
+
   /***
    * Home page feature cards
    */
