@@ -60,7 +60,7 @@ export default function Home(): JSX.Element {
   } = useDocusaurusContext();
   const {description} = customFields as {description: string};
   return (
-    <Layout title="OpenRefine" description={description}>
+    <Layout description={description}>
       <main>
         <HeaderSection />
       </main>
