@@ -42,6 +42,7 @@ module.exports = {
             'technical-reference/functional-tests',
             'technical-reference/development-roadmap',
             'technical-reference/translating-ui',
+            'technical-reference/github',
         ]
       },
       {
