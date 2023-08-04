@@ -31,4 +31,4 @@ This position is for you if you:
 
 ## How to respond​
 
-Please nominate yourself or other members of the community by contacting advisory.committee@openrefine.org. The current advisory committee will engage a conversation with the nominees and select one or more new members. New members will be announced on our [blog](https://openrefine.org/blog) and [forum](https://forum.openrefine.org/).
+To respond to this opportunity, send your application (CV and short motivation statement) to advisory.committee@openrefine.org. The current advisory committee will engage in a conversation with the nominees and select one or more new members. New members will be announced on our [blog](https://openrefine.org/blog) and [forum](https://forum.openrefine.org/).
