@@ -4,6 +4,8 @@ title: GREL functions
 sidebar_label: GREL functions
 ---
 
+**Besides the reference guide below, OpenRefine's GitHub wiki has [a page with many examples and recipes of frequently-used GREL functions](https://github.com/OpenRefine/OpenRefine/wiki/Recipes).**
+
 ## Reading this reference {#reading-this-reference}
 
 For the reference below, the function is given in full-length notation and the in-text examples are written in dot notation. Shorthands are used to indicate the kind of [data type](exploring#data-types) used in each function: s for string, b for boolean, n for number, d for date, a for array, p for a regex pattern, and o for object (meaning any data type), as well as “null” and “error” data types. 
