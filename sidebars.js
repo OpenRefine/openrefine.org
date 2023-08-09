@@ -38,10 +38,13 @@ module.exports = {
         label: 'Contributing to OpenRefine',
         items: [
             'technical-reference/contributing',
+            'technical-reference/code-contributions',
+            'technical-reference/documentation-contributions',
+            'technical-reference/design-contributions',
+            'technical-reference/translating-ui',
             'technical-reference/build-test-run',
             'technical-reference/functional-tests',
             'technical-reference/development-roadmap',
-            'technical-reference/translating-ui',
             'technical-reference/github',
         ]
       },
