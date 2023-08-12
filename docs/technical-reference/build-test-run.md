@@ -290,3 +290,9 @@ In the module settings, add the source folder and test source folders of that mo
 ![Screenshot of module settings in IntelliJ](/img/intellij-module-settings.png)
 
 Then, do the same thing for the main OpenRefine project and now you are good to go.
+
+## Code style in Eclipse
+
+You can set up IntelliJ to follow the style conventions we use in OpenRefine, as [IntelliJ is able to import Eclipse style files](https://www.jetbrains.com/help/idea/configuring-code-style.html#import-export-schemes).
+The style file is located at `IDEs/eclipse/Refine.style.xml` in the repository. Note that this won't configure import ordering since this isn't included in the Eclipse code style export.
+To automatically format the code from the command-line, you can also use `mvn formatter:format`.
