@@ -1,5 +1,5 @@
 ---
-author: Antonin Delpeuch
+author: OpenRefine team
 title: "We're hiring a designer!"
 ---
 OpenRefine, a powerful data-wrangling tool used by diverse communities, seeks a lead designer to enhance OpenRefine's user experience and functionality. 
