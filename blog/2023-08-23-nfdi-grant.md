@@ -2,7 +2,7 @@
 author: Martin Magdinier
 title: "NFDI funds reconciliation improvements"
 ---
-[NFDI4Culture](https://nfdi4culture.de/) has awarded OpenRefine a EUR 10,000 grant to enhance its reconciliation feature. This grant builds upon the progress made in 2022 with Wikibase and Wikimedia Commons integration and paves the way for more user-friendly reconciliation services, connecting with the [50+ existing reconciliation services](https://reconciliation-api.github.io/testbench/#/).
+[NFDI4Culture](https://nfdi4culture.de/) has awarded OpenRefine a EUR 10,000 grant to enhance its reconciliation feature.  This grant is a continuation of the progress made in 2022 with Wikibase and Wikimedia Commons integration, the work of our [Outreachy intern Ayushi](https://openrefine.org/blog/2023/05/05/outreachy-interns) over the past three months, as well as the improvements to the reconciliation protocol made by the [W3C Entity Reconciliation Community Group](https://www.w3.org/community/reconciliation/).
 
 <!--truncate-->
 **Planned Working Packages.**
