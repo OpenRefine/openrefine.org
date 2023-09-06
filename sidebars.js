@@ -33,20 +33,7 @@ module.exports = {
    'GREL Reference': [
 	   'manual/grelfunctions'],
     'Technical Reference': [
-      {
-        type: 'category',
-        label: 'Contributing to OpenRefine',
-        items: [
-            'technical-reference/contributing',
-            'technical-reference/code-contributions',
-            'technical-reference/documentation-contributions',
-            'technical-reference/design-contributions',
-            'technical-reference/translating-ui',
-            'technical-reference/build-test-run',
-            'technical-reference/functional-tests',
-            'technical-reference/development-roadmap',
-        ]
-      },
+      
       {
         type: 'category',
         label: 'Architecture',
@@ -76,6 +63,37 @@ module.exports = {
          'technical-reference/homebrew-cask-process'
         ]
       }      
-  ]
+  ],
+  'Contributing to OpenRefine': [
+    {
+    type: 'category',
+    label: 'Contributing as a developer',
+    items: [
+        'technical-reference/contributing',
+        'technical-reference/code-contributions',
+        'technical-reference/documentation-contributions',
+        'technical-reference/translating-ui',
+        'technical-reference/build-test-run',
+        'technical-reference/functional-tests',
+        'technical-reference/development-roadmap',
+    ]
+    },
+    {
+      type: 'category',
+      label: 'Contributing as a designer',
+      items: [
+          'technical-reference/introduction',
+          'technical-reference/why-get-involved',
+          'technical-reference/get-involved',
+          'technical-reference/openrefine-design-system',
+          'technical-reference/design-contributions-workflows',
+          'technical-reference/creating-github-issues',
+          'technical-reference/brainstorming-and-ideation',
+          'technical-reference/providing-design-assets-and-design-implementation',
+          'technical-reference/feedback-and-prioritization',
+          'technical-reference/resources',
+      ]
+      }
+  ],
   },
 };
