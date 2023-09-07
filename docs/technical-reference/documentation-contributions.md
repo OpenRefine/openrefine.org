@@ -4,34 +4,43 @@ title: Documentation contributions
 sidebar_label: Documentation contributions
 ---
 
-We use [Docusaurus](https://docusaurus.io/) for our docs. The repository for those docs is [OpenRefine/openrefine.org](https://github.com/OpenRefine/openrefine.org). For small documentation changes, you should be able to edit the Markdown files directly and submit them as a pull request. Each documentation page has a link at the bottom to help you do this in a few clicks. Once you submit your pull request, a preview of the docs will be generated automatically. 
+We welcome contributions to our documentation, which is maintained as a set of [Markdown](https://www.markdownguide.org/) files in the [OpenRefine/openrefine.org](https://github.com/OpenRefine/openrefine.org) Git repository.
 
-But it is also possible to preview your changes locally.
-We used Yarn to install Docusaurus, see `docs/yarn.lock`; 
-or see [Docusaurus installation](https://docusaurus.io/docs/installation) for how to seed a new docusaurus project.
+For changes made to a single page, you do not need to be familiar with Git. Go to the page you want to change and click "Edit this page" at the bottom of the page. This will lead you to GitHub, where you will need to have an account. You will be then guided through the process of proposing those changes (which will create a "Pull Request" in GitHub's terms).
 
-You need to have [Node.js](https://nodejs.org/en/download/) installed, which includes npm.
-You also need to install [Yarn](https://yarnpkg.com/getting-started/install) before you can build the site:
+Once your pull request is open, your changes will be checked automatically for common issues, and if all goes well a preview of the website with your changes will be generated.
+We will then review your changes and integrate them to the website.
+
+## Previewing documentation changes locally
+
+For more complex changes, it is helpful to check how the website looks after your changes, before you submit them. For this workflow you will need to install:
+* a Git client, such as GitHub Desktop or the `git` command-line tool if you are comfortable working from the terminal;
+* [Node.js](https://nodejs.org/en/download/)
+* [Yarn](https://yarnpkg.com/getting-started/install), which can be installed with
 ```sh
 npm install -g yarn
 ```
+after having installed Node.js.
 
-Once you have installed yarn, navigate to the `docs` directory & set-up the dependencies.
+Once you have installed those tools, clone the [OpenRefine/openrefine.org](https://github.com/OpenRefine/openrefine.org) repository, open a terminal in your clone and run:
 ```sh
-cd docs
 yarn
 ```
+This will install the dependencies required to generate the site, which is mainly [Docusaurus](https://docusaurus.io/).
 
 Once this is done, generate the docs with:
+```sh
+yarn start
+```
+This will spin a local web server to serve the docs for you.
+A browser window will open at http://localhost:3000
+and will auto-refresh when you edit the source files.
+
+You could also generate the website as a set of static files, although this should generally not be needed:
 ```sh
 yarn build
 ```
 
-You can also spin a local web server to serve the docs for you.
-A browser window will open at http://localhost:3000
-and will auto-refresh when you edit the source files:
-```sh
-yarn start
-```
+Once you are happy with your changes, you can submit them as a pull request.
 
 
