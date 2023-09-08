@@ -12,6 +12,17 @@
 const fs = require('fs-extra');
 const path = require('path');
 const releases = require('../../../releases.json');
+const releaseUtils = require('../../releases.js');
+
+function releaseJSON(release) {
+   return {
+      ...release,
+      artifacts: release.artifacts.map(artifact => ({
+         ...artifact,
+         url: releaseUtils.getDownloadLink(release, artifact.platform)
+      }))
+   };
+}
 
 module.exports = function (context) {
   return {
@@ -21,7 +32,10 @@ module.exports = function (context) {
       // Write versions.json file at root of generated website
       const sitemapPath = path.join(outDir, 'versions.json');
       try {
-        await fs.outputFile(sitemapPath, JSON.stringify({releases: releases}));
+        let versionsJSON = {
+          releases: releases.map(releaseJSON)
+        };
+        await fs.outputFile(sitemapPath, JSON.stringify(versionsJSON));
       } catch (err) {
         logger.error('Writing versions.json failed.');
         throw err;

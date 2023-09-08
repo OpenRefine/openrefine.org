@@ -4,10 +4,9 @@
  * sizes: TODO
  */
 
-
-export const releases = require('../releases.json');
+const releases = require('../releases.json');
  
-export const platformDetails = {
+const platformDetails = {
         'win-with-java': {
                 name: 'Windows',
                 fullName: 'Windows (including\u00A0Java)',
@@ -30,16 +29,16 @@ export const platformDetails = {
         }
 };
 
-export const platformOrder = ['win-with-java', 'win', 'mac', 'linux'];
+const platformOrder = ['win-with-java', 'win', 'mac', 'linux'];
 
-export function getArtifact(release, platform) {
+function getArtifact(release, platform) {
     let matching = release.artifacts.filter(a => a.platform === platform);
     if (matching.length === 1) {
       return matching[0];
     }
 }
 
-export function getDownloadLink(release, platform) {
+function getDownloadLink(release, platform) {
     let version = release.version;
     let artifact = getArtifact(release, platform);
     if (artifact === undefined) {
@@ -53,4 +52,10 @@ export function getDownloadLink(release, platform) {
     }
 }
 
-
+module.exports = {
+        releases,
+        platformDetails,
+        platformOrder,
+        getArtifact,
+        getDownloadLink
+};
