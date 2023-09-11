@@ -14,7 +14,7 @@ Within OpenRefine's GitHub, the [OpenRefine Design](https://github.com/orgs/Open
 
 The OpenRefine design team uses  GitHub Projects to effectively manage and track design-related issues across all relevant repositories. GitHub Projects allows us to group issues that have been tagged with a design-related theme and track progress from start to finish.
 
-![This screenshot shows the OpenRefine design project in list view](<../static/img/project-list-view.png>)
+![This screenshot shows the OpenRefine design project in list view](/img/project-list-view.png)
 
 ### Project views:
 
