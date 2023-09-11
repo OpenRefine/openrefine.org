@@ -9,7 +9,7 @@ sidebar_label: Design Contribution Workflows
 The OpenRefine project contains several repositories, but you’re most likely to find design-related issues in the main application repository here: https://github.com/OpenRefine/OpenRefine. Alternatively, further design issues might be linked to the main [OpenRefine website repository](https://github.com/OpenRefine/openrefine.org), or some additional extensions. 
 
 Within OpenRefine's GitHub, the [OpenRefine Design](https://github.com/orgs/OpenRefine/projects/1) Project is the main entry point for designers to identify and select suitable issues to work on.
-![This is a screenshot showing the design project in the OpenRefine GitHub repository](<../static/img/openrefine-design-project.png>)
+![This is a screenshot showing the design project in the OpenRefine GitHub repository](/img/openrefine-design-project.png)
 
 
 The OpenRefine design team uses  GitHub Projects to effectively manage and track design-related issues across all relevant repositories. GitHub Projects allows us to group issues that have been tagged with a design-related theme and track progress from start to finish.
