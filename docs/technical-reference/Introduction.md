@@ -4,7 +4,7 @@ title: Introduction
 sidebar_label: Introduction
 ---
 
-### Welcome to the OpenRefine Design Collaboration Documentation!
+### Welcome to the OpenRefine Design Contribution Documentation!
 
 This documentation provides a comprehensive guide to contributing and collaborating on design for OpenRefine. It covers everything from joining the community to creating and implementing design changes.
 
