@@ -4,7 +4,7 @@ title: Why Get Involved
 sidebar_label: Why Get Involved
 ---
 
-OpenRefine is a powerful open-source tool for cleaning, transforming, and enriching data. Originally developed by Google, it was released open source in 20xx and is now maintained by a diverse international community. Users like journalists, librarians and researchers value it for its powerful capabilities to work with messy data.
+OpenRefine is a powerful open-source tool for cleaning, transforming, and enriching data. Originally developed by Google, it was released open source in 2013 and is now maintained by a diverse international community. Users like journalists, librarians and researchers value it for its powerful capabilities to work with messy data.
 
 Design plays an important role in OpenRefine’s popularity as its web-based interface is the main point of interaction between users and their data. They load datasets into the tool, where they can explore the data, identify issues, and apply transformations. Key OpenRefine features:
 

@@ -8,6 +8,8 @@ When engaging in design discussions and reviews, share your work within GitHub i
 
 Collaborate with maintainers and contributors to prioritize the order of addressing and implementing design tasks, considering the community's size and potential competing responsibilities. Be aware that feedback from project maintainers and experienced contributors might take time due to the community's small scale and other ongoing tasks.
 
+For the same reason, implementation might also take time. The asynchronous feedback and implementation process does not remove any value from the design suggestion as it helps elicit future functionalities or improvements.
+
 ## Community Engagement
 
 ### Active Participation in Forum
