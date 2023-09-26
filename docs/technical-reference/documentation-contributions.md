@@ -24,7 +24,10 @@ npm install -g yarn
 ```
 after having installed Node.js.
 
-Once you have installed those tools, clone the [OpenRefine/openrefine.org](https://github.com/OpenRefine/openrefine.org) repository, open a terminal in your clone and run:
+Once you have installed those tools, create a private fork of the [OpenRefine/openrefine.org](https://github.com/OpenRefine/openrefine.org) repository and clone your fork, then change to the clone:
+
+git clone git@github.com:<myaccount>/openrefine.org.git
+cd openrefine.org
 ```sh
 yarn
 ```
