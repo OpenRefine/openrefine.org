@@ -24,11 +24,11 @@ npm install -g yarn
 ```
 after having installed Node.js.
 
-Once you have installed those tools, create a private fork of the [OpenRefine/openrefine.org](https://github.com/OpenRefine/openrefine.org) repository and clone your fork, then change to the clone:
+Once you have installed those tools, create a personal fork of the [OpenRefine/openrefine.org](https://github.com/OpenRefine/openrefine.org) repository and clone your fork, then change to the clone:
 
+```sh
 git clone git@github.com:<myaccount>/openrefine.org.git
 cd openrefine.org
-```sh
 yarn
 ```
 This will install the dependencies required to generate the site, which is mainly [Docusaurus](https://docusaurus.io/).
@@ -46,4 +46,4 @@ You could also generate the website as a set of static files, although this shou
 yarn build
 ```
 
-Once you are happy with your changes, you can submit them as a pull request.
+Once you are happy with your changes, you can [submit them as a pull request](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/).
