@@ -80,6 +80,13 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Why get involved',
+      items: [
+        'technical-reference/why-get-involved',
+      ]
+      },
+    {
+      type: 'category',
       label: 'Contributing as a designer',
       items: [
           'technical-reference/introduction',
