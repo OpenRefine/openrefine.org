@@ -1,0 +1,75 @@
+[
+    {
+        "version": "3.7.5",
+        "stable": true,
+        "date": "2023-09-11",
+        "source": "github",
+        "artifacts": [
+             {
+                "platform": "win-with-java",
+                "format": "zip"
+             },
+             {
+                "platform": "win",
+                "format": "zip"
+             },
+             {
+                "platform": "mac",
+                "format": "dmg"
+             },
+             {
+                "platform": "linux",
+                "format": "tar.gz"
+             }
+        ]
+    },
+    {
+        "version": "3.6.2",
+        "stable": true,
+        "date": "2022-10-03",
+        "source": "sonatype",
+        "artifacts": [
+             {
+                "platform": "win-with-java",
+                "format": "zip"
+             },
+             {
+                "platform": "win",
+                "format": "zip"
+             },
+             {
+                "platform": "mac",
+                "format": "dmg"
+             },
+             {
+                "platform": "linux",
+                "format": "tar.gz"
+             }
+        ]
+    },
+    {
+        "version": "3.5.2",
+        "stable": true,
+        "date": "2022-01-26",
+        "source": "github",
+        "artifacts": [
+             {
+                "platform": "win-with-java",
+                "format": "zip"
+             },
+             {
+                "platform": "win",
+                "format": "zip"
+             },
+             {
+                "platform": "mac",
+                "format": "dmg"
+             },
+             {
+                "platform": "linux",
+                "format": "tar.gz"
+             }
+        ]
+    }
+]
+

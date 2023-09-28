@@ -142,7 +142,7 @@ module.exports = {
     },
   },
   themes: [],
-  plugins: [],
+  plugins: ['./src/plugins/docusaurus-versionsjson-plugin'],
   presets: [
     [
       '@docusaurus/preset-classic',

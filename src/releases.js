@@ -4,83 +4,9 @@
  * sizes: TODO
  */
 
-
-export const releases = [
-    {
-        version: "3.7.5",
-        stable: true,
-        date: '2023-09-11',
-        source: 'github',
-        artifacts: [
-             {
-                platform: "win-with-java",
-                format: "zip"
-             },
-             {
-                platform: "win",
-                format: "zip"
-             },
-             {
-                platform: "mac",
-                format: "dmg"
-             },
-             {
-                platform: "linux",
-                format: "tar.gz"
-             },
-        ]
-    },
-    {
-        version: "3.6.2",
-        stable: true,
-        date: '2022-10-03',
-        source: 'sonatype',
-        artifacts: [
-             {
-                platform: "win-with-java",
-                format: "zip"
-             },
-             {
-                platform: "win",
-                format: "zip"
-             },
-             {
-                platform: "mac",
-                format: "dmg"
-             },
-             {
-                platform: "linux",
-                format: "tar.gz"
-             },
-        ]
-    },
-    {
-        version: "3.5.2",
-        stable: true,
-        date: '2022-01-26',
-        source: 'github',
-        artifacts: [
-             {
-                platform: "win-with-java",
-                format: "zip"
-             },
-             {
-                platform: "win",
-                format: "zip"
-             },
-             {
-                platform: "mac",
-                format: "dmg"
-             },
-             {
-                platform: "linux",
-                format: "tar.gz"
-             },
-        ]
-    }
-];
-
-export const platformDetails = {
+const releases = require('../releases.json');
+ 
+const platformDetails = {
         'win-with-java': {
                 name: 'Windows',
                 fullName: 'Windows (including\u00A0Java)',
@@ -103,16 +29,16 @@ export const platformDetails = {
         }
 };
 
-export const platformOrder = ['win-with-java', 'win', 'mac', 'linux'];
+const platformOrder = ['win-with-java', 'win', 'mac', 'linux'];
 
-export function getArtifact(release, platform) {
+function getArtifact(release, platform) {
     let matching = release.artifacts.filter(a => a.platform === platform);
     if (matching.length === 1) {
       return matching[0];
     }
 }
 
-export function getDownloadLink(release, platform) {
+function getDownloadLink(release, platform) {
     let version = release.version;
     let artifact = getArtifact(release, platform);
     if (artifact === undefined) {
@@ -126,4 +52,10 @@ export function getDownloadLink(release, platform) {
     }
 }
 
-
+module.exports = {
+        releases,
+        platformDetails,
+        platformOrder,
+        getArtifact,
+        getDownloadLink
+};
