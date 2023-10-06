@@ -65,6 +65,14 @@ module.exports = {
       }      
   ],
   'Contributing to OpenRefine': [
+
+    {
+      type: 'category',
+      label: 'Why get involved',
+      items: [
+        'technical-reference/why-get-involved',
+      ]
+      },
     {
     type: 'category',
     label: 'Contributing as a developer',
@@ -78,13 +86,6 @@ module.exports = {
         'technical-reference/development-roadmap',
     ]
     },
-    {
-      type: 'category',
-      label: 'Why get involved',
-      items: [
-        'technical-reference/why-get-involved',
-      ]
-      },
     {
       type: 'category',
       label: 'Contributing as a designer',
