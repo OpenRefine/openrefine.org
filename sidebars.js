@@ -91,7 +91,6 @@ module.exports = {
       label: 'Contributing as a designer',
       items: [
           'technical-reference/introduction',
-          'technical-reference/why-get-involved',
           'technical-reference/get-involved',
           'technical-reference/openRefine-design-system',
           'technical-reference/design-contribution-workflows',
