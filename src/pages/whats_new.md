@@ -75,7 +75,10 @@ hide_table_of_contents: false
 * (From 3.7.3 on) The HTML document language is aligned with the language of the interface ([#5925](https://github.com/OpenRefine/OpenRefine/pull/5925))
 * (From 3.7.3 on) The default reconciliation types are displayed with both name and id ([#5907](https://github.com/OpenRefine/OpenRefine/issues/5907))
 * (From 3.7.3 on) The transpose cells across columns was fixed so it treats blank cells as null ([#5229](https://github.com/OpenRefine/OpenRefine/issues/5229))
-
+* (From 3.7.6 on) A missing space was added in the layout of the text facet ([#6071](https://github.com/OpenRefine/OpenRefine/issues/6071))
+* (From 3.7.6 on) Browser launching on startup was fixed for Snap-packaged OpenRefine ([#6065](https://github.com/OpenRefine/OpenRefine/pull/6065))
+* (From 3.7.6 on) The selection of Wikibase statement merging strategies was fixed ([#6066](https://github.com/OpenRefine/OpenRefine/pull/6066))
+* (From 3.7.6 on) A resizing issue in the presence of the Wikibase extension and facets was fixed ([#6070](https://github.com/OpenRefine/OpenRefine/issues/6070))
 
 ### For developers
 

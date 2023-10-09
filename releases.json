@@ -1,8 +1,8 @@
 [
     {
-        "version": "3.7.5",
+        "version": "3.7.6",
         "stable": true,
-        "date": "2023-09-11",
+        "date": "2023-10-09",
         "source": "github",
         "artifacts": [
              {
