@@ -27,7 +27,7 @@ mvn versions:set -DnewVersion=4.3-SNAPSHOT
 Apple code signing
 ==================
 
-We have code signing certificates for our iOS distributions. Those are available in our build environment and you should not need to import them to your own machine to make a release (since you are not building the release yourself). But if the signing process, it can be useful to import the certificates on your own machine to debug the process. To do so:
+We have code signing certificates for our iOS distributions. Those are available in our build environment and you should not need to import them to your own machine to make a release (since you are not building the release yourself). But if the signing process fails, it can be useful to import the certificates on your own machine to debug the process. To do so:
 * Request advisory.committee@openrefine.org to be added to the Apple team: you need to provide the email address that corresponds to your AppleID account;
 * Create a certificate signing request from your Mac: https://help.apple.com/developer-account/#/devbfa00fef7
 * Go to https://developer.apple.com/account/resources/certificates/add and select "Apple Distribution" as certificate type
