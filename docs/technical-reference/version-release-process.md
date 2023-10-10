@@ -19,10 +19,7 @@ git tag -a -m "Second beta" 2.6-beta.2
 7. [Update the OpenRefine Homebrew cask](https://github.com/OpenRefine/OpenRefine/wiki/Maintaining-OpenRefine's-Homebrew-Cask) or coordinate an update via the [developer forum](https://forum.openrefine.org/c/dev/8)
 8. Announce on the [announcements section of the OpenRefine forum](https://forum.openrefine.org/c/news/13), or even on the [blog](https://openrefine.org/blog) if this is a major release (the blog is imported automatically into the announcements category
     of the forum)
-9. Update the version in master to the next version number with `-SNAPSHOT` (such as `4.3-SNAPSHOT`)
-```shell
-mvn versions:set -DnewVersion=4.3-SNAPSHOT
-```
+9. Update the version in master to the next version number with `-SNAPSHOT` (such as `4.3-SNAPSHOT`), in the same places as in step 2.
 
 Apple code signing
 ==================
