@@ -11,7 +11,7 @@ import Layout from '@theme/Layout';
 import Card from '../card.tsx';
 
 import styles from '../custom.css';
-import {releases, platformDetails, platformOrder, getArtifact, getDownloadLink} from '../releases.js';
+import {releases, platformDetails, platformOrder, getDownloadLink} from '../releases.js';
 
 function PostDownload() {
     let latestRelease = releases[0];

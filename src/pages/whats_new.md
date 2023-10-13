@@ -10,7 +10,9 @@ hide_table_of_contents: false
 
 ## Vulnerabilities
 
-* (from 3.7.4 on) A moderate vulnerability in project import was fixed. Importing a maliciously crafted project could execute arbitrary code on the machine running OpenRefine. A CVE identifier for the vulnerability has been requested. The vulnerability was reported by Stefan Schiller from SonarSource.
+* (from 3.7.5 on) A moderate vulnerabilities in the database extension was fixed. Connecting to a malicious MySQL server could read files or execute arbitrary code on the machine running OpenRefine. The vulnerabilities were assigned CVE-2023-41886 and CVE-2023-41887
+  identifiers respectively, and were reported by @nbxiglk0.
+* (from 3.7.4 on) A moderate vulnerability in project import was fixed. Importing a maliciously crafted project could execute arbitrary code on the machine running OpenRefine. This vulnerability has been assigned the CVE-2023-37476 identifier. It was reported by Stefan Schiller from SonarSource.
 
 ### New features
 * Most text exposed to users in OpenRefine's UI can now be translated. Some strings (generated server-side) were not translatable so far. To help translators catch up on this backlog, do not hesitate to [join us on Weblate](https://hosted.weblate.org/engage/openrefine/). ([#5030](https://github.com/OpenRefine/OpenRefine/pull/5030))
@@ -73,7 +75,10 @@ hide_table_of_contents: false
 * (From 3.7.3 on) The HTML document language is aligned with the language of the interface ([#5925](https://github.com/OpenRefine/OpenRefine/pull/5925))
 * (From 3.7.3 on) The default reconciliation types are displayed with both name and id ([#5907](https://github.com/OpenRefine/OpenRefine/issues/5907))
 * (From 3.7.3 on) The transpose cells across columns was fixed so it treats blank cells as null ([#5229](https://github.com/OpenRefine/OpenRefine/issues/5229))
-
+* (From 3.7.6 on) A missing space was added in the layout of the text facet ([#6071](https://github.com/OpenRefine/OpenRefine/issues/6071))
+* (From 3.7.6 on) Browser launching on startup was fixed for Snap-packaged OpenRefine ([#6065](https://github.com/OpenRefine/OpenRefine/pull/6065))
+* (From 3.7.6 on) The selection of Wikibase statement merging strategies was fixed ([#6066](https://github.com/OpenRefine/OpenRefine/pull/6066))
+* (From 3.7.6 on) A resizing issue in the presence of the Wikibase extension and facets was fixed ([#6070](https://github.com/OpenRefine/OpenRefine/issues/6070))
 
 ### For developers
 

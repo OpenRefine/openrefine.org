@@ -33,7 +33,6 @@ module.exports = {
    'GREL Reference': [
 	   'manual/grelfunctions'],
     'Technical Reference': [
-      
       {
         type: 'category',
         label: 'Architecture',
