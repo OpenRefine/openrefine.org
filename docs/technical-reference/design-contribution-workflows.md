@@ -1,7 +1,7 @@
 ---
 id: design-contribution-workflows
-title: Design Contribution Workflows
-sidebar_label: Design Contribution Workflows
+title: Design contribution workflows
+sidebar_label: Design contribution workflows
 --- 
 
 ### Identifying design issues

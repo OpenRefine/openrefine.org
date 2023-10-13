@@ -1,10 +1,10 @@
 ---
 id: get-involved
-title: Get Involved
-sidebar_label: Get Involved
+title: Get involved
+sidebar_label: Get involved
 ---
 
-## Join the OpenRefine Community
+## Join the OpenRefine community
 
 Here's how you can take your first steps to become a part of the OpenRefine design team:
 

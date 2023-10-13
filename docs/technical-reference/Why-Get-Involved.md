@@ -1,7 +1,7 @@
 ---
 id: why-get-involved
-title: Why Get Involved
-sidebar_label: Why Get Involved
+title: Why get involved
+sidebar_label: Why get involved
 ---
 
 OpenRefine is a powerful open-source tool for cleaning, transforming, and enriching data. Originally developed by Google, it was released open source in 2013 and is now maintained by a diverse international community. Users like journalists, librarians and researchers value it for its powerful capabilities to work with messy data.
@@ -20,27 +20,26 @@ Design plays an important role in OpenRefine’s popularity as its web-based int
 - Supportive environment for knowledge exchange, troubleshooting, and collaborative problem-solving: this fosters a sense of belonging and encourages continuous learning.
 
 ## Diverse user communities
-  - **Data Analysts and Scientists**
+  - **Data analysts and scientists**
     Data analysts and scientists often use OpenRefine to preprocess and clean datasets before conducting in-depth analyses. They leverage its features to identify anomalies, correct errors, and ensure data consistency, enabling them to generate more accurate insights.
   
-  - **Data Engineers**
+  - **Data engineers**
     Data engineers use OpenRefine to transform and prepare raw data for downstream processes. They perform data normalization, standardization, and enrichment to ensure that data is well-structured and ready for integration into databases or data pipeline
 
   - **Researchers**
     Researchers across various domains use OpenRefine to clean and prepare data for academic studies and research projects. It allows them to focus on the core aspects of their research rather than getting bogged down by data quality issues.
 
-  - **Librarians and Archivists**
+  - **Librarians and archivists**
     OpenRefine is valuable for librarians and archivists who work with large collections of data, such as catalog records or historical documents. It helps them clean, categorize, and enrich metadata, making it easier to organize and retrieve information.
 
-  - **Business Analysts**
+  - **Business analysts**
     Business analysts leverage OpenRefine to process and transform datasets for business intelligence purposes. They ensure data accuracy and consistency, enabling more reliable decision-making within organizations.
 
   - **Journalists**
     Investigative journalists use OpenRefine to clean and analyze datasets relevant to their stories. It helps them uncover patterns, discrepancies, and insights that contribute to impactful news reporting.
 
-  - **Non-technical Professionals**
+  - **Non-technical professionals**
     OpenRefine's user-friendly interface makes it accessible to individuals who may not have strong technical skills. Marketing professionals, for instance, can clean and prepare customer data for targeted campaigns without needing programming expertise.
 
   - **Educators**
     OpenRefine serves as an educational tool for teaching data cleaning, transformation, and data quality concepts. Educators can introduce students to real-world data challenges and provide hands-on experience in managing messy datasets.
-

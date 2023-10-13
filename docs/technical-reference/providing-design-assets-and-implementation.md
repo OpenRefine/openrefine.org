@@ -1,7 +1,7 @@
 ---
 id: providing-design-assets-and-implementation
-title: Providing Design Assets and Implementation
-sidebar_label: Providing Design Assets and Implementation
+title: Providing design assets and implementation
+sidebar_label: Providing design assets and implementation
 ---
 
 ## Providing design assets and design implementation
