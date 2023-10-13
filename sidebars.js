@@ -64,18 +64,8 @@ module.exports = {
       }      
   ],
   'Contributing to OpenRefine': [
-
-    {
-      type: 'link',
-      label: 'Getting-started',
-      href: 'technical-reference/contributing',
-    },
-
-    {
-      type: 'link',
-      label: 'Why get involved',
-      href: 'technical-reference/why-get-involved',
-    },
+    'technical-reference/contributing',
+    'technical-reference/why-get-involved',
 
     {
     type: 'category',
@@ -104,11 +94,7 @@ module.exports = {
       ]
       },
 
-      {
-        type: 'link',
-        label: 'Documentation-contribution',
-        href: 'technical-reference/documentation-contributions',
-      },
+      'technical-reference/documentation-contributions',
   ],
   },
 };
