@@ -35,21 +35,6 @@ module.exports = {
     'Technical Reference': [
       {
         type: 'category',
-        label: 'Contributing to OpenRefine',
-        items: [
-            'technical-reference/contributing',
-            'technical-reference/code-contributions',
-            'technical-reference/documentation-contributions',
-            'technical-reference/design-contributions',
-            'technical-reference/translating-ui',
-            'technical-reference/build-test-run',
-            'technical-reference/functional-tests',
-            'technical-reference/development-roadmap',
-            'technical-reference/github',
-        ]
-      },
-      {
-        type: 'category',
         label: 'Architecture',
         items: [
             'technical-reference/architecture-before-4',
@@ -77,6 +62,44 @@ module.exports = {
          'technical-reference/homebrew-cask-process'
         ]
       }      
-  ]
+  ],
+  'Contributing to OpenRefine': [
+
+    {
+      type: 'category',
+      label: 'Why get involved',
+      items: [
+        'technical-reference/why-get-involved',
+      ]
+      },
+    {
+    type: 'category',
+    label: 'Contributing as a developer',
+    items: [
+        'technical-reference/contributing',
+        'technical-reference/code-contributions',
+        'technical-reference/documentation-contributions',
+        'technical-reference/translating-ui',
+        'technical-reference/build-test-run',
+        'technical-reference/functional-tests',
+        'technical-reference/development-roadmap',
+    ]
+    },
+    {
+      type: 'category',
+      label: 'Contributing as a designer',
+      items: [
+          'technical-reference/introduction',
+          'technical-reference/get-involved',
+          'technical-reference/openRefine-design-system',
+          'technical-reference/design-contribution-workflows',
+          'technical-reference/creating-an-issue',
+          'technical-reference/brainstorming-and-ideation',
+          'technical-reference/providing-design-assets-and-implementation',
+          'technical-reference/feedback-and-prioritization',
+          'technical-reference/resources',
+      ]
+      }
+  ],
   },
 };
