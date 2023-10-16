@@ -1,7 +1,7 @@
 ---
 id: brainstorming-and-ideation
-title: Brainstorming and Ideation
-sidebar_label: Brainstorming And Ideation
+title: Brainstorming and ideation
+sidebar_label: Brainstorming and ideation
 ---
 
 -  **Understanding the issue**: Read the issue description, any accompanying comments, and relevant documentation to gain a clear understanding of the problem at hand.

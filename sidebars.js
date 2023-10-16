@@ -64,21 +64,14 @@ module.exports = {
       }      
   ],
   'Contributing to OpenRefine': [
+    'technical-reference/contributing',
+    'technical-reference/why-get-involved',
 
-    {
-      type: 'category',
-      label: 'Why get involved',
-      items: [
-        'technical-reference/why-get-involved',
-      ]
-      },
     {
     type: 'category',
     label: 'Contributing as a developer',
     items: [
-        'technical-reference/contributing',
         'technical-reference/code-contributions',
-        'technical-reference/documentation-contributions',
         'technical-reference/translating-ui',
         'technical-reference/build-test-run',
         'technical-reference/functional-tests',
@@ -99,7 +92,9 @@ module.exports = {
           'technical-reference/feedback-and-prioritization',
           'technical-reference/resources',
       ]
-      }
+      },
+
+      'technical-reference/documentation-contributions',
   ],
   },
 };

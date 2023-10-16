@@ -13,7 +13,7 @@ There are many ways you can contribute to OpenRefine. Choose which one fits you 
   <Card href="./documentation-contributions" title="Documentation" description="Improve the manual or develop new training material" />
 </div>
 <div className="cardList">
-  <Card href="./design-contributions" title="Design" description="Propose new interfaces and make OpenRefine more usable" />
+  <Card href="./introduction" title="Design" description="Propose new interfaces and make OpenRefine more usable" />
   <Card href="./translating-ui" title="Translations" description="Make OpenRefine available in your language" />
 </div>
 
