@@ -14,27 +14,17 @@ When releasing a new version of Refine, the following steps should be followed:
 git tag -a -m "Second beta" 2.6-beta.2
     git push origin --tags
 ```
-5. Create a GitHub release based on that tag, with a summary of the changes as description of the release. Publishing the GitHub release will trigger the generation of the packaged artifacts. The download links can point directly to Maven Central and can be built as follows (replace `3.6-rc1` by your version string):
-   * Linux: https://oss.sonatype.org/service/local/artifact/maven/content?r=releases&g=org.openrefine&a=openrefine&v=3.6-rc1&c=linux&p=tar.gz
-   * MacOS: https://oss.sonatype.org/service/local/artifact/maven/content?r=releases&g=org.openrefine&a=openrefine&v=3.6-rc1&c=mac&p=dmg
-   * Windows without embedded JRE: https://oss.sonatype.org/service/local/artifact/maven/content?r=releases&g=org.openrefine&a=openrefine&v=3.6-rc1&c=win&p=zip
-   * Windows with embedded JRE: https://oss.sonatype.org/service/local/artifact/maven/content?r=releases&g=org.openrefine&a=openrefine&v=3.6-rc1&c=win-with-java&p=zip
-6. Announce the beta/release candidate for testing
-7. Repeat build/release candidate/testing cycle, if necessary.
-8. [Update the OpenRefine Homebrew cask](https://github.com/OpenRefine/OpenRefine/wiki/Maintaining-OpenRefine's-Homebrew-Cask) or coordinate an update via the [developer forum](https://forum.openrefine.org/c/dev/8)
-9. Verify that the correct versions are shown in the widget at [http://openrefine.org/download](http://openrefine.org/download)
-10. Announce on the [announcements section of the OpenRefine forum](https://forum.openrefine.org/c/news/13), or even on the [blog](https://openrefine.org/blog) if this is a major release (the blog is imported automatically into the announcements category
+5. Create a GitHub release based on that tag, with a summary of the changes as description of the release. Publishing the GitHub release will trigger the generation of the packaged artifacts, which will be added to the release on GitHub.
+6. Once the artifacts are ready, update the [`releases.json`](https://github.com/OpenRefine/openrefine.org/blob/master/releases.json) file in the openrefine.org repository to reflect this new version. Verify that the correct versions are shown at [http://openrefine.org/download](http://openrefine.org/download)
+7. [Update the OpenRefine Homebrew cask](https://github.com/OpenRefine/OpenRefine/wiki/Maintaining-OpenRefine's-Homebrew-Cask) or coordinate an update via the [developer forum](https://forum.openrefine.org/c/dev/8)
+8. Announce on the [announcements section of the OpenRefine forum](https://forum.openrefine.org/c/news/13), or even on the [blog](https://openrefine.org/blog) if this is a major release (the blog is imported automatically into the announcements category
     of the forum)
-11. Update the version in master to the next version number with `-SNAPSHOT` (such as `4.3-SNAPSHOT`)
-```shell
-mvn versions:set -DnewVersion=4.3-SNAPSHOT
-```
-12. If releasing a new major or minor version, create a snapshot of the docs, following [Docusaurus' versioning procedure](https://docusaurus.io/docs/versioning).
+9. Update the version in master to the next version number with `-SNAPSHOT` (such as `4.3-SNAPSHOT`), in the same places as in step 2.
 
 Apple code signing
 ==================
 
-We have code signing certificates for our iOS distributions. To use them, follow these steps:
+We have code signing certificates for our iOS distributions. Those are available in our build environment and you should not need to import them to your own machine to make a release (since you are not building the release yourself). But if the signing process fails, it can be useful to import the certificates on your own machine to debug the process. To do so:
 * Request advisory.committee@openrefine.org to be added to the Apple team: you need to provide the email address that corresponds to your AppleID account;
 * Create a certificate signing request from your Mac: https://help.apple.com/developer-account/#/devbfa00fef7
 * Go to https://developer.apple.com/account/resources/certificates/add and select "Apple Distribution" as certificate type
@@ -43,4 +33,3 @@ We have code signing certificates for our iOS distributions. To use them, follow
 * Import this certificate in the "Keychain Access" app on your mac
 * The signing workflow can be found in `.github/workflows/snapshot_release.yml`
 
-Currently the signing of our releases is disabled because it is blocked by a dependency ([#4568](https://github.com/OpenRefine/OpenRefine/issues/4568))
