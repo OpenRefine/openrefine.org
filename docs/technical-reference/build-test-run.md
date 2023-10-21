@@ -245,6 +245,7 @@ You can apply the supplied Eclipse code style (in `IDEs/eclipse/Refine.style.xml
 You can also configure Eclipse to sort `import` statements according to our conventions, by going to the `Window -> Preferences -> Java Code Style` menu and enabling project-specific import order:
 * `java`
 * `javax`
+* `*`
 * `com.google.refine`
 * `org.openrefine`
 
@@ -312,6 +313,7 @@ The style file is located at `IDEs/eclipse/Refine.style.xml` in the repository. 
 You can also configure the import order for the OpenRefine to follow the following order:
 * `java`
 * `javax`
+* `*`
 * `com.google.refine`
 * `org.openrefine`
 
