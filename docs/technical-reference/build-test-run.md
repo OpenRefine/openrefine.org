@@ -242,9 +242,18 @@ This will add a run configuration that you can then use to run OpenRefine from E
 ### Code style
 
 You can apply the supplied Eclipse code style (in `IDEs/eclipse/Refine.style.xml`) to make sure Eclipse lints your files according to the existing style.
+You can also configure Eclipse to sort `import` statements according to our conventions, by going to the `Window -> Preferences -> Java Code Style` menu and enabling project-specific import order:
+* `java`
+* `javax`
+* `com.google.refine`
+* `org.openrefine`
+
+The dialog should look as follows:
+![Screenshot of the dialog to configure import order in Eclipse](/img/eclipse-import-order.png)
+
 Pull requests deviating from this style will fail in the CI.
 
-You can manually apply the code style (regardless of your IDE) with the `mvn formatter:format` command.
+You can manually apply the code style (regardless of your IDE) with the `mvn formatter:format impsort:sort` command.
 
 ### Testing {#testing-in-eclipse}
 
@@ -294,5 +303,20 @@ Then, do the same thing for the main OpenRefine project and now you are good to 
 ### Code style
 
 You can set up IntelliJ to follow the style conventions we use in OpenRefine, as [IntelliJ is able to import Eclipse style files](https://www.jetbrains.com/help/idea/configuring-code-style.html#import-export-schemes).
+Go to `Settings -> Editor -> Code style -> Java` and import the style configuration file as follows:
+
+![Screenshot of importing an Eclipse style file in IntelliJ](/img/intellij-import-eclipse-style.png)
+
 The style file is located at `IDEs/eclipse/Refine.style.xml` in the repository. Note that this won't configure import ordering since this isn't included in the Eclipse code style export.
-To automatically format the code from the command-line, you can also use `mvn formatter:format`.
+
+You can also configure the import order for the OpenRefine to follow the following order:
+* `java`
+* `javax`
+* `com.google.refine`
+* `org.openrefine`
+
+And disable the use of star imports by setting the thresholds for their activation at 99.
+
+![Screenshot of import order settings in IntelliJ](/img/intellij-import-order.png)
+
+To automatically format the code from the command-line, you can also use `mvn formatter:format impsort:sort`.
