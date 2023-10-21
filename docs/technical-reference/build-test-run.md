@@ -20,7 +20,7 @@ With Git installed, use the `git clone` command to download the [project's repo]
 ### Set up JDK {#set-up-jdk}
 
 You must [install JDK](https://adoptium.net/) and set the `JAVA_HOME` environment variable (please ensure it points to the JDK, and not the JRE).
-OpenRefine is known to work with Java 11 to 17.
+OpenRefine is known to work with Java 11 to 21.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
