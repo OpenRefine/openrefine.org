@@ -63,11 +63,11 @@ and then set the text (or HTML) of your HTML element using i18n helper method. S
 ```
 we could set its text using:
 ```
-$('#new-html-element-id').text($.i18n('section/newkey']));
+$('#new-html-element-id').text($.i18n('section/newkey'));
 ```
 or, if you need to embed HTML tags:
 ```
-$('#new-html-element-id').html($.i18n('section/newkey']);
+$('#new-html-element-id').html($.i18n('section/newkey'));
 ```
 
 ### Adding a new language {#adding-a-new-language}
