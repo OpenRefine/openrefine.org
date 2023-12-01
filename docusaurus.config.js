@@ -106,6 +106,10 @@ module.exports = {
               href: '/external_resources',
             },
             {
+              label: 'Grants & funding',
+              href: '/funding',
+            },            
+            {
               label: 'Privacy notice',
               href: '/privacy',
             },
