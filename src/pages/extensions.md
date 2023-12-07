@@ -55,8 +55,8 @@ OpenRefine can connect to several reconciliation services. You can find informat
 
 You can automate some OpenRefine operations using one of the existing libraries. Those libraries are using the [OpenRefine API](https://github.com/OpenRefine/OpenRefine/wiki/OpenRefine-API).
 
-| Language | Extension Name |
-|----------|----------------|
+| Language | Name | Latest compatible OpenRefine version |
+|----------|------|--------------------------------------|
 | python   | [openrefine-client](https://github.com/felixlohmeier/openrefine-client) | 3.7 |
 | R | [rrefine](https://cran.r-project.org/web/packages/rrefine/index.html) | 3.7 |
 | java | [refine-java](https://github.com/dtap-gmbh/refine-java) | 3.7 |
@@ -67,9 +67,9 @@ You can automate some OpenRefine operations using one of the existing libraries.
 
 OpenRefine 3.3 [introduced CSRF tokens](https://github.com/OpenRefine/OpenRefine/wiki/Changes-for-3.3#csrf-protection-changes). The following client libraries have not yet adapted their API calls.
 
-| Language | Extension Name |
-|----------|----------------|
-| python   | [refine-client-py](https://github.com/PaulMakepeace/refine-client-py/) |
+| Language | Name | Latest compatible OpenRefine version |
+|----------|------|--------------------------------------|
+| python   | [refine-client-py](https://github.com/PaulMakepeace/refine-client-py/) | ?
 | python   | [refine-python](https://github.com/maxogden/refine-python) | 3.2 |
 | ruby     | [refine-ruby](https://github.com/maxogden/refine-ruby) | 3.2 |
 | javascript | [node-openrefine](https://github.com/pm5/node-openrefine) | 3.2 |
