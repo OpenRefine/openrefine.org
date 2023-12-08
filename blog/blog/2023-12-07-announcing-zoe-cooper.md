@@ -13,5 +13,5 @@ As OpenRefine's lead designer, she will initially focus on improving the platfor
 As we embark on this exciting journey with Zoe, we invite the OpenRefine community to welcome our newest team member warmly. We are thrilled to have her on board and look forward to the exciting things she will bring to the OpenRefine team. Stay tuned for updates on our progress, and thank you for your continued support!
 
 Follow her updates here:
-* Twitter: @zoe__cooper
-* Instagram: _zoecooper
+* Twitter: [@zoe__cooper](https://twitter.com/zoe__cooper)
+* Instagram: [_zoecooper](https://www.instagram.com/_zoecooper/)
