@@ -241,8 +241,10 @@ This will add a run configuration that you can then use to run OpenRefine from E
 
 ### Code style
 
-You can apply the supplied Eclipse code style (in `IDEs/eclipse/Refine.style.xml`) to make sure Eclipse lints your files according to the existing style.
-You can also configure Eclipse to sort `import` statements according to our conventions, by going to the `Window -> Preferences -> Java Code Style` menu and enabling project-specific import order:
+You can apply the supplied Eclipse code style (in `IDEs/eclipse/Refine.style.xml`) to make sure Eclipse lints your files according to the existing style. To do so, 
+go to `Window -> Preferences -> Java Code Style -> Formatter` menu and enable a project-specific formatter that you can import from the XML file.
+
+You can also configure Eclipse to sort `import` statements according to our conventions, by going to the `Window -> Preferences -> Java -> Code Style -> Organize imports` menu and enabling project-specific import order:
 * `java`
 * `javax`
 * `*`
@@ -254,7 +256,7 @@ The dialog should look as follows:
 
 Pull requests deviating from this style will fail in the CI.
 
-You can manually apply the code style (regardless of your IDE) with the `mvn formatter:format impsort:sort` command.
+You can manually apply the code style (regardless of your IDE) with the `./refine lint` command (or `refine.bat lint` on Windows).
 
 ### Testing {#testing-in-eclipse}
 
@@ -321,4 +323,4 @@ And disable the use of star imports by setting the thresholds for their activati
 
 ![Screenshot of import order settings in IntelliJ](/img/intellij-import-order.png)
 
-To automatically format the code from the command-line, you can also use `mvn formatter:format impsort:sort`.
+To automatically format the code from the command-line, you can also use `./refine lint` (or `refine.bat lint` on Windows).
