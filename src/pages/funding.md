@@ -36,31 +36,22 @@ OpenRefine is actively applying to grant opportunities listed in this section. W
 If you're interested in partnering with us for a grant, [contact us](https://forum.openrefine.org/). 
 
 #### 2023 EOSS-6
-* **Status**: Application due December 5, 2023
+
+* **Status**: Application submitted. Results expected by end of March 2024. 
 * **Amount**: asking for USD 400,000 (USD 200,000 per year for two years)
 * **Source**: [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
-* **Start date**: looking at January 2025
-* **End date**: looking at December 2026
+* **Start date**: June 2024
+* **End date**: June 2026
 * **Relevant links**: 
   * [Call for proposals](https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/)
-  * [Letter of intent](/uploads/2023-EOSS6.pdf)
+  * [Letter of intent](/uploads/2023-EOSS6-LOI.pdf)
+  * [Grant application](/uploads/2023-EOSS-6-Application.pdf)
   * [Forum thread](https://forum.openrefine.org/t/upcoming-financing-option-for-openrefine/989/13)
 
 ### Current grants
 
 OpenRefine is currently working on the following grants. 
 
-#### 2023 NFDI
-* **CS&S code**: `ORefine: General`
-* **Status**: Awarded - Current
-* **Amount**: EUR 10,000
-* **Source**: [NFDI4Culture](https://nfdi4culture.de/)
-* **Start date**: August 2023
-* **End date**: December 2023
-* **Relevant links**:
-  * [Grant application](/uploads/2023-NFDI.pdf)
-  * [Blog post: NFDI funds reconciliation improvements](/blog/2023/08/23/nfdi-grant)
-  
 #### 2023 Wikimedia Foundation 
 * **CS&S code**: `ORefine: 23 Wikimedia`
 * **Status**: Awarded - Current
@@ -95,11 +86,24 @@ OpenRefine is currently working on the following grants.
 * **End Date**: December 2024 (extended from August 2023)
 * **Relevant link**: 
   * [Grant application](/uploads/2021-EOSS-Diversity.pdf)
+  * [2023 interm report](/uploads/2023-EOSS-Diversity-Interim-Report.pdf)
+  
 
 ### Completed Grants
 
 OpenRefine completed the following grants. 
 
+#### 2023 NFDI
+* **CS&S code**: `ORefine: General`
+* **Status**: Awarded - Current
+* **Amount**: EUR 10,000
+* **Source**: [NFDI4Culture](https://nfdi4culture.de/)
+* **Start date**: August 2023
+* **End date**: December 2023
+* **Relevant links**:
+  * [Grant application](/uploads/2023-NFDI.pdf)
+  * [Blog post: NFDI funds reconciliation improvements](/blog/2023/08/23/nfdi-grant)
+  
 #### 2022 NFDI
 * **CS&S code**: `ORefine: General`
 * **Status**: Awarded - Completed
