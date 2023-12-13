@@ -32,41 +32,10 @@ module.exports = {
     ],
    'GREL Reference': [
 	   'manual/grelfunctions'],
-    'Technical Reference': [
-      {
-        type: 'category',
-        label: 'Architecture',
-        items: [
-            'technical-reference/architecture-before-4',
-            'technical-reference/architecture-4',
-            'technical-reference/clustering-in-depth',
-            'technical-reference/openrefine-api',
-            'technical-reference/reconciliation-api',
-        ]
-      },
-      {
-        type: 'category',
-        label: 'Extensions',
-        items: [
-          'technical-reference/writing-extensions',
-          'technical-reference/migrating-older-extensions',
-          'technical-reference/wikibase/architecture'
-        ]
-      },
-      {
-        type: 'category',
-        label: 'Maintaining OpenRefine',
-        items: [
-         'technical-reference/maintainer-guidelines',
-         'technical-reference/version-release-process',
-         'technical-reference/homebrew-cask-process'
-        ]
-      }      
-  ],
   'Contributing to OpenRefine': [
     'technical-reference/contributing',
     'technical-reference/why-get-involved',
-
+    'technical-reference/github',
     {
     type: 'category',
     label: 'Contributing as a developer',
@@ -75,7 +44,35 @@ module.exports = {
         'technical-reference/translating-ui',
         'technical-reference/build-test-run',
         'technical-reference/functional-tests',
-        'technical-reference/development-roadmap',
+        {
+            type: 'category',
+            label: 'Architecture',
+            items: [
+                'technical-reference/architecture-before-4',
+                'technical-reference/architecture-4',
+                'technical-reference/clustering-in-depth',
+                'technical-reference/openrefine-api',
+                'technical-reference/reconciliation-api',
+            ]
+        },
+        {
+            type: 'category',
+            label: 'Extensions',
+            items: [
+            'technical-reference/writing-extensions',
+            'technical-reference/migrating-older-extensions',
+            'technical-reference/wikibase/architecture'
+            ]
+        },
+        {
+            type: 'category',
+            label: 'Maintaining OpenRefine',
+            items: [
+            'technical-reference/maintainer-guidelines',
+            'technical-reference/version-release-process',
+            'technical-reference/homebrew-cask-process'
+            ]
+        }      
     ]
     },
     {
@@ -95,6 +92,7 @@ module.exports = {
       },
 
       'technical-reference/documentation-contributions',
+      'technical-reference/development-roadmap',
   ],
   },
 };

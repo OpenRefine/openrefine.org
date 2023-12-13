@@ -36,6 +36,7 @@ OpenRefine is actively applying to grant opportunities listed in this section. W
 If you're interested in partnering with us for a grant, [contact us](https://forum.openrefine.org/). 
 
 #### 2023 EOSS-6
+
 * **Status**: Application submitted. Results expected by end of March 2024. 
 * **Amount**: asking for USD 400,000 (USD 200,000 per year for two years)
 * **Source**: [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
@@ -87,6 +88,7 @@ OpenRefine is currently working on the following grants.
   * [Grant application](/uploads/2021-EOSS-Diversity.pdf)
   * [2023 interm report](/uploads/2023-EOSS-Diversity-Interim-Report.pdf)
   
+
 ### Completed Grants
 
 OpenRefine completed the following grants. 

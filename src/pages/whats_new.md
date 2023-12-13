@@ -79,6 +79,9 @@ hide_table_of_contents: false
 * (From 3.7.6 on) Browser launching on startup was fixed for Snap-packaged OpenRefine ([#6065](https://github.com/OpenRefine/OpenRefine/pull/6065))
 * (From 3.7.6 on) The selection of Wikibase statement merging strategies was fixed ([#6066](https://github.com/OpenRefine/OpenRefine/pull/6066))
 * (From 3.7.6 on) A resizing issue in the presence of the Wikibase extension and facets was fixed ([#6070](https://github.com/OpenRefine/OpenRefine/issues/6070))
+* (From 3.7.7 on) A rendering issue in the Wikibase schema editor was fixed ([#6165](https://github.com/OpenRefine/OpenRefine/pull/6165))
+* (From 3.7.7 on) Attempts to fetch invalid URLs in the "Add column by fetching URLs" operation are properly reported to the user ([#6141](https://github.com/OpenRefine/OpenRefine/pull/6141))
+* (From 3.7.7 on) A missing space between the "remove" and "configure" buttons of the "Add column from reconciled values" operation was added ([#6151](https://github.com/OpenRefine/OpenRefine/pull/6151))
 
 ### For developers
 

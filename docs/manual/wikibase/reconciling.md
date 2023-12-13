@@ -40,6 +40,16 @@ If the identifier you submit is assigned to multiple Wikidata items (because Wik
 
 Wikidata's hierarchical property structure can be called by using property paths (using |, /, and . symbols). Labels, aliases, descriptions, and sitelinks can also be accessed. You can also match values against subfields, such as latitude and longitude subfields of a geographical coordinate.
 
+Labels, aliases, descriptions and sitelinks can be accessed as follows (L for label , D for description, A for aliases, S for sitelink):
+
+    Len for Label in English
+    Dfi for Description in Finnish
+    Apt for Alias in Portuguese
+    Sdewiki for Sitelink in German Wikipedia page titles
+    Scommonswiki for Commons sitelink
+
+The lowercase letters are Wikimedia language codes which select which language the terms will be fetched. No language fall-back is performed when retrieving the values.
+
 For information on how to do this, read the [documentation and further resources here](https://wikidata.reconci.link/#documentation).
 
 
