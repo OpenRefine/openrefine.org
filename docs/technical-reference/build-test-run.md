@@ -215,7 +215,7 @@ To build the distributions type
 ```
 where 'version' is the release version.
 
-## Building, Testing and Running OpenRefine from Eclipse {#building-testing-and-running-openrefine-from-eclipse}
+## Developing with Eclipse {#building-testing-and-running-openrefine-from-eclipse}
 OpenRefine' source comes with Maven configuration files which are recognized by [Eclipse](http://www.eclipse.org/) if the Eclipse Maven plugin (m2e) is installed.
 
 At the command line, go to a directory **not** under your Eclipse workspace directory and check out the source:
@@ -239,29 +239,41 @@ Right click on the `server` subproject, click `Run as...` and `Run configuration
 
 This will add a run configuration that you can then use to run OpenRefine from Eclipse.
 
-## Code style in Eclipse
+### Code style
 
-You can apply the supplied Eclipse code style (in `IDEs/eclipse/Refine.style.xml`) to make sure Eclipse lints your files according to the existing style.
+You can apply the supplied Eclipse code style (in `IDEs/eclipse/Refine.style.xml`) to make sure Eclipse lints your files according to the existing style. To do so, 
+go to `Window -> Preferences -> Java Code Style -> Formatter` menu and enable a project-specific formatter that you can import from the XML file.
+
+You can also configure Eclipse to sort `import` statements according to our conventions, by going to the `Window -> Preferences -> Java -> Code Style -> Organize imports` menu and enabling project-specific import order:
+* `java`
+* `javax`
+* `*`
+* `com.google.refine`
+* `org.openrefine`
+
+The dialog should look as follows:
+![Screenshot of the dialog to configure import order in Eclipse](/img/eclipse-import-order.png)
+
 Pull requests deviating from this style will fail in the CI.
 
-You can manually apply the code style (regardless of your IDE) with the `mvn formatter:format` command.
+You can manually apply the code style (regardless of your IDE) with the `./refine lint` command (or `refine.bat lint` on Windows).
 
-## Testing in Eclipse {#testing-in-eclipse}
+### Testing {#testing-in-eclipse}
 
 You can run the server tests directly from Eclipse. To do that you need to have the TestNG launcher plugin installed, as well as the TestNG M2E plugin (for integration with Maven). If you don't have it, you can get it by [installing new software](https://help.eclipse.org/2020-03/index.jsp?topic=/org.eclipse.platform.doc.user/tasks/tasks-129.htm) from this update URL https://testng.org/doc/download.html
 
 Once the TestNG launching plugin is installed in your Eclipse, right click on the source folder "main/tests/server/src", select `Run As` -> `TestNG Test`. This should open a new tab with the TestNG launcher running the OpenRefine tests.
 
-### Test coverage in Eclipse {#test-coverage-in-eclipse}
+### Test coverage {#test-coverage-in-eclipse}
 
 It is possible to analyze test coverage in Eclipse with the `EclEmma Java Code Coverage` plugin. It will add a `Coverage as…` menu similar to the `Run as…` and `Debug as…` menus which will then display the covered and missed lines in the source editor.
 
-### Debug with Eclipse {#debug-with-eclipse}
+### Debugging {#debug-with-eclipse}
 Here's an example of putting configuration in Eclipse for debugging, like putting values for the Google Data extension. Other type of configurations that can be set are memory, Wikidata login information and more. 
 
 ![Screenshot of Eclipse debug configuration](/img/eclipse-debug-config.png)
 
-## Building, Testing and Running OpenRefine from IntelliJ idea {#building-testing-and-running-openrefine-from-intellij-idea}
+## Developing with IntelliJ IDEA {#building-testing-and-running-openrefine-from-intellij-idea}
 
 At the command line, go to a directory you want to save the OpenRefine project and execute the following command to clone the repository:
 
@@ -291,8 +303,24 @@ In the module settings, add the source folder and test source folders of that mo
 
 Then, do the same thing for the main OpenRefine project and now you are good to go.
 
-## Code style in Eclipse
+### Code style
 
 You can set up IntelliJ to follow the style conventions we use in OpenRefine, as [IntelliJ is able to import Eclipse style files](https://www.jetbrains.com/help/idea/configuring-code-style.html#import-export-schemes).
+Go to `Settings -> Editor -> Code style -> Java` and import the style configuration file as follows:
+
+![Screenshot of importing an Eclipse style file in IntelliJ](/img/intellij-import-eclipse-style.png)
+
 The style file is located at `IDEs/eclipse/Refine.style.xml` in the repository. Note that this won't configure import ordering since this isn't included in the Eclipse code style export.
-To automatically format the code from the command-line, you can also use `mvn formatter:format`.
+
+You can also configure the import order for the OpenRefine to follow the following order:
+* `java`
+* `javax`
+* `*`
+* `com.google.refine`
+* `org.openrefine`
+
+And disable the use of star imports by setting the thresholds for their activation at 99.
+
+![Screenshot of import order settings in IntelliJ](/img/intellij-import-order.png)
+
+To automatically format the code from the command-line, you can also use `./refine lint` (or `refine.bat lint` on Windows).

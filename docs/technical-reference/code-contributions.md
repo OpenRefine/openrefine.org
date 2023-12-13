@@ -61,7 +61,7 @@ Once you have made sure your changes work as expected, you are ready to submit t
 
 - Create a git branch for your fix. The name of your branch should contain the issue number, and a few words to describe the topic of the fix, for instance "issue-1234-columnize-layout".
 
-- If you made Java changes, run linting to make sure they conform to our code style, with `mvn formatter:format`.
+- If you made Java changes, run linting to make sure they conform to our code style, with `mvn formatter:format impsort:sort`.
 
 - Commit your changes, using a message that contains one of the special words "closes" and "fixes" which are detected by Github, followed by the issue number, e.g. "closes #1234" or "fixes #1234", this will link the commit to the issue you are working on.
 
