@@ -3,7 +3,7 @@ author: Antonin Delpeuch
 title: Date and venue options for an OpenRefine team meeting in 2024
 ---
 
-For some time, a few team members have been considering organizing a small in-person meeting around OpenRefine.
+For some time, a few team members have been considering organizing an in-person meeting around OpenRefine (for about 20 to 25 people).
 The goal of such a meeting would be to have contributors get to know each other better, share their views and coordinate
 together on a diverse range of topics, such as roadmap, governance, design, documentation and likely many others.
 
