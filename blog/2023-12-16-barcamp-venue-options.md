@@ -14,6 +14,6 @@ If you are interested in shaping the future of OpenRefine and meet likeminded pe
 translator, a trainer, a developer, a designer, an advocate or if you feel involved in the project in
 any other capacity, we want to see you at this event.
 
-We are currently evaluating different dates and venue options. We aim to make remote participation possible and anticipate that
-we should be able to offer travel support for multiple attendees. Please [select the dates that would work best for you in this poll](https://framadate.org/iHVSSxY9VhtxUhrV)
+We are currently evaluating different dates and venue options. We aim to make remote participation possible and we should be able to offer travel support for many attendees.
+Please [select the dates that would work best for you in this poll](https://framadate.org/iHVSSxY9VhtxUhrV)
 and [let us know on the forum](https://forum.openrefine.org/t/organizing-an-openrefine-barcamp/179/23) if none of the options work for you.
