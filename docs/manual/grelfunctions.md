@@ -501,29 +501,16 @@ OpenRefine supports the following values for timeUnit:
 
 | Unit | Date part returned | Returned data type | Example using [date 2014-03-14T05:30:04.000789000Z] as value |
 |-|-|-|-|
-| years | Year | Number | value.datePart("years") → 2014 |
-| year | Year | Number | value.datePart("year") → 2014 |
-| months | Month | Number | value.datePart("months") → 2 |
-| month | Month | Number | value.datePart("month") → 2 |
-| weeks | Week of the month | Number | value.datePart("weeks") → 3 |
-| week | Week of the month | Number | value.datePart("week") → 3 |
-| w | Week of the month | Number | value.datePart("w") → 3 |
+| years, year | Year | Number | value.datePart("years") → 2014 |
+| months, month | Month | Number | value.datePart("months") → 2 |
+| weeks, week, w | Week of the month | Number | value.datePart("weeks") → 3 |
+| days, day, d | Day of the month | Number | value.datePart("days") → 14 |
 | weekday | Day of the week | String | value.datePart("weekday") → Friday |
-| hours | Hour | Number | value.datePart("hours") → 5 |
-| hour | Hour | Number | value.datePart("hour") → 5 |
-| h | Hour | Number | value.datePart("h") → 5 |
-| minutes | Minute | Number | value.datePart("minutes") → 30 |
-| minute | Minute | Number | value.datePart("minute") → 30 |
-| min | Minute | Number | value.datePart("min") → 30 |
-| seconds | Seconds | Number | value.datePart("seconds") → 04 |
-| sec | Seconds | Number | value.datePart("sec") → 04 |
-| s | Seconds | Number | value.datePart("s") → 04 |
-| milliseconds | Millseconds | Number | value.datePart("milliseconds") → 789 |
-| ms | Millseconds | Number | value.datePart("ms") → 789 |
-| S | Millseconds | Number | value.datePart("S") → 789 |
-| n | Nanoseconds | Number | value.datePart("n") → 789000 |
-| nano | Nanoseconds | Number | value.datePart("n") → 789000 |
-| nanos | Nanoseconds | Number | value.datePart("n") → 789000 |
+| hours, hour, h | Hour | Number | value.datePart("hours") → 5 |
+| minutes, minute, min | Minute | Number | value.datePart("minutes") → 30 |
+| seconds, sec, s | Seconds | Number | value.datePart("seconds") → 04 |
+| milliseconds, ms, S | Millseconds | Number | value.datePart("milliseconds") → 789 |
+| nanos, nano, n | Nanoseconds | Number | value.datePart("n") → 789000 |
 | time | Milliseconds between input and the [Unix Epoch](https://en.wikipedia.org/wiki/Unix_time) | Number | value.datePart("time") → 1394775004000 |
 
 ###### timeSinceUnixEpochToDate(duration, scale)
