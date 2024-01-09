@@ -36,8 +36,9 @@ If the format is omitted OpenRefine will try to guess the format based on the fi
 The values which can be specified in the JSON object submitted to the 'options' parameter will vary depending on the format being imported. If not specified the options will either be guessed at by OpenRefine (e.g. separator being used in a separated values file) or a default value used. The import options for each file format are not currently documented, but can be seen in the OpenRefine GUI interface when importing a file of the relevant format.
 
 If the project creation is successful, you will be redirected to a URL of the form:
-
+```
       http://127.0.0.1:3333/project?project=<project id>
+```
 
 From the project parameter you can extract the project id for use in future API calls. The content of the response is the HTML for the OpenRefine interface for viewing the project.
 
@@ -194,9 +195,9 @@ In the parameter
       'format' : format... (e.g 'tsv', 'csv')
 
 In the form data
-
-      'engine' : JSON string... (e.g. '{"facets":[],"mode":"row-based"}')
-
+```json
+      "engine" : JSON string... (e.g. '{"facets":[],"mode":"row-based"}')
+```
 Returns exported row data in the specified format. The formats supported will depend on the version of OpenRefine you are using and any Extensions you have installed. The common formats include:
 
 * csv
