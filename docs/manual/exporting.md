@@ -4,13 +4,13 @@ title: Exporting your work
 sidebar_label: Exporting
 ---
 
-## Overview {#overview}
+## Overview \{#overview}
 
 Once your dataset is ready, you will need to get it out of OpenRefine and into the system of your choice. OpenRefine outputs a number of file formats, can upload your data directly into Google Sheets, and can create or update statements on Wikidata.
 
 You can also [export your full project data](#export-a-project) so that it can be opened by someone else using OpenRefine (or yourself, on another computer).
 
-## Export data {#export-data}
+## Export data \{#export-data}
 
 ![A screenshot of the Export dropdown.](/img/export-menu.png)
 
@@ -33,7 +33,7 @@ You can also export reconciled data to Wikidata, or export your Wikidata schema 
 *   [Export to QuickStatements](wikibase/uploading#uploading-with-quickstatements) (version 1)
 *   [Export Wikidata schema](wikibase/overview#import-and-export-schema)
 
-### Custom tabular exporter {#custom-tabular-exporter}
+### Custom tabular exporter \{#custom-tabular-exporter}
 
 ![A screenshot of the custom tabular content tab.](/img/custom-tabular-exporter.png)
 
@@ -54,7 +54,7 @@ On the <span class="tabLabels">Download</span> tab, you can generate a preview o
 
 With the <span class="tabLabels">Option Code</span> tab, you can copy JSON of your current custom settings to reuse on another export, or you can paste in existing JSON settings to apply to the current project. 
 
-### SQL exporter {#sql-exporter}
+### SQL exporter \{#sql-exporter}
 
 The SQL exporter creates a SQL statement containing the data you’ve exported, which you can use to overwrite or add to an existing database. Choosing <span class="menuItems">Export</span> → <span class="menuItems">SQL exporter</span> will bring up a window with two tabs: one to define what data to output, and another to modify other aspects of the SQL statement, with options to preview and download the statement.  
 
@@ -76,7 +76,7 @@ You can include DROP and IF EXISTS if you require them, and set a name for the t
 
 You can then preview your statement, which will open up a new browser tab/window showing a statement with the first ten rows of your data (if included), or you can save a `.sql` file to your computer. 
 
-### Templating exporter {#templating-exporter}
+### Templating exporter \{#templating-exporter}
 
 If you pick <span class="menuItems">Templating…</span> from the <span class="menuItems">Export</span> dropdown menu, you can “roll your own” exporter. This is useful for formats that we don't support natively yet, or won't support. The Templating exporter generates JSON by default. 
 
@@ -89,9 +89,9 @@ This can be used to:
 * create multiple columns of output from different [member fields](expressions#variables) of a single project column
 * employ [expressions](expressions) to modify data for output: for example, `cells["ColumnName"].value.toUppercase()`. 
 
-Anything that appears inside doubled curly braces ({{ }}) is treated as a GREL expression; anything outside is generated as straight text. You can use Jython or Clojure by declaring it at the start:  
+Anything that appears inside doubled curly braces (\{\{ }}) is treated as a GREL expression; anything outside is generated as straight text. You can use Jython or Clojure by declaring it at the start:  
 ```
-{{jython:return cells["ColumnName"].value}}
+\{\{jython:return cells["ColumnName"].value}}
 ```
 
 :::caution
@@ -100,12 +100,12 @@ Note that some syntax is different in this tool than elsewhere in OpenRefine: a 
 
 You can include [regular expressions](expressions#regular-expressions) as usual (inside forward slashes, with any GREL function that accepts them). For example, you could output a version of your cells with punctuation removed, using an expression such as 
 ```
-{{jsonize(cells["ColumnName"].value.replaceChars("/[.!?$&,/]/",""))}}
+\{\{jsonize(cells["ColumnName"].value.replaceChars("/[.!?$&,/]/",""))}}
 ```  
 
-You could also simply output a plain-text document inserting data from your project into sentences: for example, "In `{{cells["Year"].value}}` we received `{{cells["RequestCount"].value}}` requests."
+You could also simply output a plain-text document inserting data from your project into sentences: for example, "In `\{\{cells["Year"].value}}` we received `\{\{cells["RequestCount"].value}}` requests."
 
-You can use the shorthand `${ColumnName}` (no need for quotes) to insert column values directly. You cannot use this inside an expression, because of the closing curly brace.
+You can use the shorthand `$\{ColumnName}` (no need for quotes) to insert column values directly. You cannot use this inside an expression, because of the closing curly brace.
 
 If your projects is in records mode, the <span class="fieldLabels">Row separator</span> field will insert a separator between records, rather than individual rows. Rows inside a single record will be directly appended to one another as per the content in the <span class="fieldLabels">Row Template</span> field. 
 
@@ -113,7 +113,7 @@ Once you have created your template, you may wish to save the text you produced 
 
 We have recipes on using the Templating exporter to [produce several different formats](https://github.com/OpenRefine/OpenRefine/wiki/Recipes#12-templating-exporter).
 
-## Export a project {#export-a-project}
+## Export a project \{#export-a-project}
 
 You can share a project in progress with another computer, a colleague, or with someone who wants to check your history. This can be useful for showing that your data cleanup didn’t distort or manipulate the information in any way. Once you have exported a project, another OpenRefine installation can [import it as a new project](starting#import-a-project). 
 
@@ -129,6 +129,6 @@ OpenRefine exports files in `.tar.gz` format. You can rename the file when you s
 
 To save your project archive to Google Drive: from the <span class="menuItems">Export</span> dropdown, select <span class="menuItems">OpenRefine project archive to Google Drive...</span>. OpenRefine will not share the link with you, only confirm that the file was uploaded.
 
-## Export operations {#export-operations}
+## Export operations \{#export-operations}
 
 You can [save and re-apply the history of any project](running#reusing-operations) (all the operations shown in the Undo/Redo tab). This creates JSON that you can save for later reuse on another OpenRefine project.
