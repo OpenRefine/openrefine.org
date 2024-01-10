@@ -316,7 +316,7 @@ Parses a string as JSON. get() can then be used with parseJson(): for example, `
 
 For example, from the following JSON array in `value`, we want to get all instances of “keywords” having the same object string name of “text”, and combine them, using the forEach() function to iterate over the array.
 
-````json
+```json
     {
        "status":"OK",
        "url":"",
@@ -336,7 +336,7 @@ For example, from the following JSON array in `value`, we want to get all instan
           }
        ]
     }
-````
+```
 
 The GREL expression `forEach(value.parseJson().keywords,v,v.text).join(":::")` will output “York en route:::Anthony Eden:::President Eisenhower”.
 

@@ -35,7 +35,7 @@ aware of anyone planning to work on this, though.
 
 The manifest is a JSON object describing all the configuration details necessary for OpenRefine to integrate with your Wikibase instance. As an example, here is the manifest of Wikimedia Commons:
 
-````json
+```json
 {
   "version": "2.0",
   "mediawiki": {
@@ -85,7 +85,7 @@ The manifest is a JSON object describing all the configuration details necessary
     "url_schema": "([[:toollabs:editgroups-commons/b/OR/${batch_id}|details]])"
   }
 }
-````
+```
 
 In general, there are several parts of the manifest: version, mediawiki, wikibase, oauth, entity_types and editgroups.
 
