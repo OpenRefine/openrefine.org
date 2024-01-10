@@ -89,9 +89,9 @@ This can be used to:
 * create multiple columns of output from different [member fields](expressions#variables) of a single project column
 * employ [expressions](expressions) to modify data for output: for example, `cells["ColumnName"].value.toUppercase()`. 
 
-Anything that appears inside doubled curly braces (\{\{ }}) is treated as a GREL expression; anything outside is generated as straight text. You can use Jython or Clojure by declaring it at the start:  
+Anything that appears inside doubled curly braces ({{ }}) is treated as a GREL expression; anything outside is generated as straight text. You can use Jython or Clojure by declaring it at the start:  
 ```
-\{\{jython:return cells["ColumnName"].value}}
+{{jython:return cells["ColumnName"].value}}
 ```
 
 :::caution
@@ -100,12 +100,12 @@ Note that some syntax is different in this tool than elsewhere in OpenRefine: a 
 
 You can include [regular expressions](expressions#regular-expressions) as usual (inside forward slashes, with any GREL function that accepts them). For example, you could output a version of your cells with punctuation removed, using an expression such as 
 ```
-\{\{jsonize(cells["ColumnName"].value.replaceChars("/[.!?$&,/]/",""))}}
+{{jsonize(cells["ColumnName"].value.replaceChars("/[.!?$&,/]/",""))}}
 ```  
 
-You could also simply output a plain-text document inserting data from your project into sentences: for example, "In `\{\{cells["Year"].value}}` we received `\{\{cells["RequestCount"].value}}` requests."
+You could also simply output a plain-text document inserting data from your project into sentences: for example, "In `{{cells["Year"].value}}` we received `{{cells["RequestCount"].value}}` requests."
 
-You can use the shorthand `$\{ColumnName}` (no need for quotes) to insert column values directly. You cannot use this inside an expression, because of the closing curly brace.
+You can use the shorthand `${ColumnName}` (no need for quotes) to insert column values directly. You cannot use this inside an expression, because of the closing curly brace.
 
 If your projects is in records mode, the <span class="fieldLabels">Row separator</span> field will insert a separator between records, rather than individual rows. Rows inside a single record will be directly appended to one another as per the content in the <span class="fieldLabels">Row Template</span> field. 
 
