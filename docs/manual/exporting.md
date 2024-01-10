@@ -90,7 +90,7 @@ This can be used to:
 * employ [expressions](expressions) to modify data for output: for example, `cells["ColumnName"].value.toUppercase()`. 
 
 Anything that appears inside doubled curly braces ({{ }}) is treated as a GREL expression; anything outside is generated as straight text. You can use Jython or Clojure by declaring it at the start:  
-```
+```json
 {{jython:return cells["ColumnName"].value}}
 ```
 
@@ -99,7 +99,7 @@ Note that some syntax is different in this tool than elsewhere in OpenRefine: a 
 :::
 
 You can include [regular expressions](expressions#regular-expressions) as usual (inside forward slashes, with any GREL function that accepts them). For example, you could output a version of your cells with punctuation removed, using an expression such as 
-```
+```json
 {{jsonize(cells["ColumnName"].value.replaceChars("/[.!?$&,/]/",""))}}
 ```  
 
