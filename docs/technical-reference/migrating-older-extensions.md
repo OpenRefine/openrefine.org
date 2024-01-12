@@ -22,7 +22,7 @@ You will need to write a `pom.xml` in the root folder of your extension to confi
 
 For any library that your extension depends on, you should try to find a matching artifact in the Maven Central repository. If you can find such an artifact, delete the `.jar` file from your extension and add the dependency in your `pom.xml` file. If you cannot find such an artifact, it is still possible to incorporate your own `.jar` file using `maven-install-plugin` that you can configure in your `pom.xml` file as follows:
 
-
+```
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-install-plugin</artifactId>
@@ -47,6 +47,7 @@ For any library that your extension depends on, you should try to find a matchin
             <!-- if you need to add more than one jar, add more execution blocks here -->
         </executions>
       </plugin>
+```
 
 And add the dependency to the `<dependencies>` section as usual:
 

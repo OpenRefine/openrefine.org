@@ -541,7 +541,7 @@
 * Thanks for doing all this!
 * thanks for everything!
 * Thanks for this amazing tool!
-* The OpenRefine tool revolutionizes my ability to expand people's understanding about what software can do for us. It helps me convey to those traditionally managing data in spreadsheets, to understand what they've been missing. And, it helps them going forward to dream much bigger when looking at new software development or asking for new functions in existing software. (I'm not sure developers always love that part <cheeky grin>). But the ease with which Refine does things like clustering --- always elicits awe and catalyzes rich conversations about what's possible that they never knew before.
+* The OpenRefine tool revolutionizes my ability to expand people's understanding about what software can do for us. It helps me convey to those traditionally managing data in spreadsheets, to understand what they've been missing. And, it helps them going forward to dream much bigger when looking at new software development or asking for new functions in existing software. (I'm not sure developers always love that part \<cheeky grin>). But the ease with which Refine does things like clustering --- always elicits awe and catalyzes rich conversations about what's possible that they never knew before.
 * "This is just a technical detail: Removing/reordering columns has a horrible GUI. It should be changed to select all/no columns with checkboxes as it is in the custom tab exporter.
 * But for the rest, thanks for your great work!"
 * This tool is invaluable to the free culture movement!  Thank you humans for all that you do to support this tool and the broader cultural heritage community.

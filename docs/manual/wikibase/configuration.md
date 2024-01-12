@@ -127,7 +127,7 @@ Maxlag is a parameter that controls how aggressive a mass-editing tool should be
 
 ##### tag {#tag}
 
-Specifies a tag which should be applied to all edits made via the tool. The <code>${version}</code> variable will be replaced by the "major.minor" OpenRefine version before making edits.
+Specifies a tag which should be applied to all edits made via the tool. The `<code>${version}</code>` variable will be replaced by the "major.minor" OpenRefine version before making edits.
 
 ##### max_edits_per_minute {#max_edits_per_minute}
 
@@ -165,7 +165,7 @@ The Wikibase instance must have at least a reconciliation service endpoint linke
 
 ##### reconciliation_endpoint {#reconciliation_endpoint}
 
-The default reconciliation service endpoint for entities of this type. The endpoint must contain the "${lang}" variable such as "https://wikidata.reconci.link/${lang}/api", since the reconciliation service is expected to work for different languages. For the `item` entity type, you can get such a reconciliation service with [openrefine-wikibase](https://gitlab.com/nfdi4culture/ta1-data-enrichment/openrefine-wikibase). For the `mediainfo` entity type, you can use the [commons-recon-service](https://gerrit.wikimedia.org/g/labs/tools/commons-recon-service) which can be configured to run for other Wikibase instances.
+The default reconciliation service endpoint for entities of this type. The endpoint must contain the `${lang}` variable such as `https://wikidata.reconci.link/${lang}/api`, since the reconciliation service is expected to work for different languages. For the `item` entity type, you can get such a reconciliation service with [openrefine-wikibase](https://gitlab.com/nfdi4culture/ta1-data-enrichment/openrefine-wikibase). For the `mediainfo` entity type, you can use the [commons-recon-service](https://gerrit.wikimedia.org/g/labs/tools/commons-recon-service) which can be configured to run for other Wikibase instances.
 
 This parameter is optional: you do not need to run a reconciliation for all entity types available in your Wikibase instance. However, it is a prerequisite for being able to do edits to those entity types via OpenRefine.
 
@@ -188,7 +188,7 @@ Not required. Should be configured if the Wikibase instance has [EditGroups](htt
 
 ##### url_schema {#url_schema}
 
-The URL schema used in edits summary. This is used for EditGroups to extract the batch id from a batch of edits and for linking to the EditGroups page of the batch. The URL schema must contains the variable '${batch_id}', such as '([[:toollabs:editgroups/b/OR/${batch_id}|details]])' for Wikidata.
+The URL schema used in edits summary. This is used for EditGroups to extract the batch id from a batch of edits and for linking to the EditGroups page of the batch. The URL schema must contains the variable `${batch_id}`, such as `([[:toollabs:editgroups/b/OR/${batch_id}|details]])` for Wikidata.
 
 #### Check the format of the manifest {#check-the-format-of-the-manifest}
 

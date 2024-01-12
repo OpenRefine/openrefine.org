@@ -18,7 +18,7 @@ GREL (General Refine Expression Language) is designed to resemble Javascript. Fo
 
 Note that the operator for string concatenation is `+` (not “&” as is used in Excel). 
 
-Evaluating conditions uses symbols such as <, >, *, /, etc. To check whether two objects are equal, use two equal signs (`value=="true"`).
+Evaluating conditions uses symbols such as `<`, `>`, `*`, `/`, etc. To check whether two objects are equal, use two equal signs (`value=="true"`).
 
 See the [GREL functions page for a thorough reference](grelfunctions) on each function and its inputs and outputs. Read on below for more about the general nature of GREL expressions.
 
