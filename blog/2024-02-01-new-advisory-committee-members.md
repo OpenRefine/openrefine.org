@@ -1,5 +1,5 @@
 ---
-title: "Introducing two mew members to OpenRefine's Advisory Committee"
+title: "Introducing two new members to OpenRefine's Advisory Committee"
 author: Martin Magdinier
 ---
 
