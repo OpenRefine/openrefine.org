@@ -7,15 +7,15 @@ We are pleased to welcome Julie Faure-Lacroix and Esther Jackson to the OpenRefi
 
 ### Julie Faure-Lacroix
 
-Julie Faure-Lacroix is affiliated with Université Laval in Quebec and the Canada Research Alliance for Digital Innovation. She has witnessed the growth and evolution of Calcul Quebec and brings valuable experience that can help the OpenRefine organization mature.
+Julie Faure-Lacroix is affiliated with [Université Laval](https://www.ulaval.ca/) in Quebec and the [Canada Research Alliance for Digital Innovation](https://alliancecan.ca/). She has witnessed the growth and evolution of [Calcul Quebec](https://www.ulaval.ca/) and brings valuable experience that can help the OpenRefine organization mature.
 
 Julie has practical experience using OpenRefine to cleanse survey and research data, and has been providing OpenRefine training for over 8 years. This aligns perfectly with our community's ethos.
 
 ### Esther Jackson
 
-Esther Jackson is the Scholarly Communication Technologies Librarian at Columbia University, with seven years of experience in using OpenRefine. Her library science background enables her to integrate OpenRefine into various workflows and reconciliation services efficiently.
+Esther Jackson is the Scholarly Communication Technologies Librarian at [Columbia University](https://www.ulaval.ca/), with seven years of experience in using OpenRefine. Her library science background enables her to integrate OpenRefine into various workflows and reconciliation services efficiently.
 
-Esther's unique combination of library expertise and technological proficiency will undoubtedly bring a fresh perspective to our Advisory Committee. Her experience as a Carpentries instructor is particularly noteworthy and valuable for our community.
+Esther's unique combination of library expertise and technological proficiency will undoubtedly bring a fresh perspective to our Advisory Committee. Her experience as a [Carpentries](https://www.ulaval.ca/) instructor is particularly noteworthy and valuable for our community.
 
 ### Moving forward together
 
