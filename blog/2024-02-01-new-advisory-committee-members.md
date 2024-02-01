@@ -1,0 +1,24 @@
+---
+title: "Introducing two mew members to OpenRefine's Advisory Committee"
+author: Martin Magdinier
+---
+
+We are pleased to welcome Julie Faure-Lacroix and Esther Jackson to the OpenRefine Advisory Committee. Both Julie and Esther have demonstrated a strong commitment to OpenRefine, and we're looking forward to their contributions to our team.
+
+### Julie Faure-Lacroix
+
+Julie Faure-Lacroix is affiliated with Université Laval in Quebec and the Canada Research Alliance for Digital Innovation. She has witnessed the growth and evolution of Calcul Quebec and brings valuable experience that can help the OpenRefine organization mature.
+
+Julie has practical experience using OpenRefine to cleanse survey and research data, and has been providing OpenRefine training for over 8 years. This aligns perfectly with our community's ethos.
+
+### Esther Jackson
+
+Esther Jackson is the Scholarly Communication Technologies Librarian at Columbia University, with seven years of experience in using OpenRefine. Her library science background enables her to integrate OpenRefine into various workflows and reconciliation services efficiently.
+
+Esther's unique combination of library expertise and technological proficiency will undoubtedly bring a fresh perspective to our Advisory Committee. Her experience as a Carpentries instructor is particularly noteworthy and valuable for our community.
+
+### Moving forward together
+
+The other members of the advisory committee are Antonin Delpeuch and Jan Ainali. We warmly welcome Julie and Esther to the team and look forward to their contributions. Thank you for joining us in this exciting new chapter for OpenRefine.
+
+
