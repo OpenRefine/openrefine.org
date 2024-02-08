@@ -17,7 +17,6 @@ We list here a few which are known to be especially popular.
 - [Library Carpentry: OpenRefine](https://librarycarpentry.org/lc-open-refine/)
 - [Data Carpentry: OpenRefine for Social Science Data](https://datacarpentry.org/openrefine-socialsci/)
 - [Data Carpentry: OpenRefine for Ecology](https://datacarpentry.org/OpenRefine-ecology-lesson/)
-- [OpenRefine foundation course](https://courses.tranzf.org/course/view.php?id=18)
 - [Programming Historian: Fetching and Parsing Data from the Web with OpenRefine](https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine)
 
 ## On our wiki
