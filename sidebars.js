@@ -30,8 +30,6 @@ module.exports = {
       'manual/exporting',
       'manual/troubleshooting'
     ],
-   'GREL Reference': [
-	   'manual/grelfunctions'],
   'Contributing to OpenRefine': [
     'technical-reference/contributing',
     'technical-reference/why-get-involved',
