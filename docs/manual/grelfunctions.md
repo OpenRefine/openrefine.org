@@ -17,7 +17,7 @@ Optional arguments will say “(optional)”.
 
 In places where OpenRefine will accept a string (s) or a regex pattern (p), you can supply a string by putting it in quotes. If you wish to use any [regex](expressions#regular-expressions) notation, wrap the pattern in forward slashes.
 
-## Boolean functions {#boolean-functions}
+## Boolean functions {#boolean-functions} 
 
 ###### and(b1, b2, ...) {#andb1-b2-}
 
