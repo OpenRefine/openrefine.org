@@ -22,6 +22,31 @@ Evaluating conditions uses symbols such as `<`, `>`, `*`, `/`, etc. To check whe
 
 See the [GREL functions page for a thorough reference](grelfunctions) on each function and its inputs and outputs. Read on below for more about the general nature of GREL expressions.
 
+## Operators {#operators}
+
+#### Arithmetic Operators {#arithmetic-operators}
+
+Refer [GREL functions page](https://openrefine.org/docs/manual/grelfunctions#math-functions) for details on Division Operator.
+
+###### Modulus {#modulus} 
+
+When using the `%` operator, if both operands are numbers such as `1 % 2` the result will be a whole number. However, if either or both of the operands are floating-point numbers like `1.0 % 2` they will be promoted to floating point and the result will also be in floating-point format. It's important to note that the `%` operator may not behave as expected with floating-point numbers due to precision issues.
+
+###### Multiplication {#multiplication}
+
+The behavior of the `*` operator is nuanced based on the data types of the operands. When both operands are integers such as `1 * 2`, the result is an integer. Conversely, if either or both operands are floating-point numbers the result becomes a floating-point number. You can use simple evaluations such as `3.5 * 2`
+
+#### Relational Operators {#relational-operators}
+
+`==` and `!=` operators are used to assess equality and inequality. For instance, `"a" == "b"` returns false and `"a" != "b"` returns true. When applied to integers, `5 == 5` returns true, while `3 != 3` returns false.
+
+The `<` operator checks if the left operand is less than the right operand, while `<=` checks if it's less than or equal to. Similarly `>` verifies if the left operand is greater than the right and `>=` checks if it's greater than or equal to. These comparison operators apply to numbers, strings and dates.
+
+#### References {#references}
+
+- [String Concatenation](https://openrefine.org/docs/manual/grel#basic)
+- [Logical Functions](https://openrefine.org/docs/manual/grelfunctions#boolean-functions)
+
 ## Syntax {#syntax}
 
 In GREL, functions can use either of these two forms:

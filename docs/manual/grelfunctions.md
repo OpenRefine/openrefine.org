@@ -17,7 +17,7 @@ Optional arguments will say “(optional)”.
 
 In places where OpenRefine will accept a string (s) or a regex pattern (p), you can supply a string by putting it in quotes. If you wish to use any [regex](expressions#regular-expressions) notation, wrap the pattern in forward slashes.
 
-## Boolean functions {#boolean-functions}
+## Boolean functions {#boolean-functions} 
 
 ###### and(b1, b2, ...) {#andb1-b2-}
 
@@ -34,30 +34,6 @@ Uses the logical operator NOT on a boolean to output a boolean. For example, `no
 ###### xor(b1, b2, ...) {#xorb1-b2-}
 
 Uses the logical operator XOR (exclusive-or) on two or more booleans to output a boolean. Evaluates multiple statements, then returns true if only one of them is true. For example, `(1 < 3).xor(1 < 7)` returns false because more than one of the conditions is true.
-
-### Operators {#operators}
-
-#### Arithmetic Operators {#arithmetic-operators}
-
-###### Modulus {#modulus} 
-
-When using the `%` operator, if both operands are numbers such as `1 % 2` the result will be a whole number. However, if either or both of the operands are floating-point numbers like `1.0 % 2` they will be promoted to floating point and the result will also be in floating-point format. It's important to note that the `%` operator may not behave as expected with floating-point numbers due to precision issues.
-
-###### Multiplication {#multiplication}
-
-The behavior of the `*` operator is nuanced based on the data types of the operands. When both operands are integers such as `1 * 2`, the result is an integer. Conversely, if either or both operands are floating-point numbers the result becomes a floating-point number. You can use simple evaluations such as `3.5 * 2`
-
-#### Relational Operators {#relational-operators}
-
-`==` and `!=` operators can be used for string equality and inequality. For example, `"a" == "b"` returns false and `"a" != "b"` returns true.
-
-The `<` operator checks if the left operand is less than the right operand and `<=` checks if it's less than or equal to. Similarly `>` verifies if the left operand is greater than the right and `>=` checks if it's greater than or equal to. These comparison operators yield Boolean values (true or false)
-
-#### References {#references}
-
-- [String Concatenation](https://openrefine.org/docs/manual/grel#basic)
-- [Division('/') Documentation](https://openrefine.org/docs/manual/grelfunctions#math-functions)
-- [Logical Operators](https://openrefine.org/docs/manual/grelfunctions#boolean-functions)
 
 ## String functions {#string-functions}
 
