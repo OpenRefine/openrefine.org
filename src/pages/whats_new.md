@@ -10,6 +10,7 @@ hide_table_of_contents: false
 
 ## Vulnerabilities
 
+* (from 3.7.8 on) The fix of the vulnerability below was fixed, as it did not prevent the exploit using a particular URL syntax for the JDBC server. The vulnerability was assigned identifier CVE-2024-23833. We thank @l0n3rs for disclosing it to us.
 * (from 3.7.5 on) A moderate vulnerabilities in the database extension was fixed. Connecting to a malicious MySQL server could read files or execute arbitrary code on the machine running OpenRefine. The vulnerabilities were assigned CVE-2023-41886 and CVE-2023-41887
   identifiers respectively, and were reported by @nbxiglk0.
 * (from 3.7.4 on) A moderate vulnerability in project import was fixed. Importing a maliciously crafted project could execute arbitrary code on the machine running OpenRefine. This vulnerability has been assigned the CVE-2023-37476 identifier. It was reported by Stefan Schiller from SonarSource.
