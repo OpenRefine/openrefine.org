@@ -127,7 +127,7 @@ Maxlag is a parameter that controls how aggressive a mass-editing tool should be
 
 ##### tag {#tag}
 
-Specifies a tag which should be applied to all edits made via the tool. The `<code>${version}</code>` variable will be replaced by the "major.minor" OpenRefine version before making edits.
+Specifies a tag which should be applied to all edits made via the tool. The `${version}` variable will be replaced by the "major.minor" OpenRefine version before making edits.
 
 ##### max_edits_per_minute {#max_edits_per_minute}
 
