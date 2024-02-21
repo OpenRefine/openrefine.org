@@ -7,15 +7,15 @@
 const releases = require('../releases.json');
  
 const platformDetails = {
-        'win-with-java': {
+        'win-with-java-installer': {
                 name: 'Windows',
-                fullName: 'Windows (including\u00A0Java)',
+                fullName: 'Windows (installer)',
                 embedsJava: true
         },
-        'win': {
+        'win-with-java': {
                 name: 'Windows',
-                fullName: 'Windows (without\u00A0Java)',
-                embedsJava: false
+                fullName: 'Windows (zip\u00A0file)',
+                embedsJava: true
         },
         'mac': {
                 name: 'Mac OS',
@@ -29,7 +29,7 @@ const platformDetails = {
         }
 };
 
-const platformOrder = ['win-with-java', 'win', 'mac', 'linux'];
+const platformOrder = ['win-with-java-installer', 'win-with-java', 'mac', 'linux'];
 
 function getArtifact(release, platform) {
     let matching = release.artifacts.filter(a => a.platform === platform);
