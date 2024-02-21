@@ -6,6 +6,10 @@ hide_table_of_contents: false
 
 # Release notes
 
+## Version 3.8
+
+See the [3.8-beta1 release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.8-beta1).
+
 ## Version 3.7
 
 ## Vulnerabilities
@@ -251,77 +255,9 @@ Starting with version 3.6, OpenRefine requires Java 11 or later.
 * We have switched from using archive utilities from Apache Ant to Apache Commons ([#2690](https://github.com/OpenRefine/OpenRefine/issues/2690))
 * We got rid of some unnecessary dependencies ([#3957](https://github.com/OpenRefine/OpenRefine/issues/3957), [#2961](https://github.com/OpenRefine/OpenRefine/issues/2961))
 
-
-## Version 3.4
-
-### New features
-
-* We now offer a Windows package with embedded Java runtime engine (no need to install Java with this one) ([#2272](https://github.com/OpenRefine/OpenRefine/issues/2272))
-* SQLite importer added ([#1951](https://github.com/OpenRefine/OpenRefine/issues/1951))
-* More languages including Bengali, Chinese (Simplified), Czech, and Punjabi, as well as better coverage for existing languages including Cebuano, English (UK), French, German, Hungarian, Italian, Japanese, Korean, Norwegian Bokmål, and Portuguese (Brazil).
-* Clojure updated to 1.10 ([#2608](https://github.com/OpenRefine/OpenRefine/issues/2608))
-* Modal dialogs can now be closed with the ESC key ([#1018](https://github.com/OpenRefine/OpenRefine/issues/1018))
-* A `cell.errorMessage` field has been added, to fetch the error message stored in a cell (it was originally `cell.error` in 3.4 beta) ([#525](https://github.com/OpenRefine/OpenRefine/issues/525))
-* Google OAuth credentials for Google Sheets and Google Drive integration are configurable ([#2383](https://github.com/OpenRefine/OpenRefine/issues/2383))
-* A new menu item was created to extract entity identifiers from a reconciled column ([#1975](https://github.com/OpenRefine/OpenRefine/issues/1975))
-* It is now possible to quote all cell values in the custom tabular exporter ([#1869](https://github.com/OpenRefine/OpenRefine/issues/1869))
-* An option was added in the CSV/TSV importer to strip whitespace in cell values ([#791](https://github.com/OpenRefine/OpenRefine/issues/791))
-* The Google Sheets and Google Drive export have been added to the main "Export" menu ([#2453](https://github.com/OpenRefine/OpenRefine/issues/2453))
-* The `cross` function now supports any value for input (instead of just cells) and is no longer restricted to the column where it is invoked ([#1950](https://github.com/OpenRefine/OpenRefine/issues/1950))
-* The `cross` function now works for any type of cell value ([#2461](https://github.com/OpenRefine/OpenRefine/issues/2461))
-* It is now possible to configure the `maxlag` value used by the Wikidata extension by setting `wikibase.upload.maxLag` to some integer in the preferences  (in 3.4 beta, it was `wikibase:upload:maxLag` and that was renamed later to match the naming convention of other preferences) ([#2304](https://github.com/OpenRefine/OpenRefine/issues/2304))
-* Facets can be minimized ([#2553](https://github.com/OpenRefine/OpenRefine/issues/2553))
-* Excel XLSX export column limit increased from 256 to 16K columns ([#2600](https://github.com/OpenRefine/OpenRefine/issues/2600))
-* Character encoding detection added for import ([#486](https://github.com/OpenRefine/OpenRefine/issues/486))
-
-
-### Bug fixes
-
-* A data corruption issue affecting expression history, saved reconciliation services and preferences with multinational characters on Windows has been fixed ([#2543](https://github.com/OpenRefine/OpenRefine/issues/2543), [#2544](https://github.com/OpenRefine/OpenRefine/issues/2544), [#2627](https://github.com/OpenRefine/OpenRefine/issues/2627))
-* The Mac package is now signed again.
-* A data loss issue when importing multiple tables into a single project has been fixed ([#1792](https://github.com/OpenRefine/OpenRefine/issues/1792))
-* Loading SQL data with the database extension was fixed ([#2281](https://github.com/OpenRefine/OpenRefine/issues/2281))
-* Many issues with the Google Sheets exporter have been fixed ([#2760](https://github.com/OpenRefine/OpenRefine/issues/2760), [#2306](https://github.com/OpenRefine/OpenRefine/issues/2306), [#2785](https://github.com/OpenRefine/OpenRefine/issues/2785), [#2786](https://github.com/OpenRefine/OpenRefine/issues/2786))
-* Exporting twice is no longer blocked by the use of the same blank tab in Chrome ([#1664](https://github.com/OpenRefine/OpenRefine/issues/1664))
-* QuickStatement exporter supports multiple references on the same statement ([#2320](https://github.com/OpenRefine/OpenRefine/issues/2320))
-* OpenRefine opens the browser on a localhost URL rather than 0.0.0.0 when listening from any address ([#2336](https://github.com/OpenRefine/OpenRefine/issues/2336))
-* The modal dialog for the key-value columnize dialog can now be resized, making it easier to work with long column names ([#898](https://github.com/OpenRefine/OpenRefine/issues/898))
-* The delay before the text filter updates the filtered rows has been increased ([#2112](https://github.com/OpenRefine/OpenRefine/issues/2112))
-* The TSV export of facet values now uses a non-editable textarea ([#2374](https://github.com/OpenRefine/OpenRefine/issues/2374))
-* The Google Sheets importer accepts a wider range of URL formats ([#2380](https://github.com/OpenRefine/OpenRefine/issues/2380))
-* The incorrect linking between checkboxes and labels in JSON and XML importer configurations was fixed ([#2388](https://github.com/OpenRefine/OpenRefine/issues/2388), [#2393](https://github.com/OpenRefine/OpenRefine/issues/2393))
-* A infinite loop in the XML importer configuration UI was fixed ([#2402](https://github.com/OpenRefine/OpenRefine/issues/2402))
-* The reconciliation configuration panel takes into account column checkboxes correctly ([#2230](https://github.com/OpenRefine/OpenRefine/issues/2230))
-* Trimming strings in the JSON / XML importers has been fixed ([#2409](https://github.com/OpenRefine/OpenRefine/issues/2409))
-* Sheet selection in the Google Sheet importer has been fixed ([#2307](https://github.com/OpenRefine/OpenRefine/issues/2307))
-* Auto-complete for Wikidata edit summary was fixed for Chrome ([#1778](https://github.com/OpenRefine/OpenRefine/issues/1778))
-* Pressing "Enter" in the URL field to create a project from a URL correctly submits the URL ([#2437](https://github.com/OpenRefine/OpenRefine/issues/2437))
-* The overflow of translations in menu items was fixed ([#2454](https://github.com/OpenRefine/OpenRefine/issues/2454), [#974](https://github.com/OpenRefine/OpenRefine/issues/974))
-* The Add column by fetching URLs correctly fetches gzip-compressed responses ([#2031](https://github.com/OpenRefine/OpenRefine/issues/2031))
-* Error handling in the JSON importer was improved ([#2403](https://github.com/OpenRefine/OpenRefine/issues/2403))
-* Error handling for memory management in the `./refine` script was improved ([#388](https://github.com/OpenRefine/OpenRefine/issues/388))
-* The mouse pointer when hovering draggable elements in the Wikidata schema was fixed ([#2484](https://github.com/OpenRefine/OpenRefine/issues/2484))
-* Fixed detection of XML files from their MIME type when downloading them from a URL ([#2420](https://github.com/OpenRefine/OpenRefine/issues/2420))
-* A bug preventing users from logging in to Wikidata due to a change on Wikidata's side on 2010-04-08 was fixed ([#2526](https://github.com/OpenRefine/OpenRefine/issues/2526))
-* Columns named `toString` or other Javascript object methods are no longer displayed as collapsed ([#2451](https://github.com/OpenRefine/OpenRefine/issues/2451))
-* Pressing Enter in the Wikidata login and edit summary forms submits the corresponding dialogs ([#2459](https://github.com/OpenRefine/OpenRefine/issues/2459))
-* The datatype of a cell is correctly pre-filled when editing its value ([#2424](https://github.com/OpenRefine/OpenRefine/issues/2424))
-* The MIME types used for Excel export have been fixed ([#2595](https://github.com/OpenRefine/OpenRefine/issues/2595))
-* The `type` GREL function returns `boolean` for boolean values ([#2150](https://github.com/OpenRefine/OpenRefine/issues/2510))
-* The preferences page displays correctly in languages other than English ([#2765](https://github.com/OpenRefine/OpenRefine/issues/2765))
-* Export of multinational characters outside the Basic Multilingual Plane (BMP) fixed ([#1197](https://github.com/OpenRefine/OpenRefine/issues/1197))
-* References to Freebase in messages and code were removed ([#2029](https://github.com/OpenRefine/OpenRefine/issues/2029), [#1973](https://github.com/OpenRefine/OpenRefine/issues/1973), [#2345](https://github.com/OpenRefine/OpenRefine/issues/2345))
-* Redirects are correctly followed during reconciliation ([#2906](https://github.com/OpenRefine/OpenRefine/issues/2906))
-* A race condition making it impossible to edit the Wikidata schema has been fixed ([#2803](https://github.com/OpenRefine/OpenRefine/issues/2803))
-
-### For developers
-
-* It is now possible to configure local development settings in `refine-dev.ini` instead of `refine.ini`. ([#2480](https://github.com/OpenRefine/OpenRefine/issues/2480))
-* Packaging windows and linux distributions separately is now possible ([#2477](https://github.com/OpenRefine/OpenRefine/issues/2477))
-* Proper plural support for translations enabled [not used everywhere yet] ([#2700](https://github.com/OpenRefine/OpenRefine/issues/2700))
-
 ## Older versions
 
+* [Changes for 3.4](https://github.com/OpenRefine/OpenRefine/wiki/Changes-for-3.4)
 * [Changes for 3.3](https://github.com/OpenRefine/OpenRefine/wiki/Changes-for-3.3)
 * [Changes for 3.2](https://github.com/OpenRefine/OpenRefine/wiki/Changes-for-3.2)
 * [Changes for 3.1](https://github.com/OpenRefine/OpenRefine/wiki/Changes-for-3.1)
