@@ -8,8 +8,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Introduction {#introduction}
 
-OpenRefine interface is tested with the [Cypress framework](https://www.cypress.io/).  
+OpenRefine's web interface is tested with the [Cypress framework](https://www.cypress.io/).
 With Cypress, tests are performing assertions using a real browser, the same way a real user would use the software.
+Those are "end to end" (e2e) tests because they also rely on OpenRefine's backend (server).
 
 Cypress tests can be ran
 
@@ -81,7 +82,7 @@ Click on one of them and the test will start.
 
 ### 4. Add your first test {#4-add-your-first-test}
 
-- Add a `test.spec.js` into the `main/tests/cypress/cypress/integration` folder.
+- Add a `test.spec.js` into the `main/tests/cypress/cypress/e2e` folder.
 - The test is instantly available in the list
 - Click on the test
 - Start to add some code
