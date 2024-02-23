@@ -48,7 +48,12 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://github.com/OpenRefine/OpenRefine',
+          to: 'https://forum.openrefine.org/',
+          label: 'Forum',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/OpenRefine/',
           label: 'GitHub',
           position: 'right',
         },
@@ -89,8 +94,8 @@ module.exports = {
               href: '/distributions',
             },
             {
-              label: 'GitHub repository',
-              href: 'https://github.com/OpenRefine/OpenRefine',
+              label: 'OpenRefine Ecosystem',
+              href: '/ecosystem',
             },
           ],
         },
@@ -102,29 +107,50 @@ module.exports = {
               href: '/docs',
             },
             {
-              label: 'Contributing',
-              href: '/docs/technical-reference/contributing',
-            },
-            {
-              label: 'External resources',
+              label: 'Training and Courses',
               href: '/external_resources',
             },
             {
-              label: 'Grants & funding',
-              href: '/funding',
-            },            
+              label: 'Roadmap',
+              href: '/roadmap',
+            },
+            {
+              label: 'Contributing',
+              href: '/docs/technical-reference/contributing',
+            },     
             {
               label: 'Privacy notice',
               href: '/privacy',
             },
           ],
         },
-        {
-          title: 'Community',
+       {
+          title: 'About OpenRefine',
           items: [
             {
-              label: 'Get involved',
+              label: 'OpenRefine History',
+              href: '/openrefine_history',
+            },
+            {
+              label: 'Project Roles and Governance',
               href: '/community',
+            },
+            {
+              label: 'Who use OpenRefine',
+              href: '/usage',
+            },            
+            {
+              label: 'Grants & funding',
+              href: '/funding',
+            },   
+          ],
+        },
+        {
+          title: 'Social',
+          items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/OpenRefine',
             },
             {
               label: 'Forum',
@@ -146,7 +172,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />OpenRefine's documentation is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.`,
+      copyright: `<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />OpenRefine's website and documentation is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.`,
     },
   },
   plugins: ['./src/plugins/docusaurus-versionsjson-plugin'],
