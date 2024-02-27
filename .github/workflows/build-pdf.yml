@@ -21,7 +21,7 @@ jobs:
       - name: Serve the site
         run: yarn serve
       - name: Build PDF
-        if: success()
+        if: always()
         run: npx docusaurus-prince-pdf -u http://localhost:3000/docs --output pdf/openrefine.pdf
 
       - uses: actions/upload-artifact@v3
