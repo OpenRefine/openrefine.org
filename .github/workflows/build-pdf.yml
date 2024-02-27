@@ -1,0 +1,30 @@
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Yarn
+        run: npm install -g yarn
+      - name: Install Prince
+        run: |
+          curl https://www.princexml.com/download/prince-14.2-linux-generic-x86_64.tar.gz -O
+          tar zxf prince-14.2-linux-generic-x86_64.tar.gz
+          cd prince-14.2-linux-generic-x86_64
+          yes "" | sudo ./install.sh
+      - name: Build the site
+        run: yarn install && yarn build
+      - name: Serve the site
+        run: yarn serve
+      - name: Build PDF
+        run: npx docusaurus-prince-pdf -u http://localhost:3000 --output pdf/openrefine.pdf
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: result
+          path: pdf/docusaurus.io-docs.pdf
+          if-no-files-found: error
+
+    # ...other steps...
