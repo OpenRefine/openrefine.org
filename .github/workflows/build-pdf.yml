@@ -26,5 +26,5 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: result
-          path: pdf/docusaurus.io-docs.pdf
+          path: pdf/openrefine.pdf
           if-no-files-found: error
