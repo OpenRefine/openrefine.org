@@ -15,11 +15,11 @@ jobs:
           cd prince-14.2-linux-generic-x86_64
           yes "" | sudo ./install.sh
       - name: Build the site
-        run: yarn && yarn build
+        run: npm i && yarn && yarn build
       - name: Serve the site
         run: yarn serve
       - name: Build PDF
-        run: npx docusaurus-prince-pdf -u http://localhost:3000 --output pdf/openrefine.pdf
+        run: yarn docusaurus-prince-pdf -u http://localhost:3000/docs --output pdf/openrefine.pdf
 
       - uses: actions/upload-artifact@v3
         with:
