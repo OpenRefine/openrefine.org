@@ -15,7 +15,7 @@ jobs:
           cd prince-14.2-linux-generic-x86_64
           yes "" | sudo ./install.sh
       - name: Build the site
-        run: yarn install && yarn build
+        run: cd openrefine.org && yarn install && yarn build
       - name: Serve the site
         run: yarn serve
       - name: Build PDF
