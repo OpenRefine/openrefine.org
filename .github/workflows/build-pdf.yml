@@ -19,7 +19,7 @@ jobs:
       - name: Build the site
         run: yarn install && yarn build
       - name: Build PDF
-        run: yarn docusaurus-prince-pdf -u http://localhost:3000/docs --output pdf/openrefine.pdf
+        run: npx docusaurus-prince-pdf -u http://localhost:3000/docs --output pdf/openrefine.pdf
       - name: Serve the site
         run: yarn serve
 
