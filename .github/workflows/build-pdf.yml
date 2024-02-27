@@ -18,10 +18,8 @@ jobs:
           yes "" | sudo ./install.sh
       - name: Build the site
         run: yarn install && yarn build
-      - name: Serve the site
-        run: yarn serve
-      - name: Build PDF
-        run: npx docusaurus-prince-pdf -u http://localhost:3000/docs --output pdf/openrefine.pdf
+      - name: Serve the site and build PDF
+        run: yarn serve && npx docusaurus-prince-pdf -u http://localhost:3000/docs --output pdf/openrefine.pdf
 
       - uses: actions/upload-artifact@v3
         with:
