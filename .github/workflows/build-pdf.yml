@@ -6,6 +6,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
+
       - name: Install Yarn
         run: npm install -g yarn
       - name: Install Prince
@@ -15,7 +17,8 @@ jobs:
           cd prince-14.2-linux-generic-x86_64
           yes "" | sudo ./install.sh
       - name: Build the site
-        run: cd openrefine.org/openrefine.org && yarn && yarn build
+        run: yarn && yarn build
+        working-directory: ./openrefine.org
       - name: Serve the site
         run: yarn serve
       - name: Build PDF
