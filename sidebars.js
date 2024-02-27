@@ -50,6 +50,7 @@ module.exports = {
         type: "link",
         label: "Offline PDF Docs download",
         path: "/pdf/openrefine.pdf",
+        href: "/pdf/openrefine.pdf",
       },
     ],
     "Contributing to OpenRefine": [

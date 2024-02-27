@@ -8,6 +8,7 @@
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
+    "serve":"docusaurus serve",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "netlify:build:production": "yarn build",
