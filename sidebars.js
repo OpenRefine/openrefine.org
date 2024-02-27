@@ -46,11 +46,11 @@ module.exports = {
       },
       "manual/exporting",
       "manual/troubleshooting",
-      {
-        type: "link",
-        label: "Offline PDF Docs download",
-        href: "/pdf/openrefine.pdf",
-      },
+      // {
+      //   type: "link",
+      //   label: "Offline PDF Docs download",
+      //   href: "/pdf/openrefine.pdf",
+      // },
     ],
     "Contributing to OpenRefine": [
       "technical-reference/contributing",
