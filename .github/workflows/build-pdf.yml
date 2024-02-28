@@ -19,13 +19,13 @@ jobs:
       - name: Build the site
         run: yarn install && yarn build
       - name: Serve the site
-        if: always()
         run: yarn serve && exit 0
       - name: Build PDF
         if: always()
         run: npx docs-to-pdf docusaurus --initialDocURLs="https://localhost:3000/docs"
 
       - uses: actions/upload-artifact@v3
+        if: always()
         with:
           name: result
           path: pdf/openrefine.pdf
