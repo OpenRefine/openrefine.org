@@ -10,19 +10,15 @@ jobs:
 
       - name: Install Yarn
         run: npm install -g yarn
-      - name: Install Prince
-        run: |
-          curl https://www.princexml.com/download/prince-14.2-linux-generic-x86_64.tar.gz -O
-          tar zxf prince-14.2-linux-generic-x86_64.tar.gz
-          cd prince-14.2-linux-generic-x86_64
-          yes "" | sudo ./install.sh
+      - name: Install docs-to-pdf
+        run: npm install -g docs-to-pdf
       - name: Build the site
         run: yarn install && yarn build
       - name: Serve the site
-        run: yarn serve
+        run: yarn serve && exit 0
       - name: Build PDF
         if: always()
-        run: npx docusaurus-prince-pdf -u http://localhost:3000/docs --output pdf/openrefine.pdf
+        run: npx docs-to-pdf docusaurus --initialDocURLs="https://localhost:3000/docs"
 
       - uses: actions/upload-artifact@v3
         with:
