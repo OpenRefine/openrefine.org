@@ -251,7 +251,7 @@ This should generally not cause much trouble during migration, beyond your IDE p
 
 #### Accessing project data
 
-To access the grid in a project, use `project.getCurrentGrid()`. This gives you access to the underlying data, for instance `[Grid::rowCount](https://javadoc-v4.openrefine.org/org/openrefine/model/grid#rowCount())` or `[Grid::getRow](https://javadoc-v4.openrefine.org/org/openrefine/model/grid#getRow(long))` which retrieves a row by its index.
+To access the grid in a project, use `project.getCurrentGrid()`. This gives you access to the underlying data, for instance [`Grid::rowCount`](https://javadoc-v4.openrefine.org/org/openrefine/model/grid#rowCount()) or [`Grid::getRow`](https://javadoc-v4.openrefine.org/org/openrefine/model/grid#getRow(long))` which retrieves a row by its index.
 Note that it is worth thinking twice about how you access grid data using the methods offered by the `Grid` interface, to make sure it is as efficient as possible. For instance, if you wanted to do something for each row in the project, you could do
 something like this:
 
@@ -281,10 +281,10 @@ entire project data in memory.
 #### Modifying project data
 
 To make changes to the grid, you need to run an operation on the project so that the changes are properly logged in the history. The operation will derive a new grid which will become the
-current one. This is done by implementing an `[Operation](https://javadoc-v4.openrefine.org/org/openrefine/operations/operation)` and running it via `project.getHistory().addEntry(operation)`.
+current one. This is done by implementing an [`Operation`](https://javadoc-v4.openrefine.org/org/openrefine/operations/operation) and running it via `project.getHistory().addEntry(operation)`.
 
 The `Grid` interface provides various methods to derive a new grid with some changes. For instance, to execute the same transformation on all rows, one can use
-the `[Grid::mapRows(RowMapper, ColumnModel)](https://javadoc-v4.openrefine.org/org/openrefine/model/grid#mapRows(org.openrefine.model.RowMapper,org.openrefine.model.ColumnModel))` method.
+the [`Grid::mapRows(RowMapper, ColumnModel)`](https://javadoc-v4.openrefine.org/org/openrefine/model/grid#mapRows(org.openrefine.model.RowMapper,org.openrefine.model.ColumnModel)) method.
 Its first agrument supplies a function which is applied on each row, and the second is the new column model of the resulting grid (which might not be the same as in the initial grid, for instance when adding a new column).
 Note that there is no guarantee on the order in which the mapping function will be executed, as the execution might be eager or lazy, sequential or parallel
 depending on the implementations. As such this function should be pure.
