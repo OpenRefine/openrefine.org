@@ -1,6 +1,6 @@
 ---
 title: OpenRefine Project History
-description: 
+description: A brief overview of OpenRefine History
 hide_table_of_contents: true
 ---
 
