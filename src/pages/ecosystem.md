@@ -5,13 +5,15 @@ hide_table_of_contents: true
 ---
 # OpenRefine Ecosystem
 
-The OpenRefine ecosystem is composed of multiple communities and use cases. The core team is responsible for maintaining OpenRefine, its documentation, and discussion forums. The Advisory Committee is responsible for OpenRefine funding and adminstrative task. 
+The OpenRefine ecosystem is built around the OpenRefine projet who maintain OpenRefine, the user forum and OpenRefine documentation, and users group who contextualize OpenRefine for their communities usage. 
 
-On the other hand, OpenRefine's user communities adapt the software to meet their specific needs. These communities are actively engaged in advocacy, training, and support activities. For example, libraries host training sessions for archivists, librarians, and researchers, workshops are organized at data journalist conferences, and dedicated training sessions are tailored for Wikimedians.
+Those user group include data journalist, semantic web enthousiasts, Galleries, Libraries, Archives,and Museums (GLAM), researchers or member of the Wikimedia Mouvement. Each communities provide advocacy, training and support activities via medium relevant for their community. For example, libraries host training sessions for archivists, librarians, and researchers ; workshops are organized at data journalist conferences ; and dedicated telegram channel are open to support Wikimedians.
 
-Third-party developers can also create new extensions and reconciliation services compatible with OpenRefine. Reconciliation services allow users to link their datasets with a knowledge graph, while extensions add domain-specific features or integrate OpenRefine into a particular workflow. These services expand the capabilities of OpenRefine, enabling users to accomplish their data-related tasks more efficiently.
+Third-party developers create new extensions and reconciliation services compatible with OpenRefine. Reconciliation services allow users to link their datasets with a knowledge graph, while extensions add domain-specific features or integrate OpenRefine into a particular workflow. These services expand the capabilities of OpenRefine, enabling users to accomplish their data-related tasks more efficiently.
+ 
+Finally the Advisory Committee is responsible for OpenRefine funding and adminstrative task to support the ecosystem. 
 
-### Overview of OpenRefine ecosystem 
+The following graphic represent the relationship between OpenRefine and its user communities. Click on the 🔗 for more details on each node. The blue section represent activities coordinated by the OpenRefine project. 
 
 ```mermaid
 graph TB;
