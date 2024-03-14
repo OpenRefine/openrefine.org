@@ -79,7 +79,6 @@ Facet boxes that appear in the sidebar can be resized and rearranged. You can dr
 Certain operations don't respect facet settings. If you perform any of the following operations while filtering your data with a facet, the operation will apply to all relevant data, columns, and/or rows in the table, not just those which you have filtered with the facet:
 
 *   Moving, Removing, Renaming, or Reordering a column
-*   Denormalizing data
 *   Splitting or Joining multi-valued cells
 *   Reordering of rows 
 *   Transposition (columns to rows, rows to columns, and columnization by key/value columns)
