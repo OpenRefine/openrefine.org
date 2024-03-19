@@ -74,6 +74,16 @@ You can modify any facet expression by clicking the “change” button to the r
 
 Facet boxes that appear in the sidebar can be resized and rearranged. You can drag and drop the title bar of each box to reorder them, and drag on the bottom bar of text facet boxes. 
 
+:::info Operations that don't respect facets
+
+Certain operations don't respect facet settings. If you perform any of the following operations while filtering your data with a facet, the operation will apply to all relevant data, columns, and/or rows in the table, not just those which you have filtered with the facet:
+
+*   Moving, Removing, Renaming, or Reordering a column
+*   Splitting or Joining multi-valued cells
+*   Reordering of rows 
+*   Transposition (columns to rows, rows to columns, and columnization by key/value columns)
+:::
+
 ## Text facet {#text-facet}
 
 A text facet can be generated on any column with the “text” data type. Select the column dropdown and go to <span class="menuItems">Facet</span> → <span class="menuItems">Text facet</span>. The created facet will be sorted alphabetically, and can be sorted by count. 
