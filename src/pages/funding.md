@@ -72,7 +72,7 @@ OpenRefine is currently working on the following grants.
 * **Start date**: June 2023
 * **End date**: June 2024
 * **Relevant links**: 
-  * [Grant application](/uploads/2023-Wikimedia.pdf)
+  * [Grant application](/uploads/2023-Wikimedia.pdf) and on [Wikimedia Meta-Wiki](https://meta.wikimedia.org/wiki/Grants:Project/CS%26S/Structured_Data_on_Wikimedia_Commons_functionalities_in_OpenRefine)
   * [Commons:OpenRefine/Train-the-trainer program 2023-24](https://commons.wikimedia.org/wiki/Commons:OpenRefine/Train-the-trainer_program_2023-24)
   * [Blog Post: Wikimedia-OpenRefine training and sustainability project](/blog/2023/07/26/Wikimedia-Commons-Training-Grant)
   
