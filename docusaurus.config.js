@@ -111,10 +111,6 @@ module.exports = {
               href: '/external_resources',
             },
             {
-              label: 'Roadmap',
-              href: '/roadmap',
-            },
-            {
               label: 'Contributing',
               href: '/docs/technical-reference/contributing',
             },     

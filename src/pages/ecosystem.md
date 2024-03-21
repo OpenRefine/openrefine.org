@@ -5,15 +5,15 @@ hide_table_of_contents: true
 ---
 # OpenRefine Ecosystem
 
-The OpenRefine ecosystem is built around the OpenRefine projet who maintain OpenRefine, the user forum and OpenRefine documentation, and users group who contextualize OpenRefine for their communities usage. 
+The OpenRefine ecosystem comprises the OpenRefine project, which maintains the OpenRefine software, user forums, documentation, and user groups that contextualize OpenRefine for their communities' usage.
 
-Those user group include data journalist, semantic web enthousiasts, Galleries, Libraries, Archives,and Museums (GLAM), researchers or member of the Wikimedia Mouvement. Each communities provide advocacy, training and support activities via medium relevant for their community. For example, libraries host training sessions for archivists, librarians, and researchers ; workshops are organized at data journalist conferences ; and dedicated telegram channel are open to support Wikimedians.
+Those user groups include data journalists, semantic web enthusiasts, Galleries, Libraries, Archives, Museums (GLAM), researchers, or members of the Wikimedia Movement. Each community provides advocacy, training, and support activities via mediums relevant to its members, with little coordination between them. For instance, libraries host training sessions for archivists, librarians, and researchers; workshops are organized during data journalism conferences; and a dedicated Telegram channel is available for Wikimedians seeking support.
 
-Third-party developers create new extensions and reconciliation services compatible with OpenRefine. Reconciliation services allow users to link their datasets with a knowledge graph, while extensions add domain-specific features or integrate OpenRefine into a particular workflow. These services expand the capabilities of OpenRefine, enabling users to accomplish their data-related tasks more efficiently.
- 
-Finally the Advisory Committee is responsible for OpenRefine funding and adminstrative task to support the ecosystem. 
+Third-party developers create new extensions and reconciliation services compatible with OpenRefine. Reconciliation services allow users to link their datasets with a knowledge graph, while extensions add domain-specific features or integrate OpenRefine into a particular workflow. These services expand OpenRefine's capabilities, enabling users to accomplish their tasks more efficiently.
 
-The following graphic represent the relationship between OpenRefine and its user communities. Click on the 🔗 for more details on each node. The blue section represent activities coordinated by the OpenRefine project. 
+Finally, the Advisory Committee is responsible for OpenRefine funding and administrative tasks to support the ecosystem.
+
+The following graphic represents the relationship between OpenRefine and its user communities. Click on the 🔗 for more details on each node. The blue section represents activities coordinated by the OpenRefine project.
 
 ```mermaid
 graph TB;
@@ -42,15 +42,16 @@ graph TB;
      click idExtension "/extensions"
      idLibraries(["🔗 5 Client Libraries"])
      click idLibraries "/extensions#client-libraries"
-    idCommunity(["<b>Users Communities:</b><br>Data Journalist<br>Semantic Web and Linked Data<br>Galleries, Libraries, Archives,and Museums<br>Researchers<br>Wikimedia Mouvement<br>and many more ...."])
-    
+          idCommunity(<b>Users Communities:</b><br><div style="text-align: left;">Data Journalist<br>Semantic Web and Linked Data<br>Galleries, Libraries, Archives, and Museums<br>Researchers<br>Wikimedia Movement<br>and many more ....</div>)  
      subgraph idOpenRefine["."]
        style idOpenRefine fill:#c7e7ff,stroke:#333,stroke-width:2px;    
     idDevTeam --- idOpenRefineProject 
     idOpenRefineProject --- idAdministration --- idCoC & idProjectManager
-    idOpenRefineProject --- idUser  --- idTranslation & idSupport & Training & idDocumentation 
+    idOpenRefineProject --- idUser  --- idTranslation & idSupport & idDocumentation 
 		  end
-   Training & idDocumentation & idSupport --- idCommunity
+   idSupport --- idDedicatedSupport("Community Specific Support") --- idCommunity
+   idDocumentation --- idTutorials("Community Specific Tutorials") --- idCommunity
+   idUser ---- Training --- idCommunity
 	   idAdministration ---- idFundingPartner & idCS&S
     idLibraries & idExtension & idReconciliation --- idThirdParty
     idThirdParty ---- idOpenRefineProject
