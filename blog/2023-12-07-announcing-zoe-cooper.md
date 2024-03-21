@@ -1,7 +1,7 @@
 ---
 author: Martin Magdinier
 title: Announcing Zoe Cooper as OpenRefine Lead Designer
-slug: 2023/12/07/announcing-zoe-cooper
+slug: 2023/12/07/announcing-zoe-cooper.html
 ---
 
 We are excited to announce that Zoe Cooper has joined the OpenRefine team as lead designer. Following our [job posting in late August](/blog/2023/08/25/reproducibility-designer), Zoe stood out as the perfect person for the role.
