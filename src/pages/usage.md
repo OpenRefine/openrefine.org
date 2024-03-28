@@ -82,7 +82,7 @@ As of March 20, 2024, over the last 12 months
 
 The statistics below only track activity on our primary GitHub repository, which includes code, design, and translation contributions. Our documentation is available in a separate repository.
 
-As of March 20th, 2024, over the last 12 months we have: 
+As of March 20th, 2024, over the last 12 months we had: 
 * 43 active github contributors (including dependabot and weblate);
 * [226 issues created](https://github.com/OpenRefine/OpenRefine/issues?q=is%3Aissue+created%3A%3E2023-03-13+);
 * [278 PR created](https://github.com/OpenRefine/OpenRefine/pulls?q=is%3Apr+created%3A%3E2023-03-13) (excluding PR created by [dependabot](https://github.com/OpenRefine/OpenRefine/pulls?q=is%3Apr+created%3A%3E2023-03-13+dependabot)) and [263 merged](https://github.com/OpenRefine/OpenRefine/pulls?q=is%3Amerged+created%3A%3E2023-03-13+);
