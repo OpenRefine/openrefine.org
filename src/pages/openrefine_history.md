@@ -46,7 +46,7 @@ In July 2010, Google acquired Metaweb Technologies and with it, Freebase Gridwor
 
 ## 2012 - 2018: OpenRefine
 <img src="/img/logo/open-refine.png" alt="OpenRefine" height="50"/>
-In 2012, Google made the decision to discontinue the development of Google Refine. Existing project contributors took over the project and renamed it "OpenRefine". The project was then moved to Github. The following year saw OpenRefine gaining a diverse user base, including scientists and researchers, journalists, semantic web practitioners, librarians, and cultural heritage specialists.
+In 2012, Google transferred leadership of the project to the open source community, who renamed it "OpenRefine" and moved it to GitHub. The following years saw OpenRefine continuing to gain a diverse user base, including scientists and researchers, journalists, semantic web practitioners, librarians, and cultural heritage specialists.
 
 In 2017, OpenRefine began integrating with Wikidata by creating a reconciliation endpoint and a process to publish data to the Wikimedia project.
 

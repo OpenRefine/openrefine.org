@@ -132,7 +132,7 @@ module.exports = {
               href: '/community',
             },
             {
-              label: 'Who use OpenRefine',
+              label: 'Who uses OpenRefine',
               href: '/usage',
             },            
             {

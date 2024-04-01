@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 # Get involved in the OpenRefine community
 
-OpenRefine is made by people like you. You can help us as
+OpenRefine is made by people like you. You can help us in many ways, including the roles below.
 
 
 import OpenRefineIsMagicImageUrl from '@site/static/img/openrefine_is_magic.png';

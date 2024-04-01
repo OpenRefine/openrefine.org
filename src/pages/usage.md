@@ -55,7 +55,7 @@ The table below the total number of downloads per release for OpenRefine as of M
 | 3.4       | 2020-09-06    |         9,390 |
 
 ## Academic Citations 
-OpenRefine is used by many academic in their research and cited in their publication. OpenRefine is also available on Zenodo with the [DOI-10.5281](https://zenodo.org/records/10689569) if you intent to cite it. The table below track the number of citation per year based by searching the following terms on Google Scholar:
+OpenRefine is used by many academics in their research and cited in their publications. OpenRefine is also available on Zenodo with the [DOI-10.5281](https://zenodo.org/records/10689569) if you intend to cite it. The table below track the number of citation per year based by searching the following terms on Google Scholar:
 * [Google Refine](https://scholar.google.ca/scholar?hl=en&as_sdt=0%2C5&as_ylo=2023&as_yhi=2023&q=%22Google+Refine%22+-openrefine&btnG=)
 * [Open Refine](https://scholar.google.ca/scholar?hl=en&as_sdt=0%2C5&as_ylo=2023&as_yhi=2023&q=%22Open+Refine%22+-openrefine&btnG=)
 * [OpenRefine](https://scholar.google.ca/scholar?hl=en&as_sdt=0%2C5&as_ylo=2023&as_yhi=2023&q=%22OpenRefine%22&btnG=)
@@ -83,7 +83,7 @@ As of March 20, 2024, over the last 12 months
 The statistics below only track activity on our primary GitHub repository, which includes code, design, and translation contributions. Our documentation is available in a separate repository.
 
 As of March 20th, 2024, over the last 12 months we had: 
-* 43 active github contributors (including dependabot and weblate);
+* 41 active GitHub contributors;
 * 227 issues [created](https://github.com/OpenRefine/OpenRefine/issues?q=is%3Aissue+created%3A2023-03-20..2024-03-20) and 199 [closed](https://github.com/OpenRefine/OpenRefine/issues?q=is%3Aissue+closed%3A2023-03-20..2024-03-20);
 * [223 PRs merged](https://github.com/OpenRefine/OpenRefine/pulls?page=3&q=is%3Amerged+created%3A2023-03-20..2024-03-20+-author%3Aapp%2Fdependabot) (excluding those created by dependabot) 
 
