@@ -12,6 +12,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 const releases = require('../../../releases.json');
+const events = require('../../../events.json');
 const releaseUtils = require('../../releases.js');
 
 function releaseJSON(release) {
@@ -33,7 +34,8 @@ module.exports = function (context) {
       const sitemapPath = path.join(outDir, 'versions.json');
       try {
         let versionsJSON = {
-          releases: releases.map(releaseJSON)
+          releases: releases.map(releaseJSON),
+          events
         };
         await fs.outputFile(sitemapPath, JSON.stringify(versionsJSON));
       } catch (err) {
