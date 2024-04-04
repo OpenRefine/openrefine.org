@@ -35,7 +35,6 @@ Since 2018, OpenRefine has relied on grants to sustain its development. Below, y
 OpenRefine is actively applying to grant opportunities listed in this section. We will update this section with the latest information as we progress.
 If you're interested in partnering with us for a grant, [contact us](https://forum.openrefine.org/). 
 
-
 #### 2024-DEF
 
 * **Status**: Application submitted. Results expected by end of March 2024. 
@@ -46,19 +45,6 @@ If you're interested in partnering with us for a grant, [contact us](https://for
 * **Relevant links**: 
   * [Call for proposals](https://dataempowerment.fund/wp-content/uploads/2023/12/DEF_Open_Call.pdf?v=2)
   * [Grant application](/uploads/2024-DEF-Application.pdf)
-
-#### 2023 EOSS-6
-
-* **Status**: Application submitted. Results expected by end of March 2024. 
-* **Amount**: asking for USD 400,000 (USD 200,000 per year for two years)
-* **Source**: [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
-* **Start date**: June 2024
-* **End date**: June 2026
-* **Relevant links**: 
-  * [Call for proposals](https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/)
-  * [Letter of intent](/uploads/2023-EOSS6-LOI.pdf)
-  * [Grant application](/uploads/2023-EOSS-6-Application.pdf)
-  * [Forum thread](https://forum.openrefine.org/t/upcoming-financing-option-for-openrefine/989/13)
 
 ### Current grants
 
@@ -161,6 +147,19 @@ OpenRefine completed the following grants.
 
 We applied to the following grant opportunities but our proposals were not selected. 
 
+#### 2023 EOSS-6
+
+* **Status**: Not Awarded
+* **Amount**: asking for USD 400,000 (USD 200,000 per year for two years)
+* **Source**: [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
+* **Start date**: June 2024
+* **End date**: June 2026
+* **Relevant links**: 
+  * [Call for proposals](https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/)
+  * [Letter of intent](/uploads/2023-EOSS6-LOI.pdf)
+  * [Grant application](/uploads/2023-EOSS-6-Application.pdf)
+  * [Forum thread](https://forum.openrefine.org/t/upcoming-financing-option-for-openrefine/989/13)
+ 
 #### 2023 Mozilla Infrastructure Fund 
 * **Status**: Not Awarded
 * **Amount**: USD 50,000
