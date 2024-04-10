@@ -11,7 +11,7 @@ This page explains how to install the tools you need to run OpenRefine from sour
 * [OpenRefine's source code](#get-openrefine-source-code);
 * a [Java Development Kit (JDK)](#set-up-jdk) (version 11 or later);
 * [Apache Maven](#maven);
-* [Node.js and NPM](#nodejs) (version 16 or later).
+* [Node.js and NPM](#nodejs) (version 20 or later).
 
 ### Get OpenRefine's source code {#get-openrefine-source-code}
 
@@ -147,7 +147,7 @@ Other distributions are likely to offer Maven in their official package reposito
 ### Node.js and npm {#nodejs}
 
 
-The OpenRefine webapp requires [Node.js](https://nodejs.org/en/download/) and npm to install package dependencies. We require Node.js 16 or newer.
+The OpenRefine webapp requires [Node.js](https://nodejs.org/en/download/) and npm to install package dependencies. We require Node.js 20 or newer.
 Download and install Node.js  (On Windows, you can alternatively install [nvm](https://github.com/coreybutler/nvm-windows) to easily manage multiple npm versions on your system).  You should then have node and npm intalled. You can check the versions by typing:
 ```
 node -v
