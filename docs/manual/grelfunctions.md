@@ -447,6 +447,12 @@ As of OpenRefine 3.4.1, uniques() reorders the array items it returns; in 3.4 be
 
 ## Date functions {#date-functions}
 
+:::tip
+
+OpenRefine Date functions only work on Strings or Dates, not Numbers.  I.E. you can not covert number 2000 to a year using `value.toDate('yyyy')`.  When converting cell values to Dates, ensure your cells' values are already Strings (data type: Text).
+
+:::
+
 ###### now() {#now}
 
 Returns the current time according to your system clock, in the [ISO 8601 extended format](exploring#data-types) (converted to UTC). For example, 10:53am (and 00 seconds) on November 26th 2020 in EST returns [date 2020-11-26T15:53:00Z].
