@@ -57,6 +57,6 @@ used when importing or exporting projects to a Google Drive, or for Wikibase aut
 
 ## Update notifications on OpenRefine's start page
 
-To detect whether a new version is available, OpenRefine makes web queries to external websites when its start page is opened. This can be disabled by [setting the system property](manual/running#jvm-preferences) `refine.display.new.version.notice` to `false`.
+To detect whether a new version is available, OpenRefine makes web queries to external websites when its start page is opened. This can be disabled by [setting the system property](docs/manual/running#jvm-preferences) `refine.display.new.version.notice` to `false`.
 * Before OpenRefine 3.8, the queries are made to GitHub.com. See [GitHub's privacy policy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) to find out what information gets stored out of those requests.
 * From OpenRefine 3.8 on, the queries are made to openrefine.org, hosted by Netlify. See [Netlify's data processing agreement](https://www.netlify.com/pdf/netlify-dpa.pdf) for details about data they might store. The OpenRefine project does not have access to analytics for those requests, like the rest of the traffic on openrefine.org.
