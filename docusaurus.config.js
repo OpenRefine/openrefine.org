@@ -94,7 +94,7 @@ module.exports = {
               href: '/distributions',
             },
             {
-              label: 'OpenRefine Ecosystem',
+              label: 'Ecosystem',
               href: '/ecosystem',
             },
           ],

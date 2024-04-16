@@ -7,7 +7,7 @@ hide_table_of_contents: false
 
 OpenRefine is a free, open source power tool for working with messy data and improving it: cleaning it, transforming it from one format into another, and extending it with web services and external data. Requiring no knowledge of a programming or query language, it lets users find and fix inconsistencies interactively, match their data to external databases, pull additional data from these, and perform many other useful operations. The resulting workflows can be extracted and applied to other datasets.
 
-OpenRefine is downloaded on average 15,500 times per month and received over 800 academic citations in 2023.
+**OpenRefine is downloaded on average 15,500 times per month** and received over 800 academic citations in 2023.
 
 ## Our Users Community
 
@@ -31,29 +31,6 @@ xychart-beta horizontal
     bar [5.38, 2.07, 15.11, 10.14, 11.59, 8.49, 9.52, 11.18, 8.90, 3.11, 2.28, 1.66, 2.28, 7.04, 0.83, 0.41]
 ```
 
-## Downloads
-
-The table below the total number of downloads per release for OpenRefine as of March 20, 2024.
- 
-| Release   | Release Date | Download |
-| :-------- | :----------- | -------------: |
-| 3.8-beta1 | 2024-02-21    |         2,829 |
-| 3.7.9     | 2024-02-10    |        21,758 |
-| 3.7.7     | 2023-11-29    |        34,715 |
-| 3.7.6     | 2023-10-09    |        32,908 |
-| 3.7.5     | 2023-09-11    |        17,934 |
-| 3.7.4     | 2023-07-17    |        25,012 |
-| 3.7.3     | 2023-06-26    |         9,940 |
-| 3.7.2     | 2023-04-05    |        41,621 |
-| 3.7.1     | 2023-03-10    |        15,576 |
-| 3.7.0     | 2023-02-15    |        14,573 |
-| 4.0-alpha1| 2021-12-30    |           286 |
-| 3.5.2     | 2022-01-26    |        73,861 |
-| 3.5.1     | 2021-12-19    |        11,676 |
-| 3.5.0     | 2021-11-07    |        18,143 |
-| 3.4.1     | 2020-09-24    |      149,121 |
-| 3.4       | 2020-09-06    |         9,390 |
-
 ## Academic Citations 
 OpenRefine is used by many academics in their research and cited in their publications. OpenRefine is also available on Zenodo with the [DOI-10.5281](https://zenodo.org/records/10689569) if you intend to cite it. The table below track the number of citation per year based by searching the following terms on Google Scholar:
 * [Google Refine](https://scholar.google.ca/scholar?hl=en&as_sdt=0%2C5&as_ylo=2023&as_yhi=2023&q=%22Google+Refine%22+-openrefine&btnG=)
@@ -70,7 +47,7 @@ xychart-beta
     bar [4, 67, 162, 251, 356, 424, 477, 502, 584, 571, 586, 717, 783, 811]
 ```
 
-## Forum Statistic 
+## Forum Statistics 
 
 On November 2022, we moved from our Google Groups to discourse to host our forum. 
 
@@ -87,14 +64,14 @@ As of March 20th, 2024, over the last 12 months we had:
 * 227 issues [created](https://github.com/OpenRefine/OpenRefine/issues?q=is%3Aissue+created%3A2023-03-20..2024-03-20) and 199 [closed](https://github.com/OpenRefine/OpenRefine/issues?q=is%3Aissue+closed%3A2023-03-20..2024-03-20);
 * [223 PRs merged](https://github.com/OpenRefine/OpenRefine/pulls?page=3&q=is%3Amerged+created%3A2023-03-20..2024-03-20+-author%3Aapp%2Fdependabot) (excluding those created by dependabot) 
 
-The following graphic represent the number of active contributors per months on the main repository [^1]. You can also review the [Github pulse](https://github.com/OpenRefine/OpenRefine/pulse) and [Github traffic](https://github.com/OpenRefine/OpenRefine/graphs/traffic) pages for real time insights on the activities on our main repository. 
+The following graphic represent a three months rolling average of the number of active contributors on the main repository [^1]. You can also review the [Github pulse](https://github.com/OpenRefine/OpenRefine/pulse) and [Github traffic](https://github.com/OpenRefine/OpenRefine/graphs/traffic) pages for real time insights on the activities on our main repository. 
 
 ```mermaid 
 %%{init: {'theme':'forest'}}%%
 xychart-beta 
     x-axis   2010 --> 2023
     y-axis "Number of GitHub contributors per month" 0 --> 30 
-    line [1,2,3,5,4,3,2,2,4,5,4,4,2,3,0,2,3,2,2,3,2,3,3,2,2,1,2,1,1,1,2,2,2,1,3,4,2,1,1,4,2,3,1,2,0,2,2,3,0,2,5,4,3,2,6,4,0,4,1,8,3,5,0,1,0,0,0,1,1,0,1,2,1,2,0,0,5,5,2,4,4,6,8,3,12,9,12,12,17,13,14,14,6,8,8,9,10,16,12,8,4,10,7,4,4,9,6,8,11,7,4,13,11,27,25,15,22,21,18,18,16,19,7,19,23,14,22,16,12,7,9,12,15,18,12,18,17,19,21,11,14,17,13,7,14,14,10,9,10,13,13,12,10,8,7,9,9,8,6,12]
+    line [1,2,2,3,4,4,3,2,3,4,4,4,3,3,2,2,2,2,2,2,2,3,3,3,2,2,2,1,1,1,1,2,2,2,2,3,3,2,1,2,2,3,2,2,1,1,1,2,2,2,2,4,4,3,4,4,3,3,2,4,4,5,3,2,0,0,0,0,1,1,1,1,1,2,1,1,2,3,4,4,3,5,6,6,8,8,11,11,14,14,15,14,11,9,7,8,9,12,13,12,8,7,7,7,5,6,6,8,8,9,7,8,9,17,21,22,21,19,20,19,17,18,14,15,16,19,20,17,17,12,9,9,12,15,15,16,16,18,19,17,15,14,15,12,11,12,13,11,10,11,12,13,12,10,8,8,8,9,8,9]
 ```
 
 

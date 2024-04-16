@@ -5,7 +5,7 @@ hide_table_of_contents: false
 ---
 # OpenRefine History 
 
-Over the last ten years, OpenRefine has undergone significant transformations, including changes in its name and development model. It has transitioned from an enterprise-led model to a grant-based funding model.
+Over the last ten years, OpenRefine has undergone significant transformations, including changes in its name and development model. It has transitioned from an enterprise-led open source model to a community-based open source model, with later support from occasional [grants](/funding).
 
 ```mermaid
 %%{init: { 'theme': 'forest', 'timeline': {'disableMulticolor': true}}}%%
@@ -44,17 +44,17 @@ The history of OpenRefine dates back to May 2010, when Metaweb Technologies, Inc
 <img src="/img/logo/google-refine.png" alt="Google Refine" height="50"/>
 In July 2010, Google acquired Metaweb Technologies and with it, Freebase Gridworks. Following this acquisition, the tool was renamed "Google Refine". Under Google's stewardship, Google Refine 2.0 was released, featuring enhanced data cleaning capabilities. This version established the tool's reputation for handling various data-related tasks, such as cleaning messy data, transforming data formats, and extending data sets with web services.
 
-## 2012 - 2018: OpenRefine
+## 2012 - 2019: OpenRefine
 <img src="/img/logo/open-refine.png" alt="OpenRefine" height="50"/>
 In 2012, Google transferred leadership of the project to the open source community, who renamed it "OpenRefine" and moved it to GitHub. The following years saw OpenRefine continuing to gain a diverse user base, including scientists and researchers, journalists, semantic web practitioners, librarians, and cultural heritage specialists.
 
 In 2017, OpenRefine began integrating with Wikidata thanks to the availability of a reconciliation endpoint and a process to publish data to the Wikimedia project.
 
-## 2018 - today: OpenRefine grant base model
+In December 2018, Google News Initiative donated $100,000 to support OpenRefine development. The same year the project's logo was updated.
+
+## 2019 - today: OpenRefine, part of Code for Science & Society
 <img src="/img/logo/OpenRefine.png" alt="OpenRefine" height="50"/>
-In 2018, Google News Initiative donated $100,000 to support OpenRefine development, initiating a new grant-based sustainability model. The same year the project's logo was updated.
 
-OpenRefine confirmed its grant-based sustainability model the following year when it received USD 200,000 through the Chan-Zuckerberg Initiative EOSS-1. In 2020, OpenRefine became a fiscally sponsored project of Code for Science and Society, a 501(c)(3) charitable organization in the USA, and an Advisory Committee was formed. During that time, OpenRefine experienced tremendous growth by doubling the number of active contributors, increasing the number of translated languages, and seeing more users rely on it.
+In the following years, OpenRefine confirmed its grant-based sustainability model by receiving recurring funding from the Chang Zuckerberg Initiative, the Wikimedia Foundation, and NFDI. To help manage funds, OpenRefine became a fiscally sponsored project of Code for Science and Society (CS&S), a 501(c)(3) charitable organization in the USA, in 2020. 
 
-Since then, OpenRefine has secured recurring funding from CZI, the Wikimedia Foundation, and NFDI to ensure the project's long-term viability. This funding has helped the project rely on a combination of volunteers and contractors for its development.
-
+During that time, OpenRefine experienced tremendous growth by doubling the number of active contributors (both paid and volunteers), increasing the number of translated languages, adding native integration with Wikimedia Commons and Wikibase, and seeing more users rely on it. The project also became more organized with the creation of an Advisory Committee and participation in internship programs like Google Summer of Code and Outreachy. 
