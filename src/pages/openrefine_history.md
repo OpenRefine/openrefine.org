@@ -5,7 +5,7 @@ hide_table_of_contents: false
 ---
 # OpenRefine History 
 
-Over the last ten years, OpenRefine has undergone significant transformations, including changes in its name and development model. It has transitioned from an enterprise-led open source model to a community-based open source model, with later support from occasional [grants](/funding).
+Over the last ten years, OpenRefine has undergone significant transformations, including changes in its name and development model. It has transitioned from an enterprise-led open source model to a community-based open source model, with later support from occasional grants.
 
 ```mermaid
 %%{init: { 'theme': 'forest', 'timeline': {'disableMulticolor': true}}}%%
