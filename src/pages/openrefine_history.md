@@ -32,7 +32,7 @@ timeline
                     : First grants with Google News Initiatives and CZI with open source contributors
 
       2020 - Today : OpenRefine
-                    : Version 4.x and 3.7.x
+                    : Version 3.3+
                     : Grant based model with CS&S as fiscal sponsor with open source contributors
 ```
 
@@ -48,7 +48,7 @@ In July 2010, Google acquired Metaweb Technologies and with it, Freebase Gridwor
 <img src="/img/logo/open-refine.png" alt="OpenRefine" height="50"/>
 In 2012, Google transferred leadership of the project to the open source community, who renamed it "OpenRefine" and moved it to GitHub. The following years saw OpenRefine continuing to gain a diverse user base, including scientists and researchers, journalists, semantic web practitioners, librarians, and cultural heritage specialists.
 
-In 2017, OpenRefine began integrating with Wikidata by creating a reconciliation endpoint and a process to publish data to the Wikimedia project.
+In 2017, OpenRefine began integrating with Wikidata thanks to the availability of a reconciliation endpoint and a process to publish data to the Wikimedia project.
 
 ## 2018 - today: OpenRefine grant base model
 <img src="/img/logo/OpenRefine.png" alt="OpenRefine" height="50"/>

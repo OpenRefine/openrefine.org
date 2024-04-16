@@ -124,7 +124,7 @@ module.exports = {
           title: 'About OpenRefine',
           items: [
             {
-              label: 'OpenRefine History',
+              label: 'Project history',
               href: '/openrefine_history',
             },
             {
