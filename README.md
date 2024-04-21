@@ -1,19 +1,25 @@
 OpenRefine.org website
 ======================
 
-We use [Docusaurus 2](https://v2.docusaurus.io/) for our website.
+We use [Docusaurus](https://docusaurus.io/) for our website.
 
-If you want to run it locally, you can follow the instructions below, otherwise you should be able to edit most pages directly with a Markdown editor. Opening a pull request for your changes will generate a preview that you can browse to check the
-rendering.
+If you want to run it locally, you can follow the instructions below, otherwise you should be able to edit most pages directly with a Markdown editor.
+Opening a pull request for your changes will generate a preview that you can browse to check the rendering.
 
 ### Requirements
 
-Assuming you have [Node.js (LTS recommended)](https://nodejs.org/en/download/) installed (which includes npm), you can install Docusaurus with:
+Assuming you have [Node.js (LTS recommended)](https://nodejs.org/en/download/) installed (which now includes corepack), you can install Docusaurus with:
 
-You will need to install [Yarn](https://yarnpkg.com/getting-started/install) before you can build the site.
+Enable Corepack, if it isn't already; this will add the [Yarn](https://yarnpkg.com/getting-started/install) binary to your PATH:
 
 ```sh
-npm install -g yarn
+corepack enable
+```
+
+Update Yarn to the latest version:
+
+```sh
+yarn set version stable
 ```
 
 ### Installation
@@ -45,10 +51,10 @@ TypeError: Cannot read property 'latest' of undefined
 error Command failed with exit code 1.
 ```
 
-then it is likely that you will need to first run
+then it is likely that you will need to first upgrade dependencies across all workspaces at the same time
 
 ```sh
-yarn upgrade
+yarn up
 ```
 
 which will update all dependencies and store them in the `yarn.lock` file to also be committed.
