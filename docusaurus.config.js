@@ -1,10 +1,12 @@
-module.exports = {
+export default async function createConfigAsync() {
+
+return {
   markdown: {
     mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid'],
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
+  onBrokenAnchors: 'throw',
   title: 'OpenRefine',
   tagline: 'A power tool for working with messy data.',
   url: 'https://openrefine.org',
@@ -13,6 +15,7 @@ module.exports = {
   favicon: 'img/openrefine_logo.svg',
   organizationName: 'OpenRefine', // Usually your GitHub org/user name.
   projectName: 'openrefine.github.com', // Usually your repo name.
+  themes: ['@docusaurus/theme-mermaid'],
   themeConfig: {
     navbar: {
       title: 'OpenRefine',
@@ -149,7 +152,7 @@ module.exports = {
       copyright: `<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />OpenRefine's documentation is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.`,
     },
   },
-  plugins: ['./src/plugins/docusaurus-versionsjson-plugin'],
+  plugins: ['./src/plugins/docusaurus-versions-json-plugin'],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -188,3 +191,4 @@ module.exports = {
     },
   ],
 };
+}
