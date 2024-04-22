@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>OpenRefine Blog</title>
+        <link>https://openrefine.org/blog</link>
+        <description>OpenRefine Blog</description>
+        <lastBuildDate>Fri, 05 Apr 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Register to our first BarCamp]]></title>
+            <link>https://openrefine.org/blog/2024/04/05/barcamp-registration-opens</link>
+            <guid>https://openrefine.org/blog/2024/04/05/barcamp-registration-opens</guid>
+            <pubDate>Fri, 05 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Registration to our meeting around OpenRefine has opened.]]></description>
+            <content:encoded><![CDATA[<p>Registration to <a href="https://barcamps.eu/openrefine-2024-barcamp/" target="_blank" rel="noopener noreferrer">our meeting around OpenRefine</a> has opened.
+The gathering will take place on June 17th-19th in Berlin, Germany and online.
+We hope to gather many interested OpenRefine community members, partners and stakeholders who want to help shape the project’s future.
+Please forward the news to anyone who could be interested in attending!</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[OpenRefine is participating in Google Summer of Code]]></title>
+            <link>https://openrefine.org/blog/2024/03/14/gsoc</link>
+            <guid>https://openrefine.org/blog/2024/03/14/gsoc</guid>
+            <pubDate>Thu, 14 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenRefine will be offering internships as part of the Google Summer of Code this year.]]></description>
+            <content:encoded><![CDATA[<p>OpenRefine will be offering internships as part of the <a href="https://summerofcode.withgoogle.com/" target="_blank" rel="noopener noreferrer">Google Summer of Code</a> this year.</p>
+<p>For prospective interns, this is an opportunity to get familiar with open source development with a paid and fully remote internship.
+We have proposed <a href="https://github.com/OpenRefine/OpenRefine/wiki/GSoC-Outreachy-2024-Ideas" target="_blank" rel="noopener noreferrer">a selection of possible internship topics</a>, but applicants are also welcome to propose other areas to work on.
+We would also welcome seasoned OpenRefine contributors to propose internship subjects and mentor interns.
+For users, this is a good opportunity to request small changes to the tool, as applicants are looking for good first issues to tackle during the application phase. This week's community meetup was the occasion to make applicants and users meet, to exchange ideas of improvements to OpenRefine. A <a href="https://forum.openrefine.org/t/openrefine-community-meetup/1276/2" target="_blank" rel="noopener noreferrer">similar meeting</a> will happen on March 29th, 07:00 UTC.</p>
+<p>We are very grateful for all the contributors who already started contributing and everyone who helped welcome them to the project! Further coordination of our participation to the programme is happening <a href="https://forum.openrefine.org/t/gsoc-2024-contributor-application-period/1246" target="_blank" rel="noopener noreferrer">on the forum</a>.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Save the date: BarCamp on June 17th-19th in Berlin]]></title>
+            <link>https://openrefine.org/blog/2024/02/22/barcamp</link>
+            <guid>https://openrefine.org/blog/2024/02/22/barcamp</guid>
+            <pubDate>Thu, 22 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[We will hold an in-person meeting around OpenRefine on June 17th-19th in Berlin, Germany.]]></description>
+            <content:encoded><![CDATA[<p>We will hold <a href="https://barcamps.eu/openrefine-2024-barcamp/" target="_blank" rel="noopener noreferrer">an in-person meeting around OpenRefine</a> on June 17th-19th in Berlin, Germany.
+We hope to gather many interested OpenRefine community members, partners and stakeholders who want to help shape the project’s future.
+Remote attendance will be possible too.</p>
+<p>Co-organizers for this event would be welcome. If you would like to help shape the BarCamp, please let us know <a href="https://forum.openrefine.org/t/organizing-an-openrefine-barcamp/179/35" target="_blank" rel="noopener noreferrer">on the forum</a>.</p>
+<p>More details will follow. For now, just save the date!</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[OpenRefine 3.7.9 released]]></title>
+            <link>https://openrefine.org/blog/2024/02/10/version-3-7-9</link>
+            <guid>https://openrefine.org/blog/2024/02/10/version-3-7-9</guid>
+            <pubDate>Sat, 10 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenRefine 3.7.9 was released today and it fixes a vulnerability with moderate severity (CVE-2024-23833).]]></description>
+            <content:encoded><![CDATA[<p>OpenRefine 3.7.9 was released today and it fixes a vulnerability with moderate severity (<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23833" target="_blank" rel="noopener noreferrer">CVE-2024-23833</a>).
+We encourage all users to update swiftly to the latest version.
+See the <a href="https://openrefine.org/whats_new">release notes</a> for more details about the vulnerability.</p>
+<p>We thank <a href="https://github.com/l0n3rs" target="_blank" rel="noopener noreferrer">@l0n3rs</a> for disclosing this vulnerability to us.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Introducing two new members to OpenRefine's Advisory Committee]]></title>
+            <link>https://openrefine.org/blog/2024/02/01/new-advisory-committee-members</link>
+            <guid>https://openrefine.org/blog/2024/02/01/new-advisory-committee-members</guid>
+            <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[We are pleased to welcome Julie Faure-Lacroix and Esther Jackson to the OpenRefine Advisory Committee. Both Julie and Esther have demonstrated a strong commitment to OpenRefine, and we're looking forward to their contributions to our team.]]></description>
+            <content:encoded><![CDATA[<p>We are pleased to welcome Julie Faure-Lacroix and Esther Jackson to the OpenRefine Advisory Committee. Both Julie and Esther have demonstrated a strong commitment to OpenRefine, and we're looking forward to their contributions to our team.</p>
+<h3 class="anchor anchorWithStickyNavbar__YFU" id="julie-faure-lacroix">Julie Faure-Lacroix<a href="https://openrefine.org/blog/2024/02/01/new-advisory-committee-members#julie-faure-lacroix" class="hash-link" aria-label="Direct link to Julie Faure-Lacroix" title="Direct link to Julie Faure-Lacroix">​</a></h3>
+<img src="https://openrefine.org/img/2024-julie_faure-lacroix.jpg" alt="Portrait photo of Julie Faure-Lacroix" height="200">
+<br>
+<p>Julie Faure-Lacroix is affiliated with <a href="https://www.ulaval.ca/" target="_blank" rel="noopener noreferrer">Université Laval</a> in Quebec and the <a href="https://alliancecan.ca/" target="_blank" rel="noopener noreferrer">Canada Research Alliance for Digital Innovation</a>. She has witnessed the growth and evolution of <a href="https://www.ulaval.ca/" target="_blank" rel="noopener noreferrer">Calcul Quebec</a> and brings valuable experience that can help the OpenRefine organization mature.</p>
+<p>Julie has practical experience using OpenRefine to cleanse survey and research data, and has been providing OpenRefine training for over 8 years. This aligns perfectly with our community's ethos.</p>
+<h3 class="anchor anchorWithStickyNavbar__YFU" id="esther-jackson">Esther Jackson<a href="https://openrefine.org/blog/2024/02/01/new-advisory-committee-members#esther-jackson" class="hash-link" aria-label="Direct link to Esther Jackson" title="Direct link to Esther Jackson">​</a></h3>
+<img src="https://openrefine.org/img/2024-esther-jackson.jpg" alt="Portrait photo of Esther Jackson" height="200">
+<br>
+<p>Esther Jackson is the Scholarly Communication Technologies Librarian at <a href="https://www.ulaval.ca/" target="_blank" rel="noopener noreferrer">Columbia University</a>, with seven years of experience in using OpenRefine. Her library science background enables her to integrate OpenRefine into various workflows and reconciliation services efficiently.</p>
+<p>Esther's unique combination of library expertise and technological proficiency will undoubtedly bring a fresh perspective to our Advisory Committee. Her experience as a <a href="https://www.ulaval.ca/" target="_blank" rel="noopener noreferrer">Carpentries</a> instructor is particularly noteworthy and valuable for our community.</p>
+<h3 class="anchor anchorWithStickyNavbar__YFU" id="moving-forward-together">Moving forward together<a href="https://openrefine.org/blog/2024/02/01/new-advisory-committee-members#moving-forward-together" class="hash-link" aria-label="Direct link to Moving forward together" title="Direct link to Moving forward together">​</a></h3>
+<p>The other members of the advisory committee are Antonin Delpeuch and Jan Ainali. We warmly welcome Julie and Esther to the team and look forward to their contributions. Thank you for joining us in this exciting new chapter for OpenRefine.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Date and venue options for an OpenRefine team meeting in 2024]]></title>
+            <link>https://openrefine.org/blog/2023/12/16/barcamp-venue-options</link>
+            <guid>https://openrefine.org/blog/2023/12/16/barcamp-venue-options</guid>
+            <pubDate>Sat, 16 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[For some time, a few team members have been considering organizing an in-person meeting around OpenRefine (for about 20 to 25 people).]]></description>
+            <content:encoded><![CDATA[<p>For some time, a few team members have been considering organizing an in-person meeting around OpenRefine (for about 20 to 25 people).
+The goal of such a meeting would be to have contributors get to know each other better, share their views and coordinate
+together on a diverse range of topics, such as roadmap, governance, design, documentation and likely many others.</p>
+<p><a href="https://forum.openrefine.org/t/organizing-an-openrefine-barcamp/179/23" target="_blank" rel="noopener noreferrer">Those planning discussions have been held on the forum</a>,
+which we acknowledge is only actively visited by parts of the broad OpenRefine community we want to reach out to with such a meeting.</p>
+<p>If you are interested in shaping the future of OpenRefine and meet likeminded people, you are invited! Whether you are a
+translator, a trainer, a developer, a designer, an advocate or if you feel involved in the project in
+any other capacity, we want to see you at this event.</p>
+<p>We are currently evaluating different dates and venue options. We aim to make remote participation possible and we should be able to offer travel support for many attendees.
+Please <a href="https://framadate.org/iHVSSxY9VhtxUhrV" target="_blank" rel="noopener noreferrer">select the dates that would work best for you in this poll</a>
+and <a href="https://forum.openrefine.org/t/organizing-an-openrefine-barcamp/179/23" target="_blank" rel="noopener noreferrer">let us know on the forum</a> if none of the options work for you.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Announcing Zoe Cooper as OpenRefine Lead Designer]]></title>
+            <link>https://openrefine.org/blog/2023/12/07/announcing-zoe-cooper.html</link>
+            <guid>https://openrefine.org/blog/2023/12/07/announcing-zoe-cooper.html</guid>
+            <pubDate>Thu, 07 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[We are excited to announce that Zoe Cooper has joined the OpenRefine team as lead designer. Following our job posting in late August, Zoe stood out as the perfect person for the role.]]></description>
+            <content:encoded><![CDATA[<p>We are excited to announce that Zoe Cooper has joined the OpenRefine team as lead designer. Following our <a href="https://openrefine.org/blog/2023/08/25/reproducibility-designer">job posting in late August</a>, Zoe stood out as the perfect person for the role.</p>
+<p>Zoe's experience in journalism and publishing, as well as her early career fellowships within  GLAM institutions (the Uffizi Gallery in Florence, and Gagosian Gallery in New York), have given her a deep understanding of the diverse needs of our user base. Zoe’s hybrid career as both designer and writer - her work has been published by Vox, Al Jazeera, Frieze, TASCHEN, AnOther, Disegno: The Quarterly Journal of Design, Flash Art, and more - gives her unique insight into the artistic, scholarly, and scientific communities we serve. As the current part-time design lead for the Zetkin Foundation, a Sweden-based platform for organizing activism, Zoe brings a unique perspective to the OpenRefine team.</p>
+<p>As OpenRefine's lead designer, she will initially focus on improving the platform's Operation History as part of a project funded by the <a href="https://openrefine.org/funding#2022-eoss-5">EOSS-5 grant</a>. She will also continue to develop OpenRefine's design practice, following the work initiated by Lozana Rossenova and Lydia Amadi Chinyere through last summer's <a href="https://openrefine.org/blog/2023/05/05/outreachy-interns">Outreachy internship</a>.</p>
+<p>As we embark on this exciting journey with Zoe, we invite the OpenRefine community to welcome our newest team member warmly. We are thrilled to have her on board and look forward to the exciting things she will bring to the OpenRefine team. Stay tuned for updates on our progress, and thank you for your continued support!</p>
+<p>Follow her updates here:</p>
+<ul>
+<li>Twitter: <a href="https://twitter.com/zoe__cooper" target="_blank" rel="noopener noreferrer">@zoe__cooper</a></li>
+<li>Instagram: <a href="https://www.instagram.com/_zoecooper/" target="_blank" rel="noopener noreferrer">_zoecooper</a></li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[OpenRefine 3.7.5 released]]></title>
+            <link>https://openrefine.org/blog/2023/09/12/version-3-7-5</link>
+            <guid>https://openrefine.org/blog/2023/09/12/version-3-7-5</guid>
+            <pubDate>Tue, 12 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenRefine 3.7.5 was released today and it fixes vulnerabilities with moderate severity]]></description>
+            <content:encoded><![CDATA[<p>OpenRefine 3.7.5 was released today and it fixes vulnerabilities with moderate severity
+(<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-41886" target="_blank" rel="noopener noreferrer">CVE-2023-41886</a>
+and <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-41887" target="_blank" rel="noopener noreferrer">CVE-2023-41887</a>).
+We encourage all users to update swiftly to the latest version.
+See the <a href="https://openrefine.org/whats_new">release notes</a> for more details about the vulnerability.</p>
+<p>We thank <a href="https://github.com/nbxiglk0" target="_blank" rel="noopener noreferrer">@nbxiglk0</a> for responsibly disclosing this vulnerability to us.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[We're hiring a designer!]]></title>
+            <link>https://openrefine.org/blog/2023/08/25/reproducibility-designer</link>
+            <guid>https://openrefine.org/blog/2023/08/25/reproducibility-designer</guid>
+            <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenRefine, a powerful data-wrangling tool used by diverse communities, seeks a lead designer to enhance OpenRefine's user experience and functionality.]]></description>
+            <content:encoded><![CDATA[<p>OpenRefine, a powerful data-wrangling tool used by diverse communities, seeks a lead designer to enhance OpenRefine's user experience and functionality.
+This job posting has been archived and was filled in December 2023 with the <a href="https://openrefine.org/blog/2023/12/07/announcing-zoe-cooper.html">hiring of Zop Copper</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar__YFU" id="about-the-job">About the job<a href="https://openrefine.org/blog/2023/08/25/reproducibility-designer#about-the-job" class="hash-link" aria-label="Direct link to About the job" title="Direct link to About the job">​</a></h2>
+<ul>
+<li>Role: Lead Designer</li>
+<li>Job Type: Part-Time Contract</li>
+<li>Duration: 6 months with possible extension.</li>
+<li>Job Location: Remote</li>
+<li>Funding available: USD 38,400</li>
+<li>Contracting Entity: <a href="https://codeforscience.org/" target="_blank" rel="noopener noreferrer">Code for Science &amp; Society Inc</a>. OpenRefine is a fiscally sponsored project of Code for Science &amp; Society Inc, a 501(c)(3) charitable organization in the USA.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar__YFU" id="about-openrefine">About OpenRefine<a href="https://openrefine.org/blog/2023/08/25/reproducibility-designer#about-openrefine" class="hash-link" aria-label="Direct link to About OpenRefine" title="Direct link to About OpenRefine">​</a></h2>
+<p><a href="https://openrefine.org/" target="_blank" rel="noopener noreferrer">OpenRefine</a> is a free, open source power tool for working with messy data and improving it: cleaning it, transforming it from one format into another, and extending it with web services and external data. OpenRefine has been embraced by a wide range of communities across various fields. OpenRefine's flexibility and user-friendly interface make it applicable to a wide range of use cases and industries, for example:</p>
+<ol>
+<li><strong>Journalists and Media Professionals</strong> use OpenRefine to clean and prepare data for investigative reporting, analysis, and visualization in news stories.</li>
+<li><strong>GLAM (Galleries, Libraries, Archives, and Museums)</strong> utilizes OpenRefine to clean and enhance catalog records related to artworks and cultural heritage artifacts.</li>
+<li><strong>Wikipedians and Wikimedia Contributors</strong>: OpenRefine is a popular tool within the Wikipedia community, enabling users to manage and improve structured data on Wikimedia projects like Wikidata and Wiki Commons.</li>
+<li><strong>Scientists and Researchers</strong> across various scientific disciplines, including social, natural, and health sciences, use OpenRefine to clean, transform, and organize research data.</li>
+<li><strong>Data Analysts and Scientists</strong> leverage OpenRefine to preprocess and clean data, ensuring high data quality before analysis.</li>
+<li><strong>Educators and Trainers</strong>: OpenRefine is integrated into educational curricula and workshops, allowing educators to teach students data wrangling and cleaning skills effectively.</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar__YFU" id="about-the-design-role">About the design role<a href="https://openrefine.org/blog/2023/08/25/reproducibility-designer#about-the-design-role" class="hash-link" aria-label="Direct link to About the design role" title="Direct link to About the design role">​</a></h2>
+<p>We're searching for a dedicated part-time designer who will play a leading role in enhancing the usability of OpenRefine. The role requires previous experience with FOSS (Free and Open Source Software) and engagement with the diverse communities that intersect with OpenRefine's user base and volunteer contributors.</p>
+<p>The new design lead will  be involved in the following:</p>
+<ul>
+<li>Research design limitations and identify opportunities for improvement.</li>
+<li>Designing changes to the user interface to support enhancements and new features.</li>
+<li>Conducting user testing sessions to validate design choices.</li>
+<li>Prioritizing improvements based on user feedback.</li>
+</ul>
+<p>We anticipate an initial phase of intense design activity at the project's outset, which will transition to periodic and responsive support as the project advances into the implementation stage.</p>
+<h2 class="anchor anchorWithStickyNavbar__YFU" id="project-specifications">Project specifications<a href="https://openrefine.org/blog/2023/08/25/reproducibility-designer#project-specifications" class="hash-link" aria-label="Direct link to Project specifications" title="Direct link to Project specifications">​</a></h2>
+<p>The design lead is expected to contribute to:</p>
+<p><strong>Improvements to OpenRefine's Operation History</strong>
+As part of a project funded by the <a href="https://chanzuckerberg.com/eoss/proposals/improving-openrefines-reproducibility/" target="_blank" rel="noopener noreferrer">Essential Open Source Software for Science program</a>, we are working on improving OpenRefine's operation history and reproducibility guarantees. This work addresses long-standing issues currently tracked in <a href="https://github.com/orgs/OpenRefine/projects/6" target="_blank" rel="noopener noreferrer">Improving OpenRefine's reproducibility GitHub project</a>. Specifically:</p>
+<ul>
+<li>Designing graphical representations of sequences of operations to address limitations associated with the Undo/Redo functionality.</li>
+<li>Addressing long-standing issues when reusing and sharing OpenRefine workflows due to the lack of error handling when applying a series of operations and the difficulty of adapting a workflow to a new project</li>
+<li>Enhancing sharing and reusability of OpenRefine workflows as part of an automated pipeline without using the web interface.</li>
+</ul>
+<p><strong>Ad-Hoc Design Needs</strong>
+This includes teaming up with the <a href="https://github.com/OpenRefine/OpenRefine/issues?q=team%3AOpenRefine%2Fdesigners" target="_blank" rel="noopener noreferrer">@OpenRefine/designers group</a> and addressing ad-hoc design needs flagged by the community. The lead design role  will be pivotal in refining user interfaces while maintaining design consistency by adhering to and improving OpenRefine's design system and guidelines.</p>
+<p>Additional funding or community requests may broaden the scope of the work.</p>
+<h2 class="anchor anchorWithStickyNavbar__YFU" id="skills-and-requirements">Skills and Requirements<a href="https://openrefine.org/blog/2023/08/25/reproducibility-designer#skills-and-requirements" class="hash-link" aria-label="Direct link to Skills and Requirements" title="Direct link to Skills and Requirements">​</a></h2>
+<ul>
+<li>Experience with user research via surveys and interviews</li>
+<li>Proficiency in design prototyping software like Figma or similar tools</li>
+<li>Knowledge of design and usability testing for user applications</li>
+<li>Ability to work effectively in a remote, asynchronous environment</li>
+<li>Strong communication skills in English</li>
+<li>Familiarity with version control software (e.g., Github)</li>
+<li>Familiarity with data processing and ETL software</li>
+<li>Familiarity with workflow management software (e.g., Galaxy, Nextflow, Airflow, CWL)</li>
+</ul>
+<p>Nice to have:</p>
+<ul>
+<li>Familiarity with open-source development practices and tools</li>
+<li>Knowledge of OpenRefine or similar data-cleaning systems</li>
+<li>Willingness to participate in events related to OpenRefine</li>
+<li>Experience working with decentralized open-source communities and understanding their dynamics</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar__YFU" id="hiring-process">Hiring Process<a href="https://openrefine.org/blog/2023/08/25/reproducibility-designer#hiring-process" class="hash-link" aria-label="Direct link to Hiring Process" title="Direct link to Hiring Process">​</a></h2>
+<p>We invite applicants to send their CV and a short motivation statement at <a href="mailto:hiring@openrefine.org" target="_blank" rel="noopener noreferrer">hiring@openrefine.org</a>. Applications will be reviewed on a rolling basis starting on September 1st, 2023 until the position is filled.</p>
+<p><em>OpenRefine is fiscally sponsored by Code for Science and Society (CS&amp;S). CS&amp;S is an equal-opportunity employer committed to hiring a diverse workforce at all levels of the organization, thereby creating a culture that allows us to better serve our clientele, our employees, and our communities. We value and encourage the contributions of our colleagues and strive to create an environment where everyone can reach their full potential and drive outstanding results. All qualified applicants will receive consideration for employment without regard to race, national origin, age, sex, religion, disability, sexual orientation, marital status, veteran status, gender identity or expression, or any other basis protected by local, state, or federal law. This policy applies with regard to all aspects of one's employment, including hiring, transfer, promotion, compensation, eligibility for benefits, and termination.</em></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[NFDI funds reconciliation improvements]]></title>
+            <link>https://openrefine.org/blog/2023/08/23/nfdi-grant</link>
+            <guid>https://openrefine.org/blog/2023/08/23/nfdi-grant</guid>
+            <pubDate>Wed, 23 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[NFDI4Culture has awarded OpenRefine a EUR 10,000 grant to enhance its reconciliation feature.  This grant is a continuation of the progress made in 2022 with Wikibase and Wikimedia Commons integration, the work of our Outreachy intern Ayushi over the past three months, as well as the improvements to the reconciliation protocol made by the W3C Entity Reconciliation Community Group.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://nfdi4culture.de/" target="_blank" rel="noopener noreferrer">NFDI4Culture</a> has awarded OpenRefine a EUR 10,000 grant to enhance its reconciliation feature.  This grant is a continuation of the progress made in 2022 with Wikibase and Wikimedia Commons integration, the work of our <a href="https://openrefine.org/blog/2023/05/05/outreachy-interns" target="_blank" rel="noopener noreferrer">Outreachy intern Ayushi</a> over the past three months, as well as the improvements to the reconciliation protocol made by the <a href="https://www.w3.org/community/reconciliation/" target="_blank" rel="noopener noreferrer">W3C Entity Reconciliation Community Group</a>.</p>
+<p><strong>Planned Working Packages.</strong></p>
+<p>OpenRefine's upcoming improvements are based on feedback collected during the testing of Wikibase and Wikimedia Commons integration and leverage existing design wireframes.</p>
+<ol>
+<li>
+<p><strong>Redesigning and redeveloping the reconciliation dialog</strong>: This aims to enhance the clarity and ease of use of the dialog which configures reconciliation.</p>
+</li>
+<li>
+<p><strong>Improving the presentation of reconciled data</strong>: In particular, we want to address cases where multiple external databases are used as reconciliation endpoints and improving the display of data reconciled against different sources, including media files such as thumbnail previews.</p>
+</li>
+<li>
+<p><strong>Enhancing the data enrichment process</strong>: This involves improvements in user messaging within the data enrichment UI and better presentation of data after enrichment processes, making the origin of new data readily recognizable.</p>
+</li>
+<li>
+<p><strong>User-friendly error messages</strong>: We want to enhance the error reporting of reconciliation or enrichment, to make it easier to diagnose issues and to work with unstable reconciliation services.</p>
+</li>
+</ol>
+<p>The above tasks will be executed over a period of 5 months between August and December 2023.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Wikimedia-OpenRefine training and sustainability project]]></title>
+            <link>https://openrefine.org/blog/2023/07/26/Wikimedia-Commons-Training-Grant</link>
+            <guid>https://openrefine.org/blog/2023/07/26/Wikimedia-Commons-Training-Grant</guid>
+            <pubDate>Wed, 26 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Since 2022, with support from a Wikimedia grant, it is possible to use OpenRefine to batch edit and upload files on Wikimedia Commons, with a focus on adding multilingual, linked, structured data to the files on Commons using the Commons Extension for OpenRefine.]]></description>
+            <content:encoded><![CDATA[<p>Since 2022, with support from a <a href="https://meta.wikimedia.org/wiki/Grants:Project/CS%26S/Structured_Data_on_Wikimedia_Commons_functionalities_in_OpenRefine/Final" target="_blank" rel="noopener noreferrer">Wikimedia grant</a>, it is possible to use OpenRefine to <a href="https://commons.wikimedia.org/wiki/Commons:OpenRefine" target="_blank" rel="noopener noreferrer">batch edit and upload files on Wikimedia Commons</a>, with a focus on adding multilingual, linked, <a href="https://commons.wikimedia.org/wiki/Commons:Structured_data" target="_blank" rel="noopener noreferrer">structured data</a> to the files on Commons using the <a href="https://github.com/OpenRefine/CommonsExtension" target="_blank" rel="noopener noreferrer">Commons Extension for OpenRefine</a>.</p>
+<p>This new <a href="https://commons.wikimedia.org/wiki/Commons:OpenRefine" target="_blank" rel="noopener noreferrer">Wikimedia Commons functionality</a> in OpenRefine is especially useful for cultural institutions who want to upload files to Commons with linked, structured data. OpenRefine offers powerful import functionalities from various data formats (CSV, TSV, Excel sheets, XML…) and APIs (for those cultural institutions which use these). It also allows revisiting existing Wikimedia Commons files, improving their metadata, and adding multilingual structured data to them. Wikimedians in general can also use OpenRefine to batch upload their own or externally-hosted files to Wikimedia Commons.</p>
+<p>For 2023-24, as part of <a href="https://commons.wikimedia.org/wiki/Commons:WMF_support_for_Commons/updates" target="_blank" rel="noopener noreferrer">its support for Wikimedia Commons</a>, the Wikimedia Foundation is funding OpenRefine for bug fixes to its Commons features, for a train-the-trainer program, documentation, and a <a href="https://learn.wiki/courses" target="_blank" rel="noopener noreferrer">WikiLearn</a> course. The Wikimedia-OpenRefine training and sustainability grant is for a duration of 12 months, it started on July, 1st 2023 and is led by Sandra Fauconnier with a total budget of USD 50,000.</p>
+<p>Updates regarding the grant progress will be posted on the project’s info page on <a href="https://commons.wikimedia.org/wiki/Commons:OpenRefine/Training_2023-24" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[OpenRefine 3.7.4 released]]></title>
+            <link>https://openrefine.org/blog/2023/07/17/version-3-7-4</link>
+            <guid>https://openrefine.org/blog/2023/07/17/version-3-7-4</guid>
+            <pubDate>Mon, 17 Jul 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenRefine 3.7.4 was released today and it fixes a vulnerability with moderate severity (CVE-2023-37476).]]></description>
+            <content:encoded><![CDATA[<p>OpenRefine 3.7.4 was released today and it fixes a vulnerability with moderate severity (<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-37476" target="_blank" rel="noopener noreferrer">CVE-2023-37476</a>).
+We encourage all users to update swiftly to the latest version.
+See the <a href="https://openrefine.org/whats_new">release notes</a> for more details about the vulnerability.</p>
+<p>We thank Stefan Schiller of SonarSource for disclosing this vulnerability to us.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Join OpenRefine's Advisory Committee]]></title>
+            <link>https://openrefine.org/blog/2023/06/08/Advisory-committee-member</link>
+            <guid>https://openrefine.org/blog/2023/06/08/Advisory-committee-member</guid>
+            <pubDate>Thu, 08 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenRefine is seeking a new member for its Advisory Committee (unpaid position).]]></description>
+            <content:encoded><![CDATA[<p><strong>OpenRefine is seeking a new member for its Advisory Committee (unpaid position).</strong></p>
+<p><a href="https://openrefine.org/" target="_blank" rel="noopener noreferrer">OpenRefine</a> is a powerful tool to clean messy data, popular in a diverse range of communities. It has been serving the needs of journalists, librarians, Wikipedians, scientists for more than ten years and is taught in many curricula and workshops around the world. OpenRefine is a fiscally sponsored project of <a href="https://codeforscience.org/" target="_blank" rel="noopener noreferrer">Code for Science &amp; Society Inc</a>, a 501(c)(3) charitable organization in the USA.</p>
+<p>Today OpenRefine is looking for one or more Advisory Committee members to strengthen our governance and continue to engage at an organizational level with our partners and community.</p>
+<p>With the support of the Project Manager, OpenRefine's Advisory Committee oversees the project and coordinates with Code for Science &amp; Society for its operations.
+Represent OpenRefine with Code for Science and Society</p>
+<ul>
+<li>Prepare and approve budgets</li>
+<li>Approve grant application</li>
+<li>Oversee hiring and management of contractors</li>
+<li>Vote to terminate contracts when necessary.</li>
+</ul>
+<p>In 2023, the Advisory Committee planned the creation of the <a href="https://forum.openrefine.org/t/proposition-to-create-openrefine-ambassador-council/462" target="_blank" rel="noopener noreferrer">Ambassador Council</a> to improve community involvement in decision-making and ensure the project's long-term sustainability.</p>
+<h2 class="anchor anchorWithStickyNavbar__YFU" id="about-the-position">About the position​<a href="https://openrefine.org/blog/2023/06/08/Advisory-committee-member#about-the-position" class="hash-link" aria-label="Direct link to About the position​" title="Direct link to About the position​">​</a></h2>
+<p>We are seeking at least one new Advisory Committee member to help us pursue the goals described above, bringing their perspective on how OpenRefine should evolve.
+This position is for you if you:</p>
+<ul>
+<li>Care deeply about the future of OpenRefine;</li>
+<li>Have good communication skills in English;</li>
+<li>Are able to join a monthly call with Code for Science and Society where we coordinate the project's operations.</li>
+<li>Are ready to invest at least 3 hours per month (between calls and document review).</li>
+<li>This is a volunteer (non paid) position.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar__YFU" id="how-to-respond">How to respond​<a href="https://openrefine.org/blog/2023/06/08/Advisory-committee-member#how-to-respond" class="hash-link" aria-label="Direct link to How to respond​" title="Direct link to How to respond​">​</a></h2>
+<p>To respond to this opportunity, send your application (CV and short motivation statement) to <a href="mailto:advisory.committee@openrefine.org" target="_blank" rel="noopener noreferrer">advisory.committee@openrefine.org</a>. The current advisory committee will engage in a conversation with the nominees and select one or more new members. New members will be announced on our <a href="https://openrefine.org/blog" target="_blank" rel="noopener noreferrer">blog</a> and <a href="https://forum.openrefine.org/" target="_blank" rel="noopener noreferrer">forum</a>.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Announcing Martin Magdinier as the New Project Manager of OpenRefine]]></title>
+            <link>https://openrefine.org/blog/2023/06/08/Annoucing-Martin-Project-Manager</link>
+            <guid>https://openrefine.org/blog/2023/06/08/Annoucing-Martin-Project-Manager</guid>
+            <pubDate>Thu, 08 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenRefine's advisory committee is delighted to officially announce Martin Magdinier (github, forum) as the new Project Manager of OpenRefine.]]></description>
+            <content:encoded><![CDATA[<p>OpenRefine's advisory committee is delighted to officially announce Martin Magdinier (<a href="https://github.com/magdmartin" target="_blank" rel="noopener noreferrer">github</a>, <a href="https://forum.openrefine.org/u/Martin/summary" target="_blank" rel="noopener noreferrer">forum</a>) as the new Project Manager of OpenRefine.</p>
+<p>Having actively participated in the OpenRefine community for over a decade, Martin possesses invaluable insights into the governance changes underway. His expertise in grant writing, hiring, budget and roadmap management, and community building will be pivotal in driving sustainable growth for OpenRefine. Moreover, Martin's strong connection with diverse communities, including GLAM, civic, data journalist, and researcher communities, ensures that our project will embrace many perspectives.</p>
+<p>Martin's primary focus will be supporting the Advisory Committee and spearheading the establishment of the <a href="https://forum.openrefine.org/t/proposition-to-create-openrefine-ambassador-council/462" target="_blank" rel="noopener noreferrer">Ambassador Council</a>. He will also coordinate various outreach activities, liaising with partner organizations, including internship programs, funding sources, and Code for Science and Society, among other responsibilities. Martin will be working part-time with a commitment of 10 hours per week.</p>
+<p>In light of assuming the Project Manager position, we accept his immediate resignation from the Advisory Committee. This decision ensures that only 49% of the Advisory Committee is occupied by OpenRefine's paid resources to avoid potential conflict of interest.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Two Outreachy interns join us for the summer]]></title>
+            <link>https://openrefine.org/blog/2023/05/05/outreachy-interns</link>
+            <guid>https://openrefine.org/blog/2023/05/05/outreachy-interns</guid>
+            <pubDate>Fri, 05 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The OpenRefine project participates in the Outreachy program, which provides internships to people subject to systemic bias and impacted by underrepresentation in the technical industry where they are living.]]></description>
+            <content:encoded><![CDATA[<p>The OpenRefine project participates in the <a href="https://outreachy.org/" target="_blank" rel="noopener noreferrer">Outreachy</a> program, which provides internships to people subject to systemic bias and impacted by underrepresentation in the technical industry where they are living.
+We are happy to announce that for the May 2023 cohort, we will be hosting two more interns, after participating to previous rounds in 2020 and 2022.</p>
+<p><a href="https://github.com/Lydiaofficial" target="_blank" rel="noopener noreferrer">Lydia Amadi Chinyere</a> will be joining us to work on improving design workflows in the project and documenting the design patterns currently followed in the OpenRefine application. She will be mentored by <a href="https://github.com/lozanaross" target="_blank" rel="noopener noreferrer">Lozana Rossenova</a>.</p>
+<p><a href="https://github.com/ayushrai206" target="_blank" rel="noopener noreferrer">Ayushi Rai</a> will help us out with various improvements to our reconciliation features. She will be mentored by <a href="https://github.com/wetneb" target="_blank" rel="noopener noreferrer">Antonin Delpeuch</a>.</p>
+<p>We thank all the applicants for their work during the contribution period and encourage them to continue working on free and open source software. The number of interns we can accept is limited by our mentoring capacity. We are also grateful to the <a href="https://chanzuckerberg.com/" target="_blank" rel="noopener noreferrer">Chan
+Zuckerberg Initiative</a> for funding then OpenRefine team's participation in Outreachy via a Diversity and Inclusion grant, part of the <a href="https://chanzuckerberg.com/eoss/" target="_blank" rel="noopener noreferrer">Essential Open Source Software for Science</a> program.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[OpenRefine is looking for a part time project manager]]></title>
+            <link>https://openrefine.org/blog/2023/03/17/project-coordinator</link>
+            <guid>https://openrefine.org/blog/2023/03/17/project-coordinator</guid>
+            <pubDate>Fri, 17 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenRefine is looking for a part time project manager.]]></description>
+            <content:encoded><![CDATA[<p>OpenRefine is looking for a part time project manager.
+This paid role is intended to help facilitate community processes in the project, improve our capacity to liaise with partners and our governance structures.</p>
+<p>The responsibilities of this project manager will include:</p>
+<ul>
+<li>Facilitating regular meetings within the OpenRefine community and with external partners;</li>
+<li>Run outreach activities such as our biyearly user survey or by representing the project in events;</li>
+<li>Maintain the project's communication channels (such as moderating the forum)</li>
+<li>Help organize in-person events for the OpenRefine community</li>
+<li>Coordinate our participation in internship programmes such as Outreachy or Google Summer of Code;</li>
+<li>Help with grant applications and reporting</li>
+<li>Liaise with Code for Science and Society, our fiscal sponsor</li>
+</ul>
+<p>The scope of the role is anticipated to evolve, to adapt to the manager's interests and the project's needs.</p>
+<p>Requirements:</p>
+<ul>
+<li>Good communication skills and fluency in English, both written and spoken</li>
+<li>Self-motivated and organized</li>
+<li>Able to work fully remotely</li>
+<li>Familiarity with OpenRefine or a related open source project</li>
+</ul>
+<p>Nice to have:</p>
+<ul>
+<li>Experience with working in a volunteer organization</li>
+<li>Ability to travel to events a couple of times a year</li>
+</ul>
+<p>This role will be compensated depending on the applicant's experience, from $40 to $70 per hour.
+We anticipate a time commitment from 10h to 30h per week depending on the applicant's availability.
+The position can be filled as soon as possible, with a trial period of 3 months.
+Code for Science and Society <a href="https://www.codeforsociety.org/resources/international-hiring-guide" target="_blank" rel="noopener noreferrer">is able to hire collaborators in most jurisdictions not targeted by US sanctions</a>, via a local employer of record.
+The project manager will report to the advisory committee, which currently consists of Martin Magdinier, Antonin Delpeuch and Jan Ainali.</p>
+<p><strong>Update:</strong>&nbsp;we have already received more applications than we can review and will not be looking for further applicants.
+<del>To respond to this opportunity, send your application (CV and short motivation statement) to <a href="mailto:hiring@openrefine.org" target="_blank" rel="noopener noreferrer">hiring@openrefine.org</a>.</del>
+We will start to review applications on March 25th and we aim to respond to all candidates.</p>
+<p><em>OpenRefine is fiscally sponsored by Code for Science and Society (CS&amp;S). CS&amp;S is an equal opportunity employer committed to hiring a diverse workforce at all levels of the organization thereby creating a culture that allows us to better serve our clientele, our employees and our communities. We value and encourage the contributions of our colleagues and strive to create an environment where everyone can reach their full potential and drive outstanding results. All qualified applicants will receive consideration for employment without regard to race, national origin, age, sex, religion, disability, sexual orientation, marital status, veteran status, gender identity or expression, or any other basis protected by local, state, or federal law. This policy applies with regard to all aspects of one's employment, including hiring, transfer, promotion, compensation, eligibility for benefits, and termination.</em></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[OpenRefine funded to improve its reproducibility]]></title>
+            <link>https://openrefine.org/blog/2022/12/30/eoss5</link>
+            <guid>https://openrefine.org/blog/2022/12/30/eoss5</guid>
+            <pubDate>Fri, 30 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[We are pleased to announce that the Chan Zuckerberg Initiative (CZI) has awarded OpenRefine a $310,000 grant to fund its development in 2023 and 2024.]]></description>
+            <content:encoded><![CDATA[<p>We are pleased to announce that the <a href="https://chanzuckerberg.com/" target="_blank" rel="noopener noreferrer">Chan Zuckerberg Initiative</a> (CZI) has awarded OpenRefine a $310,000 grant to fund its development in 2023 and 2024.
+This award is part of the fifth round of CZI’s <a href="https://chanzuckerberg.com/eoss/proposals" target="_blank" rel="noopener noreferrer">Essential Open Source Software for Science program</a>.</p>
+<p>Our proposal is centered around <a href="https://chanzuckerberg.com/eoss/proposals/improving-openrefines-reproducibility/" target="_blank" rel="noopener noreferrer">improving the reproducibility of OpenRefine workflows</a>. This aims to address a range of long standing issues, such as:</p>
+<ul>
+<li>limitations of the Undo/Redo functionality, such as the lack of ability to undo an operation in the middle of the history list (<a href="https://github.com/OpenRefine/OpenRefine/issues/183" target="_blank" rel="noopener noreferrer">#183</a>) or unintentional loss of work after using the undo feature and
+applying a new operation (<a href="https://github.com/OpenRefine/OpenRefine/issues/369" target="_blank" rel="noopener noreferrer">#369</a>, <a href="https://github.com/OpenRefine/OpenRefine/issues/3184" target="_blank" rel="noopener noreferrer">#3184</a>)</li>
+<li>the difficulty in reusing and sharing OpenRefine workflows, due to the lack of error handling when applying series of operations and the difficulty to adapt a workflow to a new project (for instance, with different column names)</li>
+<li>the lack of support for running OpenRefine workflows as part of larger pipelines, without using the web UI interactively. This covers for instance the lack of import metadata in the JSON export of the history
+(<a href="https://github.com/OpenRefine/OpenRefine/issues/460" target="_blank" rel="noopener noreferrer">#460</a>).</li>
+</ul>
+<p>This grant is a natural follow up to our earlier grant from the same program, EOSS1, which focused on scaling the data processing capabilities of the tool. Our work will build on the new architecture developed for this earlier grant, to be released in the
+4.0 release series of the tool (currently in alpha version).</p>
+<p>Watch this space and our <a href="https://forum.openrefine.org/" target="_blank" rel="noopener noreferrer">forum</a> for more news about this initative. We hope to be able to give more frequent updates and prototypes that can be tested by the community than in the previous EOSS1 grant, to enable faster
+feedback cycles.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Governance changes]]></title>
+            <link>https://openrefine.org/blog/2022/12/01/governance-changes</link>
+            <guid>https://openrefine.org/blog/2022/12/01/governance-changes</guid>
+            <pubDate>Thu, 01 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sandra Fauconnier has been OpenRefine's project director since February 2022, and has been working on many fronts in this capacity: leading a reflection on the transformation of the project's governance model, running the biyearly user survey, coordinating our participation in the Outreachy internship programme, migrating from Google Groups to our new Discourse forum, and many more project management tasks behind the scenes. Given her close ties with the Wikimedia and Wikibase communities, she also strengthened the project's ties with those partners.]]></description>
+            <content:encoded><![CDATA[<p>Sandra Fauconnier has been OpenRefine's project director since February 2022, and has been working on many fronts in this capacity:&nbsp;leading a reflection on the transformation of the project's governance model, running the biyearly user survey, coordinating our participation in the Outreachy internship programme, migrating from Google Groups to our new Discourse forum, and many more project management tasks behind the scenes. Given her close ties with the Wikimedia and Wikibase communities, she also strengthened the project's ties with those partners.</p>
+<p>Sandra has decided to step down from the project director role, returning to her previous work in Linked Open Data in the cultural sector and the Wikimedia movement. As of December 1st, she has transfered back her responsibilities to the advisory committee, consisting of Martin Magdinier, Jan Ainali and Antonin Delpeuch.</p>
+<p>We thank Sandra for her tireless work in this position and will follow up soon about our measures to fill the gap left by her change of position.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Looking for help with Windows and MacOS packaging]]></title>
+            <link>https://openrefine.org/blog/2022/09/30/windows-macos-packaging</link>
+            <guid>https://openrefine.org/blog/2022/09/30/windows-macos-packaging</guid>
+            <pubDate>Fri, 30 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenRefine's packaging for MacOS and Windows could be improved in many ways, and we are looking for help in this front.]]></description>
+            <content:encoded><![CDATA[<p>OpenRefine's packaging for MacOS and Windows could be improved in many ways, and we are looking for help in this front.
+We are looking for proposals from prospective contractors to improve the install experience of OpenRefine on MacOS and/or Windows.</p>
+<p>After a similar effort on Ubuntu/Debian packaging, this initiative is meant to improve the user experience on other platforms, to lower the install barrier for a broader audience.
+This project is funded by an <a href="https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b" target="_blank" rel="noopener noreferrer">EOSS Diversity and Inclusion grant</a> from <a href="https://chanzuckerberg.com/" target="_blank" rel="noopener noreferrer">CZI</a>.</p>
+<p>We are hoping that those proposals could solve some of the following issues:</p>
+<ul>
+<li>(MacOS) <a href="https://github.com/OpenRefine/OpenRefine/issues/5205" target="_blank" rel="noopener noreferrer">Provide an Applications shortcut in the DMG distribution, with a suitable background (#5205)</a></li>
+<li>(MacOS) <a href="https://github.com/OpenRefine/OpenRefine/issues/2191" target="_blank" rel="noopener noreferrer">Sign and notarize our DMG distribution (#2191)</a></li>
+<li>(Windows) <a href="https://github.com/OpenRefine/OpenRefine/issues/3224" target="_blank" rel="noopener noreferrer">Offer a proper installer / uninstaller on Windows (#3224)</a></li>
+<li>(Windows) <a href="https://github.com/OpenRefine/OpenRefine/issues/3221" target="_blank" rel="noopener noreferrer">Give an easier way to start and stop OpenRefine with a system tray integration and log viewer (#3221)</a></li>
+<li>(Windows) <a href="https://github.com/OpenRefine/OpenRefine/issues/3057" target="_blank" rel="noopener noreferrer">Configuration for OpenRefine on Windows should use only 1 config file (.ini) (#3057)</a></li>
+<li>(Windows) <a href="https://github.com/OpenRefine/OpenRefine/issues/3003" target="_blank" rel="noopener noreferrer">Sign openrefine.exe to eliminate extra security warnings (#3003)</a></li>
+</ul>
+<p>All new packaging steps should be integrated in our Continuous Deployment infrastructure (currently running on GitHub Actions), if not in our Maven packaging configuration itself.</p>
+<p>We have funding to contract out this work to freelancers.
+To respond to this opportunity, please send the following to <a href="mailto:advisory.committee@openrefine.org" target="_blank" rel="noopener noreferrer">advisory.committee@openrefine.org</a>:</p>
+<ul>
+<li>a short description of the changes you propose to introduce and how they relate to the issues above</li>
+<li>your price for this work</li>
+<li>any pointers to some related work in other projects (or anything that can help us assess your ability to carry out the proposed work)</li>
+</ul>
+<p>You are encouraged to discuss your proposed changes (such as the packaging tools you intend to use) with the contributor community (such as on the <a href="https://groups.google.com/g/openrefine-dev/?pli=1" target="_blank" rel="noopener noreferrer">openrefine-dev</a> mailing list or in GitHub issues).</p>
+<p>Proposals will be reviewed by our <a href="https://github.com/OpenRefine/OpenRefine/blob/master/GOVERNANCE.md" target="_blank" rel="noopener noreferrer">project director and advisory committee</a>. Feel free to get in touch with us if you have any questions about this call.</p>
+<p><em>OpenRefine is fiscally sponsored by Code for Science and Society (CS&amp;S). CS&amp;S is an equal opportunity employer committed to hiring a diverse workforce at all levels of the organization thereby creating a culture that allows us to better serve our clientele, our employees and our communities. We value and encourage the contributions of our colleagues and strive to create an environment where everyone can reach their full potential and drive outstanding results. All qualified applicants will receive consideration for employment without regard to race, national origin, age, sex, religion, disability, sexual orientation, marital status, veteran status, gender identity or expression, or any other basis protected by local, state, or federal law. This policy applies with regard to all aspects of one's employment, including hiring, transfer, promotion, compensation, eligibility for benefits, and termination.</em></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[From mailing lists and Gitter to a web-based Discourse forum: welcoming your feedback]]></title>
+            <link>https://openrefine.org/blog/2022/09/20/discourse</link>
+            <guid>https://openrefine.org/blog/2022/09/20/discourse</guid>
+            <pubDate>Tue, 20 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[tl;dr We consider moving OpenRefine's mailing lists and Gitter to a web-based Discourse forum, and invite your feedback.]]></description>
+            <content:encoded><![CDATA[<img src="https://openrefine.org/img/2022-group-discussions.jpg" alt="Simple graphic showing group discussions with multicolored text balloons" class="inset">
+<p><strong>tl;dr We consider moving OpenRefine's mailing lists and Gitter to a web-based Discourse forum, and invite your feedback.</strong></p>
+<p><em>This message has also been posted on OpenRefine's <a href="https://groups.google.com/g/openrefine" target="_blank" rel="noopener noreferrer">user</a> and <a href="https://groups.google.com/g/openrefine-dev/" target="_blank" rel="noopener noreferrer">https://groups.google.com/g/openrefine-dev/</a> mailing lists on September 20, 2022.</em></p>
+<p>For quite a while, some active OpenRefine community members ([Antonin](<a href="https://github.com/Antonin" target="_blank" rel="noopener noreferrer">https://github.com/Antonin</a> Delpeuch), [Sandra](<a href="https://github.com/Sandra" target="_blank" rel="noopener noreferrer">https://github.com/Sandra</a> Fauconnier), and the <a href="https://github.com/OpenRefine/OpenRefine/blob/master/GOVERNANCE.md" target="_blank" rel="noopener noreferrer">OpenRefine advisory committee</a>) have been talking about ways to make OpenRefine’s community more lively, active and diverse.</p>
+<p>As one step, we consider moving the current main community communication channels (the <a href="https://groups.google.com/g/openrefine" target="_blank" rel="noopener noreferrer">user mailing list</a>, <a href="https://groups.google.com/g/openrefine-dev/" target="_blank" rel="noopener noreferrer">developer mailing list</a>, and the <a href="https://gitter.im/OpenRefine/OpenRefine" target="_blank" rel="noopener noreferrer">Gitter chat</a>) to a public, web-based forum, using the <a href="https://www.discourse.org/" target="_blank" rel="noopener noreferrer">Discourse</a> software. After the move, we will not delete the mailing lists, but  keep them read-only as a public archive. We feel inspired to move  forward to this, because in <a href="https://openrefine.org/blog/2022/06/28/2022-survey-results.html" target="_blank" rel="noopener noreferrer">our latest user survey (held in April-May 2022)</a>, a web-based forum was the most popular option when we asked you for your preferred means of communications.</p>
+<p>Our choice would be a <a href="https://www.discourse.org/pricing" target="_blank" rel="noopener noreferrer">hosted web-based Discourse forum</a>, on a URL like forum.openrefine.org or similar. We would go for  Discourse for many reasons. First, because it is well-designed and  widely used open source forum software, but (among other things) also  because it allows much more diverse discussion on 'smaller' topics (e.g. translation of OpenRefine's interface; discussion about larger feature  requests; threads in languages other than English...). Discourse offers  mailing list / email modes for people who prefer this as their main mode of communications.</p>
+<p><strong><a href="https://docs.google.com/document/d/1PY0T6dudVO6iQAbf1EUEdL1UTHu7eSFamJjL22ELMEI/edit" target="_blank" rel="noopener noreferrer">We collected many considerations and pros/cons in this document, including the other options we could consider.</a></strong> We invite your comments and feedback <a href="https://docs.google.com/document/d/1PY0T6dudVO6iQAbf1EUEdL1UTHu7eSFamJjL22ELMEI/edit" target="_blank" rel="noopener noreferrer">there</a>, or on OpenRefine's mailing list. Also, if anyone is interested in helping with the move, please let me know :-)</p>
+<p>Tentative timeline for the move (our team is small, so this may be slower, or faster if a few of you volunteer to help!):</p>
+<ul>
+<li>September 20, 2022 - OpenRefine’s community is informed about this plan; you can respond and comment for two weeks (and longer if we notice it is needed)</li>
+<li>Week of Oct 3, 2022 (or later) - Decision go/no go based on your feedback</li>
+<li>If there is general consensus: around the first weeks of November  (depending on availability of Antonin, Sandra and volunteers) - start of actual migration to Discourse</li>
+<li>If there is general consensus: end November 2022 - OpenRefine’s  community uses Discourse for communications and mailing lists are now  read-only!</li>
+</ul>
+<p>Looking forward to your comments and feedback!</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

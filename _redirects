@@ -1,0 +1,10 @@
+/privacy.html   /privacy
+/download.html  /download
+/donate.html    /donate
+/documentation.html  /docs
+/community.html /community
+/category/blog.html     /blog
+/blog/:year/:month/:day/*.html  /blog/:year/:month/:day/:splat
+
+/feed.xml       /blog/atom.xml
+/images/czi-eoss-proposal.pdf   /uploads/czi-eoss-proposal.pdf
