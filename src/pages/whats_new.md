@@ -8,7 +8,9 @@ hide_table_of_contents: false
 
 ## Version 3.8
 
-See the [3.8-beta1 release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.8-beta1).
+See:
+* the [3.8-beta1 release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.8-beta1)
+* the [3.8-beta5 release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.8-beta5) (intermediate version numbers have been skipped)
 
 ## Version 3.7
 
