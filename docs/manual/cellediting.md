@@ -57,7 +57,7 @@ You can also convert cells into null values or empty strings. This can be useful
 
 ## Fill down and blank down {#fill-down-and-blank-down}
 
-Fill down and blank down are two functions most frequently used when encountering data organized into [records](exploring#row-types-rows-vs-records) - that is, multiple rows associated with one specific entity. 
+Fill down and blank down are two functions most frequently used when encountering data organized into [records](exploring#rows-vs-records) - that is, multiple rows associated with one specific entity. 
 
 If you receive information in rows mode and want to convert it to records mode, the easiest way is to sort your first column by the value that you want to use as a unique records key, [make that sorting permanent](transforming#edit-rows), then blank down all the duplicates in that column. OpenRefine will retain the first unique value and erase the rest. Then you can switch from “Show as rows” to “Show as records” and OpenRefine will associate rows to each other based on the remaining values in the first column. 
 
@@ -119,13 +119,13 @@ The clustering pop-up window offers you two categories of clustering methods: 6 
     * [Beider-Morse](#baider-morse)
 - [Nearest Neighbor](#nearest-neighbor)
     * [Levenshtein](#levenshtein-distance)
-    * [PPM](#ppm)
+    * [PPM (Prediction by Partial Matching)](#ppm)
 
 #### Key Collision {#key-collision}
 
 **Key collisions** are very fast and can process millions of cells in seconds:
 
-**<a name="fingerprinting">Fingerprinting</a>**
+##### Fingerprinting {#fingerprinting}
 
 Fingerprinting is the least likely to produce false positives, so it’s a  good place to start. It does the same kind of data cleaning behind the scenes that you might think to do manually:
 
@@ -138,7 +138,7 @@ Fingerprinting is the least likely to produce false positives, so it’s a  good
 
 For an in-depth understanding of fingerprinting, check this [document](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth#fingerprint)
 
-**<a name="n-gram">N-gram Fingerprinting</a>**
+##### N-gram Fingerprinting {#n-gram}
 
 N-gram fingerprinting allows you to set the _n_ value to whatever number you’d like and will create n-grams of _n_ size (after doing some cleaning), alphabetize them, then join them back together into a  fingerprint.
 
@@ -148,23 +148,23 @@ This can help match cells that have typos, or incorrect spaces (such as matching
 
 For an in-depth understanding of N-gram fingerprinting, check this [document](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth#n-gram-fingerprint)
 
-**<a name="phonetic-clustering">Phonetic Clustering</a>**
+##### Phonetic Clustering {#phonetic-clustering}
 
 The next four methods are phonetic algorithms: they identify letters that sound the same when pronounced out loud, and assess text values based on that (such as knowing that a word with an “S” might be a mistype of a word with a “Z”). They are great for spotting mistakes made by not knowing the spelling of a word or name after hearing it spoken aloud.
 
-**<a name="metaphone3-fingerprinting">Metaphone3 Fingerprinting</a>**
+##### Metaphone3 Fingerprinting {#metaphone3-fingerprinting}
 
 Metaphone3 fingerprinting is an English-language phonetic algorithm. For example, “Reuben Gevorkiantz” and “Ruben Gevorkyants” share the same phonetic fingerprint in English.
 
-**<a name="cologne-fingerprinting">Cologne Fingerprinting</a>**
+##### Cologne Fingerprinting {#cologne-fingerprinting}
 
 Cologne fingerprinting is another phonetic algorithm, but for German pronunciation.
 
-**<a name="daitch-mokotoff">Daitch-Mokotoff</a>**
+##### Daitch-Mokotoff {#daitch-mokotoff}
 
 Daitch-Mokotoff is a phonetic algorithm for Slavic and Yiddish words, especially names.
 
-**<a name="baider-morse">Baider-Morse</a>**
+##### Baider-Morse {#baider-morse}
 
 Baider-Morse is a version of Daitch-Mokotoff that is slightly more strict.
 
@@ -182,13 +182,13 @@ We recommend setting the block number to at least 3, and then increasing it if y
 
 **Note** that bigger block values will take much longer to process, while smaller blocks may miss matches. Increasing the radius will make the matches more lax, as bigger differences will be clustered.
 
-**<a name="levenshtein-distance">Levenshtein Distance</a>**
+##### Levenshtein Distance {#levenshtein-distance}
 
 Levenshtein distance counts the number of edits required to make one value perfectly match another. As in the key collision methods above, it will do things like change uppercase to lowercase, fix whitespace, change special characters, etc. Each character that gets changed counts as 1 “distance.” “New York” and “newyork” have an edit distance value of 3 (“N” to “n”; “Y” to “y”; remove the space).
 
 It can do relatively advanced edits, such as understanding the distance between “M. Makeba” and “Miriam Makeba” (5), but it may create false positives if these distances are greater than other, simpler transformations (such as the one-character distance to “B. Makeba,” another person entirely).
 
-**<a name="ppm">PPM (Prediction by Partial Matching)</a>**
+##### PPM (Prediction by Partial Matching) {#ppm}
 
 PPM (Prediction by Partial Matching) uses compression to see whether two values are similar or different. In practice, this method is very lax even for small radius values and tends to generate many false positives, but because it operates at a sub-character level it is capable of finding substructures that are not easily identifiable by distances that work at the character level. So it should be used as a “last resort” clustering method. It is also more effective on longer strings than on shorter ones.
 

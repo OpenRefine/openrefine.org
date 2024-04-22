@@ -5,6 +5,7 @@ module.exports = {
   themes: ['@docusaurus/theme-mermaid'],
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
+  onBrokenAnchors: 'warn',
   title: 'OpenRefine',
   tagline: 'A power tool for working with messy data.',
   url: 'https://openrefine.org',
