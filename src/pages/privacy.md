@@ -39,7 +39,8 @@ services. This includes the following:
 - Importing or exporting data to Google Sheets or Google Drive;
 - Importing or exporting data to a SQL database;
 - Importing a file retrieved from a URL;
-- Uploading data to Wikibase instances.
+- Uploading data to Wikibase instances;
+- Enabling the OpenREfine release and events notifications (starting OpenRefine 3.8).
 
 If you are unsure whether a particular workflow involves communicating with external
 services, [just ask](/community).
