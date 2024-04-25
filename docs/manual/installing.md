@@ -36,7 +36,7 @@ We are aware of some minor rendering and performance issues on other browsers su
 
 ### Release versions {#release-versions}
 
-OpenRefine always has a [latest stable release](https://github.com/OpenRefine/OpenRefine/releases/latest), as well as some more recent developments available in beta, release candidate, or [snapshot releases](https://github.com/OpenRefine/OpenRefine-snapshot-releases/releases). If you are installing for the first time, we recommend [the latest stable release](https://github.com/OpenRefine/OpenRefine/releases/latest).
+OpenRefine always has a [latest stable release](https://github.com/OpenRefine/OpenRefine/releases/latest), as well as some more recent developments available in beta, release candidate, or [snapshot releases](https://github.com/OpenRefine/OpenRefine?tab=readme-ov-file#snapshot-releases). If you are installing for the first time, we recommend [the latest stable release](https://github.com/OpenRefine/OpenRefine/releases/latest).
 
 If you wish to use an extension that is only compatible with an earlier version of OpenRefine, and do not require the latest features, you may find that [an older stable version is best for you](https://github.com/OpenRefine/OpenRefine/releases) in our list of releases. Look at later releases to see which security vulnerabilities are being fixed, in order to assess your own risk tolerance for using earlier versions. Look for “final release” versions instead of “beta” or “release candidate” versions.
 
