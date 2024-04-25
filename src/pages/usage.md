@@ -49,9 +49,9 @@ xychart-beta
 
 ## Forum Statistics 
 
-On November 2022, we moved from our Google Groups to discourse to host our forum. 
+In November 2022, we moved from email lists hosted by Google Groups to a Discourse forum. 
 
-As of March 20, 2024, over the last 12 months
+As of March 20, 2024, over the last 12 months:
 * 244 new users signed up on our forum for a total of 470 users. 
 * 324 topics were created for a total of 1,700 messages.
 
