@@ -61,7 +61,7 @@ function MainDownload() {
                         You also can install OpenRefine on Ubuntu/Debian derivatives with&nbsp;
                         <code>sudo apt install openrefine</code>
 
-                        <p>On Gentoo Linux you can use Guru overlay <a href='https://gpo.zugaina.org/Overlays/guru/gui-apps/openrefine'>gui-apps/openrefine</a></p>
+                        <p>See for other systems at https://repology.org/project/openrefine/versions</p>
                        </div>);
                 } else if (['Mac OS'].includes(os)) {
                    return (<div id="otherDistributionNotice">
