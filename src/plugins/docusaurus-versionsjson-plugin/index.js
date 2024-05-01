@@ -37,7 +37,9 @@ module.exports = function (context) {
           releases: releases.map(releaseJSON),
           events
         };
-        if (events === []) {
+        // fix for invalid handling of empty array in OpenRefine 3.8.0,
+        // see https://github.com/OpenRefine/OpenRefine/issues/6582
+        if (events.length == 0) {
            delete versionsJSON['events'];
         }
         await fs.outputFile(sitemapPath, JSON.stringify(versionsJSON));
