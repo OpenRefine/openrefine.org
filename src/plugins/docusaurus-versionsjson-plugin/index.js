@@ -37,6 +37,9 @@ module.exports = function (context) {
           releases: releases.map(releaseJSON),
           events
         };
+        if (events === []) {
+           delete versionsJSON['events'];
+        }
         await fs.outputFile(sitemapPath, JSON.stringify(versionsJSON));
       } catch (err) {
         logger.error('Writing versions.json failed.');
