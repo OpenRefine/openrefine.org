@@ -40,7 +40,7 @@ pom.xml
           controller.js
 ```
 
-The file named `module.properties` (see [example](https://github.com/OpenRefine/OpenRefine/blob/master/extensions/sample/module/MOD-INF/module.properties)) contains the extension's metadata. Of importance is the name field, which gives the extension a name that's used in many other places to refer to it. This can be different from the extension's directory name.
+The file named `module.properties` (see [example](https://github.com/OpenRefine/sample-extension/blob/master/module/MOD-INF/module.properties)) contains the extension's metadata. Of importance is the name field, which gives the extension a name that's used in many other places to refer to it. This can be different from the extension's directory name.
 
 ```
 name = my-extension-name
@@ -56,32 +56,34 @@ requires = core
 
 which makes sure that the core module of OpenRefine is loaded before the extension attempts to hook into it.
 
-The file named `controller.js` is responsible for registering the extension's hooks into OpenRefine. Look at the sample-extension extension's [controller.js](https://github.com/OpenRefine/OpenRefine/blob/master/extensions/sample/module/MOD-INF/controller.js) file for an example. It should have a function called `init()` that does the hook registrations.
+The file named `controller.js` is responsible for registering the extension's hooks into OpenRefine. Look at the sample-extension extension's [controller.js](https://github.com/OpenRefine/sample-extension/blob/master/module/MOD-INF/controller.js) file for an example. It should have a function called `init()` that does the hook registrations.
 
-The `pom.xml` file is an [Apache Maven](http://maven.apache.org/) build file. You can make a copy of the sample extension's `pom.xml` file to get started. The important point here is that the Java classes should be built into the `module/MOD-INF/classes` sub-directory.
+The `pom.xml` file is an [Apache Maven](http://maven.apache.org/) build file. You can make a copy of the sample extension's `pom.xml` file to get started. The important point here is that the Java code and dependencies should be output into the `module/MOD-INF/lib` sub-directory.
 
 Note that your extension's Java code would need to reference some libraries used in OpenRefine and OpenRefine's Java classes themselves. These dependencies are reflected in the Maven configuration for the extension.
 
 ## Sample extension {#sample-extension}
 
-The sample extension is included in the code base so that you can copy it and get started on writing your own extension. After you copy it, make sure you change its name inside its `module/MOD-INF/controller.js` file.
+You can copy the [sample extension](https://github.com/OpenRefine/sample-extension) and get started on writing your own extension. After you copy it, make sure you change its name inside its `module/MOD-INF/controller.js` file.
 
 ### Basic Structure {#basic-structure}
 
-The sample extension's code is in `refine/extensions/sample/`. In that directory, Java source code is contained under the `src` sub-directory, and webapp code is under the `module` sub-directory. Here is the full directory layout:
+In the sample extension, Java source code is contained under the `src` sub-directory, and webapp code is under the `module` sub-directory. Here is the full directory layout:
 
 ```
-refine/extensions/sample/
+sample-extension/
       build.xml (ant build script)
       src/
-          com/google/refine/sampleExtension/
-              ... Java source code ...
+          main/java/
+              com/google/refine/sampleExtension/
+                  ... Java source code ...
+          test/java/
+              com/google/refine/sampleExtension/
+                  ... Java test files ...
       module/
           MOD-INF/
               module.properties (module settings)
               controller.js (module init and routing logic in Javascript)
-          classes/
-              ... compiled Java classes ...
           lib/
               ... Java jars ...
           ... velocity templates (.vt) ...
@@ -103,13 +105,11 @@ The `init()` function in `controller.js` allows the extension to register variou
 
 The Extensions are loaded by the Butterfly framework. Butterfly refers to these as 'modules'. [The location of modules is set in the `main/webapp/butterfly.properties` file](https://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/WEB-INF/butterfly.properties#L27). Butterfly simply descends into each of those paths and looks for any `MOD-INF` directories.
 
-For more information, see [Extension Points](https://github.com/OpenRefine/OpenRefine/wiki/Extension-Points).
-
 ## Extension points {#extension-points}
 
 ### Client-side: Javascript and CSS {#client-side-javascript-and-css}
 
-The UI in OpenRefine for working with a project is coded in [the /main/webapp/modules/core/project.vt file](http://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/modules/core/project.vt). The file is quite small, and that's because almost all of its content is to be expanded dynamically through the Velocity variables `$scriptInjection` and `$styleInjection`. So that your own Javascript and CSS files get loaded, you need to register them with the ClientSideResourceManager, which is done in the /module/MOD-INF/controller.js file. See [the controller.js file in this sample extension code](http://github.com/OpenRefine/OpenRefine/blob/master/extensions/sample/module/MOD-INF/controller.js) for an example.
+The UI in OpenRefine for working with a project is coded in [the /main/webapp/modules/core/project.vt file](https://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/modules/core/project.vt). The file is quite small, and that's because almost all of its content is to be expanded dynamically through the Velocity variables `$scriptInjection` and `$styleInjection`. So that your own Javascript and CSS files get loaded, you need to register them with the ClientSideResourceManager, which is done in the /module/MOD-INF/controller.js file. See [the controller.js file in this sample extension code](https://github.com/OpenRefine/sample-extension/blob/master/module/MOD-INF/controller.js) for an example.
 
 In the registration call, the variable `module` is already available to your code by default, and it refers to your own extension.
 
@@ -126,7 +126,7 @@ ClientSideResourceManager.addPaths(
 
 You can specify one or more files for registration, and their paths are relative to the `module` sub-directory of your extension. They are included in the order listed.
 
-Javascript Bundling: Note that `project.vt` belongs to the core module and is thus under the control of the core module's [controller.js file](http://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/modules/core/MOD-INF/controller.js). The Javascript files to be included in `project.vt` are by default bundled together for performance. When debugging, you can prevent this bundling behavior by setting `bundle` to `false` near the top of that `controller.js` file. (If you have commit access to this code base, be sure not to check that change in.)
+Javascript Bundling: Note that `project.vt` belongs to the core module and is thus under the control of the core module's [controller.js file](https://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/modules/core/MOD-INF/controller.js). The Javascript files to be included in `project.vt` are by default bundled together for performance. When debugging, you can prevent this bundling behavior by setting `bundle` to `false` near the top of that `controller.js` file. (If you have commit access to this code base, be sure not to check that change in.)
 
 ### Client-side: Images {#client-side-images}
 
@@ -359,6 +359,3 @@ Packages.com.google.refine.expr.MetaParser.registerLanguageParser(
 
 The first string is the prefix that gets prepended to each expression so that we know which language the expression is in. This should be short, unique, and identifying. The second string is a user-friendly name of the language. The third is an object that implements the interface `com.google.refine.expr.LanguageSpecificParser`. The final string is the default expression in that language that would return the cell's value.
 
-In 2018 we are making important changes to OpenRefine to modernize it, for the benefit of users and contributors. This page describes the changes that impact developers of extensions or forks and is intended to minimize the effort required on their end to follow the transition. The instructions are written specifically with extension maintainers in mind, but fork maintainers should also find it useful.
-
-This document describes the migrations in the order they are committed to the master branch. This means that it should be possible to perform each migration in turn, with the ability to run the software between each stage by checking out the appropriate git commit.
