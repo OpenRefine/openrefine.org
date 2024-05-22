@@ -2,6 +2,13 @@
 build/
 node_modules/
 .docusaurus/
+.yarn/**
+.yarnrc.yml
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.pnpm-debug.log*
+lerna-debug.log*
                 
 ########
 ## Linux
