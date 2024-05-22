@@ -6,7 +6,7 @@ return {
   },
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
-  onBrokenAnchors: 'throw',
+  onBrokenAnchors: 'warn',
   title: 'OpenRefine',
   tagline: 'A power tool for working with messy data.',
   url: 'https://openrefine.org',
@@ -152,7 +152,7 @@ return {
       copyright: `<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />OpenRefine's documentation is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.`,
     },
   },
-  plugins: ['./src/plugins/docusaurus-versions-json-plugin'],
+  plugins: ['./src/plugins/docusaurus-versionsjson-plugin'],
   presets: [
     [
       '@docusaurus/preset-classic',

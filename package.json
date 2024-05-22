@@ -14,9 +14,9 @@
     "netlify:build:deployPreview": "yarn build"
   },
   "dependencies": {
-    "@docusaurus/core": "3.2.1",
-    "@docusaurus/preset-classic": "3.2.1",
-    "@docusaurus/theme-mermaid": "3.2.1",
+    "@docusaurus/core": "^3.3.2",
+    "@docusaurus/preset-classic": "^3.3.2",
+    "@docusaurus/theme-mermaid": "^3.3.2",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^1.2.1",
     "create-docusaurus": "^2.1.0",
