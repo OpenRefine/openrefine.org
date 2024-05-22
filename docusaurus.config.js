@@ -1,10 +1,12 @@
-module.exports = {
+export default async function createConfigAsync() {
+
+return {
   markdown: {
     mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid'],
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
+  onBrokenAnchors: 'warn',
   title: 'OpenRefine',
   tagline: 'A power tool for working with messy data.',
   url: 'https://openrefine.org',
@@ -13,6 +15,7 @@ module.exports = {
   favicon: 'img/openrefine_logo.svg',
   organizationName: 'OpenRefine', // Usually your GitHub org/user name.
   projectName: 'openrefine.github.com', // Usually your repo name.
+  themes: ['@docusaurus/theme-mermaid'],
   themeConfig: {
     navbar: {
       title: 'OpenRefine',
@@ -210,3 +213,4 @@ module.exports = {
     },
   ],
 };
+}
