@@ -4,7 +4,7 @@ title: "Register to participate to our BarCamp remotely"
 ---
 
 Our first ever BarCamp is coming up in two weeks, on June 17th-19th, in Berlin and online.
-[Register now](https://barcamps.eu/openrefine-2024-barcamp/) to participate, whether you want to be onsite or remotely.
+If you haven't yet, [register now](https://barcamps.eu/openrefine-2024-barcamp/) to participate, whether you want to be onsite or remotely.
 This will give you access to the video conference room, let you propose and vote on sessions.
 
 The event will start Monday afternoon:
