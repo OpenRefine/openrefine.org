@@ -9,11 +9,10 @@ This will give you access to the video conference room, let you propose and vote
 
 The event will start Monday afternoon:
 * 14:00 CEST (12:00 UTC): Introductions round and opening of the event.
-* 14:30 CEST (12:30 UTC): Collaborative review and scheduling of [the proposed sessions](https://barcamps.eu/openrefine-2024-barcamp/sessions).
+* 14:30 CEST (12:30 UTC): Collaborative review and scheduling of [the proposed sessions](https://barcamps.eu/openrefine-2024-barcamp/sessions) (which you can still submit).
 * 16:00 CEST (14:00 UTC): Break
 * 16:30 CEST (14:30 UTC): Allocation of [volunteering shifts](https://github.com/OpenRefine/BarCamp2024/issues/11) (session facilitation, note-taking, Zoom caretaking)
 
-The sessions themselves will then take place on Tuesday and Wednesday, following the schedule established on Monday.
-One exception is the session about the mission, visions and values of OpenRefine facilitated by BoCoup, taking place on Tuesday at XX CEST (XX UTC), already scheduled because of the external facilitation.
+The sessions themselves will then take place on Tuesday and Wednesday, following the schedule established on Monday. The schedule will be published on BarCamp's website.
 
 We are looking forward to kicking off this gathering with you!
