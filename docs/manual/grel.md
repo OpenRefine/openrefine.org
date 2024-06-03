@@ -66,7 +66,7 @@ The dot notation can also be used to access the member fields of [variables](exp
 
 |Example |Description |
 |-|-|
-| `FirstName.cells` | Access the cell in the column named “FirstName” of the current row |
+| `cells.FirstName` | Access the cell in the column named “FirstName” of the current row |
 | `cells["First Name"]` | Access the cell in the column called “First Name” of the current row |
 
 Square brackets can also be used to get substrings and sub-arrays, and single items from arrays:
