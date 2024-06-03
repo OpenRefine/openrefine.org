@@ -1,6 +1,6 @@
 ---
 author: Antonin Delpeuch
-title: "Register to participate to our BarCamp remotely"
+title: "Register to participate to our first BarCamp remotely"
 ---
 
 Our first ever BarCamp is coming up in two weeks, on June 17th-19th, in Berlin and online.
