@@ -482,3 +482,4 @@ which later
 For more information on clustering methods and related research we
 suggest you look at the
 [bibliography of the Vicino project](http://code.google.com/p/simile-vicino/source/browse/\#svn/trunk/papers).
+You can also visit Wikiversity's topic on [Record Linkage and Duplicate Record Detection](https://en.wikiversity.org/wiki/Duplicate_record_detection).
