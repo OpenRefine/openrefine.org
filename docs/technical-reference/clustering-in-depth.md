@@ -481,6 +481,6 @@ which later
 
 For more information on clustering methods and related research we
 suggest you look at the
-[bibliography of the Vicino project](http://code.google.com/p/simile-vicino/source/browse/\#svn/trunk/papers).
+[bibliography of the Vicino project](https://github.com/OpenRefine/simile-vicino/tree/master/papers).
 You can also visit Wikiversity's topic on [Record Linkage and Duplicate Record Detection](https://en.wikiversity.org/wiki/Duplicate_record_detection).
 [Similarity measures - Felix Naumann, 2013-11-6, Hasso Plattner Institut](https://hpi.de/fileadmin/user_upload/fachgebiete/naumann/folien/SS13/DPDC/DPDC_12_Similarity.pdf)
