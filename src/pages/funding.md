@@ -35,17 +35,6 @@ Since 2018, OpenRefine has relied on grants to sustain its development. Below, y
 OpenRefine is actively applying to grant opportunities listed in this section. We will update this section with the latest information as we progress.
 If you're interested in partnering with us for a grant, [contact us](https://forum.openrefine.org/). 
 
-#### 2024-DEF
-
-* **Status**: Application submitted. Results expected by end of March 2024. 
-* **Amount**: asking for USD 100,000
-* **Source**: [Data Empowerment Fund](https://dataempowerment.fund/)
-* **Start date**: April 2024
-* **End date**: March 2025
-* **Relevant links**: 
-  * [Call for proposals](https://dataempowerment.fund/wp-content/uploads/2023/12/DEF_Open_Call.pdf?v=2)
-  * [Grant application](/uploads/2024-DEF-Application.pdf)
-
 ### Current grants
 
 OpenRefine is currently working on the following grants. 
@@ -145,7 +134,18 @@ OpenRefine completed the following grants.
 
 ### Unsuccessful applications
 
-We applied to the following grant opportunities but our proposals were not selected. 
+We applied for the following grant opportunities, but our proposals were not selected. 
+
+#### 2024-DEF
+
+* **Status**: Not Awarded
+* **Amount**: asking for USD 100,000
+* **Source**: [Data Empowerment Fund](https://dataempowerment.fund/)
+* **Start date**: April 2024
+* **End date**: March 2025
+* **Relevant links**: 
+  * [Call for proposals](https://dataempowerment.fund/wp-content/uploads/2023/12/DEF_Open_Call.pdf?v=2)
+  * [Grant application](/uploads/2024-DEF-Application.pdf)
 
 #### 2023 EOSS-6
 
