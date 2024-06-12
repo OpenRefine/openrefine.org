@@ -118,7 +118,7 @@ Identical to substring() in relation to strings. Also works with arrays; see [Ar
 
 ###### get(s, n from, n to (optional)) {#gets-n-from-n-to-optional}
 
-Identical to substring() in relation to strings. Also works with named fields. Also works with arrays; see [Array functions section](#geta-n-from-n-to-optional).
+Similar to [substring()](#substrings-n-from-n-to-optional) when used in relation to strings, but when using `get` in the case that the second argument `n to` is omitted a single character will be returned. `get()` also works with named fields, for example to retrieve a [JSON property](#parsejsons) or [OpenRefine variable](expressions#variables). Also works with arrays; see [Array functions section](#geta-n-from-n-to-optional).
 
 #### Find and replace {#find-and-replace}
 
