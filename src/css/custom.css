@@ -6,14 +6,16 @@
  /**
  * Colors extracted from our OpenRefine logo
  */
+
+ /* Primary color meets WCAG AA contrast ratio of 4.5:1 */
  :root {
-    --ifm-color-primary: #00a0ff;
-    --ifm-color-primary-dark: #0078ff;
-    --ifm-color-primary-darker: #0050ac;
-    --ifm-color-primary-darkest: #003b7e;
-    --ifm-color-primary-light: #00b4ff;
-    --ifm-color-primary-lighter: #2da6d1;
-    --ifm-color-primary-lightest: #00dcff;
+    --ifm-color-primary: #005e94;
+    --ifm-color-primary-dark: #005585;
+    --ifm-color-primary-darker: #00507e;
+    --ifm-color-primary-darkest: #004268;
+    --ifm-color-primary-light: #0067a3;
+    --ifm-color-primary-lighter: #006caa;
+    --ifm-color-primary-lightest: #007ac0;
     --ifm-color-secondary: #999999;
     --ifm-alert-border-width: 0.375em;
     --ifm-alert-background-color: #ffffff;
@@ -21,6 +23,18 @@
     --ifm-panel-box-shadow-color: #999999;
     --ifm-code-color: var(--ifm-color-primary-darkest);
   }
+
+  [data-theme='dark'] {
+    --ifm-color-primary: #00a2ff;
+    --ifm-color-primary-dark: #0092e6;
+    --ifm-color-primary-darker: #008ad9;
+    --ifm-color-primary-darkest: #0071b3;
+    --ifm-color-primary-light: #1aabff;
+    --ifm-color-primary-lighter: #26b0ff;
+    --ifm-color-primary-lightest: #4dbeff;
+  }
+
+
 
   /**
    * Size of youtube embeds
