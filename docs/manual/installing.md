@@ -443,7 +443,7 @@ Some extensions may have multiple versions, to match OpenRefine versions, so be 
 Generally, the installation process will be:
 
 *   Download the extension (usually as a zip file from GitHub)
-*   Extract the zip contents into the “extensions” directory, making sure all the contents go into one folder with the name of the extension
+*   Extract the zip contents into the `webapp\extensions` directory, making sure all the contents go into one folder with the name of the extension
 *   Start (or restart) OpenRefine.
 
 To confirm that installation was a success, follow the instructions provided by the extension. Each extension will appear in its own way inside the OpenRefine interface. Make sure you read its documentation to know where the functionality will appear, such as under specific dropdown menus.
