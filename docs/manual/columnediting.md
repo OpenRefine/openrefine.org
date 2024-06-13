@@ -121,4 +121,4 @@ Note that for Mac users and for Windows users with the OpenRefine installation w
 Every column's <span class="menuItems">Edit column</span> dropdown contains options to move it (to the beginning, end, left, or right), rename it, and delete it. 
 These operations can be undone, but a removed column cannot be restored later if you keep modifying your data. If you wish to temporarily hide a column, go to <span class="menuItems">[View](sortview#view)</span> → <span class="menuItems">Collapse this column</span> instead. 
 
-Be cautious about moving columns in [records mode](cellediting#rows-vs-records): if you change the first column in your dataset (the key column), your records may change in unintended ways. 
+Be cautious about moving columns in [records mode](exploring#rows-vs-records): if you change the first column in your dataset (the key column), your records may change in unintended ways. 

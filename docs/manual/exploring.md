@@ -43,7 +43,7 @@ To transform data from one type to another, see [Transforming data](cellediting#
 
 ### Dates {#dates}
 
-A “date” type is created when a column is [transformed into dates](transforming#to-date), when an expression is used to [convert cells to dates](grelfunctions#todateo-b-monthfirst-s-format1-s-format2-) or when individual cells are set to have the data type “date”. 
+A “date” type is created when a column is [transformed](transforming) into dates, when an expression is used to [convert cells to dates](grelfunctions#todateo-b-monthfirst-s-format1-s-format2-) or when individual cells are set to have the data type “date”. 
 
 Date-formatted data in OpenRefine relies on a number of conversion tools and standards. For something to be considered a date in OpenRefine, it will be converted into the ISO-8601-compliant extended format with time in UTC: YYYY-MM-DDTHH:MM:SSZ.
 
@@ -111,7 +111,7 @@ Once you are in records mode, you can still move some columns around, but if you
 
 OpenRefine assigns a unique key behind the scenes, so your records don’t need a unique identifier in the key column. You can keep track of which rows are assigned to each record by the record number that appears under the <span class="menuItems">All</span> column.
 
-To [split multi-valued cells](transforming#split-multi-valued-cells) and apply other operations that take advantage of records mode, see [Transforming data](transforming). 
+To [split multi-valued cells](cellediting#split-multi-valued-cells) and apply other operations that take advantage of records mode, see [Transforming data](transforming). 
 
 Be careful when in records mode that you do not accidentally delete rows based on being blank in one column where there is a value in another. 
 

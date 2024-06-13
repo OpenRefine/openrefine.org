@@ -161,7 +161,7 @@ Refine.DefaultImportingController = function(createProjectUI) {
 Refine.CreateProjectUI.controllers.push(Refine.DefaultImportingController); // register the controller
 ```
 
-We will cover the server-side code [below](#importingcontrollers).
+We will cover the [**server-side components**](#server-side-components) below.
 
 #### Data Source Selection UIs {#data-source-selection-uis}
 
@@ -315,7 +315,7 @@ In the code, the faceted browsing state, or faceted browsing query, is actually 
 }
 ```
 
-### Server-Side Subsystem {#server-side-subsystem}
+### Server-side subsystem {#server-side-subsystem}
 
 From an engine configuration like the one above, the server-side faceted browsing subsystem is capable of producing:
 

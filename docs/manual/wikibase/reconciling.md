@@ -32,24 +32,40 @@ Some items and types may not yet be set as an instance or subclass of anything (
 
 ## Reconciling via unique identifiers {#reconciling-via-unique-identifiers}
 
-You can supply a column of unique identifiers (in the form "Q###" for entities) directly to Wikidata in order to pull more data, but [these strings will not be “reconciled” against the external dataset](reconciling#reconciling-with-unique-identifiers). Apply the operation <span class="menuItems">Reconcile</span> → <span class="menuItems">Use values as identifiers</span> on your column of QIDs. All cells will appear as dark blue “confirmed” matches. Some of the “matches” may be errors, which you will need to hover over or click on to identify. You cannot use this to reconcile properties (in the form "P###").
+You can supply a column of unique identifiers (in the form `Q###` for entities) directly to Wikidata in order to pull more data, but these strings **will not** be “reconciled” against the external dataset.
+
+**See also:** [**Reconciling - Reconciling with unique identifiers**](../reconciling#reconciling-with-unique-identifiers)
+
+Apply the operation <span class="menuItems">Reconcile</span> → <span class="menuItems">Use values as identifiers</span> on your column of QIDs. All cells will appear as dark blue “confirmed” matches. Some of the “matches” may be errors, which you will need to hover over or click on to identify. You cannot use this to reconcile properties (in the form `P###`).
 
 If the identifier you submit is assigned to multiple Wikidata items (because Wikidata is crowdsourced), all of the items are returned as candidates, with none automatically matched.
 
 ## Property paths, special properties, and subfields {#property-paths-special-properties-and-subfields}
 
-Wikidata's hierarchical property structure can be called by using property paths (using |, /, and . symbols). Labels, aliases, descriptions, and sitelinks can also be accessed. You can also match values against subfields, such as latitude and longitude subfields of a geographical coordinate.
 
-Labels, aliases, descriptions and sitelinks can be accessed as follows (L for label , D for description, A for aliases, S for sitelink):
 
-    Len for Label in English
-    Dfi for Description in Finnish
-    Apt for Alias in Portuguese
-    Sdewiki for Sitelink in German Wikipedia page titles
-    Scommonswiki for Commons sitelink
+In this section we cover only some of Wikidata's hierarchical property structure that can be queried by using property paths (using `|`, `/`, and `.` symbols).
+
+:::tip
+For full information on using property paths, read the [Wikidata Reconcile Service documentation here](https://wikidata.reconci.link/#documentation).
+:::
+
+You can also match values against subfields, such as **latitude** and **longitude** of a geographical coordinate, **dates**, **URLs**, etc.
+
+**Labels, aliases, descriptions and sitelinks** can be accessed using the following character prefixs:
+- **L** for label
+- **D** for description
+- **A** for aliases
+- **S** for sitelink
+
+**Examples:**
+- `Len` for Label in English
+- `Dfi` for Description in Finnish
+- `Apt` for Alias in Portuguese
+- `Sdewiki` for Sitelink in German Wikipedia page titles
+- `Scommonswiki` for Wikipedia Commons sitelink
 
 The lowercase letters are Wikimedia language codes which select which language the terms will be fetched. No language fall-back is performed when retrieving the values.
 
-For information on how to do this, read the [documentation and further resources here](https://wikidata.reconci.link/#documentation).
 
 
