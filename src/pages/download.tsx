@@ -58,10 +58,7 @@ function MainDownload() {
                         // also advertise deb package to Windows users per https://github.com/OpenRefine/openrefine.org/commit/d45dab4349930bf71e232a85ce8dc131f57342c3#r99335793
                         || navigator.platform.indexOf("Win") != -1) {
                   return (<div id="otherDistributionNotice">
-                        You also can install OpenRefine on Ubuntu/Debian derivatives with&nbsp;
-                        <code>sudo apt install openrefine</code>
-
-                        <p>See for other systems at https://repology.org/project/openrefine/versions</p>
+                        <p>You can also install OpenRefine via <a href="https://repology.org/project/openrefine/versions">package managers of various Linux distributions</a>.</p>
                        </div>);
                 } else if (['Mac OS'].includes(os)) {
                    return (<div id="otherDistributionNotice">
