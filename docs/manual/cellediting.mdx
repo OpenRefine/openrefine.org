@@ -4,18 +4,10 @@ title: Cell editing
 sidebar_label: Cell editing
 ---
 
-import Heading from '@theme/Heading';
-
-export const BlueH3 = ({children, id}) => (
-  <Heading
-    id={id}
-    as='h3'
-    style={{
-      color: 'var(--ifm-link-color)'
-    }}>
-    {children}
-  </Heading>
-);
+{/* code comment:
+    we made a custom 3rd level blue colored heading to
+    more easily distinguish between upper 1st, 2nd headers from 4th, 5th level */}
+import BlueH3 from '@site/src/components/BlueH3'
 
 
 ## Overview {#overview}
@@ -132,11 +124,10 @@ The clustering pop-up window offers you two categories of clustering methods: 6 
     * [Cologne Phonetic](#cologne-fingerprinting)
     * [Daitch-Mokotoff](#daitch-mokotoff)
     * [Beider-Morse](#baider-morse)
+
 - [Nearest Neighbor](#nearest-neighbor)
     * [Levenshtein](#levenshtein-distance)
     * [PPM](#ppm)
-
-
 
 <BlueH3 id="key-collision">Key Collision</BlueH3>
 
@@ -189,9 +180,7 @@ Regardless of the language of your data, applying each of them might find differ
 
 For an in-depth understanding of phonetics, check this [document](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth#phonetic-fingerprint)
 
-
 <BlueH3 id="nearest-neighbor">Nearest Neighbor</BlueH3>
-
 
 Nearest Neighbor clustering methods are slower than key collision methods.
 
