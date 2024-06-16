@@ -103,7 +103,7 @@ You can also look at each best candidate’s:
 *   type match (“true” if you selected a type and it succeeded, “false” if you reconciled against no particular type, and “(no type)” if it didn’t reconcile)
 *   name match (“true” if you’ve matched, “false” if you haven’t yet chosen from the candidates, or “(unreconciled)” if it didn’t reconcile). 
 
-These facets are useful for doing successive reconciliation attempts, against different types, and with different supplementary information. The information represented by these facets are held in the cells themselves and can be called using the [reconciliation variables](expressions#reconciliation) available in expressions.
+These facets are useful for doing successive reconciliation attempts, against different types, and with different supplementary information. The information represented by these facets are held in the cells themselves and can be called using the [Reconciliation variables](expressions#reconciliation) available in expressions.
 
 ### Reconciliation actions {#reconciliation-actions}
 
@@ -141,7 +141,7 @@ Reconciliation services, once added to OpenRefine, may suggest types from their 
 
 Reconciling against a type may be faster and more accurate, but may result in fewer matches. Some services have hierarchical types (such as “mammal” as a subtype of “animal”). When you reconcile against a more specific type, unmatched values may fall back to the broader type; other services will not do this, so you may need to perform successive reconciliation attempts against different types. Refer to the documentation specific to the reconciliation service to learn more. 
 
-When you select a service from the list, OpenRefine will load some or all available types. Some services will sample the first ten rows of your column to suggest types (check the [“Suggest types” column](https://reconciliation-api.github.io/testbench/)). You will see a service’s types in the reconciliation window:
+When you select a service from the list, OpenRefine will load some or all available types. Some services will sample the first ten rows of your column to suggest types (check the [“Suggest types” column on the testbench](https://reconciliation-api.github.io/testbench/)). You will see a service’s types in the reconciliation window:
 
 ![Reconciling using a type.](/img/reconcile-by-type.png)
 
@@ -199,19 +199,23 @@ This process may pull more than one property per row in your data (such as multi
 
 ### Add columns by fetching URLs {#add-columns-by-fetching-urls}
 
-If the reconciliation service cannot extend data, look for a generic web API for that data source, or a structured URL that points to their dataset entities via unique IDs (such as “https&#58;//viaf.org/viaf/000000”). You can use the <span class="menuItems">Edit column</span> → <span class="menuItems">[Add column by fetching URLs](columnediting#add-column-by-fetching-urls)</span> operation to call this API or URL with the IDs obtained from the reconciliation process. This will require using [expressions](expressions).
+If the reconciliation service cannot extend data, look for a generic web API for that data source, or a structured URL that points to their dataset entities via unique IDs (such as “https&#58;//viaf.org/viaf/000000”). You can use the <span class="menuItems">Edit column</span> → <span class="menuItems">[Add column by fetching URLs](columnediting#add-column-by-fetching-urls)</span> operation to call this API or URL with the IDs obtained from the reconciliation process. This will require using [Expressions](expressions).
 
 You may not want to pull the entire HTML content of the pages at the ends of these URLs, so look to see whether the service offers a metadata endpoint, such as JSON-formatted data. You can either use a column of IDs, or you can pull the ID from each matched cell during the fetching process. 
 
 For example, if you have reconciled artists to the Getty's ULAN, and [have their unique ULAN IDs as a column](#add-entity-identifiers-column), you can generate a new column of JSON-formatted data by using <span class="menuItems">Add column by fetching URLs</span> and entering the GREL expression `"http://vocab.getty.edu/" + value + ".json"`. For this service, the unique IDs are formatted “ulan/000000” and so the generated URLs look like “http://vocab.getty.edu/ulan/000000.json”.
 
-Alternatively, you can insert the ID directly from the matched column's reconciliation variables, using a GREL expression like `“http://vocab.getty.edu/” + cell.recon.match.id + “.json”` instead. 
+Alternatively, you can insert the ID directly from the matched column's reconciliation variables, using a [GREL expression](grel) like `“http://vocab.getty.edu/” + cell.recon.match.id + “.json”` instead. 
 
-Remember to set an appropriate throttle and to refer to the service documentation to ensure your compliance with their terms. See [the section about this operation](columnediting#add-column-by-fetching-urls) to learn more about the fetching process. 
+:::info
+Remember to set an appropriate throttle and to refer to the service documentation to ensure your compliance with their terms.
+
+See  [Transforming data - Column editing - Add Column by Fetching URLs](columnediting#add-column-by-fetching-urls) about this operation to learn more about the fetching process. 
+:::
 
 ## Keep all the suggestions made {#keep-all-the-suggestions-made}
 
-To generate a list of each suggestion made, rather than only the best candidate, you can use a [GREL expression](expressions#GREL). Go to <span class="menuItems">Edit column</span> → <span class="menuItems">Add column based on this column</span>. To create a list of all the possible matches, use something like
+To generate a list of each suggestion made, rather than only the best candidate, you can use a [GREL expression](grel). Go to <span class="menuItems">Edit column</span> → <span class="menuItems">Add column based on this column</span>. To create a list of all the possible matches, use something like
 
 ```
 forEach(cell.recon.candidates,c,c.name).join(", ")
@@ -236,7 +240,7 @@ OpenRefine supplies a number of variables related specifically to reconciled val
 * `cell.recon.judgmentHistory` (the values used in the “judgment action timestamp” facet)
 * `cell.recon.matched` (a “true” or “false” value)
 
-You can find out more in the [reconciliaton variables](expressions#reconciliaton-variables) section. 
+You can find out more in the [Expressions - Reconciliation Variables](expressions#reconciliation) section. 
 
 :::tip Make a copy of a reconciled column
 

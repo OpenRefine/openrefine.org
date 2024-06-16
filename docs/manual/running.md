@@ -90,7 +90,7 @@ To exit, close all the browser tabs, and then press `control` and `C` in the ter
 :::caution Did you get a JAVA_HOME error?
 “Error: Could not find the ‘java’ executable at ‘’, are you sure your JAVA_HOME environment variable is pointing to a proper java installation?”
 
-If you see this error, you need to [install and configure a JDK package](installing#linux), including setting up `JAVA_HOME`.
+If you see this error, you need to [install and configure a Java Runtime Environment (JRE) package](installing#java), including setting up `JAVA_HOME`.
 :::
 
 </TabItem>
@@ -411,7 +411,7 @@ In each column header you will see a small arrow. Clicking on this arrow brings 
 
 The first column in every project will always be <span class="menuItems">All</span>, which contains options to flag, star, and do non-column-specific operations. The <span class="menuItems">All</span> column is also where rows/records are numbered. Numbering shows the permanent order of rows and records; a temporary sorting or facet may reorder the rows or show a limited set, but numbering will show you the original identifiers unless you make a permanent change. 
 
-The project grid may display with both vertical and horizontal scrolling, depending on the number and width of columns, and the number of rows/records displayed. You can control the display of the project grid by using [Sort and View options](exploring#sort-and-view).
+The project grid may display with both vertical and horizontal scrolling, depending on the number and width of columns, and the number of rows/records displayed. You can control the display of the project grid by using [Sort, View, and Navigation options](sortview).
 
 Mousing over individual cells will allow you to [edit cells individually](cellediting#edit-one-cell-at-a-time).
 

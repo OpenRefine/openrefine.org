@@ -4,7 +4,9 @@ title: GREL functions
 sidebar_label: GREL functions
 ---
 
-**Besides the reference guide below, OpenRefine's GitHub wiki has [a page with many examples and recipes of frequently-used GREL functions](https://github.com/OpenRefine/OpenRefine/wiki/Recipes).**
+:::info
+Besides the reference guide below, OpenRefine's GitHub wiki has [a page with many examples and recipes of frequently-used GREL functions](https://github.com/OpenRefine/OpenRefine/wiki/Recipes).
+:::
 
 ## Reading this reference {#reading-this-reference}
 
@@ -45,7 +47,7 @@ Returns the length of string s as a number.
 
 Takes any value type (string, number, date, boolean, error, null) and gives a string version of that value. 
 
-You can use toString() to convert numbers to strings with rounding, using an [optional string format](https://docs.oracle.com/javase/8/docs/api/java/util/Formatter.html). For example, if you applied the expression `value.toString("%.0f")` to a column:
+You can use `toString()` to convert numbers to strings with rounding, using an [optional string format](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Formatter.html). For example, if you applied the expression `value.toString("%.0f")` to a column:
 
 |Input|Output|
 |-|-|
@@ -54,9 +56,11 @@ You can use toString() to convert numbers to strings with rounding, using an [op
 |0.15|0|
 |100.0|100|
 
-You can also convert dates to strings, using date parsing syntax built into OpenRefine (see [the toDate() function for details](#todateo-b-monthfirst-s-format1-s-format2-)). For example, `value.toString("MMM-dd-yyyy")` would convert the date value [2024-10-15T00:00:00Z] to “Oct-15-2024”.
+You can also convert [Dates](exploring#dates) to Strings, using date parsing syntax built into OpenRefine (**See the [toDate() function](#todateo-b-monthfirst-s-format1-s-format2-) for details**). For example, `value.toString("MMM-dd-yyyy")` would convert the date value [2024-10-15T00:00:00Z] to “Oct-15-2024”.
 
-Note: In OpenRefine, using toString() on a null cell outputs the string “null”.
+:::note
+In OpenRefine, using `toString()` on a `null` cell outputs the string “null”.
+:::
 
 ### Testing string characteristics {#testing-string-characteristics}
 
@@ -72,7 +76,7 @@ Returns a boolean indicating whether s ends with sub. For example, `"food".endsW
 
 Returns a boolean indicating whether s contains sub, which is either a substring or a regex pattern. For example, `"food".contains("oo")` returns true whereas `"food".contains("ee")` returns false. 
 
-You can search for a regular expression by wrapping it in forward slashes rather than quotes: `"rose is a rose".contains(/\s+/)` returns true. startsWith() and endsWith() can only take strings, while contains() can take a regex pattern, so you can use contains() to look for beginning and ending string patterns.  
+You can search for a regular expression by wrapping it in forward slashes rather than quotes: `"rose is a rose".contains(/\s+/)` returns true. `startsWith()` and `endsWith()` can only take strings, while `contains()` can take a regex pattern, so you can use `contains()` to look for beginning and ending string patterns.  
 
 ### Basic string modification {#basic-string-modification}
 
@@ -94,11 +98,11 @@ Returns string s converted into titlecase: a capital letter starting each word, 
 
 ###### trim(s) {#trims}
 
-Returns a copy of the string s with leading and trailing whitespace removed. For example, `" island ".trim()` returns the string “island”. Identical to strip().
+Returns a copy of the string s with leading and trailing whitespace removed. For example, `" island ".trim()` returns the string “island”. Identical to [`strip()`](#strips).
 
 ###### strip(s) {#strips}
 
-Returns a copy of the string s with leading and trailing whitespace removed. For example, `" island ".strip()` returns the string “island”. Identical to trim().
+Returns a copy of the string s with leading and trailing whitespace removed. For example, `" island ".strip()` returns the string “island”. Identical to [`trim()`](#trims).
 
 ###### chomp(s, sep) {#chomps-sep}
 
@@ -158,9 +162,7 @@ Outputs an array of all consecutive substrings inside string s that match the su
 You can supply a substring instead of p, by putting it in quotes, and OpenRefine will compile it into a regex pattern. Anytime you supply quotes, OpenRefine interprets the contents as a string, not regex. If you wish to use any regex notation, wrap the pattern in forward slashes. 
 
 :::tip
-
-See also [match()](grelfunctions#matchs-p)
-
+See also [`match()`](grelfunctions#matchs-p)
 :::
 
 ###### match(s, p) {#matchs-p}
@@ -270,7 +272,7 @@ Returns the [SHA-1 hash](https://en.wikipedia.org/wiki/SHA-1) of an object. If f
 
 Returns a phonetic encoding of a string, based on an available phonetic algorithm. See the [section on phonetic clustering](cellediting#clustering-methods) for more information. Can be one of the following supported phonetic methods: [metaphone, doublemetaphone, metaphone3](https://www.wikipedia.org/wiki/Metaphone), [soundex](https://en.wikipedia.org/wiki/Soundex), [cologne](https://en.wikipedia.org/wiki/Cologne_phonetics). Quotes are required around your encoding method. For example, `"Ruth Prawer Jhabvala".phonetic("metaphone")` outputs the string “R0PRWRJHBFL”.  
 
-###### reinterpret(s, s encoderTarget, s encoderSource) {#reinterprets-s-encodertarget-s-encodersource}
+###### reinterpret(s, s encoderTarget, s encoderSource) {#reinterprets}
 
 Returns s reinterpreted through the given character encoders. You must supply one of the [supported encodings](http://java.sun.com/j2se/1.5.0/docs/guide/intl/encoding.doc.html) for each of the original source and the target output. Note that quotes are required around your character encoder.
 
@@ -489,7 +491,7 @@ For example, you can parse a column containing dates in different formats, such 
 
 Given two dates, returns a number indicating the difference in a given time unit (see the table below). For example, `diff(("Nov-11".toDate('MMM-yy')), ("Nov-09".toDate('MMM-yy')), "weeks")` will return 104, for 104 weeks, or two years. The later date should go first. If the output is negative, invert d1 and d2.
 
-Also works with strings; see [diff() in string functions](#diffsd1-sd2-s-timeunit-optional).
+Also works with strings; see [diff() in string functions](#diffs1-s2-s-timeunit-optional).
 
 ###### inc(d, n, s timeUnit) {#incd-n-s-timeunit}
 

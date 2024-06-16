@@ -64,7 +64,7 @@ We can combine these facets - say, by narrowing to only the Chinese cities with 
 
 ### Things to know about facets {#things-to-know-about-facets}
 
-When you have facets applied, you will see “matching rows” in the [project grid header](running#project-grid-header). If you click <span class="menuItems">Export</span> and copy your data out of OpenRefine while facets are active, many of the exporting options will only export the matching rows, not all the rows in your project. 
+When you have facets applied, you will see “matching rows” in the [grid header](running#the-grid-header). If you click <span class="menuItems">Export</span> and copy your data out of OpenRefine while facets are active, many of the exporting options will only export the matching rows, not all the rows in your project. 
 
 OpenRefine has several default facets, which you’ll learn about below. The most powerful facets are the ones designed by you - custom facets, written using [expressions](expressions) to transform the data behind the scenes and help you narrow down to precisely what you’re looking for. 
 
@@ -90,7 +90,7 @@ A text facet can be generated on any column with the “text” data type. Selec
 
 A text facet is very simple: it takes the total contents of the cells of the column in question and matches them up. It does no guessing about typos or near-matches. 
 
-You can edit any entry that appears in the facet display, by hovering over the facet and clicking the “edit” button that appears. You can then type in a new value manually. This will mass-edit every identical cell in the column. This is a great way to fix typos, whitespace, and other issues that may be affecting the way facets appear. You can also automate the cleanup of facets by using [clustering](transforming#cluster-and-edit): a “Cluster” button is displayed within the facet window. It may be most efficient to cluster cells to one value, and then mass-edit that value to your desired string within the clustering operation window. 
+You can edit any entry that appears in the facet display, by hovering over the facet and clicking the “edit” button that appears. You can then type in a new value manually. This will mass-edit every identical cell in the column. This is a great way to fix typos, whitespace, and other issues that may be affecting the way facets appear. You can also automate the cleanup of facets by using [clustering](cellediting#cluster-and-edit): a “Cluster” button is displayed within the facet window. It may be most efficient to cluster cells to one value, and then mass-edit that value to your desired string within the clustering operation window. 
 
 Each text facet shows up to 2,000 choices by default. You can [increase this limit on the Preferences screen](running#preferences) if you need to, which may slow down your browser. If your applied facet has more choices than the current limit, you'll be offered the option to increase the limit, which will permanently edit that preference for you. 
 
@@ -293,7 +293,7 @@ To store errors in cells, ensure that you have <span class="fieldLabels">store e
 
 ### Facet by null, empty, or blank {#facet-by-null-empty-or-blank}
 
-Any column can be faceted for [null and/or empty cells](#cell-data-types). These can help you find cells where you want to manually enter content. 
+Any column can be faceted for [null and/or empty cells](exploring#data-types). These can help you find cells where you want to manually enter content. 
 
 “Blank” means both null values and empty values. All three facets will generate “true” and “false” facets, “true” being blank. 
 

@@ -20,7 +20,7 @@ Wikidata is built by creating entities (such as people, organizations, or places
 
 For example, you may wish to create entities for local authors and the books they've set in your community. Each writer will be an entity with the occupation [author (Q482980)](https://www.wikidata.org/wiki/Q482980), each book will be an entity with the property “instance of” ([P31](https://www.wikidata.org/wiki/Property:P31)) linking it to a class such as [literary work (Q7725634)](https://www.wikidata.org/wiki/Q7725634), and books will be related to authors through a property [author (P50)](https://www.wikidata.org/wiki/Property:P50). Books can have places where they are set, with the property [narrative location (P840)](https://www.wikidata.org/wiki/Property:P840).
 
-To do this with OpenRefine, you'll need a column of publication titles that you have reconciled (and create new items where needed); each publication will have one or more locations in a “setting” column, which is also reconciled to municipalities or regions where they exist (and create new items where needed). Then you can add those new relationships, and create new entities for authors, books, and places where needed. You do not need columns for properties; those are defined later, in the creation of your [schema](#edit-wikidata-schema).
+To do this with OpenRefine, you'll need a column of publication titles that you have reconciled (and create new items where needed); each publication will have one or more locations in a “setting” column, which is also reconciled to municipalities or regions where they exist (and create new items where needed). Then you can add those new relationships, and create new entities for authors, books, and places where needed. You do not need columns for properties; those are defined later, in the creation of your [schema](#wikidata-schema).
 
 There is a list of [tutorials and walkthroughs on Wikidata](https://www.wikidata.org/wiki/Wikidata:Tools/OpenRefine/Editing) that will allow you to see the full process. You can save your schemas and drafts in OpenRefine, and your progress stays in draft until you are ready to upload it to Wikidata.
 
@@ -216,7 +216,7 @@ For instance, the Wikitext of [this image](https://commons.wikimedia.org/wiki/Fi
 
 You can extract Wikitext (and structured data statements) from a list of file names. Select <span class="menuItems">Edit column</span> → <span class="menuItems">Add columns from reconciled values...</span>
 
-See [Add columns from reconciled values](./reconciling#add-columns-from-reconciled-values) for general information about this feature.
+See [Add columns from reconciled values](../reconciling#fetching-more-data) for general information about this feature.
 
 ### Prepare columns with structured data
 

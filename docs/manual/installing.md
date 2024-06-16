@@ -312,7 +312,7 @@ Using a Mac, you can [run OpenRefine using the terminal](running#starting-and-ex
 OpenRefine relies on having computer memory available to it to work effectively. If you are planning to work with large datasets, you may wish to set up OpenRefine to handle it at the outset. By “large” we generally mean one of the following indicators:
 *   more than one million total cells
 *   an input file size of more than 50 megabytes (MB)
-*   more than 50 [rows per record in records mode](running#records-mode)
+*   more than 50 [rows per record in records mode](exploring#rows-vs-records)
 
 By default OpenRefine is set to operate with 1 gigabyte (GB) of memory (1024MB). If you feel that OpenRefine is running slowly, or you are getting “out of memory” errors (for example, `java.lang.OutOfMemoryError`), you can try allocating more memory.
 
@@ -348,7 +348,7 @@ If you run `openrefine.exe`, you will need to edit the `openrefine.l4j.ini` file
 The line “-Xmx1024M” defines the amount of memory available in megabytes. Change the number “1024” - for example, edit the line to “-Xmx2048M” to make 2048MB [2GB] of memory available.
 
 :::caution openrefine.exe not running?
-Once you increase the memory allocation, you may find that you cannot run `openrefine.exe`. In this case, your computer needs a 64-bit version of [Java](https://www.java.com/en/download/help/index_installing.xml) (this is different from [Java JDK](#install-or-upgrade-java). Look for the “Windows Offline (64-bit)” download on the Downloads page and install that. Your system must also be set to use the 64-bit version of Java by [changing the Java configuration](https://www.java.com/en/download/help/update_runtime_settings.xml).
+Once you increase the memory allocation, you may find that you cannot run `openrefine.exe`. In this case, your computer might need a 64-bit version of [Java](https://www.java.com/en/download/help/index_installing.xml). Or you may have set the amount of memory to large, so try increasing in 1 or 2 GB increments.
 :::
 
 #### Using refine.bat {#using-refinebat}
