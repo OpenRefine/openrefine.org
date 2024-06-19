@@ -72,7 +72,7 @@ In the sample extension, Java source code is contained under the `src` sub-direc
 
 ```
 sample-extension/
-      build.xml (ant build script)
+      pom.xml (Maven configuration file)
       src/
           main/java/
               com/google/refine/sampleExtension/
