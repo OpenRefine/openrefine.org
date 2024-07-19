@@ -90,7 +90,7 @@ function MainDownload() {
       <div className="row" style={{maxWidth: '800px', margin: 'auto' }}>
         <div className="col">
         <h3 id="extensions">Extensions</h3>
-        <p>See the <a href="/extensions">extensions</a> for additional ways to use and extent OpenRefine.</p>
+        <p>See the <a href="/extensions">extensions</a> for additional ways to use and extend OpenRefine.</p>
         </div>
       </div>
     </div>);
