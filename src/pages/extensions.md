@@ -10,7 +10,7 @@ You can install the following extensions to add functionalities to OpenRefine. W
 
 | Extension Name | Description | Authors | Latest compatible version |
 |--------------|-------------|----------|----------|
-| [RDF Transform](https://github.com/AtesComp/rdf-transform) | Transform data into RDF formats. Based on the [RDF extension](https://github.com/stkenny/grefine-rdf-extension). However, it has been thoroughly rewritten to incorporate the newer Java and JavaScript technologies, techniques, and process enhancements. | [AtesComp](https://github.com/AtesComp) | 3.6.0<br />3.7-SNAPSHOT |
+| [RDF Transform](https://github.com/AtesComp/rdf-transform) | Transform data into RDF formats. Based on the [RDF extension](https://github.com/stkenny/grefine-rdf-extension). However, it has been thoroughly rewritten to incorporate the newer Java and JavaScript technologies, techniques, and process enhancements. | [AtesComp](https://github.com/AtesComp) | 3.6+ |
 | [Commons extension](https://github.com/OpenRefine/CommonsExtension) | Utilities to improve the process of extracting structured data from existing files on [Wikimedia Commons](https://commons.wikimedia.org/wiki/) | [Joey Salazar](https://github.com/j-sal), [Sandra Fauconnier](https://github.com/trnstlntk) | 3.6 |
 | [Refine JS](https://github.com/wetneb/refine-js) | Support for Javascript as expression language for OpenRefine | [wetneb](https://github.com/wetneb) | 3.6+ |
 | [OpenRefine Command Palette](https://codeberg.org/abbe98/openrefine-command-palette) | A command palette and keyboard acceleration extension for OpenRefine | [Albin Larsson](https://codeberg.org/abbe98) | 3.7+ |
@@ -28,13 +28,13 @@ You can install the following extensions to add functionalities to OpenRefine. W
 | [GeoRefine](https://github.com/ryanfb/georefine) | Add geospatial processing GREL functions. |  Ryan Baumann | 2.8 |
 | [D2Refine](https://github.com/caCDE-QA/D2Refine) | A clinical study metadata harmonization and validation workbench to 1) convert restrictions (specified in a spreadsheet-like interface) into a clinical model; and 2) provide reconciliation services leveraging the Common Terminology Services 2 (CTS2). [Manual](https://github.com/caCDE-QA/D2Refine/wiki). |  [Deepak K. Sharma](https://github.com/dksharma) | 2.7 |
 
-### Legacy Extensions 
+### Legacy Extensions
 
 These extensions were produced in the past and are good examples of desired uses of OpenRefine. They are maintained here for historical reference, and in case a contributor would like to renew them.
 
 | Extension Name | Description | Authors | Suggested compatible version |
 |--------------|-------------|----------|----------|
-| [LODRefine](https://github.com/sparkica/LODRefine)    | LODRefine is actually OpenRefine with integrated extensions that make transition from tabular data to Linked Data a bit easier. Integrated extensions are: RDF extension, DBpedia extension, CrowdFlower crowdsourcing extension, Stats extension | Sparkica | 
+| [LODRefine](https://github.com/sparkica/LODRefine)    | LODRefine is actually OpenRefine with integrated extensions that make transition from tabular data to Linked Data a bit easier. Integrated extensions are: RDF extension, DBpedia extension, CrowdFlower crowdsourcing extension, Stats extension | Sparkica |
 | [VIB-BITS Diff plugin](https://web.archive.org/web/20190412064426/https://www.bits.vib.be/index.php/software-overview/openrefine) | Adds a "diff" tool which compares two text values. [Manual PDF](https://web.archive.org/web/20210203090522/https://data.bits.vib.be/hidden/g7dt6RjuUTU421dY2CwrGePGX/OpenRefine%20VIB-BITS%20diff%20plugin.pdf). |   VIB-Bits  | 3.4.1. [The VIB website states "We are investigating how to provide [the diff plugin] again with version 3.4 of OpenRefine."](https://www.bits.vib.be/index.php/software-overview/openrefine) |
 | [VIB-BITS Save facets plugin](https://web.archive.org/web/20190412064426/https://www.bits.vib.be/index.php/software-overview/openrefine) | Adds support for save facet settings and re-apply the same facets at a later time. [Manual PDF](https://web.archive.org/web/20150325214740/http://data.bits.vib.be/hidden/g7dt6RjuUTU421dY2CwrGePGX/OpenRefine%20VIB-BITS%20save%20facets%20plugin.pdf).  |   VIB-Bits  | Unknown. [The VIB website states "We are investigating how to provide [the diff plugin] again with version 3.4 of OpenRefine."](https://www.bits.vib.be/index.php/software-overview/openrefine) |
 | [geoXtension](https://github.com/giTorto/geoXtension) | geoXtension is based on GDAL, Proj, and GEOS libraries. Adding this extension takes a lot of time, usage of the ready-made docker is recommended. |  giTorto  | (circa 2.6) |

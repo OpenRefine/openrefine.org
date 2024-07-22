@@ -87,6 +87,12 @@ function MainDownload() {
         <p>See the <a href="https://github.com/OpenRefine/OpenRefine/releases">full list of releases on GitHub</a> for other versions.</p>
         </div>
       </div>
+      <div className="row" style={{maxWidth: '800px', margin: 'auto' }}>
+        <div className="col">
+        <h3 id="extensions">Extensions</h3>
+        <p>See the <a href="/extensions">extensions</a> for additional ways to use and extend OpenRefine.</p>
+        </div>
+      </div>
     </div>);
 }
 
