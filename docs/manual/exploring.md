@@ -47,6 +47,10 @@ A “date” type is created when a column is [transformed into dates](transform
 
 Date-formatted data in OpenRefine relies on a number of conversion tools and standards. For something to be considered a date in OpenRefine, it will be converted into the ISO-8601-compliant extended format with time in UTC: YYYY-MM-DDTHH:MM:SSZ.
 
+:::info
+Date/times without timezone info were interpreted as **local** up until May 2018 when OpenRefine 3.0 was released, at which point they were switched from **local** to **UTC**.  One benefit of this change was to introduce consistency and reproducibility when working collaboratively and sharing projects across timezones.  Discussed in issue [#6009](https://github.com/OpenRefine/OpenRefine/issues/6009)
+:::
+
 When you run <span class="menuItems">Edit cells</span> → <span class="menuItems">Common transforms</span> → <span class="menuItems">To date</span>, the following column of strings on the left will transform into the values on the right:
 
 |Input|→|Output|
