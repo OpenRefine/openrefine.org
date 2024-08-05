@@ -12,7 +12,7 @@ Python code that depends on C bindings will not work in OpenRefine, which uses J
 
 You will need to restart OpenRefine, so that new Jython or Python libraries are initialized during startup.
 
-OpenRefine now has [most of the Jsoup.org library built into GREL functions](grelfunctions#jsoup-xml-and-html-parsing-functions) for parsing and working with HTML and XML elements.
+OpenRefine now has [most of the Jsoup.org library built into GREL functions](grelfunctions#jsoup-xml-and-html-parsing) for parsing and working with HTML and XML elements.
 
 ### Syntax {#syntax}
 
@@ -32,7 +32,7 @@ Fields have to be accessed using the bracket operator rather than dot notation:
   return cells["col1"]["value"]
 ```
 
-For example, to access the [edit distance](reconciling#reconciliation-facets) between a reconciled value and an original cell value using [recon variables](#reconciliation):
+For example, to access the [edit distance](reconciling#reconciliation-facets) between a reconciled value and an original cell value using [recon variables](expressions#reconciliation):
 
 ```
   return cell["recon"]["features"]["nameLevenshtein"]

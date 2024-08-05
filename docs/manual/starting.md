@@ -49,7 +49,7 @@ If you supply two or more files for one project, the files’ rows will be loade
 |berries.csv||9|Mulberry|Greece|
 |berries.csv||2|Blueberry|Canada|
 
-You cannot combine two datasets into one project by appending data within rows. You can, however, combine two projects later using functions such as [cross()](grelfunctions/#crosscell-s-projectname-s-columnname), or [fetch further data](columnediting) using other methods.  
+You cannot combine two datasets into one project by appending data within rows. You can, however, combine two projects later using functions such as [cross()](grelfunctions/#crosscell-s-projectname-optional-s-columnname-optional), or [fetch further data](columnediting) using other methods.  
 
 For whichever method you choose to start your project, when you click <span class="menuItems">Next >></span> you will be given a preview and a chance to configure the way OpenRefine interprets the data you input.
 
@@ -135,7 +135,7 @@ If you imported a spreadsheet with multiple worksheets, they will be listed alon
 Note that OpenRefine does not preserve any formatting, such as cell or text colour, that my have been in the original data file. Hyperlinked text will be input as plain text, but OpenRefine will recognize links and make them clickable inside the project interface. 
 
 :::info Encoding issues?
-Look for character encoding issues at this stage. You may want to manually select an encoding, such as UTF-8, UTF-16, or ASCII, if OpenRefine does not display some characters correctly in the preview. Once your project is created, you can specify another encoding for specific columns using the [reinterpret() function](grelfunctions#reinterprets-s-encoder).
+Look for character encoding issues at this stage. You may want to manually select an encoding, such as UTF-8, UTF-16, or ASCII, if OpenRefine does not display some characters correctly in the preview. Once your project is created, you can specify another encoding for specific columns using the [reinterpret() function](grelfunctions#reinterprets).
 :::
 
 You should create a project name at this stage. You can also supply tags to keep your projects organized. When you’re happy with the preview, click <span class="buttonLabels">Create Project</span>.

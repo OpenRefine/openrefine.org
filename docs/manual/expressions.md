@@ -61,7 +61,7 @@ When you select a function that accepts expressions, you will see a window overl
 
 The expressions editor offers you a field for entering your formula and shows you a preview of its transformation on your first few rows of cells. 
 
-There is a dropdown menu from which you can choose an expression language. The default at first is GREL; if you begin working with another language, that selection will persist across OpenRefine. Jython and Clojure are also offered with the installation package, and you may be able to add more language support with third-party extensions and customizations. 
+There is a dropdown menu from which you can choose an expression language. The default at first is [GREL](grel); if you begin working with another language, that selection will persist across OpenRefine. [Jython](jythonclojure#jython) and [Clojure](jythonclojure#clojure) are also offered with the installation package, and you may be able to add more language support with third-party extensions and customizations. 
 
 There are also tabs for:
 *   <span class="tabLabels">History</span>, which shows you formulas you’ve recently used from across all your projects
@@ -86,9 +86,13 @@ To write a regular expression inside a GREL expression, wrap it between a pair o
 value.replace(/\s+/, " ")
 ```
 
-the regular expression is `\s+`, and the syntax used in the expression wraps it with forward slashes (`/\s+/`). Though the regular expression syntax in OpenRefine follows that of Java (normally in Java, you would write regex as a string and escape it like "\\s+"), a regular expression within a GREL expression is similar to Javascript.
+the regular expression is `\s+`, and the syntax used in the expression wraps it with forward slashes (`/\s+/`).
+
+:::info
+ The regular expression syntax in OpenRefine follows that of Java.  Normally in Java, you would write regex as a string and escape it with two backslashes like `\\s+`. A regular expression within a GREL expression uses syntax similar to Javascript.
 
 Do not use slashes to wrap regular expressions outside of a GREL expression.
+:::
 
 On the [GREL functions](grelfunctions) page, functions that support regex will indicate that with a “p” for “pattern.” The GREL functions that support regex are:
 *   [contains](grelfunctions#containss-sub-or-p)
@@ -123,11 +127,11 @@ Most OpenRefine variables have attributes: aspects of the variables that can be 
 |Variable |Meaning |
 |-|-|
 | `value` | The value of the cell in the current column of the current row (can be null) |
-| `row` | The current row |
-| `row.record` | One or more rows grouped together to form a record |
-| `cells` | The cells of the current row, with fields that correspond to the column names (or row.cells) |
-| `cell` | The cell in the current column of the current row, containing value and other attributes |
-| `cell.recon` | The cell's reconciliation information returned from a reconciliation service or provider |
+| [`row`](#row) | The current row |
+| [`row.record`](#record) | One or more rows grouped together to form a record |
+| [`cells`](#cells) | The cells of the current row, with fields that correspond to the column names (or row.cells) |
+| [`cell`](#cell) | The cell in the current column of the current row, containing value and other attributes |
+| [`cell.recon`](#reconciliation) | The cell's reconciliation information returned from a reconciliation service or provider |
 | `rowIndex` | The index value of the current row (the first row is 0) |
 | `columnName` | The name of the current cell's column, as a string |
 
@@ -142,7 +146,7 @@ The `row` variable itself is best used to access its member fields, which you ca
 | `row.columnNames` | An array of the column names of the project. This will report all columns, even those with null cell values in that particular row. Call a column by number with `row.columnNames[3]` |
 | `row.starred` | A boolean indicating if the row is starred |
 | `row.flagged` | A boolean indicating if the row is flagged |
-| `row.record` | The [record](#record) object containing the current row |
+| [`row.record`](#record) | The [record](#record) object containing the current row |
 
 For array objects such as `row.columnNames` you can preview the array using the expressions window, and output it as a string using `toString(row.columnNames)` or with something like:
 
@@ -164,7 +168,7 @@ You can use `cell` on its own in the expressions editor to copy all the contents
 |-|-|-|
 | `cell` | An object containing the entire contents of the cell | .value, .recon, .errorMessage |
 | `cell.value` | The value in the cell, which can be a string, a number, a boolean, null, or an error |  |
-| `cell.recon` | An object encapsulating reconciliation results for that cell | See the [reconciliation](expressions#reconciliation) section |
+| [`cell.recon`](#reconciliation) | An object encapsulating reconciliation results for that cell | See the [reconciliation](expressions#reconciliation) section |
 | `cell.errorMessage` | Returns the message of an *EvalError* instead of the error object itself (use value to return the error object) | .value |
 
 ### Reconciliation {#reconciliation}

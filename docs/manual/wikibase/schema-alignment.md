@@ -91,7 +91,7 @@ not possible to remove aliases or to override any existing aliases.
 
 You can add statements in the schema: this will generate new statements
 on the corresponding items. These statements will be merged with any
-existing statements on the actual Wikibase items and [this merging process depends on the upload medium](./uploading#Merging-strategies-for-statements).
+existing statements on the actual Wikibase items and [this merging process depends on the upload medium](uploading#merging-strategy-for-terms-and-statements).
 It is forecast to give more control over the merging strategy in the
 near future.
 
@@ -107,7 +107,7 @@ Statements with "no value" or "some value" can be inserted by using the special
 keywords `#NOVALUE#` and `#SOMEVALUE#`, used in place of the value
 (either directly in the schema or via a column). This is supported since OpenRefine 3.7.
 
-See the [data values](#data-values) section for more details
+See the [**data values**](#data-values) section for more details
 about how to specify each type of data value and when they are skipped.
 
 ### Qualifiers {#qualifiers}

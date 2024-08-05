@@ -10,10 +10,10 @@ OpenRefine gives you powerful ways to clean, correct, codify, and extend your da
 
 This section of ways to improve data are organized by their appearance in the menu options in OpenRefine. You can:
 
-*   change the order of [rows](#edit-rows) or [columns](columnediting#rename-remove-and-move)
+*   sort and [change the order of rows](#edit-rows) or [rename, delete, reorder columns](columnediting#renaming-removing-and-moving)
 *   edit [cell contents](cellediting) within a particular column
-*   [transform](transposing) rows into columns, and columns into rows
-*   [split or join columns](columnediting#split-or-join)
+*   [transform](transposing) or pivot rows into columns, and columns into rows
+*   [split or join columns](columnediting#splitting-or-joining)
 *   [add new columns](columnediting) based on existing data, with fetching new information, or through [reconciliation](reconciling)
 *   convert your rows of data into [multi-row records](exploring#rows-vs-records).
 
