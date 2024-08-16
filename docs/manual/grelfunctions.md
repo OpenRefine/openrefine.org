@@ -41,6 +41,9 @@ Uses the logical operator XOR (exclusive-or) on two or more booleans to output a
 
 Returns the length of string s as a number.
 
+###### levenshteinDistance(s1, s2) {#levenshteinDistance-s1-s2}
+Returns an integer indicating how many single-character changes you need to make to turn one string into another. This includes adding characters, removing characters, and changing characters to match between the two strings. For example, `levenshteinDistance("New York", "newyork")` will return 1 and `levenshteinDistance("M. Makeba", "Miriam Makeba")` will return 5
+
 ###### toString(o, string format (optional)) {#tostringo-string-format-optional}
 
 Takes any value type (string, number, date, boolean, error, null) and gives a string version of that value. 
@@ -590,9 +593,6 @@ Returns a boolean indicating whether o has a member field called [name](expressi
 
 ###### coalesce(o1, o2, o3, ...) {#coalesceo1-o2-o3-}
 Returns the first non-null from a series of objects. For example, `coalesce(value, "")` would return an empty string “” if `value` was null, but otherwise return `value`.
-
-###### levenshteinDistance(s1, s2) {#levenshteinDistance-s1-s2}
-Returns how many single-character changes you need to make to turn one string into another. This includes adding characters, removing characters, and changing characters to match between the two strings. For example, `levenshteinDistance("New York", "newyork")` will return 1 and `levenshteinDistance("M. Makeba", "Miriam Makeba")` will return 5
 
 ###### cross(cell, s projectName (optional), s columnName (optional)) {#crosscell-s-projectname-optional-s-columnname-optional}
 Returns an array of zero or more rows in the project projectName for which the cells in their column columnName have the same content as the cell in your chosen column. For example, if two projects contained matching names, and you wanted to pull addresses for people by their names from a project called “People” you would apply the following expression to your column of names: 
