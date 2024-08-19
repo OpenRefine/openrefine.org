@@ -198,6 +198,10 @@ if the language or the text are invalid).
 
 ### Dates {#dates}
 
+:::tip
+See also https://www.wikidata.org/wiki/Help:Dates
+:::
+
 Dates are parsed from cell contents (or from any constant provided in
 the schema) and the precision of the date is inferred from its format.
 Here are the valid formats:
