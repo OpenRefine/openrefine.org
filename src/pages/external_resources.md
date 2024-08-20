@@ -14,7 +14,7 @@ We list here a few which are known to be especially popular.
 - [OpenRefine Beginners Tutorial](https://media.ed.ac.uk/media/OpenRefine+Beginners+Tutorial/0_y5bxsswq)
 
 ## Online courses
-**Carptentries Courses**
+**Carpentries Courses**
 - English:  [Library Carpentry: OpenRefine](https://librarycarpentry.org/lc-open-refine/)
 - English:  [OpenRefine for Social Science Data](https://datacarpentry.org/openrefine-socialsci/)
 - English:  [OpenRefine for Ecology](https://datacarpentry.org/OpenRefine-ecology-lesson/)
