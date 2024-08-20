@@ -264,6 +264,11 @@ If your coordinates are in a different format, such as
 `49° 15′ 55″ N, 4° 1′ 43″ E`, you will need to convert them to decimal
 format first.
 
+:::tip
+See also https://www.wikidata.org/wiki/Help:Find_coordinates
+and https://www.wikidata.org/wiki/Help:Data_type#globe-coordinate
+:::
+
 ### Media on Commons {#media-on-commons}
 
 Media on Wikimedia Commons is treated like strings, whose values must
