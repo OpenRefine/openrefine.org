@@ -44,6 +44,8 @@ Returns the length of string s as a number.
 ###### levenshteinDistance(s1, s2) {#levenshteinDistance-s1-s2}
 Returns an integer indicating how many single-character changes you need to make to turn one string into another. This includes adding characters, removing characters, and changing characters to match between the two strings. For example, `levenshteinDistance("New York", "newyork")` will return 1 and `levenshteinDistance("M. Makeba", "Miriam Makeba")` will return 5
 
+Note: Before calculating the Levenshtein distance, the input strings are preprocessed by trimming spaces, removing punctuation and control characters, collapsing consecutive whitespace, and converting them to lowercase.
+
 ###### toString(o, string format (optional)) {#tostringo-string-format-optional}
 
 Takes any value type (string, number, date, boolean, error, null) and gives a string version of that value. 
