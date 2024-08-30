@@ -58,11 +58,12 @@ OpenRefine is currently working on the following grants.
 * **Amount**: USD 310,100 (USD 155,050 per year for two years)
 * **Source**: [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
 * **Start date**: January 2023
-* **End date**: December 2024
+* **End date**: October 2025 (extended from October 2024)
 * **Relevant links**: 
   * [Letter of intent](/uploads/2022-EOSS5-LOI.pdf)
   * [Grant application](/uploads/2022-EOSS5.pdf)
   * [Blog Post: OpenRefine funded to improve its reproducibility](/blog/2022/12/30/eoss5)
+  * [2024 interim report](/uploads/2024-EOSS5-Interim-Report.pdf)
   * [On CZI's Website](https://chanzuckerberg.com/eoss/proposals/improving-openrefines-reproducibility/)
 
 #### 2021 EOSS-Diversity 
@@ -83,7 +84,7 @@ OpenRefine completed the following grants.
 
 #### 2023 NFDI
 * **CS&S code**: `ORefine: General`
-* **Status**: Awarded - Current
+* **Status**: Awarded - Completed
 * **Amount**: EUR 10,000
 * **Source**: [NFDI4Culture](https://nfdi4culture.de/)
 * **Start date**: August 2023
