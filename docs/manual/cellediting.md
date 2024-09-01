@@ -194,6 +194,33 @@ PPM (Prediction by Partial Matching) uses compression to see whether two values 
 
 For more of the theory behind clustering, see [Clustering In Depth](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth).
 
+### Custom clustering methods {#custom-clustering-methods}
+
+Custom Clustering in OpenRefine allows you to define your own rules for grouping similar data, ensuring that your data clustering is accurate and tailored to your specific needs. This feature is particularly useful when the built-in methods do not perfectly suit your data, allowing you to experiment with new ways to group data and unlock more meaningful insights.
+
+Custom clustering functions are created using scripting languages like GREL, Jython, or Clojure. These functions define how data should be clustered either by:
+- Keying: Assigning a group (or key) to a data value.
+- Distance: Measuring the similarity (or difference) between two data values.
+
+To try the feature:
+
+1. Go to the Clustering interface.
+2. Click the "Manage clustering functions" button to open the custom clustering functions dialog.
+3. Choose either the "Keying" or "Distance" tab based on the type of function you want to create.
+4. Click the "Add New Function" button.
+5. Give your function a name.
+6. Write your expression using GREL, Jython, or Clojure.
+7. Use the "Expression Preview" and "Clusters Preview" tabs to see how your function works in real-time, adjusting as needed.
+8. Save your function and close the dialog.
+
+Your custom functions will then appear in the dropdown menu under keying or distance options. Select the function you added, and it will be applied to your data.
+
+For example:
+- Custom Keying Function: `value.length() == 6` will group data values with a length of exactly 6 characters.
+- Custom Distance Function: `levenshteinDistance(value1, value2)` will group data values with differences less than the radius setting you input while writing the expression in the dialog.
+
+For more details on built-in clustering functions, see [Clustering In Depth](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth).
+
 ## Replace {#replace}
 
 OpenRefine provides a find/replace function for you to edit your data. Selecting <span class="menuItems">Edit cells</span> → <span class="menuItems">Replace</span> will bring up a simple window where you can input a string to search and a string to replace it with. You can set case-sensitivity, and set it to only select whole words, defined by a string with spaces or punctuation around it (to prevent, for example, “house” selecting the “house” part of “doghouse”). You can use [regular expressions](expressions#regular-expressions) in this field. You may wish to preview the results of this operation by testing it with a [Text filter](facets#text-filter) first.
