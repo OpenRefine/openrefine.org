@@ -207,7 +207,7 @@ To try the feature:
 1. Go to the Clustering interface.
 2. Click the <span class="menuItems">Manage clustering functions</span> button to open the custom clustering functions dialog.
 3. Choose either the <span class="menuItems">Keying</span> or <span class="menuItems">Distance</span> tab based on the type of function you want to create.
-4. Click the <span class="menuItems">Add new function</span>.
+4. Click the <span class="menuItems">Add new function</span> button.
 5. Give your function a name.
 6. Write your expression using GREL, Jython, or Clojure.
 7. Use the <span class="menuItems">Expression preview</span> and <span class="menuItems">Clusters preview</span> tabs to see how your function works in real-time, adjusting as needed.
