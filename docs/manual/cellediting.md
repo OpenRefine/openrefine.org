@@ -219,7 +219,7 @@ Say you want to cluster song titles in English which sometimes differ because of
 
 Nearest neighbors with the Levenshtein distance counts the number of changes between two values, but does not relate this number of changes to the lengths of strings. For instance `Fong` and `Fang` have distance 1, but `Sinéad O'Connor` and `Sinéad M. O'Connor` have distance 3, although they are intuitively more similar. When clustering sets of strings with widely varying lengths, it can be useful to normalize this number of changes by the lengths of the strings. This can be achieved with a custom distance such as `levenshteinDistance(value1, value2) / (max(length(value1), length(value2)) + 1)`. With such an expression, the distance between `Fong` and `Fang` becomes 0.2, whereas `Sinéad O'Connor` and `Sinéad M. O'Connor` are at distance 0.16.
 
-For more details on built-in clustering functions, see [Clustering In Depth](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth).
+For more details on built-in clustering functions, see [Clustering In Depth](../technical-reference/clustering-in-depth).
 
 ## Replace {#replace}
 
