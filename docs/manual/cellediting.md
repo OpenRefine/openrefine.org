@@ -194,6 +194,33 @@ PPM (Prediction by Partial Matching) uses compression to see whether two values 
 
 For more of the theory behind clustering, see [Clustering In Depth](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth).
 
+### Custom clustering methods {#custom-clustering-methods}
+
+Custom Clustering in OpenRefine allows you to define your own rules for grouping similar data, ensuring that your data clustering is accurate and tailored to your specific needs. This feature is particularly useful when the built-in methods do not perfectly suit your data, allowing you to experiment with new ways to group data and unlock more meaningful insights.
+
+Custom clustering functions are created using scripting languages like GREL, Jython, or Clojure. These functions define how data should be clustered either by:
+- Keying: Assigning a group (or key) to a data value.
+- Distance: Measuring the similarity (or difference) between two data values.
+
+To try the feature:
+
+1. Go to the Clustering interface.
+2. Click the <span class="menuItems">Manage clustering functions</span> button to open the custom clustering functions dialog.
+3. Choose either the <span class="menuItems">Keying</span> or <span class="menuItems">Distance</span> tab based on the type of function you want to create.
+4. Click the <span class="menuItems">Add new function</span> button.
+5. Give your function a name.
+6. Write your expression using GREL, Jython, or Clojure.
+7. Use the <span class="menuItems">Expression preview</span> and <span class="menuItems">Clusters preview</span> tabs to see how your function works in real-time, adjusting as needed.
+8. Save your function and close the dialog.
+
+Your custom functions will then appear in the dropdown menu under keying or distance options. Select the function you added, and it will be applied to your data.
+
+Say you want to cluster song titles in English which sometimes differ because of included or omitted articles (such as "the" or "a"). For instance, you could have values such as `The Peanut Vendor`, `Peanut Vendor (The)` and `Peanut Vendor`. OpenRefine's default fingerprinting function successfully maps `The Peanut Vendor` and `Peanut Vendor (The)` to the same value `peanut the vendor` (by removing punctuation and re-ordering words), but `Peanut Vendor` is mapped to `peanut vendor`, failing to cluster it with the other values. You could use a custom keying function which filters out articles from the fingerprint value: `filter(value.fingerprint().split(" "), word, (word != "the").and(word != "a").and(word != "an")).join(" ")`. This will map all three values to the same clustering key `peanut vendor`.
+
+Nearest neighbors with the Levenshtein distance counts the number of changes between two values, but does not relate this number of changes to the lengths of strings. For instance `Fong` and `Fang` have distance 1, but `Sinéad O'Connor` and `Sinéad M. O'Connor` have distance 3, although they are intuitively more similar. When clustering sets of strings with widely varying lengths, it can be useful to normalize this number of changes by the lengths of the strings. This can be achieved with a custom distance such as `levenshteinDistance(value1, value2) / (max(length(value1), length(value2)) + 1)`. With such an expression, the distance between `Fong` and `Fang` becomes 0.2, whereas `Sinéad O'Connor` and `Sinéad M. O'Connor` are at distance 0.16.
+
+For more details on built-in clustering functions, see [Clustering In Depth](../technical-reference/clustering-in-depth).
+
 ## Replace {#replace}
 
 OpenRefine provides a find/replace function for you to edit your data. Selecting <span class="menuItems">Edit cells</span> → <span class="menuItems">Replace</span> will bring up a simple window where you can input a string to search and a string to replace it with. You can set case-sensitivity, and set it to only select whole words, defined by a string with spaces or punctuation around it (to prevent, for example, “house” selecting the “house” part of “doghouse”). You can use [regular expressions](expressions#regular-expressions) in this field. You may wish to preview the results of this operation by testing it with a [Text filter](facets#text-filter) first.
