@@ -95,6 +95,14 @@ You can right-click on `openrefine.exe` or `refine.bat` and pin one of those pro
 
 Once you have downloaded the `.dmg` file, open it and drag the OpenRefine icon onto the Applications folder icon (just like you would normally install Mac applications).
 
+:::caution
+When you double-click the OpenRefine icon to start the application on your Mac for the first time, you may see the notification "OpenRefine cannot be opened because the developer cannot be verified". If you see this notification, click <span class="buttonLabels">Cancel</span>.
+
+Instead, _right_-click the application's icon and select `Open` from the pop-up menu. You will see a new notification which now contains an <span class="buttonLabels">Open</span> button.
+![A screenshot of the notification containing an 'Open' button.](/img/mac-open-notification.png)
+After clicking <span class="buttonLabels">Open</span> and starting OpenRefine for the first time, you will be able to start the application normally in the future.
+:::
+
 </TabItem>
 
 <TabItem value="mac-hb">
