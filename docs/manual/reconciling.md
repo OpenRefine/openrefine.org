@@ -6,7 +6,7 @@ sidebar_label: Reconciling
 
 ## Overview {#overview}
 
-Reconciliation is the process of matching your dataset with that of an external source. Datasets for comparison might be produced by libraries, archives, museums, academic organizations, scientific institutions, non-profits, or interest groups. You can also reconcile against user-edited data on [Wikidata or other Wikibase instances](wikibase/reconciling), or reconcile against [a local dataset that you yourself supply](https://github.com/OpenRefine/OpenRefine/wiki/Reconcilable-Data-Sources#local-services). 
+Reconciliation is the process of matching your dataset with that of an external source.  Also known as [record linkage](https://en.wikipedia.org/wiki/Record_linkage), or data matching, it is an overall process that often involves other tasks such as entity resolution, data field matching (property matching) and [duplicate record detection](https://en.wikiversity.org/wiki/Duplicate_record_detection). Datasets for comparison might be produced by libraries, archives, museums, academic organizations, scientific institutions, non-profits, or interest groups. You can also reconcile against user-edited data on [Wikidata or other Wikibase instances](wikibase/reconciling), or reconcile against [a local dataset that you yourself supply](https://github.com/OpenRefine/OpenRefine/wiki/Reconcilable-Data-Sources#local-services). 
 
 To reconcile your OpenRefine project against an external dataset, that dataset must offer a web service that conforms to the [Reconciliation Service API standards](https://reconciliation-api.github.io/specs/0.1/). 
 
