@@ -86,11 +86,11 @@ Returns string s converted to all lowercase characters.
 
 Returns string s converted to all uppercase characters.
 
-###### toTitlecase(s, delimiter (optional)) {#totitlecases}
+###### toTitlecase(s, delimiters (optional)) {#totitlecases}
 
 Returns string s converted into titlecase: a capital letter starting each word, and the rest of the letters lowercase. For example, `"Once upon a midnight DREARY".toTitlecase()` returns the string “Once Upon A Midnight Dreary”.
 
-Optionally, a string of delimiter characters used to separate words. The first character and the first non-delimiter character after a delimiter will be captialized. For example, `"jean-michel jarre".toTitlecase(" -")` returns "Jean Michel Jarre".
+The default set of delimiter characters is space (" "), period ("."), carriage return, and newline. If a different set of delimiter characters are provided, they are used to separate words. For example, `"jean-michel jarre".toTitlecase(" -")` returns "Jean-Michel Jarre".
 
 #### Trimming {#trimming}
 
