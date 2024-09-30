@@ -51,7 +51,7 @@ xychart-beta
 
 In November 2022, we moved from email lists hosted by Google Groups to a Discourse forum. 
 
-As of March 20, 2024, over the last 12 months:
+As of September 25, 2024, over the last 12 months:
 * 272 new users signed up[^1] on our forum for a total of 608 users[^2].
 * 360 topics[^3] were created for a total of 1,900 messages[^4].
 
