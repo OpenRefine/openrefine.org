@@ -35,6 +35,17 @@ Since 2018, OpenRefine has relied on grants to sustain its development. Below, y
 OpenRefine is actively applying to grant opportunities listed in this section. We will update this section with the latest information as we progress.
 If you're interested in partnering with us for a grant, [contact us](https://forum.openrefine.org/). 
 
+#### 2024 Wikimedia Foundation 
+* **Status**: Application submitted. Results expected by November 29, 2024
+* **Amount**: USD 69,758
+* **Source**: [Wikimedia Foundation Funds](https://meta.wikimedia.org/wiki/Grants:Start).
+* **Start date**: January 2025
+* **End date**: December 2025
+* **Relevant links**:
+   * [Call for proposal](https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/General_Support_Fund)
+   * [Forum Discussion](https://forum.openrefine.org/t/grant-opportunity-wikimedia-community-fund/1728)
+   * [Grant application](https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/General_Support_Fund/Maintenance_of_OpenRefine_and_its_Wikimedia-related_extensions.)
+  
 ### Current grants
 
 OpenRefine is currently working on the following grants. 
