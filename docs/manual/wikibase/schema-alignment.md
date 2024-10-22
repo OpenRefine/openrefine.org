@@ -224,6 +224,10 @@ In OpenRefine 3.5, the following new format has been introduced:
 
 -   `-234` represents the year 234 [BCE](https://en.wikipedia.org/wiki/Common_Era)
 
+:::tip
+See also https://www.wikidata.org/wiki/Help:Dates
+:::
+
 ### Quantities {#quantities}
 
 Quantities consist of two parts: the amount and the unit.
