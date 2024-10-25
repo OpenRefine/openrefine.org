@@ -214,6 +214,9 @@ Some of the most common keys (with their defaults) are:
 |Port|`-Drefine.port`|3333
 |The application folder|`-Drefine.webapp`|main/webapp
 |New version notice|`-Drefine.display.new.version.notice`|true
+|Google Data Client ID|`-Dext.gdata.clientid=<yourid>`|
+|Google Data Client secret|`-Dext.gdata.clientsecret=…`|
+|Google Data API Key|`-Dext.gdata.apikey=…`|
 
 
 The syntax is as follows:
