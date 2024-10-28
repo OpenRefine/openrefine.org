@@ -186,7 +186,8 @@ For example, inside `refine.ini`, you should see:
 ```
 no_proxy="localhost,127.0.0.1"
 #REFINE_PORT=3334
-#REFINE_HOST=127.0.0.1
+#REFINE_INTERFACE=127.0.0.1
+#REFINE_HOST=mymachine.local
 #REFINE_WEBAPP=main\webapp
 
 # Memory and max form size allocations
@@ -210,13 +211,15 @@ Some of the most common keys (with their defaults) are:
 |The workspace director|`-Drefine.data_dir`|/
 |Development mode|`-Drefine.development`|false
 |Headless mode|`-Drefine.headless`|false
-|IP|`-Drefine.host`|127.0.0.1
+|IP|`-Drefine.interface`|127.0.0.1
+|Domain name|`-Drefine.host`|mymachine.local
 |Port|`-Drefine.port`|3333
 |The application folder|`-Drefine.webapp`|main/webapp
 |New version notice|`-Drefine.display.new.version.notice`|true
-|Google Data Client ID|`-Dext.gdata.clientid=<yourid>`|
-|Google Data Client secret|`-Dext.gdata.clientsecret=…`|
-|Google Data API Key|`-Dext.gdata.apikey=…`|
+|Google Data Client ID|`-Dext.gdata.clientid`|000000000000-********************************.apps.googleusercontent.com
+|Google Data Client secret|`-Dext.gdata.clientsecret`|************************
+|Google Data API Key|`-Dext.gdata.apikey`|***************************************
+
 
 
 The syntax is as follows:
@@ -237,7 +240,8 @@ Locate the `refine.l4j.ini` file, and insert lines in this way:
 
 ```
 -Drefine.port=3334 
--Drefine.host=127.0.0.2
+-Drefine.interface=127.0.0.2
+-Drefine.host=mymachine.local
 -Drefine.webapp=broker/core
 -Dhttp.proxyHost=yourproxyhost
 -Dhttp.proxyPort=8080
@@ -266,7 +270,7 @@ Typically this looks something like:
 <array>
 <string>-Xms256M</string>
 <string>-Xmx1024M</string>
-<string>-Drefine.version=2.6-beta.1</string>
+<string>-Drefine.version=3.8.4</string>
 <string>-Drefine.webapp=$APP_ROOT/Contents/Resource/webapp</string>
 </array>
 ```
@@ -278,13 +282,17 @@ Add in values such as:
 <array>
 <string>-Xms256M</string>
 <string>-Xmx1024M</string>
-<string>-Drefine.version=2.6-beta.1</string>
+<string>-Drefine.version=3.8.4</string>
 <string>-Drefine.webapp=$APP_ROOT/Contents/Resource/webapp</string>
 <string>-Drefine.autosave=2</string>
-<string>-Drefine.port=3334</string>
 <string>-Dhttp.proxyHost=yourproxyhost</string>
 <string>-Dhttp.proxyPort=8080</string>
-
+<string>-Drefine.host=mymachine.local</string>
+<string>-Drefine.interface=192.168.0.10</string>
+<string>-Drefine.port=3333</string>
+<string>-Dext.gdata.clientid=000000000000-********************************.apps.googleusercontent.com</string>
+<string>-Dext.gdata.clientsecret=************************</string>
+<string>-Dext.gdata.apikey=***************************************</string>
 </array>
 
 ```
@@ -298,9 +306,14 @@ Locate the `refine.ini` file, and add `JAVA_OPTIONS=` before the `-Drefine.prefe
 ```
 JAVA_OPTIONS=-Drefine.autosave=2
 JAVA_OPTIONS=-Drefine.port=3334
+JAVA_OPTIONS=-Drefine.interface=192.168.0.10
+JAVA_OPTIONS=-Drefine.host=mymachine.local
 JAVA_OPTIONS=-Drefine.data_dir=usr/lib/OpenRefineWorkspace
 JAVA_OPTIONS=-Dhttp.proxyHost=yourproxyhost
 JAVA_OPTIONS=-Dhttp.proxyPort=8080
+JAVA_OPTIONS=-Dext.gdata.clientid=000000000000-********************************.apps.googleusercontent.com
+JAVA_OPTIONS=-Dext.gdata.clientsecret=************************
+JAVA_OPTIONS=-Dext.gdata.apikey=***************************************
 ```
 
 </TabItem>
@@ -483,19 +496,22 @@ You can run OpenRefine from the command line in Mac by using the Linux installat
 Please note that if your machine has an external IP (is exposed to the Internet), you should not do this, or should protect it behind a proxy or firewall, such as nginx. Proceed at your own risk.
 :::
 
-By default (and for security reasons), OpenRefine only listens to TCP requests coming from localhost (127.0.0.1) on port 3333. If you want to share your OpenRefine instance with colleagues and respond to TCP requests to any IP address of the machine, start it from the command line like this:
+By default (and for security reasons), OpenRefine only listens to TCP requests coming from localhost (127.0.0.1) on port 3333. If you want to share your OpenRefine instance with colleagues and respond to TCP requests to any IP address of the machine, start it from the command line like these below. Note that you can set either the IP, or the Host, or both, but if you set both, you must use the host name to access the web page. If you use the IP 0.0.0.0, it will bind to all interface, but if you also set the host, than you must use the host as previously stated. In these examples below, `mymachine.local` is used as the hostname, which can be a valid domain name that resolve thru the DNS server, or that is defined in the hosts file of your machine.
+
 ```
-./refine -i 0.0.0.0
+./refine -i 0.0.0.0 -H mymachine.local
 ```
 
 or set this option in `refine.ini`:
 ```
-REFINE_HOST=0.0.0.0
+REFINE_INTERFACE=0.0.0.0
+REFINE_HOST=mymachine.local
 ```
 
 or set this JVM option:
 ```
--Drefine.host=0.0.0.0
+-Drefine.interface=0.0.0.0
+-Drefine.host=mymachine.local
 ```
 
 On Mac, you can add a specific entry to the `Info.plist` file located within the app bundle (`/Applications/OpenRefine.app/Contents/Info.plist`):
@@ -503,7 +519,8 @@ On Mac, you can add a specific entry to the `Info.plist` file located within the
 <key>JVMOptions</key>
 
 <array>
-  <string>-Drefine.host=0.0.0.0</string>
+  <string>-Drefine.interface=0.0.0.0</string>
+  <string>-Drefine.host=mymachine.local</string>
   …
 </array>
 ```
