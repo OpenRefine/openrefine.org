@@ -496,9 +496,9 @@ You can run OpenRefine from the command line in Mac by using the Linux installat
 Please note that if your machine has an external IP (is exposed to the Internet), you should not do this, or should protect it behind a proxy or firewall, such as nginx. Proceed at your own risk.
 :::
 
-By default (and for security reasons), OpenRefine only listens to TCP requests coming from localhost (127.0.0.1) on port 3333. If you want to share your OpenRefine instance with colleagues and respond to TCP requests to any IP address of the machine, start it from the command line like these below. Note that you can set either the IP, or the host, or both, but if you set both, you must use the host name to access the web page. If you use the IP 0.0.0.0, it will bind to all interfaces of your machine, but if you also set the host, than you must use that particular host name. 
+By default (and for security reasons), OpenRefine only listens to TCP requests coming from localhost (whose interface is 127.0.0.1) on port 3333. If you want to share your OpenRefine instance with colleagues and respond to TCP requests to any IP address of the machine, start it from the command line like these below. Note that you can set either the IP, or the host, or both, but if you set both, you must use the host name to access the web page and the host must resolve to the specified IP. If you use the IP 0.0.0.0, it will bind to all interfaces of your machine, but if you also set the host, than you must use that particular host name. Setting both is more restrictive, but also more secure.
 
-In these examples below, `mymachine.local` is used as the hostname, which can be a valid domain name that resolve thru the DNS server, or that is defined in the `hosts` file of your machine.
+In these examples below, `mymachine.local` is used as the hostname, which must be a valid domain name that either resolve through the DNS server, or that is defined in the `hosts` file of your machine.
 
 ```
 ./refine -i 0.0.0.0 -H mymachine.local
