@@ -275,6 +275,12 @@ Typically this looks something like:
 </array>
 ```
 
+To see this list with the Terminal, use this command:
+```
+export OR_INFO="/Applications/OpenRefine.app/Contents/Info.plist"
+defaults read $OR_INFO JVMOptions
+```
+
 Add in values such as:
 
 ```
@@ -294,8 +300,14 @@ Add in values such as:
 <string>-Dext.gdata.clientsecret=************************</string>
 <string>-Dext.gdata.apikey=***************************************</string>
 </array>
-
 ```
+
+If the values aren’t already there, you can add them easily with this Terminal command:
+```
+export OR_INFO="/Applications/OpenRefine.app/Contents/Info.plist"
+defaults write $OR_INFO JVMOptions -array-add "-Drefine.interface=192.168.0.10"
+```
+This will not work if you already have the value defined, so whatch out for that.
 
 </TabItem>
 
