@@ -123,12 +123,12 @@ See below on the dedicated section 'Testing utilities'
 
 ### Testing guidelines {#testing-guidelines}
 
-- Sometimes things are hidden until hovered, like Facet choices. Use `.invoke('trigger', 'mouseover')` since we use jQuery. See [Cypress docs - invoke Examples](https://docs.cypress.io/api/commands/invoke#Properties-that-are-functions-are-invoked)
-- OpenRefine uses jQuery and sometimes you might need to assert a jQuery element method. See [Cypress docs - jQuery method](https://docs.cypress.io/api/commands/invoke#jQuery-method)
 - `cy.wait` should be used in the last resort scenario. It's considered a bad practice, though sometimes there is no other choice
 - Tests should remain isolated from each other. It's best to try one feature at a time
 - A test should always start with a fresh OpenRefine project
 - The name of the files should mirror the OpenRefine UI organization
+- Sometimes things are hidden until hovered, like Facet choices. Use `.invoke('trigger', 'mouseover')` since we use jQuery. See [Cypress docs - invoke Examples](https://docs.cypress.io/api/commands/invoke#Properties-that-are-functions-are-invoked)
+- OpenRefine uses jQuery and sometimes you might need to assert a jQuery element method. See [Cypress docs - jQuery method](https://docs.cypress.io/api/commands/invoke#jQuery-method)
 
 ### Testing utilities {#testing-utilities}
 
