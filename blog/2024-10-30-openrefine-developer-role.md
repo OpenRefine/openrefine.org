@@ -30,7 +30,7 @@ Key responsibilities include bug fixes, quality improvements, and ongoing mainte
   * Assist with ticket triage to identify and prioritize key issues and opportunities.
 * **Progressive Onboarding into Release Management & Security Updates**
   * Upon receiving commit privileges, assist in merging pull requests to support the workflow of community contributions.
-  * ake on Release Manager responsibilities to prepare and publish new releases, coordinating with the community on release planning.
+  * Take on Release Manager responsibilities to prepare and publish new releases, coordinating with the community on release planning.
   * With further onboarding, address security advisories and implement required updates and patches to maintain OpenRefine’s security.
 * **Internship Program Participation**
   * Support programs such as Google Summer of Code (GSoC) and Outreachy, mentoring interns, reviewing their contributions, and fostering a supportive learning environment.
