@@ -39,7 +39,7 @@ Key responsibilities include bug fixes, quality improvements, and ongoing mainte
 
 This is a fully remote role with flexible working hours, allowing the developer to organize their time freely over the month. The OpenRefine Developer will primarily work with volunteers, including members of the Advisory Committee and most technical contributors. The OpenRefine community collaborates asynchronously through public forums and GitHub, accommodating the diverse time zones and work patterns of contributors. Occasional travel may be expected to attend relevant conferences and meetings, enabling valuable in-person engagement with the OpenRefine community and the broader open-source ecosystem.
 
-The developer will report to the OpenRefine Advisory Committee, which will guide project goals and prioritization. For technical supervision and mentorship, the developer will collaborate closely with the OpenRefine Committer Group—comprising both volunteer contributors and paid contractors—to facilitate their integration with the codebase and OpenRefine’s development standards.
+The developer will report to the Project Manager, which will guide project goals and prioritization. For technical supervision and mentorship, the developer will collaborate closely with the OpenRefine Committer Group—comprising both volunteer contributors and paid contractors—to facilitate their integration with the codebase and OpenRefine’s development standards.
 
 This role requires a self-motivated, independent approach, with minimal direct supervision. Weekly check-ins with the Advisory Committee and Project Manager will provide alignment with OpenRefine’s broader objectives and ongoing support as needed.
 
