@@ -37,13 +37,15 @@ Key responsibilities include bug fixes, quality improvements, and ongoing mainte
 
 ## Work Environment & Reporting Structure
 
-This is a fully remote role with flexible working hours, allowing the developer to organize their time freely over the month. The OpenRefine Developer will primarily work with volunteers, including members of the Advisory Committee and most technical contributors. The OpenRefine community collaborates asynchronously through public forums and GitHub, accommodating the diverse time zones and work patterns of contributors. Occasional travel may be expected to attend relevant conferences and meetings, enabling valuable in-person engagement with the OpenRefine community and the broader open-source ecosystem.
+This is a fully remote role with flexible working hours, allowing the developer to organize their time freely over the month. This role requires a self-motivated, independent approach, with minimal direct supervision. The OpenRefine Developer will primarily work with volunteers, including members of the Advisory Committee and most technical contributors. The OpenRefine community collaborates asynchronously through public forums and GitHub, accommodating the diverse time zones and work patterns of contributors. Occasional travel may be expected to attend relevant conferences and meetings, enabling valuable in-person engagement with the OpenRefine community and the broader open-source ecosystem.
 
-The developer will report to the Project Manager, which will guide project goals and prioritization. For technical supervision and mentorship, the developer will collaborate closely with the OpenRefine Committer Group—comprising both volunteer contributors and paid contractors—to facilitate their integration with the codebase and OpenRefine’s development standards.
+The developer will report to the Project Manager, who will provide guidance on project goals and prioritization. Additionally, the OpenRefine Advisory Committee will serve as a resource for the developer. This committee assists with the administrative aspects of the role in collaboration with Code for Science & Society Inc. Weekly check-ins with the Advisory Committee and Project Manager will give the OpenRefine Developer the chance to report back on their work, gain an understanding of OpenRefine’s broader objectives, and receive ongoing support as needed.
 
-This role requires a self-motivated, independent approach, with minimal direct supervision. Weekly check-ins with the Advisory Committee and Project Manager will provide alignment with OpenRefine’s broader objectives and ongoing support as needed.
+For technical supervision and mentorship, the developer will work closely with the OpenRefine Committer Group, which consists of both volunteer contributors and paid contractors. This collaboration will help the developer integrate into the codebase and adhere to OpenRefine's development standards. The Committer Group is responsible for setting the project's technical roadmap and reviewing merge requests.
 
 ## Skills 
+
+Required:
 * **Java Proficiency**: As OpenRefine’s core codebase is Java, strong experience in Java is crucial.
 * **Web Development**: Familiarity with HTML, JavaScript, and CSS for front-end adjustments and minor feature development.
 * **Git and GitHub Expertise**: Proficient with Git for version control and GitHub workflows (pull request reviews, branch management, release workflows).
@@ -51,7 +53,7 @@ This role requires a self-motivated, independent approach, with minimal direct s
 * **Community-Driven and Collaborative**: Experience engaging constructively in a collaborative, open-source environment.
 * **Effective Communication**: Strong written communication skills for explaining technical concepts clearly to community members, volunteers, and contributors.
 
-Nice to have
+Nice to have:
 * **Open-Source Experience**: Prior contributions to or maintenance of open-source projects.
 * **Release Management Familiarity**: Some experience with release processes, ideally including automated build and deployment systems.
 * **Data Processing Knowledge**: Familiarity with data cleaning, transformation, or processing concepts relevant to OpenRefine’s core use cases.
