@@ -28,7 +28,7 @@ That's a key difference with tools such as Selenium.
 
 > But what this also means is that your test code **is being evaluated inside the browser**. Test code is not evaluated in Node, or any other server side language. The **only** language we will ever support is the language of the web: JavaScript.
 
-Good starting points with Cypress are the [Getting started guide](https://docs.cypress.io/guides/getting-started/writing-your-first-test.html#Write-your-first-test), and the [Trade-offs](https://docs.cypress.io/guides/references/trade-offs.html#Permanent-trade-offs-1)
+Good starting points with Cypress are its [Getting started guide](https://docs.cypress.io/guides/getting-started/writing-your-first-test.html#Write-your-first-test), and its [Trade-offs](https://docs.cypress.io/guides/references/trade-offs.html#Permanent-trade-offs-1)
 
 The general workflow of a Cypress test is to
 
@@ -46,9 +46,11 @@ If this is the first time you use Cypress, it is recommended for you to get fami
 
 ### 1. Install Cypress {#1-install-cypress}
 
+- [Intalling Cypress](https://docs.cypress.io/app/get-started/install-cypress)
+
 You will need:
 
-- [Node.js 10 or 12 and above](https://nodejs.org)
+- [Node.js 20.x, 22.x and above](https://nodejs.org)
 - [Yarn or NPM](https://yarnpkg.com/)
 - A Unix/Linux shell environment or the Windows command line
 
@@ -63,9 +65,10 @@ yarn install
 
 The test runner assumes that OpenRefine is up and running on the local machine, the tests themselves do not launch OpenRefine, nor restarts it.
 
-Start OpenRefine with
+cd back to the top-level folder, then Start OpenRefine 
 
 ```shell
+cd ../../..
 ./refine
 ```
 
@@ -77,7 +80,7 @@ yarn --cwd ./main/tests/cypress run cypress open
 
 ### 3. Run the existing tests {#3-run-the-existing-tests}
 
-Once the test runner is up, you can choose to run one or several tests by selecting them from the interface.  
+Once the Cypress Launchpad interface window and test runner is up, click on E2E Testing, then you can choose to run one or several tests by selecting them from the Cypress Launchpad window.  
 Click on one of them and the test will start.
 
 ### 4. Add your first test {#4-add-your-first-test}
@@ -121,16 +124,18 @@ See below on the dedicated section 'Testing utilities'
 ### Testing guidelines {#testing-guidelines}
 
 - `cy.wait` should be used in the last resort scenario. It's considered a bad practice, though sometimes there is no other choice
-- Tests should remain isolated from each other. It's best to try one feature at the time
-- A test should always start with a fresh project
+- Tests should remain isolated from each other. It's best to try one feature at a time
+- A test should always start with a fresh OpenRefine project
 - The name of the files should mirror the OpenRefine UI organization
+- Sometimes things are hidden until hovered, like Facet choices. Use `.invoke('trigger', 'mouseover')` since we use jQuery. See [Cypress docs - invoke Examples](https://docs.cypress.io/api/commands/invoke#Properties-that-are-functions-are-invoked)
+- OpenRefine uses jQuery and sometimes you might need to assert a jQuery element method. See [Cypress docs - jQuery method](https://docs.cypress.io/api/commands/invoke#jQuery-method)
 
 ### Testing utilities {#testing-utilities}
 
 OpenRefine contributors have added some utility methods on the top of the Cypress framework.
 Those methods perform some common actions or assertions on OpenRefine, to avoid code duplication.
 
-Utilities can be found in `cypress/support/commands.js`.
+Utilities can be found in `main/cypress/cypress/support/commands.js`.
 
 The most important utility method is `loadAndVisitProject`.  
 This method will create a fresh OpenRefine project based on a dataset given as a parameter.  
@@ -155,7 +160,7 @@ The fixture parameter can be
   Use food.mini as much as possible, it loads 2 rows and very few columns in the grid  
   Use food.small if the test requires a few hundred rows in the grid
 
-  Those datasets live in `cypress/fixtures`
+  Those datasets live in `main/cypress/cypress/fixtures`
 
 ### Browsers {#browsers}
 
