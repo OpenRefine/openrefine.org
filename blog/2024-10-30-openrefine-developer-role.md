@@ -12,7 +12,7 @@ title: "Now Hiring: OpenRefine Developer"
 
 ## Role Summary
 
-This part-time role for an OpenRefine Developer, contracted through [Code for Science & Society Inc.](https://www.codeforsociety.org/) (a 501(c)(3) charitable organization in the USA), will focus on enhancing OpenRefine's stability, reliability, and quality to support the project’s long-term sustainability. This role is funded by the [EOSS-5 grant](/funding#2022-eoss-5), with additional funding potentially provided by the [Wikimedia General Support Fund](/funding#2024-wikimedia-foundation) (pending approval).
+This part-time role for an OpenRefine Developer, contracted through [Code for Science & Society Inc.](https://www.codeforsociety.org/) (a 501(c)(3) charitable organization in the USA), will focus on enhancing OpenRefine's stability, reliability, and quality to support the project’s long-term sustainability. This role is funded by the [EOSS-5 grant](/funding#2022-eoss-5).
 
 Key responsibilities include bug fixes, quality improvements, and ongoing maintenance, with an emphasis on features supported by grant funding. Over time, the developer will expand into release management, security maintenance, and mentorship within internship programs (e.g., GSoC, Outreachy).
 
@@ -20,9 +20,7 @@ Key responsibilities include bug fixes, quality improvements, and ongoing mainte
 * **Bug Fixes & Quality Improvements**
   * Prioritize and address bugs within the codebase to enhance stability and performance.
   * Improve reproducibility features (per EOSS-5 grant requirements).
-  * Maintain Wikimedia-related extensions, optimizing for stability and user experience (pending grant approval).
   * Implement quality improvements through refactoring, optimization, and code maintenance.
-  * Improvements through refactoring, optimization, and code maintenance.
 * **Community Support & Engagement**
   * Participate in community forums to support OpenRefine users and volunteers, fostering a positive and engaged user community.
 * **Pull Request Reviews & Ticket Triage**
