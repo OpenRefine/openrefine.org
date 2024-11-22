@@ -26,10 +26,10 @@ Key responsibilities include bug fixes, quality improvements, and ongoing mainte
   * Organize and participate in weekly calls with contributors to support engagement, answer technical questions, and encourage active participation.
   * Mentor existing contributors to help them grow in responsibility and impact within the OpenRefine community, providing code review, guidance, and encouragement.
   * Represent OpenRefine at relevant conferences and events to attract new developers, raise awareness of the project, and build connections within the broader open-source community.
-  * Support Google Summer of Code (GSoC), Outreachy, and other internship programs by mentoring interns, reviewing contributions, and fostering a supportive learning environment.
+  * Support programs, such as Google Summer of Code (GSoC), Outreachy, and other internship programs by mentoring interns, reviewing contributions, and fostering a supportive learning environment.
 * **Pull Request Reviews & Ticket Triage (25%)**
   * Once familiar with the codebase, actively engage with community-submitted pull requests, providing constructive feedback and participating in collaborative review processes.
-  * Assist with ticket triage to identify and prioritize key issues and opportunities.
+  * Assist with issue triage to identify and prioritize project goals issues and opportunities.
 * **Progressive Onboarding into Release Management & Security Updates**
   * Upon receiving commit privileges, assist in merging pull requests to support the workflow of community contributions.
   * Take on Release Manager responsibilities to prepare and publish new releases, coordinating with the community on release planning.
@@ -37,7 +37,7 @@ Key responsibilities include bug fixes, quality improvements, and ongoing mainte
 
 ## Work Environment & Reporting Structure
 
-This is a fully remote role with flexible working hours, allowing the developer to organize their time freely over the month. This role requires a self-motivated, independent approach, with minimal direct supervision. The OpenRefine Developer will primarily work with volunteers, including members of the Advisory Committee and most technical contributors. The OpenRefine community collaborates asynchronously through public forums and GitHub, accommodating the diverse time zones and work patterns of contributors. Occasional travel may be expected to attend relevant conferences and meetings, enabling valuable in-person engagement with the OpenRefine community and the broader open-source ecosystem.
+This is a fully remote role with flexible working hours, allowing the developer to organize their time freely over each month. This role requires a self-motivated, independent approach, with minimal direct supervision. The OpenRefine Developer will primarily work with volunteers, including members of the Advisory Committee and most technical contributors. The OpenRefine community collaborates asynchronously through public forums and GitHub, accommodating the diverse time zones and work patterns of contributors. Occasional travel may be expected to attend relevant conferences and meetings, enabling valuable in-person engagement with the OpenRefine community and the broader open-source ecosystem.
 
 The developer will report primarily to the Project Manager, who will provide guidance on project goals and prioritization. Additionally, the OpenRefine Advisory Committee will serve as a resource for strategic direction and administrative support in collaboration with Code for Science & Society Inc. Weekly check-ins with the Advisory Committee and Project Manager will give the OpenRefine Developer the chance to report back on their work, gain an understanding of OpenRefine’s broader objectives, and receive ongoing support as needed.
 
