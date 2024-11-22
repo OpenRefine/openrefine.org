@@ -469,16 +469,18 @@ For example, you can parse a column containing dates in different formats, such 
 | Letter | Date or Time Component | Presentation | Examples |
 |-|-|-|-|
 | G | Era designator | Text | AD |
-| y | Year | Year | 1996; 96 |
-| Y | [Week year](https://en.wikipedia.org/wiki/ISO_week_date#First_week) | Year | 2009; 09 |
-| M | Month in year | Month | July; Jul; 07 |
+| u | Year | Year | 1996; 96 |
+| y | year-of-era | year | 1996; 96 |
+| M/L | Month in year | Number/text |7; 07; Jul; July; J |
+| Q/q | quarter-of-year | number/text | 3; 03; Q3; 3rd quarter |
+| Y | week-based-year | year | 1996;96 | 
 | w | Week in year | Number | 27 |
 | W | Week in month | Number | 2 |
 | D | Day in year | Number | 189 |
 | d | Day in month | Number | 10 |
 | F | Day of week in month | Number | 2 |
 | E | Day name in week | Text | Tuesday; Tue |
-| u | Day number of week (1 = Monday, ..., 7 = Sunday) | Number | 1 |
+| e/c | localized day-of-week | number/text | 2; 02; tue; tuesday; T |
 | a | AM/PM marker | Text | PM |
 | H | Hour in day (0-23) | Number | 0 |
 | k | Hour in day (1-24) | Number | 24 |
