@@ -95,7 +95,7 @@ You can right-click on `openrefine.exe` or `refine.bat` and pin one of those pro
 
 Once you have downloaded the `.dmg` file, open it and drag the OpenRefine icon onto the Applications folder icon (just like you would normally install Mac applications).
 
-:::caution
+:::note
 When you double-click the OpenRefine icon to start the application on your Mac for the first time, you may see the notification "OpenRefine cannot be opened because the developer cannot be verified". If you see this notification, click <span class="buttonLabels">Cancel</span>.
 
 Instead, _right_-click the application's icon and select `Open` from the pop-up menu. You will see a new notification which now contains an <span class="buttonLabels">Open</span> button.
@@ -378,7 +378,8 @@ Note that this file is only read if you use `refine.bat`, not `openrefine.exe`.
 </TabItem>
 <TabItem value="mac">
 
-:::caution First, ensure that you have already followed and completed the install steps above, otherwise you will get an error about a read-only volume when editing the `Info.plist` file following the next steps.
+:::caution 
+Before proceeding, double-check that you've completed the installation steps outlined above. Skipping those steps may result in an error about a read-only volume when you try to edit the `Info.plist` file in the next steps.  
 :::
 
 If you have downloaded the `.dmg` package and you start OpenRefine by double-clicking on it:
