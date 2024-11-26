@@ -16,6 +16,19 @@ return {
   organizationName: 'OpenRefine', // Usually your GitHub org/user name.
   projectName: 'openrefine.github.com', // Usually your repo name.
   themes: ['@docusaurus/theme-mermaid'],
+  plugins: [
+    './src/plugins/docusaurus-versionsjson-plugin',
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        lastmod: 'date',
+        changefreq: 'weekly',
+        priority: 0.5, // Default priority for all pages
+        ignorePatterns: ['/tags/**'], // Ignore specific patterns
+        filename: 'sitemap.xml',
+      },
+    ],
+  ],
   themeConfig: {
     navbar: {
       title: 'OpenRefine',
@@ -174,7 +187,6 @@ return {
       copyright: `<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />OpenRefine's website and documentation is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.`,
     },
   },
-  plugins: ['./src/plugins/docusaurus-versionsjson-plugin'],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -202,6 +214,7 @@ return {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: false,
       },
     ],
   ],
