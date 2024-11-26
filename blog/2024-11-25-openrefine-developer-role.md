@@ -23,7 +23,7 @@ Key responsibilities include bug fixes, quality improvements, and ongoing mainte
   * Implement quality improvements through refactoring, optimization, and code maintenance.
 * **Community Engagement & Contributor Support (30%)**
   * Actively participate in community forums to support OpenRefine users and volunteers, answering questions and offering guidance.
-  * Organize and participate in weekly calls with contributors to support engagement, answer technical questions, and encourage active participation.
+  * Organize and participate in monthly calls with contributors to support engagement, answer technical questions, and encourage active participation.
   * Mentor existing contributors to help them grow in responsibility and impact within the OpenRefine community, providing code review, guidance, and encouragement.
   * Represent OpenRefine at relevant conferences and events to attract new developers, raise awareness of the project, and build connections within the broader open-source community.
   * Support programs, such as Google Summer of Code (GSoC), Outreachy, and other internship programs by mentoring interns, reviewing contributions, and fostering a supportive learning environment.
