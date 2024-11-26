@@ -179,6 +179,13 @@ return {
     [
       '@docusaurus/preset-classic',
       {
+        sitemap: {
+          lastmod: 'date',
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
         docs: {
           // Docs folder path relative to website dir. Equivalent to `customDocsPath`.
           // path: 'docs',
