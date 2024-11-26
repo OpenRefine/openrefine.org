@@ -9,6 +9,7 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
+    "serve": "docusaurus serve",
     "deploy": "docusaurus deploy",
     "netlify:build:production": "yarn build",
     "netlify:build:deployPreview": "yarn build"
@@ -31,5 +32,5 @@
   "engines": {
     "node": ">=18.0"
   },
-  "packageManager": "yarn@4.5.2"
+  "packageManager": "yarn@4.5.3"
 }
