@@ -42,40 +42,42 @@ OpenRefine is used by many academics in their research and cited in their public
 %%{init: {'theme':'forest'}}%%
 xychart-beta
     title "Number of academic citations of OpenRefine per years"
-    x-axis [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
+    x-axis [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024*]
     y-axis "Count of citation" 0 --> 900
-    bar [4, 67, 162, 251, 356, 424, 477, 502, 584, 571, 586, 717, 783, 811]
+    bar [4, 67, 162, 251, 356, 424, 477, 502, 584, 571, 586, 717, 783, 811, 741]
 ```
+
+(*) 2024 data are up to December 3rd, 2024.
 
 ## Forum Statistics 
 
 In November 2022, we moved from email lists hosted by Google Groups to a Discourse forum. 
 
-As of September 25, 2024, over the last 12 months:
-* 272 new users signed up[^1] on our forum for a total of 608 users[^2].
-* 360 topics[^3] were created for a total of 1,900 messages[^4].
+As of December 3rd, 2024, over the last 12 months:
+* 271 new users signed up[^1] on our forum for a total of 637 users[^2].
+* 364 topics[^3] were created for a total of 1,900 messages[^4].
 
 ## Contribution Statistics
 
 The statistics below only track activity on our primary GitHub repository, which includes code, design, and translation contributions. Our documentation is available in a separate repository.
 
-As of September 25, 2024, over the last 12 months we had: 
-* 37 active GitHub contributors;
-* 241 issues [created](https://github.com/OpenRefine/OpenRefine/issues?q=is%3Aissue+created%3A2023-09-25..2024-09-25) and 185 [closed](https://github.com/OpenRefine/OpenRefine/issues?q=is%3Aissue+closed%3A2023-09-25..2024-09-25);
-* [216 PRs merged](https://github.com/OpenRefine/OpenRefine/pulls?page=3&q=is%3Amerged+created%3A2023-09-25..2024-09-25+-author%3Aapp%2Fdependabot) (excluding those created by dependabot) 
+As of December 3rd, 2024, over the last 12 months we had:
+* 33 active GitHub contributors;
+* 241 issues [created](https://github.com/OpenRefine/OpenRefine/issues?q=is%3Aissue+created%3A2023-12-03..2024-12-03) and 192 [closed](https://github.com/OpenRefine/OpenRefine/issues?q=is%3Aissue+closed%3A2023-12-03..2024-12-03);
+* [223 PRs merged](https://github.com/OpenRefine/OpenRefine/pulls?page=3&q=is%3Amerged+created%3A2023-12-03..2024-12-03+-author%3Aapp%2Fdependabot) (excluding those created by dependabot)
 
-The following graphic represent a three months rolling average of the number of active contributors on the main repository [^5]. You can also review the [Github pulse](https://github.com/OpenRefine/OpenRefine/pulse) and [Github traffic](https://github.com/OpenRefine/OpenRefine/graphs/traffic) pages for real time insights on the activities on our main repository. 
+The following graphic represents the average number of active contributors to the main repository each year[^5]. You can also review the [Github pulse](https://github.com/OpenRefine/OpenRefine/pulse) and [Github traffic](https://github.com/OpenRefine/OpenRefine/graphs/traffic) pages for real time insights on the activities on our main repository.
 
 ```mermaid 
 %%{init: {'theme':'forest'}}%%
 xychart-beta 
-    x-axis   2010 --> 2024
-    y-axis "Number of GitHub contributors per month" 0 --> 30 
-    line [2,2,3,4,4,3,2,3,4,4,4,3,3,2,2,2,2,2,2,2,3,3,3,2,2,2,1,1,1,2,2,2,2,3,3,3,3,4,3,2,2,2,3,2,2,1,1,1,2,2,2,2,3,3,3,2,1,2,4,4,4,3,4,4,3,3,2,4,4,5,3,2,0,0,0,0,1,1,1,1,1,2,1,1,2,3,4,4,3,5,6,6,8,8,11,11,14,14,15,14,11,9,7,8,9,12,12,12,8,7,7,7,5,6,6,8,8,9,7,8,9,17,21,22,21,19,20,19,17,18,14,15,16,19,20,17,17,12,9,9,12,15,15,16,16,18,19,17,15,14,15,12,11,12,13,11,10,11,12,13,12,10,8,8,8,9,8,7,9,10,10,9,7,10,10,12]
+    x-axis   [10,11,12,13,14,15,16,17,18,19,20,21,22,23,24*]
+    y-axis "Number of GitHub contributors per month" 0 --> 22
+    line [3,2,2,2,3,3,1,6,12,7,18,15,15,10,10]
 ```
-
-[^1]: From [this page](https://forum.openrefine.org/admin/reports/signups?end_date=2024-09-25&mode=table&start_date=2023-09-25) with discourse admin priviledge
+(*) 2024 data are up to December 3rd, 2024.
+[^1]: From [this page](https://forum.openrefine.org/admin/reports/signups?end_date=2024-12-03&mode=table&start_date=2023-12-03) with discourse admin priviledge
 [^2]: See the count of users on [this page](https://forum.openrefine.org/u?order=likes_received&period=all)
-[^3]: From [this page](https://forum.openrefine.org/admin/reports/topics?end_date=2024-09-25&mode=table&start_date=2023-09-25) with discourse admin priviledge
-[^4]: From [this page](https://forum.openrefine.org/admin/reports/posts?end_date=2024-09-25&mode=table&start_date=2023-09-25) with discourse admin priviledge
+[^3]: From [this page](https://forum.openrefine.org/admin/reports/topics?end_date=2024-12-03&mode=table&start_date=2023-12-03) with discourse admin priviledge
+[^4]: From [this page](https://forum.openrefine.org/admin/reports/posts?end_date=2024-12-03&mode=table&start_date=2023-12-03) with discourse admin priviledge
 [^5]: We are counting the number of contributor using the following command `git log --all --pretty="%an" | sort | uniq | wc -l`
