@@ -127,6 +127,10 @@ return {
           title: 'About OpenRefine',
           items: [
             {
+              label: 'Mission and Vision',
+              href: '/mission_vision',
+            },
+            {
               label: 'Project history',
               href: '/openrefine_history',
             },
