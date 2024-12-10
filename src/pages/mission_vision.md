@@ -6,7 +6,7 @@ hide_table_of_contents: true
 
 ## OpenRefine Vision
  
-A more informed world where working with data is easy and engaging
+A more informed world where working with data is easy and engaging.
 
 
 
@@ -39,7 +39,7 @@ We ensure that OpenRefine is inviting and supportive of all participants by prov
 
 ### Transparent & Open
 
-We create pathways for and encourage clear communication and knowledge-sharing, ranging from regularly-updated documentation to consistent public participation in community forums. We believe that transparent practices are essential to a collaborative community where all participants – including those with limited time and experience – are informed and feel empowered to engage. The tool mirrors this commitment to transparency through prioritizing the use of open and commons-based data, and the privacy of all users
+We create pathways for and encourage clear communication and knowledge-sharing, ranging from regularly-updated documentation to consistent public participation in community forums. We believe that transparent practices are essential to a collaborative community where all participants – including those with limited time and experience – are informed and feel empowered to engage. The tool mirrors this commitment to transparency through prioritizing the use of open and commons-based data, and the privacy of all users.
 
 ### Curious
 
@@ -47,4 +47,4 @@ We believe in the importance of a learning mindset, where everyone leads with qu
 
 ### Community-driven
 
-We seek to facilitate a sense of community among users and contributors, and to prioritize the perspectives of community members in key decisions. We believe that our users and contributors dene OpenRefine, and should collaboratively drive our work forward – not as individuals but as members of a supportive and vibrant community. This is reected in open communication about the future of the community and tool, a sense of agency among community members, and in democratic decision-making around strategic and technical priorities.
+We seek to facilitate a sense of community among users and contributors, and to prioritize the perspectives of community members in key decisions. We believe that our users and contributors define OpenRefine, and should collaboratively drive our work forward – not as individuals but as members of a supportive and vibrant community. This is reflected in open communication about the future of the community and tool, a sense of agency among community members, and in democratic decision-making around strategic and technical priorities.
