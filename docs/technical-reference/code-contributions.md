@@ -52,7 +52,7 @@ Once you have made changes to the source code, you should test them to make sure
 Manual testing is very useful for that, as it lets you judge the quality of the final user experience. On top of that, it is useful (and often required for your contribution to be accepted) to have automated tests. As mentioned above, those can come in two
 forms:
 * [Cypress integration tests](technical-reference/functional-tests.md), which should be used when you made changes to the frontend. Those tests are relatively slow to execute: therefore, consider adding assertions to an existing test which covers the area you are touching, if possible;
-* Java unit tests, which should be used when you made changes to the backend. Those tests are faster to execute and generally more reliable. Most Java classes have a corresponding test class (as in the example above). In most cases you should be able to write your unit test by imitating existing tests from the same test class.
+* Java unit tests, which should be used when you made changes to the backend. Those tests are faster to execute and generally more reliable. Most Java classes have a corresponding test class (as in the example above). Please make one test class corresponding to its tested class; if there isn't an existing test class, then create a new one. In most cases you should be able to write your unit test by imitating existing tests from the same or similar test classes.
 
 ### Submitting your changes
 
