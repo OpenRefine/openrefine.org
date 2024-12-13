@@ -15,7 +15,7 @@ title: "Now Hiring: OpenRefine Developer & Contributor Engagement"
 This part-time role for an OpenRefine Developer, contracted through [Code for Science & Society Inc.](https://www.codeforsociety.org/) (a 501(c)(3) charitable organization in the USA), will focus on enhancing OpenRefine's stability, reliability, and quality to support the project’s long-term sustainability. This role is funded by the [EOSS-5 grant](/funding#2022-eoss-5).
 
 Key responsibilities include bug fixes, quality improvements, and ongoing maintenance, with an emphasis on features supported by grant funding. Over time, the developer will expand into release management, security maintenance, and mentorship within internship programs (e.g., GSoC, Outreachy).
-
+<!--truncate-->
 ## Core Responsibilities
 * **Bug Fixes & Quality Improvements (45%)**
   * Prioritize and address bugs within the codebase to enhance stability and performance.

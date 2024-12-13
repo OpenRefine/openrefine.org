@@ -4,11 +4,9 @@ description: Join our community of users, trainers and contributors around the w
 hide_table_of_contents: true
 ---
 
-<!-- Add mission, vision and value here once they are clarified -->
-
 # Get involved in the OpenRefine community
 
-OpenRefine is made by people like you. You can help us in many ways, including the roles below.
+OpenRefine is made by people like you, looking to create a more informed world where working with data is easy and engaging. You can help us in many ways, including the roles below.
 
 
 import OpenRefineIsMagicImageUrl from '@site/static/img/openrefine_is_magic.png';
