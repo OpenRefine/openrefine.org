@@ -8,13 +8,9 @@ hide_table_of_contents: true
  
 A more informed world where working with data is easy and engaging.
 
-
-
-
 ## OpenRefine Mission
 
 Empowering everyone to meaningfully engage with data by providing an accessible open source tool and nurturing a diverse, supportive community.
-
 
 ## OpenRefine Values 
 
@@ -26,12 +22,9 @@ We recognize that building and supporting a tool that meets the important vision
 * Curious
 * Community-driven
 
-
-
 ### Respectful of Diverse Backgrounds & Expertise
 
 We celebrate that people come to the OpenRefine tool and community from varying backgrounds, identities, technical abilities, geographies, privileges, industries, linguistic backgrounds, and more. We honor the experiences of our users and contributors and aim to develop features and training that encourage and nourish diverse engagement with the tool, prioritizing accessibility and usability to broaden reach and impact.
-
 
 ### Approachable
 
