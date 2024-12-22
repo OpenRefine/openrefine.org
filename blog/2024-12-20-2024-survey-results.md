@@ -5,16 +5,16 @@ title: "OpenRefine 2024 User Survey Results"
 Every two years, OpenRefine conducts an extensive survey among its users. Our sixth edition was live in August-October 2024. The 2024 user survey included a feature prioritization poll (see the [results](https://forum.openrefine.org/t/results-from-the-feature-prioritization-survey-2024/1847)) and questions regarding our new mission, vision, and value statement (see the [results](https://forum.openrefine.org/t/feedback-request-on-openrefines-draft-vision-mission-values/1619/8)). This year, we received 226 answers. This post focuses on the survey analysis.
 <!--truncate-->
 
-You can refer to the previous year edition: [2012](http://googlerefine.blogspot.ca/2012/10/google-refine-usage-survey-results.html), [2014](/blog/2014/08/29/2014-survey-results.html), [2018](/blog/2018/07/16/2018-survey-results.html), [2020](/blog/2020/02/20/2020-survey-results.html) and [2022](/blog/2022/06/28/2022-survey-results). This year, we did not include the questions "How would you rate your skills using OpenRefine?" and "How long have you been using OpenRefine?" we will use them to correlate with other answers in a later analysis.  You can download the [anonymized answers here](/img/2024survey/OpenRefine-2024-User-Survey-Anonymized-Answer.csv). 
+You can refer to the previous year editions: [2012](http://googlerefine.blogspot.ca/2012/10/google-refine-usage-survey-results.html), [2014](/blog/2014/08/29/2014-survey-results.html), [2018](/blog/2018/07/16/2018-survey-results.html), [2020](/blog/2020/02/20/2020-survey-results.html) and [2022](/blog/2022/06/28/2022-survey-results). This year, we did not include the questions "How would you rate your skills using OpenRefine?" and "How long have you been using OpenRefine?". We will use them to correlate with other answers in a later analysis.  You can download the [anonymized answers here](/img/2024survey/OpenRefine-2024-User-Survey-Anonymized-Answer.csv). 
 
 So now, let's dive in. 
 
 ## Who are you? 
 
 ### OpenRefine Communities 
-Overall, our largest communities remain stable, with Researcher (38.50%) becoming the largest following Librarian (34.01%) and Data Science(25.66%), Wikimedian (25.66%), and GLAM (22.57%) close behind.
+Overall, our largest communities remain stable, with Researcher (38.50%) becoming the largest, followed by Librarian (34.01%), Data Science (25.66%), Wikimedian (25.66%), and GLAM (22.57%) close behind.
 
-This year, we introduced OpenSource Intelligence (OSINT) and Civic Tech as default options. We had information that OpenRefine was used by those communities, and we wanted to confirm it. We have 10 CiviTech users and 6 OSINT respondents. So, while they are present and align with our vision of building a more informed world where working with data is easy and engaging, they do not represent the majority of our users.
+This year, we introduced OpenSource Intelligence (OSINT) and Civic Tech as default options. We had information that OpenRefine was used by those communities, and we wanted to find out to what extent. We have 10 respondents from CiviTech users and 6 working on OSINT. So, while they are present and align with our vision of building a more informed world where working with data is easy and engaging, they do not represent the majority of our users.
 
 [![](/img/2024survey/01communities.png)](/img/2024survey/01communities.png)
 
@@ -28,7 +28,7 @@ Last year, 85.1% of respondents indicated that they primarily use OpenRefine for
 
 ### Languages used 
 
-The question "In which languages do you use OpenRefine (both its interface and the datasets you work with)?" reveals the diversity of our community, with 37 languages reported. English is less dominant than it was two years ago, dropping from 64.1% to 55.7% this year. German, French, and Spanish remain the top three languages, followed by a long tail of 33 other languages. 
+The question "In which languages do you use OpenRefine (both its interface and the datasets you work with)?" reveals the diversity of our community, with 37 languages reported. English is less dominant than it was two years ago, dropping from 64.1% to 55.7% this year. German, French, and Spanish remain the top three other languages, followed by a long tail of 33 other languages. 
 
 Interestingly, 40.27% of users reported interacting in multiple languages. In our next survey, it may be beneficial to separate questions about the user interface from the dataset language.
 
@@ -50,7 +50,7 @@ Overall, we delved into greater detail this year than in the previous survey and
 
 Some interesting findings include that 53% of users accessed a reconciliation service at least once a month, and 41% of users published to Wikibase, Wikidata, or Wikimedia Commons.
 
-The anomyized answer is [available here](/img/2024survey/OpenRefine-2024-User-Survey-anonymized-Answer.csv) if you want to investigate further (don't forget to share your findings on the [forum](https://forum.openrefine.org/)).
+The anomyized answer is [available here](/img/2024survey/OpenRefine-2024-User-Survey-anonymized-Answer.csv) if you want to investigate further (if you do, please share your findings on the [forum](https://forum.openrefine.org/), we would love to read them).
 
 [![](/img/2024survey/05community-usage.png)](/img/2024survey/05community-usage.png)
 
