@@ -38,7 +38,7 @@ Interestingly, 40.27% of users reported interacting in multiple languages. In ou
 
 In 2022, we asked our users to provide a general score for the software for the first time. On average, respondents rated OpenRefine a solid 8 out of 10!
 
-This year, instead of requesting a numerical score, we calculated a Net Promoter Score (NPS), which ranges from -100 to +100. OpenRefine achieved a total score of 63.72. Among respondents, 72.57% were promoters (those who scored nine or ten) and would recommend OpenRefine, while only 8.85% were detractors (those who scored six or below).
+This year, instead of requesting a numerical score, we calculated a [Net Promoter Score (NPS)](https://en.wikipedia.org/wiki/Net_promoter_score), which ranges from -100 to +100. OpenRefine achieved a total score of 63.72. Among respondents, 72.57% were promoters (those who scored nine or ten) and would recommend OpenRefine, while only 8.85% were detractors (those who scored six or below).
 
 [![](/img/2024survey/04nps.png)](/img/2024survey/04nps.png)
 
