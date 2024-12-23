@@ -27,7 +27,8 @@ function PostDownload() {
           </BrowserOnly>
           <h2>Next steps</h2>
           <div className="cardList">
-            <Card href="donate" title="Give to OpenRefine" description="Your donations support the further development and maintenance of OpenRefine." />
+            <Card href="docs" title="Getting Started" description="Check out the Documentation" />
+            <Card href="external_resources" title="Tutorials" description="Access tutorials, online courses and other learning materials about OpenRefine." />
             <Card href="extensions" title="Extensions" description="Enhance OpenRefine with extensions created by the community." />
             <Card href="community" title="Join the community" description="Get support, find resources and get involved in the project. OpenRefine is made by people like you!" />
           </div>
@@ -51,6 +52,7 @@ function DownloadSection(props) {
         <DownloadLink version={version} platform={platform} autoDownload={autoDownload} />
         {explanations}
         <p>If you are upgrading from an earlier version, make sure to <Link to="docs/manual/installing#back-up-your-data">back up your workspace directory</Link> first.</p>
+        <p>Check out our detailed guide on <a href="docs/manual/installing#installing-or-upgrading">Installing OpenRefine</a> for detailed instructions.</p>
     </div>;
 }
 
@@ -89,9 +91,19 @@ export function getRunningInstructions(platform) {
     if (platform === 'win') {
        return <p>First, make sure <a href="https://adoptium.net/download/">Java</a> is installed on your computer. Then, unzip the archive, and double-click on <code>openrefine.exe</code> or <code>refine.bat</code> if the former does not work.</p>
     } else if (platform === 'win-with-java') {
-       return <p>Unzip the archive, and double-click on openrefine.exe or refine.bat if the former does not work.</p>
+       return <p>Unzip the archive, and double-click on <code> openrefine.exe</code> or <code>refine.bat</code> if the former does not work.</p>
     } else if (platform === 'mac') {
-       return <p>Open the downloaded DMG file, drag icon into the <code>Applications</code> folder and double click on it. <Link to="docs/manual/installing#install-or-upgrade-openrefine">See our documentation for how to circumvent security warnings</Link> when opening the DMG file.</p>;
+      return (
+        <p>
+          Open the downloaded DMG file, drag the icon into the <code>Applications</code> folder, and double-click on it. 
+          <p className='alert margin-top--md'> 
+          <strong style={{color:'red'}}> Important:</strong> See our documentation for {' '}
+          <a href="docs/manual/installing#install-or-upgrade-openrefine" style={{ fontWeight: '', textDecoration: 'underline' }}>
+            how to circumvent security warnings
+          </a> when opening the DMG file.
+          </p>
+        </p>
+      )
     } else if (platform === 'linux') {
        return <p>Download, extract, then type <code>./refine</code> in a terminal to start. This requires Java to be installed on your computer.</p>
     }

@@ -114,8 +114,10 @@
    */
 
   .cardList {
-     display: flex;
-     flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(max(300px, 30%), 1fr));
+    width: min(100%, 1000px);
+    margin: 0 auto;
   }
 
   .card {
