@@ -7,6 +7,7 @@ import useBaseUrl, {useBaseUrlUtils} from '@docusaurus/useBaseUrl';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
 import Layout from '@theme/Layout';
+import Admonition from '@theme/Admonition';
 // import {styles as docCardStyles} from '@theme/DocCard/styles.module.css';
 import Card from '../card.tsx';
 
@@ -95,12 +96,12 @@ export function getRunningInstructions(platform) {
     } else if (platform === 'mac') {
       return (
         <p>Open the downloaded DMG file, drag the icon into the <code>Applications</code> folder, and double-click on it. 
-          <p className='alert margin-top--md'> 
-          <strong style={{color:'red'}}> Important:</strong> See our documentation for {' '}
+          <Admonition className='margin-top--md' type='info' title='Important'> 
+           See our documentation for {' '}
           <a href="docs/manual/installing#install-or-upgrade-openrefine" style={{ textDecoration: 'underline' }}>
             how to circumvent security warnings
           </a> when opening the DMG file.
-          </p>
+          </Admonition>
         </p>
       )
     } else if (platform === 'linux') {
