@@ -98,7 +98,7 @@ export function getRunningInstructions(platform) {
         <p>Open the downloaded DMG file, drag the icon into the <code>Applications</code> folder, and double-click on it. 
           <Admonition className='margin-top--md' type='info' title='Important'> 
            See our documentation for {' '}
-          <a href="docs/manual/installing#install-or-upgrade-openrefine" style={{ textDecoration: 'underline' }}>
+          <a href="docs/manual/installing#install-or-upgrade-openrefine">
             how to circumvent security warnings
           </a> when opening the DMG file.
           </Admonition>
