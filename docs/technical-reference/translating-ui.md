@@ -4,17 +4,15 @@ title: Translate OpenRefine's interface
 sidebar_label: Translate OpenRefine's interface
 ---
 
-Currently supported languages include English, Spanish, Chinese, French, Hebrew, Italian and Japanese.
+You can help translate OpenRefine into your language by visiting [Weblate](https://hosted.weblate.org/engage/openrefine/?utm_source=widget) which provides a web based UI to edit and add translations and sends automatic pull requests back to our project.
 
 ![Translation status](https://hosted.weblate.org/widgets/openrefine/-/287x66-grey.png)
-
-You can help translate OpenRefine into your language by visiting [Weblate](https://hosted.weblate.org/engage/openrefine/?utm_source=widget) which provides a web based UI to edit and add translations and sends automatic pull requests back to our project.
 
 Click to help translate --> [Weblate](https://hosted.weblate.org/engage/openrefine/?utm_source=widget)
 
 ## Manual translation process {#manual-translation-process}
  
-Localized strings are entered in a .json file, one per language. They are located in the folder `main/webapp/modules/core/langs/` in a file named `translation-xx`.json, where xx is the language code (i.e. fr for French).
+Localized strings are entered in a `.json` file, one per language. They are located in the folder `main/webapp/modules/core/langs/` in a file named `translation-xx.json`, where `xx` is the language code (i.e. `fr` for French).
 
 ### Simple case of localized string {#simple-case-of-localized-string}
 This is an example of a simple string, with the start of the JSON file. This example is for French.
@@ -41,7 +39,7 @@ In this example, the string for page, the second parameter, `$2`, will have an �
 
 ## Front-end development {#front-end-development}
 
-The OpenRefine front end has been localized using the [Wikidata jquery.i18n library](https://github.com/wikimedia/jquery.i18n). The localized text is stored in a JSON dictionary on the server and retrieved with a new OpenRefine command.
+The OpenRefine front end has been localized using the [Wikimedia jquery.i18n library](https://github.com/wikimedia/jquery.i18n). The localized text is stored in a JSON dictionary on the server and retrieved with a new OpenRefine command.
 
 ### Adding a new string {#adding-a-new-string}
 
@@ -70,21 +68,22 @@ or, if you need to embed HTML tags:
 $('#new-html-element-id').html($.i18n('section/newkey'));
 ```
 
+HTML should be avoided as it can enable [cross-scripting attacks](https://owasp.org/www-community/attacks/xss/).
+
 ### Adding a new language {#adding-a-new-language}
 
 The language dictionaries are stored in the `langs` subdirectory for the module e.g.
 
 * https://github.com/OpenRefine/OpenRefine/tree/master/main/webapp/modules/core/langs for the main interface
-* https://github.com/OpenRefine/OpenRefine/tree/master/extensions/gdata/module/langs for google spreadsheet connection
 * https://github.com/OpenRefine/OpenRefine/tree/master/extensions/database/module/langs for database via JDBC
-* https://github.com/OpenRefine/OpenRefine/tree/master/extensions/wikidata/module/langs for Wikidata
+* https://github.com/OpenRefine/OpenRefine/tree/master/extensions/wikibase/module/langs for the Wikibase extension
 
 To add support for a new language, the easiest way is to do it directly in Weblate. To do it manually, copy `translation-en.json` to `translation-<locale>.json` and have your translator translate all the value strings (ie right hand side).
 
 #### Main interface {#main-interface}
- The translation is best done [with Weblate](https://hosted.weblate.org/engage/openrefine/?utm_source=widget). Files are periodically merged by the developer team.
+ The translation is best done [with Weblate](https://hosted.weblate.org/engage/openrefine/?utm_source=widget). Changes are pushed to OpenRefine's git repository and are included in the next release.
 
-Run the latest (hopefully cloned from github) version and check whether translated words fit to the layout. Not all items can be translated word by word, especially into non-Ìndo-European languages.
+[Run OpenRefine from the master branch](/docs/technical-reference/build-test-run) and check whether translated words fit to the layout. Not all items can be translated word by word, especially into non-Ìndo-European languages.
 
 If you see any text which remains in English even when you have checked all items, please create bug report in the issue tracker so that the developers can fix it.
 
@@ -92,7 +91,7 @@ If you see any text which remains in English even when you have checked all item
 
 Extensions can be translated via Weblate just like the core software.
 
-The new extension for Wikidata contains lots of domain-specific concepts, with which you may not be familiar. The Wikidata may not have reconciliation service for your language. I recommend checking the glossary(https://www.wikidata.org/wiki/Wikidata:Glossary) to be consistent.
+The Wikibase extension contains lots of domain-specific concepts, with which you may not be familiar. The Wikidata may not have reconciliation service for your language. We recommend checking the [Wikidata glossary](https://www.wikidata.org/wiki/Wikidata:Glossary) to be consistent.
 
 By default, the system tries to load the language file corresponding to the currently in-use browser language. To override this setting a new menu item ("Language Settings") has been added at the index page.
 To support a new language file, the developer should add a corresponding entry to the dropdown menu in this file: `/OpenRefine/main/webapp/modules/core/scripts/index/lang-settings-ui.html`. The entry should look like:
@@ -102,4 +101,6 @@ To support a new language file, the developer should add a corresponding entry t
 
 ## Server-side localisation {#server--backend-coding}
 
-Currently no back end functions are translated, so things like error messages, undo history, etc may appear in English form. Rather than sending raw error text to the front end, it's better to send an error code which is translated into text on the front end. This allows for multiple languages to be supported.
+Certain areas of the back-end can also be localized, also via Weblate.
+The translated strings are stored in `.properties` file, from which Java classes are generated at compilation time.
+For instance, operation descriptions are stored under [`main/resources/com/google/refine/operations`](https://github.com/OpenRefine/OpenRefine/tree/master/main/resources/com/google/refine/operations/).
