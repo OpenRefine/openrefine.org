@@ -372,7 +372,7 @@ In the bottom left corner of the screen, look for <span class="menuItems">Prefer
 |Width of the panel for facets/history|ui.browsing.facetsHistoryPanelWidth|Number (pixel)|300|500|v3.5|
 |Default state of the reconciliation automatch option|ui.reconciliation.automatch|Boolean|true|false|v3.8|
 |Value of clusting choice limit|ui.clustering.choices.limit|Number|5000|8000|v3.8|
-|Warning for a next available version|notification.status||disabled|enabled|v3.7|
+|Warning for a next available version|notification.status||enabled|disabled|v3.7|
 
 To leave the Preferences screen, click on the diamond “OpenRefine” logo.
 
