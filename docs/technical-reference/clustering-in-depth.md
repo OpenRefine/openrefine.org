@@ -59,7 +59,7 @@ The process that generates the key from a string value is the following
 - join the tokens back together
 
 If you're curious, the code that performs this is
-[here](http://github.com/OpenRefine/OpenRefine/blob/master/main/src/com/google/refine/clustering/binning/FingerprintKeyer.java).
+[here](https://github.com/OpenRefine/OpenRefine/blob/master/modules/core/src/main/java/com/google/refine/clustering/binning/FingerprintKeyer.java).
 
 Several factors play a role in this fingerprint:
 
