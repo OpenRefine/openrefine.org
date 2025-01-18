@@ -1,5 +1,29 @@
 [
     {
+        "version": "3.9-beta1",
+        "stable": false,
+        "date": "2025-01-18",
+        "source": "github",
+        "artifacts": [
+             {
+                "platform": "win-with-java-installer",
+                "format": "exe"
+             },
+             {
+                "platform": "win-with-java",
+                "format": "zip"
+             },
+             {
+                "platform": "mac",
+                "format": "dmg"
+             },
+             {
+                "platform": "linux",
+                "format": "tar.gz"
+             }
+        ]
+    },
+    {
         "version": "3.8.7",
         "stable": true,
         "date": "2024-11-21",
@@ -28,30 +52,6 @@
         "stable": true,
         "date": "2024-02-10",
         "source": "github",
-        "artifacts": [
-             {
-                "platform": "win-with-java",
-                "format": "zip"
-             },
-             {
-                "platform": "win",
-                "format": "zip"
-             },
-             {
-                "platform": "mac",
-                "format": "dmg"
-             },
-             {
-                "platform": "linux",
-                "format": "tar.gz"
-             }
-        ]
-    },
-    {
-        "version": "3.6.2",
-        "stable": true,
-        "date": "2022-10-03",
-        "source": "sonatype",
         "artifacts": [
              {
                 "platform": "win-with-java",
