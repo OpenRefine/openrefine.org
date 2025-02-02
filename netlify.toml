@@ -7,3 +7,4 @@
 [context.deploy-preview]
   command = "npm netlify:build:deployPreview"
 
+NPM_FLAGS = "--force --no-progress"
