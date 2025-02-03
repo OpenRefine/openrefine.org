@@ -59,7 +59,8 @@ module.exports = {
             items: [
             'technical-reference/writing-extensions',
             'technical-reference/migrating-older-extensions',
-            'technical-reference/wikibase/architecture'
+            'technical-reference/wikibase/architecture',
+            'technical-reference/google/google-data',
             ]
         },
         {
