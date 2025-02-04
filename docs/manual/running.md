@@ -207,8 +207,8 @@ Some of the most common keys (with their defaults) are:
 
 |Description|Argument|Syntax example|
 |---|---|---|
-|Setting the proxy host or IP|`-Dhttp.proxyHost`|yourproxyhost or 192.168.1.10
-|Setting the proxy port|`-Dhttp.proxyPort`|8080
+|Proxy host or IP|`-Dhttp.proxyHost`|proxy.example.org or 192.168.1.10
+|Proxy port|`-Dhttp.proxyPort`|8080
 |The project [autosave](starting#autosaving) frequency|`-Drefine.autosave`|5 [minutes]
 |The workspace director|`-Drefine.data_dir`|/
 |Development mode|`-Drefine.development`|false
