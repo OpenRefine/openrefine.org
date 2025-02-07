@@ -60,13 +60,12 @@ To exit OpenRefine, close all the browser tabs or windows, then navigate to the 
 You can find OpenRefine in your Applications folder, or you can open it using Terminal. 
 
 To run OpenRefine using Terminal:
-*   Find the OpenRefine application / icon in Finder
-*   Control-click on the icon and select “Show Package Contents” from the context menu
-*   This should open a new Finder menu: navigate into the “MacOS” folder
-*   Control-click on “JavaAppLauncher”
-*   Choose “Open With” from the menu, and select “Terminal.”
 
-To exit, close all your OpenRefine browser tabs, go back to the terminal window and press `Command` and `Q` to close it down.
+*   Open the Terminal by using the “Go” menu, choose Utilities
+*   In the Utilities window, start the Terminal application.
+*   Inside the terminal, write this: `/Applications/OpenRefine.app/Contents/MacOS/JavaAppLauncher`
+
+To exit, close all your OpenRefine browser tabs, find the applications called “JavaAppLauncher”, press `Command` and `Q` to close it down, and do the same with the Terminal application.
 
 :::caution Problems starting?
 If you are using an older version of OpenRefine or are on an older version of MacOS, [check our Wiki for solutions to problems with MacOS](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions#macos). 
