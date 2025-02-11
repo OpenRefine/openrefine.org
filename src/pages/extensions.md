@@ -10,6 +10,7 @@ You can install the following extensions to add functionalities to OpenRefine. W
 
 | Extension Name | Description | Authors | Latest compatible version |
 |--------------|-------------|----------|----------|
+| [Files Extension](https://github.com/OpenRefine/FilesExtension) | Tool to create project with detailed information of files from local system | [Sunil Natraj](https://github.com/sunilnatraj) | 3.8.7 |
 | [gdata extension](https://github.com/OpenRefine/refine-gdata-extension) | Import from and export to Google Drive and Google Sheets | Tom Morris | 3.9 |
 | [RDF Transform](https://github.com/AtesComp/rdf-transform) | Transform data into RDF formats. Based on the [RDF extension](https://github.com/stkenny/grefine-rdf-extension). However, it has been thoroughly rewritten to incorporate the newer Java and JavaScript technologies, techniques, and process enhancements. | [AtesComp](https://github.com/AtesComp) | 3.6+ |
 | [Commons extension](https://github.com/OpenRefine/CommonsExtension) | Utilities to improve the process of extracting structured data from existing files on [Wikimedia Commons](https://commons.wikimedia.org/wiki/) | [Joey Salazar](https://github.com/j-sal), [Sandra Fauconnier](https://github.com/trnstlntk) | 3.6 |
