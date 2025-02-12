@@ -209,9 +209,20 @@ return {
         },
         blog: {
           blogSidebarCount: 'ALL',
+          onInlineAuthors: 'ignore',
+          
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        svgr: {
+          svgrConfig: {
+            // Your SVGR options ...
+            svgoConfig: {
+              // Your SVGO options ...
+              // Use "svgoConfig: undefined" to use a svgo.config.js file
+            },
+          },
         },
       },
     ],
