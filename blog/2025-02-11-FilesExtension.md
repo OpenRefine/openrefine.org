@@ -1,3 +1,7 @@
+---
+author: Sunil Natraj
+title: "Files Extension for OpenRefine"
+---
 # Files Extension for OpenRefine
 OpenRefine provides a powerful feature for generating detailed file information from selected directories in your local system. This functionality allows users to create projects containing comprehensive file metadata.
 
