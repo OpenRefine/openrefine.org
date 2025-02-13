@@ -4,9 +4,9 @@ title: "Call for Applications: OpenRefine Advisory Committee Members"
 ---
 The OpenRefine Advisory Committee is excited to announce that we are now recruiting new members.
 
-As a key part of our [governance structure](https://github.com/OpenRefine/OpenRefine/blob/master/GOVERNANCE.md), the Advisory Committee runs the administrative aspect of the project on a day to day basis with the support of our fiscal sponsor, [Code for Science and Society](https://www.codeforsociety.org/) (CS&S). Its members are bound by the fiscal sponsorship agreement with Code for Science and Society. The committee meets weekly including once per month with Code for Science and Society. Weekly calls are [open to the OpenRefine community[(https://forum.openrefine.org/t/opening-advisory-committee-call-to-the-community-permanently/2029). We invite interested candidates to join us for a first-hand experience of the advisory committee's daily operations work.
-
-So far we have interviewed users who expressed an interest in joining the Advisory Committee when filling out the [2024 Feature Survey](https://forum.openrefine.org/t/results-from-the-feature-prioritization-survey-2024/1847), and we are excited to hear from other community members who may be interested in joining the Committee.
+As a key part of our [governance structure](https://github.com/OpenRefine/OpenRefine/blob/master/GOVERNANCE.md), the Advisory Committee runs the administrative aspect of the project on a day to day basis with the support of our fiscal sponsor, [Code for Science and Society](https://www.codeforsociety.org/) (CS&S). Its members are bound by the fiscal sponsorship agreement with Code for Science and Society. The committee meets weekly including once per month with Code for Science and Society. Weekly calls are [open to the OpenRefine community](https://forum.openrefine.org/t/opening-advisory-committee-call-to-the-community-permanently/2029). We invite interested candidates to join us for a first-hand experience of the advisory committee's daily operations work.
+<!--truncate-->
+So far we have interviewed users who expressed an interest in joining the Advisory Committee when filling out the [2024 User Survey](/blog/2024/12/20/2024-survey-results), and we are excited to hear from other community members who may be interested in joining the Committee.
 
 ## Advisory Committee responsibilities
 - Provide guidance and oversight of the Project’s staff and operations;
@@ -22,7 +22,7 @@ So far we have interviewed users who expressed an interest in joining the Adviso
 - Are passionate about promoting open data and data literacy;
 - Are able to commit to regular meetings and contribute to discussions through video meetings, the [OpenRefine Forum](https://forum.openrefine.org/), and on [GitHub](https://github.com/OpenRefine).
 
-## To ensure a balanced representation of the [diverse community](https://openrefine.org/usage) OpenRefine serves, we seek members from at least one of the following communities.
+To ensure a balanced representation of the [diverse community](https://openrefine.org/usage) OpenRefine serves, we seek members from at least one of the following communities.
 - OpenRefine Developer
 - Journalists/data journalists
 - Data Science
