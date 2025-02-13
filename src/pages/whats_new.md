@@ -6,6 +6,12 @@ hide_table_of_contents: false
 
 # Release notes
 
+## Version 3.9
+
+See:
+* the [3.9.0 release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.9.0)
+* the [3.9-beta1 release page](https://github.com/OpenRefine/OpenRefine/releases/tag/3.9-beta1)
+
 ## Version 3.8
 
 See:
