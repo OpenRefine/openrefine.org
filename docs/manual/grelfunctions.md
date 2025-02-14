@@ -57,7 +57,7 @@ You can use toString() to convert numbers to strings with rounding, using an [op
 You can also convert dates to strings, using date parsing syntax built into OpenRefine (see [the toDate() function for details](#todateo-b-monthfirst-s-format1-s-format2-)). For example, `value.toString("MMM-dd-yyyy")` would convert the date value [2024-10-15T00:00:00Z] to “Oct-15-2024”.
 
 :::note
-In OpenRefine, using toString() on a null cell outputs the string “null”.
+In OpenRefine, using `toString()` on a null valued cell such as `value.toString()` outputs the string “null”.
 :::
 
 :::info
