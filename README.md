@@ -8,8 +8,7 @@ Opening a pull request for your changes will generate a preview on Netlify that 
 
 ### Requirements
 
-- [Node.js (LTS recommended)](https://nodejs.org/en/download/)
-  - includes npm package manager
+Building the website requires [Node.js (LTS recommended)](https://nodejs.org/en/download/), which includes the `npm` package manager.
 
 ### Installation
 
