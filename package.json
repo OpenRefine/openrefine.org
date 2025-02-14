@@ -10,9 +10,7 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "serve": "docusaurus serve",
-    "deploy": "docusaurus deploy",
-    "netlify:build:production": "npm run build",
-    "netlify:build:deployPreview": "npm run build"
+    "deploy": "docusaurus deploy"
   },
   "dependencies": {
     "@algolia/autocomplete-core": "^1.18.0",
