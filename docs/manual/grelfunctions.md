@@ -56,7 +56,13 @@ You can use toString() to convert numbers to strings with rounding, using an [op
 
 You can also convert dates to strings, using date parsing syntax built into OpenRefine (see [the toDate() function for details](#todateo-b-monthfirst-s-format1-s-format2-)). For example, `value.toString("MMM-dd-yyyy")` would convert the date value [2024-10-15T00:00:00Z] to “Oct-15-2024”.
 
-Note: In OpenRefine, using toString() on a null cell outputs the string “null”.
+:::note
+In OpenRefine, using toString() on a null cell outputs the string “null”.
+:::
+
+:::info
+Date/times without timezone info were interpreted as **local** up until May 2018 when OpenRefine 3.0 was released, at which point they were switched from **local** to **UTC**.  See issue [#6009](https://github.com/OpenRefine/OpenRefine/issues/6009)
+:::
 
 ### Testing string characteristics {#testing-string-characteristics}
 
@@ -447,13 +453,9 @@ As of OpenRefine 3.4.1, uniques() reorders the array items it returns; in 3.4 be
 
 ## Date functions {#date-functions}
 
-:::info
-Date/times without timezone info were interpreted as **local** up until May 2018 when OpenRefine 3.0 was released, at which point they were switched from **local** to **UTC**.  One benefit of this change was to introduce consistency and reproducibility when working collaboratively and sharing projects across timezones.  Discussed in issue [#6009](https://github.com/OpenRefine/OpenRefine/issues/6009)
-:::
-
 ###### now() {#now}
 
-Returns the current time according to your system clock, in the [ISO 8601 extended format](exploring#data-types) (converted to UTC). For example, 10:53am (and 00 seconds) on November 26th 2020 in EST returns [date 2020-11-26T15:53:00Z].
+Returns the date object according to your system clock. For example, `now()` returns [date 2020-11-26T15:53:00Z] and `now.toString()` returns `"Nov 26, 2020"`.
 
 ###### toDate(o, b monthFirst, s format1, s format2, ...) {#todateo-b-monthfirst-s-format1-s-format2-}
 
