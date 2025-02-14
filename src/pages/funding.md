@@ -35,34 +35,12 @@ Since 2018, OpenRefine has relied on grants to sustain its development. Below, y
 OpenRefine is actively applying to grant opportunities listed in this section. We will update this section with the latest information as we progress.
 If you're interested in partnering with us for a grant, [contact us](https://forum.openrefine.org/). 
 
-#### 2024 Wikimedia Foundation 
-* **Status**: Application submitted. Results expected by November 29, 2024
-* **Amount**: USD 69,758
-* **Source**: [Wikimedia Foundation Funds](https://meta.wikimedia.org/wiki/Grants:Start).
-* **Start date**: January 2025
-* **End date**: December 2025
-* **Relevant links**:
-   * [Call for proposal](https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/General_Support_Fund)
-   * [Forum Discussion](https://forum.openrefine.org/t/grant-opportunity-wikimedia-community-fund/1728)
-   * [Grant application](https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/General_Support_Fund/Maintenance_of_OpenRefine_and_its_Wikimedia-related_extensions.)
-  
+**No current application** 
+
 ### Current grants
 
 OpenRefine is currently working on the following grants. 
 
-#### 2023 Wikimedia Foundation 
-* **CS&S code**: `ORefine: 23 Wikimedia`
-* **Status**: Awarded - Current
-* **Amount**: USD 50,000
-* **Source**: [Wikimedia Foundation Funds](https://meta.wikimedia.org/wiki/Grants:Start)
-* **Start date**: June 2023
-* **End date**: December 2024
-* **Relevant links**: 
-  * [Grant application](/uploads/2023-Wikimedia.pdf) and on [Wikimedia's Meta-Wiki](https://meta.wikimedia.org/wiki/Grants:Project/CS%26S/Structured_Data_on_Wikimedia_Commons_functionalities_in_OpenRefine)
-  * [Commons:OpenRefine/Train-the-trainer program 2023-24](https://commons.wikimedia.org/wiki/Commons:OpenRefine/Train-the-trainer_program_2023-24)
-  * [Blog Post: Wikimedia-OpenRefine training and sustainability project](/blog/2023/07/26/Wikimedia-Commons-Training-Grant)
-  * [Final Report](https://forum.openrefine.org/t/wikimedia-commons-training-and-documentation-grant-final-report-ready/1611)
-  
 #### 2022 EOSS-5 
 * **CS&S code**: `ORefine: 22 SVCF - 2022-252591`
 * **Status**: Awarded - Current
@@ -77,6 +55,23 @@ OpenRefine is currently working on the following grants.
   * [2024 interim report](/uploads/2024-EOSS5-Interim-Report.pdf)
   * [On CZI's Website](https://chanzuckerberg.com/eoss/proposals/improving-openrefines-reproducibility/)
 
+### Completed Grants
+
+OpenRefine completed the following grants. 
+
+#### 2023 Wikimedia Foundation 
+* **CS&S code**: `ORefine: 23 Wikimedia`
+* **Status**: Awarded - Current
+* **Amount**: USD 50,000
+* **Source**: [Wikimedia Foundation Funds](https://meta.wikimedia.org/wiki/Grants:Start)
+* **Start date**: June 2023
+* **End date**: December 2024
+* **Relevant links**: 
+  * [Grant application](/uploads/2023-Wikimedia.pdf) and on [Wikimedia's Meta-Wiki](https://meta.wikimedia.org/wiki/Grants:Project/CS%26S/Structured_Data_on_Wikimedia_Commons_functionalities_in_OpenRefine)
+  * [Commons:OpenRefine/Train-the-trainer program 2023-24](https://commons.wikimedia.org/wiki/Commons:OpenRefine/Train-the-trainer_program_2023-24)
+  * [Blog Post: Wikimedia-OpenRefine training and sustainability project](/blog/2023/07/26/Wikimedia-Commons-Training-Grant)
+  * [Final Report](https://forum.openrefine.org/t/wikimedia-commons-training-and-documentation-grant-final-report-ready/1611)
+  
 #### 2021 EOSS-Diversity 
 * **CS&S code**: `ORefine: 21 SVCF - 2021-237149 OR for Everyone`
 * **Status**: Awarded - Current
@@ -87,11 +82,6 @@ OpenRefine is currently working on the following grants.
 * **Relevant link**: 
   * [Grant application](/uploads/2021-EOSS-Diversity.pdf)
   * [2023 interm report](/uploads/2023-EOSS-Diversity-Interim-Report.pdf)
-  
-
-### Completed Grants
-
-OpenRefine completed the following grants. 
 
 #### 2023 NFDI
 * **CS&S code**: `ORefine: General`
@@ -148,6 +138,17 @@ OpenRefine completed the following grants.
 ### Unsuccessful applications
 
 We applied for the following grant opportunities, but our proposals were not selected. 
+
+#### 2024 Wikimedia Foundation 
+* **Status**: Application submitted. Results expected by November 29, 2024
+* **Amount**: asking for USD 69,758
+* **Source**: [Wikimedia Foundation Funds](https://meta.wikimedia.org/wiki/Grants:Start).
+* **Start date**: January 2025
+* **End date**: December 2025
+* **Relevant links**:
+   * [Call for proposal](https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/General_Support_Fund)
+   * [Forum Discussion](https://forum.openrefine.org/t/grant-opportunity-wikimedia-community-fund/1728)
+   * [Grant application](https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Community_Fund/General_Support_Fund/Maintenance_of_OpenRefine_and_its_Wikimedia-related_extensions.)
 
 #### 2024-DEF
 

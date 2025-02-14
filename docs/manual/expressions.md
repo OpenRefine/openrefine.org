@@ -86,7 +86,7 @@ To write a regular expression inside a GREL expression, wrap it between a pair o
 value.replace(/\s+/, " ")
 ```
 
-the regular expression is `\s+`, and the syntax used in the expression wraps it with forward slashes (`/\s+/`). Though the regular expression syntax in OpenRefine follows that of Java (normally in Java, you would write regex as a string and escape it like "\\s+"), a regular expression within a GREL expression is similar to Javascript.
+the regular _expression_ is `\s+`, and the _syntax_ used to denote a regular expression is by wrapping your expression with forward slashes (`/\s+/`).  The regular expression _engine_ used in OpenRefine is Java-based, but you do not need to escape your Regex patterns with extra back slashes (normally in Java, you would write regex as a string and escape it like "\\s+").
 
 Do not use slashes to wrap regular expressions outside of a GREL expression.
 
