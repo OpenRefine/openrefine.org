@@ -11,8 +11,8 @@
     "swizzle": "docusaurus swizzle",
     "serve": "docusaurus serve",
     "deploy": "docusaurus deploy",
-    "netlify:build:production": "yarn build",
-    "netlify:build:deployPreview": "yarn build"
+    "netlify:build:production": "npm run build",
+    "netlify:build:deployPreview": "npm run build"
   },
   "dependencies": {
     "@algolia/autocomplete-core": "^1.18.0",
