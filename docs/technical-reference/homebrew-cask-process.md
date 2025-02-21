@@ -4,11 +4,11 @@ title: Maintaining OpenRefine's Homebrew cask
 sidebar_label: Maintaining OpenRefine's Homebrew cask
 ---
 
-[Homebrew](https://brew.sh) is a popular command-line package manager for macOS. Once Homebrew is installed, OpenRefine can be installed via the simple command, `brew install openrefine`. OpenRefine's presence on Homebrew is found in the Homebrew Cask repository project, as a "cask", at https://github.com/Homebrew/homebrew-cask/blob/HEAD/Casks/openrefine.rb.
+[Homebrew](https://brew.sh) is a popular command-line package manager for macOS. Once Homebrew is installed, OpenRefine can be installed via the simple command, `brew install openrefine`. OpenRefine's presence on Homebrew is found in the Homebrew Cask repository project, as a "cask", at https://github.com/Homebrew/homebrew-cask/blob/master/Casks/o/openrefine.rb.
 
 **Terminology:** "Homebrew Cask" is the segment of Homebrew where pre-built binaries and GUI applications go, whereas the original "Homebrew" project is reserved for command-line utilities that can be built from source. Because the macOS version of OpenRefine is released as an app bundle with GUI components, it is handled as a Homebrew Cask.
 
-When there is a new release of OpenRefine, registering the new release with Homebrew can be easily accomplished using Homebrew's `brew bump-cask-pr` command. Full directions for this utility as well as procedures for more complex PRs can be found on [the Homebrew Cask CONTRIBUTING page](https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md), but, a simple version bump is a one-line command. For example, to update Homebrew's version of OpenRefine to 3.4.1, use this command:
+When there is a new release of OpenRefine, registering the new release with Homebrew can be easily accomplished using Homebrew's `brew bump-cask-pr` command (if it's not done automatically as in [this PR](https://github.com/Homebrew/homebrew-cask/pull/192923)). Full directions for this utility as well as procedures for more complex PRs can be found on [the Homebrew Cask CONTRIBUTING page](https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md), but, a simple version bump is a one-line command. For example, to update Homebrew's version of OpenRefine to 3.4.1, use this command:
 
 ```
 brew bump-cask-pr --version 3.4.1 openrefine
