@@ -16,4 +16,4 @@ The extension serves multiple purposes in the data processing pipeline:
 
 It works with **OpenRefine 3.8.7 and later versions of OpenRefine**. 
 
-File extension details can be found [here](https://openrefine.org/extensions)
+File extension details can be found [here](https://github.com/sunilnatraj/llm-extension)
