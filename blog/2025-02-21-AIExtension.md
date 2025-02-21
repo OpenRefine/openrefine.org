@@ -4,7 +4,7 @@ title: "AI Extension for OpenRefine"
 ---
 # AI Extension for OpenRefine
 The OpenRefine AI Extension bridges the power of modern language models with OpenRefine's robust data transformation capabilities. This extension enables users to leverage any LLM provider that supports a chat completion API endpoint, bringing AI-powered data wrangling, enhancement, and analysis directly into your OpenRefine workflows. 
-
+<!--truncate-->
 ## Purpose
 The extension serves multiple purposes in the data processing pipeline:
 
