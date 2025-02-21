@@ -10,7 +10,7 @@ You can install the following extensions to add functionalities to OpenRefine. W
 
 | Extension Name | Description | Authors | Latest compatible version |
 |--------------|-------------|----------|----------|
-| [AI Extension](https://github.com/sunilnatraj/llm-extension) | The OpenRefine AI Extension bridges the power of modern language models with OpenRefine's robust data transformation capabilities. | [Sunil Natraj](https://github.com/sunilnatraj) | 3.9 |
+| [AI Extension](https://github.com/sunilnatraj/llm-extension) | The OpenRefine AI Extension bridges the power of modern language models with OpenRefine's robust data transformation capabilities. | [Sunil Natraj](https://github.com/sunilnatraj) | 3.8.7+ |
 | [Files Extension](https://github.com/OpenRefine/FilesExtension) | Tool to create project with detailed information of files from local system | [Sunil Natraj](https://github.com/sunilnatraj) | 3.9 |
 | [gdata extension](https://github.com/OpenRefine/refine-gdata-extension) | Import from and export to Google Drive and Google Sheets | Tom Morris | 3.9 |
 | [RDF Transform](https://github.com/AtesComp/rdf-transform) | Transform data into RDF formats. Based on the [RDF extension](https://github.com/stkenny/grefine-rdf-extension). However, it has been thoroughly rewritten to incorporate the newer Java and JavaScript technologies, techniques, and process enhancements. | [AtesComp](https://github.com/AtesComp) | 3.6+ |
