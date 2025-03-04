@@ -3,7 +3,7 @@ author: OpenRefine team
 title: "We're hiring a designer!"
 ---
 OpenRefine, a powerful data-wrangling tool used by diverse communities, seeks a lead designer to enhance OpenRefine's user experience and functionality. 
-This job posting has been archived and was filled in December 2023 with the [hiring of Zop Copper](/blog/2023/12/07/announcing-zoe-cooper.html).
+This job posting has been archived and was filled in December 2023 with the [hiring of Zoe Copper](/blog/2023/12/07/announcing-zoe-cooper.html).
 <!--truncate-->
 
 ## About the job
