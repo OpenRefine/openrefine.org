@@ -2,6 +2,9 @@
 author: Martin Magdinier
 title: "Now Hiring: OpenRefine Developer & Contributor Engagement"
 ---
+
+This job posting has been archived and was filled in March 2025 with the [hiring of Rory Sawer](/blog/2025/03/04/announcing-rory-sawyer).
+
 ## About the role 
 
 * Role: Developer & Contributor Engagement
