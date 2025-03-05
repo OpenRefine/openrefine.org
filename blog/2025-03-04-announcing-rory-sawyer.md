@@ -7,7 +7,7 @@ We are excited to announce that Rory Sawyer has joined the OpenRefine team as ou
 <!--truncate-->
 With over a decade of experience in software and data engineering, Rory has a proven track record of making data more accessible for people across various technical backgrounds. His journey includes significant contributions to the Open edX and dbt stack, where he developed his skills in collaborative development and communication within open-source projects. Rory's expertise spans backend development and infrastructure work, including managing deployment processes. 
 
-During the recruitment process, Rory's interpersonal skills stand out among other candidates.  His considerate approach to open source development and understanding of the challenges faced by contributors align perfectly with [OpenRefine values](/mission_vision#openrefine-values).
+During the recruitment process, Rory's interpersonal skills stood out among other candidates.  His considerate approach to open source development and understanding of the challenges faced by contributors align perfectly with [OpenRefine values](/mission_vision#openrefine-values).
 
 As Rory ramps up on the OpenRefine codebase, his time will be equally balanced between code improvement (bug fixes, quality enhancement, release management) and community engagement (issue triaging, assisting volunteer contributors, PR reviews).
 
