@@ -454,7 +454,12 @@ Joins the items in the array with sep, and returns it all as a string. For examp
 ###### uniques(a) {#uniquesa}
 Returns the array with duplicates removed. Case-sensitive. For example, `[ "al", "Joe", "Bob", "Joe", "Al", "Bob" ].uniques()` returns the array [ "Joe", "al", "Al", "Bob" ]. 
 
-As of OpenRefine 3.4.1, uniques() reorders the array items it returns; in 3.4 beta 644 and onwards, it preserves the original order (in this case, [ "al", "Joe", "Bob", "Al" ]). 
+As of OpenRefine 3.4.1, uniques() reorders the array items it returns; in 3.4 beta 644 and onwards, it preserves the original order (in this case, [ "al", "Joe", "Bob", "Al" ]).
+
+###### zip(a, b, …) {#zipa-b}
+
+Combines multiple arrays into one array of arrays, where each sub-array contains elements at the same index from the input arrays. Truncates to the shortest input array.
+For example, `[1, 2, 3].zip(['A', 'B', 'C'])` returns [ [1, 'A'], [2, 'B'], [3, 'C'] ].
 
 ## Date functions {#date-functions}
 
