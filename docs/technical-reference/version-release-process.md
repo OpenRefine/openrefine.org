@@ -7,14 +7,14 @@ sidebar_label: How to do an OpenRefine version release
 When releasing a new version of Refine, the following steps should be followed:
 
 1. Make sure the `master` branch is stable and nothing has broken since the previous version. We need developers to stabilize the trunk and some volunteers to try out `master` for a few days.
-2. Change the version number in [RefineServlet.java](http://github.com/OpenRefine/OpenRefine/blob/master/main/src/com/google/refine/RefineServlet.java#L62) and in the POM files using `mvn versions:set -DgenerateBackupPoms=false -DnewVersion=3.9-beta`. Commit the changes.
-3. Compose the list of changes in the code and on the wiki. If the issues have been updated with the appropriate milestone, the Github issue tracker should be able to provide a good starting point for this.
+2. Change the version number in [RefineServlet.java](http://github.com/OpenRefine/OpenRefine/blob/master/main/src/com/google/refine/RefineServlet.java#L62) by editing it manually and in the POM files by using `mvn versions:set -DgenerateBackupPoms=false -DnewVersion=3.9-beta`. Commit the changes.
+3. Prepare a changelog in Markdown format, to be added to the release description. If the issues have been updated with the appropriate milestone, the Github issue tracker should be able to provide a good starting point for this.
 4. Tag the release candidate in git and push the tag to Github. For example:
 ```shell
 git tag -a -m "Second beta" 2.6-beta.2
-    git push origin --tags
+git push origin --tags
 ```
-5. Create a GitHub release based on that tag, with a summary of the changes as description of the release. Publishing the GitHub release will trigger the generation of the packaged artifacts, which will be added to the release on GitHub. Note that if you create a draft release and then publish it, it may not trigger the release workflow on Github Actions.
+5. Create a GitHub release based on that tag, with a summary of the changes as description of the release. Publishing the GitHub release will trigger the generation of the packaged artifacts, which will be added to the release on GitHub. 
 6. Once the artifacts are ready, update the [`releases.json`](https://github.com/OpenRefine/openrefine.org/blob/master/releases.json) file in the openrefine.org repository to reflect this new version. Verify that the correct versions are shown at [http://openrefine.org/download](http://openrefine.org/download)
 7. Announce on the [announcements section of the OpenRefine forum](https://forum.openrefine.org/c/news/13), or even on the [blog](https://openrefine.org/blog) if this is a major release (the blog is imported automatically into the announcements category
     of the forum)
