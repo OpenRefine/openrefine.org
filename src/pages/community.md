@@ -8,10 +8,7 @@ hide_table_of_contents: true
 
 OpenRefine is made by people like you, looking to create a more informed world where working with data is easy and engaging. You can help us in many ways, including the roles below.
 
-
 import OpenRefineIsMagicImageUrl from '@site/static/img/openrefine_is_magic.png';
-
-
 import Card from '../card.tsx';
 
 <div className="cardList">
@@ -28,13 +25,15 @@ import Card from '../card.tsx';
 </div>
 <br />
 
-
 <!-- TODO rebuild the structure of the URL for each contributor guide. Add placeholder for the new one -->
 
 <div style={{float: 'right', textAlign: 'right'}}>
-<img src={OpenRefineIsMagicImageUrl} alt="OpenRefine is magic" id="magic"/>
-<p style={{fontSize: '0.7em'}}><a href="https://commons.wikimedia.org/wiki/File:Open_Refine_is_Magic.png">CC-BY-SA Scott Carlson</a></p>
+  <img src={OpenRefineIsMagicImageUrl} alt="OpenRefine is magic" id="magic"/>
+  <p style={{fontSize: '0.7em'}}>
+    <a href="https://commons.wikimedia.org/wiki/File:Open_Refine_is_Magic.png">CC-BY-SA Scott Carlson</a>
+  </p>
 </div>
+
 # Connect with us
 
 Join our vibrant community of users and contributors. We listed below the platforms used by the core team, however a lot of great conversation happen directly within our user community preferred channel. 
@@ -47,3 +46,15 @@ Join our vibrant community of users and contributors. We listed below the platfo
 | **Community Calls** <br></br> <img src="/img/logo/gh-og.png" alt="greenhost" height="95"/>| We are organizing [bi-weekly video call](https://forum.openrefine.org/t/openrefine-community-meetup/1276) where everybody is welcome to chat about OpenRefine, ask questions, share things they do with OpenRefine. It happens every two weeks on alternating times:  07:00 UTC on Friday and 15:00 UTC on Tuesday. |
 | **Chat**   <br></br> <img src="/img/logo/gitter.png" alt="gitter" height="95"/>|You can join us on [gitter chat](https://app.gitter.im/#/room/#OpenRefine_OpenRefine:gitter.im) for real time chat. The room is not always monitored and we invite you to post on our forum if you do not receive an answer.|
 | **Social Media**  <br></br> <img src="/img/logo/x.svg" alt="x" height="35"/> <img src="/img/logo/LinkedIn.png" alt="LinkedIn" height="35"/> <img src="/img/logo/Mastodon.png" alt="Mastodon" height="35"/> | We share project announcements, opportunities, upcoming events, on diverse social media platforms. Follow and tag #OpenRefine on [LinkedIn](https://www.linkedin.com/company/openrefine/), [Twitter/X](https://twitter.com/openrefine) or [Mastodon]( https://fosstodon.org/@OpenRefine).|
+
+
+## Community Calendar 
+
+Stay updated with the latest OpenRefine events, from community calls to conferences. You can also subscribe to the calendar using iCal/ICS with [this URL](https://calendar.google.com/calendar/ical/kldtfmh7nnopd5jdod292mi8f4%40group.calendar.google.com/public/basic.ics)
+
+<iframe 
+  src="https://calendar.google.com/calendar/u/0/embed?src=kldtfmh7nnopd5jdod292mi8f4@group.calendar.google.com" 
+  style={{border: 0, width: '800px', height: '600px', display: 'block', margin: '0 auto'}} 
+  frameBorder="0" 
+  scrolling="no">
+</iframe>
