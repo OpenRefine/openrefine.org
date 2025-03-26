@@ -1,8 +1,8 @@
 [
     {
-        "version": "3.9.1",
+        "version": "3.9.2",
         "stable": true,
-        "date": "2025-03-14",
+        "date": "2025-03-26",
         "source": "github",
         "artifacts": [
              {
