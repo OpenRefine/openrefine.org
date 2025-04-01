@@ -4,26 +4,33 @@ title: Development roadmap
 sidebar_label: Development roadmap
 ---
 
-Please be aware that the OpenRefine roadmap is subject to change at any time, so please check back regularly, and monitor [milestones](https://github.com/OpenRefine/OpenRefine/milestones), [projects](https://github.com/OpenRefine/OpenRefine/projects) and [issues](https://github.com/OpenRefine/OpenRefine/issues) in Github to keep up to date with current plans.
+### Short Term Roadmap
 
-If there are features you would like to see that are not currently listed here or in current [milestones](https://github.com/OpenRefine/OpenRefine/milestones), [projects](https://github.com/OpenRefine/OpenRefine/projects) and [issues](https://github.com/OpenRefine/OpenRefine/issues), please add them to the [issue tracker](https://github.com/OpenRefine/OpenRefine/issues).
+You can monitor our [issues list](https://github.com/OpenRefine/OpenRefine/issues) in Github to keep up to date with current plans. We used 
+* [Milestones](https://github.com/OpenRefine/OpenRefine/milestones) to identify what's included in upcoming releases.
+* [Projects](https://github.com/OpenRefine/OpenRefine/projects) to group issues for a specific goal. 
 
+If there are features you would like to see that are not currently listed, please add them to the [issue tracker](https://github.com/OpenRefine/OpenRefine/issues).
 
-## Planned releases {#planned-releases}
-
-### 4.0 {#40}
-[New backend storage option to allow using much bigger datasets at the expense of real-time feedback.](https://github.com/OpenRefine/OpenRefine/milestone/7)
-
-New UI (possibly Vue or React based)
-
-## Work in progress {#work-in-progress}
+### Work in progress {#work-in-progress}
 Alongside the planned releases there are often smaller pieces of work in progress. Check for [recently updated issues](https://github.com/OpenRefine/OpenRefine/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) and [pull requests](https://github.com/OpenRefine/OpenRefine/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc) to see what is currently in the works.
 
-## On the back burner {#on-the-back-burner}
-Some aspects of OpenRefine have previously been targeted for release, but have not made it into a release and have not been worked on recently. If you would like to see features in these areas, please create an issue the describes what development you would like to see:
+Please be aware that the OpenRefine roadmap is subject to change at any time, so please check back regularly to keep up to date with current plans.
 
-- Streamlining traditional features
-- Views: map, timeline, protovis (D3.js) charts
-- Better machinery to guess and re-encode cell values (useful for fixing encoding issues)
-- Collaborative editing support (see documentation on the '[broker protocol](https://github.com/OpenRefine/OpenRefine/wiki/Broker-Protocol)' to see where this work was going)
-- Column groups
+### Long Term Goal Posts
+
+In the following pages, we gathered features the community has expressed interest in building for OpenRefine and group them as goal posts. We divided it into three sections:
+* **[OpenRefine goal posts](/docs/technical-reference/goal-posts)**, 
+* a list of **[extension ideas](/docs/technical-reference/extension-ideas)**, 
+* request focused on the **[Wikimedia integration](/docs/technical-reference/wikimedia-goal-posts)** (including Wikidata, Wikibase, and Wikimedia Commons).
+
+#### Goal Posts are not
+
+* **A roadmap**. While there is community interest in these features, there is no formal commitment on if or when those feature will be released. 
+* **Exhaustive**: you can also explore [good first issues](https://github.com/OpenRefine/OpenRefine/labels/good%20first%20issue) and other [open tickets](https://github.com/OpenRefine/OpenRefine/issues) for more ways to contribute.
+
+#### Help us make them happen 
+
+To help bring them to life, you are welcome to join the conversation via the related forum links or issues. While there is community interest in these features, most of them still need definition and resourcing to make them happen. You can help by [volunteering your time](/community), creating a partnerships between your organization and OpenRefine, or by [supporting OpenRefine financially](/funding).
+
+Feel free to edit them (see link the the bottom of each page) to add a relevant link, remove completed items or help clarify existing one.
