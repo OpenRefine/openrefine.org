@@ -114,9 +114,13 @@ return {
               href: '/external_resources',
             },
             {
+              label: 'Roadmap',
+              href: '/docs/technical-reference/development-roadmap',
+            }, 
+            {
               label: 'Contributing',
               href: '/docs/technical-reference/contributing',
-            },     
+            },        
             {
               label: 'Privacy notice',
               href: '/privacy',
