@@ -6,7 +6,7 @@ sidebar_label: Development roadmap
 
 ### Short Term Roadmap
 
-You can monitor our [issues list](https://github.com/OpenRefine/OpenRefine/issues) in Github to keep up to date with current plans. We used 
+You can monitor our [issues list](https://github.com/OpenRefine/OpenRefine/issues) in Github to keep up to date with current plans. We use:
 * [Milestones](https://github.com/OpenRefine/OpenRefine/milestones) to identify what's included in upcoming releases.
 * [Projects](https://github.com/OpenRefine/OpenRefine/projects) to group issues for a specific goal. 
 
