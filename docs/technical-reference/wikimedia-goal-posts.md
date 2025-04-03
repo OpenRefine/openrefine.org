@@ -10,6 +10,10 @@ The following items have been ranked from the OpenRefine 2024 feature survey as 
 
 **Score and Status** are defined on the [about goal post page](/docs/technical-reference/about-goal-posts#status-definition).
 
+### Create an OpenRefine Wikimedia Group
+- **Status**: Needs Scoping
+- See the [forum conversation](https://forum.openrefine.org/t/creating-an-openrefine-wikimedia-group/2132)
+
 ### Ability to extend data by bringing in qualifiers from Wikidata
 - **Score**: 43
 - **Status**: Needs Scoping
