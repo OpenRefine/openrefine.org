@@ -28,8 +28,8 @@ The [IIIF format](https://en.wikipedia.org/wiki/International_Image_Interoperabi
 We would have a new import workflow (based on a custom importing controller) to create a project from a IIIF collection root URL. This will require exposing some settings to control the way in which the project is created (to which depth should the IIIF collection should be crawled, for instance). This functionality could be built into the [Commons extension](https://github.com/OpenRefine/CommonsExtension) or a new OpenRefine extension.
 
 **Open questions**
-* how can we represent the rich metadata allowed by IIIF in a tabular format?
-* regarding the combination with our Wikimedia Commons integration, what sort of data cleaning steps are we expecting users to do between the IIIF import and the Commons upload? It would be great to try working with a few example collections to understand the data cleaning processes that are required. If no human intervention should be required in many cases, then could be a sign that this should perhaps not be built as an OpenRefine extension, but rather a standalone IIIF to Commons exporter (unrelated to OpenRefine).
+* How can we represent the rich metadata allowed by IIIF in a tabular format?
+* Regarding the combination with our Wikimedia Commons integration, what sort of data cleaning steps are we expecting users to do between the IIIF import and the Commons upload? It would be great to try working with a few example collections to understand the data cleaning processes that are required. If no human intervention should be required in many cases, then could be a sign that this should perhaps not be built as an OpenRefine extension, but rather a standalone IIIF to Commons exporter (unrelated to OpenRefine).
 
 **Related discussions**: 
 * https://github.com/OpenRefine/CommonsExtension/issues/90
