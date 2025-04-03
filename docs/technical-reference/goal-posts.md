@@ -253,3 +253,7 @@ Make OpenRefine easier to learn and get started with better or easier UX / inter
 * **Status**: Needs Solution Definition
 * outreachy-2024
 * [read more here](https://github.com/OpenRefine/OpenRefine/wiki/GSoC-Outreachy-2024-Ideas#support-for-the-new-reconciliation-protocol) and [#7186](https://github.com/OpenRefine/OpenRefine/issues/7186)
+
+### How OpenRefine Can Support Federated Data Repositories for Open Science? 
+* **Status**: Needs Scoping
+* [read more here](https://forum.openrefine.org/t/discussion-how-openrefine-can-support-federated-data-repositories-for-open-science/2146)
