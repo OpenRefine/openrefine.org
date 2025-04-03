@@ -33,4 +33,4 @@ In the following pages, we gathered features the community has expressed interes
 
 To help bring them to life, you are welcome to join the conversation via the related forum links or issues. While there is community interest in these features, most of them still need definition and resourcing to make them happen. You can help by [volunteering your time](/community), creating a partnerships between your organization and OpenRefine, or by [supporting OpenRefine financially](/funding).
 
-Feel free to edit them (see link the the bottom of each page) to add a relevant link, remove completed items or help clarify existing one.
+Feel free to edit them (see the link at the bottom of each page) to add a relevant link, remove completed items, or help clarify existing one.
