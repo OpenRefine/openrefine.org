@@ -88,9 +88,17 @@ module.exports = {
           'technical-reference/resources',
       ]
       },
-
-      'technical-reference/documentation-contributions',
-      'technical-reference/development-roadmap',
+      {
+      type: 'category',
+      label: 'OpenRefine Roadmap',
+      items: [
+          'technical-reference/development-roadmap',
+          'technical-reference/about-goal-posts',
+          'technical-reference/goal-posts',
+          'technical-reference/extension-ideas',
+          'technical-reference/wikimedia-goal-posts',
+      ]
+      },
   ],
   },
 };
