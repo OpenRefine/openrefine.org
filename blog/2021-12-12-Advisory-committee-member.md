@@ -1,6 +1,6 @@
 ---
 author: Antonin Delpeuch
-title: "Join OpenRefine's Advisory Committee"
+title: "[Closed] Join OpenRefine's Advisory Committee"
 slug: 2021/12/12/Advisory-committee-member
 ---
 
