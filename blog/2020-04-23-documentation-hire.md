@@ -1,6 +1,6 @@
 ---
 author: Antonin Delpeuch
-title: "Help us write OpenRefine's new documentation"
+title: "[Closed] Help us write OpenRefine's new documentation"
 slug: 2020/04/23/documentation-hire
 ---
 
