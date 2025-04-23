@@ -1,6 +1,6 @@
 ---
 author: Antonin Delpeuch
-title: "Now hiring: Part-time Project Director"
+title: "[Closed] Now hiring: Part-time Project Director"
 slug: 2021/11/05/Project-director
 ---
 

@@ -1,6 +1,6 @@
 ---
 author: Esther Jackson
-title: "Call for Applications: OpenRefine Advisory Committee Members"
+title: "[Open] Call for Applications: OpenRefine Advisory Committee Members"
 ---
 The OpenRefine Advisory Committee is excited to announce that we are now recruiting new members.
 

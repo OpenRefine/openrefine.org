@@ -1,6 +1,6 @@
 ---
 author: Antonin Delpeuch
-title: "Call for Proposals: Improving the Contributor Experience in OpenRefine"
+title: "[Closed] Call for Proposals: Improving the Contributor Experience in OpenRefine"
 slug: 2020/08/28/cfp-contributor-experience
 ---
 

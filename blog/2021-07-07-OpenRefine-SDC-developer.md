@@ -1,6 +1,6 @@
 ---
 author: Sandra Fauconnier
-title: "Now hiring: Junior Developer for Structured Data on Commons functionalities in OpenRefine"
+title: "[Closed] Now hiring: Junior Developer for Structured Data on Commons functionalities in OpenRefine"
 slug: 2021/07/07/OpenRefine-SDC-developer
 ---
 

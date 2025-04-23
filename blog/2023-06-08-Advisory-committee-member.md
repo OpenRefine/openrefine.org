@@ -1,6 +1,6 @@
 ---
 author: Advisory Committee
-title: "Join OpenRefine's Advisory Committee"
+title: "[Closed] Join OpenRefine's Advisory Committee"
 ---
 
 **OpenRefine is seeking a new member for its Advisory Committee (unpaid position).**

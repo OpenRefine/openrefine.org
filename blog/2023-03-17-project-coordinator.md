@@ -1,6 +1,6 @@
 ---
 author: Antonin Delpeuch
-title: "OpenRefine is looking for a part time project manager"
+title: "[Closed] OpenRefine is looking for a part time project manager"
 ---
 
 OpenRefine is looking for a part time project manager.
