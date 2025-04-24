@@ -72,7 +72,7 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * **Score**: 61
 * **Status**: Needs UI Design
 * **Source**: Prioritization-2024
-* Please create a thread on the forum or create an issue to discuss this request.
+* Related issue: [#7273](https://github.com/OpenRefine/OpenRefine/issues/7273)
 
 ###  Support for more alphabets
 * **Score**: 59
