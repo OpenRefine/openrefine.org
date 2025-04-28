@@ -152,7 +152,8 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * **Score**: 47
 * **Status**: Needs UI Design
 * **Source**: Prioritization-2024
-Make OpenRefine easier to learn and get started with better or easier UX / interface.  This would need dedicated design effort
+* Make OpenRefine easier to learn and get started with a better or easier UX / interface.  This would need dedicated design effort.
+
 
 ### Pause and resume my operations in OpenRefine
 * **Score**: 46
@@ -190,8 +191,8 @@ Make OpenRefine easier to learn and get started with better or easier UX / inter
 * **Score**: 44
 * **Status**: Needs Solution Definition
 * **Source**: Prioritization-2024
-* A walkthrough tutorial inside the software itself, to introduce and guide new users
-* This would need dedicated design effort
+* A walkthrough tutorial inside the software itself, to introduce and guide new users. This would need dedicated design effort
+* Related conversation [Open source onboarding libraries](https://forum.openrefine.org/t/open-source-onboarding-libraries/1124) and some conversation on [this thread](https://forum.openrefine.org/t/results-of-two-user-surveys-for-wikimedia-commons-users-of-openrefine/1111/5)
 
 ### Supported client/client library based on REST API
 * **Score**: 41
