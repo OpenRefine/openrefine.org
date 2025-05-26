@@ -13,8 +13,8 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * **Score**:  76
 * **Status**: Needs Solution Definition
 * **Source**: Prioritization-2024
-* Native Reconciliation with arbitrary external datasets, e.g. csv reconciliation, reconciliation with another OpenRefine project. Reconciliation against any dataset, not only the ones with a reconciliation endpoint. Reconciliation locally is a very useful feature. I suggest local reconciliation based on projects in Openrefine instead of using external services. (from the survey open-ended questions)
-* The current solution is to use one of the [csv-based reconciliation services](https://reconciliation-api.github.io/census/services/). Related issue: [#2003](https://github.com/OpenRefine/OpenRefine/issues/2003). See also [Antonin's take on reconciliation](https://antonin.delpeuch.eu/posts/my-roadmap-for-openrefine/#reconciliation)
+* Setting up a [reconciliation services](https://github.com/OpenRefine/OpenRefine/wiki/Reconcilable-Data-Sources#local-services), whether locally or on a server, is complex and often prevents users and organizations with limited technical resources or expertise from leveraging reconciliation features. A built-in (native) capability in OpenRefine to reconcile data against any arbitrary dataset, such as a local CSV file or another OpenRefine project, would lower the technical barrier. It would allow users to load an authority file as an OpenRefine project and configure the matching criteria in a configuration screen, without relying on external reconciliation services or endpoints.
+* Related issue: [#2003](https://github.com/OpenRefine/OpenRefine/issues/2003). See also [Antonin's take on reconciliation](https://antonin.delpeuch.eu/posts/my-roadmap-for-openrefine/#reconciliation) for broader context. 
 
 ### Allowing import again for adding new rows to existing projects.
 * **Score**:  73
