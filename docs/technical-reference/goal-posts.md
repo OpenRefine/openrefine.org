@@ -177,8 +177,12 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * **Score**: 44
 * **Status**: Needs Solution Definition
 * **Source**: Prioritization-2024
-* Only present maintained and currently operational ones. Improve extension discoverability and ease installation process.
-* At the moment extension developers have too few interface stability guarantees, and the user experience of installing and upgrading extensions is poor. There are a lot of open questions around this since OpenRefine’s architecture is quite uncommon, so there does not seem to be an established off-the-shelf model we can adopt. Unsucessfull grant applications: [2024-DEF](https://openrefine.org/funding#2024-def) and [2023 Mozilla Infrastructure Fund](https://openrefine.org/funding#2023-mozilla-infrastructure-fund) grant application. See also [this conversation in the forum](https://forum.openrefine.org/t/improving-the-ux-of-extension-install-and-butterfly/52), and the first version of the extension page released in 3.9.0 [#7012](https://github.com/OpenRefine/OpenRefine/pull/7012). See also [Antonin's take on extensibility](https://antonin.delpeuch.eu/posts/my-roadmap-for-openrefine/#extensibility).
+* Enhance the discoverability of extensions and simplify the installation process. Only present extensions that are currently maintained and compatible with the current version of OpenRefine. There are numerous unresolved issues in this area, as OpenRefine’s architecture is uncommon.
+* Related conversation
+   * Unsucessfull grant applications: [2024-DEF](https://openrefine.org/funding#2024-def) and [2023 Mozilla Infrastructure Fund](https://openrefine.org/funding#2023-mozilla-infrastructure-fund).
+   * [Forum conversation](https://forum.openrefine.org/t/improving-the-ux-of-extension-install-and-butterfly/52) and [#3223](https://github.com/OpenRefine/OpenRefine/issues/3223).
+   * [Antonin's take on extensibility](https://antonin.delpeuch.eu/posts/my-roadmap-for-openrefine/#extensibility).
+   * A first version of the extension page was released in 3.9.0, see [#6975](https://github.com/OpenRefine/OpenRefine/pull/6975) and related issues.
 
 ### Better support of MARC format
 * **Score**: 44
