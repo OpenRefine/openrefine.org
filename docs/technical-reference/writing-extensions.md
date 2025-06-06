@@ -128,22 +128,6 @@ You can specify one or more files for registration, and their paths are relative
 
 Javascript Bundling: Note that `project.vt` belongs to the core module and is thus under the control of the core module's [controller.js file](https://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/modules/core/MOD-INF/controller.js). The Javascript files to be included in `project.vt` are by default bundled together for performance. When debugging, you can prevent this bundling behavior by setting `bundle` to `false` near the top of that `controller.js` file. (If you have commit access to this code base, be sure not to check that change in.)
 
-### Client-side: Images {#client-side-images}
-
-We recommend that you always refer to images through your CSS files rather than in your Javascript code. URLs to images will thus be relative to your CSS files, e.g.,
-
-```
-.foo {
-    background: url(../images/x.png);
-  }
-```
-
-If you really really absolutely need to refer to your images in your Javascript code, then look up your extension's URL path in the global Javascript variable `ModuleWirings`:
-
-```
-ModuleWirings["my-extension"] + "images/x.png"
-```
-
 ### Client-side: HTML Templates {#client-side-html-templates}
 
 Beside Javascript, CSS, and images, your extension might also include HTML templates that get loaded on the fly by your Javascript code and injected into the page's DOM. For example, here is [the Cluster edit dialog template](http://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/modules/core/scripts/dialogs/clustering-dialog.html), which gets loaded by code in [the equivalent javascript file 'clustering-dialog.js'](http://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/modules/core/scripts/dialogs/clustering-dialog.js):
