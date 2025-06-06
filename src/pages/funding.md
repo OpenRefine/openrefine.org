@@ -47,7 +47,7 @@ OpenRefine is currently working on the following grants.
 * **Amount**: USD 310,100 (USD 155,050 per year for two years)
 * **Source**: [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
 * **Start date**: January 2023
-* **End date**: October 2025 (extended from October 2024)
+* **End date**: December 2025 (extended from October 2024)
 * **Relevant links**: 
   * [Letter of intent](/uploads/2022-EOSS5-LOI.pdf)
   * [Grant application](/uploads/2022-EOSS5.pdf)
