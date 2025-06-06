@@ -177,8 +177,15 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * **Score**: 44
 * **Status**: Needs Solution Definition
 * **Source**: Prioritization-2024
-* Only present maintained and currently operational ones. Improve extension discoverability and ease installation process.
-* At the moment extension developers have too few interface stability guarantees, and the user experience of installing and upgrading extensions is poor. There are a lot of open questions around this since OpenRefine’s architecture is quite uncommon, so there does not seem to be an established off-the-shelf model we can adopt. Unsucessfull grant applications: [2024-DEF](https://openrefine.org/funding#2024-def) and [2023 Mozilla Infrastructure Fund](https://openrefine.org/funding#2023-mozilla-infrastructure-fund) grant application. See also [this conversation in the forum](https://forum.openrefine.org/t/improving-the-ux-of-extension-install-and-butterfly/52), and the first version of the extension page released in 3.9.0 [#7012](https://github.com/OpenRefine/OpenRefine/pull/7012). See also [Antonin's take on extensibility](https://antonin.delpeuch.eu/posts/my-roadmap-for-openrefine/#extensibility) and the [0utreach-2024 Better testing utilities for extension development](https://github.com/OpenRefine/OpenRefine/wiki/GSoC-Outreachy-2024-Ideas#better-testing-utilities-for-extension-development) proposal.
+* Only present maintained and currently operational ones. Improve extension discoverability and ease the installation process.
+* At the moment, extension developers have too few interface stability guarantees, and the user experience of installing and upgrading extensions is poor. There are a lot of open questions around this since OpenRefine’s architecture is quite uncommon, so there does not seem to be an established off-the-shelf model we can adopt.
+* Unsucessfull grant applications:
+   * [2024-DEF](https://openrefine.org/funding#2024-def)
+   * [2023 Mozilla Infrastructure Fund](https://openrefine.org/funding#2023-mozilla-infrastructure-fund) grant application.
+* See also
+   * [this conversation in the forum](https://forum.openrefine.org/t/improving-the-ux-of-extension-install-and-butterfly/52),
+   * the first version of the extension page released in 3.9.0 [#7012](https://github.com/OpenRefine/OpenRefine/pull/7012).
+   * [Antonin's take on extensibility](https://antonin.delpeuch.eu/posts/my-roadmap-for-openrefine/#extensibility).
 
 ### Better support of MARC format
 * **Score**: 44
@@ -240,10 +247,15 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * A GUI that would highlight what could be modified and what are the current configuration files even if it cant be modified from the menu.
 * Related issue: [#2796](https://github.com/OpenRefine/OpenRefine/issues/2796)
 
+### Better testing utilities for extension development
+* **Status**: Needs Solution Definition
+*  The project was initially scoped for the outreachy-2024 program. Please see the [proposed project for more details](https://github.com/OpenRefine/OpenRefine/wiki/GSoC-Outreachy-2024-Ideas#better-testing-utilities-for-extension-development). Implementation is focused on extension and should happen outside OpenRefine core in the [sample-extension](https://github.com/OpenRefine/sample-extension/) repository for example. 
+*  Regarding Cypress test, you can refer to [#157 cypress-based test suite](https://github.com/OpenRefine/CommonsExtension/pull/157) for OpenRefine Commons Extension and created [#2 Add Cypress test suite](https://github.com/OpenRefine/sample-extension/issues/2) to the sample-extension repository. 
+
 ### Better test coverage for importers and exporters
 * **Status**: Needs Solution Definition
 * outreachy-2024
-* [read more here](https://github.com/OpenRefine/OpenRefine/wiki/GSoC-Outreachy-2024-Ideas#better-test-coverage-for-importers-and-exporters)
+* [read more here](https://github.com/OpenRefine/OpenRefine/wiki/GSoC-Outreachy-2024-Ideas#better-test-coverage-for-importers-and-exporters) 
 
 ### Support for the new reconciliation protocol
 * **Status**: Needs Solution Definition
