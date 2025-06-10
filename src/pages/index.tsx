@@ -25,6 +25,9 @@ function HeaderSection() {
           <img src="img/openrefine_logo.svg" alt="OpenRefine logo" style={{maxWidth: "min(250px, 20vw)", display: 'block', margin: 'auto'}}/>
         </div>
       </div>
+            <div>
+      <Link className="button button--primary" to="/blog/2025/06/10/OpenRefine-2025-Barcamp" style={{fontSize: '1.5em'}}>💎 Annoucing OpenRefine 2025 Online BarCamp  ✨</Link>
+  </div>
       <div className="row">
         <div style={{textAlign: 'center', width: '100%', marginTop: '2em'}}>
         <h2>Main features</h2>
