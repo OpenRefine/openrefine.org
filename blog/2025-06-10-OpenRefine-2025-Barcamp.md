@@ -31,7 +31,7 @@ A Barcamp is a participant-driven event: the agenda is shaped by *you*, the comm
 
 ### Proposing a Session 
 
-**Sessions can be proposed on our [forum](https://forum.openrefine.org/c/community/community-events/18) using the `barcamp-2025` tag**. We invite participant to review, discusse and vote session proposed prior to the event. We will select which session will go on the agenda during the planning session on Monday September 8.
+**Sessions can be proposed on our [forum](https://forum.openrefine.org/c/community/community-events/18) using the `barcamp-2025` tag**. We invite participants to review, discuss and vote on sessions proposed prior to the event. We will select which sessions will go on the agenda during the planning session on Monday September 8.
 
 **Here are some session ideas** we'd love to see based on last the [Barcamp 2024](https://forum.openrefine.org/tag/barcamp-2024) and past feedback:
 - UX feedback and user experience discussions
