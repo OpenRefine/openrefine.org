@@ -37,7 +37,7 @@ If you're interested in partnering with us for a grant, [contact us](https://for
 
 #### 2025 Research Software Maintenance Fund
 * **CS&S code**: 
-* **Status**: Expression of Interst Submitted
+* **Status**: Expression of Interest Submitted
 * **Amount**: up to GBP 500,000 available in partnership with other organization.
 * **Source**: [Research Software Maintenance Fund](https://www.software.ac.uk/programmes/research-software-maintenance-fund)
 * **Start date**: January 2026
