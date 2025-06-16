@@ -31,7 +31,7 @@ A Barcamp is a participant-driven event: the agenda is shaped by *you*, the comm
 
 ### Proposing a Session 
 
-**Sessions can be proposed on our [forum](https://forum.openrefine.org/c/community/community-events/18) using the `barcamp-2025` tag**. We invite participants to review, discuss and vote on sessions proposed prior to the event. We will select which sessions will go on the agenda during the planning session on Monday September 8.
+**Sessions can be proposed on our [forum](https://forum.openrefine.org/c/community/community-events/18) using the [`barcamp-2025` tag](https://forum.openrefine.org/tag/barcamp-2025)**. We invite participants to review, discuss and vote on sessions proposed prior to the event. We will select which sessions will go on the agenda during the planning session on Monday September 8.
 
 **Here are some session ideas** we'd love to see based on last the [Barcamp 2024](https://forum.openrefine.org/tag/barcamp-2024) and past feedback:
 - UX feedback and user experience discussions
@@ -61,8 +61,8 @@ We'll run sessions for 4 to 5 hours each day between 13:00 and 18:00 UTC to be a
 ### How to Participate
 
 - **Register:** [Sign up here](https://forms.gle/nBifPoDgz5pVYumk6) to attend.
-- **Propose a session:** Create a topic tagged `barcamp-2025` in the [session submissions forum category](https://forum.openrefine.org/c/community/community-events/18).
-- **Vote and comment:** Engage with session proposals to help shape the agenda.
+- **Propose a session:** Create a topic tagged `barcamp-2025` in the [session submissions forum category](https://forum.openrefine.org/c/community/community-events/18). See the [steps-by-step process](https://forum.openrefine.org/t/how-to-propose-a-session-for-the-2025-openrefine-barcamp/2372).
+- **Vote and comment:** Engage with [session proposals](https://forum.openrefine.org/tag/barcamp-2025) to help shape the agenda.
 
 ### Code of Conduct & Policies
 
