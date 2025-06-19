@@ -1,20 +1,24 @@
 ---
-title: OpenRefine's funding sources
-description: OpenRefine seeks grants to support its work. Learn how individuals and organizations can financially contribute to further OpenRefine's mission.
+title: Funding
+description: How OpenRefine is financed—grants, institutional support, and community contributions
+hide_table_of_contents: false
 ---
 
-# OpenRefine's funding sources
+# Project Funding Overview
 
-OpenRefine relies on a combination of [volunteer contributions](/docs/technical-reference/contributing) and financial support to sustain its development.
+OpenRefine relies on a combination of volunteer contributions and financial support to sustain its development. This diversified funding keeps our core team in place, supports essential infrastructure, and enables strategic community outreach.
 
-We maintain a small paid team to ensure the project's long-term viability. The team includes:
-- One full-time developer
-- One part-time project manager
-- Other contractors as needed
+## Operating Budget
 
-Additionally, we utilize funds for internships, maintaining software subscriptions (e.g., Figma, Discourse, LimeSurvey), and the domain openrefine.org.
+We are seeking your support to fund OpenRefine's core team, a small group of part-time staff who maintain the project's infrastructure, respond to community needs, review and guide volunteer contributors, handle security reports, and steward the ecosystem of extensions and reconciliation services. 
 
-This page outlines our various sources of funding and how you can contribute financially.
+Our annual operating budget is **US$140 000** (or appx US$11,500 per month), covering:
+* US $7,500 per month for OpenRefine Developer & Contributor Engagement lead
+* US $2,500 per month for project coordination
+* US $70 per month for essential software licenses (Figma and Discourse)
+* 15% of donations to our fiscal sponsor, Code for Science and Society, to handle administration and compliance
+
+Additional funding enables us to organize community events, conduct outreach efforts, and undertake special projects. OpenRefine maintains a [curated list of goalposts](/docs/technical-reference/development-roadmap) based on the interests and priorities of our community. We are currently seeking resources to achieve them. You can help by forming partnerships between your organization and OpenRefine or providing financial support.
 
 ## Individual and corporate donations
 
@@ -25,6 +29,8 @@ OpenRefine is a fiscally sponsored project of [Code for Science & Society](https
 - [GitHub sponsorship](https://github.com/sponsors/OpenRefine)
 - [Online form](https://openrefine.org/donate) for Credit Card, PayPal, and Bank Transfer (up to USD 25,000)
 - Via Code for Science & Society from [their donation page](https://www.codeforsociety.org/donate) for larger donations.
+
+We would like to thanks our [current donors](/backers).
 
 ## Grants
 
@@ -46,7 +52,7 @@ If you're interested in partnering with us for a grant, [contact us](https://for
   * [Expression of Interest](/uploads/2025-Research-Software-Maintenance-Fund-EOI.pdf) 
   * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-seeking-ukri-eligible-partner-for-research-software-maintenance-fund-application/2233)
 
-### Current grants
+### Active Grants
 
 OpenRefine is currently working on the following grants. 
 
@@ -198,4 +204,3 @@ We applied for the following grant opportunities, but our proposals were not sel
 * **Relevant links**: 
   * [Letter of intent](/uploads/2021-EOSS4-LOI.pdf)
   * [Grant application](/uploads/2021-EOSS4.pdf)
-  
