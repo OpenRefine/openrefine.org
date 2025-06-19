@@ -1,9 +1,9 @@
 ---
-title: OpenRefine Benefactors
+title: OpenRefine Backers
 description: Your donations help further develop and maintain OpenRefine.
 hide_table_of_contents: false
 ---
-# OpenRefine Benefactors 
+# OpenRefine Backers 
 
 Thank you for supporting OpenRefine in 2025! We are proud to list your name on this page, which celebrates everyone who made a financial contribution to OpenRefine at any level. 
 

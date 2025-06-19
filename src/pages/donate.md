@@ -11,7 +11,7 @@ OpenRefine is a free, power tool for working with messy data and improving it. O
 
 
 ## Funding Tier
-We are funded by **grants and gifts from institutions and individuals** like you. Each month, we need **US \$11 500** to fully support our core team for maintenance, coordination, licensing, and administration. Details on fund usage and other sources of funding are available on our [Funding](/funding) page.
+We are funded by **grants and gifts from institutions and individuals** like you. Our annual operating budget is US$140 000 (or appx US$11,500 per month) to support our core team for maintenance, coordination, licensing, and administration. Details on fund usage and other sources of funding are available on our [funding page](/funding).
 
 Available funding tier are: 
 * **$5 Sustainer Level:** Contribute toward maintaining the OpenRefine infrastructure	
@@ -25,7 +25,7 @@ Available funding tier are:
 * **$5,000 Patron Level:** Support our core team for two weeks
 * **$10,000 Champion Level:** Sponsor the entire team for one month
 
-See our current [benefactors](/benefactors) and [active grants](/funding#current-grants)
+See our current [backers](/backers) and [active grants](/funding#active-grants)
 
 You can also support OpenRefine via <a href="https://github.com/sponsors/OpenRefine">GitHub Sponsors</a>.
 <script src="https://donorbox.org/widget.js" paypalExpress="true"></script><iframe src="https://donorbox.org/embed/open-refine" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="yes" width="100%" style={{maxWidth: '500px', minWidth: '250px', minHeight: '750px', maxHeight: 'none!important'}}></iframe>

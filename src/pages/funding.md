@@ -30,7 +30,7 @@ OpenRefine is a fiscally sponsored project of [Code for Science & Society](https
 - [Online form](https://openrefine.org/donate) for Credit Card, PayPal, and Bank Transfer (up to USD 25,000)
 - Via Code for Science & Society from [their donation page](https://www.codeforsociety.org/donate) for larger donations.
 
-We would like to thanks our [current donors](/benefactors).
+We would like to thanks our [current donors](/backers).
 
 ## Grants
 

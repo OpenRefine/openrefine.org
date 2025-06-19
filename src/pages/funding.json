@@ -1,0 +1,191 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "organisation",
+    "role": "steward",
+    "name": "Martin Magdinier",
+    "email": "martin@openrefine.org",
+    "description": "OpenRefine is a free, powerful tool for working with messy data and improving it. Our mission is to empower everyone to meaningfully engage with data by providing an accessible open source tool and nurturing a diverse, supportive community.",
+    "webpageUrl": {
+      "url": "https://openrefine.org",
+      "wellKnown": "https://openrefine.org/.well-known/funding-manifest-urls"
+    }
+  },
+  "projects": [
+    {
+      "guid": "openrefine",
+      "name": "OpenRefine",
+      "description": "We are funded by grants and gifts from institutions and individuals like you. Our annual operating budget is US$140 000 (or appx US$11,500 per month) to support our core team for maintenance, coordination, licensing, and administration. Details on fund usage and other sources of funding are available on our funding page (https://openrefine.org/funding). We would like to thanks our current donors (https://openrefine.org/backers).",
+      "webpageUrl": {
+        "url": "https://openrefine.org"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/OpenRefine/OpenRefine",
+        "wellKnown": "https://github.com/OpenRefine/OpenRefine/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "BSD-3"
+      ],
+      "tags": [
+        "reconciliation",
+        "wikidata",
+        "opendata",
+        "journalism",
+        "data-analysis",
+        "data-wrangling",
+        "datamining",
+        "datajournalism",
+        "datacleaning",
+        "datacleansing"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "github",
+        "type": "other",
+        "description": "https://github.com/sponsors/OpenRefine"
+      },
+      {
+        "guid": "website",
+        "type": "other",
+        "description": "https://openrefine.org/donate"
+      }
+    ],
+    "plans": [
+      {
+        "guid": "sustainer",
+        "status": "active",
+        "name": "$5/month - Sustainer Level",
+        "description": "Contribute toward maintaining the OpenRefine infrastructure",
+        "amount": 5,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github",
+          "website"
+        ]
+      },
+      {
+        "guid": "sustainer-plus",
+        "status": "active",
+        "name": "$10/month - Sustainer Plus Level",
+        "description": "Contribute toward maintaining the OpenRefine infrastructure",
+        "amount": 10,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github",
+          "website"
+        ]
+      },
+      {
+        "guid": "sponsor",
+        "status": "active",
+        "name": "$25/month - Sponsor Level",
+        "description": "Fund our Figma license for one month",
+        "amount": 25,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github",
+          "website"
+        ]
+      },
+      {
+        "guid": "infrastructure-sponsor",
+        "status": "active",
+        "name": "$50/month - Infrastructure Sponsor Level",
+        "description": "Fund our forum hosting for one month",
+        "amount": 50,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github",
+          "website"
+        ]
+      },
+      {
+        "guid": "benefactor",
+        "status": "active",
+        "name": "$100/month - Benefactor Level",
+        "description": "Pay for third-party tools and services for one month",
+        "amount": 100,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github",
+          "website"
+        ]
+      },
+      {
+        "guid": "advocate",
+        "status": "active",
+        "name": "$500/month - Advocate Level",
+        "description": "Help us attend a conference to promote OpenRefine",
+        "amount": 500,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github",
+          "website"
+        ]
+      },
+      {
+        "guid": "advocate-plus",
+        "status": "active",
+        "name": "$1,000/month - Advocate Plus Level",
+        "description": "Help us attend two conferences to promote OpenRefine",
+        "amount": 1000,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github",
+          "website"
+        ]
+      },
+      {
+        "guid": "partner",
+        "status": "active",
+        "name": "$2,500/month - Partner Level",
+        "description": "Support our core team for one week",
+        "amount": 2500,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github",
+          "website"
+        ]
+      },
+      {
+        "guid": "patron",
+        "status": "active",
+        "name": "$5,000/month - Patron Level",
+        "description": "Support our core team for two weeks",
+        "amount": 5000,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github",
+          "website"
+        ]
+      },
+      {
+        "guid": "champion",
+        "status": "active",
+        "name": "$10,000/month - Champion Level",
+        "description": "Sponsor the entire team for one month",
+        "amount": 10000,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github",
+          "website"
+        ]
+      }
+    ],
+    "history": []
+  }
+}
+
