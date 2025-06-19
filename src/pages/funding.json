@@ -2,10 +2,10 @@
   "version": "v1.0.0",
   "entity": {
     "type": "organisation",
-    "role": "steward",
-    "name": "Martin Magdinier",
-    "email": "martin@openrefine.org",
-    "description": "OpenRefine is a free, powerful tool for working with messy data and improving it. Our mission is to empower everyone to meaningfully engage with data by providing an accessible open source tool and nurturing a diverse, supportive community.",
+    "role": "other",
+    "name": "OpenRefine",
+    "email": "contact@openrefine.org",
+    "description": "OpenRefine is a free, powerful tool for working with messy data and improving it. Our mission is to empower everyone to meaningfully engage with data by providing an accessible open source tool and nurturing a diverse, supportive community. OpenRefine is a fiscally sponsored project of Code for Science & Society, a 501(c)(3) charitable organization in the USA. Donations are tax-deductible to the extent allowed by US law (Tax ID: 81-3791683).",
     "webpageUrl": {
       "url": "https://openrefine.org",
       "wellKnown": "https://openrefine.org/.well-known/funding-manifest-urls"
