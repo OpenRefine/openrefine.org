@@ -14,16 +14,10 @@ OpenRefine is a free, power tool for working with messy data and improving it. O
 We are funded by **grants and gifts from institutions and individuals** like you. Our annual operating budget is US$140 000 (or appx US$11,500 per month) to support our core team for maintenance, coordination, licensing, and administration. Details on fund usage and other sources of funding are available on our [funding page](/funding).
 
 Available funding tier are: 
-* **$5 Sustainer Level:** Contribute toward maintaining the OpenRefine infrastructure	
-* **$10 Sustainer Plus Level:** Contribute toward maintaining the OpenRefine infrastructure	
-* **$25 Sponsor Level:** Fund our Figma license for one month
-* **$50 Infrastructure Sponsor Level:** Fund our forum hosting for one month
-* **$100 Benefactor Level:** Pay for third-party tools and services for a month
-* **$500 Advocate Level:** Help us attend a conference to promote OpenRefine
-* **$1,000 Advocate Plus Level:** Help us attend two conferences to promote OpenRefine
-* **$2,500 Partner Level:** Support our core team for one week
-* **$5,000 Patron Level:** Support our core team for two weeks
-* **$10,000 Champion Level:** Sponsor the entire team for one month
+* **Sustainer:** up to $500 per year. Covers essential day-to-day infrastructure including forum hosting, software licenses, and routine maintenance.
+* **Sponsor:** up to $5,000 per year. Enables us to represent OpenRefine at conferences and expand our community outreach.
+* **Partner:** up to $50,000 per year. Underwrites multiple months of core-team development, feature work, and contributor support.
+* **Patron:** over $50,000 to $200,000 per year. Fully sustains OpenRefine’s annual budget, funding our entire core team for a full year.
 
 See our current [backers](/backers) and [active grants](/funding#active-grants)
 

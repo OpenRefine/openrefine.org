@@ -11,46 +11,28 @@ This page reflects gifts received after December 1, 2024. 2024 donors are listed
   
 You can [donate here](/donate)
 
-## Champion Level
-At least $10,000 donated in 2025. Sponsor the entire team for one month
+## Patron
+Over $50,000 donated in 2025. Fully sustains OpenRefine’s annual budget, funding our entire core team for a full year.
 
-## Patron Level
-Between $5,000 and $10,000 donated in 2025. Support our core team for two weeks
+## Partner
+Between $5,000 and $50,000 donated in 2025. Underwrites multiple months of core-team development, feature work, and contributor support.
 
-## Partner Level
-Between $2,500 and $5,000 donated in 2025. Support our core team for one week
+## Sponsor 
+Between $500 and $5,000 donated in 2025. Enables us to represent OpenRefine at conferences and expand our community outreach.
+
 * Vanguard Charitable (one-time)
 
-## Advocate Plus Level
-Between $1,000 and $2,500 donated in 2025. Help us attend two conferences to promote OpenRefine
+## Sustainer
+Up $500 donated in 2025. Covers essential day-to-day infrastructure including forum hosting, software licenses, and routine maintenance.
 
-## Advocate Level
-Between $500 and $1,000 donated in 2025. Help us attend a conference to promote OpenRefine
-
-## Benefactor Level
-Between $100 and $500 donated in 2025. Pay for third-party tools and services for one month
 * RefinePro (recurring)
-
-## Infrastructure Sponsor Level
-Between $50 and $100 donated in 2025. Fund our forum hosting for one month
 * ostephens (recurring)
-## Sponsor Level
-Between $25 and $50 donated in 2025. Fund our Figma license for one month
 * DaxServer (recurring)
 * alanorth (recurring)
-
-## Sustainer Plus Level
-Between $10 and $25 donated in 2025. Contribute toward maintaining the OpenRefine infrastructure
 * timtomch (recurring)
 * trantor (recurring)
 * wetneb (recurring)
-
-## Sustainer Level
-Between $5 and $10 donated in 2025. Contribute toward maintaining the OpenRefine infrastructure
 * EstebanMH-SiB (recurring)
-
-## Supporter
-Less than $5 donated in 2025. Show your support for keeping OpenRefine maintained
 * btseee  (one-time)
 
 Help us reach our funding goal, [donate here](/donate)

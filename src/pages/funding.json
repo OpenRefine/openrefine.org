@@ -54,131 +54,53 @@
       }
     ],
     "plans": [
-      {
+     {
         "guid": "sustainer",
         "status": "active",
-        "name": "$5/month - Sustainer Level",
-        "description": "Contribute toward maintaining the OpenRefine infrastructure",
-        "amount": 5,
-        "currency": "USD",
-        "frequency": "monthly",
-        "channels": [
-          "github",
-          "website"
-        ]
-      },
-      {
-        "guid": "sustainer-plus",
-        "status": "active",
-        "name": "$10/month - Sustainer Plus Level",
-        "description": "Contribute toward maintaining the OpenRefine infrastructure",
-        "amount": 10,
-        "currency": "USD",
-        "frequency": "monthly",
-        "channels": [
-          "github",
-          "website"
-        ]
-      },
-      {
-        "guid": "sponsor",
-        "status": "active",
-        "name": "$25/month - Sponsor Level",
-        "description": "Fund our Figma license for one month",
-        "amount": 25,
-        "currency": "USD",
-        "frequency": "monthly",
-        "channels": [
-          "github",
-          "website"
-        ]
-      },
-      {
-        "guid": "infrastructure-sponsor",
-        "status": "active",
-        "name": "$50/month - Infrastructure Sponsor Level",
-        "description": "Fund our forum hosting for one month",
-        "amount": 50,
-        "currency": "USD",
-        "frequency": "monthly",
-        "channels": [
-          "github",
-          "website"
-        ]
-      },
-      {
-        "guid": "benefactor",
-        "status": "active",
-        "name": "$100/month - Benefactor Level",
-        "description": "Pay for third-party tools and services for one month",
-        "amount": 100,
-        "currency": "USD",
-        "frequency": "monthly",
-        "channels": [
-          "github",
-          "website"
-        ]
-      },
-      {
-        "guid": "advocate",
-        "status": "active",
-        "name": "$500/month - Advocate Level",
-        "description": "Help us attend a conference to promote OpenRefine",
+        "name": "Up to $500 - Sustainer Level",
+        "description": "Covers essential day-to-day infrastructure including forum hosting, software licenses, and routine maintenance.",
         "amount": 500,
         "currency": "USD",
-        "frequency": "monthly",
+        "frequency": "yearly",
         "channels": [
           "github",
           "website"
         ]
       },
-      {
-        "guid": "advocate-plus",
+     {
+        "guid": "sponsor",
         "status": "active",
-        "name": "$1,000/month - Advocate Plus Level",
-        "description": "Help us attend two conferences to promote OpenRefine",
-        "amount": 1000,
-        "currency": "USD",
-        "frequency": "monthly",
-        "channels": [
-          "github",
-          "website"
-        ]
-      },
-      {
-        "guid": "partner",
-        "status": "active",
-        "name": "$2,500/month - Partner Level",
-        "description": "Support our core team for one week",
-        "amount": 2500,
-        "currency": "USD",
-        "frequency": "monthly",
-        "channels": [
-          "github",
-          "website"
-        ]
-      },
-      {
-        "guid": "patron",
-        "status": "active",
-        "name": "$5,000/month - Patron Level",
-        "description": "Support our core team for two weeks",
+        "name": "Up to $5,000 - Sponsor Level",
+        "description": "Enables us to represent OpenRefine at conferences and expand our community outreach.",
         "amount": 5000,
         "currency": "USD",
-        "frequency": "monthly",
+        "frequency": "yearly",
         "channels": [
           "github",
           "website"
         ]
       },
-      {
-        "guid": "champion",
+     {
+        "guid": "partner",
         "status": "active",
-        "name": "$10,000/month - Champion Level",
-        "description": "Sponsor the entire team for one month",
-        "amount": 10000,
+        "name": "Up to $50,000 - Sustainer Partner",
+        "description": "Underwrites multiple months of core-team development, feature work, and contributor support.",
+        "amount": 50000,
         "currency": "USD",
-        "frequency": "monthly",
+        "frequency": "yearly",
+        "channels": [
+          "github",
+          "website"
+        ]
+      },
+     {
+        "guid": "patron",
+        "status": "active",
+        "name": "Over $50,000 - Patron Level",
+        "description": "Fully sustains OpenRefine's annual budget, funding our entire core team for a full year.",
+        "amount": 100000,
+        "currency": "USD",
+        "frequency": "yearly",
         "channels": [
           "github",
           "website"
