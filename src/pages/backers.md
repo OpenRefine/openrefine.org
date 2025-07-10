@@ -23,7 +23,7 @@ Between $500 and $5,000 donated in 2025. Enables us to represent OpenRefine at c
 * Vanguard Charitable (one-time)
 
 ## Sustainer
-Up $500 donated in 2025. Covers essential day-to-day infrastructure including forum hosting, software licenses, and routine maintenance.
+Up to $500 donated in 2025. Covers essential day-to-day infrastructure including forum hosting, software licenses, and routine maintenance.
 
 * RefinePro (recurring)
 * ostephens (recurring)
