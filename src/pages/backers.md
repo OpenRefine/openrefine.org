@@ -35,4 +35,11 @@ Up to $500 donated in 2025. Covers essential day-to-day infrastructure including
 * EstebanMH-SiB (recurring)
 * btseee  (one-time)
 
+##  Service & Infrastructure Partners
+
+We’re also grateful to the following projects for their in-kind support:
+
+* **Coverall**, **Weblate**, and **GitHub** for providing their infrastructure and software free of charge to OpenRefine.  
+* **Discourse** for offering us a 50 % charity discount on forum hosting.
+ 
 Help us reach our funding goal, [donate here](/donate)
