@@ -21,7 +21,7 @@
       },
       "repositoryUrl": {
         "url": "https://github.com/OpenRefine/OpenRefine",
-        "wellKnown": "https://github.com/OpenRefine/OpenRefine/.well-known/funding-manifest-urls"
+        "wellKnown": "https://github.com/OpenRefine/OpenRefine/blob/master/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "BSD-3"
