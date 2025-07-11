@@ -41,16 +41,6 @@ Since 2018, OpenRefine has relied on grants to sustain its development. Below, y
 OpenRefine is actively applying to grant opportunities listed in this section. We will update this section with the latest information as we progress.
 If you're interested in partnering with us for a grant, [contact us](https://forum.openrefine.org/). 
 
-#### 2025 Research Software Maintenance Fund
-* **CS&S code**: 
-* **Status**: Expression of Interest Submitted
-* **Amount**: up to GBP 500,000 available in partnership with other organization.
-* **Source**: [Research Software Maintenance Fund](https://www.software.ac.uk/programmes/research-software-maintenance-fund)
-* **Start date**: January 2026
-* **End date**: Februay 2028
-* **Relevant links**: 
-  * [Expression of Interest](/uploads/2025-Research-Software-Maintenance-Fund-EOI.pdf) 
-  * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-seeking-ukri-eligible-partner-for-research-software-maintenance-fund-application/2233)
 
 ### Active Grants
 
@@ -153,6 +143,17 @@ OpenRefine completed the following grants.
 ### Unsuccessful applications
 
 We applied for the following grant opportunities, but our proposals were not selected. 
+
+#### 2025 Research Software Maintenance Fund
+* **CS&S code**: 
+* **Status**: Expression of Interest Submitted
+* **Amount**: up to GBP 500,000 available in partnership with other organizations.
+* **Source**: [Research Software Maintenance Fund](https://www.software.ac.uk/programmes/research-software-maintenance-fund)
+* **Start date**: January 2026
+* **End date**: Februay 2028
+* **Relevant links**: 
+  * [Expression of Interest](/uploads/2025-Research-Software-Maintenance-Fund-EOI.pdf) 
+  * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-seeking-ukri-eligible-partner-for-research-software-maintenance-fund-application/2233)
 
 #### 2024 Wikimedia Foundation 
 * **Status**: Application submitted. Results expected by November 29, 2024
