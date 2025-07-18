@@ -7,7 +7,7 @@ hide_table_of_contents: false
 
 OpenRefine is a free, open source power tool for working with messy data and improving it: cleaning it, transforming it from one format into another, and extending it with web services and external data. Requiring no knowledge of a programming or query language, it lets users find and fix inconsistencies interactively, match their data to external databases, pull additional data from these, and perform many other useful operations. The resulting workflows can be extracted and applied to other datasets.
 
-**OpenRefine is downloaded on average 15,500 times per month** and received over 800 academic citations in 2023.
+**OpenRefine is downloaded on average 15,500 times per month** and received about 800 academic citations per year.
 
 ## Our Users Community
 
