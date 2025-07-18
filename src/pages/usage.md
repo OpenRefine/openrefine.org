@@ -20,15 +20,16 @@ OpenRefine is used by many communities and industries due to its user-friendly i
 6. **Educators and Trainers**: OpenRefine is integrated into educational curricula and workshops, allowing educators to teach students data wrangling and cleaning skills effectively.
 
 
-The graphic below shows which communities our users identified with most, based on our [2022](/blog/2022/06/28/2022-survey-results) user survey. Please note that each user may identify with multiple communities.
+The graphic below shows which communities our users identified with most, based on our [2024](/blog/2024/12/20/2024-survey-results) user survey. Please note that each user may identify with multiple communities.
 
 ```mermaid
 %%{init: {'theme':'forest'}}%%
 xychart-beta horizontal
     x-axis  
-    ["Data journalism", "Open Data", "Libraries", "Research", "Arts, cultural sector, cultural heritage", "Digital humanities", "Data science", "Linked Open Data / Semantic Web", "Wikimedia (Wikidata, Wikimedia Commons…)", "OpenStreetMap", "Wikibase", "Other non-profit sector", "For-profit sector / Business / Consulting", "Education / training", "Natural science / biodiversity", "Other"]
-    y-axis "Percentage of users" 0 --> 20 
-    bar [5.38, 2.07, 15.11, 10.14, 11.59, 8.49, 9.52, 11.18, 8.90, 3.11, 2.28, 1.66, 2.28, 7.04, 0.83, 0.41]
+    ["Data journalism", "Libraries", "Research", "Arts, cultural sector, cultural heritage", "Digital humanities", "Data science", "Linked Open Data / Semantic Web", "Wikimedia (Wikidata, Wikimedia Commons…)", "OpenStreetMap", "Wikibase", "Other non-profit sector", "For-profit sector / Business / Consulting", "Education / training"]
+    y-axis "Percentage of users" 0 --> 40
+    bar "Percentage" 
+      [6.64, 38.50, 34.07, 22.57, 15.49, 25.66, 25.66, 15.04, 8.85, 12.39, 7.08, 6.64, 17.70]
 ```
 
 ## Academic Citations 
