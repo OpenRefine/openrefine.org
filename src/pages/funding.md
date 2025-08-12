@@ -47,7 +47,7 @@ If you're interested in partnering with us for a grant, [contact us](https://for
 OpenRefine is currently working on the following grants. 
 
 #### 2022 EOSS-5 
-* **CS&S code**: `ORefine: 22 SVCF - 2022-252591`
+* **CS&S code**: `10016 ORefine: 22 SVCF 2022-252591`
 * **Status**: Awarded - Current
 * **Amount**: USD 310,100 (USD 155,050 per year for two years)
 * **Source**: [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
