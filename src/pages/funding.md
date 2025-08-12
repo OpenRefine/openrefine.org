@@ -108,6 +108,7 @@ OpenRefine completed the following grants.
   * [Grant application](/uploads/2021-EOSS-Diversity.pdf)
   * [2023 interm report](/uploads/2023-EOSS-Diversity-Interim-Report.pdf)
   * [2024 final report](/uploads/2024-EOSS-Diversity-Final-Report.pdf)
+
 #### 2023 NFDI
 * **CS&S code**: `ORefine: General`
 * **Status**: Awarded - Completed
