@@ -42,12 +42,32 @@ OpenRefine is actively applying to grant opportunities listed in this section. W
 If you're interested in partnering with us for a grant, [contact us](https://forum.openrefine.org/). 
 
 
+#### 2025 NLNet: Hardening OpenRefine’s Extension Architecture
+* **Status**: Grant application
+* **Amount**: EUR 49,881.25
+* **Source**: [NGI Zero Commons Fund](https://nlnet.nl/commonsfund/)
+* **Start date**: January 2026
+* **End date**: August 2026
+* **Relevant links**: 
+  * [Grant application](/uploads/2025-NLNet-hardening-extension.pdf) 
+  * [Forum thread](https://forum.openrefine.org/t/2025-nlnet-ngi-zero-commons-fund/2381)
+  
+#### 2025 NLNet: Native In-App Reconciliation of Arbitrary Local Data Sets 
+* **Status**: Grant application
+* **Amount**: EUR 49,961.75
+* **Source**: [NGI Zero Commons Fund](https://nlnet.nl/commonsfund/)
+* **Start date**: January 2026
+* **End date**: August 2026
+* **Relevant links**: 
+  * [Grant application](/uploads/2025-NLNet-in-app-recon.pdf) 
+  * [Forum thread](https://forum.openrefine.org/t/2025-nlnet-ngi-zero-commons-fund/2381)
+  
 ### Active Grants
 
 OpenRefine is currently working on the following grants. 
 
 #### 2022 EOSS-5 
-* **CS&S code**: `ORefine: 22 SVCF - 2022-252591`
+* **CS&S code**: `10016 ORefine: 22 SVCF 2022-252591`
 * **Status**: Awarded - Current
 * **Amount**: USD 310,100 (USD 155,050 per year for two years)
 * **Source**: [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
@@ -88,6 +108,7 @@ OpenRefine completed the following grants.
   * [Grant application](/uploads/2021-EOSS-Diversity.pdf)
   * [2023 interm report](/uploads/2023-EOSS-Diversity-Interim-Report.pdf)
   * [2024 final report](/uploads/2024-EOSS-Diversity-Final-Report.pdf)
+
 #### 2023 NFDI
 * **CS&S code**: `ORefine: General`
 * **Status**: Awarded - Completed
@@ -145,8 +166,7 @@ OpenRefine completed the following grants.
 We applied for the following grant opportunities, but our proposals were not selected. 
 
 #### 2025 Research Software Maintenance Fund
-* **CS&S code**: 
-* **Status**: Expression of Interest Submitted
+* **Status**: Not Awarded
 * **Amount**: up to GBP 500,000 available in partnership with other organizations.
 * **Source**: [Research Software Maintenance Fund](https://www.software.ac.uk/programmes/research-software-maintenance-fund)
 * **Start date**: January 2026
@@ -156,7 +176,7 @@ We applied for the following grant opportunities, but our proposals were not sel
   * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-seeking-ukri-eligible-partner-for-research-software-maintenance-fund-application/2233)
 
 #### 2024 Wikimedia Foundation 
-* **Status**: Application submitted. Results expected by November 29, 2024
+* **Status**: Not Awarded
 * **Amount**: asking for USD 69,758
 * **Source**: [Wikimedia Foundation Funds](https://meta.wikimedia.org/wiki/Grants:Start).
 * **Start date**: January 2025
