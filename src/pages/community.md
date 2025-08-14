@@ -35,6 +35,9 @@ import Card from '../card.tsx';
 <img src={OpenRefineIsMagicImageUrl} alt="OpenRefine is magic" id="magic"/>
 <p style={{fontSize: '0.7em'}}><a href="https://commons.wikimedia.org/wiki/File:Open_Refine_is_Magic.png">CC-BY-SA Scott Carlson</a></p>
 </div>
+# Governance Model & Team Members
+Learn more [on GitHub]([url](https://github.com/OpenRefine/OpenRefine/blob/master/GOVERNANCE.md)).
+
 # Connect with us
 
 Join our vibrant community of users and contributors. We listed below the platforms used by the core team, however a lot of great conversation happen directly within our user community preferred channel. 
