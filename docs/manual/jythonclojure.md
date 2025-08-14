@@ -32,7 +32,7 @@ Fields have to be accessed using the bracket operator rather than dot notation:
   return cells["col1"]["value"]
 ```
 
-For example, to access the [edit distance](reconciling#reconciliation-facets) between a reconciled value and an original cell value using [recon variables](#reconciliation):
+For example, to access the [edit distance](reconciling#reconciliation-facets) between a reconciled value and an original cell value using [recon variables](expressions#reconciliation):
 
 ```
   return cell["recon"]["features"]["nameLevenshtein"]
