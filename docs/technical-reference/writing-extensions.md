@@ -343,3 +343,13 @@ Packages.com.google.refine.expr.MetaParser.registerLanguageParser(
 
 The first string is the prefix that gets prepended to each expression so that we know which language the expression is in. This should be short, unique, and identifying. The second string is a user-friendly name of the language. The third is an object that implements the interface `com.google.refine.expr.LanguageSpecificParser`. The final string is the default expression in that language that would return the cell's value.
 
+## Testing
+
+Like OpenRefine core, extensions can test backend code through Java unit tests and frontend/integration tests can be written using Cypress. In addition to the resources below, extension authors are encouraged to review the documentation related to [functional tests](https://openrefine.org/docs/technical-reference/functional-tests) in OpenRefine core.
+
+### Java unit testing
+The sample extension template includes a reference unit test suite which leverages [the `RefineTest` base class](https://github.com/OpenRefine/OpenRefine/blob/master/modules/core/src/test/java/com/google/refine/RefineTest.java) provided by OpenRefine core. Tests are not required to extend `RefineTest`, but that class provides many utilities that may help you test your extension.
+
+### End to end tests in Cypress
+OpenRefine uses [Cypress](https://www.cypress.io/) to automate frontend and integration testing. To get started with end-to-end testing, [this guide in the Cypress docs](https://docs.cypress.io/app/end-to-end-testing/writing-your-first-end-to-end-test) may be helpful. The [documentation for OpenRefine's functional tests](https://openrefine.org/docs/technical-reference/functional-tests) also provides guidance for writing Cypress tests. For reference, please see the [Cypress tests in OpenRefine core](https://github.com/OpenRefine/OpenRefine/tree/master/main/tests/cypress) and the [Cypress tests in CommonsExtension](https://github.com/OpenRefine/CommonsExtension/tree/master/cypress).
+Cypress can also be run in headless mode, enabling end-to-end tests in CI/CD pipelines.
