@@ -4,7 +4,7 @@ description: Information regarding OpenRefine 2025 BarCamp.
 hide_table_of_contents: false
 ---
 
-# OpenRefine Barcamp 2025
+# Welcome to the OpenRefine 2025 BarCamp!
 **The annual unconference for the OpenRefine community**
 
 
@@ -12,16 +12,40 @@ hide_table_of_contents: false
 <br></br>
 <br></br>
 
-📅 **September 8–11, 2025** from 13:00 to 18:00 UTC
+The OpenRefine 2025 BarCamp starts **Monday, September 8** and runs through **Thursday, September 11**, online from **13:00 to 18:00 UTC** each day.
 
-🌍 **Fully virtual via Zoom**
+## 🔑 Key Information
 
-💬 Open to contributors, users, trainers, developers, and the curious!
+* **✅ Review, Propose, and Vote on Sessions**: To see what's already been proposed, visit the list of [BarCamp 2025 session ideas](https://forum.openrefine.org/tag/barcamp-2025) on the forum. You can vote, comment, or use those as inspiration to propose your own.
 
-📍 [**Register to attend**](https://forms.gle/nBifPoDgz5pVYumk6)
+* **🔗 Access to Zoom, Miro Board, and Telegram**: Links to join the BarCamp are **shared by email only with registered participants**. 👉 [Register here](https://docs.google.com/forms/d/e/1FAIpQLSfK9gWvUcbPffqfQKzKjVbBJdOtGeVqBmkLdYq-9nKnTPrR7A/viewform) - _Registration closes Sunday September 7._
+
+* **📅 Live Schedule (Public Calendar)** You can view the evolving session schedule here: 👉 [OpenRefine BarCamp Public Calendar](https://calendar.google.com/calendar/embed?src=kldtfmh7nnopd5jdod292mi8f4%40group.calendar.google.com&mode=WEEK)
+
+* **❓ Questions**: Email Martin at [martin@openrefine.org](mailto:martin@openrefine.org)
+
+---
+
+## 🗓️ Monday Kickoff Agenda (September 8)
+
+The first day is especially important as we welcome everyone, review session proposals, and build the agenda together.
+
+| Time (UTC) | Session |
+|------------|---------|
+| 13:00–13:30 | Welcome and orientation |
+| 13:30–14:30 | Icebreaker and getting to know each others |
+| 14:30–16:00 | Session proposal review and discussion |
+| 16:00–17:00 | Break - participants can continue to comment and vote on session |
+| 17:00–18:00 | Session Scheduling |
+
+We’ll collaboratively build the agenda for the rest of the week during the planning session. Everyone is welcome to suggest, join, or lead a session — no slides required!
+
+Looking forward to seeing you there!
+
 <!--truncate-->
 
-## Overview
+
+## Event Overview
 
 **Join us to discuss the past, present, and future of the OpenRefine project from Monday, September 8, to Thursday, September 11, 2025.** This online event is open to all members of the OpenRefine community, as well as partners and stakeholders who are interested in helping to shape the project's future.
 
