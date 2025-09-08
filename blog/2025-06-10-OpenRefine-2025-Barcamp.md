@@ -14,7 +14,7 @@ hide_table_of_contents: false
 
 The OpenRefine 2025 BarCamp starts **Monday, September 8** and runs through **Thursday, September 11**, online from **13:00 to 18:00 UTC** each day.
 
-## 🔑 Key Information
+## Key Information
 
 * **✅ Review, Propose, and Vote on Sessions**: To see what's already been proposed, visit the list of [BarCamp 2025 session ideas](https://forum.openrefine.org/tag/barcamp-2025) on the forum. You can vote, comment, or use those as inspiration to propose your own.
 
@@ -24,9 +24,11 @@ The OpenRefine 2025 BarCamp starts **Monday, September 8** and runs through **Th
 
 * **❓ Questions**: Email Martin at [martin@openrefine.org](mailto:martin@openrefine.org)
 
----
+<!--truncate-->
 
-## 🗓️ Monday Kickoff Agenda (September 8)
+## Event Agenda 
+
+### Monday, September 8 - *Planning Day*
 
 The first day is especially important as we welcome everyone, review session proposals, and build the agenda together.
 
@@ -40,9 +42,41 @@ The first day is especially important as we welcome everyone, review session pro
 
 We’ll collaboratively build the agenda for the rest of the week during the planning session. Everyone is welcome to suggest, join, or lead a session — no slides required!
 
-Looking forward to seeing you there!
+### Tuesday, September 9 – *Demo Day*
 
-<!--truncate-->
+📹 indicates that this session will be recorded
+
+| Time (UTC)       | Session |
+|------------------|---------|
+| 13:00–13:50 | **[Demo]** [Intro to Using, Learning, and Training OpenRefine](https://forum.openrefine.org/t/2025-barcamp-session-proposal-intro-to-openrefine/2536) 📹 |
+| 14:00–14:50 | **[Demo]** [Using the OpenRefine LLM Extension](https://forum.openrefine.org/t/2025-barcamp-session-proposal-using-the-openrefine-llm-extension/2524/) 📹|
+| 15:00–15:50 | **[Announcement + Q&A]** [OpenRefine Budget, Operating Model, and Fundraising Campaign](https://forum.openrefine.org/t/2025-barcamp-session-proposal-openrefine-budget-operating-model-and-upcoming-fundraising-campaign/2533/) 📹|
+| 16:00–16:45 | **[Demo]** [Demo of the RDF Extension](https://forum.openrefine.org/t/2025-barcamp-session-proposal-rdf-extension-demo/2540) 📹|
+| 17:00–17:50 | **[Demo + Discussion]** [Experience and Best Practices with New Clustering Feature(s)](https://forum.openrefine.org/t/2025-barcamp-session-proposal-new-customized-clustering-feature-since-3-9/2537) 📹|
+
+### Wednesday, September 10 – *Community Building Day*
+
+📹 indicates that this session will be recorded
+
+| Time (UTC)       | Session |
+|------------------|---------|
+| 13:00–13:50 | **[Presentation + Q&A]** [Presenting OpenRefine Goal Posts and "Roadmap"](https://forum.openrefine.org/t/2025-barcamp-session-proposal-discussing-openrefine-roadmap-and-goal-post/2539) 📹 |
+| 14:00–14:50 | **[Discussion]** [OpenRefine & Wikimedia Communities](https://forum.openrefine.org/t/2025-barcamp-session-proposal-openrefine-wikimedia-communities/2425/1)|
+| 15:00–16:30 | **[Discussion]** [Community Workflow Demos](https://forum.openrefine.org/t/2025-barcamp-session-proposal-community-workflow-demos/2395) & [Collecting Impact Stories Workshop](https://forum.openrefine.org/t/2025-barcamp-session-proposal-collecting-impact-stories-workshop/2514)|
+| 17:00–18:00 | **[Dev]** [Extension Show & Tell](https://forum.openrefine.org/t/2025-barcamp-session-proposal-extension-show-and-tell/2477) |
+
+### Thursday, September 11 – *Contribution Day*
+
+📹 indicates that this session will be recorded
+
+| Time (UTC)       | Session |
+|------------------|---------|
+| 13:00–13:50 | **[Demo]** [How OpenRefine Is Used for Contributing to Wikidata and Wikimedia Commons](https://forum.openrefine.org/t/2025-barcamp-session-proposal-how-openrefine-is-used-for-contributing-to-wikidata-and-wikimedia-commons/2535) 📹 |
+| 14:00–14:50 | **[Discussion]** [Contributor Experience Discussion](https://forum.openrefine.org/t/2025-barcamp-session-proposal-contributor-experience-discussion/2492/) |
+| 15:00–15:50 | **[Discussion]** [Trainers’ Tips & Experiences for Effective OpenRefine Training](https://forum.openrefine.org/t/2025-barcamp-session-proposal-trainers-tips-experiences-for-effective-openrefine-training/2393) |
+| 16:00–17:30 | Ask OpenRefine Anything & Closing Remarks |
+
+
 
 
 ## Event Overview
