@@ -12,9 +12,6 @@ This architecture provides a good separation of concerns (data vs. UI); allows t
 
 The server-side (back-end) part of OpenRefine is implemented in Java as one single servlet which is executed by the [Jetty](http://jetty.codehaus.org/jetty/) web server and servlet container. The use of Java strikes a balance between performance and portability across operating systems (there is very little OS-specific code and has mostly to do with starting the application). 
 
-The functional extensibility of OpenRefine is provided by a fork of the [SIMILE Butterfly](https://github.com/OpenRefine/simile-butterfly) modular web application framework. With this framework, extensions are able to provide new functionality both in the
-server- and client-side. A [list of known extensions](https://openrefine.org/extensions) is maintained on our website and we have [specific documentation for extension developers](technical-reference/writing-extensions.md).
-
 The client-side part of OpenRefine is implemented in HTML, CSS and plain Javascript. It primariy uses the following libraries:
 * [jQuery](http://jquery.com/)
 * [Wikimedia's jQuery.i18n](https://github.com/wikimedia/jquery.i18n)
@@ -25,6 +22,16 @@ Those are fetched at build time via [Apache Maven](https://maven.apache.org/).
 
 The data storage and processing architecture is being transformed. Up to version 3.x, OpenRefine uses an in-memory storage, where the entire project grid is loaded in the Java heap, with operations mutating that state. From 4.x on, OpenRefine uses a
 different architecture, where data is stored on disk by default and cached in memory if the project is small enough.
+
+### Butterfly {#butterfly}
+The functional extensibility of OpenRefine is provided by a fork of the [SIMILE Butterfly](https://github.com/OpenRefine/simile-butterfly) modular web application framework. With this framework, extensions are able to provide new functionality both in the
+server- and client-side. A [list of known extensions](https://openrefine.org/extensions) is maintained on our website and we have [specific documentation for extension developers](technical-reference/writing-extensions.md).
+
+Butterfly organizes back-end functionality using a collection of modules. The only module exposed by OpenRefine is the `core` module, which provides extension points for other modules to hook into.
+
+Each module uses a JavaScript file named `controller.js` to connect different parts of the backend. Butterfly uses a JavaScript interpreter to run this and other provided JavaScript files to configure the back-end. Extensions rely on `controller.js`, and specifically an `init` method within that file, to leverage the aforementioned extension points.
+
+While Butterfly does allow for modules to manage their own API endpoints, extension modules typically register their endpoints through the form of commands. HTTP requests for those commands are then dispatched by the `core` module.
 
 ## Server-side architecture {#server-side-architecture}
 
