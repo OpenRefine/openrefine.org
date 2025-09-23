@@ -283,29 +283,5 @@ The result array will hold up to ten results, depending on how many rows there a
 ```
 
 ## Third-party software libraries {#third-party-software-libraries}
-Libraries using the [OpenRefine API](openrefine-api):
 
-### Python {#python}
-* [refine-client-py](https://github.com/PaulMakepeace/refine-client-py/)
-* [openrefine-client](https://github.com/opencultureconsulting/openrefine-client), a fork of the above with an extended CLI 
-* [refine-python](https://github.com/maxogden/refine-python)
-
-### Ruby {#ruby}
-* [refine-ruby](https://github.com/distillytics/refine-ruby)
-  * The above is a maintained fork of [refine-ruby](https://github.com/maxogden/refine-ruby)
-* [google_refine](https://github.com/chengguangnan/google_refine)
-
-### NodeJS {#nodejs}
-* [node-openrefine](https://github.com/pm5/node-openrefine)
-
-### R {#r}
-* [rrefine](https://cran.r-project.org/web/packages/rrefine/index.html)
-
-### PHP {#php}
-* [openrefine-php-client](https://github.com/keboola/openrefine-php-client)
-
-### Java {#java}
-* [refine-java](https://github.com/ancore/refine-java)
-
-### Bash {#bash}
-* [bash-refine.sh](https://gist.github.com/felixlohmeier/d76bd27fbc4b8ab6d683822cdf61f81d) (templates for shell scripts)
+Libraries using the OpenRefine API are listed on the [Extensions](https://openrefine.org/extensions#client-libraries) website.

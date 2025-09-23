@@ -58,24 +58,24 @@ OpenRefine can connect to several reconciliation services. You can find informat
 
 ## Client libraries
 
-You can automate some OpenRefine operations using one of the existing libraries. Those libraries are using the [OpenRefine API](https://github.com/OpenRefine/OpenRefine/wiki/OpenRefine-API).
+You can automate some OpenRefine operations using one of the existing libraries. Those libraries are using the [OpenRefine API](https://openrefine.org/docs/technical-reference/openrefine-api).
 
-| Language | Name | Latest compatible OpenRefine version |
-|----------|------|--------------------------------------|
-| python   | [openrefine-client](https://github.com/felixlohmeier/openrefine-client) | 3.7 |
-| R | [rrefine](https://cran.r-project.org/web/packages/rrefine/index.html) | 3.7 |
-| java | [refine-java](https://github.com/dtap-gmbh/refine-java) | 3.7 |
-| bash | [orcli](https://github.com/opencultureconsulting/orcli) | 3.7 |
-| C# / .NET | [OpenRefine.Net](https://github.com/ADelRosarioH/OpenRefine.Net) | 3.7 |
+| Language  | Name |
+|-----------|------|
+| bash      | [orcli](https://github.com/opencultureconsulting/orcli) |
+| C# / .NET | [OpenRefine.Net](https://github.com/ADelRosarioH/OpenRefine.Net) |
+| java      | [refine-java](https://github.com/ancore/refine-java) |
+| python    | [openrefine-client](https://github.com/opencultureconsulting/openrefine-client) |
+| R         | [rrefine](https://cran.r-project.org/web/packages/rrefine/index.html) |
 
 ### Legacy client libraries
 
 OpenRefine 3.3 [introduced CSRF tokens](https://github.com/OpenRefine/OpenRefine/wiki/Changes-for-3.3#csrf-protection-changes). The following client libraries have not yet adapted their API calls.
 
-| Language | Name | Latest compatible OpenRefine version |
-|----------|------|--------------------------------------|
-| python   | [refine-client-py](https://github.com/PaulMakepeace/refine-client-py/) | ?
-| python   | [refine-python](https://github.com/maxogden/refine-python) | 3.2 |
-| ruby     | [refine-ruby](https://github.com/maxogden/refine-ruby) | 3.2 |
+| Language   | Name | Latest compatible OpenRefine version |
+|------------|------|--------------------------------------|
 | javascript | [node-openrefine](https://github.com/pm5/node-openrefine) | 3.2 |
-| php | [openrefine-php-client](https://github.com/keboola/openrefine-php-client) | 3.2 |
+| python     | [refine-client-py](https://github.com/PaulMakepeace/refine-client-py/) | 3.2 |
+| python     | [refine-python](https://github.com/maxogden/refine-python) | 3.2 |
+| ruby       | [refine-ruby](https://github.com/distillytics/refine-ruby) (fork) | 3.2 |
+| ruby       | [refine-ruby](https://github.com/maxogden/refine-ruby) | 3.2 |
