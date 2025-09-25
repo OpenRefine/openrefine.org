@@ -13,7 +13,7 @@ This architecture provides a good separation of concerns (data vs. UI); allows t
 The server-side (back-end) part of OpenRefine is implemented in Java as one single servlet which is executed by the [Jetty](http://jetty.codehaus.org/jetty/) web server and servlet container. The use of Java strikes a balance between performance and portability across operating systems (there is very little OS-specific code and has mostly to do with starting the application). 
 
 The functional extensibility of OpenRefine is provided by a fork of the [SIMILE Butterfly](https://github.com/OpenRefine/simile-butterfly) modular web application framework. With this framework, extensions are able to provide new functionality both in the
-server- and client-side. A [list of known extensions](https://openrefine.org/extensions) is maintained on our website and we have [specific documentation for extension developers](technical-reference/writing-extensions.md).
+server- and client-side. A [list of known extensions](/extensions) is maintained on our website and we have [specific documentation for extension developers](technical-reference/writing-extensions.md).
 
 The client-side part of OpenRefine is implemented in HTML, CSS and plain Javascript. It primariy uses the following libraries:
 * [jQuery](http://jquery.com/)

@@ -59,7 +59,7 @@ OpenRefine can connect to several reconciliation services. You can find informat
 
 ## Client libraries
 
-You can automate some OpenRefine operations using one of the existing libraries. Those libraries are using the [OpenRefine API](https://openrefine.org/docs/technical-reference/openrefine-api).
+You can automate some OpenRefine operations using one of the existing libraries. Those libraries are using the [OpenRefine API](/docs/technical-reference/openrefine-api).
 
 | Language  | Name |
 |-----------|------|

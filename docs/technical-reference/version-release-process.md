@@ -22,8 +22,8 @@ git tag -a -m "Second beta" 2.6-beta.2
 git push origin --tags
 ```
 6. Create a GitHub release based on that tag, with a summary of the changes as description of the release. Publishing the GitHub release will trigger the generation of the packaged artifacts, which will be added to the release on GitHub.
-7. Once the artifacts are ready, update the [`releases.json`](https://github.com/OpenRefine/openrefine.org/blob/master/releases.json) file in the openrefine.org repository to reflect this new version. Verify that the correct versions are shown at [http://openrefine.org/download](http://openrefine.org/download)
-8. Announce on the [announcements section of the OpenRefine forum](https://forum.openrefine.org/c/news/13), or even on the [blog](https://openrefine.org/blog) if this is a major release (the blog is imported automatically into the announcements category
+7. Once the artifacts are ready, update the [`releases.json`](https://github.com/OpenRefine/openrefine.org/blob/master/releases.json) file in the openrefine.org repository to reflect this new version. Verify that the correct versions are shown at [https://openrefine.org/download](/download)
+8. Announce on the [announcements section of the OpenRefine forum](https://forum.openrefine.org/c/news/13), or even on the [blog](/blog) if this is a major release (the blog is imported automatically into the announcements category
     of the forum)
 9. Update the version in master to the next version number with `-SNAPSHOT` (such as `4.3-SNAPSHOT`), in the same places as in step 2.
 
@@ -41,8 +41,8 @@ git tag -a -m "Version 3.9.3" 3.9.3
 git push origin --tags
 ```
 5. Create a GitHub release based on that tag, with a summary of the changes as description of the release. Publishing the GitHub release will trigger the generation of the packaged artifacts, which will be added to the release on GitHub. 
-6. Once the artifacts are ready, update the [`releases.json`](https://github.com/OpenRefine/openrefine.org/blob/master/releases.json) file in the openrefine.org repository to reflect this new version. Verify that the correct versions are shown at [http://openrefine.org/download](http://openrefine.org/download)
-7. Announce on the [announcements section of the OpenRefine forum](https://forum.openrefine.org/c/news/13), or even on the [blog](https://openrefine.org/blog) if this is a major release (the blog is imported automatically into the announcements category
+6. Once the artifacts are ready, update the [`releases.json`](https://github.com/OpenRefine/openrefine.org/blob/master/releases.json) file in the openrefine.org repository to reflect this new version. Verify that the correct versions are shown at [https://openrefine.org/download](/download)
+7. Announce on the [announcements section of the OpenRefine forum](https://forum.openrefine.org/c/news/13), or even on the [blog](/blog) if this is a major release (the blog is imported automatically into the announcements category
     of the forum)
 8. Update the version in the minor version branch to the minor version number with `-SNAPSHOT` (such as `3.9-SNAPSHOT`), in the same places as in step 2.
 

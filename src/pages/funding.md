@@ -26,8 +26,8 @@ OpenRefine is a fiscally sponsored project of [Code for Science & Society](https
 
 **Ways to donate:**
 
-- [GitHub sponsorship](https://github.com/sponsors/OpenRefine)
-- [Online form](https://openrefine.org/donate) for Credit Card, PayPal, and Bank Transfer (up to USD 25,000)
+- [GitHub sponsorship](/sponsors/OpenRefine)
+- [Online form](/donate) for Credit Card, PayPal, and Bank Transfer (up to USD 25,000)
 - Via Code for Science & Society from [their donation page](https://www.codeforsociety.org/donate) for larger donations.
 
 We would like to thanks our [current donors](/backers).
@@ -150,7 +150,7 @@ OpenRefine completed the following grants.
 * **Relevant links**: 
   * [Grant application](/uploads/czi-eoss-proposal.pdf)
   * [On CZI's website](https://chanzuckerberg.com/eoss/proposals/scaling-openrefine/)
-  * [OpenRefine blogpost](https://openrefine.org/blog/2019/11/14/2019-11-14)
+  * [OpenRefine blogpost](/blog/2019/11/14/2019-11-14)
   
 #### 2018 Google News Initiative
 * **Status**: Awarded - Completed

@@ -284,4 +284,4 @@ The result array will hold up to ten results, depending on how many rows there a
 
 ## Third-party software libraries {#third-party-software-libraries}
 
-Libraries using the OpenRefine API are listed on the [Extensions](https://openrefine.org/extensions#client-libraries) website.
+Libraries using the OpenRefine API are listed on the [Extensions](/extensions#client-libraries) website.
