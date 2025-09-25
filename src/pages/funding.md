@@ -26,7 +26,7 @@ OpenRefine is a fiscally sponsored project of [Code for Science & Society](https
 
 **Ways to donate:**
 
-- [GitHub sponsorship](/sponsors/OpenRefine)
+- [GitHub sponsorship](https://github.com/sponsors/OpenRefine)
 - [Online form](/donate) for Credit Card, PayPal, and Bank Transfer (up to USD 25,000)
 - Via Code for Science & Society from [their donation page](https://www.codeforsociety.org/donate) for larger donations.
 

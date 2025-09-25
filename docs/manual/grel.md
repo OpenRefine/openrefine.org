@@ -44,8 +44,8 @@ The `<` operator checks if the left operand is less than the right operand, whil
 
 #### References {#references}
 
-- [String Concatenation](docs/manual/grel#basic)
-- [Logical Functions](docs/manual/grelfunctions#boolean-functions)
+- [String Concatenation](/docs/manual/grel#basic)
+- [Logical Functions](/docs/manual/grelfunctions#boolean-functions)
 
 ## Syntax {#syntax}
 

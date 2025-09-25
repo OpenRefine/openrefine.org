@@ -447,7 +447,7 @@ You can also [find your workspace on each operating system using these instructi
 
 Some extensions have their own instructions: make sure you read the documentation before you begin installing.
 
-Some extensions may have multiple versions, to match OpenRefine versions, so be sure to choose the right release for your installation. If you have questions about compatibility or want to request or voice your support for an update, [use our downloads page](/download.html) to go to the extension’s page and report the issue there.
+Some extensions may have multiple versions, to match OpenRefine versions, so be sure to choose the right release for your installation. If you have questions about compatibility or want to request or voice your support for an update, [use our downloads page](/download) to go to the extension’s page and report the issue there.
 
 Generally, the installation process will be:
 
