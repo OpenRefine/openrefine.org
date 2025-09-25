@@ -12,7 +12,7 @@ OpenRefine requires three things on your computer in order to function:
 
 #### Compatible operating system {#compatible-operating-system}
 
-OpenRefine is designed to work with **Windows**, **Mac**, and **Linux** operating systems. [Our team releases packages for each](/download.html).
+OpenRefine is designed to work with **Windows**, **Mac**, and **Linux** operating systems. [Our team releases packages for each](/download).
 
 #### Java {#java}
 
