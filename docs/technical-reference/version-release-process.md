@@ -61,4 +61,4 @@ We have code signing certificates for our iOS distributions. Those are available
 Maven artifact publishing
 ========================
 
-Java artifacts are published to [the `org.openrefine` namespace in Maven Central](https://central.sonatype.com/artifact/org.openrefine/openrefine/overview). Core developer group members and community members with access to the `openrefinedev@gmail.com` account can contact Sonatype support to manage access to the namespace.
+Maven artifacts are published to [the `org.openrefine` namespace in Maven Central](https://central.sonatype.com/artifact/org.openrefine/openrefine/overview) by a small set of approved release managers. Access to the namespace is managed by emailing Sonatype support (only). Core developer group members and community members with access to the `openrefinedev@gmail.com` account can contact Sonatype support to manage access to the namespace.
