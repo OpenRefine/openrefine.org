@@ -58,7 +58,7 @@ We have code signing certificates for our iOS distributions. Those are available
 * Import this certificate in the "Keychain Access" app on your mac
 * The signing workflow can be found in `.github/workflows/snapshot_release.yml`
 
-Java artifact publishing
+Maven artifact publishing
 ========================
 
 Java artifacts are published to [the `org.openrefine` namespace in Maven Central](https://central.sonatype.com/artifact/org.openrefine/openrefine/overview). Core developer group members and community members with access to the `openrefinedev@gmail.com` account can contact Sonatype support to manage access to the namespace.
