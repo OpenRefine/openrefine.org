@@ -38,7 +38,7 @@ From these sources, you can load any of the following file formats:
 *   RDF data (JSON-LD, N3, N-Triples, Turtle, RDF/XML)
 *   Wikitext
 
-More formats can be imported by [adding extensions to provide that functionality](https://openrefine.org/extensions). 
+More formats can be imported by [adding extensions to provide that functionality](/extensions). 
 
 If you supply two or more files for one project, the files’ rows will be loaded in the order that you specify, and OpenRefine will create a column at the beginning of the dataset with the source URL or file name in it to help you identify where each row came from. If the files have columns with identical names, the data will load in those columns; if not, the successive files will append all of their new columns to the end of the dataset:
 

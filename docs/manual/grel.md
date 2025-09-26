@@ -26,7 +26,7 @@ See the [GREL functions page for a thorough reference](grelfunctions) on each fu
 
 #### Arithmetic Operators {#arithmetic-operators}
 
-Refer [GREL functions page](https://openrefine.org/docs/manual/grelfunctions#math-functions) for details on Division Operator.
+Refer [GREL functions page](/docs/manual/grelfunctions#math-functions) for details on Division Operator.
 
 ###### Modulus {#modulus} 
 
@@ -44,8 +44,8 @@ The `<` operator checks if the left operand is less than the right operand, whil
 
 #### References {#references}
 
-- [String Concatenation](https://openrefine.org/docs/manual/grel#basic)
-- [Logical Functions](https://openrefine.org/docs/manual/grelfunctions#boolean-functions)
+- [String Concatenation](/docs/manual/grel#basic)
+- [Logical Functions](/docs/manual/grelfunctions#boolean-functions)
 
 ## Syntax {#syntax}
 

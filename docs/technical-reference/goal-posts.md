@@ -82,7 +82,7 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * **Status**: Needs Scoping
 * **Source**: Prioritization-2024
 * Support for more diverse (human language) alphabets/scripts, date and time formats...
-* No related issue. This feature idea comes from the [Diversity grant](https://openrefine.org/funding#2021-eoss-diversity)
+* No related issue. This feature idea comes from the [Diversity grant](/funding#2021-eoss-diversity)
 
 ### Allow bookmarking and naming starred GREL expressions 
 * **Score**: 58
@@ -182,7 +182,7 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * **Source**: Prioritization-2024
 * Enhance the discoverability of extensions and simplify the installation process. Only present extensions that are currently maintained and compatible with the current version of OpenRefine. There are numerous unresolved issues in this area, as OpenRefine’s architecture is uncommon.
 * Related conversation
-   * Unsucessfull grant applications: [2024-DEF](https://openrefine.org/funding#2024-def) and [2023 Mozilla Infrastructure Fund](https://openrefine.org/funding#2023-mozilla-infrastructure-fund).
+   * Unsucessfull grant applications: [2024-DEF](/funding#2024-def) and [2023 Mozilla Infrastructure Fund](/funding#2023-mozilla-infrastructure-fund).
    * [Forum conversation](https://forum.openrefine.org/t/improving-the-ux-of-extension-install-and-butterfly/52) and [#3223](https://github.com/OpenRefine/OpenRefine/issues/3223).
    * [Antonin's take on extensibility](https://antonin.delpeuch.eu/posts/my-roadmap-for-openrefine/#extensibility).
    * A first version of the extension page was released in 3.9.0, see [#6975](https://github.com/OpenRefine/OpenRefine/pull/6975) and related issues.
