@@ -46,6 +46,11 @@ return {
           position: 'left',
         },
         {
+          to: 'https://store.openrefine.org/',
+          label: 'Store',
+          position: 'right',
+        },
+        {
           to: '/donate',
           label: 'Donate',
           position: 'right',
@@ -99,6 +104,10 @@ return {
             {
               label: 'Ecosystem',
               href: '/ecosystem',
+            },
+            {
+              label: 'Merchandising Store',
+              href: 'https://store.openrefine.org/',
             },
           ],
         },

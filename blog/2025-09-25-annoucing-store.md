@@ -4,7 +4,7 @@ authors:
   - name: Martin Magdinier
 ---
 
-We are excited to announce the launch of the [OpenRefine Merchandising Store](https://openrefine-shop.fourthwall.com/)! 🎉
+We are excited to announce the launch of the [OpenRefine Merchandising Store](https://store.openrefine.org/)! 🎉
 
 This new store is a way for our community to access OpenRefine-branded items, show support at events, and help sustain the project.
 <!--truncate-->
@@ -55,7 +55,7 @@ We soft-launched the store during BarCamp 2025. Early feedback has been encourag
 
 We see this store as an experiment and a service for the community. If it proves useful, we’ll expand it with new designs and products based on your feedback.
 
-👉 Visit the [OpenRefine Merchandising Store](https://openrefine-shop.fourthwall.com/) and let us know what you think!
+👉 Visit the [OpenRefine Merchandising Store](https://store.openrefine.org/) and let us know what you think!
 
 Thank you for continuing to support OpenRefine, whether by contributing code, sharing knowledge, making a [donation](https://openrefine.org/donate), or proudly showing OpenRefine on your shirt or laptop.
 
