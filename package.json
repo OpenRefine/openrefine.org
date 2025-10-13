@@ -19,6 +19,7 @@
     "@docusaurus/preset-classic": "^3.9.1",
     "@docusaurus/theme-mermaid": "^3.9.1",
     "@mdx-js/react": "^3.0.0",
+    "@mermaid-js/layout-elk": "^0.2.0",
     "@types/react": ">= 16.8.0 < 20.0.0",
     "clsx": "^1.2.1",
     "create-docusaurus": "^2.1.0",
