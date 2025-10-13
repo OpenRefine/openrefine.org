@@ -174,7 +174,7 @@ Every contribution, no matter the size, makes a difference. Here’s how your su
 <div className="card margin-bottom--lg">
   <div className="card__body">
     <h3><div className="badge badge--primary">🏆 Patron</div></h3>
-    <p><strong>$5,000+ annually</strong></p>
+    <p><strong>$50,000+ annually</strong></p>
     <p><strong>Sustain our entire mission.</strong> Your leadership gift funds our core development team for months, ensures stability, and enables growth.</p>
   </div>
 </div>
@@ -182,7 +182,7 @@ Every contribution, no matter the size, makes a difference. Here’s how your su
 <div className="card margin-bottom--lg">
   <div className="card__body">
     <h3><div className="badge badge--primary">🤝 Partner</div></h3>
-    <p><strong>$1,000–$4,999 annually</strong></p>
+    <p><strong>$5,000–$49,999 annually</strong></p>
     <p><strong>Power major feature development.</strong> Your partnership enables us to add new capabilities, improve performance, and maintain compatibility with evolving data standards.</p>
   </div>
 </div>
@@ -190,7 +190,7 @@ Every contribution, no matter the size, makes a difference. Here’s how your su
 <div className="card margin-bottom--lg">
   <div className="card__body">
     <h3><div className="badge badge--primary">🎯 Sponsor</div></h3>
-    <p><strong>$100–$999 annually</strong></p>
+    <p><strong>$500–$4,999 annually</strong></p>
     <p><strong>Keep OpenRefine accessible worldwide.</strong> Your sponsorship covers hosting, infrastructure, and community support systems.</p>
     <p><strong>Current backers:</strong> Vanguard Charitable</p>
   </div>
@@ -199,16 +199,9 @@ Every contribution, no matter the size, makes a difference. Here’s how your su
 <div className="card margin-bottom--lg">
   <div className="card__body">
     <h3><div className="badge badge--primary">💪 Sustainer</div></h3>
-    <p><strong>$25–$99 annually (or $5/month)</strong></p>
+    <p><strong>$25–$499 annually</strong></p>
     <p><strong>Power our daily operations.</strong> Your consistent support covers essential infrastructure like servers, security updates, and administration.</p>
     <p><strong>Current backers:</strong> RefinePro, ostephens, DaxServer, alanorth, timtomch, trantor, wetneb, EstebanMH-SiB, btseee</p>
-  </div>
-</div>
-
-<div className="card margin-bottom--lg">
-  <div className="card__body">
-    <h3><div className="badge badge--primary">🛠️ Service & Infrastructure Partners</div></h3>
-    <p>Special thanks to <strong>Coverall</strong>, <strong>Weblate</strong>, <strong>GitHub</strong>, and <strong>Discourse</strong> for their generous in-kind support.</p>
   </div>
 </div>
 
@@ -220,46 +213,62 @@ Every contribution, no matter the size, makes a difference. Here’s how your su
 
 ## Other Ways You Can Help {#other-ways}
 
-Not everyone can contribute financially — here are other powerful ways to support OpenRefine:
+Not everyone can contribute financially, here are other powerful ways to support OpenRefine:
+
 
 <div className="row">
-<div className="col col--6">
-  <div className="card margin-bottom--lg">
-    <div className="card__body">
-      <h3>📢 Spread the Word</h3>
-      <p>Help us reach our $25,000 goal by telling others why OpenRefine matters to you. Share this campaign with colleagues, post about it on social media, or mention it in your presentations and workshops. Every new supporter brings us closer to sustaining our core team in 2026.</p>
+  <div className="col col--6">
+    <div className="card margin-bottom--lg">
+      <div className="card__body">
+        <h3>📢 Spread the Word</h3>
+        <p>Help us reach our $25,000 goal by telling others why OpenRefine matters to you. Share this campaign with colleagues, post about it on social media, or mention it in your presentations and workshops. Every new supporter brings us closer to sustaining our core team in 2026.</p>
+        <div style={{display:'flex', flexWrap:'wrap', gap:'8px'}}>
+          <a className="button button--primary button--sm" href="https://twitter.com/intent/tweet?text=I%27m%20supporting%20OpenRefine%20%E2%80%94%20a%20free%2C%20open-source%20tool%20for%20working%20with%20messy%20data.%20Join%20me%3A&url=https%3A%2F%2Fopenrefine.org%2F2025-fundraising&hashtags=OpenRefine%2Copenscience%2Copendata" target="_blank" rel="noopener">Share on X</a>
+          <a className="button button--primary button--sm" href="https://www.linkedin.com/feed/?shareActive=true&text=I%27m%20supporting%20OpenRefine%20%E2%80%94%20a%20free%2C%20open-source%20tool%20for%20working%20with%20messy%20data.%20Join%20me%3A%20https%3A%2F%2Fopenrefine.org%2F2025-fundraising" target="_blank" rel="noopener">Share on LinkedIn</a>
+          <a className="button button--primary button--sm" href="https://mastodon.social/share?text=I%27m%20supporting%20OpenRefine%20%E2%80%94%20a%20free%2C%20open-source%20tool%20for%20working%20with%20messy%20data.%20Join%20me%3A%20https%3A%2F%2Fopenrefine.org%2F2025-fundraising" target="_blank" rel="noopener">Share on Mastodon</a>
+        </div>
+      </div>
     </div>
   </div>
-</div>
- <div className="col col--6">
+
+<div className="col col--6">
   <div className="card margin-bottom--lg">
     <div className="card__body">
       <h3>🛍️ Get OpenRefine Gear</h3>
       <p>Show your support and spread the word by wearing OpenRefine merch. Proceeds from every order go directly to sustaining the project.</p>
-      <p><a href="https://store.openrefine.org" target="_blank" rel="noopener">Visit the OpenRefine Shop →</a></p>
+      <a className="button button--primary button button---lg" href="https://store.openrefine.org" target="_blank" rel="noopener">Visit the OpenRefine Shop </a>
     </div>
   </div>
 </div>
-  <div className="col col--6">
-    <div className="card margin-bottom--lg">
-      <div className="card__body">
-        <h3>💰 Double Your Impact with Employer Matching</h3>
-        <p>Many employers match charitable donations dollar-for-dollar. Your $100 could instantly become $200.</p>
-        <p><em>Need help? Email us at martin@openrefine.org with "employer matching" in the subject line.</em></p>
-      </div>
+
+<div className="col col--6">
+  <div className="card margin-bottom--lg">
+    <div className="card__body">
+      <h3>🙌 Become an Institutional Champion</h3>
+      <p>If you use OpenRefine at your workplace, university, or library, you can help us build stronger institutional support.</p>
+      <ul>
+      	<li><strong>Employer Matching:</strong> Many employers match charitable donations dollar-for-dollar: your $100 could instantly become $200.</li>
+     	<li><strong>Make the Connection:</strong> Introduce us to your library, department, or procurement contact who can make a <a href="/donate">donation</a> or explore our <em>Institutional Support Program</em>.</li>
+      	<li><strong>Earn a Thank-You Gift:</strong> When your institution contributes, you'll receive a special thank-you item from our merch store, based on their support level.</li>
+      </ul>
+      <a className="button button--primary button button--lg" href="mailto:martin@openrefine.org?subject=OpenRefine%20Institutional%20Referral">Refer Your Institution</a>
     </div>
   </div>
+</div>
 
-
-  <div className="col col--6">
-    <div className="card margin-bottom--lg">
-      <div className="card__body">
-        <h3>🏢 Corporate Sponsorship</h3>
-        <p>If your organization benefits from OpenRefine, consider a sponsorship. We offer recognition, and case study opportunities</p>
-        <p>Contact us at martin@openrefine.org</p>
-      </div>
-    </div>
+<div className="card margin-bottom--lg">
+  <div className="card__body">
+    <h3>🏢 Institutional Support Program</h3>
+    <p>Help keep OpenRefine sustainable by joining our <strong>Institutional Support Program</strong> or by making a <a href="/donate"><strong>direct donation</strong></a>.</p>
+    <p>In <strong>2025</strong>, we are piloting an Institutional Support Program to offer:</p>
+    <ul>
+      <li><strong>Visibility:</strong> and recognition on our website and in community reports.</li>
+      <li><strong>Resources:</strong> curated materials to help your staff and contributors use OpenRefine more effectively with curated resources.</li>
+      <li><strong>Merchandising:</strong> thank-you items for your teams.</li>
+    </ul>
+    <a className="button button--primary button button--lg" href="mailto:martin@openrefine.org?subject=OpenRefine%20Institutional%20Support%20Program">Request the Institutional Support Program description</a>
   </div>
+</div>
 </div>
 
 ---
@@ -268,7 +277,7 @@ Not everyone can contribute financially — here are other powerful ways to supp
   <div className="container text--center">
     <h2>The Choice is Yours</h2>
     <p style={{fontSize:'1.1rem'}}>
-      OpenRefine can continue being the free, powerful data tool that millions depend on — but sustaining our core team requires your support. Without it, we risk losing the capacity to release regularly, respond quickly to community needs, and grow partnerships.
+      OpenRefine can continue being the free, powerful data tool that millions depend on, but sustaining our core team requires your support. Without it, we risk losing the capacity to release regularly, respond quickly to community needs, and grow partnerships.
     </p>
     <p style={{fontSize:'1.1rem'}}><strong>Will you be part of the community that keeps data tools free and accessible for everyone?</strong></p>
     <div style={{marginTop:'0.5rem', textAlign:'center'}}>
