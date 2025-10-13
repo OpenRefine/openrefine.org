@@ -236,7 +236,7 @@ Not everyone can contribute financially — here are other powerful ways to supp
     <div className="card__body">
       <h3>🛍️ Get OpenRefine Gear</h3>
       <p>Show your support and spread the word by wearing OpenRefine merch. Proceeds from every order go directly to sustaining the project.</p>
-      <p><a href="https://openrefine-shop.fourthwall.com/" target="_blank" rel="noopener">Visit the OpenRefine Shop →</a></p>
+      <p><a href="https://store.openrefine.org" target="_blank" rel="noopener">Visit the OpenRefine Shop →</a></p>
     </div>
   </div>
 </div>
