@@ -46,7 +46,7 @@ return {
           position: 'left',
         },
         {
-          to: '/donate',
+          to: '/2025-fundraising',
           label: 'Donate',
           position: 'right',
         },
