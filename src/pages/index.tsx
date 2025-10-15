@@ -26,7 +26,7 @@ function HeaderSection() {
         </div>
       </div>
             <div>
-      <Link className="button button--primary" to="https://store.openrefine.org" style={{fontSize: '1.5em', marginTop: '1em'}}>OpenRefine Merch Store is now open <p></p> 👉 Visit & support OpenRefine</Link>
+      <Link className="button button--primary" to="/2025-fundraising" style={{fontSize: '1.5em'}}>Support OpenRefine 2025 Fundraising Campaign</Link>
   </div>
       <div className="row">
         <div style={{textAlign: 'center', width: '100%', marginTop: '2em'}}>
