@@ -147,22 +147,46 @@ See how OpenRefine is making a difference in the hands of real users:
   </div>
 </div>
 
-<div className="card margin-bottom--lg" style={{background:'var(--ifm-color-primary)', color:'var(--ifm-color-white)'}}>
-  <div className="card__body" style={{textAlign:'center'}}>
-    <p style={{fontStyle:'italic', margin:0}}>
-      Transparency and independence have made OpenRefine the trusted choice for sensitive work: investigative journalism, academic research, government accountability, and nonprofit advocacy. <strong>What story will your support help create next?</strong>
+<div
+  className="card margin-bottom--lg"
+  style={{
+    background: 'var(--ifm-color-primary)',
+    color: 'var(--ifm-color-white)',
+    borderRadius: '12px',
+    padding: '3rem 2rem',
+    textAlign: 'center',
+  }}
+>
+  <div
+    className="card__body"
+    style={{
+      maxWidth: '900px',
+      margin: '0 auto',
+    }}
+  >
+    <p
+      style={{
+        fontStyle: 'italic',
+        fontSize: '1.25rem',
+        lineHeight: '1.8',
+        marginBottom: 0,
+      }}
+    >
+      Transparency and independence have made <strong>OpenRefine</strong> the trusted choice for
+      sensitive work — investigative journalism, academic research, government accountability,
+      and nonprofit advocacy.
+    </p>
+    <p
+      style={{
+        fontWeight: '700',
+        fontSize: '1.4rem',
+        marginTop: '1.5rem',
+      }}
+    >
+      What story will your support help create next?
     </p>
   </div>
 </div>
-
-<div style={{ textAlign: 'center' }}>
-  <img 
-    src="/img/2024-quote.png" 
-    alt="Quote saying: OpenRefine is the best tool for my data needs. I am so grateful that this tool exists and is still maintained. - 2024 Survey Respondent" 
-    style={{ width: '600px' }}
-  />
-</div>
-<br />
 
 
 ---
@@ -171,43 +195,64 @@ See how OpenRefine is making a difference in the hands of real users:
 
 Every contribution, no matter the size, makes a difference. Here’s how your support directly enables our mission:
 
-<div className="card margin-bottom--lg">
-  <div className="card__body">
-    <h3><div className="badge badge--primary">🏆 Patron</div></h3>
-    <p><strong>$50,000+ annually</strong></p>
-    <p><strong>Sustain our entire mission.</strong> Your leadership gift funds our core development team for months, ensures stability, and enables growth.</p>
-  </div>
-</div>
+<div className="row" style={{marginTop:'1rem'}}>
 
-<div className="card margin-bottom--lg">
-  <div className="card__body">
-    <h3><div className="badge badge--primary">🤝 Partner</div></h3>
-    <p><strong>$5,000–$49,999 annually</strong></p>
-    <p><strong>Power major feature development.</strong> Your partnership enables us to add new capabilities, improve performance, and maintain compatibility with evolving data standards.</p>
+  <div className="col col--3">
+    <div className="card h-100">
+      <div className="card__header" style={{background:'var(--ifm-color-primary)', color:'white', textAlign:'center'}}>
+        <strong>🏆 Patron</strong>
+      </div>
+      <div className="card__body">
+        <p><strong>$50,000+ annually</strong></p>
+        <p><strong>Sustain our entire mission.</strong> Your leadership gift funds our core development team for months, ensures stability, and enables growth.</p>
+      </div>
+    </div>
   </div>
-</div>
 
-<div className="card margin-bottom--lg">
-  <div className="card__body">
-    <h3><div className="badge badge--primary">🎯 Sponsor</div></h3>
-    <p><strong>$500–$4,999 annually</strong></p>
-    <p><strong>Keep OpenRefine accessible worldwide.</strong> Your sponsorship covers hosting, infrastructure, and community support systems.</p>
-    <p><strong>Current backers:</strong> Vanguard Charitable</p>
+  <div className="col col--3">
+    <div className="card h-100">
+      <div className="card__header" style={{background:'var(--ifm-color-primary)', color:'white', textAlign:'center'}}>
+        <strong>🤝 Partner</strong>
+      </div>
+      <div className="card__body">
+        <p><strong>$5,000–$49,999 annually</strong></p>
+        <p><strong>Power major feature development.</strong> Your partnership enables us to add new capabilities, improve performance, and maintain compatibility with evolving data standards.</p>
+      </div>
+    </div>
   </div>
-</div>
 
-<div className="card margin-bottom--lg">
-  <div className="card__body">
-    <h3><div className="badge badge--primary">💪 Sustainer</div></h3>
-    <p><strong>$25–$499 annually</strong></p>
-    <p><strong>Power our daily operations.</strong> Your consistent support covers essential infrastructure like servers, security updates, and administration.</p>
-    <p><strong>Current backers:</strong> RefinePro, ostephens, DaxServer, alanorth, timtomch, trantor, wetneb, EstebanMH-SiB, btseee</p>
+  <div className="col col--3">
+    <div className="card h-100">
+      <div className="card__header" style={{background:'var(--ifm-color-primary)', color:'white', textAlign:'center'}}>
+        <strong>🎯 Sponsor</strong>
+      </div>
+      <div className="card__body">
+        <p><strong>$500–$4,999 annually</strong></p>
+        <p><strong>Keep OpenRefine accessible worldwide.</strong> Your sponsorship covers hosting, infrastructure, and community support systems.</p>
+        <p><strong>Current backers:</strong> Vanguard Charitable</p>
+      </div>
+    </div>
   </div>
+
+  <div className="col col--3">
+    <div className="card h-100">
+      <div className="card__header" style={{background:'var(--ifm-color-primary)', color:'white', textAlign:'center'}}>
+        <strong>💪 Sustainer</strong>
+      </div>
+      <div className="card__body">
+        <p><strong>$25–$499 annually</strong></p>
+        <p><strong>Power our daily operations.</strong> Your consistent support covers essential infrastructure like servers, security updates, and administration.</p>
+        <p><strong>Current backers:</strong> RefinePro, ostephens, DaxServer, alanorth, timtomch, trantor, wetneb, EstebanMH-SiB, btseee</p>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <div style={{textAlign:'center', marginTop:'1rem'}}>
   <a className="button button--danger button--lg" href="/donate">Donate Now</a>
 </div>
+
 
 ---
 
