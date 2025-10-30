@@ -5,7 +5,7 @@ hide_table_of_contents: true
 ---
 
 <div className="alert alert--danger" role="alert" style={{fontWeight:'bold', textAlign:'center'}}>
-  ⏰ We need to raise $25,000 by December 31st to sustain OpenRefine’s core team and keep the project strong in 2026
+  ⏰ Thanks to early support, including a $25,000 contribution from FLOSS/fund. We're halfway to our $50,000 goal! Help us close the gap by December 31 to keep OpenRefine strong in 2026.
 </div>
 <p></p>
 <section className="hero hero--primary">
@@ -28,7 +28,9 @@ hide_table_of_contents: true
 
 ## We Need Your Help to Sustain Our Model
 
-**For the last seven years OpenRefine has followed a grant-based sustainability model, enabling a small core team to maintain the software, coordinate the community, and handle essential administration.** Without raising $25,000 by the end of this year, we will not be able to continue this model in 2026.
+The first half of our campaign was kick-started by a generous **$25,000 donation from FLOSS/fund**. This early support gives us strong momentum, but we still need to raise **another $25,000 by December 31st** to reach our $50,000 goal and sustain OpenRefine's core team in 2026.
+
+For the last seven years OpenRefine has followed a grant-based sustainability model, enabling a small core team to maintain the software, coordinate the community, and handle essential administration. Without raising $25,000 by the end of this year, we will not be able to continue this model in 2026.
 
 The project itself will continue, but ran purely on volunteer effort before as it did before 2019. Without this community-funded model, we risk slower development, reduced support for contributors, and fewer opportunities to collaborate with partners like Wikimedia, Universities and Research Institutes.
 <br></br>
@@ -46,7 +48,7 @@ The project itself will continue, but ran purely on volunteer effort before as i
   }}
 >
   <div style={{
-    width:'2%',
+    width:'51%',
     height:'100%',
     background:'linear-gradient(90deg, var(--ifm-color-primary), #5aa0ff)',
     transition:'width .4s ease'
@@ -55,10 +57,10 @@ The project itself will continue, but ran purely on volunteer effort before as i
     position:'absolute', inset:0, display:'flex',
     alignItems:'center', justifyContent:'center',
     fontSize:12, fontWeight:700
-  }}>2%</div>
+  }}>51%</div>
 </div>
 <div style={{textAlign:'center'}}>
-  <strong>$500 raised</strong> of $25,000 goal
+  <strong>$25,550 raised</strong> of $50,000 goal
 </div>
 
 <div style={{textAlign:'center', marginTop:'0.5rem', marginBottom:'1rem'}}>
@@ -70,7 +72,7 @@ The project itself will continue, but ran purely on volunteer effort before as i
 
 ## Your Support Powers Real Impact
 
-Over the year OpenRefine grew from a software, to a core part of the today’s digital infrastructure for Wikipedian, Libraries, Journalist and Researchers. It allows people in all sectors to explore, clean, and connect data without needing expensive commercial tools. Your support directly enables OpenRefine's independence, ensuring we can focus on what matters most: building exceptional tools for data work. Each contribution helps us:
+Over the year OpenRefine grew from a software, to a core part of the today's digital infrastructure for Wikipedian, Libraries, Journalist and Researchers. It allows people in all sectors to explore, clean, and connect data without needing expensive commercial tools. Your support directly enables OpenRefine's independence, ensuring we can focus on what matters most: building exceptional tools for data work. Each contribution helps us:
 * Host annual community events like Barcamp
 * Develop features based on community feedback, and provide frequent releases
 * Maintain rigorous security and privacy standards
@@ -193,7 +195,7 @@ See how OpenRefine is making a difference in the hands of real users:
 
 ## Join Our Community of Supporters {#donate}
 
-Every contribution, no matter the size, makes a difference. Here’s how your support directly enables our mission:
+Every contribution, no matter the size, makes a difference. Here's how your support directly enables our mission:
 
 <div className="row" style={{marginTop:'1rem'}}>
 
@@ -217,6 +219,7 @@ Every contribution, no matter the size, makes a difference. Here’s how your su
       <div className="card__body">
         <p><strong>$5,000–$49,999 annually</strong></p>
         <p><strong>Power major feature development.</strong> Your partnership enables us to add new capabilities, improve performance, and maintain compatibility with evolving data standards.</p>
+        <p><strong>Current backers:</strong> FLOSS/fund</p>
       </div>
     </div>
   </div>
@@ -266,7 +269,7 @@ Not everyone can contribute financially, here are other powerful ways to support
     <div className="card margin-bottom--lg">
       <div className="card__body">
         <h3>📢 Spread the Word</h3>
-        <p>Help us reach our $25,000 goal by telling others why OpenRefine matters to you. Share this campaign with colleagues, post about it on social media, or mention it in your presentations and workshops. Every new supporter brings us closer to sustaining our core team in 2026.</p>
+        <p>Help us reach our $50,000 goal by telling others why OpenRefine matters to you. Share this campaign with colleagues, post about it on social media, or mention it in your presentations and workshops. Every new supporter brings us closer to sustaining our core team in 2026.</p>
         <div style={{display:'flex', flexWrap:'wrap', gap:'8px'}}>
           <a className="button button--primary button--sm" href="https://twitter.com/intent/tweet?text=I%27m%20supporting%20OpenRefine%20%E2%80%94%20a%20free%2C%20open-source%20tool%20for%20working%20with%20messy%20data.%20Join%20me%3A&url=https%3A%2F%2Fopenrefine.org%2F2025-fundraising&hashtags=OpenRefine%2Copenscience%2Copendata" target="_blank" rel="noopener">Share on X</a>
           <a className="button button--primary button--sm" href="https://www.linkedin.com/feed/?shareActive=true&text=I%27m%20supporting%20OpenRefine%20%E2%80%94%20a%20free%2C%20open-source%20tool%20for%20working%20with%20messy%20data.%20Join%20me%3A%20https%3A%2F%2Fopenrefine.org%2F2025-fundraising" target="_blank" rel="noopener">Share on LinkedIn</a>
@@ -324,7 +327,7 @@ Not everyone can contribute financially, here are other powerful ways to support
     <p style={{fontSize:'1.1rem'}}>
       OpenRefine can continue being the free, powerful data tool that millions depend on, but sustaining our core team requires your support. Without it, we risk losing the capacity to release regularly, respond quickly to community needs, and grow partnerships.
     </p>
-    <p style={{fontSize:'1.1rem'}}><strong>Will you be part of the community that keeps data tools free and accessible for everyone?</strong></p>
+    <p style={{fontSize:'1.1rem'}}><strong>Together we've reached half our goal, now let's finish strong. Will you help us reach $50,000 and keep OpenRefine thriving in 2026?</strong></p>
     <div style={{marginTop:'0.5rem', textAlign:'center'}}>
       <a className="button button--danger button--lg" href="/donate">Yes, I'll Support OpenRefine</a>
     </div>

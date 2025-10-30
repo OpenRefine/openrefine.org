@@ -17,6 +17,8 @@ Over $50,000 donated in 2025. Fully sustains OpenRefine’s annual budget, fundi
 ## Partner
 Between $5,000 and $50,000 donated in 2025. Underwrites multiple months of core-team development, feature work, and contributor support.
 
+* FLOSS/fund (one-time)
+
 ## Sponsor 
 Between $500 and $5,000 donated in 2025. Enables us to represent OpenRefine at conferences and expand our community outreach.
 
