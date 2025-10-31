@@ -61,7 +61,17 @@ If you're interested in partnering with us for a grant, [contact us](https://for
 * **Relevant links**: 
   * [Grant application](/uploads/2025-NLNet-in-app-recon.pdf) 
   * [Forum thread](https://forum.openrefine.org/t/2025-nlnet-ngi-zero-commons-fund/2381)
-  
+
+#### 2025 Digital Science Catalyst Grant
+* **Status**: Grant application
+* **Amount**: GBP 25,000
+* **Source**: [Digital Science Catalyst Grant.](https://www.digital-science.com/investment/catalyst-grant)
+* **Start date**: January 2026
+* **End date**: August 2026
+* **Relevant links**: 
+  * [Grant application](/uploads/2025-Catalyst-Grant.pdf)
+  * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-2025-digital-science-catalyst-grant/2574)
+
 ### Active Grants
 
 OpenRefine is currently working on the following grants. 
