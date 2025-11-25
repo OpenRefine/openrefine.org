@@ -99,10 +99,6 @@ return {
               href: '/extensions',
             },
             {
-              label: 'Other distributions',
-              href: '/distributions',
-            },
-            {
               label: 'Ecosystem',
               href: '/ecosystem',
             },
