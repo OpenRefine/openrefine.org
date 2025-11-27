@@ -42,36 +42,6 @@ OpenRefine is actively applying to grant opportunities listed in this section. W
 If you're interested in partnering with us for a grant, [contact us](https://forum.openrefine.org/). 
 
 
-#### 2025 NLNet: Hardening OpenRefine’s Extension Architecture
-* **Status**: Grant application
-* **Amount**: EUR 49,881.25
-* **Source**: [NGI Zero Commons Fund](https://nlnet.nl/commonsfund/)
-* **Start date**: January 2026
-* **End date**: August 2026
-* **Relevant links**: 
-  * [Grant application](/uploads/2025-NLNet-hardening-extension.pdf) 
-  * [Forum thread](https://forum.openrefine.org/t/2025-nlnet-ngi-zero-commons-fund/2381)
-  
-#### 2025 NLNet: Native In-App Reconciliation of Arbitrary Local Data Sets 
-* **Status**: Grant application
-* **Amount**: EUR 49,961.75
-* **Source**: [NGI Zero Commons Fund](https://nlnet.nl/commonsfund/)
-* **Start date**: January 2026
-* **End date**: August 2026
-* **Relevant links**: 
-  * [Grant application](/uploads/2025-NLNet-in-app-recon.pdf) 
-  * [Forum thread](https://forum.openrefine.org/t/2025-nlnet-ngi-zero-commons-fund/2381)
-
-#### 2025 Digital Science Catalyst Grant
-* **Status**: Grant application
-* **Amount**: GBP 25,000
-* **Source**: [Digital Science Catalyst Grant.](https://www.digital-science.com/investment/catalyst-grant)
-* **Start date**: January 2026
-* **End date**: August 2026
-* **Relevant links**: 
-  * [Grant application](/uploads/2025-Catalyst-Grant.pdf)
-  * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-2025-digital-science-catalyst-grant/2574)
-
 ### Active Grants
 
 OpenRefine is currently working on the following grants. 
@@ -175,6 +145,36 @@ OpenRefine completed the following grants.
 
 We applied for the following grant opportunities, but our proposals were not selected. 
 
+#### 2025 NLNet: Hardening OpenRefine’s Extension Architecture
+* **Status**: Grant application
+* **Amount**: EUR 49,881.25
+* **Source**: [NGI Zero Commons Fund](https://nlnet.nl/commonsfund/)
+* **Start date**: January 2026
+* **End date**: August 2026
+* **Relevant links**: 
+  * [Grant application](/uploads/2025-NLNet-hardening-extension.pdf) 
+  * [Forum thread](https://forum.openrefine.org/t/2025-nlnet-ngi-zero-commons-fund/2381)
+  
+#### 2025 NLNet: Native In-App Reconciliation of Arbitrary Local Data Sets 
+* **Status**: Grant application
+* **Amount**: EUR 49,961.75
+* **Source**: [NGI Zero Commons Fund](https://nlnet.nl/commonsfund/)
+* **Start date**: January 2026
+* **End date**: August 2026
+* **Relevant links**: 
+  * [Grant application](/uploads/2025-NLNet-in-app-recon.pdf) 
+  * [Forum thread](https://forum.openrefine.org/t/2025-nlnet-ngi-zero-commons-fund/2381)
+
+#### 2025 Digital Science Catalyst Grant
+* **Status**: Grant application
+* **Amount**: GBP 25,000
+* **Source**: [Digital Science Catalyst Grant.](https://www.digital-science.com/investment/catalyst-grant)
+* **Start date**: January 2026
+* **End date**: August 2026
+* **Relevant links**: 
+  * [Grant application](/uploads/2025-Catalyst-Grant.pdf)
+  * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-2025-digital-science-catalyst-grant/2574)
+  
 #### 2025 Research Software Maintenance Fund
 * **Status**: Not Awarded
 * **Amount**: up to GBP 500,000 available in partnership with other organizations.

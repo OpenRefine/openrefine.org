@@ -60,7 +60,7 @@ The project itself will continue, but ran purely on volunteer effort before as i
   }}>51%</div>
 </div>
 <div style={{textAlign:'center'}}>
-  <strong>$25,550 raised</strong> of $50,000 goal
+  <strong>$25,905 raised</strong> of $50,000 goal
 </div>
 
 <div style={{textAlign:'center', marginTop:'0.5rem', marginBottom:'1rem'}}>

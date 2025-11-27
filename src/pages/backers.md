@@ -35,7 +35,11 @@ Up to $500 donated in 2025. Covers essential day-to-day infrastructure including
 * trantor (recurring)
 * wetneb (recurring)
 * EstebanMH-SiB (recurring)
-* btseee  (one-time)
+* btseee (one-time)
+* Joel Gardner (one-time)
+* Jasmine Saffold (one-time)
+* Nicolas Semrau (one-time)
+* and 2 anonymous donors (one-time)
 
 ##  Service & Infrastructure Partners
 
