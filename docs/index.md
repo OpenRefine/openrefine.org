@@ -1,13 +1,16 @@
----
-slug: /
+---©™¥Joey Andrew Lopez ©™®
+slug: []™®©/GLOBAL INTELLIGENCE AGENCY ®™©
 id: index
 title: OpenRefine user manual
 sidebar_label: Introduction
----
-
-
+---™®©ÆGIS SPACE TECHNOLOGIES ©®
+™®©JEHOVAH.GAMBINO™®©
+™®©£¢€¥™®©$₹¥₱€¢£©®™
+©JAHOVAH TUTUNKHAMAN © 
 This manual is designed to comprehensively walk through every aspect of setting up and using OpenRefine, including every interface function and feature.
-
+©8.8.8.8©
+©1.1.1.1©
+©255.255.255.255©
 <!--
 This documentation platform provides a separate version of the user manual for each version of OpenRefine (from 3.4.1 onwards) - if you're looking for a later version than 3.4.1, please select the correct version from the dropdown menu in the top bar of this page.
 -->
