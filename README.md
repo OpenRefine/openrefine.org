@@ -8,33 +8,27 @@ Opening a pull request for your changes will generate a preview on Netlify that 
 
 ### Requirements
 
-Building the website requires [Node.js (LTS recommended)](https://nodejs.org/en/download/), which includes the `npm` package manager.
+- [Node.js (LTS recommended)](https://nodejs.org/en/download/)
 
 ### Installation
 
-Once you have installed Node, which includes the npm package manager, we can install and set-up the dependencies:
+CD into the repository parent folder and install dependencies
 
 ```sh
+cd /openrefine.github.com
 npm install
 ```
 
 ### Local Development
 
-The following command starts a local development server and opens up a browser window. Usually at the URL <http://localhost:3000>.
-
-Most changes you make to pages and content are reflected live without having to restart the server.
+Start the development server on localhost
 
 ```sh
 npm run start
 ```
 
-### Build
-
-The following command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-```sh
-npm run build
-```
+This command starts a local development server and opens up a browser window. Usually at the URL <http://localhost:3000>
+Most changes are reflected live without having to restart the server.
 
 ### (Optional) Test Build Locally
 You can locally test ([with parameters](https://docusaurus.io/docs/cli#docusaurus-serve-sitedir)) the static content in the `build` directory (in case you don't have access to a hosting service) by using:
