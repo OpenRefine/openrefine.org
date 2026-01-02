@@ -1,11 +1,17 @@
 export default async function createConfigAsync() {
 
 return {
+  future: {
+  v4: true, // opt-in for Docusaurus v4 planned changes
+  experimental_faster: false, // turns Docusaurus Faster on globally
+  },
   markdown: {
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'throw',
+    },
   },
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
   onBrokenAnchors: 'warn',
   title: 'OpenRefine',
   tagline: 'A power tool for working with messy data.',
@@ -224,7 +230,7 @@ return {
         blog: {
           blogSidebarCount: 'ALL',
           onInlineAuthors: 'ignore',
-          
+          onUntruncatedBlogPosts: 'ignore'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
