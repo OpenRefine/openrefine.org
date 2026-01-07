@@ -188,5 +188,5 @@ code {
 /* Fix button text contrast in dark mode */
 html[data-theme="dark"] .button.button--primary,
 html[data-theme="dark"] .button.button--secondary {
-  color: var(--ifm-color-white);
+  color: var(--ifm-font-color-base);
 }
