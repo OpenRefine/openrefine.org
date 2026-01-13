@@ -53,6 +53,15 @@ html[data-theme="dark"] {
   --ifm-code-color: var(--ifm-color-primary-light);
 }
 
+.footer .footer__link-item,
+.footer__copyright {
+  color: #c5c5c5;
+}
+
+.footer__copyright a {
+  color: #88c9f2;
+}
+
 /******* MARKDOWN STYLES *******/
 
 .alert {
