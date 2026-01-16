@@ -299,6 +299,10 @@ Returns an array of the word n-grams of s. That is, it lists all the possible co
 
 Returns the [n-gram fingerprint](cellediting#clustering-methods) of s. For example, `"banana".ngram(2)` would output “anbana”, after first generating the 2-grams “ba an na an na”, removing duplicates, and sorting them alphabetically.
 
+###### normalize(s) {#normalize}
+
+Returns a normalized version of the input string by removing diacritics and normalizing extended western characters to their ASCII representation.
+
 ###### unicode(s) {#unicodes}
 
 Returns an array of strings describing each character of s in their full unicode notation. For example, `"Bernice Rubens".unicode()` outputs [ 66, 101, 114, 110, 105, 99, 101, 32, 82, 117, 98, 101, 110, 115 ].
