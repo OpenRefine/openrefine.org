@@ -345,7 +345,7 @@ The first string is the prefix that gets prepended to each expression so that we
 
 ## Testing
 
-Like OpenRefine core, extensions can test backend code through Java unit tests and frontend/integration tests can be written using Cypress. In addition to the resources below, extension authors are encouraged to review the documentation related to [functional tests](https://openrefine.org/docs/technical-reference/functional-tests) in OpenRefine core.
+Like OpenRefine core, extensions can test backend code through Java unit tests and frontend/integration tests can be written using Cypress. In addition to the resources below, extension authors are encouraged to review the documentation related to [functional tests](/docs/technical-reference/functional-tests) in OpenRefine core.
 
 Please note that Java unit tests can be run from the command line with no additional setup, but integration tests need to have a running instance of OpenRefine to test against.
 
@@ -353,5 +353,17 @@ Please note that Java unit tests can be run from the command line with no additi
 The sample extension template includes a reference unit test suite which leverages [the `RefineTest` base class](https://github.com/OpenRefine/OpenRefine/blob/master/modules/core/src/test/java/com/google/refine/RefineTest.java) provided by OpenRefine core. Tests are not required to extend `RefineTest`, but that class provides many utilities that may help you test your extension.
 
 ### End to end testing in Cypress
-OpenRefine uses [Cypress](https://www.cypress.io/) to automate frontend and integration testing. To get started with end-to-end testing, [this guide in the Cypress docs](https://docs.cypress.io/app/end-to-end-testing/writing-your-first-end-to-end-test) may be helpful. The [documentation for OpenRefine's functional tests](https://openrefine.org/docs/technical-reference/functional-tests) also provides guidance for writing Cypress tests. For reference, please see the [Cypress tests in OpenRefine core](https://github.com/OpenRefine/OpenRefine/tree/master/main/tests/cypress) and the [Cypress tests in CommonsExtension](https://github.com/OpenRefine/CommonsExtension/tree/master/cypress).
+OpenRefine uses [Cypress](https://www.cypress.io/) to automate frontend and integration testing. To get started with end-to-end testing, [this guide in the Cypress docs](https://docs.cypress.io/app/end-to-end-testing/writing-your-first-end-to-end-test) may be helpful. The [documentation for OpenRefine's functional tests](/docs/technical-reference/functional-tests) also provides guidance for writing Cypress tests. For reference, please see the [Cypress tests in OpenRefine core](https://github.com/OpenRefine/OpenRefine/tree/master/main/tests/cypress) and the [Cypress tests in CommonsExtension](https://github.com/OpenRefine/CommonsExtension/tree/master/cypress).
+
+When running Cypress tests, it is important to remember that the instance of OpenRefine being tested must have the [extension installed](/docs/manual/installing#installing-extensions). The `REFINE_DATA_DIR` environment variable is a helpful way of configuring the location of your extensions.
+
 Cypress can also be run in headless mode, enabling end-to-end tests in CI/CD pipelines. The documentation for this feature can be found [on the Cypress website](https://docs.cypress.io/app/continuous-integration/overview) and an example script for running end-to-end tests can be found in [the `refine` shell script](https://github.com/OpenRefine/OpenRefine/blob/master/refine#L364-L443).
+
+#### Testing OpenRefine with your extension installed
+Even without a dedicated test suite for the extension, Cypress tests can aid extension developers. The same setup above allows extension developers to run the core OpenRefine Cypress suite. This allows extension developers to confirm that their extension does not interfere with any core OpenRefine operations. Once again, install your extension in a dedicated test directory and start OpenRefine using that directory like so:
+```
+# note: your extension should be in a directory called "extensions" within this directory
+REFINE_DATA_DIR=/path/to/your/test/directory ./refine
+```
+
+The Cypress tests can be run by following the remaining steps in the [functional tests documentation](/docs/technical-reference/functional-tests) and will now run against an OpenRefine instance that has your extension installed.
