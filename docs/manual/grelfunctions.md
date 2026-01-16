@@ -305,6 +305,8 @@ Returns the [n-gram fingerprint](cellediting#clustering-methods) of s. For examp
 
 Returns a normalized version of the input string by removing diacritics and normalizing extended western characters to their ASCII representation.
 
+This function available since OpenRefine 3.10.
+
 ###### unicode(s) {#unicodes}
 
 Returns an array of strings describing each character of s in their full unicode notation. For example, `"Bernice Rubens".unicode()` outputs [ 66, 101, 114, 110, 105, 99, 101, 32, 82, 117, 98, 101, 110, 115 ].
