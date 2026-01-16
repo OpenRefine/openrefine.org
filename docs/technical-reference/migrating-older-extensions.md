@@ -51,7 +51,7 @@ For any library that your extension depends on, you should try to find a matchin
 
 And add the dependency to the `<dependencies>` section as usual:
 
-```
+```xml
      <dependency>
          <groupId>com.my.company</groupId>
          <artifactId>my-library</artifactId>
