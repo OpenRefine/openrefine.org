@@ -251,7 +251,9 @@ Takes two strings and compares them, returning a string. Returns the remainder o
 
 ###### escape(s, s mode) {#escapes-s-mode}
 
-Escapes s in the given escaping mode. The mode can be one of: "html", "xml", "csv", "url", "javascript". Note that quotes are required around your mode. See the [recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes#question-marks--showing-in-your-data) for examples of escaping and unescaping.
+Escapes s in the given escaping mode. The mode can be one of: "html", "xml", "csv", "url", "urlpath", "urlform", "urlfragment", "javascript". Note that quotes are required around your mode. See the [recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes#question-marks--showing-in-your-data) for examples of escaping and unescaping.
+
+Modes "urlpath", "urlform", and "urlfragment"  available since OpenRefine 3.9.
 
 ###### unescape(s, s mode) {#unescapes-s-mode}
 
