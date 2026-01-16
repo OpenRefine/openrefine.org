@@ -258,7 +258,7 @@ formats, where all components are floating point numbers in degrees:
     (for instance: `49.265278,4.028611,0.1` can be used indicate the
     position of Reims within a tenth of a degree).
 
-All globe coordinates are on Earth ([Q2](https://www.wikidata.org/wiki/Q2)).
+All globe coordinates are on Earth ([Q2](https://www.wikidata.org/wiki/Q2)) using coordinate system WGS84.
 
 If your coordinates are in a different format, such as
 `49° 15′ 55″ N, 4° 1′ 43″ E`, you will need to convert them to decimal
