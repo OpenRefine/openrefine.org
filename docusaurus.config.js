@@ -1,10 +1,6 @@
 export default async function createConfigAsync() {
 
 return {
-  future: {
-  v4: true, // opt-in for Docusaurus v4 planned changes
-  experimental_faster: false, // turns Docusaurus Faster on globally
-  },
   markdown: {
     mermaid: true,
     hooks: {
