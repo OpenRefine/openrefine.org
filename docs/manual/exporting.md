@@ -18,20 +18,20 @@ Many of the options only export data in the current view - that is, with current
 
 To export data from a project, click the <span class="menuItems">Export</span> dropdown button in the top right corner and pick the format you want. Your options are:
 
-*   Tab-separated value (TSV) or Comma-separated value (CSV)
-*   HTML-formatted table
-*   Excel spreadsheet (XLS or XLSX)
-*   Open Document Format (ODF) spreadsheet (ODS)
-*   Upload to Google Sheets (requires [Google account authorization](starting#google-sheet-from-drive))
-*   [Custom tabular exporter](#custom-tabular-exporter)
-*   [SQL statement exporter](#sql-statement-exporter)
-*   [Templating exporter](#templating-exporter), which generates JSON by default
+* Tab-separated value (TSV) or Comma-separated value (CSV)
+* HTML-formatted table
+* Excel spreadsheet (XLS or XLSX)
+* Open Document Format (ODF) spreadsheet (ODS)
+* Upload to Google Sheets (requires [Google account authorization](starting#google-sheet-from-drive))
+   [Custom tabular exporter](#custom-tabular-exporter)
+* [SQL statement exporter](#sql-exporter)
+* [Templating exporter](#templating-exporter), which generates JSON by default
 
 You can also export reconciled data to Wikidata, or export your Wikidata schema for future use with other OpenRefine projects:
 
-*   [Upload edits to Wikidata](wikibase/uploading#uploading-with-openrefine)
-*   [Export to QuickStatements](wikibase/uploading#uploading-with-quickstatements) (version 1)
-*   [Export Wikidata schema](wikibase/overview#import-and-export-schema)
+* [Upload edits to Wikidata](wikibase/uploading#uploading-with-openrefine)
+* [Export to QuickStatements](wikibase/uploading#uploading-with-quickstatements) (version 1)
+* [Export Wikidata schema](wikibase/overview#import-and-export-schema)
 
 ### Custom tabular exporter {#custom-tabular-exporter}
 

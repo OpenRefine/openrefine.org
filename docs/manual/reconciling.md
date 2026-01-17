@@ -211,7 +211,7 @@ Remember to set an appropriate throttle and to refer to the service documentatio
 
 ## Keep all the suggestions made {#keep-all-the-suggestions-made}
 
-To generate a list of each suggestion made, rather than only the best candidate, you can use a [GREL expression](expressions#GREL). Go to <span class="menuItems">Edit column</span> → <span class="menuItems">Add column based on this column</span>. To create a list of all the possible matches, use something like
+To generate a list of each suggestion made, rather than only the best candidate, you can use a [GREL expression](expressions.md). Go to <span class="menuItems">Edit column</span> → <span class="menuItems">Add column based on this column</span>. To create a list of all the possible matches, use something like
 
 ```
 forEach(cell.recon.candidates,c,c.name).join(", ")
@@ -236,7 +236,7 @@ OpenRefine supplies a number of variables related specifically to reconciled val
 * `cell.recon.judgmentHistory` (the values used in the “judgment action timestamp” facet)
 * `cell.recon.matched` (a “true” or “false” value)
 
-You can find out more in the [reconciliaton variables](expressions#reconciliaton-variables) section. 
+You can find out more in the [reconciliaton variables](expressions#reconciliation) section. 
 
 :::tip Make a copy of a reconciled column
 

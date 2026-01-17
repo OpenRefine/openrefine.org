@@ -5,14 +5,15 @@ sidebar_label: Reconciling with Wikibase
 ---
 
 The Wikidata [reconciliation service](reconciling) for OpenRefine [supports](https://reconciliation-api.github.io/testbench/):
-*   A large number of potential types to reconcile against
-*   Previewing and viewing entities
-*   Suggesting entities, types, and properties
-*   Augmenting your project with more information pulled from Wikidata. 
+
+* A large number of potential types to reconcile against
+* Previewing and viewing entities
+* Suggesting entities, types, and properties
+* Augmenting your project with more information pulled from Wikidata.
 
 You can find documentation and further resources on the reconciliation API [here](https://wikidata.reconci.link/).
 
-For the most part, Wikidata reconciliation behaves the same way other reconciliation services do, but there are a few processes and features specific to Wikidata. 
+For the most part, Wikidata reconciliation behaves the same way other reconciliation services do, but there are a few processes and features specific to Wikidata.
 
 ## Language settings {#language-settings}
 
@@ -24,7 +25,7 @@ When reconciling using this interface, items and properties will be displayed in
 
 ## Restricting matches by type {#restricting-matches-by-type}
 
-In Wikidata, types are items themselves. For instance, the [university of Ljubljana (Q1377)](https://www.wikidata.org/wiki/Q1377) has the type [public university (Q875538)](https://www.wikidata.org/wiki/Q875538), using the [instance of (P31)](https://www.wikidata.org/wiki/Property:P31) property. Types can be subclasses of other types, using the [subclass of (P279)](https://www.wikidata.org/wiki/Property:P279) property. For instance, [public university (Q875538)](https://www.wikidata.org/wiki/Q875538) is a subclass of [university (Q3918)](https://www.wikidata.org/wiki/Q3918). You can visualize these structures with the [Wikidata Graph Builder](https://angryloki.github.io/wikidata-graph-builder/). 
+In Wikidata, types are items themselves. For instance, the [university of Ljubljana (Q1377)](https://www.wikidata.org/wiki/Q1377) has the type [public university (Q875538)](https://www.wikidata.org/wiki/Q875538), using the [instance of (P31)](https://www.wikidata.org/wiki/Property:P31) property. Types can be subclasses of other types, using the [subclass of (P279)](https://www.wikidata.org/wiki/Property:P279) property. For instance, [public university (Q875538)](https://www.wikidata.org/wiki/Q875538) is a subclass of [university (Q3918)](https://www.wikidata.org/wiki/Q3918). You can visualize these structures with the [Wikidata Graph Builder](https://angryloki.github.io/wikidata-graph-builder/).
 
 When you select or enter a type for reconciliation, OpenRefine will include that type and all of its subtypes. For instance, if you select [university (Q3918)](https://www.wikidata.org/wiki/Q3918), then [university of Ljubljana (Q1377)](https://www.wikidata.org/wiki/Q1377) will be a possible match, though that item isn't directly linked to Q3918 - because it is directly linked to Q875538, the subclass of Q3918.
 
@@ -32,7 +33,7 @@ Some items and types may not yet be set as an instance or subclass of anything (
 
 ## Reconciling via unique identifiers {#reconciling-via-unique-identifiers}
 
-You can supply a column of unique identifiers (in the form "Q###" for entities) directly to Wikidata in order to pull more data, but [these strings will not be “reconciled” against the external dataset](reconciling#reconciling-with-unique-identifiers). Apply the operation <span class="menuItems">Reconcile</span> → <span class="menuItems">Use values as identifiers</span> on your column of QIDs. All cells will appear as dark blue “confirmed” matches. Some of the “matches” may be errors, which you will need to hover over or click on to identify. You cannot use this to reconcile properties (in the form "P###").
+You can supply a column of unique identifiers (in the form "Q###" for entities) directly to Wikidata in order to pull more data, but [these strings will not be “reconciled” against the external dataset](./reconciling.md#reconciling-with-unique-identifiers). Apply the operation <span class="menuItems">Reconcile</span> → <span class="menuItems">Use values as identifiers</span> on your column of QIDs. All cells will appear as dark blue “confirmed” matches. Some of the “matches” may be errors, which you will need to hover over or click on to identify. You cannot use this to reconcile properties (in the form "P###").
 
 If the identifier you submit is assigned to multiple Wikidata items (because Wikidata is crowdsourced), all of the items are returned as candidates, with none automatically matched.
 
@@ -42,14 +43,12 @@ Wikidata's hierarchical property structure can be called by using property paths
 
 Labels, aliases, descriptions and sitelinks can be accessed as follows (L for label , D for description, A for aliases, S for sitelink):
 
-    Len for Label in English
-    Dfi for Description in Finnish
-    Apt for Alias in Portuguese
-    Sdewiki for Sitelink in German Wikipedia page titles
-    Scommonswiki for Commons sitelink
+- `Len` for **Label** in English
+- `Dfi` for **Description** in Finnish
+- `Apt` for **Alias** in Portuguese
+- `Sdewiki` for **Sitelink** in German Wikipedia page titles
+- `Scommonswiki` for Commons **Sitelink**
 
 The lowercase letters are Wikimedia language codes which select which language the terms will be fetched. No language fall-back is performed when retrieving the values.
 
 For information on how to do this, read the [documentation and further resources here](https://wikidata.reconci.link/#documentation).
-
-
