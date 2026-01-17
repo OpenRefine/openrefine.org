@@ -15,7 +15,7 @@ Opening a pull request for your changes will generate a preview on Netlify that 
 CD into the repository parent folder and install dependencies
 
 ```sh
-cd /openrefine.github.com
+cd openrefine.org
 npm install
 ```
 
