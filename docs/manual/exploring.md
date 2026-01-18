@@ -38,12 +38,11 @@ A “null” data type is a special type that means “this cell has no value.�
 
 Changing a cell's data type is not the same operation as transforming its contents. For example, using a column-wide transform such as <span class="menuItems">Transform</span> → <span class="menuItems">Common transforms</span> → <span class="menuItems">To date</span> may not convert all values successfully, but going to an individual cell, clicking “edit”, and changing the data type can successfully convert text to a date. These operations use different underlying code. Learn more about date formatting and transformations in the next section. 
 
-To transform data from one type to another, see [Transforming data](cellediting#data-type-transforms) for information on using common tranforms, and see [Expressions](expressions) for information on using [toString()](grelfunctions#tostringo-string-format-optional), [toDate()](grelfunctions#todateo-b-monthfirst-s-format1-s-format2-), and other functions. 
-
+To transform data from one type to another, see [Transforming data](cellediting#data-type-transforms) for information on using common tranforms, and see [Expressions](expressions) for information on using [toString()](grelfunctions#tostringo-string-format-optional), [toDate()](grelfunctions#todateo-b-monthfirst-s-format1-s-format2-), and other functions.
 
 ### Dates {#dates}
 
-A “date” type is created when a column is [transformed into dates](transforming#to-date), when an expression is used to [convert cells to dates](grelfunctions#todateo-b-monthfirst-s-format1-s-format2-) or when individual cells are set to have the data type “date”. 
+A “date” type is created when a column is [transformed into dates](cellediting#data-type-transforms), when an expression is used to [convert cells to dates](grelfunctions#todateo-b-monthfirst-s-format1-s-format2-) or when individual cells are set to have the data type “date”.
 
 Date-formatted data in OpenRefine relies on a number of conversion tools and standards. For something to be considered a date in OpenRefine, it will be converted into the ISO-8601-compliant extended format with time in UTC: YYYY-MM-DDTHH:MM:SSZ.
 
@@ -66,27 +65,27 @@ You can convert dates into a more human-readable format when you [export your da
 
 The following table shows some example [date and time formatting styles for the U.S. and French locales](https://docs.oracle.com/javase/tutorial/i18n/format/dateFormat.html):
 
-|Style 	|U.S. Locale 	|French Locale|
+|Style|U.S. Locale|French Locale|
 |---|---|---|
-|Default 	|Jun 30, 2009 7:03:47 AM 	|30 juin 2009 07:03:47|
-|Short	|6/30/09 7:03 AM 	|30/06/09 07:03|
-|Medium 	|Jun 30, 2009 7:03:47 AM 	|30 juin 2009 07:03:47|
-|Long	|June 30, 2009 7:03:47 AM PDT 	|30 juin 2009 07:03:47 PDT|
-|Full 	|Tuesday, June 30, 2009 7:03:47 AM PDT 	|mardi 30 juin 2009 07 h 03 PDT|
+|Default|Jun 30, 2009 7:03:47 AM|30 juin 2009 07:03:47|
+|Short|6/30/09 7:03 AM|30/06/09 07:03|
+|Medium|Jun 30, 2009 7:03:47 AM|30 juin 2009 07:03:47|
+|Long|June 30, 2009 7:03:47 AM PDT|30 juin 2009 07:03:47 PDT|
+|Full|Tuesday, June 30, 2009 7:03:47 AM PDT|mardi 30 juin 2009 07 h 03 PDT|
 
 ## Rows vs. records {#rows-vs-records}
 
-A row is a simple way to organize data: a series of cells, one cell per column. Sometimes there are multiple pieces of information in one cell, such as when a survey respondent can select more than one response. 
+A row is a simple way to organize data: a series of cells, one cell per column. Sometimes there are multiple pieces of information in one cell, such as when a survey respondent can select more than one response.
 
-In cases where there is more than one value for a single column in one or more rows, you may wish to use OpenRefine’s records mode: this defines a single record as potentially containing more than one row. From there you can transform cells into multiple rows, each cell containing one value you’d like to work with. 
+In cases where there is more than one value for a single column in one or more rows, you may wish to use OpenRefine’s records mode: this defines a single record as potentially containing more than one row. From there you can transform cells into multiple rows, each cell containing one value you’d like to work with.
 
-Generally, when you import some data, OpenRefine reads that data in row mode. From the project screen, you can convert the project into records mode. OpenRefine remembers this action and will present you with records mode each time you open the project from then on. 
+Generally, when you import some data, OpenRefine reads that data in row mode. From the project screen, you can convert the project into records mode. OpenRefine remembers this action and will present you with records mode each time you open the project from then on.
 
-OpenRefine understands records based on the content of the first column, what we call the “key column.” Splitting a row into a multi-row record will base all association on the first column in your dataset. 
+OpenRefine understands records based on the content of the first column, what we call the “key column.” Splitting a row into a multi-row record will base all association on the first column in your dataset.
 
-If you have more than one column to split out into multiple rows, OpenRefine will keep your data associated with its original record, and associate subgroups based on the top-most row in each group. 
+If you have more than one column to split out into multiple rows, OpenRefine will keep your data associated with its original record, and associate subgroups based on the top-most row in each group.
 
-You can imagine the structure as a tree with many branches, all leading back to the same trunk. 
+You can imagine the structure as a tree with many branches, all leading back to the same trunk.
 
 For example, your key column may be a film or television show, with multiple cast members identified by name, associated to that work. You may have one or more roles listed for each person. The roles are linked to the actors, which are linked to the title.
 
@@ -107,12 +106,12 @@ For example, your key column may be a film or television show, with multiple cas
 |                  | Margaret Hamilton | Miss Almira Gulch            |
 |                  |                   | The Wicked Witch of the West |
 
-Once you are in records mode, you can still move some columns around, but if you move a column to the beginning, you may find your data becomes misaligned. The new key column will sort into records based on empty cells, and values in the old key column will be assigned to the last row in the old record (the key value sitting above those values). 
+Once you are in records mode, you can still move some columns around, but if you move a column to the beginning, you may find your data becomes misaligned. The new key column will sort into records based on empty cells, and values in the old key column will be assigned to the last row in the old record (the key value sitting above those values).
 
 OpenRefine assigns a unique key behind the scenes, so your records don’t need a unique identifier in the key column. You can keep track of which rows are assigned to each record by the record number that appears under the <span class="menuItems">All</span> column.
 
-To [split multi-valued cells](transforming#split-multi-valued-cells) and apply other operations that take advantage of records mode, see [Transforming data](transforming). 
+To split multi-valued cells and apply other operations that take advantage of records mode, see [Transforming data](transforming).
 
-Be careful when in records mode that you do not accidentally delete rows based on being blank in one column where there is a value in another. 
+Be careful when in records mode that you do not accidentally delete rows based on being blank in one column where there is a value in another.
 
 This feature is related to [Column Groups](../technical-reference/architecture-before-4#column-groups), which however is incomplete and deprecated.
