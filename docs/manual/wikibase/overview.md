@@ -2,6 +2,7 @@
 id: overview
 title: Overview of Wikibase support
 sidebar_label: Overview
+remark-directive:
 ---
 
 [Wikibase](https://wikiba.se/) is free software (a set of MediaWiki extensions) used by many organizations around the world to store and publish Linked Open Data. Wikibase is the software behind [Wikidata](https://www.wikidata.org/), a free, multilingual collaborative knowledge base and a sister project of Wikipedia. Wikidata offers structured data about the world and can be edited by anyone. Wikibase also powers [structured data](https://commons.wikimedia.org/wiki/Commons:Structured_data) on [Wikimedia Commons](https://commons.wikimedia.org/), the media repository of Wikipedia.
@@ -25,6 +26,7 @@ To do this with OpenRefine, you'll need a column of publication titles that you 
 There is a list of [tutorials and walkthroughs on Wikidata](https://www.wikidata.org/wiki/Wikidata:Tools/OpenRefine/Editing) that will allow you to see the full process. You can save your schemas and drafts in OpenRefine, and your progress stays in draft until you are ready to upload it to Wikidata.
 
 Batches of edits to Wikidata that are created with OpenRefine can be undone. You can test out the uploading process by reconciling to several “sandbox” entities created specifically for drafting edits and learning about Wikidata:
+
 * https://www.wikidata.org/wiki/Q4115189
 * https://www.wikidata.org/wiki/Q13406268
 * https://www.wikidata.org/wiki/Q15397819
@@ -37,10 +39,11 @@ You can use OpenRefine's reconciliation preview to look at the target Wikidata e
 ### Wikidata schema {#wikidata-schema}
 
 A [schema](https://en.wikipedia.org/wiki/Database_schema) is a plan for how to structure information in a database. In OpenRefine, the schema operates as a template for how Wikidata edits should be applied: how to translate your tabular data into statements. With a schema, you can:
-*   preview the Wikidata edits and inspect them manually;
-*   analyze and fix any issues highlighted by OpenRefine;
-*   upload your changes to Wikidata by logging in with your own account;
-*   export the changes to the QuickStatements v1 format.
+
+* preview the Wikidata edits and inspect them manually;
+* analyze and fix any issues highlighted by OpenRefine;
+* upload your changes to Wikidata by logging in with your own account;
+* export the changes to the QuickStatements v1 format.
 
 For example, if your dataset has columns for authors, publication titles, and publication years, your schema can be conceptualized as: [publication title] has the author [author], and was published in [publication year]. To establish these facts, you need to establish one or more columns as “items,” for which you will make “statements” that relate them to other columns.
 
@@ -82,6 +85,7 @@ You could upload the “Translated titles” to “Label” with the language sp
 #### Unsupported field types
 
 With OpenRefine, it is not yet possible to edit:
+
 * sitelinks (links to Wikipedia or other Wikimedia projects, in the case of Wikidata);
 * any field on Wikibase properties;
 * lexemes, forms or senses.
@@ -95,6 +99,7 @@ Use the <span class="menuItems">Extensions</span> menu to select <span class="me
 ![The Wikidata authorization window in OpenRefine.](/img/wikidata-login.png)
 
 For security reasons, you should not use your main account authorization with OpenRefine. Wikidata allows you to set special passwords to access your account through software. You can find [this setting for your account here](https://www.wikidata.org/wiki/Special:BotPasswords) once logged in. Creating bot access will prompt you for a unique name. You should then enable the following required settings:
+
 * High-volume editing
 * Edit existing pages
 * Create, edit, and move pages
@@ -147,7 +152,7 @@ One of the most common suggestions is to attach [a reference to your edits](http
 :::caution OpenRefine version 3.6 or newer needed!
 Wikimedia Commons editing is possible with OpenRefine version 3.6 or newer. It is **not** supported in earlier versions.
 
-More detailed guides and howtos for Wikimedia Commons editing can be found at OpenRefine's info page there: **https://commons.wikimedia.org/wiki/Commons:OpenRefine**
+More detailed guides and howtos for Wikimedia Commons editing can be found at OpenRefine's info page there: [**https://commons.wikimedia.org/wiki/Commons:OpenRefine**](https://commons.wikimedia.org/wiki/Commons:OpenRefine)
 :::
 
 [Wikimedia Commons](https://commons.wikimedia.org) is the shared media repository of the Wikimedia ecosystem; it is a sister project of Wikipedia. Wikimedia Commons contains (as of mid 2022) more than 85 million freely licensed media files (images, videos, scanned books, 3D files and more) that are used as illustrations on Wikipedia and that can be freely re-used by anyone.
@@ -217,7 +222,7 @@ For instance, the Wikitext of [this image](https://commons.wikimedia.org/wiki/Fi
 
 You can extract Wikitext (and structured data statements) from a list of file names. Select <span class="menuItems">Edit column</span> → <span class="menuItems">Add columns from reconciled values...</span>
 
-See [Add columns from reconciled values](./reconciling.md#add-columns-from-reconciled-values) for general information about this feature.
+See [Add columns from reconciled values](../reconciling.md#add-columns-from-reconciled-values) for general information about this feature.
 
 ### Prepare columns with structured data
 

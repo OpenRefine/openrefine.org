@@ -6,10 +6,10 @@ sidebar_label: Reconciling with Wikibase
 
 The Wikidata [reconciliation service](reconciling) for OpenRefine [supports](https://reconciliation-api.github.io/testbench/):
 
-* A large number of potential types to reconcile against
-* Previewing and viewing entities
-* Suggesting entities, types, and properties
-* Augmenting your project with more information pulled from Wikidata.
+- A large number of potential types to reconcile against
+- Previewing and viewing entities
+- Suggesting entities, types, and properties
+- Augmenting your project with more information pulled from Wikidata.
 
 You can find documentation and further resources on the reconciliation API [here](https://wikidata.reconci.link/).
 
@@ -33,7 +33,7 @@ Some items and types may not yet be set as an instance or subclass of anything (
 
 ## Reconciling via unique identifiers {#reconciling-via-unique-identifiers}
 
-You can supply a column of unique identifiers (in the form "Q###" for entities) directly to Wikidata in order to pull more data, but [these strings will not be “reconciled” against the external dataset](./reconciling.md#reconciling-with-unique-identifiers). Apply the operation <span class="menuItems">Reconcile</span> → <span class="menuItems">Use values as identifiers</span> on your column of QIDs. All cells will appear as dark blue “confirmed” matches. Some of the “matches” may be errors, which you will need to hover over or click on to identify. You cannot use this to reconcile properties (in the form "P###").
+You can supply a column of unique identifiers (in the form "Q###" for entities) directly to Wikidata in order to pull more data, but [these strings will not be “reconciled” against the external dataset](../reconciling.md#reconciling-with-unique-identifiers). Apply the operation <span class="menuItems">Reconcile</span> → <span class="menuItems">Use values as identifiers</span> on your column of QIDs. All cells will appear as dark blue “confirmed” matches. Some of the “matches” may be errors, which you will need to hover over or click on to identify. You cannot use this to reconcile properties (in the form "P###").
 
 If the identifier you submit is assigned to multiple Wikidata items (because Wikidata is crowdsourced), all of the items are returned as candidates, with none automatically matched.
 

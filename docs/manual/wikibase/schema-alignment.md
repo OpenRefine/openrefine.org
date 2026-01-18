@@ -91,7 +91,7 @@ not possible to remove aliases or to override any existing aliases.
 
 You can add statements in the schema: this will generate new statements
 on the corresponding items. These statements will be merged with any
-existing statements on the actual Wikibase items and [this merging process depends on the upload medium](uploading#Merging-strategies-for-statements).
+existing statements on the actual Wikibase items and [this merging process depends on the upload medium](uploading#merging-strategy-for-terms-and-statements).
 It is forecast to give more control over the merging strategy in the
 near future.
 
@@ -225,7 +225,7 @@ In OpenRefine 3.5, the following new format has been introduced:
 - `-234` represents the year 234 [BCE](https://en.wikipedia.org/wiki/Common_Era)
 
 :::tip
-See also https://www.wikidata.org/wiki/Help:Dates
+See also [Wikidata Help:Dates](https://www.wikidata.org/wiki/Help:Dates)
 :::
 
 ### Quantities {#quantities}

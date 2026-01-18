@@ -236,7 +236,7 @@ OpenRefine supplies a number of variables related specifically to reconciled val
 * `cell.recon.judgmentHistory` (the values used in the “judgment action timestamp” facet)
 * `cell.recon.matched` (a “true” or “false” value)
 
-You can find out more in the [reconciliaton variables](expressions#reconciliation) section. 
+You can find out more in the [reconciliaton variables](expressions#reconciliation) section.
 
 :::tip Make a copy of a reconciled column
 
