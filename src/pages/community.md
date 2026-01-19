@@ -30,9 +30,9 @@ import Card from '../card.tsx';
 
 <!-- TODO rebuild the structure of the URL for each contributor guide. Add placeholder for the new one -->
 
-<div style={{float: 'right', textAlign: 'right'}}>
+<div className="communityMagic">
 <img src={OpenRefineIsMagicImageUrl} alt="OpenRefine is magic" id="magic"/>
-<p style={{fontSize: '0.7em'}}><a href="https://commons.wikimedia.org/wiki/File:Open_Refine_is_Magic.png">CC-BY-SA Scott Carlson</a></p>
+<p><a href="https://commons.wikimedia.org/wiki/File:Open_Refine_is_Magic.png">CC-BY-SA Scott Carlson</a></p>
 </div>
 # Connect with us
 

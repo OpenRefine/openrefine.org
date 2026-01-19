@@ -220,3 +220,17 @@ html[data-theme="dark"] .button.button--secondary {
   display: flex;
   justify-content: space-between;
 }
+
+.communityPage .communityMagic {
+  max-width: 250px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.communityPage .communityMagic img {
+  max-width: 100%;
+  height: auto;
+}
+.communityPage .communityMagic p {
+  font-size: 0.7em;
+}
