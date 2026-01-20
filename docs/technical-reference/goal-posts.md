@@ -182,7 +182,6 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * **Source**: Prioritization-2024
 * Only present maintained and currently operational ones. Improve extension discoverability and ease the installation process.
 * At the moment, extension developers have too few interface stability guarantees, and the user experience of installing and upgrading extensions is poor. There are a lot of open questions around this since OpenRefine’s architecture is quite uncommon, so there does not seem to be an established off-the-shelf model we can adopt.
-* Enhance the discoverability of extensions and simplify the installation process. Only present extensions that are currently maintained and compatible with the current version of OpenRefine. There are numerous unresolved issues in this area, as OpenRefine’s architecture is uncommon.
 * See also
    * [this conversation in the forum](https://forum.openrefine.org/t/improving-the-ux-of-extension-install-and-butterfly/52),
    * [#3223](https://github.com/OpenRefine/OpenRefine/issues/3223).
