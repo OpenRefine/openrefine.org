@@ -136,7 +136,7 @@ Fingerprinting is the least likely to produce false positives, so it’s a  good
 - split up all strings (words) and sort them alphabetically (so
   “Zhenyi, Wang” becomes “wang zhenyi”).
 
-For an in-depth understanding of fingerprinting, check this [document](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth#fingerprint)
+For an in-depth understanding of fingerprinting, check this [document](../technical-reference/clustering-in-depth)
 
 **<a name="n-gram">N-gram Fingerprinting</a>**
 
@@ -146,7 +146,7 @@ N-gram fingerprinting allows you to set the _n_ value to whatever number you’d
 
 This can help match cells that have typos, or incorrect spaces (such as matching “lookout” and “look out,” which fingerprinting itself won’t identify because it separates words). The higher the _n_ value, the fewer clusters will be identified. With 1-grams, keep an eye out for mismatched values that are near-anagrams of each other (such as “Wellington” and “Elgin Town”).
 
-For an in-depth understanding of N-gram fingerprinting, check this [document](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth#n-gram-fingerprint)
+For an in-depth understanding of N-gram fingerprinting, check this [document](../technical-reference/clustering-in-depth#n-gram-fingerprint)
 
 **<a name="phonetic-clustering">Phonetic Clustering</a>**
 
@@ -170,7 +170,7 @@ Baider-Morse is a version of Daitch-Mokotoff that is slightly more strict.
 
 Regardless of the language of your data, applying each of them might find different potential matches: for example, Metaphone clusters “Cornwall” and “Corn Hill” and “Green Hill,” while Cologne clusters “Greenvale” and “Granville” and “Cornwall” and “Green Wall.”
 
-For an in-depth understanding of phonetics, check this [document](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth#phonetic-fingerprint)
+For an in-depth understanding of phonetics, check this [document](../technical-reference/clustering-in-depth#phonetic-fingerprint)
 
 #### Nearest Neighbor {#nearest-neighbor}
 
@@ -192,7 +192,7 @@ It can do relatively advanced edits, such as understanding the distance between 
 
 PPM (Prediction by Partial Matching) uses compression to see whether two values are similar or different. In practice, this method is very lax even for small radius values and tends to generate many false positives, but because it operates at a sub-character level it is capable of finding substructures that are not easily identifiable by distances that work at the character level. So it should be used as a “last resort” clustering method. It is also more effective on longer strings than on shorter ones.
 
-For more of the theory behind clustering, see [Clustering In Depth](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth).
+For more of the theory behind clustering, see [Clustering In Depth](../technical-reference/clustering-in-depth).
 
 ### Custom clustering methods {#custom-clustering-methods}
 

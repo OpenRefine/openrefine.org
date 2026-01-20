@@ -1,0 +1,113 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "organisation",
+    "role": "other",
+    "name": "OpenRefine",
+    "email": "contact@openrefine.org",
+    "description": "OpenRefine is a free, powerful tool for working with messy data and improving it. Our mission is to empower everyone to meaningfully engage with data by providing an accessible open source tool and nurturing a diverse, supportive community. OpenRefine is a fiscally sponsored project of Code for Science & Society, a 501(c)(3) charitable organization in the USA. Donations are tax-deductible to the extent allowed by US law (Tax ID: 81-3791683).",
+    "webpageUrl": {
+      "url": "https://openrefine.org",
+      "wellKnown": "https://openrefine.org/.well-known/funding-manifest-urls"
+    }
+  },
+  "projects": [
+    {
+      "guid": "openrefine",
+      "name": "OpenRefine",
+      "description": "OpenRefine is funded by grants and gifts from institutions and individuals like you. Our annual operating budget is US$140 000 (or appx US$11,500 per month) to support our core team for maintenance, coordination, licensing, and administration. Details on fund usage and other sources of funding are available on our funding page (https://openrefine.org/funding). We would like to thanks our current donors (https://openrefine.org/backers).",
+      "webpageUrl": {
+        "url": "https://openrefine.org"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/OpenRefine/OpenRefine",
+        "wellKnown": "https://github.com/OpenRefine/OpenRefine/blob/master/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "BSD-3"
+      ],
+      "tags": [
+        "reconciliation",
+        "wikidata",
+        "opendata",
+        "journalism",
+        "data-analysis",
+        "data-wrangling",
+        "datamining",
+        "datajournalism",
+        "datacleaning",
+        "datacleansing"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "github",
+        "type": "other",
+        "description": "https://github.com/sponsors/OpenRefine"
+      },
+      {
+        "guid": "website",
+        "type": "other",
+        "description": "https://openrefine.org/donate"
+      }
+    ],
+    "plans": [
+     {
+        "guid": "sustainer",
+        "status": "active",
+        "name": "Up to $500 - Sustainer Level",
+        "description": "Covers essential day-to-day infrastructure including forum hosting, software licenses, and routine maintenance.",
+        "amount": 500,
+        "currency": "USD",
+        "frequency": "yearly",
+        "channels": [
+          "github",
+          "website"
+        ]
+      },
+     {
+        "guid": "sponsor",
+        "status": "active",
+        "name": "Up to $5,000 - Sponsor Level",
+        "description": "Enables us to represent OpenRefine at conferences and expand our community outreach.",
+        "amount": 5000,
+        "currency": "USD",
+        "frequency": "yearly",
+        "channels": [
+          "github",
+          "website"
+        ]
+      },
+     {
+        "guid": "partner",
+        "status": "active",
+        "name": "Up to $50,000 - Sustainer Partner",
+        "description": "Underwrites multiple months of core-team development, feature work, and contributor support.",
+        "amount": 50000,
+        "currency": "USD",
+        "frequency": "yearly",
+        "channels": [
+          "github",
+          "website"
+        ]
+      },
+     {
+        "guid": "patron",
+        "status": "active",
+        "name": "Over $50,000 - Patron Level",
+        "description": "Fully sustains OpenRefine's annual budget, funding our entire core team for a full year.",
+        "amount": 100000,
+        "currency": "USD",
+        "frequency": "yearly",
+        "channels": [
+          "github",
+          "website"
+        ]
+      }
+    ],
+    "history": []
+  }
+}
+

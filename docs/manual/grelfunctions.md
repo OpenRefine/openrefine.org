@@ -251,7 +251,9 @@ Takes two strings and compares them, returning a string. Returns the remainder o
 
 ###### escape(s, s mode) {#escapes-s-mode}
 
-Escapes s in the given escaping mode. The mode can be one of: "html", "xml", "csv", "url", "javascript". Note that quotes are required around your mode. See the [recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes#question-marks--showing-in-your-data) for examples of escaping and unescaping.
+Escapes s in the given escaping mode. The mode can be one of: "html", "xml", "csv", "url", "urlpath", "urlform", "urlfragment", "javascript". Note that quotes are required around your mode. See the [recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes#question-marks--showing-in-your-data) for examples of escaping and unescaping.
+
+Modes "urlpath", "urlform", and "urlfragment"  available since OpenRefine 3.9.
 
 ###### unescape(s, s mode) {#unescapes-s-mode}
 
@@ -279,7 +281,7 @@ Returns the [SHA-1 hash](https://en.wikipedia.org/wiki/SHA-1) of an object. If f
 
 ###### phonetic(s, s encoding) {#phonetics-s-encoding}
 
-Returns a phonetic encoding of a string, based on an available phonetic algorithm. See the [section on phonetic clustering](cellediting#clustering-methods) for more information. Can be one of the following supported phonetic methods: [metaphone, doublemetaphone, metaphone3](https://www.wikipedia.org/wiki/Metaphone), [soundex](https://en.wikipedia.org/wiki/Soundex), [cologne](https://en.wikipedia.org/wiki/Cologne_phonetics). Quotes are required around your encoding method. For example, `"Ruth Prawer Jhabvala".phonetic("metaphone")` outputs the string “R0PRWRJHBFL”.  
+Returns a phonetic encoding of a string, based on an available phonetic algorithm. See the [section on phonetic clustering](cellediting#clustering-methods) for more information. Can be one of the following supported phonetic methods: [metaphone, doublemetaphone, metaphone3](https://www.wikipedia.org/wiki/Metaphone), [soundex](https://en.wikipedia.org/wiki/Soundex), [cologne-phonetic](https://en.wikipedia.org/wiki/Cologne_phonetics), [daitch-mokotoff](https://en.wikipedia.org/wiki/Daitch%E2%80%93Mokotoff_Soundex), [beider-morse](https://en.wikipedia.org/wiki/Daitch%E2%80%93Mokotoff_Soundex#Beider%E2%80%93Morse_Phonetic_Name_Matching_Algorithm). Quotes are required around your encoding method. For example, `"Ruth Prawer Jhabvala".phonetic("metaphone")` outputs the string “R0PRWRJHBFL”.  
 
 ###### reinterpret(s, s encoderTarget, s encoderSource) {#reinterprets-s-encodertarget-s-encodersource}
 
@@ -298,6 +300,12 @@ Returns an array of the word n-grams of s. That is, it lists all the possible co
 ###### ngramFingerprint(s, n) {#ngramfingerprints-n}
 
 Returns the [n-gram fingerprint](cellediting#clustering-methods) of s. For example, `"banana".ngram(2)` would output “anbana”, after first generating the 2-grams “ba an na an na”, removing duplicates, and sorting them alphabetically.
+
+###### normalize(s) {#normalize}
+
+Returns a normalized version of the input string by removing diacritics and normalizing extended western characters to their ASCII representation.
+
+This function available since OpenRefine 3.10.
 
 ###### unicode(s) {#unicodes}
 

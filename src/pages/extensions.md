@@ -17,6 +17,8 @@ You can install the following extensions to add functionalities to OpenRefine. W
 | [Commons extension](https://github.com/OpenRefine/CommonsExtension) | Utilities to improve the process of extracting structured data from existing files on [Wikimedia Commons](https://commons.wikimedia.org/wiki/) | [Joey Salazar](https://github.com/j-sal), [Sandra Fauconnier](https://github.com/trnstlntk) | 3.6 |
 | [Refine JS](https://github.com/wetneb/refine-js) | Support for Javascript as expression language for OpenRefine | [wetneb](https://github.com/wetneb) | 3.6+ |
 | [OpenRefine Command Palette](https://codeberg.org/abbe98/openrefine-command-palette) | A command palette and keyboard acceleration extension for OpenRefine | [Albin Larsson](https://codeberg.org/abbe98) | 3.7+ |
+| [OpenRefine Hex Colors](https://codeberg.org/abbe98/openrefine-hex-colors) | Detects and renders hex colors inside of cells. | [Albin Larsson](https://codeberg.org/abbe98) | 3.7+ |
+| [GEO Extension](https://github.com/OpenRefine/openrefine-geo-extension) | Adds geographic coordinate processing functions: decToGMS() converts decimal degrees to degrees/minutes/seconds format, and geoDistance() calculates great circle distance between coordinate pairs using the Haversine formula. | [SashankBhamidi](https://github.com/SashankBhamidi) | 3.8+ |
 | [OSM Extractor](https://gitlab.com/labiangashi/osm-extractor) | Adds a new import option that allows you to import [OpenStreetMap](https://www.openstreetmap.org/) data into OpenRefine using the [Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API). Also adds a new GREL function called interiorPoint() which extracts the [interior point](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/algorithm/InteriorPoint.html) of any Geometry (represented using [Well-Known Text](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry)). | [Labian Gashi](https://gitlab.com/labiangashi) | 3.5.0 |
 | [GeoJSON Export](https://gitlab.com/labiangashi/geojson-export) | Adds a Graphical User Interface (GUI) that allows you to export OpenRefine data to the [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) format. Supports latitude/longitude coordinates and [Well-known Text (WKT)](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry). | [Labian Gashi](https://gitlab.com/labiangashi) | 3.5.0 |
 | [SNAC extension](https://github.com/snac-cooperative/snac-openrefine-extension) | Allows [SNAC](https://snaccooperative.org/) edits to be made via OpenRefine | [Joseph Glass](https://github.com/glassjoseph), [Robbie Hott](https://github.com/deternitydx), [Jason Jordan](https://github.com/jlj5aj) | 3.4.1 |
@@ -40,6 +42,7 @@ These extensions were produced in the past and are good examples of desired uses
 | [LODRefine](https://github.com/sparkica/LODRefine)    | LODRefine is actually OpenRefine with integrated extensions that make transition from tabular data to Linked Data a bit easier. Integrated extensions are: RDF extension, DBpedia extension, CrowdFlower crowdsourcing extension, Stats extension | Sparkica |
 | [VIB-BITS Diff plugin](https://web.archive.org/web/20190412064426/https://www.bits.vib.be/index.php/software-overview/openrefine) | Adds a "diff" tool which compares two text values. [Manual PDF](https://web.archive.org/web/20210203090522/https://data.bits.vib.be/hidden/g7dt6RjuUTU421dY2CwrGePGX/OpenRefine%20VIB-BITS%20diff%20plugin.pdf). |   VIB-Bits  | 3.4.1. [The VIB website states "We are investigating how to provide [the diff plugin] again with version 3.4 of OpenRefine."](https://www.bits.vib.be/index.php/software-overview/openrefine) |
 | [VIB-BITS Save facets plugin](https://web.archive.org/web/20190412064426/https://www.bits.vib.be/index.php/software-overview/openrefine) | Adds support for save facet settings and re-apply the same facets at a later time. [Manual PDF](https://web.archive.org/web/20150325214740/http://data.bits.vib.be/hidden/g7dt6RjuUTU421dY2CwrGePGX/OpenRefine%20VIB-BITS%20save%20facets%20plugin.pdf).  |   VIB-Bits  | Unknown. [The VIB website states "We are investigating how to provide [the diff plugin] again with version 3.4 of OpenRefine."](https://www.bits.vib.be/index.php/software-overview/openrefine) |
+|[refine-fuzzymatch-extension](https://github.com/yatszhash/refine-fuzzymatch-extension)|OpenRefine extension for fuzzy matching/reconcilation|[yatszhash](https://github.com/yatszhash)|2.8|
 | [geoXtension](https://github.com/giTorto/geoXtension) | geoXtension is based on GDAL, Proj, and GEOS libraries. Adding this extension takes a lot of time, usage of the ready-made docker is recommended. |  giTorto  | (circa 2.6) |
 | [extraCTU-plugin](https://github.com/giTorto/extraCTU-plugin) | To extract e-mails, telephone numbers, URLs and identification numbers from text. | giTorto | (circa 2.7) |
 | [Opentree](https://github.com/nickynicolson/refine-opentree) |  Displays phylogenetic trees from the Open Tree of Life. [Manual](https://github.com/nickynicolson/refine-opentree/wiki). |  nickynicolson  | 2.5 |
@@ -56,24 +59,24 @@ OpenRefine can connect to several reconciliation services. You can find informat
 
 ## Client libraries
 
-You can automate some OpenRefine operations using one of the existing libraries. Those libraries are using the [OpenRefine API](https://github.com/OpenRefine/OpenRefine/wiki/OpenRefine-API).
+You can automate some OpenRefine operations using one of the existing libraries. Those libraries are using the [OpenRefine API](/docs/technical-reference/openrefine-api).
 
-| Language | Name | Latest compatible OpenRefine version |
-|----------|------|--------------------------------------|
-| python   | [openrefine-client](https://github.com/felixlohmeier/openrefine-client) | 3.7 |
-| R | [rrefine](https://cran.r-project.org/web/packages/rrefine/index.html) | 3.7 |
-| java | [refine-java](https://github.com/dtap-gmbh/refine-java) | 3.7 |
-| bash | [orcli](https://github.com/opencultureconsulting/orcli) | 3.7 |
-| C# / .NET | [OpenRefine.Net](https://github.com/ADelRosarioH/OpenRefine.Net) | 3.7 |
+| Language  | Name |
+|-----------|------|
+| bash      | [orcli](https://github.com/opencultureconsulting/orcli) |
+| C# / .NET | [OpenRefine.Net](https://github.com/ADelRosarioH/OpenRefine.Net) |
+| java      | [refine-java](https://github.com/ancore/refine-java) |
+| python    | [openrefine-client](https://github.com/opencultureconsulting/openrefine-client) |
+| R         | [rrefine](https://cran.r-project.org/web/packages/rrefine/index.html) |
 
 ### Legacy client libraries
 
 OpenRefine 3.3 [introduced CSRF tokens](https://github.com/OpenRefine/OpenRefine/wiki/Changes-for-3.3#csrf-protection-changes). The following client libraries have not yet adapted their API calls.
 
-| Language | Name | Latest compatible OpenRefine version |
-|----------|------|--------------------------------------|
-| python   | [refine-client-py](https://github.com/PaulMakepeace/refine-client-py/) | ?
-| python   | [refine-python](https://github.com/maxogden/refine-python) | 3.2 |
-| ruby     | [refine-ruby](https://github.com/maxogden/refine-ruby) | 3.2 |
+| Language   | Name | Latest compatible OpenRefine version |
+|------------|------|--------------------------------------|
 | javascript | [node-openrefine](https://github.com/pm5/node-openrefine) | 3.2 |
-| php | [openrefine-php-client](https://github.com/keboola/openrefine-php-client) | 3.2 |
+| python     | [refine-client-py](https://github.com/PaulMakepeace/refine-client-py/) | 3.2 |
+| python     | [refine-python](https://github.com/maxogden/refine-python) | 3.2 |
+| ruby       | [refine-ruby](https://github.com/distillytics/refine-ruby) (fork) | 3.2 |
+| ruby       | [refine-ruby](https://github.com/maxogden/refine-ruby) | 3.2 |

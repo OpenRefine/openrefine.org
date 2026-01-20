@@ -13,8 +13,11 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * **Score**:  76
 * **Status**: Needs Solution Definition
 * **Source**: Prioritization-2024
-* Native Reconciliation with arbitrary external datasets, e.g. csv reconciliation, reconciliation with another OpenRefine project. Reconciliation against any dataset, not only the ones with a reconciliation endpoint. Reconciliation locally is a very useful feature. I suggest local reconciliation based on projects in Openrefine instead of using external services. (from the survey open-ended questions)
-* The current solution is to use one of the [csv-based reconciliation services](https://reconciliation-api.github.io/census/services/). Related issue: [#2003](https://github.com/OpenRefine/OpenRefine/issues/2003). See also [Antonin's take on reconciliation](https://antonin.delpeuch.eu/posts/my-roadmap-for-openrefine/#reconciliation)
+* Setting up a [reconciliation service](https://github.com/OpenRefine/OpenRefine/wiki/Reconcilable-Data-Sources#local-services), whether locally or on a server, is complex and often prevents users and organizations with limited technical resources or expertise from leveraging reconciliation features. A built-in (native) capability in OpenRefine to reconcile data against any dataset, such as a local CSV file or another OpenRefine project, would lower the technical barrier. It would allow users to load an authority file as an OpenRefine project and configure the matching criteria in a configuration screen, without relying on external reconciliation services or endpoints.
+* Related documents:
+  * Issue [#2003](https://github.com/OpenRefine/OpenRefine/issues/2003). 
+  * See also [Antonin's take on reconciliation](https://antonin.delpeuch.eu/posts/my-roadmap-for-openrefine/#reconciliation) for broader context. 
+  * the grant application to the [Research Software Maintenance Fund](/funding#2025-research-software-maintenance-fund) address some aspect of the goal post. 
 
 ### Allowing import again for adding new rows to existing projects.
 * **Score**:  73
@@ -79,7 +82,7 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * **Status**: Needs Scoping
 * **Source**: Prioritization-2024
 * Support for more diverse (human language) alphabets/scripts, date and time formats...
-* No related issue. This feature idea comes from the [Diversity grant](https://openrefine.org/funding#2021-eoss-diversity)
+* No related issue. This feature idea comes from the [Diversity grant](/funding#2021-eoss-diversity)
 
 ### Allow bookmarking and naming starred GREL expressions 
 * **Score**: 58
@@ -179,13 +182,15 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * **Source**: Prioritization-2024
 * Only present maintained and currently operational ones. Improve extension discoverability and ease the installation process.
 * At the moment, extension developers have too few interface stability guarantees, and the user experience of installing and upgrading extensions is poor. There are a lot of open questions around this since OpenRefine’s architecture is quite uncommon, so there does not seem to be an established off-the-shelf model we can adopt.
+* Enhance the discoverability of extensions and simplify the installation process. Only present extensions that are currently maintained and compatible with the current version of OpenRefine. There are numerous unresolved issues in this area, as OpenRefine’s architecture is uncommon.
+* See also
+   * [this conversation in the forum](https://forum.openrefine.org/t/improving-the-ux-of-extension-install-and-butterfly/52),
+   * [#3223](https://github.com/OpenRefine/OpenRefine/issues/3223).
+   * [Antonin's take on extensibility](https://antonin.delpeuch.eu/posts/my-roadmap-for-openrefine/#extensibility).
+   * A first version of the extension page was released in 3.9.0, see [#6975](https://github.com/OpenRefine/OpenRefine/pull/6975) and related issues.
 * Unsucessfull grant applications:
    * [2024-DEF](https://openrefine.org/funding#2024-def)
    * [2023 Mozilla Infrastructure Fund](https://openrefine.org/funding#2023-mozilla-infrastructure-fund) grant application.
-* See also
-   * [this conversation in the forum](https://forum.openrefine.org/t/improving-the-ux-of-extension-install-and-butterfly/52),
-   * the first version of the extension page released in 3.9.0 [#7012](https://github.com/OpenRefine/OpenRefine/pull/7012).
-   * [Antonin's take on extensibility](https://antonin.delpeuch.eu/posts/my-roadmap-for-openrefine/#extensibility).
 
 ### Better support of MARC format
 * **Score**: 44
@@ -216,7 +221,7 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * **Score**: 37
 * **Status**: Ready for Development
 * **Source**: Prioritization-2024
-* Please create a thread on the forum or create an issue to discuss this request.
+* Related issue: [#7329](https://github.com/OpenRefine/OpenRefine/issues/7329)
 
 ### Allow sharing and exploring of public expressions
 * **Score**: 37

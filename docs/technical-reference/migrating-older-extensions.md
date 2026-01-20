@@ -22,7 +22,7 @@ You will need to write a `pom.xml` in the root folder of your extension to confi
 
 For any library that your extension depends on, you should try to find a matching artifact in the Maven Central repository. If you can find such an artifact, delete the `.jar` file from your extension and add the dependency in your `pom.xml` file. If you cannot find such an artifact, it is still possible to incorporate your own `.jar` file using `maven-install-plugin` that you can configure in your `pom.xml` file as follows:
 
-```
+```xml
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-install-plugin</artifactId>
@@ -51,11 +51,13 @@ For any library that your extension depends on, you should try to find a matchin
 
 And add the dependency to the `<dependencies>` section as usual:
 
+```xml
      <dependency>
          <groupId>com.my.company</groupId>
          <artifactId>my-library</artifactId>
          <version>0.5.3-SNAPSHOT</version>
      </dependency>
+```
 
 ## Migrating to Wikimedia's i18n jQuery plugin {#migrating-to-wikimedias-i18n-jquery-plugin}
 
@@ -71,6 +73,7 @@ The migration was made between 3.1-beta and 3.1, with this commit: https://githu
 
 You will need to update your translation files, merging nested objets in one global object, concatenating keys. You can do this by running the following Python script on all your JSON translation files:
 
+```python
     import json
     import sys
 
@@ -91,10 +94,13 @@ You will need to update your translation files, merging nested objets in one glo
 
     with open(sys.argv[1], 'w') as f:
         f.write(json.dumps(result, ensure_ascii=False, indent=4))
+```
 
 Then your javascript files which retrieve the translated strings should be updated: `$.i18n._('core-dialogs')['cancel']` becomes `$.i18n('core-dialogs/cancel')`. You can do this with the following `sed` script:
 
+```shell
      sed -i "s/\$\.i18n._(['\"]\([A-Za-z0-9/_\\-]*\)['\"])\[['\"]\([A-Za-z0-9\-\_]*\)[\"']\]/$.i18n('\1\/\2')/g" my_javascript_file.js
+```
 
 You can then chase down the places where you are concatenating translated strings, and replace that with more flexible patterns using [the plugin's features](https://github.com/wikimedia/jquery.i18n#jqueryi18n-plugin).
 
