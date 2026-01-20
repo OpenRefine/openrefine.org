@@ -53,6 +53,11 @@ html[data-theme="dark"] {
   --ifm-code-color: var(--ifm-color-primary-light);
 }
 
+/* Improve X icon visibility in dark mode */
+html[data-theme="dark"] img[alt="x"] {
+  filter: invert(1);
+}
+
 .footer .footer__link-item,
 .footer__copyright {
   color: #c5c5c5;
@@ -198,4 +203,34 @@ code {
 html[data-theme="dark"] .button.button--primary,
 html[data-theme="dark"] .button.button--secondary {
   color: var(--ifm-font-color-base);
+}
+
+.communityPage li {
+  margin-left: 1.5em;
+}
+
+/* Center first column in community page tables */
+.communityPage table td:first-child {
+  text-align: center; /* horizontal center (text + image) */
+  vertical-align: middle; /* vertical center */
+}
+
+.communityPage table td .socials {
+  padding: 0.5em 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.communityPage .communityMagic {
+  max-width: 250px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.communityPage .communityMagic img {
+  max-width: 100%;
+  height: auto;
+}
+.communityPage .communityMagic p {
+  font-size: 0.7em;
 }
