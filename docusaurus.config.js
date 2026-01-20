@@ -41,6 +41,11 @@ return {
           position: 'left',
         },
         {
+          to: '/events',
+          label: 'Events',
+          position: 'left',
+        },
+        {
           to: 'blog',
           label: 'Blog',
           position: 'left',
