@@ -345,7 +345,7 @@ The first string is the prefix that gets prepended to each expression so that we
 
 ## Testing
 
-Like OpenRefine core, extensions can test backend code through Java unit tests and frontend/integration tests can be written using Cypress. In addition to the resources below, extension authors are encouraged to review the documentation related to [functional tests](/docs/technical-reference/functional-tests) in OpenRefine core.
+We recommend extension authors write backend Java unit tests, like OpenRefine core does, and, if applicable, frontend/integration tests can be written using Cypress. In addition to the resources below, extension authors are encouraged to review the documentation related to [functional tests](/docs/technical-reference/functional-tests) in OpenRefine core.
 
 Please note that Java unit tests can be run from the command line with no additional setup, but integration tests need to have a running instance of OpenRefine to test against.
 
