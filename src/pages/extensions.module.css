@@ -1,0 +1,457 @@
+/* Extensions Page Styles */
+
+.extensionsPage {
+  padding: 2rem 0;
+  min-height: 70vh;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 1rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.disclaimer {
+  background-color: var(--ifm-color-warning-lightest);
+  border-left: 4px solid var(--ifm-color-warning);
+  padding: 1rem;
+  margin: 1.5rem auto;
+  max-width: 800px;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+[data-theme="dark"] .disclaimer {
+  background-color: rgba(255, 196, 0, 0.1);
+  border-left-color: var(--ifm-color-warning);
+}
+
+/* Search and Filters */
+
+.controls {
+  background: var(--ifm-panel-background-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px var(--ifm-panel-box-shadow-color);
+  margin-bottom: 2rem;
+}
+
+.searchBox {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.75rem 2.5rem 0.75rem 1rem;
+  font-size: 1rem;
+  border: 2px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  transition: border-color 0.2s;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+}
+
+.clearButton {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  color: var(--ifm-color-emphasis-600);
+  cursor: pointer;
+  padding: 0.25rem;
+  line-height: 1;
+  transition: color 0.2s;
+}
+
+.clearButton:hover {
+  color: var(--ifm-color-primary);
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.filterGroup label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.select {
+  padding: 0.5rem;
+  border: 2px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.select:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+}
+
+.resultsCount {
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+/* Extensions Grid */
+
+.extensionsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .extensionsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Extension Card */
+
+.extensionCard {
+  background: var(--ifm-panel-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.extensionCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: var(--ifm-color-primary);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+  gap: 1rem;
+}
+
+.extensionName {
+  font-size: 1.4rem;
+  margin: 0;
+  color: var(--ifm-color-primary);
+  flex: 1;
+}
+
+.badges {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.badge {
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+/* Status Badges */
+
+.badgeMaintained {
+  background-color: #10b981;
+  color: white;
+}
+
+.badgeArchived {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.badgeLegacy {
+  background-color: #6b7280;
+  color: white;
+}
+
+/* Compatibility Badge */
+
+.badgeCompatible {
+  background-color: #06b6d4;
+  color: white;
+}
+
+.badgeLegacy {
+  background-color: #6b7280;
+  color: white;
+}
+
+/* Difficulty Badges */
+
+.difficultyBeginner {
+  background-color: #60a5fa;
+  color: white;
+}
+
+.difficultyIntermediate {
+  background-color: #f97316;
+  color: white;
+}
+
+.difficultyAdvanced {
+  background-color: #dc2626;
+  color: white;
+}
+
+.description {
+  color: var(--ifm-color-emphasis-800);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  flex: 1;
+}
+
+/* Metadata */
+
+.metadata {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: var(--ifm-background-surface-color);
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.metadataItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.metadataLabel {
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.metadataValue {
+  color: var(--ifm-color-emphasis-900);
+}
+
+.metadataValue a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.metadataValue a:hover {
+  text-decoration: underline;
+}
+
+/* Tags */
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-900);
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+[data-theme="dark"] .tag {
+  background: var(--ifm-color-emphasis-300);
+}
+
+/* Card Footer */
+
+.cardFooter {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.buttonPrimary,
+.buttonSecondary {
+  flex: 1;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.buttonPrimary {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+.buttonPrimary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  color: white;
+  text-decoration: none;
+}
+
+.buttonSecondary {
+  background-color: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-900);
+}
+
+.buttonSecondary:hover {
+  background-color: var(--ifm-color-emphasis-300);
+}
+
+/* No Results */
+
+.noResults {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: var(--ifm-panel-background-color);
+  border-radius: 8px;
+  margin-bottom: 3rem;
+}
+
+.noResults p {
+  font-size: 1.1rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 1.5rem;
+}
+
+/* Additional Resources */
+
+.additionalResources {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 2px solid var(--ifm-color-emphasis-200);
+}
+
+.additionalResources h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--ifm-color-primary);
+}
+
+.resourceSection {
+  margin-bottom: 2rem;
+  background: var(--ifm-panel-background-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--ifm-color-primary);
+}
+
+.resourceSection h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-emphasis-900);
+}
+
+.resourceSection p {
+  color: var(--ifm-color-emphasis-800);
+  line-height: 1.6;
+}
+
+.resourceSection ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+.resourceSection li {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.resourceSection a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.resourceSection a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .filters {
+    grid-template-columns: 1fr;
+  }
+
+  .metadata {
+    grid-template-columns: 1fr;
+  }
+
+  .cardHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .badges {
+    justify-content: flex-start;
+  }
+}
