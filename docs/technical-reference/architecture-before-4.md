@@ -24,10 +24,10 @@ The data storage and processing architecture is being transformed. Up to version
 different architecture, where data is stored on disk by default and cached in memory if the project is small enough.
 
 ### Butterfly {#butterfly}
-The functional extensibility of OpenRefine is provided by a fork of the [SIMILE Butterfly](https://github.com/OpenRefine/simile-butterfly) modular web application framework. With this framework, extensions are able to provide new functionality both in the
+The functional extensibility of OpenRefine is provided by a fork of the [MIT SIMILE Butterfly](https://github.com/OpenRefine/simile-butterfly) modular web application framework. With this framework, extensions are able to provide new functionality both in the
 server- and client-side. A [list of known extensions](https://openrefine.org/extensions) is maintained on our website and we have [specific documentation for extension developers](technical-reference/writing-extensions.md).
 
-Butterfly organizes back-end functionality using a collection of modules. The only module exposed by OpenRefine is the `core` module, which provides extension points for other modules to hook into.
+Butterfly organizes back-end functionality using a collection of modules. The only module exposed by core OpenRefine (not including the bundled extensions) is the `core` module, which provides extension points for other modules to hook into. Butterfly modules can declare their dependencies using the `requires=` property in the `module/MOD-INFO/module.properties file.
 
 Each module uses a JavaScript file named `controller.js` to connect different parts of the backend. Butterfly uses a JavaScript interpreter to run this and other provided JavaScript files to configure the back-end. Extensions rely on `controller.js`, and specifically an `init` method within that file, to leverage the aforementioned extension points.
 
