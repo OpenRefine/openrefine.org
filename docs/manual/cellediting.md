@@ -160,7 +160,7 @@ Metaphone3 fingerprinting is an English-language phonetic algorithm. For example
 
 Cologne fingerprinting is another phonetic algorithm, but for German pronunciation.
 
-##### Daitch-Mokitoff {#daitch-mokotoff}
+##### Daitch-Mokotoff {#daitch-mokotoff}
 
 Daitch-Mokotoff is a phonetic algorithm for Slavic and Yiddish words, especially names.
 
