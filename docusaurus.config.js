@@ -46,7 +46,6 @@ return {
           position: 'left',
         },
         {
-          to: '/2025-fundraising',
           to: 'https://store.openrefine.org/',
           label: 'Store',
           position: 'right',
