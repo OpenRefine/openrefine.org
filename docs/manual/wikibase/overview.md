@@ -2,7 +2,6 @@
 id: overview
 title: Overview of Wikibase support
 sidebar_label: Overview
-remark-directive:
 ---
 
 [Wikibase](https://wikiba.se/) is free software (a set of MediaWiki extensions) used by many organizations around the world to store and publish Linked Open Data. Wikibase is the software behind [Wikidata](https://www.wikidata.org/), a free, multilingual collaborative knowledge base and a sister project of Wikipedia. Wikidata offers structured data about the world and can be edited by anyone. Wikibase also powers [structured data](https://commons.wikimedia.org/wiki/Commons:Structured_data) on [Wikimedia Commons](https://commons.wikimedia.org/), the media repository of Wikipedia.
