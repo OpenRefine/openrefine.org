@@ -251,7 +251,9 @@ Takes two strings and compares them, returning a string. Returns the remainder o
 
 ###### escape(s, s mode) {#escapes-s-mode}
 
-Escapes s in the given escaping mode. The mode can be one of: "html", "xml", "csv", "url", "javascript". Note that quotes are required around your mode. See the [recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes#question-marks--showing-in-your-data) for examples of escaping and unescaping.
+Escapes s in the given escaping mode. The mode can be one of: "html", "xml", "csv", "url", "urlpath", "urlform", "urlfragment", "javascript". Note that quotes are required around your mode. See the [recipes](https://github.com/OpenRefine/OpenRefine/wiki/Recipes#question-marks--showing-in-your-data) for examples of escaping and unescaping.
+
+Modes "urlpath", "urlform", and "urlfragment"  available since OpenRefine 3.9.
 
 ###### unescape(s, s mode) {#unescapes-s-mode}
 
@@ -298,6 +300,12 @@ Returns an array of the word n-grams of s. That is, it lists all the possible co
 ###### ngramFingerprint(s, n) {#ngramfingerprints-n}
 
 Returns the [n-gram fingerprint](cellediting#clustering-methods) of s. For example, `"banana".ngram(2)` would output “anbana”, after first generating the 2-grams “ba an na an na”, removing duplicates, and sorting them alphabetically.
+
+###### normalize(s) {#normalize}
+
+Returns a normalized version of the input string by removing diacritics and normalizing extended western characters to their ASCII representation.
+
+This function available since OpenRefine 3.10.
 
 ###### unicode(s) {#unicodes}
 
