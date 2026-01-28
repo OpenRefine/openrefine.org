@@ -113,7 +113,7 @@ In summary,
 
 The client-side part of OpenRefine is implemented in HTML, CSS and Javascript and uses the following Javascript libraries:
 
-- [jQuery](http://jquery.com/)
+- [jQuery](https://jquery.com/)
 - [jQueryUI](https://jqueryui.com/)
 - [Recurser jquery-i18n](https://github.com/recurser/jquery-i18n)
 
