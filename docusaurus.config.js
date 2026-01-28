@@ -3,9 +3,11 @@ export default async function createConfigAsync() {
 return {
   markdown: {
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'throw',
+    },
   },
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
   onBrokenAnchors: 'warn',
   title: 'OpenRefine',
   tagline: 'A power tool for working with messy data.',
@@ -223,7 +225,7 @@ return {
         blog: {
           blogSidebarCount: 'ALL',
           onInlineAuthors: 'ignore',
-          
+          onUntruncatedBlogPosts: 'ignore'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
