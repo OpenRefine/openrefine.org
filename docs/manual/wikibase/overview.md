@@ -20,11 +20,12 @@ Wikidata is built by creating entities (such as people, organizations, or places
 
 For example, you may wish to create entities for local authors and the books they've set in your community. Each writer will be an entity with the occupation [author (Q482980)](https://www.wikidata.org/wiki/Q482980), each book will be an entity with the property “instance of” ([P31](https://www.wikidata.org/wiki/Property:P31)) linking it to a class such as [literary work (Q7725634)](https://www.wikidata.org/wiki/Q7725634), and books will be related to authors through a property [author (P50)](https://www.wikidata.org/wiki/Property:P50). Books can have places where they are set, with the property [narrative location (P840)](https://www.wikidata.org/wiki/Property:P840).
 
-To do this with OpenRefine, you'll need a column of publication titles that you have reconciled (and create new items where needed); each publication will have one or more locations in a “setting” column, which is also reconciled to municipalities or regions where they exist (and create new items where needed). Then you can add those new relationships, and create new entities for authors, books, and places where needed. You do not need columns for properties; those are defined later, in the creation of your [schema](#edit-wikidata-schema).
+To do this with OpenRefine, you'll need a column of publication titles that you have reconciled (and create new items where needed); each publication will have one or more locations in a “setting” column, which is also reconciled to municipalities or regions where they exist (and create new items where needed). Then you can add those new relationships, and create new entities for authors, books, and places where needed. You do not need columns for properties; those are defined later, in the creation of your [schema](#wikidata-schema).
 
 There is a list of [tutorials and walkthroughs on Wikidata](https://www.wikidata.org/wiki/Wikidata:Tools/OpenRefine/Editing) that will allow you to see the full process. You can save your schemas and drafts in OpenRefine, and your progress stays in draft until you are ready to upload it to Wikidata.
 
 Batches of edits to Wikidata that are created with OpenRefine can be undone. You can test out the uploading process by reconciling to several “sandbox” entities created specifically for drafting edits and learning about Wikidata:
+
 * https://www.wikidata.org/wiki/Q4115189
 * https://www.wikidata.org/wiki/Q13406268
 * https://www.wikidata.org/wiki/Q15397819
@@ -37,10 +38,11 @@ You can use OpenRefine's reconciliation preview to look at the target Wikidata e
 ### Wikidata schema {#wikidata-schema}
 
 A [schema](https://en.wikipedia.org/wiki/Database_schema) is a plan for how to structure information in a database. In OpenRefine, the schema operates as a template for how Wikidata edits should be applied: how to translate your tabular data into statements. With a schema, you can:
-*   preview the Wikidata edits and inspect them manually;
-*   analyze and fix any issues highlighted by OpenRefine;
-*   upload your changes to Wikidata by logging in with your own account;
-*   export the changes to the QuickStatements v1 format.
+
+* preview the Wikidata edits and inspect them manually;
+* analyze and fix any issues highlighted by OpenRefine;
+* upload your changes to Wikidata by logging in with your own account;
+* export the changes to the QuickStatements v1 format.
 
 For example, if your dataset has columns for authors, publication titles, and publication years, your schema can be conceptualized as: [publication title] has the author [author], and was published in [publication year]. To establish these facts, you need to establish one or more columns as “items,” for which you will make “statements” that relate them to other columns.
 
@@ -82,6 +84,7 @@ You could upload the “Translated titles” to “Label” with the language sp
 #### Unsupported field types
 
 With OpenRefine, it is not yet possible to edit:
+
 * sitelinks (links to Wikipedia or other Wikimedia projects, in the case of Wikidata);
 * any field on Wikibase properties;
 * lexemes, forms or senses.
@@ -95,6 +98,7 @@ Use the <span class="menuItems">Extensions</span> menu to select <span class="me
 ![The Wikidata authorization window in OpenRefine.](/img/wikidata-login.png)
 
 For security reasons, you should not use your main account authorization with OpenRefine. Wikidata allows you to set special passwords to access your account through software. You can find [this setting for your account here](https://www.wikidata.org/wiki/Special:BotPasswords) once logged in. Creating bot access will prompt you for a unique name. You should then enable the following required settings:
+
 * High-volume editing
 * Edit existing pages
 * Create, edit, and move pages
@@ -147,7 +151,7 @@ One of the most common suggestions is to attach [a reference to your edits](http
 :::caution OpenRefine version 3.6 or newer needed!
 Wikimedia Commons editing is possible with OpenRefine version 3.6 or newer. It is **not** supported in earlier versions.
 
-More detailed guides and howtos for Wikimedia Commons editing can be found at OpenRefine's info page there: **https://commons.wikimedia.org/wiki/Commons:OpenRefine**
+More detailed guides and howtos for Wikimedia Commons editing can be found at OpenRefine's info page there: [**https://commons.wikimedia.org/wiki/Commons:OpenRefine**](https://commons.wikimedia.org/wiki/Commons:OpenRefine)
 :::
 
 [Wikimedia Commons](https://commons.wikimedia.org) is the shared media repository of the Wikimedia ecosystem; it is a sister project of Wikipedia. Wikimedia Commons contains (as of mid 2022) more than 85 million freely licensed media files (images, videos, scanned books, 3D files and more) that are used as illustrations on Wikipedia and that can be freely re-used by anyone.
@@ -198,7 +202,8 @@ If you don’t have the Wikimedia Commons reconciliation service installed in Op
 This step is optional, but may be very useful. Existing files on Wikimedia Commons are always described with so-called Wikitext, a plain-text description which contains (among other things) information about the file's creator, license, and one or more descriptive categories. Often, Wikitext contains information which is valuable to parse in OpenRefine and which can be converted to structured data (and reconciled with Wikidata) later.
 
 For instance, the Wikitext of [this image](https://commons.wikimedia.org/wiki/File:Harry_Whittier_Frees_-_The_Bufkins_Twins_Were_Swinging.jpg) is:
-```
+
+```wikitext
 == {{int:filedesc}} ==
 {{Information
 |Description={{en|1=Illustration from "The little folks of animal land". Inscription below image: "The Bufkins Twins Were Swinging"}}
@@ -216,7 +221,7 @@ For instance, the Wikitext of [this image](https://commons.wikimedia.org/wiki/Fi
 
 You can extract Wikitext (and structured data statements) from a list of file names. Select <span class="menuItems">Edit column</span> → <span class="menuItems">Add columns from reconciled values...</span>
 
-See [Add columns from reconciled values](./reconciling#add-columns-from-reconciled-values) for general information about this feature.
+See [Add columns from reconciled values](../reconciling.md#add-columns-from-reconciled-values) for general information about this feature.
 
 ### Prepare columns with structured data
 

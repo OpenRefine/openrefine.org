@@ -29,14 +29,13 @@ This requires that the Wikibase site has an associated [QuickStatements](https:/
 
 ### Merging strategy for terms and statements {#merging-strategy-for-terms-and-statements}
 
-OpenRefine offers various merging strategies for terms and statements. QuickStatements only supports one non-configurable merging strategy. Therefore, the merging strategies specified by the user in the schema are ignored when exporting to QuickStatements,
-which can result in unintended changes.
+OpenRefine offers various merging strategies for terms and statements. QuickStatements only supports one non-configurable merging strategy. Therefore, the merging strategies specified by the user in the schema are ignored when exporting to QuickStatements, which can result in unintended changes.
 
 ### New item creation {#new-item-creation}
 
 OpenRefine supports creating new items with arbitrary relations between them.
 
-QuickStatements supports creating new items with the <code>CREATE</code> instruction, and subsequent instructions can use the <code>LAST</code> placeholder to use the Qid of the last created item. When generating QuickStatements instructions, OpenRefine reorders your edits so that this syntax can be used. In rare cases, such as when a statement links two newly-created items, it is impossible to use QuickStatements to perform the edit. In this case, no QuickStatements script will be generated.
+QuickStatements supports creating new items with the `CREATE` instruction, and subsequent instructions can use the `LAST` placeholder to use the Qid of the last created item. When generating QuickStatements instructions, OpenRefine reorders your edits so that this syntax can be used. In rare cases, such as when a statement links two newly-created items, it is impossible to use QuickStatements to perform the edit. In this case, no QuickStatements script will be generated.
 
 ### Speed and number of edits {#speed-and-number-of-edits}
 

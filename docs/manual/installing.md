@@ -16,9 +16,10 @@ OpenRefine is designed to work with **Windows**, **Mac**, and **Linux** operatin
 
 #### Java {#java}
 
-Java must be installed and configured on your computer to run OpenRefine. The Mac version of OpenRefine includes Java; new in OpenRefine 3.4, there is also a Windows package with Java included.
+Java must be installed and configured on your computer to run OpenRefine. The Mac version of OpenRefine includes Java.
+Since OpenRefine 3.4, there is also an OpenRefine Windows package with Java already included.
 
-If you want to install Java yourself, you can install a pre-built Java Runtime Environment (JRE) from  [Adoptium.net](https://adoptium.net/releases.html). Please note that OpenRefine works with Java 11 to Java 17 for OpenRefine 3.7.
+If you want to manually install Java yourself, you can install a pre-built Java Runtime Environment (JRE) from  [Adoptium.net](https://adoptium.net/releases.html). Please note that OpenRefine works with Java 11 to Java 17 for OpenRefine 3.7.
 
 If you install and start OpenRefine on a Windows computer without Java, it will automatically open up a browser window to this page.
 
@@ -26,13 +27,13 @@ If you install and start OpenRefine on a Windows computer without Java, it will 
 
 OpenRefine works best on browsers based on WebKit, such as:
 
-*   [Google Chrome](https://www.google.com/chrome/)
-*   [Chromium](https://ungoogled-software.github.io/)
-*   [Opera](https://www.opera.com/)
-*   [Microsoft Edge](https://www.microsoft.com/edge)
-*   [Safari](https://www.apple.com/safari/)
+* [Google Chrome](https://www.google.com/chrome/)
+* [Chromium](https://ungoogled-software.github.io/)
+* [Opera](https://www.opera.com/)
+* [Microsoft Edge](https://www.microsoft.com/edge)
+* [Safari](https://www.apple.com/safari/)
 
-We are aware of some minor rendering and performance issues on other browsers such as Firefox. We don't support Internet Explorer. If you are having issues running OpenRefine, see the [section on Running](running.md#troubleshooting).
+We are aware of some minor rendering and performance issues on other browsers such as Firefox. We don't support Internet Explorer. If you are having issues running OpenRefine, see [Troubleshooting](troubleshooting.md).
 
 ### Release versions {#release-versions}
 
@@ -318,9 +319,10 @@ Using a Mac, you can [run OpenRefine using the terminal](running#starting-and-ex
 ## Increasing memory allocation {#increasing-memory-allocation}
 
 OpenRefine relies on having computer memory available to it to work effectively. If you are planning to work with large datasets, you may wish to set up OpenRefine to handle it at the outset. By “large” we generally mean one of the following indicators:
-*   more than one million total cells
-*   an input file size of more than 50 megabytes (MB)
-*   more than 50 [rows per record in records mode](running#records-mode)
+
+* more than one million total cells
+* an input file size of more than 50 megabytes (MB)
+* more than 50 [rows per record in records mode](exploring#rows-vs-records)
 
 By default OpenRefine is set to operate with 1 gigabyte (GB) of memory (1024MB). If you feel that OpenRefine is running slowly, or you are getting “out of memory” errors (for example, `java.lang.OutOfMemoryError`), you can try allocating more memory.
 
@@ -348,7 +350,7 @@ If your project is big enough to need more than the default amount of memory, co
 
 If you run `openrefine.exe`, you will need to edit the `openrefine.l4j.ini` file found in the program directory and edit the line
 
-```
+```ini
 # max memory memory heap size
 -Xmx1024M
 ```
@@ -356,7 +358,7 @@ If you run `openrefine.exe`, you will need to edit the `openrefine.l4j.ini` file
 The line “-Xmx1024M” defines the amount of memory available in megabytes. Change the number “1024” - for example, edit the line to “-Xmx2048M” to make 2048MB [2GB] of memory available.
 
 :::caution openrefine.exe not running?
-Once you increase the memory allocation, you may find that you cannot run `openrefine.exe`. In this case, your computer needs a 64-bit version of [Java](https://www.java.com/en/download/help/index_installing.xml) (this is different from [Java JDK](#install-or-upgrade-java). Look for the “Windows Offline (64-bit)” download on the Downloads page and install that. Your system must also be set to use the 64-bit version of Java by [changing the Java configuration](https://www.java.com/en/download/help/update_runtime_settings.xml).
+Once you increase the memory allocation, you may find that you cannot run `openrefine.exe`. In this case, your computer needs a 64-bit version of [Java](https://www.java.com/en/download/help/index_installing.xml) (this is different from [Java JDK](#java). Look for the “Windows Offline (64-bit)” download on the Downloads page and install that. Your system must also be set to use the 64-bit version of Java by [changing the Java configuration](https://www.java.com/en/download/help/update_runtime_settings.xml).
 :::
 
 #### Using refine.bat {#using-refinebat}
@@ -365,45 +367,52 @@ On Windows, OpenRefine can also be run by using the file `refine.bat` in the pro
 
 To set the maximum amount of memory on the command line when using `refine.bat`, `cd` to the program directory, then type
 
-```refine.bat /m 2048m```
+```cmd
+refine.bat /m 2048m
+```
 
 where “2048” is the maximum amount of MB that you want OpenRefine to use.
 
 To change the default that `refine.bat` uses, edit the `refine.ini` line that reads
 
-```REFINE_MEMORY=1024M```
+```ini
+REFINE_MEMORY=1024M
+```
 
 Note that this file is only read if you use `refine.bat`, not `openrefine.exe`.
 
 </TabItem>
 <TabItem value="mac">
 
-:::caution 
+:::caution
 Before proceeding, double-check that you've completed the installation steps outlined above. Skipping those steps may result in an error about a read-only volume when you try to edit the `Info.plist` file in the next steps.  
 :::
 
 If you have downloaded the `.dmg` package and you start OpenRefine by double-clicking on it:
 
-*   close OpenRefine
-*   control-click on the OpenRefine icon (opens the contextual menu)
-*   click on "show package content” (a finder window opens)
-*   open the “Contents” folder
-*   open and edit the `Info.plist` file with any text editor (like Mac's default TextEdit)
-*   Change “-Xmx1024M” into, for example, “-Xmx2048M” or “-Xmx8G”
-*   save the file
-*   restart OpenRefine
+* close OpenRefine
+* control-click on the OpenRefine icon (opens the contextual menu)
+* click on "show package content” (a finder window opens)
+* open the “Contents” folder
+* open and edit the `Info.plist` file with any text editor (like Mac's default TextEdit)
+* Change “-Xmx1024M” into, for example, “-Xmx2048M” or “-Xmx8G”
+* save the file
+* restart OpenRefine
 
 </TabItem>
 <TabItem value="linux">
 
 If you have downloaded the `.tar.gz` package and you start OpenRefine from the command line, add the “-m xxxxM” parameter like this:
-`./refine -m 2048m`
+
+```sh
+./refine -m 2048m
+```
 
 #### Setting a default {#setting-a-default}
 
 If you don't want to set this option on the command line each time, you can also set it in the `refine.ini` file. Edit the line
 
-```
+```ini
 REFINE_MEMORY=1024M
 ```
 
@@ -414,7 +423,6 @@ Make sure it is not commented out (that is, that the line doesn't start with a �
 </Tabs>
 
 ---
-
 
 ## Installing extensions {#installing-extensions}
 
@@ -428,8 +436,8 @@ If you’d like to create or modify an extension, [see our developer documentati
 
 You can [install extensions in one of two places](#set-where-data-is-stored):
 
-*   Into your OpenRefine program folder, so they will only be available to that version/installation of OpenRefine (meaning the extension will not run if you upgrade OpenRefine), or
-*   Into your workspace, where your projects are stored, so they will be available no matter which version of OpenRefine you’re using.
+* Into your OpenRefine program folder, so they will only be available to that version/installation of OpenRefine (meaning the extension will not run if you upgrade OpenRefine), or
+* Into your workspace, where your projects are stored, so they will be available no matter which version of OpenRefine you’re using.
 
 We provide these options because you may wish to reinstall a given extension manually each time you upgrade OpenRefine, in order to be sure it works properly.
 
@@ -438,8 +446,9 @@ We provide these options because you may wish to reinstall a given extension man
 If you want to install the extension into the program folder, go to your program directory and then go to `webapp\extensions` (or create it if not does not exist).
 
 If you want to install the extension into your workspace, you can:
-*   [Locate your workspace directory](#set-where-data-is-stored)
-*   Create a new folder called “extensions” inside the workspace if it does not exist.
+
+* [Locate your workspace directory](#set-where-data-is-stored)
+* Create a new folder called “extensions” inside the workspace if it does not exist.
 
 You can also [find your workspace on each operating system using these instructions](#set-where-data-is-stored).  
 
@@ -451,8 +460,8 @@ Some extensions may have multiple versions, to match OpenRefine versions, so be 
 
 Generally, the installation process will be:
 
-*   Download the extension (usually as a zip file from GitHub)
-*   Extract the zip contents into the `webapp\extensions` directory, making sure all the contents go into one folder with the name of the extension
-*   Start (or restart) OpenRefine.
+* Download the extension (usually as a zip file from GitHub)
+* Extract the zip contents into the `webapp\extensions` directory, making sure all the contents go into one folder with the name of the extension
+* Start (or restart) OpenRefine.
 
 To confirm that installation was a success, follow the instructions provided by the extension. Each extension will appear in its own way inside the OpenRefine interface. Make sure you read its documentation to know where the functionality will appear, such as under specific dropdown menus.

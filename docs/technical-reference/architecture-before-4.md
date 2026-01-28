@@ -10,14 +10,15 @@ This architecture provides a good separation of concerns (data vs. UI); allows t
 
 ## Technology stack {#technology-stack}
 
-The server-side (back-end) part of OpenRefine is implemented in Java as one single servlet which is executed by the [Jetty](http://jetty.codehaus.org/jetty/) web server and servlet container. The use of Java strikes a balance between performance and portability across operating systems (there is very little OS-specific code and has mostly to do with starting the application). 
+The server-side (back-end) part of OpenRefine is implemented in Java as one single servlet which is executed by the [Jetty](http://jetty.codehaus.org/jetty/) web server and servlet container. The use of Java strikes a balance between performance and portability across operating systems (there is very little OS-specific code and has mostly to do with starting the application).
 
 The functional extensibility of OpenRefine is provided by a fork of the [SIMILE Butterfly](https://github.com/OpenRefine/simile-butterfly) modular web application framework. With this framework, extensions are able to provide new functionality both in the
 server- and client-side. A [list of known extensions](/extensions) is maintained on our website and we have [specific documentation for extension developers](technical-reference/writing-extensions.md).
 
 The client-side part of OpenRefine is implemented in HTML, CSS and plain Javascript. It primariy uses the following libraries:
-* [jQuery](http://jquery.com/)
-* [Wikimedia's jQuery.i18n](https://github.com/wikimedia/jquery.i18n)
+
+- [jQuery](http://jquery.com/)
+- [Wikimedia's jQuery.i18n](https://github.com/wikimedia/jquery.i18n)
 The front-end dependencies are fetched at build time via [NPM](https://www.npmjs.com/).
 
 The server-side part of OpenRefine relies on many libraries, for instance to implement import and export in many different formats.
@@ -109,10 +110,12 @@ In summary,
 - generalizable processes can be re-constructed from abstract operations
 
 ## Client-side architecture {#client-side-architecture}
+
 The client-side part of OpenRefine is implemented in HTML, CSS and Javascript and uses the following Javascript libraries:
-* [jQuery](http://jquery.com/)
-* [jQueryUI](http:jqueryui.com/)
-* [Recurser jquery-i18n](https://github.com/recurser/jquery-i18n)
+
+- [jQuery](https://jquery.com/)
+- [jQueryUI](https://jqueryui.com/)
+- [Recurser jquery-i18n](https://github.com/recurser/jquery-i18n)
 
 ### Importing architecture {#importing-architecture}
 
@@ -161,7 +164,7 @@ Refine.DefaultImportingController = function(createProjectUI) {
 Refine.CreateProjectUI.controllers.push(Refine.DefaultImportingController); // register the controller
 ```
 
-We will cover the server-side code [below](#importingcontrollers).
+We will cover the server-side code [below](#importingcontroller).
 
 #### Data Source Selection UIs {#data-source-selection-uis}
 
@@ -215,8 +218,9 @@ is not uncommon that this initial choice must be overriden by the user.
 
 Beyond this choice of format, the parsing UI panel offers a configuration panel for the chosen importer. This part of the UI can be defined independently for each input format, given that not all options are relevant for all formats. For instance, when
 selecting the "Text file" option, the specific UI of the `LinedBasedImporter` will be shown. This UI is defined in:
-* `main/webapp/modules/core/scripts/index/parser-interfaces/line-based-parser-ui.html`
-* `main/webapp/modules/core/scripts/index/parser-interfaces/line-based-parser-ui.js`
+
+- `main/webapp/modules/core/scripts/index/parser-interfaces/line-based-parser-ui.html`
+- `main/webapp/modules/core/scripts/index/parser-interfaces/line-based-parser-ui.js`
 
 Other importers generally define their own parsing configuration panel as well.
 
@@ -227,12 +231,11 @@ where those components are registered together in the `ImportingManager`.
 
 #### ImportingController {#importingcontroller}
 
-An importing controller is a component of the back-end which is in charge of the entire importing workflow, from the initial transfer of the raw data to be imported to the created project, with all the configuration steps in between, [as described in the
-earlier section](#importing-controllers). OpenRefine comes with
-a default importing controller which implements this for data coming from:
-* file upload by the user via the web interface
-* upload of textual information using the clipboard import form
-* download of a file by supplying a URL
+An importing controller is a component of the back-end which is in charge of the entire importing workflow, from the initial transfer of the raw data to be imported to the created project, with all the configuration steps in between, [as described in the earlier section](#importing-controllers). OpenRefine comes with a default importing controller which implements this for data coming from:
+
+- file upload by the user via the web interface
+- upload of textual information using the clipboard import form
+- download of a file by supplying a URL
 
 For all of these data sources, the first step consists of storing the corresponding input files in a temporary directory inside the workspace. The default importing controller provides an HTTP API used by the front-end to select which files to import, [predict
 the format they are in](#formatguesser), provide default importing options for the selected format, preview the project's first few rows with the given options, and finally create the project.
