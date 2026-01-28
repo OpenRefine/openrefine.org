@@ -151,7 +151,7 @@ You cannot start the Mac version with modifications using Terminal, but you can 
 To see the full list of command-line options, run
 
 ```sh
-./refine -h`
+./refine -h
 ```
 
 |Command|Use|Syntax example|
@@ -215,7 +215,7 @@ Some of the most common keys (with their defaults) are:
 |Proxy host or IP|`-Dhttp.proxyHost`|proxy.example.org or 192.168.1.10|
 |Proxy port|`-Dhttp.proxyPort`|8080|
 |The project [autosave](starting#autosaving) frequency|`-Drefine.autosave`|5 [minutes]|
-|The workspace director|`-Drefine.data_dir`|/|
+|The workspace directory|`-Drefine.data_dir`|/|
 |Development mode|`-Drefine.development`|false|
 |Headless mode|`-Drefine.headless`|false|
 |IP|`-Drefine.interface`|127.0.0.1|
@@ -316,7 +316,7 @@ export OR_INFO="/Applications/OpenRefine.app/Contents/Info.plist"
 defaults write $OR_INFO JVMOptions -array-add "-Drefine.interface=192.168.0.10"
 ```
 
-This will not work if you already have the value defined, so whatch out for that.
+This will not work if you already have the value defined, so watch out for that.
 
 </TabItem>
 

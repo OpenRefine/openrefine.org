@@ -202,7 +202,7 @@ Dates are parsed from cell contents (or from any constant provided in
 the schema) and the precision of the date is inferred from its format.
 Here are the valid formats:
 
-- `YYYYM`, such as `2001M` (millenium precision)
+- `YYYYM`, such as `2001M` (millennium precision)
 - `YYYYC`, such as `1901C` (century precision)
 - `YYYYD`, such as `1981D` (decade precision)
 - `YYYY`, such as `1984` (year precision)

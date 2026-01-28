@@ -23,7 +23,7 @@ To export data from a project, click the <span class="menuItems">Export</span> d
 * Excel spreadsheet (XLS or XLSX)
 * Open Document Format (ODF) spreadsheet (ODS)
 * Upload to Google Sheets (requires [Google account authorization](starting#google-sheet-from-drive))
-   [Custom tabular exporter](#custom-tabular-exporter)
+*   [Custom tabular exporter](#custom-tabular-exporter)
 * [SQL statement exporter](#sql-exporter)
 * [Templating exporter](#templating-exporter), which generates JSON by default
 
