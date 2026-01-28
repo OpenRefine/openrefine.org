@@ -71,7 +71,7 @@ Do not use this form to load a Google Sheet by its link; use [the Google Data fo
 
 You can copy and paste in data from anywhere. OpenRefine will recognize comma-separated, tab-separated, or table-formatted information copied from sources such as word-processing documents, spreadsheets, and tables in PDFs. You can also just paste in a list of items that you want to turn into rows. OpenRefine recognizes each new text line as a row.
 
-This can be useful if you want to pre-select a specific number of rows from your source data, or paste together rows from different places, rather than delete unwanted rows later in the project interace.
+This can be useful if you want to pre-select a specific number of rows from your source data, or paste together rows from different places, rather than delete unwanted rows later in the project interface.
 
 This can also be useful if you would like to paste in a list of URLs, which you can use later to [fetch more data](columnediting).
 
