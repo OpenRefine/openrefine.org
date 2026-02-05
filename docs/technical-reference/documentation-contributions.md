@@ -1,7 +1,7 @@
 ---
 id: documentation-contributions
 title: Documentation contributions
-sidebar_label: Contributing documentation
+sidebar_label: Contributing as a documenter
 ---
 
 We welcome contributions to our documentation, which is maintained as a set of [Markdown](https://www.markdownguide.org/) files in the [OpenRefine/openrefine.org](https://github.com/OpenRefine/openrefine.org) Git repository.
@@ -26,6 +26,6 @@ git clone git@github.com:<myaccount>/openrefine.org.git
 cd openrefine.org
 ```
 
-The repository README contains instructions for developing the project locally.
+The repository [README](https://github.com/OpenRefine/openrefine.org/blob/master/README.md) contains instructions for developing the project locally.
 
 Once you are happy with your changes, you can [submit them as a pull request](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/).
