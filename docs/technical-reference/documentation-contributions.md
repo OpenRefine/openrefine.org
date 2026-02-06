@@ -1,7 +1,7 @@
 ---
 id: documentation-contributions
 title: Documentation contributions
-sidebar_label: Contributing as a documenter
+sidebar_label: Contributing as a technical writer
 ---
 
 We welcome contributions to our documentation, which is maintained as a set of [Markdown](https://www.markdownguide.org/) files in the [OpenRefine/openrefine.org](https://github.com/OpenRefine/openrefine.org) Git repository.
