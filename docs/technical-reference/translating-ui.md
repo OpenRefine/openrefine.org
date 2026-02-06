@@ -1,7 +1,7 @@
 ---
 id: translating-ui
 title: Translate OpenRefine's interface
-sidebar_label: Translate OpenRefine's interface
+sidebar_label: Contributing as a translator
 ---
 
 You can help translate OpenRefine into your language by visiting [Weblate](https://hosted.weblate.org/engage/openrefine/?utm_source=widget) which provides a web based UI to edit and add translations and sends automatic pull requests back to our project.
