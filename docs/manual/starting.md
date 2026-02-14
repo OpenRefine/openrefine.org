@@ -14,6 +14,12 @@ The data and all of your edits are [automatically saved](#autosaving) inside the
 
 You can also receive and open other people’s projects, or send them yours, by [exporting a project archive](exporting#export-a-project) and [importing it](#import-a-project).
 
+## Common beginner notes
+
+- OpenRefine does not modify your original data file.
+- A project must be created by importing existing data.
+- Changes are stored inside the OpenRefine workspace.
+
 ## Create a project by importing data {#create-a-project-by-importing-data}
 
 When you start OpenRefine, you’ll be taken to the <span class="menuItems">Create Project</span> screen. You’ll see on the left side of the screen that your options are to:
