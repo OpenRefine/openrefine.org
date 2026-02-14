@@ -6,7 +6,13 @@ sidebar_label: Starting a project
 
 ## Overview {#overview}
 
-An OpenRefine project is started by importing in some existing data - OpenRefine doesn’t allow you to create a dataset from nothing.
+## What you’ll learn in this section
+
+In this section, you’ll learn how to create your first project in OpenRefine by importing data, understand how OpenRefine stores and saves your work, and explore the different ways you can load data from files, the web, databases, and Google Sheets.
+
+For example, you might start a project by importing a CSV file containing a list of products, survey responses, or bibliographic records.
+
+An OpenRefine project is started by importing existing data — OpenRefine does not allow you to create an empty dataset from scratch.
 
 No matter where your data comes from, OpenRefine won’t modify your original data source. It copies all the information from your input, creates its own project file, and stores it in your [workspace directory](installing#set-where-data-is-stored).
 
