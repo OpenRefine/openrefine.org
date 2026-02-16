@@ -182,6 +182,28 @@ Autosaving happens by default every five minutes. You can [change this preferenc
 
 You can only save and share facets and filters, not any other type of view. To save current facets and filters, click <span class="menuItems">Permalink</span>. The project will reload with a different URL, which you can then copy and save elsewhere. This permalink will save both the facets and filters you’ve set, and the settings for each one (such as sorting by count rather than by name).
 
+## Common Beginner Mistakes
+
+This section highlights common issues new users face when starting with OpenRefine and how to avoid them.
+
+### Assuming data is automatically saved
+OpenRefine does not modify your original file. All changes are stored in the project history.
+Always export your data after cleaning.
+
+### Forgetting to export cleaned data
+Edits remain inside the project unless you explicitly export the dataset.
+
+### Misunderstanding Undo/Redo
+Undo and redo actions apply to the entire project, not individual columns or cells.
+Use the Undo/Redo panel to safely review changes.
+
+### Skipping the import preview
+Incorrect delimiters or encodings during import can lead to messy data.
+Always review the preview before creating a project.
+
+### Working with very large datasets
+OpenRefine runs locally and depends on available memory, which may affect performance with large files.
+
 ### Deleting projects {#deleting-projects}
 
 You can delete projects, which will erase the project files from the workspace directory on your computer. This is immediate and cannot be undone.
