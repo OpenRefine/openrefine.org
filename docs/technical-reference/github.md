@@ -6,6 +6,20 @@ sidebar_label: Communicating via GitHub
 
 We recommend new members of OpenRefine's GitHub organization to apply some GitHub configuration settings, to help them integrate in the project smoothly.
 
+## GitHub Organization Membership
+
+The OpenRefine project uses a GitHub organization to manage collaboration across its repositories.
+
+### How contributors are invited
+Contributors may be invited to join the OpenRefine GitHub organization based on their level of involvement and the responsibilities they take on within the project. Invitations are typically extended when organizational membership helps enable smoother collaboration, such as assigning issues or managing repositories.
+
+### Why join the organization
+Being a member of the GitHub organization allows contributors to be assigned to issues, participate in team-based workflows, and collaborate more easily across OpenRefine repositories.
+
+### Roles and groups
+The organization includes teams with different responsibilities that reflect how work is coordinated across the project. Details about governance, decision-making, and responsibilities are documented in the OpenRefine governance documentation:
+https://github.com/OpenRefine/OpenRefine/blob/master/GOVERNANCE.md
+
 ## Notifications
 
 As a member of the organization, GitHub subscribes you automatically to a lot of notifications about everything that is happening in the project. For most people, this will generate much more noise than desired.
