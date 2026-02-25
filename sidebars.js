@@ -34,12 +34,13 @@ module.exports = {
     'technical-reference/contributing',
     'technical-reference/why-get-involved',
     'technical-reference/github',
+    'technical-reference/translating-ui',
+    'technical-reference/documentation-contributions',
     {
     type: 'category',
     label: 'Contributing as a developer',
     items: [
         'technical-reference/code-contributions',
-        'technical-reference/translating-ui',
         'technical-reference/build-test-run',
         'technical-reference/functional-tests',
         {
