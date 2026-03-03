@@ -12,10 +12,9 @@ OpenRefine relies on a combination of volunteer contributions and financial supp
 
 We are seeking your support to fund OpenRefine's core team, a small group of part-time staff who maintain the project's infrastructure, respond to community needs, review and guide volunteer contributors, handle security reports, and steward the ecosystem of extensions and reconciliation services. 
 
-Our annual operating budget is **US$140 000** (or appx US$11,500 per month), covering:
-* US $7,500 per month for OpenRefine Developer & Contributor Engagement lead
+Our annual operating budget is **US$50 000**, covering:
 * US $2,500 per month for project coordination
-* US $70 per month for essential software licenses (Figma and Discourse)
+* US $20,000 per year for community support including event organization and essential software licenses (Figma and Discourse)
 * 15% of donations to our fiscal sponsor, Code for Science and Society, to handle administration and compliance
 
 Additional funding enables us to organize community events, conduct outreach efforts, and undertake special projects. OpenRefine maintains a [curated list of goalposts](/docs/technical-reference/development-roadmap) based on the interests and priorities of our community. We are currently seeking resources to achieve them. You can help by forming partnerships between your organization and OpenRefine or providing financial support.
@@ -38,14 +37,11 @@ Since 2018, OpenRefine has relied on grants to sustain its development. Below, y
 
 ### Applying
 
-OpenRefine is actively applying to grant opportunities listed in this section. We will update this section with the latest information as we progress.
-If you're interested in partnering with us for a grant, [contact us](https://forum.openrefine.org/). 
-
+OpenRefine is currently not actively applying to any grant opportunities listed in this section. If you're interested in partnering with us for a grant, [contact us](https://forum.openrefine.org/). 
 
 ### Active Grants
 
-OpenRefine is currently working on the following grants. 
-
+OpenRefine is not currently working any grants. 
 
 ### Completed Grants
 
