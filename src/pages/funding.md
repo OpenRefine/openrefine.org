@@ -46,9 +46,14 @@ If you're interested in partnering with us for a grant, [contact us](https://for
 
 OpenRefine is currently working on the following grants. 
 
+
+### Completed Grants
+
+OpenRefine completed the following grants. 
+
 #### 2022 EOSS-5 
 * **CS&S code**: `10016 ORefine: 22 SVCF 2022-252591`
-* **Status**: Awarded - Current
+* **Status**: Awarded - Completed
 * **Amount**: USD 310,100 (USD 155,050 per year for two years)
 * **Source**: [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
 * **Start date**: January 2023
@@ -57,16 +62,13 @@ OpenRefine is currently working on the following grants.
   * [Letter of intent](/uploads/2022-EOSS5-LOI.pdf)
   * [Grant application](/uploads/2022-EOSS5.pdf)
   * [Blog Post: OpenRefine funded to improve its reproducibility](/blog/2022/12/30/eoss5)
+  * [On CZI's Website](https://chanzuckerberg.com/eoss/proposals/improving-openrefines-reproducibility/) 
   * [2024 interim report](/uploads/2024-EOSS5-Interim-Report.pdf)
-  * [On CZI's Website](https://chanzuckerberg.com/eoss/proposals/improving-openrefines-reproducibility/)
-
-### Completed Grants
-
-OpenRefine completed the following grants. 
+  * [2026 final report](/uploads/2026-EOSS-5-Final-Report.pdf)
 
 #### 2023 Wikimedia Foundation 
 * **CS&S code**: `ORefine: 23 Wikimedia`
-* **Status**: Awarded - Current
+* **Status**: Awarded - Completed
 * **Amount**: USD 50,000
 * **Source**: [Wikimedia Foundation Funds](https://meta.wikimedia.org/wiki/Grants:Start)
 * **Start date**: June 2023
@@ -79,7 +81,7 @@ OpenRefine completed the following grants.
   
 #### 2021 EOSS-Diversity 
 * **CS&S code**: `ORefine: 21 SVCF - 2021-237149 OR for Everyone`
-* **Status**: Awarded - Current
+* **Status**: Awarded - Completed
 * **Amount**: USD 240,000 (USD 120,000 per year for two years)
 * **Source**: [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
 * **Start Date**: September 2021
@@ -146,7 +148,7 @@ OpenRefine completed the following grants.
 We applied for the following grant opportunities, but our proposals were not selected. 
 
 #### 2025 NLNet: Hardening OpenRefine’s Extension Architecture
-* **Status**: Grant application
+* **Status**: Not Awarded
 * **Amount**: EUR 49,881.25
 * **Source**: [NGI Zero Commons Fund](https://nlnet.nl/commonsfund/)
 * **Start date**: January 2026
@@ -156,7 +158,7 @@ We applied for the following grant opportunities, but our proposals were not sel
   * [Forum thread](https://forum.openrefine.org/t/2025-nlnet-ngi-zero-commons-fund/2381)
   
 #### 2025 NLNet: Native In-App Reconciliation of Arbitrary Local Data Sets 
-* **Status**: Grant application
+* **Status**: Not Awarded
 * **Amount**: EUR 49,961.75
 * **Source**: [NGI Zero Commons Fund](https://nlnet.nl/commonsfund/)
 * **Start date**: January 2026
@@ -166,7 +168,7 @@ We applied for the following grant opportunities, but our proposals were not sel
   * [Forum thread](https://forum.openrefine.org/t/2025-nlnet-ngi-zero-commons-fund/2381)
 
 #### 2025 Digital Science Catalyst Grant
-* **Status**: Grant application
+* **Status**: Not Awarded
 * **Amount**: GBP 25,000
 * **Source**: [Digital Science Catalyst Grant.](https://www.digital-science.com/investment/catalyst-grant)
 * **Start date**: January 2026
