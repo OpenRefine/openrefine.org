@@ -12,7 +12,7 @@ OpenRefine relies on a combination of volunteer contributions and financial supp
 
 We are seeking your support to fund OpenRefine's core team, a small group of part-time staff who maintain the project's infrastructure, respond to community needs, review and guide volunteer contributors, handle security reports, and steward the ecosystem of extensions and reconciliation services. 
 
-Our annual operating budget is **US$50 000**, covering:
+Our annual operating budget is **US$50,000**, covering:
 * US $2,500 per month for project coordination
 * US $20,000 per year for community support including event organization and essential software licenses (Figma and Discourse)
 * 15% of donations to our fiscal sponsor, Code for Science and Society, to handle administration and compliance
