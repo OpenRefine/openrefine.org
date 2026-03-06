@@ -167,7 +167,7 @@ Example: `TabularImportingParserBase` [before](https://github.com/OpenRefine/Ope
 
 Migrate serialization and deserialization as for other objects.
 
-Example: `WikibaseSchema` [before](https://github.com/OpenRefine/OpenRefine/blob/3.1/extensions/wikidata/src/org/openrefine/wikidata/schema/WikibaseSchema.java#L203) and [after](https://github.com/OpenRefine/OpenRefine/blob/master/extensions/wikibase/src/org/openrefine/wikibase/schema/WikibaseSchema.java)
+Example: `WikibaseSchema` [before](https://github.com/OpenRefine/OpenRefine/blob/3.1/extensions/wikidata/src/org/openrefine/wikidata/schema/WikibaseSchema.java) and [after](https://github.com/OpenRefine/OpenRefine/blob/master/extensions/wikibase/src/org/openrefine/wikibase/schema/WikibaseSchema.java)
 
 #### For preference values {#for-preference-values}
 
