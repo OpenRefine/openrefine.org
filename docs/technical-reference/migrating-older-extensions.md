@@ -141,7 +141,7 @@ Before undertaking the migration, we recommend that you write some tests which s
 
 Before the migration, you had to explicitly define JSON serialization of functions with a `write` method. You should now override the getters returning the various documentation fields.
 
-Example: `Cos` function [before](https://github.com/OpenRefine/OpenRefine/blob/3.1/main/src/com/google/refine/expr/functions/math/Cos.java) and [after](https://github.com/OpenRefine/OpenRefine/blob/3.2/main/src/com/google/refine/expr/functions/math/Cos.java). and [now](https://github.com/OpenRefine/OpenRefine/blob/master/modules/grel/src/main/java/com/google/refine/expr/functions/math/Cos.java)
+Example: `Cos` function [before](https://github.com/OpenRefine/OpenRefine/blob/3.1/main/src/com/google/refine/expr/functions/math/Cos.java) and [after](https://github.com/OpenRefine/OpenRefine/blob/3.2/main/src/com/google/refine/expr/functions/math/Cos.java) and [now](https://github.com/OpenRefine/OpenRefine/blob/master/modules/grel/src/main/java/com/google/refine/expr/functions/math/Cos.java)
 
 #### For operations {#for-operations}
 
@@ -162,6 +162,7 @@ Example: `ReconChange` [before](https://github.com/OpenRefine/OpenRefine/blob/3.
 The importing options have been migrated from `JSONObject` to `ObjectNode`. Your compiler should help you propagate this change. Utility functions in `JSONUtilities` have been migrated to Jackson so you should have minimal changes if you used them.
 
 Example: `TabularImportingParserBase` [before](https://github.com/OpenRefine/OpenRefine/blob/3.1/main/src/com/google/refine/importers/TabularImportingParserBase.java) and [after](https://github.com/OpenRefine/OpenRefine/blob/3.2/main/src/com/google/refine/importers/TabularImportingParserBase.java) and [now](https://github.com/OpenRefine/OpenRefine/blob/master/modules/core/src/main/java/com/google/refine/importers/TabularImportingParserBase.java)
+
 #### For overlay models {#for-overlay-models}
 
 Migrate serialization and deserialization as for other objects.
