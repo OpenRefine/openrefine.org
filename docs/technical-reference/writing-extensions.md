@@ -1,7 +1,7 @@
 ---
 id: writing-extensions
 title: Writing extensions
-sidebar_label: Writing extensions
+sidebar_label: Extension technical reference
 ---
 
 ## Introduction {#introduction}
