@@ -11,7 +11,7 @@ OpenRefine is a free, power tool for working with messy data and improving it. O
 
 
 ## Funding Tier
-We are funded by **grants and gifts from institutions and individuals** like you. Our annual operating budget is US$140 000 (or appx US$11,500 per month) to support our core team for maintenance, coordination, licensing, and administration. Details on fund usage and other sources of funding are available on our [funding page](/funding).
+We are funded by **grants and gifts from institutions and individuals** like you. Our annual operating budget is US$50,000 to support our core team for maintenance, coordination, licensing, and administration. Details on fund usage and other sources of funding are available on our [funding page](/funding).
 
 Available funding tier are: 
 * **Sustainer:** up to $500 per year. Covers essential day-to-day infrastructure including forum hosting, software licenses, and routine maintenance.
