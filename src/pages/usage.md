@@ -7,7 +7,7 @@ hide_table_of_contents: false
 
 OpenRefine is a free, open source power tool for working with messy data and improving it: cleaning it, transforming it from one format into another, and extending it with web services and external data. Requiring no knowledge of a programming or query language, it lets users find and fix inconsistencies interactively, match their data to external databases, pull additional data from these, and perform many other useful operations. The resulting workflows can be extracted and applied to other datasets.
 
-**OpenRefine is downloaded on average 15,500 times per month** and received about 800 academic citations per year.
+**OpenRefine is downloaded on average 21,500 times per month** and received about 1,100 academic citations per year.
 
 ## Our Users Community
 
@@ -39,46 +39,46 @@ OpenRefine is used by many academics in their research and cited in their public
 * [OpenRefine](https://scholar.google.ca/scholar?hl=en&as_sdt=0%2C5&as_ylo=2023&as_yhi=2023&q=%22OpenRefine%22&btnG=)
 
 
-```mermaid 
+```mermaid
 %%{init: {'theme':'forest'}}%%
 xychart-beta
     title "Number of academic citations of OpenRefine per years"
-    x-axis [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025*]
-    y-axis "Count of citation" 0 --> 900
-    bar [4, 67, 162, 251, 356, 424, 477, 502, 584, 571, 586, 717, 783, 811, 799, 383]
+    x-axis [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026*]
+    y-axis "Count of citation" 0 --> 1200
+    bar [4, 67, 162, 251, 356, 424, 477, 502, 584, 571, 586, 727, 843, 857, 940, 1098, 145]
 ```
 
-(*) 2025 data are up to July 15, 2024.
+(*) 2026 data are up to February 26, 2026.
 
 ## Forum Statistics 
 
 In November 2022, we moved from email lists hosted by Google Groups to a Discourse forum. 
 
-As of July 15th, 2025, over the last 12 months:
-* 265 new users signed up[^1] on our forum for a total of 720 users[^2].
-* 278 topics[^3] were created for a total of 1,522 messages[^4].
+As of February 26th, 2026, over the last 12 months:
+* 243 new users signed up[^1] on our forum for a total of 834 users[^2].
+* 228 topics[^3] were created for a total of 1,011 messages[^4].
 
 ## Contribution Statistics
 
 The statistics below only track activity on our primary GitHub repository, which includes code, design, and translation contributions. Our documentation is available in a separate repository.
 
-As of July 15th, 2025, over the last 12 months we had:
-* 22 active GitHub contributors;
-* 163 issues [created](https://github.com/OpenRefine/OpenRefine/issues?q=is%3Aissue%20created%3A2024-07-15..2025-07-15) and 157 [closed](https://github.com/OpenRefine/OpenRefine/issues?q=is%3Aissue%20closed%3A2024-07-15..2025-07-15);
-* [212 PRs merged](https://github.com/OpenRefine/OpenRefine/pulls?q=is%3Amerged+created%3A2024-07-15..2025-07-15+-author%3Aapp%2Fdependabot) (excluding those created by dependabot)
+As of February 26th, 2026, over the last 12 months we had:
+* 16 active GitHub contributors;
+* 135 issues [created](https://github.com/OpenRefine/OpenRefine/issues?q=is%3Aissue+created%3A2025-02-26..2026-02-26) and 93 [closed](https://github.com/OpenRefine/OpenRefine/issues?q=is%3Aissue+closed%3A2025-02-26..2026-02-26);
+* [103 PRs merged](https://github.com/OpenRefine/OpenRefine/pulls?q=is%3Amerged+created%3A2025-02-26..2026-02-26+-author%3Aapp%2Fdependabot) (excluding those created by dependabot)
 
 The following graphic represents the average number of active contributors to the main repository each year[^5]. You can also review the [Github pulse](https://github.com/OpenRefine/OpenRefine/pulse) and [Github traffic](https://github.com/OpenRefine/OpenRefine/graphs/traffic) pages for real time insights on the activities on our main repository.
 
 ```mermaid 
 %%{init: {'theme':'forest'}}%%
 xychart-beta 
-    x-axis   [10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25*]
+    x-axis   [10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26*]
     y-axis "Average number of GitHub contributors per month" 0 --> 22
-    line [3,2,2,2,3,3,1,6,12,7,18,15,15,10,10,13]
+    line [3,2,2,2,3,3,1,6,12,7,18,15,15,10,10,10,6]
 ```
-(*) 2025 data are up to July 15th, 2025.
-[^1]: From [this page](https://forum.openrefine.org/admin/reports/signups?end_date=2024-12-03&mode=table&start_date=2023-12-03) with discourse admin priviledge
+(*) 2026 data are up to February 26th, 2026.
+[^1]: From [this page](https://forum.openrefine.org/admin/reports/signups?start_date=2025-02-26&end_date=2026-02-26&mode=table) with discourse admin priviledge
 [^2]: See the count of users on [this page](https://forum.openrefine.org/u?order=likes_received&period=all)
-[^3]: From [this page](https://forum.openrefine.org/admin/reports/topics?end_date=2024-12-03&mode=table&start_date=2023-12-03) with discourse admin priviledge
-[^4]: From [this page](https://forum.openrefine.org/admin/reports/posts?end_date=2024-12-03&mode=table&start_date=2023-12-03) with discourse admin priviledge
+[^3]: From [this page](https://forum.openrefine.org/admin/reports/topics?start_date=2025-02-26&end_date=2026-02-26&mode=table) with discourse admin priviledge
+[^4]: From [this page](https://forum.openrefine.org/admin/reports/posts?start_date=2025-02-26&end_date=2026-02-26&mode=table) with discourse admin priviledge
 [^5]: We are counting the number of contributor using the following command `git log --all --pretty="%an" | sort | uniq | wc -l`
