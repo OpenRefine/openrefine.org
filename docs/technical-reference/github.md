@@ -4,13 +4,24 @@ title: Communicating via GitHub
 sidebar_label: Communicating via GitHub
 ---
 
-We recommend new members of OpenRefine's GitHub organization to apply some GitHub configuration settings, to help them integrate in the project smoothly.
+## GitHub Organization Membership
+
+The OpenRefine project uses a [GitHub organization](https://github.com/OpenRefine/) to manage collaboration across its repositories.
+
+Contributors are invited to join the OpenRefine GitHub organization based on their level of involvement and the responsibilities they take on within the project.
+
+Being a member of the GitHub organization allows contributors to be assigned to issues, participate in team-based workflows, and collaborate more easily across OpenRefine repositories.
+
+The organization includes teams with different responsibilities that reflect how work is coordinated across the project. Details about governance, decision-making, and responsibilities are documented in the OpenRefine [governance documentation](https://github.com/OpenRefine/OpenRefine/blob/master/GOVERNANCE.md).
 
 ## Notifications
 
 As a member of the organization, GitHub subscribes you automatically to a lot of notifications about everything that is happening in the project. For most people, this will generate much more noise than desired.
 
-Go to [the OpenRefine repository](https://github.com/OpenRefine/OpenRefine), click on "Unwatch" and pick "Participating and @mentions".
+We recommend new members of OpenRefine's GitHub organization apply some GitHub configuration settings to help them integrate into the project smoothly.
+
+Go to [the OpenRefine repository](https://github.com/OpenRefine/OpenRefine),
+click on "Unwatch" and pick "Participating and @mentions".
 This will ensure that you only get notifications in discussions in which you left a comment, or if you were explicitly pinged.
 
 ![Screenshot of notification settings on GitHub, where 'Participating and mentions' is selected](/img/github/notification_settings.png)
