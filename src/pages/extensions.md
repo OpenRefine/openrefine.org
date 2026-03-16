@@ -10,6 +10,7 @@ You can install the following extensions to add functionalities to OpenRefine. W
 
 | Extension Name | Description | Authors | Latest compatible version |
 |--------------|-------------|----------|----------|
+| [Geocoding Extension](https://gitlab.com/geometalab/openrefine-geocoding-extension/) | Geocodes unformatted addresses to coordinates (Latitude/Longitude) and provides confidence scores using Photon, Nominatim, and Swisstopo APIs. | [Tihan Morrol / IFS](https://gitlab.com/TihanMo) | 3.10+ |
 | [AI Extension](https://github.com/sunilnatraj/llm-extension) | The OpenRefine AI Extension bridges the power of modern language models with OpenRefine's robust data transformation capabilities. | [Sunil Natraj](https://github.com/sunilnatraj) | 3.8.7+ |
 | [Files Extension](https://github.com/OpenRefine/FilesExtension) | Tool to create project with detailed information of files from local system | [Sunil Natraj](https://github.com/sunilnatraj) | 3.8.7+ |
 | [gdata extension](https://github.com/OpenRefine/refine-gdata-extension) | Import from and export to Google Drive and Google Sheets | Tom Morris | 3.9 |
