@@ -1,7 +1,7 @@
 ---
-id: extension-dev-playbook
+id: extension-dev-guidelines
 title: So you want to write an extension?
-sidebar_label: Extension developer playbook
+sidebar_label: Extension developer guidelines
 ---
 
 Extensions are a great way to provide additional functionality to OpenRefine. Prior contribution experience is helpful but not necessary to start. While each extension is different, they usually follow the same set of milestones. This page provides suggestions for how to use those milestones to help structure the development of your extension. If you have any additional questions, feel free to ask them in [the forum](#join-our-community).

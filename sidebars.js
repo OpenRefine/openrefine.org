@@ -57,7 +57,7 @@ module.exports = {
             type: 'category',
             label: 'Extensions',
             items: [
-            'technical-reference/extension-dev-playbook',
+            'technical-reference/extension-dev-guidelines',
             'technical-reference/writing-extensions',
             'technical-reference/migrating-older-extensions',
             'technical-reference/wikibase/architecture'
