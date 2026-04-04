@@ -17,7 +17,9 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * Related documents:
   * Issue [#2003](https://github.com/OpenRefine/OpenRefine/issues/2003). 
   * See also [Antonin's take on reconciliation](https://antonin.delpeuch.eu/posts/my-roadmap-for-openrefine/#reconciliation) for broader context. 
-  * the grant application to the [Research Software Maintenance Fund](/funding#2025-research-software-maintenance-fund) address some aspect of the goal post. 
+  * Unsucessfull grant applications:
+    * the grant application to the [Research Software Maintenance Fund](/funding#2025-research-software-maintenance-fund) address some aspect of the goal post.
+    * [NLnet application](/funding#2025-nlnet-native-in-app-reconciliation-of-arbitrary-local-data-sets)
 
 ### Allowing import again for adding new rows to existing projects.
 * **Score**:  73
