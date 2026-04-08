@@ -37,7 +37,17 @@ Since 2018, OpenRefine has relied on grants to sustain its development. Below, y
 
 ### Applying
 
-OpenRefine is currently not actively applying to any grant opportunities listed in this section. If you're interested in partnering with us for a grant, [contact us](https://forum.openrefine.org/). 
+OpenRefine is currently actively applying to the following opportunities. If you're interested in partnering with us for a grant, [contact us](https://forum.openrefine.org/). 
+
+#### 2026 Sovereign Tech Fellowship
+* **Status**: Pending
+* **Amount**: EUR 20,020
+* **Source**: [Sovereign Tech Fellowship](https://www.sovereign.tech/programs/fellowship)
+* **Start date**: June 2026
+* **End date**: May 2027
+* **Relevant links**: 
+  * [Grant application](/uploads/2026-Sovereign-Tech-Fund.pdf) 
+  * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-sovereign-tech-fellowship-application-community-coordination-and-governance/2758)
 
 ### Active Grants
 
