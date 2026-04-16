@@ -153,6 +153,14 @@ OpenRefine completed the following grants.
 
 We applied for the following grant opportunities, but our proposals were not selected. 
 
+#### 2026 SLOAN LOI
+* **Status**: Not Awarded
+* **Amount**: USD 150,000
+* **Source**: Following Sloan invitation to submit a [Letter of Inquiry](https://sloan.org/grants/apply#tab-letters-of-inquiry)
+* **Relevant links**: 
+  * [Letter of Inquiry](/uploads/2026-SLOAN-LOI.pdf)
+  * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-2025-sloan-letter-of-interest/2643)
+
 #### 2025 NLNet: Hardening OpenRefine’s Extension Architecture
 * **Status**: Not Awarded
 * **Amount**: EUR 49,881.25
