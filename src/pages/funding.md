@@ -37,7 +37,17 @@ Since 2018, OpenRefine has relied on grants to sustain its development. Below, y
 
 ### Applying
 
-OpenRefine is currently not actively applying to any grant opportunities listed in this section. If you're interested in partnering with us for a grant, [contact us](https://forum.openrefine.org/). 
+OpenRefine is currently actively applying to the following opportunities. If you're interested in partnering with us for a grant, [contact us](https://forum.openrefine.org/). 
+
+#### 2026 Sovereign Tech Fellowship
+* **Status**: Pending
+* **Amount**: EUR 20,020
+* **Source**: [Sovereign Tech Fellowship](https://www.sovereign.tech/programs/fellowship)
+* **Start date**: June 2026
+* **End date**: May 2027
+* **Relevant links**: 
+  * [Grant application](/uploads/2026-Sovereign-Tech-Fund.pdf) 
+  * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-sovereign-tech-fellowship-application-community-coordination-and-governance/2758)
 
 ### Active Grants
 
@@ -142,6 +152,14 @@ OpenRefine completed the following grants.
 ### Unsuccessful applications
 
 We applied for the following grant opportunities, but our proposals were not selected. 
+
+#### 2026 SLOAN LOI
+* **Status**: Not Awarded
+* **Amount**: USD 150,000
+* **Source**: Following Sloan invitation to submit a [Letter of Inquiry](https://sloan.org/grants/apply#tab-letters-of-inquiry)
+* **Relevant links**: 
+  * [Letter of Inquiry](/uploads/2026-SLOAN-LOI.pdf)
+  * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-2025-sloan-letter-of-interest/2643)
 
 #### 2025 NLNet: Hardening OpenRefine’s Extension Architecture
 * **Status**: Not Awarded
