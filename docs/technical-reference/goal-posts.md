@@ -32,14 +32,14 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * **Score**: 72
 * **Status**: Needs UI Design
 * **Source**: Prioritization-2024
-* Please create a thread on the forum or create an issue to discuss this request.
+* Related issue: [#7761](https://github.com/OpenRefine/OpenRefine/issues/7761)
 
 ### Easier rename a column by clicking on it
 * **Score**: 72
 * **Status**: Ready for Development
 * **Source**: Prioritization-2024
 * Easier rename a column by clicking on it and don't break any facets that depend on it
-* Loosely related issue: [#6282](https://github.com/OpenRefine/OpenRefine/issues/6282)
+* Related issues: [#6282](https://github.com/OpenRefine/OpenRefine/issues/6282) - [#7361](https://github.com/OpenRefine/OpenRefine/pull/7361) - [#7268](https://github.com/OpenRefine/OpenRefine/pull/7268) 
 
 ### Loading and working very large projects more easily/smoothly
 * **Score**: 68
@@ -53,12 +53,7 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * **Status**: Needs Solution Definition
 * **Source**: Prioritization-2024
 * See discussion on the [forum](https://forum.openrefine.org/t/representing-hierarchical-data-beyond-the-records-mode/425)
-
-### More GREL options that allow for creating and using variables for your dataset
-* **Score**: 67
-* **Status**: Needs Solution Definition
-* **Source**: Prioritization-2024
-* Please create a thread on the forum or create an issue to discuss this request.
+* Related [record tag](https://github.com/OpenRefine/OpenRefine/issues?q=state%3Aopen%20label%3A%22records%22) in GitHub.
 
 ### Option to save facet
 * **Score**: 65
@@ -77,7 +72,7 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * **Score**: 61
 * **Status**: Needs UI Design
 * **Source**: Prioritization-2024
-* Related issue: [#7273](https://github.com/OpenRefine/OpenRefine/issues/7273)
+* Related issues: [#7273](https://github.com/OpenRefine/OpenRefine/issues/7273) - [#7301](https://github.com/OpenRefine/OpenRefine/pull/7301)
 
 ###  Support for more alphabets
 * **Score**: 59
@@ -148,17 +143,11 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * **Source**: Prioritization-2024
 * Related issues: [#1440](https://github.com/OpenRefine/OpenRefine/issues/1440) [#2515](https://github.com/OpenRefine/OpenRefine/issues/2515)
 
-### Faster rendering of many columns in Record mode
-* **Score**: 49
-* **Status**: Needs Solution Definition
-* **Source**: Prioritization-2024
-
 ### Make OpenRefine easier to learn
 * **Score**: 47
 * **Status**: Needs UI Design
 * **Source**: Prioritization-2024
 * Make OpenRefine easier to learn and get started with a better or easier UX / interface.  This would need dedicated design effort.
-
 
 ### Pause and resume my operations in OpenRefine
 * **Score**: 46
@@ -259,7 +248,7 @@ This page is primarily based on the results of the [2024 prioritization survey](
 * outreachy-2024
 * [read more here](https://github.com/OpenRefine/OpenRefine/wiki/GSoC-Outreachy-2024-Ideas#better-test-coverage-for-importers-and-exporters)
 
-### Support for the new reconciliation protocol
+### Support the reconciliation protocol version 1.0-draft
 * **Status**: Needs Solution Definition
 * outreachy-2024
 * [read more here](https://github.com/OpenRefine/OpenRefine/wiki/GSoC-Outreachy-2024-Ideas#support-for-the-new-reconciliation-protocol) and [#7186](https://github.com/OpenRefine/OpenRefine/issues/7186)
