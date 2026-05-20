@@ -28,7 +28,7 @@ This page is primarily based on the results of the [2024 prioritization survey](
 *  Easy adding of additional rows/importing rows from other datasets. Update existing project with new data (append rows from a file). Extend datasets: add rows to existing datasets from files, assuming the same column structure/order. The inability to update imported data is a limiting factor (user survey)
 * Related issue: [#715](https://github.com/OpenRefine/OpenRefine/issues/715)
 
-### Making joining records easier across 2 datasets by multiple keys
+### Making joining records easier across 2 datasets
 * **Score**: 72
 * **Status**: Needs UI Design
 * **Source**: Prioritization-2024
