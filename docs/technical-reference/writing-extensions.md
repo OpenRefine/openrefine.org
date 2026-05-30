@@ -93,7 +93,7 @@ sample-extension/
 
 The sub-directory `MOD-INF` contains the Butterfly module's metadata and is what Butterfly looks for when it scans directories for modules. `MOD-INF` serves similar functions as `WEB-INF` in other web frameworks.
 
-Java code is built into the sub-directory `classes` inside `MOD-INF`, and supporting external Java jars are in the `lib` sub-directory. Those will be automatically loaded by Butterfly. (The build.xml script is wired to compile into the `classes` sub-directory.)
+Java code is built into the sub-directory `classes` inside `MOD-INF`, and supporting external Java jars are in the `lib` sub-directory. Those will be automatically loaded by Butterfly. (Maven is configured to compile into the `classes` sub-directory.)
 
 Client-side code is in the inner `module` sub-directory. They can be plain old .html, .css, .js, and image files. There are also Velocity .vt files, but they need to be routed inside `MOD-INF/controller.js`.
 
@@ -315,7 +315,7 @@ Packages.com.google.refine.model.Project.registerOverlayModel(
 Note that you register the **class** , not an instance. The class should implement the following static method for reconstructing an overlay model instance from a JSON blob:
 
 ```
-static public OverlayModel reconstruct(JSONObject o) throws JSONException {
+static public OverlayModel reconstruct(ObjectNode o) throws IOException {
       ...
   }
 ```
@@ -323,7 +323,7 @@ static public OverlayModel reconstruct(JSONObject o) throws JSONException {
 When the project gets saved, the overlay model instance's `write` method will be called:
 
 ```
-public void write(JSONWriter writer, Properties options) throws JSONException {
+public void writeJSON(ObjectMapper writer) throws JsonProcessingException {
       ...
   }
 ```
