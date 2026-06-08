@@ -10,7 +10,7 @@ A reconciliation service is a web service that, given some text which is a name 
 
 Entities are identified by strong identifiers in some particular identifier space. In the same identifier space, identifiers follow the same syntax. For example, given the string "apple", a reconciliation service might return entities identified by the strings " [Q89](https://www.wikidata.org/wiki/Q89)", "[Q312](https://www.wikidata.org/wiki/Q312)", and "[Q60](https://www.wikidata.org/wiki/Q60)", in the Wikidata ID space. Each reconciliation service can only reconcile to one single identifier space, but several reconciliation services can reconcile to the same identifier space.
 
-OpenRefine can connect to any reconciliation service which follows the [reconciliation API v0.2](https://reconciliation-api.github.io/specs/0.2/). This was formerly a specification edited by the OpenRefine project, which has now transitioned to its own
+OpenRefine can connect to any reconciliation service which follows the [reconciliation API v0.2](https://www.w3.org/community/reports/reconciliation/CG-FINAL-specs-0.2-20230410). This was formerly a specification edited by the OpenRefine project, which has now transitioned to its own
 [W3C Entity Reconciliation Community Group](https://www.w3.org/community/reconciliation/).
 
 Informally, the main function of any reconciliation service is to find good candidates in the underlying database, given the following data:
@@ -21,14 +21,14 @@ Informally, the main function of any reconciliation service is to find good cand
 
 In a sense, the reconciliation protocol is a standardized search API tailored to the specific needs of data matching. Beyond searching for candidate matches, it also comes with other features to help the user review and correct a matching (by offering previews and auto-completion for the target dataset).
 
-See [the specifications of the protocol](https://reconciliation-api.github.io/specs/0.1) for more details about it. You can suggest changes on its [issues tracker](https://github.com/reconciliation-api/specs/issues) or on the [group mailing
+See [the specification of the protocol](https://www.w3.org/community/reports/reconciliation/CG-FINAL-specs-0.2-20230410) for more details about it. You can suggest changes on its [issues tracker](https://github.com/reconciliation-api/specs/issues) or on the [group mailing
 list](https://lists.w3.org/Archives/Public/public-reconciliation/).
 
 ## API versions supported by OpenRefine
 
 There are multiple versions of the protocol available:
 - [version 0.1](https://www.w3.org/community/reports/reconciliation/CG-FINAL-specs-0.1-20230321/), supported since OpenRefine 2.7. This version of the protocol is based on [JSONP](https://en.wikipedia.org/wiki/JSONP#Security_concerns), which represents a security risk. Therefore we discourage services to implement this version of the specifications.
-- [version 0.2](https://reconciliation-api.github.io/specs/0.2/), supported since OpenRefine 3.3. This is the current stable version of the protocol, which we encourage services to implement.
+- [version 0.2](https://www.w3.org/community/reports/reconciliation/CG-FINAL-specs-0.2-20230410), supported since OpenRefine 3.3. This is the current stable version of the protocol, which we encourage services to implement.
 - [the current draft of the next version](https://reconciliation-api.github.io/specs/draft/), which is not supported by OpenRefine yet.
 
 ## Create a new reconciliation service
