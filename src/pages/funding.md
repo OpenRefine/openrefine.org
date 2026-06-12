@@ -39,15 +39,25 @@ Since 2018, OpenRefine has relied on grants to sustain its development. Below, y
 
 OpenRefine is currently actively applying to the following opportunities. If you're interested in partnering with us for a grant, [contact us](https://forum.openrefine.org/). 
 
-#### 2026 Sovereign Tech Fellowship
+#### 2026 OTF
 * **Status**: Pending
-* **Amount**: EUR 20,020
-* **Source**: [Sovereign Tech Fellowship](https://www.sovereign.tech/programs/fellowship)
-* **Start date**: June 2026
-* **End date**: May 2027
+* **Amount**: USD 92,500
+* **Source**: [Free and Open Source Software Sustainability Fund](https://www.opentech.fund/funds/free-and-open-source-software-sustainability-fund/)
+* **Start date**: October 2026
+* **End date**: October 2027
 * **Relevant links**: 
-  * [Grant application](/uploads/2026-Sovereign-Tech-Fund.pdf) 
-  * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-sovereign-tech-fellowship-application-community-coordination-and-governance/2758)
+  * [Concept Note](/uploads/2026-OTF.pdf) 
+  * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-otf-foss-sustainability-fund/2793)
+
+#### 2026 Open Source for the Life Sciences
+* **Status**: Pending
+* **Amount**: 
+* **Source**: [Open Source for the Life Sciences](https://os4science.org/funding_opportunity/os4ls/)
+* **Start date**: January 2027
+* **End date**: December 2029
+* **Relevant links**: 
+  * [Letter of Intent](/uploads/2026-OS4LS-LOI.pdf) 
+  * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-os4ls-proposal-around-openrefine-for-life-science-data-curation/2816/)
 
 ### Active Grants
 
@@ -152,6 +162,16 @@ OpenRefine completed the following grants.
 ### Unsuccessful applications
 
 We applied for the following grant opportunities, but our proposals were not selected. 
+
+#### 2026 Sovereign Tech Fellowship
+* **Status**: Not Awarded
+* **Amount**: EUR 20,020
+* **Source**: [Sovereign Tech Fellowship](https://www.sovereign.tech/programs/fellowship)
+* **Start date**: June 2026
+* **End date**: May 2027
+* **Relevant links**: 
+  * [Grant application](/uploads/2026-Sovereign-Tech-Fund.pdf) 
+  * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-sovereign-tech-fellowship-application-community-coordination-and-governance/2758)
 
 #### 2026 SLOAN LOI
 * **Status**: Not Awarded
