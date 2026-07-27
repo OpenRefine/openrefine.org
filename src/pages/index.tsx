@@ -25,6 +25,9 @@ function HeaderSection() {
           <img src="img/openrefine_logo.svg" alt="OpenRefine logo" style={{maxWidth: "min(250px, 20vw)", display: 'block', margin: 'auto'}}/>
         </div>
       </div>
+     <div>
+      <Link className="button button--primary" to="https://forms.gle/EAqF1uYyDNsoaPyz8" style={{fontSize: '1.5em'}}>💎 Participate to the 2026 user survey ✨</Link>
+    </div>
       <div className="row">
         <div style={{textAlign: 'center', width: '100%', marginTop: '2em'}}>
         <h2>Main features</h2>
