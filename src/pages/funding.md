@@ -57,6 +57,7 @@ OpenRefine is currently actively applying to the following opportunities. If you
 * **End date**: December 2029
 * **Relevant links**: 
   * [Letter of Intent](/uploads/2026-OS4LS-LOI.pdf) 
+  * [Grant application](/uploads/2026-OS4LS-Application.pdf)
   * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-os4ls-proposal-around-openrefine-for-life-science-data-curation/2816/)
 
 ### Active Grants
