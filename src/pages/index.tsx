@@ -26,7 +26,7 @@ function HeaderSection() {
         </div>
       </div>
      <div>
-      <Link className="button button--primary" to="https://forms.gle/EAqF1uYyDNsoaPyz8" style={{fontSize: '1.5em'}}>💎 Participate to the 2026 user survey ✨</Link>
+      <Link className="button button--primary" to="https://forms.gle/EAqF1uYyDNsoaPyz8" style={{fontSize: '1.5em'}}>💎 Participate in the 2026 user survey ✨</Link>
     </div>
       <div className="row">
         <div style={{textAlign: 'center', width: '100%', marginTop: '2em'}}>
