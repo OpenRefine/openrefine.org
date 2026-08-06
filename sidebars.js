@@ -43,6 +43,7 @@ module.exports = {
         'technical-reference/code-contributions',
         'technical-reference/build-test-run',
         'technical-reference/functional-tests',
+        'technical-reference/developer-guide-to-localization',
         {
             type: 'category',
             label: 'Architecture',
