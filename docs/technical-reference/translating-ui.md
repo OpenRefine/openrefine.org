@@ -14,7 +14,7 @@ The translation is best done [with Weblate](https://hosted.weblate.org/engage/op
 
 [Run OpenRefine from the master branch](/docs/technical-reference/build-test-run) and check whether translated words fit to the layout. Not all items can be translated word by word, especially into non-Ìndo-European languages.
 
-If you see any text which remains in English even when you have checked all items, please create a bug report in the issue tracker so that the developers can fix it. Similarly report any cases where the developers have used string concatenation or layout to compose multi-part strings, rather than using the localization facilities.
+If you see any text which remains in English even when you have checked all items, please create a [bug report in the issue tracker](https://github.com/OpenRefine/OpenRefine/issues/new?template=bug_report.md) so that the developers can fix it. Similarly report any cases where the developers have used string concatenation or layout to compose multi-part strings, rather than using the localization facilities.
 
 ## Translating extensions {#translating-extensions}
 
