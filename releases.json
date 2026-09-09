@@ -1,8 +1,8 @@
 [
     {
-        "version": "3.10.0",
+        "version": "3.10.1",
         "stable": true,
-        "date": "2026-02-26",
+        "date": "2026-03-04",
         "source": "github",
         "artifacts": [
              {
