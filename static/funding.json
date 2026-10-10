@@ -4,7 +4,7 @@
     "type": "organisation",
     "role": "other",
     "name": "OpenRefine",
-    "email": "contact@openrefine.org",
+    "email": "martin@openrefine.org",
     "description": "OpenRefine is a free, powerful tool for working with messy data and improving it. Our mission is to empower everyone to meaningfully engage with data by providing an accessible open source tool and nurturing a diverse, supportive community. OpenRefine is a fiscally sponsored project of Code for Science & Society, a 501(c)(3) charitable organization in the USA. Donations are tax-deductible to the extent allowed by US law (Tax ID: 81-3791683).",
     "webpageUrl": {
       "url": "https://openrefine.org",
@@ -45,12 +45,18 @@
       {
         "guid": "github",
         "type": "other",
-        "description": "https://github.com/sponsors/OpenRefine"
+        "address": "https://github.com/sponsors/OpenRefine"
       },
       {
         "guid": "website",
-        "type": "other",
-        "description": "https://openrefine.org/donate"
+        "type": "payment-provider",
+        "address": "https://openrefine.org/donate",
+        "description": "We accept donation under USD25,000 via our donate page.  Contact giving@codeforsociety.org for more details"
+      },
+      {
+        "guid": "cheque",
+        "type": "cheque",
+        "address": "Donations by check can be mailed to Code for Science & Society, 3439 SE Hawthorne Blvd, #247, Portland, OR 97214-5048"
       }
     ],
     "plans": [
