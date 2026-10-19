@@ -37,7 +37,7 @@ The Wikidata reconciliation stack involves several independently maintained comp
 
 ```mermaid
 flowchart LR
-    subgraph OR["<img src='/img/logo/OpenRefine.png' width='900'/> OpenRefine"]
+    subgraph OR["<img src='/img/logo/OpenRefine.png' width='120'/>"]
         WBE["<b>Wikibase extension</b> +<br/>Wikidata-Toolkit library"]
         RC["<b>Reconciliation</b> client"]
     end
