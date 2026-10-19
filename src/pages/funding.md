@@ -39,16 +39,7 @@ Since 2018, OpenRefine has relied on grants to sustain its development. Below, y
 
 OpenRefine is currently actively applying to the following opportunities. If you're interested in partnering with us for a grant, [contact us](https://forum.openrefine.org/). 
 
-#### 2026 Open Source for the Life Sciences
-* **Status**: Pending
-* **Amount**: USD 249,866
-* **Source**: [Open Source for the Life Sciences](https://os4science.org/funding_opportunity/os4ls/)
-* **Start date**: December 2026
-* **End date**: December 2029
-* **Relevant links**: 
-  * [Letter of Intent](/uploads/2026-OS4LS-LOI.pdf) 
-  * [Grant application](/uploads/2026-OS4LS-Application.pdf)
-  * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-os4ls-proposal-around-openrefine-for-life-science-data-curation/2816/)
+No open application.
 
 ### Active Grants
 
@@ -154,8 +145,19 @@ OpenRefine completed the following grants.
 
 We applied for the following grant opportunities, but our proposals were not selected. 
 
+#### 2026 Open Source for the Life Sciences
+* **Status**: Not Awarded
+* **Amount**: USD 249,866
+* **Source**: [Open Source for the Life Sciences](https://os4science.org/funding_opportunity/os4ls/)
+* **Start date**: December 2026
+* **End date**: December 2029
+* **Relevant links**: 
+  * [Letter of Intent](/uploads/2026-OS4LS-LOI.pdf) 
+  * [Grant application](/uploads/2026-OS4LS-Application.pdf)
+  * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-os4ls-proposal-around-openrefine-for-life-science-data-curation/2816/)
+  
 #### 2026 OTF
-* **Status**: Pending
+* **Status**: Not Awarded
 * **Amount**: USD 92,500
 * **Source**: [Free and Open Source Software Sustainability Fund](https://www.opentech.fund/funds/free-and-open-source-software-sustainability-fund/)
 * **Start date**: October 2026
