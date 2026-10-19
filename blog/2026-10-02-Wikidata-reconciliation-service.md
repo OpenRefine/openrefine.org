@@ -28,7 +28,7 @@ The Wikidata reconciliation stack involves several independently maintained comp
 | Component | Role | Project links |
 | --- | --- | --- |
 | **[OpenRefine](https://openrefine.org/)**<br/>Operated and maintained by the OpenRefine project | Desktop client that provides the reconciliation interface and sends queries to configured reconciliation services. | [GitHub repository](https://github.com/OpenRefine/OpenRefine) |
-|**[Wikibase extension** | Bundled extension distributed with core OpenRefine which interacts directly with Wikibases (inc. Wikidata) for some operations. | [GitHub repository](https://github.com/OpenRefine/OpenRefine) |
+|**[Wikibase extension](https://openrefine.org/docs/manual/wikibase/overview)** | Bundled extension distributed with core OpenRefine which interacts directly with Wikibases (inc. Wikidata) for some operations. | [GitHub repository](https://github.com/OpenRefine/OpenRefine/tree/master/extensions/wikibase |
 | **[Wikidata Toolkit](https://www.mediawiki.org/wiki/Wikidata_Toolkit)**<br/>Maintained independently from OpenRefine | Java library used by OpenRefine's Wikibase extension for some direct interactions with Wikidata and other Wikibase instances. | [GitHub repository](https://github.com/Wikidata/Wikidata-Toolkit) |
 | **[Wikidata reconciliation service](https://wikidata-reconciliation.wmcloud.org/)**<br/>Maintained by the Wikibase reconciliation service maintainers and hosted on Wikimedia Cloud VPS | Deployment of the Wikibase reconciliation service configured for Wikidata. It receives reconciliation queries from clients such as OpenRefine and queries Wikidata to return candidates. | [Wikimedia GitLab](https://gitlab.wikimedia.org/repos/wikibase-reconciliation) & [Issue tracker](https://phabricator.wikimedia.org/project/profile/5458/) |
 | **[Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) APIs and [Wikidata Query Service](https://query.wikidata.org/)**<br/>Operated as part of Wikimedia infrastructure | Wikimedia data and query infrastructure used by the reconciliation service and, for some operations, directly by OpenRefine. | [Data access documentation](https://www.wikidata.org/wiki/Wikidata:Data_access) |
@@ -39,7 +39,6 @@ The Wikidata reconciliation stack involves several independently maintained comp
 flowchart LR
     subgraph OR["<img src='/img/logo/OpenRefine.png' width='900'/> OpenRefine"]
         WBE["<b>Wikibase extension</b> +<br/>Wikidata-Toolkit library"]
-        USER["<b>User-initiated</b> requests<br/><i>(fetch-by-URL, etc.)</i>"]
         RC["<b>Reconciliation</b> client"]
     end
 
@@ -47,7 +46,6 @@ flowchart LR
     WD["<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Wikidata-logo.png/250px-Wikidata-logo.png' width='70'/><br/><b>Wikimedia infrastructure</b><br/>Wikidata APIs &amp; SPARQL"]
 
     WBE -->|"backend (authenticated) + frontend requests"| WD
-    USER -->|requests| WD
     RC -->|reconciliation queries| RS
     RS -->|search / match requests| WD
 ```
