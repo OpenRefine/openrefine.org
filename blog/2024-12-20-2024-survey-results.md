@@ -5,6 +5,19 @@ title: "OpenRefine 2024 User Survey Results"
 Every two years, OpenRefine conducts an extensive survey among its users. Our sixth edition was live in August-October 2024. The 2024 user survey included a feature prioritization poll (see the [results](https://forum.openrefine.org/t/results-from-the-feature-prioritization-survey-2024/1847)) and questions regarding our new mission, vision, and value statement (see the [results](https://forum.openrefine.org/t/feedback-request-on-openrefines-draft-vision-mission-values/1619/8)). This year, we received 226 answers. This post focuses on the survey analysis.
 <!--truncate-->
 
+:::note[Erratum (October 2026)]
+While preparing the 2026 survey analysis, we found errors in some figures reported in this post. The text below has been updated:
+
+- **Reconciliation:** Wikidata was used by 48.2% of respondents, not 43.95%. A spreadsheet formula left Wikidata's own count out of the total. In the reconciliation chart, the 2022 Getty bar (40) counted selections across three separate Getty options (AAT, TGN, ULAN); only 21 people used a Getty vocabulary in 2022, so Getty use grew between 2022 and 2024 (21 → 33).
+- **Extensions:** percentages were calculated on the total number of selections but presented as a share of respondents. Corrected per respondent: 58.0% are unaware of extensions or don't use any (2022: 50.9%), Wikidata extension 26.5% (2022: 26.9%), Wikimedia Commons 11.1%, VIB-Bits 6.2%, NER 4.0%. Extension usage was therefore stable between 2022 and 2024, not declining.
+- **Installation:** 3.98% of respondents maintain a hosted version and 2.65% use one; the two figures were swapped.
+- **RAM:** 31.4% of respondents increased the RAM allocation and 24.8% don't know; the two figures were mixed up. 43.8% use the default setting.
+- **Client libraries:** 7.1% of respondents (16) use a client library, not 12.39%. Python is used by 11 of those 16.
+- **Usage frequency per community:** the chart in this section shows how often each community uses *facets*, not how often it uses OpenRefine overall. On the overall measure (the "Using OpenRefine" row of the feature usage chart, 33% daily), 22% of Wikimedians use OpenRefine daily, and Digital Humanities (74%), Data Science (71%) and Semantic Web (68%) use it at least weekly, against 64% overall. None of the differences between communities is statistically significant.
+
+We apologize for the confusion.
+:::
+
 You can refer to the previous year editions: [2012](http://googlerefine.blogspot.ca/2012/10/google-refine-usage-survey-results.html), [2014](http://openrefine.org/blog/2014/08/29/2014-survey-results.html), [2018](http://openrefine.org/blog/2018/07/16/2018-survey-results.html), [2020](http://openrefine.org/blog/2020/02/20/2020-survey-results.html) and [2022](/blog/2022/06/28/2022-survey-results). This year, we did not include the questions "How would you rate your skills using OpenRefine?" and "How long have you been using OpenRefine?". We will use them to correlate with other answers in a later analysis.  You can download the [anonymized answers here](/img/2024survey/OpenRefine-2024-User-Survey-Anonymized-Answer.csv). 
 
 So now, let's dive in. 
@@ -22,7 +35,7 @@ This year, we introduced OpenSource Intelligence (OSINT) and Civic Tech as defau
 
 ### Professional Usage
 
-Last year, 85.1% of respondents indicated that they primarily use OpenRefine for work. This year, we provided a scale to measure the proportion of their usage in a professional environment. The results are consistent with those from 2022, as 71% of respondents reported using OpenRefine primarily in a professional setting (at least 70% of the time).
+In 2022, 85.1% of respondents indicated that they primarily use OpenRefine for work. This year, we provided a scale to measure the proportion of their usage in a professional environment. The results are consistent with those from 2022, as 71% of respondents reported using OpenRefine primarily in a professional setting (at least 70% of the time).
 
 [![](/img/2024survey/02pro-usage.png)](/img/2024survey/02pro-usage.png)
 
@@ -34,7 +47,7 @@ Interestingly, 40.27% of users reported interacting in multiple languages. In ou
 
 [![](/img/2024survey/03languages.png)](/img/2024survey/03languages.png)
 
-### Ovall Satisfaction and Net Promoter Score
+### Overall Satisfaction and Net Promoter Score
 
 In 2022, we asked our users to provide a general score for the software for the first time. On average, respondents rated OpenRefine a solid 8 out of 10!
 
@@ -50,7 +63,7 @@ Overall, we delved into greater detail this year than in the previous survey and
 
 Some interesting findings include that 53% of users accessed a reconciliation service at least once a month, and 41% of users published to Wikibase, Wikidata, or Wikimedia Commons.
 
-The anomyized answer is [available here](http://openrefine.org/img/2024survey/OpenRefine-2024-User-Survey-anonymized-Answer.csv) if you want to investigate further (if you do, please share your findings on the [forum](https://forum.openrefine.org/), we would love to read them).
+The anonymized answers are [available here](http://openrefine.org/img/2024survey/OpenRefine-2024-User-Survey-anonymized-Answer.csv) if you want to investigate further (if you do, please share your findings on the [forum](https://forum.openrefine.org/), we would love to read them).
 
 [![](/img/2024survey/05community-usage.png)](/img/2024survey/05community-usage.png)
 <div align="center"><em>(Click to enlarge)</em></div>
@@ -58,9 +71,9 @@ The anomyized answer is [available here](http://openrefine.org/img/2024survey/Op
 
 ### Frequency of usage per community
 
-We conducted a more in-depth analysis by correlating the frequency of OpenRefine usage with the communities identified by users (only communities with at least 10 respondents were included in this analysis). Our findings indicate that Humanities, Data Science, and the Semantic Web have the highest regular usage, with over 60% of respondents using OpenRefine at least once a week. 
+We conducted a more in-depth analysis by correlating the frequency of OpenRefine usage with the communities identified by users (only communities with at least 10 respondents were included in this analysis). Our findings indicate that Digital Humanities, Data Science, and the Semantic Web have the highest regular usage, with 68% to 74% of respondents using OpenRefine at least once a week, compared to 64% overall. However, with the number of respondents per community, these differences are not statistically significant: all communities report a broadly similar usage pattern.
 
-The survey also confirmed [anecdotal feedback](https://forum.openrefine.org/t/meeting-at-wikiconvention-francophone-wcfr-24-in-november/1824/4#p-5681-openrefine-user-insights-1): while OpenRefine is important for Wikimedians, they use it less frequently compared to other communities. Only 14% reported using it daily, compared to 33% of our total user base.
+Contrary to [anecdotal feedback](https://forum.openrefine.org/t/meeting-at-wikiconvention-francophone-wcfr-24-in-november/1824/4#p-5681-openrefine-user-insights-1), the survey does not show Wikimedians using OpenRefine less often: 22% use it daily, compared to 33% of all respondents, and 66% at least weekly, compared to 64%. Neither difference is statistically significant.
 [![](/img/2024survey/06feature-usage.png)](/img/2024survey/06feature-usage.png) 
 
 ### OpenRefine installation and configuration
@@ -69,7 +82,7 @@ Close to 49% of respondents currently run OpenRefine 3.8, the current stable rel
 
 [![](/img/2024survey/07OpenRefineversion.png)](/img/2024survey/07OpenRefineversion.png)
 
-88% of users installed OpenRefine themselves. In contrast, 3% of installations were carried out by IT staff, and 6.64% of users utilize a hosted version (2.65% of users maintain a hosted version, while 3.98% use it). The percentage of users running or maintaining a cloud version has decreased compared to 2022, when 5% were cloud users and 5% were maintainers.
+88% of users installed OpenRefine themselves. In contrast, 3% of installations were carried out by IT staff, and 6.64% of users utilize a hosted version (3.98% of users maintain a hosted version, while 2.65% use it). The percentage of users running or maintaining a cloud version has decreased compared to 2022, when 5% were cloud users and 5% were maintainers.
 
 [![](/img/2024survey/08installation.png)](/img/2024survey/08installation.png)
 
@@ -79,25 +92,25 @@ In 2024, we introduced a new question to understand how much RAM users have allo
 
 [![](/img/2024survey/09RAM.png)](/img/2024survey/09RAM.png)
 
-Only 24.8% of users allocated more RAM, while 43% used the default setting. Among users who modified the RAM, allocations varied widely, ranging from 1,400 MB (the current default) to 256,000 MB (or a whopping 256 GB of RAM). Most users, however, adjusted their settings to between 2,048 MB and 16 GB.
+31.4% of users allocated more RAM, while 43.8% used the default setting and 24.8% did not know. Among users who modified the RAM, allocations varied widely, ranging from 1,400 MB (the current default) to 256,000 MB (or a whopping 256 GB of RAM). Most users, however, adjusted their settings to between 2,048 MB and 16 GB.
 
 [![](/img/2024survey/10RAM.png)](/img/2024survey/10RAM.png)
 
 ### Reconciliation Services Usage
 
-In 2024, reconciliation services continued to rise in popularity, with over 30 endpoints reported. OpenRefine comes with Wikidata as the default reconciliation server, which remains the most used, boasting 109 users (or 43.95% of OpenRefine users). The Commons extension increased in popularity, growing from 6 users in 2022 to 29 users in 2024, and became the second most used endpoint.
+In 2024, reconciliation services continued to rise in popularity, with over 30 endpoints reported. OpenRefine comes with Wikidata as the default reconciliation server, which remains the most used, boasting 109 users (or 48.2% of respondents). The Commons extension increased in popularity, growing from 6 users in 2022 to 29 users in 2024, and became the second most used endpoint.
 
-The Getty endpoints and VIAF also maintained their popularity. The internal reconciliation service also increased from 15 users in 2022 to 24 users in 2024.
+The Getty vocabularies grew from 21 users in 2022 to 33 in 2024, and VIAF remained popular (from 27 to 25). The internal reconciliation service also increased from 15 users in 2022 to 24 users in 2024.
 
 [![](/img/2024survey/11reconciliation.png)](/img/2024survey/11reconciliation.png)
 
 ### Extension and Plugin usage
 
-47% of respondents are unaware of extensions or do not use any (compared to 50% in 2022). Wikidata is utilized by 20% of respondents (down from 26% in 2022), while the Wikimedia Commons extension is used by 8.42%, making them the two most popular extensions. The two RDF extensions together are used by 5.72% of users, followed by the VIB-BITS extension at 4.71% and the NER extension at 3.03%.
+58% of respondents are unaware of extensions or do not use any (compared to 51% in 2022). The Wikidata extension is used by 26.5% of respondents (stable compared to 26.9% in 2022), while the Wikimedia Commons extension is used by 11.1%, making them the two most popular extensions. They are followed by the VIB-BITS extension at 6.2%, the two RDF extensions together at 5.8% and the NER extension at 4.0%.
 
 [![](/img/2024survey/12extensions.png)](/img/2024survey/12extensions.png)
 
-Only 12.39% of the respondents use a third-party library to automate OpenRefine tasks. The Python client is the most popular one, with 47% usage.
+Only 7.1% of the respondents (16 people) use a third-party library to automate OpenRefine tasks. The Python client is the most popular one, used by 11 of them.
 
 [![](/img/2024survey/13libraries.png)](/img/2024survey/13libraries.png)
 
