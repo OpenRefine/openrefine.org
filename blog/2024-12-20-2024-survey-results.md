@@ -53,6 +53,7 @@ Some interesting findings include that 53% of users accessed a reconciliation se
 The anomyized answer is [available here](http://openrefine.org/img/2024survey/OpenRefine-2024-User-Survey-anonymized-Answer.csv) if you want to investigate further (if you do, please share your findings on the [forum](https://forum.openrefine.org/), we would love to read them).
 
 [![](/img/2024survey/05community-usage.png)](/img/2024survey/05community-usage.png)
+<div align="center"><em>(Click to enlarge)</em></div>
 
 
 ### Frequency of usage per community
