@@ -6,7 +6,7 @@ title: "OpenRefine 2026 User Survey Results"
 Every two years, OpenRefine conducts an extensive survey among its users. Our seventh edition was live from July 27 to October 1, 2026, and we received 178 answers. This post focuses on the survey analysis.
 <!--truncate-->
 
-You can refer to the previous editions: [2012](http://googlerefine.blogspot.ca/2012/10/google-refine-usage-survey-results.html), [2014](/blog/2014/08/29/2014-survey-results), [2018](/blog/2018/07/16/2018-survey-results), [2020](/blog/2020/02/20/2020-survey-results), [2022](/blog/2022/06/28/2022-survey-results) and [2024](/blog/2024/12/20/2024-survey-results). This year, we added new questions on AI usage and on our mission, vision and values. You can download the [anonymized answers here](/img/2026survey/OpenRefine-2026-User-Survey-Anonymized-Answer.csv). Multi-select answers are separated with `|`.
+You can refer to the previous editions: [2012](http://googlerefine.blogspot.ca/2012/10/google-refine-usage-survey-results.html), [2014](/blog/2014/08/29/2014-survey-results), [2018](/blog/2018/07/16/2018-survey-results), [2020](/blog/2020/02/20/2020-survey-results), [2022](/blog/2022/06/28/2022-survey-results) and [2024](/blog/2024/12/20/2024-survey-results). This year, we added new questions on AI usage and on our mission, vision and values. You can download the [anonymized answers here](/img/2026survey/OpenRefine-2026-User-Survey-Anonymized-Answer.csv).
 
 Participation dropped this year: 178 answers, 21% fewer than in 2024 (226) and the same number as in 2020. It's the first drop since 2018, even though the survey ran for a similar period (about two months) and was promoted through the same channels as in 2024: an in-app notification, the forum, social media and two mailing lists. 
 
