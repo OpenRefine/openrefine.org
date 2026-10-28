@@ -34,7 +34,7 @@ There are several possible explanations for this more experienced user base: Ope
 
 ### Professional usage
 
-OpenRefine remains primarily a professional tool: 78% of respondents use it mainly in a professional setting (at least 70% of the time), up from 71% in 2024. More than a third (36%) use it exclusively for work.
+OpenRefine remains primarily a professional tool: 78% of respondents use it mainly in a professional setting (at least 70% of the time), up from 71% in 2024. More than a third (36%) use it exclusively for work. Professional use differs by community: 91% of librarians use OpenRefine mainly for work, compared with only 53% of Wikimedians, a fifth of whom use it mostly outside work.
 
 [![Column chart of professional usage on a scale from 0 (only outside work) to 10 (only for work)](/img/2026survey/03pro-usage.svg)](/img/2026survey/03pro-usage.svg)
 
@@ -74,7 +74,7 @@ Reconciliation remains a core use: 51% of respondents reconcile data at least on
 
 This year, we added a question on using AI alongside OpenRefine to prepare or post-process data. 38% of respondents use AI at least occasionally, and 24% at least once a month. Most of that use happens outside OpenRefine: only 13 of the 66 respondents who use AI also use the [AI Extension](https://github.com/sunilnatraj/llm-extension). Those who do are heavier AI users (64% use AI at least monthly, compared with 20% of other respondents) and rate their OpenRefine skills higher (4.0 out of 5 on average, compared with 3.3).
 
-In their open answers, respondents were divided on what AI should mean for OpenRefine. Some would like it fully integrated (*"Fully integrate IA/LLMs in all OR functions"*), while others are firmly against it (*"Please do NOT try to integrate generative AI into OpenRefine"*) or want it to stay opt-out. Several already use LLMs to write GREL expressions (*"I don't know GREL, but I use ChatGPT to generate GREL scripts for me when I need them"*), and one asked for guidance on best practices and tools for combining AI with OpenRefine; our [community call on the LLM extension](https://forum.openrefine.org/t/community-call-openrefine-llm-extension-demo/2923) is a good starting point. 
+In their open answers, respondents were divided on what AI should mean for OpenRefine. Some would like it fully integrated (*"Fully integrate IA/LLMs in all OR functions"*), while others are firmly against it (*"Please do NOT try to integrate generative AI into OpenRefine"*) or want it to stay opt-out. Several already use LLMs to write GREL expressions (*"I don't know GREL, but I use ChatGPT to generate GREL scripts for me when I need them"*), and one asked for guidance on best practices and tools for combining AI with OpenRefine; the [recording of our community call on the LLM extension](https://forum.openrefine.org/t/community-call-openrefine-llm-extension-demo/2923/2) is a good starting point. 
 
 LLMs also appear among the alternative tools respondents would use if OpenRefine weren't available, often combined with Python, Excel or Google Sheets, and for one respondent the shift has already happened: *"Most of my OpenRefine use has now moved to using LLMs."* Others still see a role for OpenRefine in checking the results: *"AI can do a lot but I would still need to verify any AI-processed data."*
 
@@ -85,7 +85,7 @@ We asked which features make respondents choose OpenRefine over other tools, and
 **Why OpenRefine?** The reasons echo those reported in previous editions:
 * **Cleaning messy data (28%)**, with **faceting (24%)** and **clustering (14%)** as the features most often named: *"Facets and GREL make light work of analysing messy data."*
 * **Transformations with GREL, Python or regular expressions (23%)**, combined with an interface that doesn't require coding (**ease of use, 21%**). Several respondents see OpenRefine as a bridge between spreadsheets and programming: *"It met me at my personal skill set and took me further from there."* This also makes it a teaching tool: *"In a teching context, it allows me introducing data transformation and retrieval without having to introduce a full programming language like Python first."*
-* **Reconciliation and data extension (16%)** and the **integration with Wikidata and Wikimedia (12%)**. For some contributors, OpenRefine is what makes the work possible at all. A Wikimedian who uses OpenRefine as much outside work as for work explained that without it, *"I would have to use a spreadsheet and QuickStatements (but in reality probably would not do this kind of work as it would be tedious)."*
+* **Reconciliation and data extension (16%)** and the **integration with Wikidata and Wikimedia (12%)**. For some contributors, OpenRefine is what makes the work possible at all. A Wikimedian explained that without it, *"I would have to use a spreadsheet and QuickStatements (but in reality probably would not do this kind of work as it would be tedious)."*
 * **Versatility (16%)**, with the whole workflow in one tool: *"It's such a complete package, there is no alternative."*
 * **Handling large datasets (11%)**, being **free and open source (11%)**, and **keeping data safe (6%)**. Respondents value that OpenRefine doesn't guess or silently change their data, and that every change can be reviewed and undone: *"OR is great since it doesn't assume what your data is and it doesn't try to auto format it in any way. This is vital for me."* At a time when more data work goes through LLMs, this transparency is a key part of what OpenRefine offers.
 
@@ -136,7 +136,7 @@ The long tail of services keeps changing; this year it includes OpenSanctions, O
 
 [![Bar chart of extensions used in 2022, 2024 and 2026](/img/2026survey/10extensions.svg)](/img/2026survey/10extensions.svg)
 
-Client libraries remain a niche: 11 respondents (6%, compared with 7% in 2024) use one to automate OpenRefine tasks, mostly the Python client (8 of them), and half of all respondents didn't know client libraries exist.
+**Client libraries** remain a niche: 11 respondents (6%, compared with 7% in 2024) use one to automate OpenRefine tasks, mostly the Python client (8 of them), and half of all respondents didn't know client libraries exist.
 
 ## Community
 
@@ -153,9 +153,9 @@ When asked what we should do that we aren't doing yet, respondents pointed to wh
 * Volunteer communities: *"Focus on volunteer and open communities, taking their capacity restrictions into account"*
 * Language communities: *"maybe engage with different language communities (for example Spanish or Catalan). For me, the OpenRefine [Wikidata] Telegram channel is overwelming, and the Spanish feels very far away from any decision or development."* (This Telegram channel is run by the Wikidata community, not by the OpenRefine project.)
 
-## In closing …
+## In closing
 
-… some kind words from this year's answers:
+More than 40 respondents took the time to thank the OpenRefine community in their open answers. A few of their kind words:
 
 A Libraries and Digital humanities user:
 > ***I'm very happy I got to learn how to use OR***
@@ -172,4 +172,4 @@ A Libraries, Research and Academic, and Other non-profit sector user:
 An Arts, cultural sector and cultural heritage, Data science and Semantic Web user:
 > ***It's free to use, the guides are great, the usage is more intuitiv than Excel and more powerfull.***
 
-Many thanks to everyone who completed the survey, and happy refining!
+Many thanks to everyone who completed the survey!
