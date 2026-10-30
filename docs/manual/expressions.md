@@ -208,8 +208,8 @@ A `row.record` object encapsulates one or more rows that are grouped together, w
 | `row.record.toRowIndex` | The row index of the last row in the record + 1 (i.e. the next record) |
 | `row.record.rowCount` | A count of the number of rows in the record |
 
-`row.record.cells["tag"].value` returns the values from the `tag` column in the current record. `row.record.cells.tag.value` is equivalent for this column name. Use square brackets for names containing spaces, such as `row.record.cells["item tag"].value`.
+`row.record.cells["myColumn"].value` returns the values from the `myColumn` column in the current record. `row.record.cells.myColumn.value` is equivalent for this column name. Use square brackets for names containing spaces, such as `row.record.cells["my column"].value`.
 
-Blank and error-valued cells are omitted from the array, so its length can be smaller than `row.record.rowCount`.
+Blank and error-valued cells are omitted from the returned array, so its length can be smaller than `row.record.rowCount`.
 
 For example, you can facet by number of rows in each record by creating a <span class="menuItems">Custom Numeric Facet</span> (or a <span class="menuItems">Custom Text Facet</span>) and entering `row.record.rowCount`.
