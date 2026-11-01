@@ -52,8 +52,8 @@ function DownloadSection(props) {
    return <div>
         <DownloadLink version={version} platform={platform} autoDownload={autoDownload} />
         {explanations}
-        <p>If you are upgrading from an earlier version, make sure to <Link to="docs/manual/installing#back-up-your-data">back up your workspace directory</Link> first.</p>
-        <p>Check out our detailed guide on <a href="docs/manual/installing#installing-or-upgrading">Installing OpenRefine</a> for detailed instructions.</p>
+        <p>If you are upgrading from an earlier version, make sure to <Link to="/docs/manual/installing#back-up-your-data">back up your workspace directory</Link> first.</p>
+        <p>Check out our detailed guide on <Link to="/docs/manual/installing#install-or-upgrade-openrefine">Installing OpenRefine</Link> for detailed instructions.</p>
     </div>;
 }
 
@@ -92,17 +92,18 @@ export function getRunningInstructions(platform) {
     if (platform === 'win') {
        return <p>First, make sure <a href="https://adoptium.net/download/">Java</a> is installed on your computer. Then, unzip the archive, and double-click on <code>openrefine.exe</code> or <code>refine.bat</code> if the former does not work.</p>
     } else if (platform === 'win-with-java') {
-       return <p>Unzip the archive, and double-click on <code> openrefine.exe</code> or <code>refine.bat</code> if the former does not work.</p>
+      return <p>Unzip the archive, and double-click on <code>openrefine.exe</code> or <code>refine.bat</code> if the former does not work.</p>
     } else if (platform === 'mac') {
       return (
-        <p>Open the downloaded DMG file, drag the icon into the <code>Applications</code> folder, and double-click on it. 
-          <Admonition className='margin-top--md' type='info' title='Important'> 
+       <>
+         <p>Open the downloaded DMG file, drag the icon into the <code>Applications</code> folder, and double-click on it.</p>
+         <Admonition className='margin-top--md' type='info' title='Important'>
            See our documentation for {' '}
-          <a href="docs/manual/installing#install-or-upgrade-openrefine">
-            how to circumvent security warnings
-          </a> when opening the DMG file.
-          </Admonition>
-        </p>
+           <Link to="/docs/manual/installing#install-or-upgrade-openrefine">
+             how to circumvent security warnings
+           </Link> when opening the DMG file.
+         </Admonition>
+       </>
       )
     } else if (platform === 'linux') {
        return <p>Download, extract, then type <code>./refine</code> in a terminal to start. This requires Java to be installed on your computer.</p>

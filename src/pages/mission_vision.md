@@ -14,7 +14,7 @@ Empowering everyone to meaningfully engage with data by providing an accessible 
 
 ## OpenRefine Values 
 
-We recognize that building and supporting a tool that meets the important vision and mission of OpenRefine necessitates a values-driven community. The values below refer to the community’s core principles and ethics. These values directly map onto the principles embedded into the tool itself and are reected in how OpenRefine, the tool, is conceptualized, built, maintained, taught, and used.
+We recognize that building and supporting a tool that meets the important vision and mission of OpenRefine necessitates a values-driven community. The values below refer to the community’s core principles and ethics. These values directly map onto the principles embedded into the tool itself and are reflected in how OpenRefine, the tool, is conceptualized, built, maintained, taught, and used.
 
 * Respectful of Diverse Backgrounds & Expertise
 * Approachable

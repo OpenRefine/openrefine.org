@@ -43,7 +43,7 @@ No open application.
 
 ### Active Grants
 
-OpenRefine is not currently working any grants. 
+OpenRefine is not currently working on any grants. 
 
 ### Completed Grants
 
@@ -220,7 +220,7 @@ We applied for the following grant opportunities, but our proposals were not sel
 * **Amount**: up to GBP 500,000 available in partnership with other organizations.
 * **Source**: [Research Software Maintenance Fund](https://www.software.ac.uk/programmes/research-software-maintenance-fund)
 * **Start date**: January 2026
-* **End date**: Februay 2028
+* **End date**: February 2028
 * **Relevant links**: 
   * [Expression of Interest](/uploads/2025-Research-Software-Maintenance-Fund-EOI.pdf) 
   * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-seeking-ukri-eligible-partner-for-research-software-maintenance-fund-application/2233)

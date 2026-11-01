@@ -33,7 +33,7 @@ xychart-beta horizontal
 ```
 
 ## Academic Citations 
-OpenRefine is used by many academics in their research and cited in their publications. OpenRefine is also available on Zenodo with the [DOI-10.5281](https://zenodo.org/records/18868465) if you intend to cite it. The table below track the number of citation per year based by searching the following terms on Google Scholar:
+OpenRefine is used by many academics in their research and cited in their publications. OpenRefine is also available on Zenodo with the [DOI-10.5281](https://zenodo.org/records/18868465) if you intend to cite it. The table below tracks the number of citations per year based on searches for the following terms on Google Scholar:
 * [Google Refine](https://scholar.google.ca/scholar?hl=en&as_sdt=0%2C5&as_ylo=2023&as_yhi=2023&q=%22Google+Refine%22+-openrefine&btnG=)
 * [Open Refine](https://scholar.google.ca/scholar?hl=en&as_sdt=0%2C5&as_ylo=2023&as_yhi=2023&q=%22Open+Refine%22+-openrefine&btnG=)
 * [OpenRefine](https://scholar.google.ca/scholar?hl=en&as_sdt=0%2C5&as_ylo=2023&as_yhi=2023&q=%22OpenRefine%22&btnG=)
@@ -43,7 +43,7 @@ OpenRefine is used by many academics in their research and cited in their public
 %%{init: {'theme':'forest'}}%%
 xychart-beta
     title "Number of academic citations of OpenRefine per years"
-    x-axis [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026*]
+    x-axis [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, "2026*"]
     y-axis "Count of citation" 0 --> 1200
     bar [4, 67, 162, 251, 356, 424, 477, 502, 584, 571, 586, 727, 861, 893, 975, 1155, 511]
 ```
@@ -72,13 +72,13 @@ The following graphic represents the average number of active contributors to th
 ```mermaid 
 %%{init: {'theme':'forest'}}%%
 xychart-beta 
-    x-axis   [10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26*]
+    x-axis   [10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,"26*"]
     y-axis "Average number of GitHub contributors per month" 0 --> 22
     line [3,2,2,2,3,3,1,6,12,7,18,15,15,10,10,10,7]
 ```
 (*) 2026 data are up to July 16, 2026.
-[^1]: From [this page](https://forum.openrefine.org/admin/reports/new_contributors?end_date=2026-07-16&mode=table&start_date=2025-07-16) with discourse admin priviledge
+[^1]: From [this page](https://forum.openrefine.org/admin/reports/new_contributors?end_date=2026-07-16&mode=table&start_date=2025-07-16) with discourse admin privilege
 [^2]: See the count of users on [this page](https://forum.openrefine.org/u?order=likes_received&period=all)
-[^3]: From [this page](https://forum.openrefine.org/admin/reports/topics?start_date=2025-07-16&end_date=2026-07-16&mode=table) with discourse admin priviledge
-[^4]: From [this page](https://forum.openrefine.org/admin/reports/posts?start_date=2025-07-16&end_date=2026-07-16&mode=table) with discourse admin priviledge
+[^3]: From [this page](https://forum.openrefine.org/admin/reports/topics?start_date=2025-07-16&end_date=2026-07-16&mode=table) with discourse admin privilege
+[^4]: From [this page](https://forum.openrefine.org/admin/reports/posts?start_date=2025-07-16&end_date=2026-07-16&mode=table) with discourse admin privilege
 [^5]: We are counting the number of contributor using the following command `git log --all --pretty="%an" | sort | uniq | wc -l`
