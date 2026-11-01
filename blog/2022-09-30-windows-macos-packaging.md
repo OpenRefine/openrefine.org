@@ -1,7 +1,7 @@
 ---
 authors:
   - name: Antonin Delpeuch
-title: "Looking for help with Windows and MacOS packaging"
+title: "[Closed] Looking for help with Windows and MacOS packaging"
 slug: 2022/09/30/windows-macos-packaging
 ---
 
@@ -12,17 +12,19 @@ After a similar effort on Ubuntu/Debian packaging, this initiative is meant to i
 This project is funded by an [EOSS Diversity and Inclusion grant](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b) from [CZI](https://chanzuckerberg.com/).
 
 We are hoping that those proposals could solve some of the following issues:
-* (MacOS) [Provide an Applications shortcut in the DMG distribution, with a suitable background (#5205)](https://github.com/OpenRefine/OpenRefine/issues/5205)
-* (MacOS) [Sign and notarize our DMG distribution (#2191)](https://github.com/OpenRefine/OpenRefine/issues/2191)
-* (Windows) [Offer a proper installer / uninstaller on Windows (#3224)](https://github.com/OpenRefine/OpenRefine/issues/3224)
+* (MacOS) [Provide an Applications shortcut in the DMG distribution, with a suitable background (#5205)](https://github.com/OpenRefine/OpenRefine/issues/5205) **[Closed]**
+* (MacOS) [Sign and notarize our DMG distribution (#2191)](https://github.com/OpenRefine/OpenRefine/issues/2191) **[Closed]**
+* (Windows) [Offer a proper installer / uninstaller on Windows (#3224)](https://github.com/OpenRefine/OpenRefine/issues/3224) **[Closed]**
 * (Windows) [Give an easier way to start and stop OpenRefine with a system tray integration and log viewer (#3221)](https://github.com/OpenRefine/OpenRefine/issues/3221)
 * (Windows) [Configuration for OpenRefine on Windows should use only 1 config file (.ini) (#3057)](https://github.com/OpenRefine/OpenRefine/issues/3057)
 * (Windows) [Sign openrefine.exe to eliminate extra security warnings (#3003)](https://github.com/OpenRefine/OpenRefine/issues/3003)
 
 All new packaging steps should be integrated in our Continuous Deployment infrastructure (currently running on GitHub Actions), if not in our Maven packaging configuration itself.
 
-We have funding to contract out this work to freelancers.
-To respond to this opportunity, please send the following to advisory.committee@openrefine.org:
+**Update:** this call for paid proposals is now closed. If you are open to contributing to the remaining open issues above without pay, please reach out on the [forum](https://forum.openrefine.org/) or directly on the relevant GitHub issue.
+
+~We have funding to contract out this work to freelancers.
+To respond to this opportunity, please send the following to advisory.committee@openrefine.org:~
 * a short description of the changes you propose to introduce and how they relate to the issues above
 * your price for this work
 * any pointers to some related work in other projects (or anything that can help us assess your ability to carry out the proposed work)
