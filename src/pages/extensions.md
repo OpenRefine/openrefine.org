@@ -10,6 +10,7 @@ You can install the following extensions to add functionalities to OpenRefine. W
 
 | Extension Name | Description | Authors | Latest compatible version |
 |--------------|-------------|----------|----------|
+| [ISTEX TDM Web Services](https://github.com/Inist-CNRS/istex-ws-extension) | Applies [ISTEX text and data mining web services](https://services.istex.fr/) to a column of text and stores the results in a new column. | [Inist-CNRS](https://github.com/Inist-CNRS) | 3.9+ |
 | [Geocoding Extension](https://gitlab.com/geometalab/openrefine-geocoding-extension/) | Geocodes unformatted addresses to coordinates (Latitude/Longitude) and provides confidence scores using Photon, Nominatim, and Swisstopo APIs. | [Tihan Morrol / IFS](https://gitlab.com/TihanMo) | 3.10+ |
 | [AI Extension](https://github.com/sunilnatraj/llm-extension) | The OpenRefine AI Extension bridges the power of modern language models with OpenRefine's robust data transformation capabilities. | [Sunil Natraj](https://github.com/sunilnatraj) | 3.8.7+ |
 | [Files Extension](https://github.com/OpenRefine/FilesExtension) | Tool to create project with detailed information of files from local system | [Sunil Natraj](https://github.com/sunilnatraj) | 3.8.7+ |
