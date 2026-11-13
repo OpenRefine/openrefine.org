@@ -61,7 +61,8 @@ module.exports = {
             'technical-reference/extension-dev-guidelines',
             'technical-reference/writing-extensions',
             'technical-reference/migrating-older-extensions',
-            'technical-reference/wikibase/architecture'
+            'technical-reference/wikibase/architecture',
+            'technical-reference/wikibase/schema-format'
             ]
         },
         {
