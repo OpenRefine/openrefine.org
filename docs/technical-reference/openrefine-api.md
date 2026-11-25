@@ -4,9 +4,9 @@ title: OpenRefine API
 sidebar_label: OpenRefine API
 ---
 
-This is a generic API reference for interacting with OpenRefine's HTTP API.
+This reference describes the HTTP commands that OpenRefine's web interface uses to communicate with its server.
 
-**NOTE:** This protocol is subject to change without warning at any time (and has in the past) and is not versioned. Use at your own risk!
+**Compatibility:** These commands are intended for internal use. OpenRefine does not support external integrations that rely on this unversioned protocol. Commands can change without notice between releases.
 
 For OpenRefine 3.3 and later, all POST requests need to include a CSRF token as described [in the release notes](https://github.com/OpenRefine/OpenRefine/wiki/Changes-for-3.3#csrf-protection-changes)
 
