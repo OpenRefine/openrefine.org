@@ -1,0 +1,294 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openrefine.org/schemas/wikibase-schema.json",
+  "title": "OpenRefine Wikibase schema",
+  "description": "A Wikibase schema, as imported and exported by the Wikibase extension of OpenRefine. It describes how the rows of an OpenRefine project are turned into edits on a Wikibase instance.",
+  "type": "object",
+  "properties": {
+    "siteIri": {
+      "description": "Concept URI prefix of the Wikibase instance, for instance http://www.wikidata.org/entity/",
+      "type": "string"
+    },
+    "entityTypeSiteIRI": {
+      "description": "Concept URI prefixes of the Wikibase instance, for each entity type that does not use the main one (for instance mediainfo).",
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "mediaWikiApiEndpoint": {
+      "description": "URL of the MediaWiki API of the Wikibase instance. Defaults to the Wikidata API if omitted.",
+      "type": "string"
+    },
+    "entityEdits": {
+      "description": "The entities edited by the schema. One edit is generated for each of these expressions, for every row of the project.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/entityEdit" }
+    },
+    "itemDocuments": {
+      "description": "Legacy name for entityEdits, only accepted when reading schemas created by old versions of OpenRefine. All its entries are item edits.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/itemEdit" },
+      "deprecated": true
+    }
+  },
+  "$defs": {
+    "entityEdit": {
+      "oneOf": [
+        { "$ref": "#/$defs/itemEdit" },
+        { "$ref": "#/$defs/mediaInfoEdit" }
+      ]
+    },
+    "itemEdit": {
+      "type": "object",
+      "properties": {
+        "type": { "const": "wbitemeditexpr" },
+        "subject": { "$ref": "#/$defs/entityExpr" },
+        "nameDescs": { "type": "array", "items": { "$ref": "#/$defs/nameDesc" } },
+        "statementGroups": { "type": "array", "items": { "$ref": "#/$defs/statementGroup" } }
+      },
+      "required": ["subject"]
+    },
+    "mediaInfoEdit": {
+      "type": "object",
+      "properties": {
+        "type": { "const": "wbmediainfoeditexpr" },
+        "subject": { "$ref": "#/$defs/entityExpr" },
+        "nameDescs": {
+          "description": "Only labels are supported on MediaInfo entities.",
+          "type": "array",
+          "items": { "$ref": "#/$defs/nameDesc" }
+        },
+        "statementGroups": { "type": "array", "items": { "$ref": "#/$defs/statementGroup" } },
+        "filePath": { "oneOf": [{ "$ref": "#/$defs/stringExpr" }, { "type": "null" }] },
+        "fileName": { "oneOf": [{ "$ref": "#/$defs/stringExpr" }, { "type": "null" }] },
+        "wikitext": { "oneOf": [{ "$ref": "#/$defs/stringExpr" }, { "type": "null" }] },
+        "overrideWikitext": { "type": "boolean", "default": false }
+      },
+      "required": ["type", "subject"]
+    },
+    "nameDesc": {
+      "type": "object",
+      "properties": {
+        "name_type": {
+          "enum": ["LABEL", "LABEL_IF_NEW", "DESCRIPTION", "DESCRIPTION_IF_NEW", "ALIAS"]
+        },
+        "value": { "$ref": "#/$defs/monolingualExpr" }
+      },
+      "required": ["name_type", "value"]
+    },
+    "statementGroup": {
+      "type": "object",
+      "properties": {
+        "property": { "$ref": "#/$defs/propertyExpr" },
+        "statements": { "type": "array", "items": { "$ref": "#/$defs/statement" } }
+      },
+      "required": ["property", "statements"]
+    },
+    "statement": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "description": "The main value of the statement. It can only be omitted when deleting statements with the property-only merging strategy.",
+          "$ref": "#/$defs/valueExpr"
+        },
+        "qualifiers": { "type": "array", "items": { "$ref": "#/$defs/snak" } },
+        "references": { "type": "array", "items": { "$ref": "#/$defs/reference" } },
+        "mergingStrategy": { "$ref": "#/$defs/mergingStrategy" },
+        "mode": { "enum": ["add", "add_or_merge", "delete"], "default": "add_or_merge" }
+      }
+    },
+    "reference": {
+      "type": "object",
+      "properties": {
+        "snaks": { "type": "array", "items": { "$ref": "#/$defs/snak" } }
+      },
+      "required": ["snaks"]
+    },
+    "snak": {
+      "type": "object",
+      "properties": {
+        "prop": { "$ref": "#/$defs/propertyExpr" },
+        "value": { "$ref": "#/$defs/valueExpr" }
+      },
+      "required": ["prop", "value"]
+    },
+    "mergingStrategy": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "type": { "const": "snak" },
+            "valueMatcher": { "$ref": "#/$defs/valueMatcher" }
+          },
+          "required": ["type"]
+        },
+        {
+          "type": "object",
+          "properties": { "type": { "const": "property" } },
+          "required": ["type"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": { "const": "qualifiers" },
+            "valueMatcher": { "$ref": "#/$defs/valueMatcher" },
+            "pids": { "type": "array", "items": { "type": "string", "pattern": "^P[1-9][0-9]*$" } }
+          },
+          "required": ["type"]
+        }
+      ]
+    },
+    "valueMatcher": {
+      "type": "object",
+      "properties": { "type": { "enum": ["strict", "lax"] } },
+      "required": ["type"]
+    },
+    "columnName": {
+      "description": "Name of the OpenRefine column from which the value is read.",
+      "type": "string"
+    },
+    "stringExpr": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": { "type": { "const": "wbstringconstant" }, "value": { "type": "string" } },
+          "required": ["type", "value"]
+        },
+        {
+          "type": "object",
+          "properties": { "type": { "const": "wbstringvariable" }, "columnName": { "$ref": "#/$defs/columnName" } },
+          "required": ["type", "columnName"]
+        }
+      ]
+    },
+    "itemExpr": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "type": { "const": "wbitemconstant" },
+            "qid": { "type": "string", "pattern": "^Q[1-9][0-9]*$" },
+            "label": { "type": "string" }
+          },
+          "required": ["type", "qid"]
+        },
+        {
+          "type": "object",
+          "properties": { "type": { "const": "wbitemvariable" }, "columnName": { "$ref": "#/$defs/columnName" } },
+          "required": ["type", "columnName"]
+        }
+      ]
+    },
+    "entityExpr": {
+      "description": "An expression returning an entity identifier, used as the subject of an edit.",
+      "oneOf": [
+        { "$ref": "#/$defs/itemExpr" },
+        {
+          "type": "object",
+          "properties": { "type": { "const": "wbentityvariable" }, "columnName": { "$ref": "#/$defs/columnName" } },
+          "required": ["type", "columnName"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": { "const": "wbentityidvalueconstant" },
+            "id": { "type": "string" },
+            "label": { "type": "string" }
+          },
+          "required": ["type", "id"]
+        }
+      ]
+    },
+    "propertyExpr": {
+      "type": "object",
+      "properties": {
+        "type": { "const": "wbpropconstant" },
+        "pid": { "type": "string", "pattern": "^P[1-9][0-9]*$" },
+        "label": { "type": "string" },
+        "datatype": {
+          "description": "Wikibase datatype of the property, such as wikibase-item, string, time or quantity.",
+          "type": "string"
+        }
+      },
+      "required": ["type", "pid"]
+    },
+    "languageExpr": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "type": { "const": "wblanguageconstant" },
+            "id": { "type": "string" },
+            "label": { "type": "string" }
+          },
+          "required": ["type", "id"]
+        },
+        {
+          "type": "object",
+          "properties": { "type": { "const": "wblanguagevariable" }, "columnName": { "$ref": "#/$defs/columnName" } },
+          "required": ["type", "columnName"]
+        }
+      ]
+    },
+    "monolingualExpr": {
+      "type": "object",
+      "properties": {
+        "type": { "const": "wbmonolingualexpr" },
+        "language": { "$ref": "#/$defs/languageExpr" },
+        "value": { "$ref": "#/$defs/stringExpr" }
+      },
+      "required": ["type", "language", "value"]
+    },
+    "quantityExpr": {
+      "type": "object",
+      "properties": {
+        "type": { "const": "wbquantityexpr" },
+        "amount": { "$ref": "#/$defs/stringExpr" },
+        "unit": { "oneOf": [{ "$ref": "#/$defs/itemExpr" }, { "type": "null" }] }
+      },
+      "required": ["type", "amount"]
+    },
+    "valueExpr": {
+      "description": "An expression returning the value of a snak.",
+      "oneOf": [
+        { "$ref": "#/$defs/stringExpr" },
+        { "$ref": "#/$defs/itemExpr" },
+        {
+          "type": "object",
+          "properties": { "type": { "const": "wbentityvariable" }, "columnName": { "$ref": "#/$defs/columnName" } },
+          "required": ["type", "columnName"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": { "const": "wbentityidvalueconstant" },
+            "id": { "type": "string" },
+            "label": { "type": "string" }
+          },
+          "required": ["type", "id"]
+        },
+        {
+          "type": "object",
+          "properties": { "type": { "const": "wbdateconstant" }, "value": { "type": "string" } },
+          "required": ["type", "value"]
+        },
+        {
+          "type": "object",
+          "properties": { "type": { "const": "wbdatevariable" }, "columnName": { "$ref": "#/$defs/columnName" } },
+          "required": ["type", "columnName"]
+        },
+        {
+          "type": "object",
+          "properties": { "type": { "const": "wblocationconstant" }, "value": { "type": "string" } },
+          "required": ["type", "value"]
+        },
+        {
+          "type": "object",
+          "properties": { "type": { "const": "wblocationvariable" }, "columnName": { "$ref": "#/$defs/columnName" } },
+          "required": ["type", "columnName"]
+        },
+        { "$ref": "#/$defs/monolingualExpr" },
+        { "$ref": "#/$defs/quantityExpr" }
+      ]
+    }
+  }
+}
