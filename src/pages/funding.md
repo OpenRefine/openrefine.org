@@ -6,20 +6,33 @@ hide_table_of_contents: false
 
 # Project Funding Overview
 
-OpenRefine relies on a combination of volunteer contributions and financial support to sustain its development. This diversified funding keeps our core team in place, supports essential infrastructure, and enables strategic community outreach.
+OpenRefine relies on a combination of volunteer contributions and financial support to sustain its development. This diversified funding pays for project staffing, supports essential infrastructure, and enables strategic community outreach.
+
+**Want to help?**
+
+- [Donate to OpenRefine](#ways-to-give)
+- [Include OpenRefine in your grant proposal](#including-openrefine-in-your-grant)
+- [See our grant history](#grants)
 
 ## Operating Budget
 
-We are seeking your support to fund OpenRefine's core team, a small group of part-time staff who maintain the project's infrastructure, respond to community needs, review and guide volunteer contributors, handle security reports, and steward the ecosystem of extensions and reconciliation services. 
+**As of November 1, 2026, OpenRefine has no paid staff.** The project continues to run thanks to its volunteer contributors and its Advisory Committee, but without funding, work such as responding to community needs, reviewing and guiding contributors, handling security reports, and stewarding the ecosystem of extensions and reconciliation services depends entirely on volunteer time.
+
+We are seeking your support to **rehire a part-time Managing Director**, who would coordinate this work and keep the project's infrastructure running. Every contribution to the operating budget brings that position back.
 
 Our annual operating budget is **US$50,000**, covering:
-* US $2,500 per month for project coordination
-* US $20,000 per year for community support including event organization and essential software licenses (Figma and Discourse)
-* 15% of donations to our fiscal sponsor, Code for Science and Society, to handle administration and compliance
+
+| Item | Amount |
+|---|---|
+| Managing Director (project coordination) | US$2,500 per month |
+| Community support, including event organization and essential software licenses (Figma and Discourse) | US$20,000 per year |
+| Administration and compliance, paid to our fiscal sponsor, Code for Science & Society | 15% of donations |
 
 Additional funding enables us to organize community events, conduct outreach efforts, and undertake special projects. OpenRefine maintains a [curated list of goalposts](/docs/technical-reference/development-roadmap) based on the interests and priorities of our community. We are currently seeking resources to achieve them. You can help by forming partnerships between your organization and OpenRefine or providing financial support.
 
-## Individual and corporate donations
+## Ways to give
+
+### Individual and corporate donations
 
 OpenRefine is a fiscally sponsored project of [Code for Science & Society](https://www.codeforsociety.org/), a 501(c)(3) charitable organization in the USA. Donations are tax-deductible to the extent allowed by US law (Tax ID: 81-3791683).
 
@@ -29,7 +42,43 @@ OpenRefine is a fiscally sponsored project of [Code for Science & Society](https
 - [Online form](/donate) for Credit Card, PayPal, and Bank Transfer (up to USD 25,000)
 - Via Code for Science & Society from [their donation page](https://www.codeforsociety.org/donate) for larger donations.
 
-We would like to thanks our [current donors](/backers).
+We would like to thank our [current donors](/backers).
+
+### Including OpenRefine in your grant
+
+If your project depends on OpenRefine, or would benefit from improvements to it, you can write OpenRefine into your grant proposal. Funders increasingly like to see budget lines for the open source tools a project relies on, and it helps keep those tools sustainable.
+
+#### Ways to include OpenRefine
+
+- **Fund a feature or improvement.** Pay for development of a specific capability your project needs, such as a new reconciliation workflow, an importer, or an extension improvement. Features built this way are released openly for everyone.
+- **Fund the Managing Director and community support.** Help pay for the coordination that handles security reports, reviews contributions, and keeps infrastructure running.
+- **Fund training and documentation.** Include workshops, train-the-trainer programs, or documentation for your community or field.
+- **Name OpenRefine as a partner.** We can provide a letter of support describing our role (see below).
+
+#### Before you submit
+
+1. **Talk to us early.** Post on [our forum](https://forum.openrefine.org/) as soon as you start planning, ideally several weeks before your deadline, so we can check scope, timeline, and budget with you.
+2. **Agree on scope.** We'll help you describe deliverables that the OpenRefine community can realistically complete.
+3. **Budget with our fiscal sponsor.** Funds go through Code for Science & Society (CS&S), a 501(c)(3) (Tax ID: 81-3791683), which handles contracts, invoicing, and compliance. CS&S charges an administration fee, currently 15% of donations. Please confirm the rate that applies to your grant and include it in your budget.
+4. **Check your funder's rules** on subawards, subcontracts, and indirect costs. CS&S can help with the paperwork.
+
+#### Letter of support
+
+To request a letter of support, email the OpenRefine Advisory Committee at [advisory.committee@openrefine.org](mailto:advisory.committee@openrefine.org). Please include your funder, your deadline, a short description of your project, and how you plan to involve OpenRefine.
+
+#### Citing OpenRefine
+
+OpenRefine releases are archived on Zenodo. To cite OpenRefine in a proposal or publication, you can use the DOI that represents all versions and always resolves to the latest release: [10.5281/zenodo.595996](https://doi.org/10.5281/zenodo.595996). If you need to cite the exact version you use, each release also has its own DOI, listed on [Zenodo](https://doi.org/10.5281/zenodo.595996), along with ready-made citation formats.
+
+#### Suggested text for your proposal
+
+> OpenRefine is a free, open source tool for exploring, cleaning, and reconciling messy data, used by researchers, librarians, journalists, and archivists worldwide. It is developed by a community of volunteers, overseen by an Advisory Committee, and fiscally sponsored by Code for Science & Society, a 501(c)(3) nonprofit. Our project will [fund development of / rely on / train users in] OpenRefine to [describe your goal]. Work will be coordinated with the OpenRefine project and released under the project's open source license, so that the benefits are available to all users.
+
+**Budget line example:** "OpenRefine development and community support: $[amount], paid to Code for Science & Society (fiscal sponsor of OpenRefine)."
+
+#### Learn from past grants
+
+See our [grant history](#grants) for examples of how past funders structured their awards, including linked applications and final reports.
 
 ## Grants
 
@@ -43,7 +92,7 @@ No open application.
 
 ### Active Grants
 
-OpenRefine is not currently working any grants. 
+OpenRefine is not currently working on any grants. 
 
 ### Completed Grants
 
@@ -53,7 +102,7 @@ OpenRefine completed the following grants.
 * **CS&S code**: `10016 ORefine: 22 SVCF 2022-252591`
 * **Status**: Awarded - Completed
 * **Amount**: USD 310,100 (USD 155,050 per year for two years)
-* **Source**: [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
+* **Source**: [Chan Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
 * **Start date**: January 2023
 * **End date**: December 2025 (extended from October 2024)
 * **Relevant links**: 
@@ -81,12 +130,12 @@ OpenRefine completed the following grants.
 * **CS&S code**: `ORefine: 21 SVCF - 2021-237149 OR for Everyone`
 * **Status**: Awarded - Completed
 * **Amount**: USD 240,000 (USD 120,000 per year for two years)
-* **Source**: [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
+* **Source**: [Chan Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
 * **Start Date**: September 2021
 * **End Date**: December 2024 (extended from August 2023)
 * **Relevant link**: 
   * [Grant application](/uploads/2021-EOSS-Diversity.pdf)
-  * [2023 interm report](/uploads/2023-EOSS-Diversity-Interim-Report.pdf)
+  * [2023 interim report](/uploads/2023-EOSS-Diversity-Interim-Report.pdf)
   * [2024 final report](/uploads/2024-EOSS-Diversity-Final-Report.pdf)
 
 #### 2023 NFDI
@@ -124,7 +173,7 @@ OpenRefine completed the following grants.
 #### 2019 EOSS-1
 * **Status**: Awarded - Completed
 * **Amount**: USD 200,000
-* **Source**: [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
+* **Source**: [Chan Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
 * **Start date**: December 2019
 * **End date**: November 2020
 * **Relevant links**: 
@@ -220,7 +269,7 @@ We applied for the following grant opportunities, but our proposals were not sel
 * **Amount**: up to GBP 500,000 available in partnership with other organizations.
 * **Source**: [Research Software Maintenance Fund](https://www.software.ac.uk/programmes/research-software-maintenance-fund)
 * **Start date**: January 2026
-* **End date**: Februay 2028
+* **End date**: February 2028
 * **Relevant links**: 
   * [Expression of Interest](/uploads/2025-Research-Software-Maintenance-Fund-EOI.pdf) 
   * [Forum thread](https://forum.openrefine.org/t/funding-opportunity-seeking-ukri-eligible-partner-for-research-software-maintenance-fund-application/2233)
@@ -251,7 +300,7 @@ We applied for the following grant opportunities, but our proposals were not sel
 
 * **Status**: Not Awarded
 * **Amount**: asking for USD 400,000 (USD 200,000 per year for two years)
-* **Source**: [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
+* **Source**: [Chan Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
 * **Start date**: June 2024
 * **End date**: June 2026
 * **Relevant links**: 
@@ -271,7 +320,7 @@ We applied for the following grant opportunities, but our proposals were not sel
 #### 2021 EOSS-4
 * **Status**: Not Awarded
 * **Amount**: USD 400,000 (USD 200,000 per year)
-* **Source**: [Chan-Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
+* **Source**: [Chan Zuckerberg Initiative](https://chanzuckerberg.com/grants-ventures/grants/)
 * **Relevant links**: 
   * [Letter of intent](/uploads/2021-EOSS4-LOI.pdf)
   * [Grant application](/uploads/2021-EOSS4.pdf)
