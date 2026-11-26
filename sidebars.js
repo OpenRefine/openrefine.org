@@ -36,6 +36,7 @@ module.exports = {
     'technical-reference/github',
     'technical-reference/translating-ui',
     'technical-reference/documentation-contributions',
+    'technical-reference/user-support-contributions',
     {
     type: 'category',
     label: 'Contributing as a developer',
