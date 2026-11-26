@@ -23,7 +23,7 @@ import Card from '../card.tsx';
   <Card href="https://hosted.weblate.org/engage/openrefine/" title="Translator" description="to translate OpenRefine interface in your language via Weblate." />
 </div>
 <div className="cardList">
-  <Card href="https://forum.openrefine.org/c/support/12" title="OpenRefine expert" description="by answering OpenRefine-related questions in your community preferred channels (Slack, Telegram, or other form of discussion list), by monitoring social media or our forum. Help us by turn recurring bug report and feature requests and bug reports GitHub issues" />
+  <Card href="/docs/technical-reference/user-support-contributions" title="OpenRefine expert" description="by answering questions, testing reported problems, and helping make bug reports clear and actionable" />
   <Card title="Advocate & Trainer" description="by introducing OpenRefine to your community and by providing customed training based on your community workflow and dataset" />
 </div>
 <br />
