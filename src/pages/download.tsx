@@ -15,7 +15,7 @@ import {releases, platformDetails, platformOrder, getArtifact} from '../releases
 
 function selectBestPlatform() {
     if (navigator.platform.indexOf("Win") != -1)
-        return 'win-with-java';
+        return 'win-with-java-installer';
     if (navigator.platform.indexOf("Mac") != -1)
         return 'mac';
     if (navigator.platform.indexOf("X11") != -1)
@@ -23,7 +23,7 @@ function selectBestPlatform() {
     if (navigator.platform.indexOf("Linux") != -1)
         return 'linux';
     // by default, assume Windows
-    return 'win-with-java';
+    return 'win-with-java-installer';
 }
 
 function getDownloadLink(release, platform) {
